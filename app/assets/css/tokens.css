@@ -1,0 +1,113 @@
+:root {
+  /* Layer 1: Primitives */
+  --color-paper-50: #FAF7F0;
+  --color-surface-0: #FFFFFF;
+  --color-sand-100: #F5F0E6;
+  --color-sand-200: #F2ECE1;
+  --color-sand-300: #E6DFD3;
+  --color-stone-300: #D6CEC0;
+  --color-stone-600: #766F64;
+  --color-ink-700: #4A545E;
+  --color-ink-900: #172330;
+
+  --color-teal-50: #E3F4F0;
+  --color-teal-700: #0F6A5B;
+  --color-teal-800: #0B5347;
+  --color-teal-900: #084037;
+
+  --color-atlas-50: #E8F0FA;
+  --color-atlas-700: #1E4D8C;
+  --color-atlas-800: #163B6E;
+
+  --color-gold-50: #FEF6E4;
+  --color-gold-400: #F2B632;
+  --color-gold-500: #E0A31D;
+  --color-gold-600: #CC9010;
+  --color-gold-800: #824D00;
+
+  --color-green-50: #E7F7EF;
+  --color-green-700: #146C43;
+  --color-brick-50: #FDF0EE;
+  --color-brick-700: #B43625;
+
+  /* Layer 2: Semantic Tokens */
+  --bg-canvas: var(--color-paper-50);
+  --bg-surface: var(--color-surface-0);
+  --bg-surface-hover: var(--color-sand-100);
+  --bg-surface-subtle: var(--color-sand-200);
+  --bg-disabled: var(--color-sand-300);
+
+  --text-primary: var(--color-ink-900);
+  --text-secondary: var(--color-ink-700);
+  --text-on-brand: var(--color-surface-0);
+  --text-on-accent: var(--color-ink-900);
+
+  --border-subtle: var(--color-stone-300);
+  --border-control: var(--color-stone-600);
+  --border-strong: var(--color-ink-900);
+
+  --action-primary: var(--color-teal-700);
+  --action-primary-hover: var(--color-teal-800);
+  --action-primary-active: var(--color-teal-900);
+  --action-primary-tint: var(--color-teal-50);
+
+  --action-atlas: var(--color-atlas-700);
+  --action-atlas-hover: var(--color-atlas-800);
+  --action-atlas-tint: var(--color-atlas-50);
+
+  --action-accent: var(--color-gold-400);
+  --action-accent-hover: var(--color-gold-500);
+  --action-accent-active: var(--color-gold-600);
+  --action-accent-border: var(--color-gold-800);
+
+  --focus-ring: var(--color-atlas-700);
+
+  --feedback-correct-bg: var(--color-green-50);
+  --feedback-correct-fg: var(--color-green-700);
+  --feedback-review-bg: var(--color-brick-50);
+  --feedback-review-fg: var(--color-brick-700);
+  --feedback-hint-bg: var(--color-gold-50);
+  --feedback-hint-fg: var(--color-gold-800);
+
+  /* Typography */
+  --font-display: 'Bricolage Grotesque', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --text-display: clamp(1.75rem, 1.35rem + 1.8vw, 2.5rem);
+  --text-h1: clamp(1.5rem, 1.25rem + 1.1vw, 2rem);
+  --text-h2: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --text-h3: clamp(1.0625rem, 1rem + 0.3vw, 1.1875rem);
+  --text-quiz-prompt: clamp(1.125rem, 1.02rem + 0.5vw, 1.375rem);
+  --text-body: 1rem;
+  --text-ui: 0.9375rem;
+  --text-caption: 0.875rem;
+
+  /* Spacing (4px base) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-pill: 9999px;
+
+  /* Layer 3: Component Tokens */
+  --touch-target-min: 44px;
+  --quiz-option-min-height: 52px;
+  --floating-nav-clearance-mobile: 108px;
+  --floating-nav-clearance-desktop: 116px;
+
+  /* Motion */
+  --motion-fast: 120ms ease-out;
+  --motion-medium: 220ms ease-out;
+  --motion-progress: 260ms ease-out;
+}
