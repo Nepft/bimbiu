@@ -96,13 +96,26 @@ export const progressService = {
     const store = loadContentStore()
     const [progressRows, recentAttempts] = await Promise.all([
       learningRepository.getLessonProgressByUser(userId),
-      learningRepository.getRecentCompletedAttempts(userId, 8),
+      learningRepository.getRecentCompletedAttempts(userId, 12),
     ])
 
+    const categoriesById = new Map(store.categories.map(c => [c.id, c]))
     const progressByLesson = new Map(progressRows.map(row => [row.lessonId, row]))
     const completedRows = progressRows.filter(
       row => row.status === 'completed' || row.status === 'mastered',
     )
+    const masteredRows = progressRows.filter(row => row.status === 'mastered')
+
+    const inProgressAttempts = recentAttempts.filter(a => a.status === 'in_progress')
+    const inProgressLessonIds = new Set(
+      inProgressAttempts
+        .map(a => a.lessonId)
+        .filter((id) => {
+          const p = progressByLesson.get(id)
+          return !p || (p.status !== 'completed' && p.status !== 'mastered')
+        }),
+    )
+
     const averageScore =
       completedRows.length > 0
         ? Math.round(
@@ -110,43 +123,82 @@ export const progressService = {
           )
         : 0
 
-    const categories = store.categories.map((cat) => {
-      const catLessons = store.lessons.filter(l => l.categoryId === cat.id)
-      const completedCount = catLessons.filter((l) => {
-        const p = progressByLesson.get(l.id)
-        return p && (p.status === 'completed' || p.status === 'mastered')
-      }).length
+    const lessonProgress: Array<{
+      id: string
+      icon: string
+      title: string
+      categoryTitle: string
+      attemptsCount: number
+      statusLabel: string
+      scoreLabel: string
+      active: boolean
+    }> = []
 
-      return {
-        id: cat.id,
-        title: cat.title,
-        icon: CATEGORY_ICON_MAP[cat.id] ?? 'cat-science',
-        totalLessons: catLessons.length,
-        completedLessons: completedCount,
-        progressPercent:
-          catLessons.length > 0 ? Math.round((completedCount / catLessons.length) * 100) : 0,
-      }
-    })
+    for (const lessonId of inProgressLessonIds) {
+      const lesson = store.lessonsById.get(lessonId)
+      if (!lesson) continue
+      const cat = categoriesById.get(lesson.categoryId)
+      lessonProgress.push({
+        id: lesson.id,
+        icon: CATEGORY_ICON_MAP[lesson.categoryId] ?? 'cat-science',
+        title: lesson.title,
+        categoryTitle: cat?.title ?? lesson.categoryId,
+        attemptsCount: 1,
+        statusLabel: 'Sedang Dikerjakan',
+        scoreLabel: `${lesson.questions.length} soal`,
+        active: true,
+      })
+    }
+
+    const sortedCompleted = [...completedRows].sort(
+      (a, b) => (b.updatedAt?.getTime() ?? 0) - (a.updatedAt?.getTime() ?? 0),
+    )
+
+    for (const row of sortedCompleted) {
+      const lesson = store.lessonsById.get(row.lessonId)
+      if (!lesson) continue
+      const cat = categoriesById.get(lesson.categoryId)
+      lessonProgress.push({
+        id: lesson.id,
+        icon: CATEGORY_ICON_MAP[lesson.categoryId] ?? 'cat-science',
+        title: lesson.title,
+        categoryTitle: cat?.title ?? lesson.categoryId,
+        attemptsCount: row.attemptsCount,
+        statusLabel: row.status === 'mastered' ? 'Mastered' : 'Selesai',
+        scoreLabel: `Skor terbaik: ${row.bestScore}`,
+        active: false,
+      })
+    }
 
     const recentHistory = recentAttempts
       .filter(a => a.status === 'completed')
       .map((a) => {
         const lesson = store.lessonsById.get(a.lessonId)
+        const score = a.score ?? 0
         return {
           attemptId: a.id,
           lessonId: a.lessonId,
           lessonTitle: lesson?.title ?? a.lessonId,
-          score: a.score ?? 0,
+          score,
+          statusLabel: score >= 80 ? 'Mastered' : 'Selesai',
           xpAwarded: a.xpAwarded,
           completedAt: a.completedAt,
         }
       })
 
+    const notStartedCount = Math.max(
+      0,
+      store.lessons.length - completedRows.length - inProgressLessonIds.size,
+    )
+
     return {
       completedLessonsCount: completedRows.length,
+      masteredLessonsCount: masteredRows.length,
+      inProgressCount: inProgressLessonIds.size,
+      notStartedCount,
       totalLessonsCount: store.lessons.length,
       averageScore,
-      categories,
+      lessonProgress,
       recentHistory,
     }
   },

@@ -6,21 +6,27 @@ useHead({ title: 'Progres Belajar - Bimbiu' })
 
 interface ProgressResponse {
   completedLessonsCount: number
+  masteredLessonsCount: number
+  inProgressCount: number
+  notStartedCount: number
   totalLessonsCount: number
   averageScore: number
-  categories: Array<{
+  lessonProgress: Array<{
     id: string
-    title: string
     icon: string
-    totalLessons: number
-    completedLessons: number
-    progressPercent: number
+    title: string
+    categoryTitle: string
+    attemptsCount: number
+    statusLabel: string
+    scoreLabel: string
+    active: boolean
   }>
   recentHistory: Array<{
     attemptId: string
     lessonId: string
     lessonTitle: string
     score: number
+    statusLabel: string
     xpAwarded: number
     completedAt: string | null
   }>
@@ -28,17 +34,21 @@ interface ProgressResponse {
 
 const { data: progress } = await useFetch<ProgressResponse>('/api/progress')
 
-const hasProgress = computed(() => (progress.value?.completedLessonsCount ?? 0) > 0 || (progress.value?.recentHistory.length ?? 0) > 0)
+const hasProgress = computed(
+  () =>
+    (progress.value?.lessonProgress.length ?? 0) > 0
+    || (progress.value?.recentHistory.length ?? 0) > 0,
+)
 
 const stats = computed(() => {
   const done = progress.value?.completedLessonsCount ?? 0
-  const total = progress.value?.totalLessonsCount ?? 120
-  const avg = progress.value?.averageScore ?? 0
-  const remaining = Math.max(0, total - done)
+  const mastered = progress.value?.masteredLessonsCount ?? 0
+  const inProg = progress.value?.inProgressCount ?? 0
+  const remaining = progress.value?.notStartedCount ?? (progress.value?.totalLessonsCount ?? 120)
 
   return [
-    { label: 'Pelajaran Selesai', icon: 'check-circle' as const, val: `${done} Pelajaran`, note: `dari ${total} pelajaran tersedia` },
-    { label: 'Rata-rata Skor', icon: 'clock' as const, val: `${avg}%`, note: 'Berdasarkan skor terbaik' },
+    { label: 'Pelajaran Selesai', icon: 'check-circle' as const, val: `${done} Pelajaran`, note: `${mastered} sudah Mastered (>=80%)` },
+    { label: 'Sedang Dikerjakan', icon: 'clock' as const, val: `${inProg} Pelajaran`, note: 'Bisa dilanjutkan kapan saja' },
     { label: 'Belum Dimulai', icon: 'book' as const, val: `${remaining} Pelajaran`, note: 'Tersedia di katalog Belajar' },
   ]
 })
@@ -60,7 +70,7 @@ function formatDate(iso: string | null): string {
         Progres Belajarmu
       </h1>
       <p class="progress-page__subtitle">
-        Pantau lesson yang sudah selesai, nilai terbaik, dan riwayat pengerjaanmu.
+        Pantau pelajaran yang sudah selesai, nilai terbaik, dan riwayat pengerjaanmu.
       </p>
     </header>
 
@@ -90,32 +100,41 @@ function formatDate(iso: string | null): string {
 
       <section class="progress-list">
         <h2 class="progress-page__section-title">
-          Progres per Kategori
+          Daftar Progres Pelajaran
         </h2>
         <div class="progress-list__rows">
-          <AppCard v-for="cat in progress?.categories ?? []" :key="cat.id" padding="md" class="progress-row">
+          <AppCard v-for="row in progress?.lessonProgress ?? []" :key="row.id" padding="md" class="progress-row">
             <div class="progress-row__lead">
-              <BimbiuIllustration :name="(cat.icon as IllustrationName)" :size="44" />
+              <BimbiuIllustration :name="(row.icon as IllustrationName)" :size="44" />
               <div class="progress-row__left">
                 <p class="progress-row__meta">
-                  {{ cat.completedLessons }} / {{ cat.totalLessons }} pelajaran selesai
+                  {{ row.categoryTitle }} · {{ row.attemptsCount }} attempt
                 </p>
                 <h3 class="progress-row__title">
-                  {{ cat.title }}
+                  {{ row.title }}
                 </h3>
               </div>
             </div>
             <div class="progress-row__right">
               <div class="progress-row__badges">
-                <StatusBadge :label="`${cat.progressPercent}%`" tone="accent" />
+                <StatusBadge :label="row.statusLabel" tone="accent" />
+                <span class="progress-row__score tabular-nums">{{ row.scoreLabel }}</span>
               </div>
               <AppButton
-                variant="secondary"
-                :to="`/app/learn/${cat.id}`"
+                :variant="row.active ? 'primary' : 'secondary'"
+                :to="`/app/lesson/${row.id}`"
                 class="progress-row__btn-desktop"
               >
-                Lihat Kategori
+                {{ row.active ? 'Lanjutkan Kuis' : 'Ulangi Kuis' }}
               </AppButton>
+              <NuxtLink
+                :to="`/app/lesson/${row.id}`"
+                class="progress-row__btn-mobile"
+                :class="{ 'progress-row__btn-mobile--primary': row.active }"
+                :aria-label="row.active ? `Lanjutkan ${row.title}` : `Ulangi ${row.title}`"
+              >
+                <AppIcon :name="row.active ? 'play' : 'refresh'" :size="18" />
+              </NuxtLink>
             </div>
           </AppCard>
         </div>
@@ -131,7 +150,7 @@ function formatDate(iso: string | null): string {
               {{ formatDate(att.completedAt) }} · {{ att.lessonTitle }}
             </p>
             <div class="history-row__right">
-              <span class="history-row__score tabular-nums">Skor: {{ att.score }} (+{{ att.xpAwarded }} XP)</span>
+              <span class="history-row__score tabular-nums">Skor: {{ att.score }} ({{ att.statusLabel }})</span>
               <NuxtLink :to="`/app/result/${att.attemptId}`" class="history-row__link">
                 Lihat Hasil
               </NuxtLink>
