@@ -4,48 +4,103 @@ import { GENERAL_KNOWLEDGE_CATEGORIES } from '~/utils/learning-catalog'
 definePageMeta({ layout: 'learner' })
 useHead({ title: 'Beranda Learner - Bimbiu' })
 
-// TODO(Tahap 5-6): Ambil data nyata dari /api/progress dan /api/rewards
-const hasActiveAttempt = ref(true)
+const { user } = useAuth()
 
-const summaryMetrics = [
-  { label: 'Level & XP', icon: 'icon-level' as const, value: 'Level 2 · 120 XP', note: '80 XP lagi ke Level 3' },
-  { label: 'Pelajaran Selesai', icon: 'icon-lesson' as const, value: '4 dari 12', note: 'Target awal MVP' },
-  { label: 'Badge Diraih', icon: 'icon-badge' as const, value: '2 Badge', note: 'Lihat di halaman Hadiah' },
-]
+interface CatalogResponse {
+  categories: Array<{
+    id: string
+    title: string
+    description: string
+    unitCount: number
+    lessonCount: number
+    completedLessons: number
+  }>
+  recommendedLesson: {
+    id: string
+    title: string
+    categoryId: string
+    xpReward: number
+    estimatedMinutes: number
+  } | null
+}
+
+interface ProgressResponse {
+  completedLessonsCount: number
+  totalLessonsCount: number
+  averageScore: number
+}
+
+interface RewardsResponse {
+  totalXp: number
+  level: number
+  xpToNextLevel: number
+  earnedBadgesCount: number
+  totalBadgesCount: number
+}
+
+const [{ data: catalog }, { data: progress }, { data: rewards }] = await Promise.all([
+  useFetch<CatalogResponse>('/api/content/catalog'),
+  useFetch<ProgressResponse>('/api/progress'),
+  useFetch<RewardsResponse>('/api/rewards'),
+])
+
+const recommended = computed(() => catalog.value?.recommendedLesson ?? null)
+
+const summaryMetrics = computed(() => {
+  const lvl = rewards.value?.level ?? 1
+  const xp = rewards.value?.totalXp ?? 0
+  const toNext = rewards.value?.xpToNextLevel ?? 100
+  const done = progress.value?.completedLessonsCount ?? 0
+  const total = progress.value?.totalLessonsCount ?? 120
+  const badges = rewards.value?.earnedBadgesCount ?? 0
+
+  return [
+    { label: 'Level & XP', icon: 'icon-level' as const, value: `Level ${lvl} · ${xp} XP`, note: `${toNext} XP lagi ke Level ${lvl + 1}` },
+    { label: 'Pelajaran Selesai', icon: 'icon-lesson' as const, value: `${done} dari ${total}`, note: 'Target belajar Bimbiu' },
+    { label: 'Badge Diraih', icon: 'icon-badge' as const, value: `${badges} Badge`, note: 'Lihat di halaman Hadiah' },
+  ]
+})
+
+const categoryCards = computed(() => {
+  const apiCats = catalog.value?.categories
+  if (!apiCats) return GENERAL_KNOWLEDGE_CATEGORIES
+  return GENERAL_KNOWLEDGE_CATEGORIES.map((uiCat) => {
+    const match = apiCats.find(c => c.id === uiCat.id)
+    if (!match) return uiCat
+    return {
+      ...uiCat,
+      learnerMeta: `${match.completedLessons} / ${match.lessonCount} pelajaran selesai`,
+    }
+  })
+})
 </script>
 
 <template>
   <div class="beranda">
     <header class="beranda__header">
       <h1 class="beranda__title">
-        Halo, Rafi
+        Halo, {{ user?.displayName || 'Petualang' }}
       </h1>
       <p class="beranda__subtitle">
         Lanjutkan kuis yang sedang kamu kerjakan atau pilih topik baru.
       </p>
     </header>
 
-    <AppCard v-if="hasActiveAttempt" variant="tint" padding="lg" class="focus-card">
+    <AppCard v-if="recommended" variant="tint" padding="lg" class="focus-card">
       <div class="focus-card__meta">
-        <StatusBadge label="Sedang Dikerjakan" tone="accent" />
-        <span class="focus-card__unit">Science &amp; Nature · Unit Tata Surya</span>
+        <StatusBadge label="Rekomendasi Belajar" tone="accent" />
+        <span class="focus-card__unit">{{ recommended.categoryId }}</span>
       </div>
       <h2 class="focus-card__title">
-        Mengenal Planet
+        {{ recommended.title }}
       </h2>
-      <div class="focus-card__progress">
-        <p class="focus-card__progress-label tabular-nums">
-          3 dari 6 soal terjawab (50%)
-        </p>
-        <ProgressBar :value="3" :max="6" label="Progres pelajaran Mengenal Planet" />
-      </div>
       <div class="focus-card__actions">
-        <AppButton variant="primary" size="lg" to="/app/lesson/science-planets-01">
-          Lanjutkan Kuis
+        <AppButton variant="primary" size="lg" :to="`/app/lesson/${recommended.id}`">
+          Mulai Kuis
         </AppButton>
         <span class="focus-card__hint">
           <AppIcon name="clock" :size="16" />
-          <span>~5 menit · +20 XP saat selesai pertama</span>
+          <span>~{{ recommended.estimatedMinutes }} menit · +{{ recommended.xpReward }} XP saat selesai pertama</span>
         </span>
       </div>
     </AppCard>
@@ -84,7 +139,7 @@ const summaryMetrics = [
       </div>
       <div class="beranda__grid">
         <CategoryCard
-          v-for="cat in GENERAL_KNOWLEDGE_CATEGORIES"
+          v-for="cat in categoryCards"
           :key="cat.id"
           :category-id="cat.id"
           :title="cat.title"

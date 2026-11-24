@@ -2,98 +2,124 @@
 definePageMeta({ layout: 'learner' })
 useHead({ title: 'Hasil Kuis - Bimbiu' })
 
-// TODO(Tahap 6): Ambil hasil nyata dari GET /api/quiz/attempts/:attemptId/result
-const score = 83
-const isMastered = score >= 80
-const unlockedBadge = ref<string | null>(null)
+const route = useRoute()
+const attemptId = computed(() => String(route.params.attemptId || ''))
 
-const reviews = [
-  {
-    q: '1. Planet terbesar di tata surya adalah?',
-    ok: true,
-    exp: 'Jupiter merupakan planet terbesar di tata surya.',
-  },
-  {
-    q: '6. Planet yang paling dekat dengan Matahari bernama ____.',
-    ok: false,
-    exp: 'Jawaban benar: Merkurius. Merkurius adalah planet pertama dari Matahari.',
-  },
-]
+interface AttemptResultResponse {
+  attempt: {
+    id: string
+    lessonId: string
+    lessonTitle: string
+    categoryId: string
+    totalQuestions: number
+    correctAnswers: number
+    score: number
+    xpAwarded: number
+  }
+  rewards: {
+    totalXp: number
+    level: number
+  }
+  reviewItems: Array<{
+    questionId: string
+    prompt: string
+    isCorrect: boolean
+    explanation: string
+    correctAnswerLabel: string
+  }>
+}
+
+const { data: result, error: resultError } = await useFetch<AttemptResultResponse>(
+  () => `/api/quiz/attempts/${attemptId.value}/result`,
+)
+
+const score = computed(() => result.value?.attempt.score ?? 0)
+const isMastered = computed(() => score.value >= 80)
+const categoryPath = computed(() =>
+  result.value?.attempt.categoryId
+    ? `/app/learn/${result.value.attempt.categoryId}`
+    : '/app/learn',
+)
 </script>
 
 <template>
   <div class="result-page">
-    <NuxtLink to="/app/learn/science-nature" class="result-page__back">
+    <NuxtLink :to="categoryPath" class="result-page__back">
       <AppIcon name="arrow-left" :size="18" />
       <span>Kembali ke Kategori</span>
     </NuxtLink>
 
-    <AppCard variant="tactile" padding="lg" class="result-card">
-      <div class="result-card__meta">
-        <span class="result-card__lesson">Science &amp; Nature · Mengenal Planet</span>
-        <StatusBadge :label="isMastered ? 'Mastered' : 'Pelajaran Selesai'" tone="accent" />
-      </div>
+    <ErrorState
+      v-if="resultError || !result"
+      title="Hasil Kuis Tidak Ditemukan"
+      description="Pastikan kamu membuka hasil kuis yang sudah selesai dikerjakan."
+      action-label="Kembali ke Beranda"
+      action-to="/app"
+    />
 
-      <BimbiuIllustration name="trophy" :size="72" />
+    <template v-else>
+      <AppCard variant="tactile" padding="lg" class="result-card">
+        <div class="result-card__meta">
+          <span class="result-card__lesson">{{ result.attempt.lessonTitle }}</span>
+          <StatusBadge :label="isMastered ? 'Mastered' : 'Pelajaran Selesai'" tone="accent" />
+        </div>
 
-      <h1 class="result-card__score tabular-nums">
-        Skor: {{ score }} (5 dari 6 Benar)
-      </h1>
+        <BimbiuIllustration name="trophy" :size="72" />
 
-      <p class="result-card__msg">
-        Bagus sekali! Kamu sudah menguasai materi ini (&gt;=80%) dan membuka pelajaran berikutnya.
-      </p>
+        <h1 class="result-card__score tabular-nums">
+          Skor: {{ score }} ({{ result.attempt.correctAnswers }} dari {{ result.attempt.totalQuestions }} Benar)
+        </h1>
 
-      <div class="result-xp">
-        <BimbiuIllustration name="icon-xp" :size="24" />
-        <p class="result-xp__text tabular-nums">
-          +20 XP Diperoleh · Total sekarang 140 XP (Level 2)
+        <p class="result-card__msg">
+          {{ isMastered
+            ? 'Bagus sekali! Kamu sudah menguasai materi ini (>=80%) dan membuka pelajaran berikutnya.'
+            : 'Pelajaran selesai! Kamu bisa mengulangi kuis ini kapan saja untuk meraih skor lebih tinggi.' }}
         </p>
-      </div>
 
-      <div v-if="unlockedBadge" class="result-badge-unlock">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <circle cx="12" cy="9" r="6" stroke="currentColor" stroke-width="2" />
-          <path d="M8.5 14.5L7 22l5-3 5 3-1.5-7.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-        </svg>
-        <p class="result-badge-unlock__text">
-          Badge Baru Terbuka: {{ unlockedBadge }}
-        </p>
-      </div>
-
-      <div class="result-card__actions">
-        <AppButton variant="primary" size="lg" to="/app/learn/science-nature">
-          Lanjut Pelajaran Berikutnya
-        </AppButton>
-        <AppButton variant="secondary" size="lg" to="/app/lesson/science-planets-01">
-          Ulangi Pelajaran
-        </AppButton>
-      </div>
-    </AppCard>
-
-    <section class="result-review">
-      <h2 class="result-review__title">
-        Ringkasan Review Jawaban
-      </h2>
-      <div class="result-review__list">
-        <article
-          v-for="item in reviews"
-          :key="item.q"
-          class="review-item"
-          :class="item.ok ? 'review-item--correct' : 'review-item--review'"
-        >
-          <div class="review-item__head">
-            <AppIcon :name="item.ok ? 'check-circle' : 'alert-circle'" :size="18" />
-            <h3 class="review-item__q">
-              {{ item.q }}
-            </h3>
-          </div>
-          <p class="review-item__exp">
-            {{ item.exp }}
+        <div class="result-xp">
+          <BimbiuIllustration name="icon-xp" :size="24" />
+          <p class="result-xp__text tabular-nums">
+            +{{ result.attempt.xpAwarded }} XP Diperoleh · Total sekarang {{ result.rewards.totalXp }} XP (Level {{ result.rewards.level }})
           </p>
-        </article>
-      </div>
-    </section>
+        </div>
+
+        <div class="result-card__actions">
+          <AppButton variant="primary" size="lg" :to="categoryPath">
+            Lanjut Pelajaran Berikutnya
+          </AppButton>
+          <AppButton variant="secondary" size="lg" :to="`/app/lesson/${result.attempt.lessonId}`">
+            Ulangi Pelajaran
+          </AppButton>
+        </div>
+      </AppCard>
+
+      <section class="result-review">
+        <h2 class="result-review__title">
+          Ringkasan Review Jawaban
+        </h2>
+        <div class="result-review__list">
+          <article
+            v-for="(item, idx) in result.reviewItems"
+            :key="item.questionId"
+            class="review-item"
+            :class="item.isCorrect ? 'review-item--correct' : 'review-item--review'"
+          >
+            <div class="review-item__head">
+              <AppIcon :name="item.isCorrect ? 'check-circle' : 'alert-circle'" :size="18" />
+              <h3 class="review-item__q">
+                {{ idx + 1 }}. {{ item.prompt }}
+              </h3>
+            </div>
+            <p class="review-item__exp">
+              <template v-if="!item.isCorrect && item.correctAnswerLabel">
+                Jawaban benar: {{ item.correctAnswerLabel }}.
+              </template>
+              {{ item.explanation }}
+            </p>
+          </article>
+        </div>
+      </section>
+    </template>
   </div>
 </template>
 

@@ -6,7 +6,35 @@ definePageMeta({ layout: 'learner' })
 const route = useRoute()
 const categoryId = computed(() => String(route.params.categoryId || 'science-nature'))
 
+interface CategoryDetailResponse {
+  id: string
+  title: string
+  description: string
+  units: Array<{
+    id: string
+    title: string
+    order: number
+    lessons: Array<{
+      id: string
+      title: string
+      description: string
+      estimatedMinutes: number
+      order: number
+      xpReward: number
+      questionCount: number
+      status: 'locked' | 'not_started' | 'completed' | 'mastered'
+      bestScore: number
+      attemptsCount: number
+    }>
+  }>
+}
+
+const { data: detail } = await useFetch<CategoryDetailResponse>(
+  () => `/api/content/categories/${categoryId.value}`,
+)
+
 const currentCategory = computed(() => {
+  if (detail.value) return detail.value
   return GENERAL_KNOWLEDGE_CATEGORIES.find(c => c.id === categoryId.value) ?? GENERAL_KNOWLEDGE_CATEGORIES[0]!
 })
 
@@ -14,32 +42,13 @@ useHead({
   title: () => `${currentCategory.value.title} - Bimbiu`,
 })
 
-const lessons = [
-  {
-    id: 'science-planets-01',
-    num: 'Pelajaran 1',
-    title: 'Mengenal Planet',
-    description: 'Kenali urutan planet, ukuran, dan ciri khasnya di tata surya.',
-    meta: '~5 menit · +20 XP · Skor terbaik: 90',
-    status: 'mastered' as const,
-  },
-  {
-    id: 'science-moon-02',
-    num: 'Pelajaran 2',
-    title: 'Bulan dan Satelit',
-    description: 'Pelajari fase bulan serta fungsi satelit alami dan buatan.',
-    meta: '~5 menit · +20 XP · 3 dari 6 soal terjawab',
-    status: 'in_progress' as const,
-  },
-  {
-    id: 'science-stars-03',
-    num: 'Pelajaran 3',
-    title: 'Bintang dan Galaksi',
-    description: 'Selesaikan "Bulan dan Satelit" terlebih dahulu untuk membuka pelajaran ini.',
-    meta: '~6 menit · +20 XP',
-    status: 'locked' as const,
-  },
-]
+function formatLessonMeta(ls: CategoryDetailResponse['units'][number]['lessons'][number]): string {
+  const base = `~${ls.estimatedMinutes} menit · +${ls.xpReward} XP · ${ls.questionCount} soal`
+  if (ls.attemptsCount > 0) {
+    return `${base} · Skor terbaik: ${ls.bestScore}`
+  }
+  return base
+}
 </script>
 
 <template>
@@ -61,18 +70,18 @@ const lessons = [
       </div>
     </header>
 
-    <section class="category-detail__unit">
+    <section v-for="unit in detail?.units ?? []" :key="unit.id" class="category-detail__unit">
       <h2 class="category-detail__unit-title">
-        Unit 1: Tata Surya
+        Unit {{ unit.order }}: {{ unit.title }}
       </h2>
       <div class="category-detail__lessons">
         <LessonRowCard
-          v-for="ls in lessons"
+          v-for="ls in unit.lessons"
           :key="ls.id"
-          :lesson-number="ls.num"
+          :lesson-number="`Pelajaran ${ls.order}`"
           :title="ls.title"
           :description="ls.description"
-          :meta="ls.meta"
+          :meta="formatLessonMeta(ls)"
           :status="ls.status"
           :to="ls.status === 'locked' ? undefined : `/app/lesson/${ls.id}`"
         />

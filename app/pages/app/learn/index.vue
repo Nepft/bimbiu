@@ -3,6 +3,30 @@ import { GENERAL_KNOWLEDGE_CATEGORIES } from '~/utils/learning-catalog'
 
 definePageMeta({ layout: 'learner' })
 useHead({ title: 'Belajar - Bimbiu' })
+
+interface CatalogResponse {
+  categories: Array<{
+    id: string
+    unitCount: number
+    lessonCount: number
+    completedLessons: number
+  }>
+}
+
+const { data: catalog } = await useFetch<CatalogResponse>('/api/content/catalog')
+
+const categoryCards = computed(() => {
+  const apiCats = catalog.value?.categories
+  if (!apiCats) return GENERAL_KNOWLEDGE_CATEGORIES
+  return GENERAL_KNOWLEDGE_CATEGORIES.map((uiCat) => {
+    const match = apiCats.find(c => c.id === uiCat.id)
+    if (!match) return uiCat
+    return {
+      ...uiCat,
+      learnerMeta: `${match.unitCount} unit · ${match.completedLessons}/${match.lessonCount} selesai`,
+    }
+  })
+})
 </script>
 
 <template>
@@ -18,7 +42,7 @@ useHead({ title: 'Belajar - Bimbiu' })
 
     <div class="learn-page__grid">
       <CategoryCard
-        v-for="cat in GENERAL_KNOWLEDGE_CATEGORIES"
+        v-for="cat in categoryCards"
         :key="cat.id"
         :category-id="cat.id"
         :title="cat.title"

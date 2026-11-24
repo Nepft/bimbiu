@@ -1,14 +1,42 @@
 <script setup lang="ts">
+import type { IllustrationName } from '~/components/ui/BimbiuIllustration.vue'
+
 definePageMeta({ layout: 'learner' })
 useHead({ title: 'Hadiah & Pencapaian - Bimbiu' })
 
-// TODO(Tahap 6): Ambil data nyata dari GET /api/rewards dan GET /api/rewards/badges
-const badges = [
-  { name: 'Penjelajah Pertama', icon: 'avatar-r1' as const, desc: 'Selesaikan pelajaran pertamamu di Bimbiu.', status: 'Diperoleh 20 Nov 2026', earned: true },
-  { name: 'Bintang Tata Surya', icon: 'cat-science' as const, desc: 'Raih skor minimal 80% pada pelajaran Mengenal Planet.', status: 'Diperoleh 22 Nov 2026', earned: true },
-  { name: 'Penjelajah Dunia', icon: 'cat-geography' as const, desc: 'Selesaikan semua pelajaran di kategori World & Geography.', status: 'Belum terbuka', earned: false },
-  { name: 'Tekun Belajar', icon: 'cat-language' as const, desc: 'Selesaikan 5 pelajaran dari kategori mana saja.', status: 'Belum terbuka (4/5)', earned: false },
-]
+interface RewardsResponse {
+  totalXp: number
+  level: number
+  currentLevelXp: number
+  nextLevelXp: number
+  xpToNextLevel: number
+  badges: Array<{
+    id: string
+    name: string
+    description: string
+    icon: string
+    earned: boolean
+    awardedAt: string | null
+  }>
+}
+
+const { data: rewards } = await useFetch<RewardsResponse>('/api/rewards')
+
+const level = computed(() => rewards.value?.level ?? 1)
+const totalXp = computed(() => rewards.value?.totalXp ?? 0)
+const nextLevelXp = computed(() => rewards.value?.nextLevelXp ?? 100)
+const xpToNextLevel = computed(() => rewards.value?.xpToNextLevel ?? 100)
+
+function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
+  if (!b.earned) return 'Belum terbuka'
+  if (!b.awardedAt) return 'Diperoleh'
+  const dateStr = new Date(b.awardedAt).toLocaleDateString('id-ID', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+  })
+  return `Diperoleh ${dateStr}`
+}
 </script>
 
 <template>
@@ -27,14 +55,14 @@ const badges = [
         <div class="xp-card__level-wrap">
           <BimbiuIllustration name="level-crest" :size="40" />
           <h2 class="xp-card__level tabular-nums">
-            Level 2 · 120 XP
+            Level {{ level }} · {{ totalXp }} XP
           </h2>
         </div>
         <span class="xp-card__next tabular-nums">
-          80 XP lagi menuju Level 3 (120 / 200 XP)
+          {{ xpToNextLevel }} XP lagi menuju Level {{ level + 1 }} ({{ totalXp }} / {{ nextLevelXp }} XP)
         </span>
       </div>
-      <ProgressBar :value="120" :max="200" tone="accent" label="Progres XP menuju Level 3" />
+      <ProgressBar :value="totalXp % 100" :max="100" tone="accent" :label="`Progres XP menuju Level ${level + 1}`" />
       <p class="xp-card__note">
         <AppIcon name="sparkle" :size="16" />
         <span>Kamu mendapat +20 XP saat pertama kali menyelesaikan sebuah pelajaran.</span>
@@ -47,23 +75,23 @@ const badges = [
       </h2>
       <div class="badges-grid">
         <article
-          v-for="b in badges"
-          :key="b.name"
+          v-for="b in rewards?.badges ?? []"
+          :key="b.id"
           class="badge-card"
           :class="{ 'badge-card--earned': b.earned }"
         >
           <div class="badge-card__top">
-            <BimbiuIllustration :name="b.icon" :size="44" />
+            <BimbiuIllustration :name="(b.icon as IllustrationName)" :size="44" />
             <StatusBadge v-if="b.earned" label="Diraih" tone="accent" />
           </div>
           <h3 class="badge-card__title">
             {{ b.name }}
           </h3>
           <p class="badge-card__desc">
-            {{ b.desc }}
+            {{ b.description }}
           </p>
           <p class="badge-card__status" :class="{ 'badge-card__status--earned': b.earned }">
-            {{ b.status }}
+            {{ formatBadgeStatus(b) }}
           </p>
         </article>
       </div>

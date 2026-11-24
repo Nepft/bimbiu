@@ -2,92 +2,107 @@
 import type { QuizFeedbackView, QuizQuestionView } from '~/components/quiz/QuizRunnerCard.vue'
 
 definePageMeta({ layout: false })
-useHead({ title: 'Kuis Mengenal Planet - Bimbiu' })
 
+const route = useRoute()
 const router = useRouter()
+const lessonId = computed(() => String(route.params.lessonId || ''))
 
-// UI-only preview questions covering all 5 MVP question types.
-// TODO(Tahap 5): Ganti dengan data dari POST /api/quiz/attempts dan evaluasi server POST .../answers.
-const questions: QuizQuestionView[] = [
-  {
-    id: 'q-mc',
-    type: 'multiple_choice',
-    prompt: 'Planet terbesar di tata surya adalah?',
-    hint: 'Perhatikan planet raksasa gas yang ukurannya jauh lebih besar daripada Bumi.',
-    options: [
-      { id: 'a', letter: 'A', text: 'Bumi' },
-      { id: 'b', letter: 'B', text: 'Jupiter' },
-      { id: 'c', letter: 'C', text: 'Mars' },
-      { id: 'd', letter: 'D', text: 'Venus' },
-    ],
-  },
-  {
-    id: 'q-tf',
-    type: 'true_false',
-    prompt: 'Saturnus adalah satu-satunya planet yang dikelilingi cincin es dan batuan yang sangat jelas.',
-    hint: 'Ingat kembali posisi planet yang memiliki cincin es dan batuan paling jelas terlihat dari Bumi.',
-    options: [
-      { id: 'true', text: 'Benar' },
-      { id: 'false', text: 'Salah' },
-    ],
-  },
-  {
-    id: 'q-fib',
-    type: 'fill_in_the_blank',
-    prompt: 'Planet yang paling dekat dengan Matahari bernama ____.',
-    hint: 'Nama planetnya berawalan huruf M.',
-  },
-  {
-    id: 'q-ms',
-    type: 'multiple_select',
-    prompt: 'Manakah dari berikut ini yang termasuk planet kebumian (berbatu) di tata surya?',
-    hint: 'Planet kebumian terletak di bagian dalam tata surya sebelum sabuk asteroid.',
-    options: [
-      { id: 'm1', text: 'Merkurius' },
-      { id: 'm2', text: 'Bumi' },
-      { id: 'm3', text: 'Jupiter' },
-      { id: 'm4', text: 'Mars' },
-    ],
-  },
-  {
-    id: 'q-img',
-    type: 'image_quiz',
-    prompt: 'Berdasarkan gambar di atas, nama planet yang ditunjukkan adalah?',
-    mediaKey: 'quiz-planet',
-    mediaCaption: 'Ilustrasi: Planet biru di tata surya dengan orbit dan satelit alaminya',
-    hint: 'Planet ini berada di urutan kedelapan dari Matahari.',
-    options: [
-      { id: 'i1', letter: 'A', text: 'Uranus' },
-      { id: 'i2', letter: 'B', text: 'Saturnus' },
-      { id: 'i3', letter: 'C', text: 'Neptunus' },
-      { id: 'i4', letter: 'D', text: 'Jupiter' },
-    ],
-  },
-]
+interface StartAttemptResponse {
+  attempt: {
+    id: string
+    lessonId: string
+    status: string
+    totalQuestions: number
+    answeredQuestionIds: string[]
+  }
+  lesson: {
+    id: string
+    categoryId: string
+    title: string
+    questions: QuizQuestionView[]
+  }
+}
 
+const attemptId = ref('')
+const lessonTitle = ref('Memuat Kuis...')
+const categoryId = ref('science-nature')
+const questions = ref<QuizQuestionView[]>([])
 const currentIndex = ref(0)
 const feedback = ref<QuizFeedbackView | null>(null)
 const showExitDialog = ref(false)
 const submitting = ref(false)
+const loadError = ref('')
 
-const currentQuestion = computed(() => questions[currentIndex.value] ?? questions[0]!)
-const isLastQuestion = computed(() => currentIndex.value >= questions.length - 1)
+const idempotencyKey = useState<string>(`quiz-idemp-${route.fullPath}`, () => crypto.randomUUID())
 
-function handleSubmitAnswer() {
-  submitting.value = true
-  // TODO(Tahap 5): Kirim jawaban ke server /api/quiz/attempts/:attemptId/answers
-  feedback.value = {
-    isCorrect: true,
-    title: 'Jawaban Dicatat (Pratinjau UI)',
-    explanation: 'Penilaian dan penjelasan resmi akan dikirim langsung oleh server Nitro setelah tahap backend terhubung.',
-  }
-  submitting.value = false
+const { data: started, error: startError } = await useFetch<StartAttemptResponse>('/api/quiz/attempts', {
+  method: 'POST',
+  body: {
+    lessonId: lessonId.value,
+    idempotencyKey: idempotencyKey.value,
+  },
+})
+
+if (startError.value) {
+  loadError.value =
+    (startError.value.data as { statusMessage?: string } | undefined)?.statusMessage
+    || 'Pelajaran tidak dapat dimulai saat ini.'
+} else if (started.value) {
+  attemptId.value = started.value.attempt.id
+  lessonTitle.value = started.value.lesson.title
+  categoryId.value = started.value.lesson.categoryId
+  questions.value = started.value.lesson.questions
+
+  const answeredSet = new Set(started.value.attempt.answeredQuestionIds)
+  const firstUnanswered = questions.value.findIndex(q => !answeredSet.has(q.id))
+  currentIndex.value = firstUnanswered >= 0 ? firstUnanswered : 0
 }
 
-function handleNext() {
+useHead({ title: () => `${lessonTitle.value} - Bimbiu` })
+
+const currentQuestion = computed(() => questions.value[currentIndex.value] ?? null)
+const isLastQuestion = computed(() => currentIndex.value >= questions.value.length - 1)
+
+async function handleSubmitAnswer(payload: { optionId?: string; optionIds?: string[]; text?: string }) {
+  if (!attemptId.value || !currentQuestion.value) return
+  submitting.value = true
+  try {
+    const res = await $fetch<QuizFeedbackView>(
+      `/api/quiz/attempts/${attemptId.value}/answers`,
+      {
+        method: 'POST',
+        body: {
+          questionId: currentQuestion.value.id,
+          ...payload,
+        },
+      },
+    )
+    feedback.value = res
+  } catch (err: unknown) {
+    const fetchErr = err as { data?: { statusMessage?: string }; statusMessage?: string }
+    feedback.value = {
+      isCorrect: false,
+      title: 'Terjadi Kendala',
+      explanation: fetchErr?.data?.statusMessage || fetchErr?.statusMessage || 'Gagal mengirim jawaban.',
+    }
+  } finally {
+    submitting.value = false
+  }
+}
+
+async function handleNext() {
   feedback.value = null
   if (isLastQuestion.value) {
-    router.push('/app/result/preview-attempt')
+    if (!attemptId.value) return
+    submitting.value = true
+    try {
+      await $fetch(`/api/quiz/attempts/${attemptId.value}/complete`, {
+        method: 'POST',
+      })
+      await router.push(`/app/result/${attemptId.value}`)
+    } finally {
+      submitting.value = false
+    }
     return
   }
   currentIndex.value += 1
@@ -95,7 +110,7 @@ function handleNext() {
 
 function handleConfirmExit() {
   showExitDialog.value = false
-  router.push('/app/learn/science-nature')
+  router.push(`/app/learn/${categoryId.value}`)
 }
 </script>
 
@@ -103,14 +118,23 @@ function handleConfirmExit() {
   <NuxtLayout name="quiz-focus">
     <template #header>
       <QuizHeader
-        lesson-title="Mengenal Planet"
-        :current-question="currentIndex + 1"
-        :total-questions="questions.length"
+        :lesson-title="lessonTitle"
+        :current-question="Math.min(currentIndex + 1, Math.max(questions.length, 1))"
+        :total-questions="Math.max(questions.length, 1)"
         @exit="showExitDialog = true"
       />
     </template>
 
+    <ErrorState
+      v-if="loadError"
+      title="Pelajaran Belum Bisa Dibuka"
+      :description="loadError"
+      action-label="Kembali ke Belajar"
+      action-to="/app/learn"
+    />
+
     <QuizRunnerCard
+      v-else-if="currentQuestion"
       :question="currentQuestion"
       :is-last-question="isLastQuestion"
       :feedback="feedback"

@@ -6,6 +6,7 @@ useHead({ title: 'Profil Learner - Bimbiu' })
 
 const router = useRouter()
 const { user, updateProfile, logout } = useAuth()
+const { data: rewards } = await useFetch<{ level: number; totalXp: number }>('/api/rewards')
 const displayName = ref(user.value?.displayName || 'Learner')
 const avatarKey = ref(user.value?.avatarKey || 'R1')
 const savedMessage = ref('')
@@ -70,7 +71,7 @@ async function handleConfirmLogout() {
           {{ displayName }}
         </h2>
         <p class="identity-card__meta">
-          Level 2 · 140 XP · Masuk dengan Akun Google
+          Level {{ rewards?.level ?? 1 }} · {{ rewards?.totalXp ?? 0 }} XP · Masuk dengan Akun Google
         </p>
       </div>
     </AppCard>

@@ -1,28 +1,56 @@
 <script setup lang="ts">
+import type { IllustrationName } from '~/components/ui/BimbiuIllustration.vue'
+
 definePageMeta({ layout: 'learner' })
 useHead({ title: 'Progres Belajar - Bimbiu' })
 
-// TODO(Tahap 6): Ambil data nyata dari GET /api/progress
-const hasProgress = ref(true)
+interface ProgressResponse {
+  completedLessonsCount: number
+  totalLessonsCount: number
+  averageScore: number
+  categories: Array<{
+    id: string
+    title: string
+    icon: string
+    totalLessons: number
+    completedLessons: number
+    progressPercent: number
+  }>
+  recentHistory: Array<{
+    attemptId: string
+    lessonId: string
+    lessonTitle: string
+    score: number
+    xpAwarded: number
+    completedAt: string | null
+  }>
+}
 
-const stats = [
-  { label: 'Pelajaran Selesai', icon: 'check-circle' as const, val: '4 Pelajaran', note: '2 sudah Mastered (>=80%)' },
-  { label: 'Sedang Dikerjakan', icon: 'clock' as const, val: '1 Pelajaran', note: 'Bisa dilanjutkan kapan saja' },
-  { label: 'Belum Dimulai', icon: 'book' as const, val: '7 Pelajaran', note: 'Tersedia di katalog Belajar' },
-]
+const { data: progress } = await useFetch<ProgressResponse>('/api/progress')
 
-const lessonProgress = [
-  { id: 'science-planets-01', icon: 'cat-science' as const, title: 'Mengenal Planet', cat: 'Science & Nature', attempts: '2 attempt', status: 'Mastered', tone: 'accent' as const, score: 'Skor terbaik: 90', active: false },
-  { id: 'world-continents-01', icon: 'cat-geography' as const, title: 'Benua di Dunia', cat: 'World & Geography', attempts: '1 attempt', status: 'Mastered', tone: 'accent' as const, score: 'Skor terbaik: 100', active: false },
-  { id: 'history-kingdoms-01', icon: 'cat-history' as const, title: 'Kerajaan Nusantara', cat: 'History & Culture', attempts: '1 attempt', status: 'Selesai', tone: 'accent' as const, score: 'Skor terbaik: 70', active: false },
-  { id: 'science-moon-02', icon: 'cat-science' as const, title: 'Bulan dan Satelit', cat: 'Science & Nature', attempts: '1 attempt', status: 'Sedang Dikerjakan', tone: 'accent' as const, score: '3 dari 6 soal', active: true },
-]
+const hasProgress = computed(() => (progress.value?.completedLessonsCount ?? 0) > 0 || (progress.value?.recentHistory.length ?? 0) > 0)
 
-const recentAttempts = [
-  { id: 'att-001', date: '22 Nov 2026', title: 'Mengenal Planet', score: 'Skor: 90 (Mastered)' },
-  { id: 'att-002', date: '21 Nov 2026', title: 'Kerajaan Nusantara', score: 'Skor: 70 (Selesai)' },
-  { id: 'att-003', date: '20 Nov 2026', title: 'Benua di Dunia', score: 'Skor: 100 (Mastered)' },
-]
+const stats = computed(() => {
+  const done = progress.value?.completedLessonsCount ?? 0
+  const total = progress.value?.totalLessonsCount ?? 120
+  const avg = progress.value?.averageScore ?? 0
+  const remaining = Math.max(0, total - done)
+
+  return [
+    { label: 'Pelajaran Selesai', icon: 'check-circle' as const, val: `${done} Pelajaran`, note: `dari ${total} pelajaran tersedia` },
+    { label: 'Rata-rata Skor', icon: 'clock' as const, val: `${avg}%`, note: 'Berdasarkan skor terbaik' },
+    { label: 'Belum Dimulai', icon: 'book' as const, val: `${remaining} Pelajaran`, note: 'Tersedia di katalog Belajar' },
+  ]
+})
+
+function formatDate(iso: string | null): string {
+  if (!iso) return '-'
+  return new Date(iso).toLocaleDateString('id-ID', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+  })
+}
 </script>
 
 <template>
@@ -62,58 +90,49 @@ const recentAttempts = [
 
       <section class="progress-list">
         <h2 class="progress-page__section-title">
-          Daftar Progres Pelajaran
+          Progres per Kategori
         </h2>
         <div class="progress-list__rows">
-          <AppCard v-for="row in lessonProgress" :key="row.title" padding="md" class="progress-row">
+          <AppCard v-for="cat in progress?.categories ?? []" :key="cat.id" padding="md" class="progress-row">
             <div class="progress-row__lead">
-              <BimbiuIllustration :name="row.icon" :size="44" />
+              <BimbiuIllustration :name="(cat.icon as IllustrationName)" :size="44" />
               <div class="progress-row__left">
                 <p class="progress-row__meta">
-                  {{ row.cat }} · {{ row.attempts }}
+                  {{ cat.completedLessons }} / {{ cat.totalLessons }} pelajaran selesai
                 </p>
                 <h3 class="progress-row__title">
-                  {{ row.title }}
+                  {{ cat.title }}
                 </h3>
               </div>
             </div>
             <div class="progress-row__right">
               <div class="progress-row__badges">
-                <StatusBadge :label="row.status" :tone="row.tone" />
-                <span class="progress-row__score tabular-nums">{{ row.score }}</span>
+                <StatusBadge :label="`${cat.progressPercent}%`" tone="accent" />
               </div>
               <AppButton
-                :variant="row.active ? 'primary' : 'secondary'"
-                :to="`/app/lesson/${row.id}`"
+                variant="secondary"
+                :to="`/app/learn/${cat.id}`"
                 class="progress-row__btn-desktop"
               >
-                {{ row.active ? 'Lanjutkan Kuis' : 'Ulangi Kuis' }}
+                Lihat Kategori
               </AppButton>
-              <NuxtLink
-                :to="`/app/lesson/${row.id}`"
-                class="progress-row__btn-mobile"
-                :class="{ 'progress-row__btn-mobile--primary': row.active }"
-                :aria-label="row.active ? `Lanjutkan ${row.title}` : `Ulangi ${row.title}`"
-              >
-                <AppIcon :name="row.active ? 'play' : 'refresh'" :size="18" />
-              </NuxtLink>
             </div>
           </AppCard>
         </div>
       </section>
 
-      <section class="progress-history">
+      <section v-if="progress?.recentHistory.length" class="progress-history">
         <h2 class="progress-page__section-title">
           Riwayat Attempt Terbaru
         </h2>
         <div class="progress-history__rows">
-          <AppCard v-for="att in recentAttempts" :key="att.id" variant="subtle" padding="sm" class="history-row">
+          <AppCard v-for="att in progress.recentHistory" :key="att.attemptId" variant="subtle" padding="sm" class="history-row">
             <p class="history-row__title">
-              {{ att.date }} · {{ att.title }}
+              {{ formatDate(att.completedAt) }} · {{ att.lessonTitle }}
             </p>
             <div class="history-row__right">
-              <span class="history-row__score tabular-nums">{{ att.score }}</span>
-              <NuxtLink :to="`/app/result/${att.id}`" class="history-row__link">
+              <span class="history-row__score tabular-nums">Skor: {{ att.score }} (+{{ att.xpAwarded }} XP)</span>
+              <NuxtLink :to="`/app/result/${att.attemptId}`" class="history-row__link">
                 Lihat Hasil
               </NuxtLink>
             </div>
