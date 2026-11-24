@@ -1,7 +1,11 @@
+<script setup lang="ts">
+const { user } = useAuth()
+</script>
+
 <template>
   <div class="layout-learner">
     <a href="#main-content" class="skip-link">Langsung ke konten utama</a>
-    <LearnerTopBar />
+    <LearnerTopBar :display-name="user?.displayName || 'Learner'" />
     <main id="main-content" class="layout-learner__main">
       <slot />
     </main>

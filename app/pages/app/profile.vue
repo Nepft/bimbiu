@@ -5,10 +5,19 @@ definePageMeta({ layout: 'learner' })
 useHead({ title: 'Profil Learner - Bimbiu' })
 
 const router = useRouter()
-const displayName = ref('Rafi')
-const avatarKey = ref('R1')
+const { user, updateProfile, logout } = useAuth()
+const displayName = ref(user.value?.displayName || 'Learner')
+const avatarKey = ref(user.value?.avatarKey || 'R1')
 const savedMessage = ref('')
+const saving = ref(false)
 const showLogoutDialog = ref(false)
+
+watch(user, (nextUser) => {
+  if (nextUser) {
+    displayName.value = nextUser.displayName
+    avatarKey.value = nextUser.avatarKey
+  }
+})
 
 const AVATAR_ILLU_MAP: Record<string, IllustrationName> = {
   R1: 'avatar-r1',
@@ -19,19 +28,32 @@ const AVATAR_ILLU_MAP: Record<string, IllustrationName> = {
 
 const currentAvatarIllustration = computed<IllustrationName>(() => AVATAR_ILLU_MAP[avatarKey.value] ?? 'avatar-r1')
 
-function handleSaveProfile() {
+async function handleSaveProfile() {
   if (displayName.value.trim().length < 2) {
     savedMessage.value = 'Nama tampilan minimal 2 huruf.'
     return
   }
-  // TODO(Tahap 4): Kirim ke PATCH /api/profile
-  savedMessage.value = 'Perubahan profil tersimpan.'
+
+  saving.value = true
+  savedMessage.value = ''
+  try {
+    await updateProfile({
+      displayName: displayName.value.trim(),
+      avatarKey: avatarKey.value,
+    })
+    savedMessage.value = 'Perubahan profil tersimpan.'
+  } catch (error: unknown) {
+    const fetchErr = error as { data?: { statusMessage?: string }; statusMessage?: string }
+    savedMessage.value = fetchErr?.data?.statusMessage || fetchErr?.statusMessage || 'Gagal menyimpan perubahan.'
+  } finally {
+    saving.value = false
+  }
 }
 
-function handleConfirmLogout() {
+async function handleConfirmLogout() {
   showLogoutDialog.value = false
-  // TODO(Tahap 4): Panggil POST /api/auth/logout
-  router.push('/auth/login')
+  await logout()
+  await router.push('/auth/login')
 }
 </script>
 

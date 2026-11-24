@@ -4,13 +4,15 @@ useHead({
 })
 
 const router = useRouter()
+const { user, completeOnboarding } = useAuth()
 
-const displayName = ref('Rafi')
-const avatarKey = ref('R1')
+const displayName = ref(user.value?.displayName || '')
+const avatarKey = ref(user.value?.avatarKey || 'R1')
 const guardianChecked = ref(false)
 const formError = ref('')
+const submitting = ref(false)
 
-function handleCompleteOnboarding() {
+async function handleCompleteOnboarding() {
   if (displayName.value.trim().length < 2) {
     formError.value = 'Nama tampilan minimal 2 huruf.'
     return
@@ -19,9 +21,22 @@ function handleCompleteOnboarding() {
     formError.value = 'Centang konfirmasi pendampingan orang tua/wali terlebih dahulu.'
     return
   }
+
   formError.value = ''
-  // TODO(Tahap 4): Kirim ke POST /api/auth/onboarding
-  router.push('/app')
+  submitting.value = true
+  try {
+    await completeOnboarding({
+      displayName: displayName.value.trim(),
+      avatarKey: avatarKey.value,
+      guardianConsent: true,
+    })
+    await router.push('/app')
+  } catch (error: unknown) {
+    const fetchErr = error as { data?: { statusMessage?: string }; statusMessage?: string }
+    formError.value = fetchErr?.data?.statusMessage || fetchErr?.statusMessage || 'Gagal menyimpan profil. Coba lagi.'
+  } finally {
+    submitting.value = false
+  }
 }
 </script>
 

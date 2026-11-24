@@ -4,13 +4,11 @@ useHead({
 })
 
 const route = useRoute()
-const router = useRouter()
 
 const hasAuthError = computed(() => route.query.error === 'cancelled' || route.query.error === 'failed')
 
 function handleGoogleSignIn() {
-  // TODO(Tahap 4): Arahkan ke /api/auth/google setelah endpoint OAuth Nitro diimplementasikan
-  router.push('/auth/onboarding')
+  navigateTo('/api/auth/google', { external: true })
 }
 </script>
 
