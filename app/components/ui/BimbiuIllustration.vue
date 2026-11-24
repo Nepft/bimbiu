@@ -4,6 +4,11 @@ export type IllustrationName =
   | 'trophy'
   | 'telescope'
   | 'solar-banner'
+  | 'banner-geography'
+  | 'banner-history'
+  | 'banner-logic'
+  | 'banner-language'
+  | 'banner-everyday'
   | 'padlock'
   | 'compass-lost'
   | 'key-session'
@@ -55,7 +60,7 @@ const props = defineProps<Props>()
 
 const dims = computed(() => {
   if (props.name === 'telescope') return { w: 156, h: 88 }
-  if (props.name === 'solar-banner') return { w: 160, h: 84 }
+  if (props.name === 'solar-banner' || props.name.startsWith('banner-')) return { w: 160, h: 84 }
   const s = props.size ?? 44
   return { w: s, h: s }
 })
@@ -146,6 +151,100 @@ const dims = computed(() => {
     <circle cx="102" cy="40" r="20" fill="#0F6A5B" />
     <rect x="84" y="38" width="36" height="4" rx="2" fill="#FAF7F0" />
     <ellipse cx="102" cy="40" rx="32" ry="8" transform="rotate(-16 102 40)" stroke="#F2B632" stroke-width="2.5" />
+  </svg>
+
+  <!-- World & Geography Banner (160x84) -->
+  <svg
+    v-else-if="name === 'banner-geography'"
+    :width="dims.w"
+    :height="dims.h"
+    viewBox="0 0 160 84"
+    fill="none"
+    aria-hidden="true"
+  >
+    <rect width="160" height="84" rx="14" fill="#172330" />
+    <circle cx="22" cy="18" r="2" fill="#FFFFFF" />
+    <circle cx="138" cy="64" r="2" fill="#F2B632" />
+    <circle cx="80" cy="42" r="28" fill="#1E4D8C" />
+    <circle cx="73" cy="33" r="11" fill="#0F6A5B" />
+    <circle cx="92" cy="48" r="10" fill="#219E8A" />
+    <ellipse cx="80" cy="42" rx="28" ry="9" stroke="#FAF7F0" stroke-opacity="0.35" stroke-width="2" />
+    <circle cx="121" cy="23" r="7" fill="#F2B632" />
+  </svg>
+
+  <!-- History & Culture Banner (160x84) -->
+  <svg
+    v-else-if="name === 'banner-history'"
+    :width="dims.w"
+    :height="dims.h"
+    viewBox="0 0 160 84"
+    fill="none"
+    aria-hidden="true"
+  >
+    <rect width="160" height="84" rx="14" fill="#172330" />
+    <circle cx="34" cy="26" r="10" fill="#F2B632" />
+    <circle cx="136" cy="20" r="2" fill="#FAF7F0" />
+    <rect x="36" y="62" width="88" height="12" rx="3" fill="#8C5E00" />
+    <rect x="48" y="48" width="64" height="14" rx="3" fill="#F2EBDB" />
+    <rect x="60" y="34" width="40" height="14" rx="3" fill="#FAF7F0" />
+    <polygon points="80,12 100,34 60,34" fill="#F2B632" />
+    <rect x="73" y="52" width="14" height="22" rx="7" fill="#172330" />
+  </svg>
+
+  <!-- Logic & Mathematics Banner (160x84) -->
+  <svg
+    v-else-if="name === 'banner-logic'"
+    :width="dims.w"
+    :height="dims.h"
+    viewBox="0 0 160 84"
+    fill="none"
+    aria-hidden="true"
+  >
+    <rect width="160" height="84" rx="14" fill="#172330" />
+    <circle cx="18" cy="16" r="2" fill="#FAF7F0" />
+    <rect x="24" y="24" width="34" height="34" rx="7" fill="#1E4D8C" />
+    <polygon points="82,20 102,58 62,58" fill="#219E8A" />
+    <circle cx="125" cy="41" r="17" fill="#F2B632" />
+    <circle cx="125" cy="41" r="7" fill="#172330" />
+  </svg>
+
+  <!-- Language & Words Banner (160x84) -->
+  <svg
+    v-else-if="name === 'banner-language'"
+    :width="dims.w"
+    :height="dims.h"
+    viewBox="0 0 160 84"
+    fill="none"
+    aria-hidden="true"
+  >
+    <rect width="160" height="84" rx="14" fill="#172330" />
+    <rect x="32" y="18" width="96" height="52" rx="8" fill="#0F6A5B" />
+    <rect x="38" y="14" width="40" height="50" rx="5" fill="#FAF7F0" />
+    <rect x="82" y="14" width="40" height="50" rx="5" fill="#F2EBDB" />
+    <rect x="77" y="14" width="6" height="52" rx="2" fill="#8C5E00" fill-opacity="0.5" />
+    <path d="M104 14H114V36L109 31L104 36V14Z" fill="#C94A4A" />
+    <rect x="44" y="26" width="26" height="4" rx="2" fill="#25374B" fill-opacity="0.6" />
+    <rect x="44" y="36" width="22" height="4" rx="2" fill="#25374B" fill-opacity="0.35" />
+    <rect x="44" y="46" width="24" height="10" rx="4" fill="#F2B632" />
+  </svg>
+
+  <!-- Everyday Knowledge Banner (160x84) -->
+  <svg
+    v-else-if="name === 'banner-everyday'"
+    :width="dims.w"
+    :height="dims.h"
+    viewBox="0 0 160 84"
+    fill="none"
+    aria-hidden="true"
+  >
+    <rect width="160" height="84" rx="14" fill="#172330" />
+    <circle cx="58" cy="36" r="22" fill="#F2B632" fill-opacity="0.22" />
+    <circle cx="58" cy="36" r="14" fill="#F2B632" />
+    <rect x="52" y="48" width="12" height="12" rx="3" fill="#F2EBDB" />
+    <rect x="54" y="62" width="8" height="5" rx="2" fill="#25374B" />
+    <circle cx="113" cy="41" r="21" fill="#0F6A5B" />
+    <circle cx="113" cy="41" r="13" fill="#219E8A" />
+    <text x="105" y="45" fill="#FAF7F0" font-size="11" font-weight="700" font-family="Plus Jakarta Sans, sans-serif">3R</text>
   </svg>
 
   <!-- Padlock (64x64) -->

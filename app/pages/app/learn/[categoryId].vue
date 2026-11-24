@@ -1,10 +1,22 @@
 <script setup lang="ts">
+import type { IllustrationName } from '~/components/ui/BimbiuIllustration.vue'
 import { GENERAL_KNOWLEDGE_CATEGORIES } from '~/utils/learning-catalog'
 
 definePageMeta({ layout: 'learner' })
 
 const route = useRoute()
 const categoryId = computed(() => String(route.params.categoryId || 'science-nature'))
+
+const CATEGORY_BANNER_MAP: Record<string, IllustrationName> = {
+  'science-nature': 'solar-banner',
+  'world-geography': 'banner-geography',
+  'history-culture': 'banner-history',
+  'logic-mathematics': 'banner-logic',
+  'language-words': 'banner-language',
+  'everyday-knowledge': 'banner-everyday',
+}
+
+const bannerName = computed<IllustrationName>(() => CATEGORY_BANNER_MAP[categoryId.value] ?? 'solar-banner')
 
 interface CategoryDetailResponse {
   id: string
@@ -59,7 +71,7 @@ function formatLessonMeta(ls: CategoryDetailResponse['units'][number]['lessons']
     </NuxtLink>
 
     <header class="category-detail__header">
-      <BimbiuIllustration name="solar-banner" />
+      <BimbiuIllustration :name="bannerName" />
       <div class="category-detail__header-copy">
         <h1 class="category-detail__title">
           {{ currentCategory.title }}
