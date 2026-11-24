@@ -23,10 +23,11 @@ const AVATAR_ILLU_MAP: Record<string, IllustrationName> = {
 }
 
 const presetIllustration = computed<IllustrationName>(() => AVATAR_ILLU_MAP[props.avatarKey] ?? 'avatar-r1')
+const { isHidden } = useSmartHeader()
 </script>
 
 <template>
-  <header class="learner-topbar">
+  <header class="learner-topbar" :class="{ 'learner-topbar--hidden': isHidden }">
     <div class="learner-topbar__inner">
       <NuxtLink to="/app" class="learner-topbar__brand">
         <BimbiuLogo />
@@ -55,8 +56,16 @@ const presetIllustration = computed<IllustrationName>(() => AVATAR_ILLU_MAP[prop
 
 <style scoped>
 .learner-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 400;
   background-color: var(--bg-surface);
   border-bottom: 1px solid var(--border-subtle);
+  transition: transform 0.22s ease;
+}
+
+.learner-topbar--hidden {
+  transform: translateY(-100%);
 }
 
 .learner-topbar__inner {
@@ -110,6 +119,13 @@ const presetIllustration = computed<IllustrationName>(() => AVATAR_ILLU_MAP[prop
   color: var(--text-primary);
   font-size: var(--text-caption);
   font-weight: 600;
+  transition: background-color var(--motion-fast), border-color var(--motion-fast), color var(--motion-fast);
+}
+
+.learner-topbar__profile:hover {
+  background-color: var(--bg-surface-hover);
+  border-color: var(--action-primary);
+  color: var(--action-primary-hover);
 }
 
 .learner-topbar__profile.router-link-active {

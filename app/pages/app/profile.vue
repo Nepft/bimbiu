@@ -137,7 +137,6 @@ async function handleConfirmLogout() {
       title="Keluar dari Akun?"
       @close="showLogoutDialog = false"
     >
-      <BimbiuIllustration name="dialog-door" :size="48" />
       <p>Progres, XP, dan badge kamu aman tersimpan. Kamu bisa masuk kembali kapan saja lewat akun Google.</p>
       <template #actions>
         <AppButton variant="secondary" @click="showLogoutDialog = false">

@@ -43,7 +43,7 @@ const iconName = computed<IllustrationName>(() => CATEGORY_ICON_MAP[props.catego
       {{ meta }}
     </p>
     <div v-if="showButton && to" class="category-card__action">
-      <AppButton variant="secondary" size="md" :to="to" block>
+      <AppButton variant="secondary" size="md" :to="to" block class="category-card__btn">
         Buka Kategori
       </AppButton>
     </div>
@@ -91,5 +91,12 @@ const iconName = computed<IllustrationName>(() => CATEGORY_ICON_MAP[props.catego
 
 .category-card__action {
   padding-top: var(--space-1);
+}
+
+:deep(.category-card__btn:hover:not(:disabled)) {
+  background-color: var(--action-primary);
+  color: var(--text-on-brand);
+  border-color: var(--action-primary-active);
+  box-shadow: 0 3px 0 var(--action-primary-active);
 }
 </style>

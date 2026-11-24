@@ -8,6 +8,7 @@ withDefaults(defineProps<Props>(), {
 })
 
 const route = useRoute()
+const { isHidden } = useSmartHeader()
 
 const isLanding = computed(() => route.path === '/')
 const isLogin = computed(() => route.path.startsWith('/auth/login'))
@@ -16,7 +17,7 @@ const isPrivacy = computed(() => route.path.startsWith('/privacy'))
 </script>
 
 <template>
-  <header class="public-header">
+  <header class="public-header" :class="{ 'public-header--hidden': isHidden }">
     <div class="public-header__inner">
       <NuxtLink to="/" class="public-header__brand">
         <BimbiuLogo :show-mark="!isOnboarding" />
@@ -53,8 +54,16 @@ const isPrivacy = computed(() => route.path.startsWith('/privacy'))
 
 <style scoped>
 .public-header {
+  position: sticky;
+  top: 0;
+  z-index: 400;
   background-color: var(--bg-surface);
   border-bottom: 1px solid var(--border-subtle);
+  transition: transform 0.22s ease;
+}
+
+.public-header--hidden {
+  transform: translateY(-100%);
 }
 
 .public-header__inner {

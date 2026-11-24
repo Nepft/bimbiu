@@ -108,3 +108,32 @@ textarea:disabled,
     scroll-behavior: auto !important;
   }
 }
+
+/* Custom scrollbar (Tactile Field-Guide) */
+html {
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-subtle) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--border-subtle);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--border-control);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: var(--action-primary);
+}

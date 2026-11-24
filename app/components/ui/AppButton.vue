@@ -120,6 +120,10 @@ const isDisabled = computed(() => props.disabled || props.loading)
   box-shadow: 0 3px 0 var(--feedback-review-fg);
 }
 
+.app-btn--danger-soft:hover:not(:disabled) {
+  background-color: #f9ded9;
+}
+
 .app-btn:active:not(:disabled) {
   transform: translateY(2px);
   box-shadow: 0 1px 0 currentColor;

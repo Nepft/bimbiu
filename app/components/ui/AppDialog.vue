@@ -130,6 +130,13 @@ onBeforeUnmount(() => {
   border: 1.5px solid var(--border-subtle);
   border-radius: var(--radius-md);
   color: var(--text-primary);
+  transition: background-color var(--motion-fast), border-color var(--motion-fast), color var(--motion-fast);
+}
+
+.app-dialog__close:hover {
+  background-color: var(--feedback-review-bg);
+  border-color: var(--feedback-review-fg);
+  color: var(--feedback-review-fg);
 }
 
 .app-dialog__body {

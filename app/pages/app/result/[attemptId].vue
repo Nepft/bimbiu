@@ -137,10 +137,20 @@ const categoryPath = computed(() =>
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-md);
   font-size: var(--text-ui);
   font-weight: 600;
   color: var(--action-primary);
   text-decoration: none;
+  transition: background-color var(--motion-fast), color var(--motion-fast);
+}
+
+.result-page__back:hover {
+  background-color: var(--action-primary-tint);
+  color: var(--action-primary-hover);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .result-card {

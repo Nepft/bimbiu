@@ -15,7 +15,7 @@ function handleGoogleSignIn() {
 <template>
   <section class="auth-page">
     <AppCard variant="tactile" padding="lg" class="auth-card">
-      <BimbiuIllustration name="mascot" :size="56" />
+      <BimbiuLogo />
       <div class="auth-card__header">
         <h1 class="auth-card__title">
           Masuk ke Bimbiu
@@ -165,9 +165,19 @@ function handleGoogleSignIn() {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-md);
   font-size: var(--text-ui);
   font-weight: 600;
   color: var(--action-primary);
   text-decoration: none;
+  transition: background-color var(--motion-fast), color var(--motion-fast);
+}
+
+.auth-card__link:hover {
+  background-color: var(--action-primary-tint);
+  color: var(--action-primary-hover);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 </style>

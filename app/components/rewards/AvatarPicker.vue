@@ -328,6 +328,12 @@ async function handleFileChange(event: Event) {
   width: 52px;
   height: 52px;
   flex-shrink: 0;
+  transition: transform var(--motion-fast), box-shadow var(--motion-fast);
+}
+
+.avatar-upload__thumb-btn:hover {
+  transform: scale(1.04);
+  box-shadow: 0 2px 8px rgba(15, 106, 91, 0.25);
 }
 
 .avatar-upload__thumb-img {
@@ -397,10 +403,21 @@ async function handleFileChange(event: Event) {
   font-size: var(--text-caption);
   font-weight: 700;
   cursor: pointer;
+  transition: background-color var(--motion-fast), color var(--motion-fast), border-color var(--motion-fast);
+}
+
+.avatar-upload__btn:hover {
+  background-color: var(--action-primary-tint);
+  color: var(--action-primary-hover);
 }
 
 .avatar-upload__btn--primary {
   background-color: var(--action-primary);
+  color: var(--text-on-brand);
+}
+
+.avatar-upload__btn--primary:hover {
+  background-color: var(--action-primary-hover);
   color: var(--text-on-brand);
 }
 
@@ -409,9 +426,19 @@ async function handleFileChange(event: Event) {
   color: var(--feedback-review-fg);
 }
 
+.avatar-upload__btn--error:hover {
+  background-color: #f9ded9;
+  color: var(--feedback-review-fg);
+}
+
 .avatar-upload__btn--danger {
   background-color: var(--feedback-review-bg);
   border-color: var(--feedback-review-fg);
+  color: var(--feedback-review-fg);
+}
+
+.avatar-upload__btn--danger:hover {
+  background-color: #f9ded9;
   color: var(--feedback-review-fg);
 }
 

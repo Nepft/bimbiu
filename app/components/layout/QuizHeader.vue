@@ -16,7 +16,7 @@ const emit = defineEmits<{
   <header class="quiz-header">
     <div class="quiz-header__inner">
       <div class="quiz-header__row">
-        <AppButton variant="secondary" size="md" @click="emit('exit')">
+        <AppButton variant="secondary" size="md" class="quiz-header__exit" @click="emit('exit')">
           Keluar
         </AppButton>
         <p class="quiz-header__title">
@@ -70,6 +70,13 @@ const emit = defineEmits<{
   font-weight: 500;
   color: var(--text-secondary);
   white-space: nowrap;
+}
+
+:deep(.quiz-header__exit:hover:not(:disabled)) {
+  background-color: var(--feedback-review-bg);
+  color: var(--feedback-review-fg);
+  border-color: var(--feedback-review-fg);
+  box-shadow: 0 3px 0 var(--feedback-review-fg);
 }
 
 @media (min-width: 1024px) {

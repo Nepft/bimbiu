@@ -270,10 +270,20 @@ const categoryCards = computed(() => {
 }
 
 .beranda__see-all {
+  padding: 6px 12px;
+  border-radius: var(--radius-md);
   font-size: var(--text-ui);
   font-weight: 600;
   color: var(--action-primary);
   text-decoration: none;
+  transition: background-color var(--motion-fast), color var(--motion-fast);
+}
+
+.beranda__see-all:hover {
+  background-color: var(--action-primary-tint);
+  color: var(--action-primary-hover);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .beranda__grid {

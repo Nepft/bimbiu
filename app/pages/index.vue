@@ -106,12 +106,10 @@ const learningSteps = [
           Bimbiu - Aplikasi Kuis Pengetahuan Umum (Usia 10-12 Tahun)
         </p>
         <div class="landing-footer__links">
-          <NuxtLink to="/auth/login" class="landing-footer__link">
-            Masuk
-          </NuxtLink>
-          <NuxtLink to="/auth/login" class="landing-footer__link">
-            Buat Akun
-          </NuxtLink>
+          <AppButton variant="secondary" size="md" to="/privacy">
+            <AppIcon name="shield" :size="16" />
+            <span>Privasi &amp; Keamanan</span>
+          </AppButton>
         </div>
       </div>
     </footer>
@@ -272,7 +270,9 @@ const learningSteps = [
 
 .landing-footer__links {
   display: flex;
-  gap: var(--space-6);
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-5);
 }
 
 .landing-footer__link {
@@ -280,6 +280,13 @@ const learningSteps = [
   font-weight: 600;
   color: var(--action-primary);
   text-decoration: none;
+  transition: color var(--motion-fast);
+}
+
+.landing-footer__link:hover {
+  color: var(--action-primary-hover);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 @media (min-width: 640px) {
