@@ -36,7 +36,8 @@ const isPrivacy = computed(() => route.path.startsWith('/privacy'))
           </template>
           <AppButton v-else-if="isLogin" variant="secondary" size="md" to="/">
             <AppIcon name="arrow-left" :size="18" />
-            <span>Kembali ke Beranda</span>
+            <span class="public-header__back-mobile">Beranda</span>
+            <span class="public-header__back-desktop">Kembali ke Beranda</span>
           </AppButton>
           <span v-else-if="isOnboarding" class="public-header__status">
             Lengkapi Profil Awal
@@ -116,6 +117,14 @@ const isPrivacy = computed(() => route.path.startsWith('/privacy'))
   display: none;
 }
 
+.public-header__back-mobile {
+  display: inline;
+}
+
+.public-header__back-desktop {
+  display: none;
+}
+
 .public-header__status {
   font-size: var(--text-caption);
   font-weight: 500;
@@ -125,6 +134,14 @@ const isPrivacy = computed(() => route.path.startsWith('/privacy'))
 @media (min-width: 640px) {
   .public-header__signup {
     display: inline-flex;
+  }
+
+  .public-header__back-mobile {
+    display: none;
+  }
+
+  .public-header__back-desktop {
+    display: inline;
   }
 }
 

@@ -1,7 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { generateContentBundle } from './scripts/content-bundle.mjs'
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  hooks: {
+    'build:before': () => {
+      generateContentBundle()
+    },
+  },
   modules: ['@nuxt/eslint'],
   components: [
     {

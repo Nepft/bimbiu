@@ -1,6 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { z } from 'zod'
+import { BUNDLED_CONTENT } from '../content/bundle.generated'
 import {
   badgeDefinitionSchema,
   categoryDefinitionSchema,
@@ -28,12 +29,40 @@ function readJson(filePath: string): unknown {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'))
 }
 
+function loadFromBundle(): ContentStore {
+  const categories = z
+    .array(categoryDefinitionSchema)
+    .parse(BUNDLED_CONTENT.categories)
+    .sort((a, b) => a.order - b.order)
+  const badges = z.array(badgeDefinitionSchema).parse(BUNDLED_CONTENT.badges)
+  const units = z
+    .array(unitDefinitionSchema)
+    .parse(BUNDLED_CONTENT.units)
+    .sort((a, b) => a.order - b.order)
+  const lessons = z
+    .array(lessonContentSchema)
+    .parse(BUNDLED_CONTENT.lessons)
+    .sort((a, b) => a.order - b.order)
+
+  const lessonsById = new Map<string, LessonContent>()
+  for (const lesson of lessons) {
+    lessonsById.set(lesson.id, lesson)
+  }
+
+  return { categories, units, lessons, badges, lessonsById }
+}
+
 export function loadContentStore(forceReload = false): ContentStore {
   if (cachedStore && !forceReload) {
     return cachedStore
   }
 
   const contentDir = path.join(process.cwd(), 'server', 'content')
+  if (!fs.existsSync(path.join(contentDir, 'categories.json'))) {
+    cachedStore = loadFromBundle()
+    return cachedStore
+  }
+
   const categories = z
     .array(categoryDefinitionSchema)
     .parse(readJson(path.join(contentDir, 'categories.json')))
