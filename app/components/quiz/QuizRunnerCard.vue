@@ -17,6 +17,7 @@ export interface QuizQuestionView {
   type: QuestionType
   prompt: string
   hint?: string
+  mediaKey?: string
   mediaCaption?: string
   options?: QuizOption[]
 }
@@ -120,26 +121,10 @@ function handleSubmit() {
     </div>
 
     <div v-if="question.type === 'image_quiz'" class="quiz-card__media">
-      <svg
-        width="320"
-        height="172"
-        viewBox="0 0 260 140"
-        fill="none"
-        role="img"
-        :aria-label="question.mediaCaption || 'Ilustrasi pertanyaan kuis'"
-        class="quiz-card__svg"
-      >
-        <rect width="260" height="140" rx="12" fill="#172330" />
-        <circle cx="40" cy="28" r="2" fill="#FAF7F0" />
-        <circle cx="215" cy="32" r="2.5" fill="#F2B632" />
-        <circle cx="72" cy="110" r="1.5" fill="#FAF7F0" />
-        <circle cx="228" cy="108" r="2" fill="#FAF7F0" />
-        <ellipse cx="130" cy="72" rx="88" ry="22" transform="rotate(-14 130 72)" stroke="#F2B632" stroke-width="6" />
-        <circle cx="130" cy="72" r="38" fill="#E0A31D" />
-        <path d="M96 60c22 6 46 6 68 0" stroke="#824D00" stroke-width="4" stroke-linecap="round" />
-        <path d="M93 74c25 7 49 7 74 0" stroke="#824D00" stroke-width="4" stroke-linecap="round" />
-        <path d="M46 93c28 11 140-17 168-42" stroke="#FEF6E4" stroke-width="3" stroke-linecap="round" />
-      </svg>
+      <QuizMediaIllustration
+        :media-key="question.mediaKey"
+        :caption="question.mediaCaption"
+      />
       <p v-if="question.mediaCaption" class="quiz-card__media-caption">
         {{ question.mediaCaption }}
       </p>

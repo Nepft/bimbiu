@@ -53,8 +53,9 @@ const questions: QuizQuestionView[] = [
     id: 'q-img',
     type: 'image_quiz',
     prompt: 'Berdasarkan gambar di atas, nama planet yang ditunjukkan adalah?',
-    mediaCaption: 'Ilustrasi: Planet keenam dari Matahari dengan cincin es dan batuan',
-    hint: 'Planet ini berada di urutan keenam dari Matahari.',
+    mediaKey: 'quiz-planet',
+    mediaCaption: 'Ilustrasi: Planet biru di tata surya dengan orbit dan satelit alaminya',
+    hint: 'Planet ini berada di urutan kedelapan dari Matahari.',
     options: [
       { id: 'i1', letter: 'A', text: 'Uranus' },
       { id: 'i2', letter: 'B', text: 'Saturnus' },
