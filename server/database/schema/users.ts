@@ -1,4 +1,4 @@
-import { boolean, char, datetime, mysqlTable, uniqueIndex, varchar } from 'drizzle-orm/mysql-core'
+import { boolean, char, datetime, mediumtext, mysqlTable, uniqueIndex, varchar } from 'drizzle-orm/mysql-core'
 
 export const users = mysqlTable(
   'users',
@@ -7,6 +7,7 @@ export const users = mysqlTable(
     googleSub: varchar('google_sub', { length: 120 }).notNull(),
     displayName: varchar('display_name', { length: 60 }).notNull(),
     avatarKey: varchar('avatar_key', { length: 80 }).notNull().default('R1'),
+    customAvatarData: mediumtext('custom_avatar_data'),
     onboardingCompleted: boolean('onboarding_completed').notNull().default(false),
     status: varchar('status', { length: 20 }).notNull().default('active'),
     createdAt: datetime('created_at', { mode: 'date', fsp: 3 }).notNull(),

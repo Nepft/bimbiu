@@ -9,16 +9,27 @@ import {
   verifySignedPayload,
 } from '../utils/auth-crypto'
 
-export const ALLOWED_AVATAR_KEYS = ['R1', 'R2', 'R3', 'R4'] as const
+export const ALLOWED_AVATAR_KEYS = ['R1', 'R2', 'R3', 'R4', 'custom'] as const
 export type AvatarKey = (typeof ALLOWED_AVATAR_KEYS)[number]
 
 export interface LearnerProfileDto {
   id: string
   displayName: string
   avatarKey: string
+  customAvatarData: string | null
   onboardingCompleted: boolean
   status: string
 }
+
+const customAvatarSchema = z
+  .string()
+  .max(350_000, 'Ukuran gambar avatar terlalu besar.')
+  .regex(
+    /^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$/,
+    'Format gambar harus JPG, PNG, atau WebP.',
+  )
+  .nullable()
+  .optional()
 
 export const onboardingInputSchema = z.object({
   displayName: z
@@ -27,8 +38,9 @@ export const onboardingInputSchema = z.object({
     .min(2, 'Nama tampilan minimal 2 huruf.')
     .max(30, 'Nama tampilan maksimal 30 karakter.'),
   avatarKey: z.enum(ALLOWED_AVATAR_KEYS, {
-    message: 'Pilih salah satu avatar bawaan yang tersedia.',
+    message: 'Pilih salah satu avatar bawaan atau unggah gambar sendiri.',
   }),
+  customAvatarData: customAvatarSchema,
   guardianConsent: z.literal(true, {
     message: 'Centang konfirmasi pendampingan orang tua/wali terlebih dahulu.',
   }),
@@ -41,8 +53,9 @@ export const profilePatchInputSchema = z.object({
     .min(2, 'Nama tampilan minimal 2 huruf.')
     .max(30, 'Nama tampilan maksimal 30 karakter.'),
   avatarKey: z.enum(ALLOWED_AVATAR_KEYS, {
-    message: 'Pilih salah satu avatar bawaan yang tersedia.',
+    message: 'Pilih salah satu avatar bawaan atau unggah gambar sendiri.',
   }),
+  customAvatarData: customAvatarSchema,
 })
 
 export const SESSION_TTL_MS = 14 * 24 * 60 * 60 * 1000 // 14 days
@@ -72,6 +85,7 @@ export function toLearnerProfileDto(user: UserRecord): LearnerProfileDto {
     id: user.id,
     displayName: user.displayName,
     avatarKey: user.avatarKey,
+    customAvatarData: user.customAvatarData ?? null,
     onboardingCompleted: Boolean(user.onboardingCompleted),
     status: user.status,
   }
@@ -264,18 +278,26 @@ export const authService = {
 
   async completeOnboarding(userId: string, rawInput: unknown): Promise<LearnerProfileDto> {
     const parsed = onboardingInputSchema.parse(rawInput)
+    if (parsed.avatarKey === 'custom' && !parsed.customAvatarData) {
+      throw new Error('Unggah gambar terlebih dahulu untuk menggunakan avatar kustom.')
+    }
     const updated = await userRepository.completeOnboarding(userId, {
       displayName: parsed.displayName,
       avatarKey: parsed.avatarKey,
+      customAvatarData: parsed.customAvatarData,
     })
     return toLearnerProfileDto(updated)
   },
 
   async updateProfile(userId: string, rawInput: unknown): Promise<LearnerProfileDto> {
     const parsed = profilePatchInputSchema.parse(rawInput)
+    if (parsed.avatarKey === 'custom' && parsed.customAvatarData === null) {
+      throw new Error('Unggah gambar terlebih dahulu untuk menggunakan avatar kustom.')
+    }
     const updated = await userRepository.updateProfile(userId, {
       displayName: parsed.displayName,
       avatarKey: parsed.avatarKey,
+      customAvatarData: parsed.customAvatarData,
     })
     return toLearnerProfileDto(updated)
   },

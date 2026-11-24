@@ -1,15 +1,28 @@
 <script setup lang="ts">
+import type { IllustrationName } from '~/components/ui/BimbiuIllustration.vue'
+
 interface Props {
   displayName?: string
   level?: number
+  avatarKey?: string
+  avatarUrl?: string | null
 }
 
 const props = withDefaults(defineProps<Props>(), {
   displayName: 'Learner',
   level: 1,
+  avatarKey: 'R1',
+  avatarUrl: null,
 })
 
-const initial = computed(() => props.displayName.trim().charAt(0).toUpperCase() || 'L')
+const AVATAR_ILLU_MAP: Record<string, IllustrationName> = {
+  R1: 'avatar-r1',
+  R2: 'avatar-r2',
+  R3: 'avatar-r3',
+  R4: 'avatar-r4',
+}
+
+const presetIllustration = computed<IllustrationName>(() => AVATAR_ILLU_MAP[props.avatarKey] ?? 'avatar-r1')
 </script>
 
 <template>
@@ -20,7 +33,18 @@ const initial = computed(() => props.displayName.trim().charAt(0).toUpperCase() 
       </NuxtLink>
 
       <NuxtLink to="/app/profile" class="learner-topbar__profile" aria-label="Buka profil learner">
-        <span class="learner-topbar__avatar" aria-hidden="true">{{ initial }}</span>
+        <img
+          v-if="avatarKey === 'custom' && avatarUrl"
+          :src="avatarUrl"
+          alt=""
+          class="learner-topbar__avatar-img"
+        >
+        <BimbiuIllustration
+          v-else
+          :name="presetIllustration"
+          :size="26"
+          class="learner-topbar__avatar-svg"
+        />
         <span class="learner-topbar__label">
           {{ displayName }}
         </span>
@@ -104,6 +128,14 @@ const initial = computed(() => props.displayName.trim().charAt(0).toUpperCase() 
   border-radius: var(--radius-pill);
   font-size: 12px;
   font-weight: 700;
+}
+
+.learner-topbar__avatar-img {
+  width: 26px;
+  height: 26px;
+  border-radius: var(--radius-pill);
+  object-fit: cover;
+  border: 1.5px solid var(--action-primary);
 }
 
 @media (min-width: 1024px) {

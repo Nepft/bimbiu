@@ -8,6 +8,7 @@ const { user, completeOnboarding } = useAuth()
 
 const displayName = ref(user.value?.displayName || '')
 const avatarKey = ref(user.value?.avatarKey || 'R1')
+const customAvatarData = ref<string | null>(user.value?.customAvatarData ?? null)
 const guardianChecked = ref(false)
 const formError = ref('')
 const submitting = ref(false)
@@ -28,6 +29,7 @@ async function handleCompleteOnboarding() {
     await completeOnboarding({
       displayName: displayName.value.trim(),
       avatarKey: avatarKey.value,
+      customAvatarData: customAvatarData.value,
       guardianConsent: true,
     })
     await router.push('/app')
@@ -66,7 +68,10 @@ async function handleCompleteOnboarding() {
           <p class="onboarding-avatar-sec__label">
             Pilih Avatar Bawaan
           </p>
-          <AvatarPicker v-model="avatarKey" />
+          <AvatarPicker
+            v-model="avatarKey"
+            v-model:custom-avatar-data="customAvatarData"
+          />
         </div>
 
         <div class="guardian-box">

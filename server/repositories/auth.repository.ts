@@ -42,7 +42,7 @@ export const userRepository = {
 
   async completeOnboarding(
     userId: string,
-    input: { displayName: string; avatarKey: string },
+    input: { displayName: string; avatarKey: string; customAvatarData?: string | null },
   ): Promise<UserRecord> {
     const db = getDb()
     const now = new Date()
@@ -52,6 +52,7 @@ export const userRepository = {
       .set({
         displayName: input.displayName,
         avatarKey: input.avatarKey,
+        ...(input.customAvatarData !== undefined ? { customAvatarData: input.customAvatarData } : {}),
         onboardingCompleted: true,
         updatedAt: now,
       })
@@ -66,7 +67,7 @@ export const userRepository = {
 
   async updateProfile(
     userId: string,
-    input: { displayName: string; avatarKey: string },
+    input: { displayName: string; avatarKey: string; customAvatarData?: string | null },
   ): Promise<UserRecord> {
     const db = getDb()
     const now = new Date()
@@ -76,6 +77,7 @@ export const userRepository = {
       .set({
         displayName: input.displayName,
         avatarKey: input.avatarKey,
+        ...(input.customAvatarData !== undefined ? { customAvatarData: input.customAvatarData } : {}),
         updatedAt: now,
       })
       .where(eq(users.id, userId))

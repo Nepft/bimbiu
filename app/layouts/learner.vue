@@ -1,11 +1,18 @@
 <script setup lang="ts">
 const { user } = useAuth()
+const customAvatarUrl = computed(() =>
+  user.value?.avatarKey === 'custom' ? user.value.customAvatarData : null,
+)
 </script>
 
 <template>
   <div class="layout-learner">
     <a href="#main-content" class="skip-link">Langsung ke konten utama</a>
-    <LearnerTopBar :display-name="user?.displayName || 'Learner'" />
+    <LearnerTopBar
+      :display-name="user?.displayName || 'Learner'"
+      :avatar-key="user?.avatarKey || 'R1'"
+      :avatar-url="customAvatarUrl"
+    />
     <main id="main-content" class="layout-learner__main">
       <slot />
     </main>

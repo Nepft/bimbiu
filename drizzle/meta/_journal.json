@@ -8,6 +8,13 @@
       "when": 1795485845758,
       "tag": "0000_productive_warstar",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1795493187935,
+      "tag": "0001_clear_multiple_man",
+      "breakpoints": true
     }
   ]
 }

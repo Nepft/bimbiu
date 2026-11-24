@@ -16,6 +16,7 @@ export type AppIconName =
   | 'arrow-left'
   | 'arrow-right'
   | 'log-out'
+  | 'upload'
 
 interface Props {
   name: AppIconName
@@ -96,6 +97,10 @@ withDefaults(defineProps<Props>(), {
     </template>
     <template v-else-if="name === 'log-out'">
       <path d="M8 4H4.5V16H8M10.5 10H16.5M13.5 7L16.5 10L13.5 13" />
+    </template>
+    <template v-else-if="name === 'upload'">
+      <path d="M10 13V4.5M6.5 8L10 4.5L13.5 8" />
+      <path d="M4 13.5V15.5H16V13.5" />
     </template>
   </svg>
 </template>

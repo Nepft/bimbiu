@@ -9,6 +9,7 @@ const { user, updateProfile, logout } = useAuth()
 const { data: rewards } = await useFetch<{ level: number; totalXp: number }>('/api/rewards')
 const displayName = ref(user.value?.displayName || 'Learner')
 const avatarKey = ref(user.value?.avatarKey || 'R1')
+const customAvatarData = ref<string | null>(user.value?.customAvatarData ?? null)
 const savedMessage = ref('')
 const saving = ref(false)
 const showLogoutDialog = ref(false)
@@ -17,6 +18,7 @@ watch(user, (nextUser) => {
   if (nextUser) {
     displayName.value = nextUser.displayName
     avatarKey.value = nextUser.avatarKey
+    customAvatarData.value = nextUser.customAvatarData ?? null
   }
 })
 
@@ -28,6 +30,7 @@ const AVATAR_ILLU_MAP: Record<string, IllustrationName> = {
 }
 
 const currentAvatarIllustration = computed<IllustrationName>(() => AVATAR_ILLU_MAP[avatarKey.value] ?? 'avatar-r1')
+const hasActiveCustomAvatar = computed(() => avatarKey.value === 'custom' && Boolean(customAvatarData.value))
 
 async function handleSaveProfile() {
   if (displayName.value.trim().length < 2) {
@@ -41,6 +44,7 @@ async function handleSaveProfile() {
     await updateProfile({
       displayName: displayName.value.trim(),
       avatarKey: avatarKey.value,
+      customAvatarData: customAvatarData.value,
     })
     savedMessage.value = 'Perubahan profil tersimpan.'
   } catch (error: unknown) {
@@ -65,7 +69,13 @@ async function handleConfirmLogout() {
     </h1>
 
     <AppCard padding="md" class="identity-card">
-      <BimbiuIllustration :name="currentAvatarIllustration" :size="64" />
+      <img
+        v-if="hasActiveCustomAvatar"
+        :src="customAvatarData!"
+        :alt="`Avatar ${displayName}`"
+        class="identity-card__custom-avatar"
+      >
+      <BimbiuIllustration v-else :name="currentAvatarIllustration" :size="64" />
       <div class="identity-card__info">
         <h2 class="identity-card__name">
           {{ displayName }}
@@ -89,7 +99,10 @@ async function handleConfirmLogout() {
           <p class="profile-edit__label">
             Pilih Avatar Bawaan
           </p>
-          <AvatarPicker v-model="avatarKey" />
+          <AvatarPicker
+            v-model="avatarKey"
+            v-model:custom-avatar-data="customAvatarData"
+          />
         </div>
 
         <p v-if="savedMessage" class="profile-edit__status" aria-live="polite">
@@ -155,6 +168,15 @@ async function handleConfirmLogout() {
   display: flex;
   align-items: center;
   gap: var(--space-4);
+}
+
+.identity-card__custom-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-pill);
+  object-fit: cover;
+  border: 2px solid var(--action-primary);
+  flex-shrink: 0;
 }
 
 .identity-card__avatar {

@@ -2,6 +2,7 @@ export interface LearnerUser {
   id: string
   displayName: string
   avatarKey: string
+  customAvatarData: string | null
   onboardingCompleted: boolean
   status: string
 }
@@ -36,6 +37,7 @@ export function useAuth() {
   async function completeOnboarding(payload: {
     displayName: string
     avatarKey: string
+    customAvatarData?: string | null
     guardianConsent: boolean
   }): Promise<LearnerUser> {
     const res = await $fetch<{ user: LearnerUser }>('/api/auth/onboarding', {
@@ -50,6 +52,7 @@ export function useAuth() {
   async function updateProfile(payload: {
     displayName: string
     avatarKey: string
+    customAvatarData?: string | null
   }): Promise<LearnerUser> {
     const res = await $fetch<{ user: LearnerUser }>('/api/profile', {
       method: 'PATCH',

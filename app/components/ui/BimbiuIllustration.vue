@@ -28,6 +28,23 @@ export type IllustrationName =
   | 'icon-lesson'
   | 'icon-level'
   | 'icon-xp'
+  | 'badge-star-teal'
+  | 'badge-crown-gold'
+  | 'badge-crown-coral'
+  | 'badge-circle-sky'
+  | 'badge-star-coral'
+  | 'badge-gem-gold'
+  | 'badge-circle-coral'
+  | 'badge-tri-teal'
+  | 'badge-circle-teal'
+  | 'badge-rect-amber'
+  | 'badge-circle-blue'
+  | 'badge-rect-teal'
+  | 'badge-circle-gold'
+  | 'badge-star-gold'
+  | 'badge-rect-coral'
+  | 'badge-tri-blue'
+  | 'badge-rect-gold'
 
 interface Props {
   name: IllustrationName
@@ -457,6 +474,81 @@ const dims = computed(() => {
   >
     <rect width="28" height="28" rx="8" fill="#172330" />
     <path d="M15 4L8 15H13.5L12 24L20 12.5H14.5L15 4Z" fill="#F2B632" stroke="#8C5E00" stroke-width="1" stroke-linejoin="round" />
+  </svg>
+  <svg
+    v-else-if="name.startsWith('badge-')"
+    :width="dims.w"
+    :height="dims.h"
+    viewBox="0 0 44 44"
+    fill="none"
+    aria-hidden="true"
+  >
+    <rect width="44" height="44" rx="12" fill="#172330" />
+    <circle
+      cx="22"
+      cy="22"
+      r="15"
+      :fill="
+        name.endsWith('-gold') ? '#F2B632'
+        : name.endsWith('-coral') ? '#C94A4A'
+        : name.endsWith('-sky') ? '#3A94D6'
+        : name.endsWith('-amber') ? '#8C5E00'
+        : name.endsWith('-blue') ? '#1E4D8C'
+        : '#219E8A'
+      "
+      fill-opacity="0.22"
+    />
+    <polygon
+      v-if="name.startsWith('badge-star-')"
+      points="22,10 25,18.5 34,22 25,25.5 22,34 19,25.5 10,22 19,18.5"
+      :fill="name.endsWith('-gold') ? '#F2B632' : name.endsWith('-coral') ? '#C94A4A' : '#219E8A'"
+    />
+    <polygon
+      v-else-if="name.startsWith('badge-crown-')"
+      points="22,10 25,18 33,18.5 27,23.5 29,31.5 22,27 15,31.5 17,23.5 11,18.5 19,18"
+      :fill="name.endsWith('-coral') ? '#C94A4A' : '#F2B632'"
+    />
+    <polygon
+      v-else-if="name.startsWith('badge-gem-')"
+      points="22,11 31,16.5 31,27.5 22,33 13,27.5 13,16.5"
+      fill="#F2B632"
+    />
+    <polygon
+      v-else-if="name.startsWith('badge-tri-')"
+      points="22,12 32,30 12,30"
+      :fill="name.endsWith('-blue') ? '#1E4D8C' : '#219E8A'"
+    />
+    <template v-else-if="name.startsWith('badge-rect-')">
+      <rect
+        x="13"
+        y="12"
+        width="18"
+        height="20"
+        rx="4"
+        :fill="
+          name.endsWith('-gold') ? '#F2B632'
+          : name.endsWith('-coral') ? '#C94A4A'
+          : name.endsWith('-amber') ? '#8C5E00'
+          : '#0F6A5B'
+        "
+      />
+      <rect x="19" y="16" width="6" height="12" rx="2" fill="#FAF7F0" />
+    </template>
+    <template v-else>
+      <circle
+        cx="22"
+        cy="22"
+        r="10"
+        :fill="
+          name.endsWith('-coral') ? '#C94A4A'
+          : name.endsWith('-sky') ? '#3A94D6'
+          : name.endsWith('-blue') ? '#1E4D8C'
+          : name.endsWith('-gold') ? '#F2B632'
+          : '#219E8A'
+        "
+      />
+      <rect x="18" y="18" width="8" height="8" rx="2" fill="#FAF7F0" />
+    </template>
   </svg>
   <svg
     v-else

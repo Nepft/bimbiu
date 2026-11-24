@@ -27,6 +27,9 @@ const totalXp = computed(() => rewards.value?.totalXp ?? 0)
 const nextLevelXp = computed(() => rewards.value?.nextLevelXp ?? 100)
 const xpToNextLevel = computed(() => rewards.value?.xpToNextLevel ?? 100)
 
+const coreBadges = computed(() => (rewards.value?.badges ?? []).slice(0, 4))
+const newBadges = computed(() => (rewards.value?.badges ?? []).slice(4))
+
 function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
   if (!b.earned) return 'Belum terbuka'
   if (!b.awardedAt) return 'Diperoleh'
@@ -75,7 +78,35 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
       </h2>
       <div class="badges-grid">
         <article
-          v-for="b in rewards?.badges ?? []"
+          v-for="b in coreBadges"
+          :key="b.id"
+          class="badge-card"
+          :class="{ 'badge-card--earned': b.earned }"
+        >
+          <div class="badge-card__top">
+            <BimbiuIllustration :name="(b.icon as IllustrationName)" :size="44" />
+            <StatusBadge v-if="b.earned" label="Diraih" tone="accent" />
+          </div>
+          <h3 class="badge-card__title">
+            {{ b.name }}
+          </h3>
+          <p class="badge-card__desc">
+            {{ b.description }}
+          </p>
+          <p class="badge-card__status" :class="{ 'badge-card__status--earned': b.earned }">
+            {{ formatBadgeStatus(b) }}
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section v-if="newBadges.length" class="badges-section">
+      <h2 class="badges-section__title">
+        Koleksi Badge Baru
+      </h2>
+      <div class="badges-grid badges-grid--3col">
+        <article
+          v-for="b in newBadges"
           :key="b.id"
           class="badge-card"
           :class="{ 'badge-card--earned': b.earned }"
@@ -240,6 +271,12 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
 @media (min-width: 640px) {
   .badges-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .badges-grid--3col {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 </style>

@@ -63,12 +63,29 @@ describe('auth.service schemas and DTO', () => {
     expect(invalidAvatar.success).toBe(false)
   })
 
+  it('validates custom avatar data URI and rejects unsafe formats', () => {
+    const validCustom = profilePatchInputSchema.safeParse({
+      displayName: 'Rafi',
+      avatarKey: 'custom',
+      customAvatarData: 'data:image/webp;base64,UklGRh4AAABXRUJQVlA4',
+    })
+    expect(validCustom.success).toBe(true)
+
+    const invalidSvg = profilePatchInputSchema.safeParse({
+      displayName: 'Rafi',
+      avatarKey: 'custom',
+      customAvatarData: 'data:image/svg+xml;base64,PHN2Zz4=',
+    })
+    expect(invalidSvg.success).toBe(false)
+  })
+
   it('sanitizes learner DTO without exposing googleSub', () => {
     const dto = toLearnerProfileDto({
       id: 'user-1',
       googleSub: 'google-sub-secret-999',
       displayName: 'Rafi',
       avatarKey: 'R1',
+      customAvatarData: null,
       onboardingCompleted: true,
       status: 'active',
       createdAt: new Date(),
@@ -79,6 +96,7 @@ describe('auth.service schemas and DTO', () => {
       id: 'user-1',
       displayName: 'Rafi',
       avatarKey: 'R1',
+      customAvatarData: null,
       onboardingCompleted: true,
       status: 'active',
     })
