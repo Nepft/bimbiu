@@ -1,0 +1,147 @@
+{
+  "id": "daily-health-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "everyday-knowledge",
+  "unitId": "health-nutrition",
+  "title": "Membaca Label Kemasan Makanan",
+  "description": "Belajar memeriksa tanggal kedaluwarsa, komposisi bahan, dan informasi nilai gizi pada kemasan.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["daily-health-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "daily-health-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Hal pertama yang harus diperiksa pada kemasan makanan atau minuman sebelum dibeli di toko adalah...",
+      "hint": "Jangan sampai membeli makanan yang sudah rusak atau basi.",
+      "explanation": "Kita perlu mengecek kondisi kemasan (tidak rusak/menggelembung) dan tanggal kedaluwarsa agar makanan aman dikonsumsi.",
+      "options": [
+        { "id": "a", "text": "Warna gambar kartun di bungkusnya" },
+        { "id": "b", "text": "Tanggal kedaluwarsa dan keutuhan kemasan" },
+        { "id": "c", "text": "Harga yang paling mahal" },
+        { "id": "d", "text": "Ukuran huruf mereknya" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "daily-health-05-q02",
+      "type": "true_false",
+      "prompt": "Pada daftar komposisi makanan kemasan, bahan yang jumlahnya paling banyak ditulis di urutan paling awal.",
+      "hint": "Urutan komposisi disusun dari bahan terbanyak hingga paling sedikit.",
+      "explanation": "Benar! Jika bahan pertama yang tertulis adalah gula, berarti makanan tersebut didominasi oleh gula.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-health-05-q03",
+      "type": "multiple_select",
+      "prompt": "Ciri kemasan makanan kaleng atau kotak susu yang TIDAK aman untuk dibeli adalah...",
+      "hint": "Perhatikan bentuk kaleng, kebocoran, dan tanggalnya.",
+      "explanation": "Kaleng penyok atau menggembung, kemasan bocor, serta tanggal kedaluwarsa yang lewat menandakan makanan berisiko tercemar bakteri.",
+      "options": [
+        { "id": "a", "text": "Kaleng berkarat atau menggembung" },
+        { "id": "b", "text": "Kemasan robek atau bocor" },
+        { "id": "c", "text": "Tanggal kedaluwarsa sudah terlewat" },
+        { "id": "d", "text": "Terdapat nomor izin edar BPOM yang jelas" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-health-05-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Badan di Indonesia yang bertugas mengawasi keamanan obat dan makanan kemasan memiliki singkatan...",
+      "hint": "Singkatan ini terdiri dari 4 huruf, dimulai dengan huruf B.",
+      "explanation": "BPOM (Badan Pengawas Obat dan Makanan) memastikan produk kemasan yang beredar memenuhi standar keamanan dan mutu.",
+      "correctAnswer": {
+        "acceptedAnswers": ["BPOM", "bpom", "Bpom"]
+      }
+    },
+    {
+      "id": "daily-health-05-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Label Informasi Nilai Gizi pada sebotol minuman teh manis bertuliskan: 'Takaran saji: 250 ml, Jumlah sajian per kemasan: 2, Gula per sajian: 18 gram'.",
+      "prompt": "Jika Rina meminum habis satu botol tersebut sendirian, berapa gram gula yang masuk ke tubuhnya?",
+      "hint": "Satu botol berisi 2 sajian, kalikan jumlah gula per sajian dengan 2.",
+      "explanation": "Karena ada 2 sajian dalam 1 botol, total gula yang diminum adalah 18 gram × 2 = 36 gram gula.",
+      "options": [
+        { "id": "a", "text": "18 gram" },
+        { "id": "b", "text": "36 gram" },
+        { "id": "c", "text": "9 gram" },
+        { "id": "d", "text": "20 gram" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "daily-health-05-q06",
+      "type": "multiple_choice",
+      "prompt": "Dalam tabel Informasi Nilai Gizi, kata 'Natrium' menunjukkan kandungan zat apa pada makanan?",
+      "hint": "Zat ini memberikan rasa asin pada keripik atau mi instan.",
+      "explanation": "Natrium (sodium) adalah komponen utama garam dapur. Konsumsi natrium berlebihan tidak baik bagi kesehatan jantung dan ginjal.",
+      "options": [
+        { "id": "a", "text": "Vitamin A" },
+        { "id": "b", "text": "Garam" },
+        { "id": "c", "text": "Serat buah" },
+        { "id": "d", "text": "Air mineral" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "daily-health-05-q07",
+      "type": "true_false",
+      "prompt": "Makanan kemasan yang berwarna sangat mencolok belum tentu aman karena bisa saja memakai pewarna bukan untuk makanan.",
+      "hint": "Warna yang terlalu terang bisa berasal dari pewarna tekstil yang berbahaya.",
+      "explanation": "Benar! Kita harus berhati-hati pada jajanan berwarna sangat mencolok dan tanpa label izin edar yang jelas.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-health-05-q08",
+      "type": "multiple_select",
+      "prompt": "Informasi apa saja yang biasanya tercantum pada label kemasan makanan resmi?",
+      "hint": "Label resmi membantu konsumen mengetahui isi dan batas aman konsumsi produk.",
+      "explanation": "Label resmi memuat nama produk, daftar komposisi, tanggal kedaluwarsa, informasi nilai gizi, dan nomor izin edar.",
+      "options": [
+        { "id": "a", "text": "Daftar komposisi bahan" },
+        { "id": "b", "text": "Tanggal kedaluwarsa" },
+        { "id": "c", "text": "Informasi nilai gizi" },
+        { "id": "d", "text": "Nama teman sekelas pembeli" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-health-05-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Pada kemasan makanan, tulisan 'EXP' merupakan singkatan dari 'Expired Date' yang artinya tanggal...",
+      "hint": "Setelah melewati tanggal ini, makanan tidak boleh dimakan lagi.",
+      "explanation": "EXP menunjukkan tanggal kedaluwarsa atau batas akhir makanan aman untuk dikonsumsi.",
+      "correctAnswer": {
+        "acceptedAnswers": ["kedaluwarsa", "Kedaluwarsa", "kadaluarsa", "Kadaluarsa"]
+      }
+    },
+    {
+      "id": "daily-health-05-q10",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Dua kemasan biskuit: Kemasan A bertuliskan komposisi pertama 'Gula, Minyak Nabati, Tepung Terigu' dengan gula 16g per saji. Kemasan B bertuliskan 'Gandum Utuh, Oat, Susu Skim, Gula' dengan gula 4g per saji.",
+      "prompt": "Biskuit manakah yang merupakan pilihan camilan lebih sehat?",
+      "hint": "Pilih yang bahan utamanya gandum utuh dan memiliki kadar gula lebih rendah.",
+      "explanation": "Kemasan B berbahan utama gandum utuh dan oat yang kaya serat serta kandungan gulanya jauh lebih rendah.",
+      "options": [
+        { "id": "a", "text": "Kemasan A" },
+        { "id": "b", "text": "Kemasan B" },
+        { "id": "c", "text": "Keduanya sama tingginya gula" },
+        { "id": "d", "text": "Kemasan A karena bahan utamanya gula" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

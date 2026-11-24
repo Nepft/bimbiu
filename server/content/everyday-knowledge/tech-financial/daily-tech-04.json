@@ -1,0 +1,147 @@
+{
+  "id": "daily-tech-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "everyday-knowledge",
+  "unitId": "tech-financial",
+  "title": "Kebutuhan vs Keinginan",
+  "description": "Membedakan barang yang benar-benar dibutuhkan dengan keinginan sesaat saat mengelola uang saku.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["daily-tech-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "daily-tech-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Manakah di bawah ini yang termasuk KEBUTUHAN bagi seorang pelajar?",
+      "hint": "Kebutuhan adalah hal penting yang harus dipenuhi agar bisa hidup sehat dan belajar dengan baik.",
+      "explanation": "Buku tulis dan alat tulis adalah kebutuhan utama agar siswa dapat mengikuti pelajaran di sekolah.",
+      "options": [
+        { "id": "a", "text": "Buku tulis dan pensil untuk belajar" },
+        { "id": "b", "text": "Gantungan kunci karakter edisi terbatas padahal sudah punya banyak" },
+        { "id": "c", "text": "Jajanan permen warna-warni setiap jam" },
+        { "id": "d", "text": "Kulit karakter berbayar di dalam gim" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-tech-04-q02",
+      "type": "true_false",
+      "prompt": "Keinginan adalah sesuatu yang jika tidak segera dibeli tidak akan mengganggu kesehatan atau kegiatan belajar kita.",
+      "hint": "Bedakan antara barang wajib (seperti makanan bergizi) dengan barang pelengkap hiburan.",
+      "explanation": "Benar! Keinginan bersifat tambahan dan masih bisa ditunda tanpa mengganggu kelangsungan hidup maupun belajar.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-tech-04-q03",
+      "type": "multiple_select",
+      "prompt": "Pilihlah barang-barang yang termasuk kebutuhan pokok atau kebutuhan penting anak sekolah!",
+      "hint": "Tanpa barang-barang ini, aktivitas sehari-hari atau sekolah akan terganggu.",
+      "explanation": "Makanan sehat, seragam sekolah yang layak, dan obat saat sakit adalah kebutuhan penting. Mainan baru yang mirip dengan yang sudah dimiliki adalah keinginan.",
+      "options": [
+        { "id": "a", "text": "Makanan bergizi dan air minum" },
+        { "id": "b", "text": "Seragam dan sepatu sekolah yang layak" },
+        { "id": "c", "text": "Obat saat sedang sakit" },
+        { "id": "d", "text": "Koleksi stiker mahal untuk ditempel di dinding" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-tech-04-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Saat uang saku kita terbatas, kita harus membuat skala ... yaitu mendahulukan hal yang paling penting terlebih dahulu.",
+      "hint": "Kata ini diawali huruf 'p' dan berarti urutan hal yang paling utama.",
+      "explanation": "Skala prioritas membantu kita menentukan mana kebutuhan mendesak yang harus didahulukan sebelum keinginan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["prioritas", "Prioritas"]
+      }
+    },
+    {
+      "id": "daily-tech-04-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Di toko alat tulis, Andi membawa uang Rp20.000. Ia butuh buku catatan matematika Rp12.000, tetapi melihat mainan robot plastik seharga Rp18.000 di rak depan.",
+      "prompt": "Keputusan paling bijak yang harus diambil Andi adalah...",
+      "hint": "Dahulukan barang yang dibutuhkan untuk pelajaran besok.",
+      "explanation": "Andi harus membeli buku catatan matematika sebagai kebutuhan sekolah, lalu sisa Rp8.000 dapat ditabung.",
+      "options": [
+        { "id": "a", "text": "Membeli buku catatan matematika dulu, lalu menyimpan sisa uangnya" },
+        { "id": "b", "text": "Membeli mainan robot dan tidak punya buku matematika" },
+        { "id": "c", "text": "Menghabiskan seluruh uang untuk permen" },
+        { "id": "d", "text": "Meminjam uang teman untuk membeli keduanya sekarang juga" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-tech-04-q06",
+      "type": "multiple_choice",
+      "prompt": "Mengapa kita perlu berpikir sejenak sebelum membeli barang yang sedang promo atau diskon?",
+      "hint": "Barang murah belum tentu benar-benar kita perlukan.",
+      "explanation": "Barang diskon tetap memboroskan uang jika sebenarnya tidak kita butuhkan atau hanya tergiur tulisan promo.",
+      "options": [
+        { "id": "a", "text": "Untuk memastikan barang itu memang dibutuhkan, bukan sekadar tergiur harga murah" },
+        { "id": "b", "text": "Karena barang diskon pasti rusak" },
+        { "id": "c", "text": "Supaya kasir toko menunggu lama" },
+        { "id": "d", "text": "Karena uang kertas tidak laku saat ada promo" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-tech-04-q07",
+      "type": "true_false",
+      "prompt": "Membeli sepatu baru karena sepatu lama sudah robek dan sempit termasuk memenuhi kebutuhan, bukan sekadar keinginan.",
+      "hint": "Sepatu lama tidak lagi layak melindungi kaki saat ke sekolah.",
+      "explanation": "Benar! Mengganti sepatu yang rusak atau kekecilan agar kaki terlindungi di sekolah adalah kebutuhan.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-tech-04-q08",
+      "type": "multiple_select",
+      "prompt": "Pertanyaan apa yang bisa kita tanyakan pada diri sendiri sebelum membeli barang keinginan?",
+      "hint": "Latih kebiasaan menahan diri agar tidak mudah menyesal setelah membeli.",
+      "explanation": "Menanyakan apakah barang itu akan sering dipakai, apakah masih punya barang serupa di rumah, dan apakah uang tabungan cukup membantu keputusan bijak.",
+      "options": [
+        { "id": "a", "text": "Apakah aku sudah punya barang yang fungsinya sama di rumah?" },
+        { "id": "b", "text": "Apakah barang ini masih akan kusukai dan kupakai bulan depan?" },
+        { "id": "c", "text": "Apakah membelinya tidak mengganggu uang tabungan untuk kebutuhanku?" },
+        { "id": "d", "text": "Apakah semua teman sekelasku wajib punya barang ini?" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-tech-04-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Membeli barang secara terburu-buru hanya karena dorongan emosi sesaat tanpa direncanakan disebut belanja...",
+      "hint": "Lawan dari terencana; kata serapan yang berawalan huruf 'i' (impul...).",
+      "explanation": "Belanja impulsif membuat uang cepat habis untuk barang-barang yang kurang berguna.",
+      "correctAnswer": {
+        "acceptedAnswers": ["impulsif", "Impulsif"]
+      }
+    },
+    {
+      "id": "daily-tech-04-q10",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Sari membuat tabel dua kolom di buku catatannya. Kolom Kiri berisi: 'Penghapus baru, Bekal makan siang, Iuran pramuka'. Kolom Kanan berisi: 'Boneka kelinci ke-5, Minuman boba setiap hari, Stiker berkilau'.",
+      "prompt": "Judul yang tepat untuk Kolom Kanan pada tabel Sari adalah...",
+      "hint": "Barang-barang di kolom kanan bukan kebutuhan mendesak untuk sekolah.",
+      "explanation": "Boneka kelinci ke-5, minuman boba harian, dan stiker berkilau adalah contoh keinginan karena Sari bisa menundanya tanpa masalah.",
+      "options": [
+        { "id": "a", "text": "Keinginan" },
+        { "id": "b", "text": "Kebutuhan Pokok" },
+        { "id": "c", "text": "Barang Darurat" },
+        { "id": "d", "text": "Tabungan Masa Depan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "geo-world-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "world-landmarks",
+  "title": "Ibu Kota dan Julukan Negara Populer",
+  "description": "Uji pengetahuanmu tentang ibu kota, julukan unik, dan letak negara-negara terkenal di dunia.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["geo-world-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-world-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Negara manakah yang mendapat julukan Negeri Matahari Terbit dan beribu kota di Tokyo?",
+      "hint": "Negara kepulauan di Asia Timur yang terkenal dengan bunga sakura.",
+      "explanation": "Jepang dijuluki Negeri Matahari Terbit (Nihon/Nippon) dengan ibu kota Tokyo.",
+      "options": [
+        { "id": "a", "text": "Tiongkok" },
+        { "id": "b", "text": "Jepang" },
+        { "id": "c", "text": "Korea Selatan" },
+        { "id": "d", "text": "India" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-world-02-q02",
+      "type": "true_false",
+      "prompt": "Ibu kota negara Amerika Serikat adalah Kota New York.",
+      "hint": "Gedung Putih tempat tinggal Presiden AS bukan berada di New York.",
+      "explanation": "Salah! Meskipun New York sangat terkenal, ibu kota Amerika Serikat adalah Washington, D.C.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "geo-world-02-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Ibu kota negara Inggris (Britania Raya) yang terkenal dengan menara jam Big Ben dan Sungai Thames adalah ...",
+      "hint": "Namanya berawalan huruf L.",
+      "explanation": "London adalah ibu kota Inggris dan Britania Raya yang dilewati Sungai Thames.",
+      "correctAnswer": {
+        "acceptedAnswers": ["London", "london"]
+      }
+    },
+    {
+      "id": "geo-world-02-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua pasangan negara dan ibu kota yang benar!",
+      "hint": "Periksa setiap kota dengan cermat; Sydney bukan ibu kota Australia.",
+      "explanation": "Prancis beribu kota di Paris dan Korea Selatan beribu kota di Seoul. Ibu kota Australia adalah Canberra dan ibu kota Tiongkok adalah Beijing.",
+      "options": [
+        { "id": "a", "text": "Prancis - Paris" },
+        { "id": "b", "text": "Australia - Sydney" },
+        { "id": "c", "text": "Korea Selatan - Seoul" },
+        { "id": "d", "text": "Tiongkok - Shanghai" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-world-02-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Di ujung timur laut Benua Afrika terdapat negara kuno yang dialiri Sungai Nil.",
+      "prompt": "Apakah nama ibu kota negara Mesir yang berada tidak jauh dari Piramida Giza?",
+      "hint": "Kota ini adalah salah satu kota terbesar di Afrika dan Timur Tengah.",
+      "explanation": "Kairo adalah ibu kota negara Mesir dan terletak dekat delta Sungai Nil serta kompleks Piramida Giza.",
+      "options": [
+        { "id": "a", "text": "Nairobi" },
+        { "id": "b", "text": "Kairo" },
+        { "id": "c", "text": "Casablanca" },
+        { "id": "d", "text": "Riyadh" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-world-02-q06",
+      "type": "multiple_choice",
+      "prompt": "Negara di Eropa yang mendapat julukan Negeri Kincir Angin dan terkenal dengan bunga tulipnya adalah ...",
+      "hint": "Ibu kotanya adalah Amsterdam.",
+      "explanation": "Belanda terkenal dengan kincir angin tradisional, kebun bunga tulip, dan sistem kanal airnya.",
+      "options": [
+        { "id": "a", "text": "Belanda" },
+        { "id": "b", "text": "Jerman" },
+        { "id": "c", "text": "Spanyol" },
+        { "id": "d", "text": "Swiss" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "geo-world-02-q07",
+      "type": "true_false",
+      "prompt": "Ibu kota negara Australia adalah Canberra, bukan Sydney maupun Melbourne.",
+      "hint": "Kota ini memang dibangun di antara Sydney dan Melbourne sebagai pusat pemerintahan.",
+      "explanation": "Benar! Canberra dipilih sebagai ibu kota Australia pada awal abad ke-20 agar adil di antara Sydney dan Melbourne.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-world-02-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Ibu kota negara Tiongkok (China) yang memiliki kompleks Istana Terlarang (Forbidden City) adalah ...",
+      "hint": "Namanya berawalan huruf B.",
+      "explanation": "Beijing adalah ibu kota Tiongkok sekaligus pusat sejarah yang menyimpan Istana Terlarang.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Beijing", "beijing"]
+      }
+    },
+    {
+      "id": "geo-world-02-q09",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua negara yang terkenal dengan julukan yang benar!",
+      "hint": "Daun maple ada di bendera Kanada, dan gajah putih lekat dengan budaya Thailand.",
+      "explanation": "Kanada dijuluki Negeri Daun Maple dan Thailand dikenal sebagai Negeri Gajah Putih. Negeri Panda adalah julukan untuk Tiongkok, bukan Italia.",
+      "options": [
+        { "id": "a", "text": "Kanada sebagai Negeri Daun Maple" },
+        { "id": "b", "text": "Italia sebagai Negeri Panda" },
+        { "id": "c", "text": "Thailand sebagai Negeri Gajah Putih" },
+        { "id": "d", "text": "Mesir sebagai Negeri Sakura" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-world-02-q10",
+      "type": "multiple_choice",
+      "prompt": "Negara manakah yang terkenal dengan julukan Negeri Tirai Bambu?",
+      "hint": "Tanaman bambu menjadi makanan utama hewan panda di negara ini.",
+      "explanation": "Tiongkok sering dijuluki Negeri Tirai Bambu dan juga dikenal sebagai rumah alami bagi panda raksasa.",
+      "options": [
+        { "id": "a", "text": "India" },
+        { "id": "b", "text": "Tiongkok" },
+        { "id": "c", "text": "Brasil" },
+        { "id": "d", "text": "Turki" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

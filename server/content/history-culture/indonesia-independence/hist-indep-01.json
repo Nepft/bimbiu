@@ -1,0 +1,145 @@
+{
+  "id": "hist-indep-01",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "indonesia-independence",
+  "title": "Perlawanan Pahlawan Daerah",
+  "description": "Mengenal keberanian pahlawan dari berbagai daerah Nusantara dalam melawan penjajahan.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 1,
+  "prerequisites": [],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-indep-01-q01",
+      "type": "multiple_choice",
+      "prompt": "Pahlawan nasional yang memimpin Perang Jawa melawan Belanda pada tahun 1825–1830 adalah...",
+      "hint": "Beliau sering digambarkan mengenakan jubah putih dan sorban serta menunggang kuda.",
+      "explanation": "Pangeran Diponegoro memimpin Perang Jawa selama lima tahun melawan pemerintah kolonial Belanda.",
+      "options": [
+        { "id": "a", "text": "Pangeran Diponegoro" },
+        { "id": "b", "text": "Kapitan Pattimura" },
+        { "id": "c", "text": "Tuanku Imam Bonjol" },
+        { "id": "d", "text": "Pangeran Antasari" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-01-q02",
+      "type": "true_false",
+      "prompt": "Cut Nyak Dhien adalah pahlawan perempuan tangguh yang berjuang memimpin perlawanan di Aceh.",
+      "hint": "Kisah perjuangannya berasal dari Tanah Rencong di ujung barat Indonesia.",
+      "explanation": "Benar, Cut Nyak Dhien berjuang bersama rakyat Aceh mempertahankan tanah airnya dari penjajah Belanda.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-indep-01-q03",
+      "type": "multiple_choice",
+      "prompt": "Kapitan Pattimura yang memiliki nama asli Thomas Matulessy memimpin perjuangan rakyat di daerah...",
+      "hint": "Daerah ini terkenal sebagai kepulauan penghasil rempah cengkih dan pala.",
+      "explanation": "Kapitan Pattimura memimpin rakyat Maluku merebut Benteng Duurstede di Saparua pada tahun 1817.",
+      "options": [
+        { "id": "a", "text": "Kalimantan" },
+        { "id": "b", "text": "Maluku" },
+        { "id": "c", "text": "Bali" },
+        { "id": "d", "text": "Minangkabau" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "hist-indep-01-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Tokoh ulama dan pemimpin Perang Padri di Sumatra Barat yang diabadikan namanya pada gambar uang dan nama jalan adalah Tuanku Imam...",
+      "hint": "Namanya diakhiri nama sebuah daerah di Sumatra Barat.",
+      "explanation": "Tuanku Imam Bonjol memimpin perjuangan rakyat Minangkabau dalam Perang Padri di Sumatra Barat.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Bonjol", "Imam Bonjol", "Tuanku Imam Bonjol"]
+      }
+    },
+    {
+      "id": "hist-indep-01-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi benteng batu bersejarah di pesisir Saparua yang pernah direbut oleh pasukan rakyat Maluku pada tahun 1817.",
+      "prompt": "Nama benteng Belanda di Pulau Saparua, Maluku yang berhasil direbut oleh Kapitan Pattimura dan pasukannya adalah...",
+      "hint": "Namanya diawali huruf D dan berbunyi 'Duur...'.",
+      "explanation": "Benteng Duurstede di Saparua berhasil dikuasai oleh pasukan Kapitan Pattimura pada 16 Mei 1817.",
+      "options": [
+        { "id": "a", "text": "Benteng Duurstede" },
+        { "id": "b", "text": "Benteng Rotterdam" },
+        { "id": "c", "text": "Benteng Marlborough" },
+        { "id": "d", "text": "Benteng Vredeburg" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-01-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua pasangan pahlawan nasional dan daerah asalnya yang benar!",
+      "hint": "Ingat perjuangan di Kalimantan Selatan dan Sumatra Utara.",
+      "explanation": "Pangeran Antasari berjuang di Kalimantan Selatan (Kesultanan Banjar), sedangkan Sisingamangaraja XII berasal dari Tanah Batak, Sumatra Utara.",
+      "options": [
+        { "id": "a", "text": "Pangeran Antasari — Kalimantan Selatan" },
+        { "id": "b", "text": "Sisingamangaraja XII — Sumatra Utara" },
+        { "id": "c", "text": "Cut Nyak Dhien — Papua" },
+        { "id": "d", "text": "Sultan Hasanuddin — Jawa Barat" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-indep-01-q07",
+      "type": "multiple_choice",
+      "prompt": "Mengapa perlawanan rakyat Indonesia terhadap penjajah sebelum tahun 1908 sering kali dapat dipatahkan Belanda?",
+      "hint": "Perhatikan persatuan antardaerah saat itu.",
+      "explanation": "Perlawanan sebelum tahun 1908 masih bersifat kedaerahan dan belum bersatu secara nasional sehingga mudah dipecah belah.",
+      "options": [
+        { "id": "a", "text": "Karena perjuangan masih bersifat kedaerahan dan belum bersatu" },
+        { "id": "b", "text": "Karena rakyat tidak mencintai tanah airnya" },
+        { "id": "c", "text": "Karena semua daerah sudah memiliki pesawat tempur" },
+        { "id": "d", "text": "Karena penjajah tidak pernah datang ke pulau Jawa" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-01-q08",
+      "type": "true_false",
+      "prompt": "Pahlawan perempuan dari Maluku yang ikut bertempur mendampingi Pattimura dan tetap berjuang di usia muda adalah Martha Christina Tiahahu.",
+      "hint": "Namanya juga diabadikan menjadi nama kapal perang dan monumen di Ambon.",
+      "explanation": "Benar, Martha Christina Tiahahu adalah pahlawan nasional perempuan dari Nusa Laut, Maluku.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-indep-01-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Strategi perang yang digunakan Pangeran Diponegoro dengan menyerang tiba-tiba lalu bersembunyi disebut perang...",
+      "hint": "Kata ini berawalan huruf G dan mirip dengan teknik pasukan kecil yang lincah.",
+      "explanation": "Perang gerilya adalah taktik perang dengan serangan mendadak dari tempat tersembunyi untuk melemahkan pasukan musuh yang lebih besar.",
+      "correctAnswer": {
+        "acceptedAnswers": ["gerilya", "perang gerilya"]
+      }
+    },
+    {
+      "id": "hist-indep-01-q10",
+      "type": "multiple_choice",
+      "prompt": "Nilai luhur apa yang paling utama dapat kita contoh dari para pahlawan daerah tersebut?",
+      "hint": "Mereka berjuang demi membela rakyat dan tanah air meski menghadapi banyak rintangan.",
+      "explanation": "Para pahlawan mengajarkan keberanian, cinta tanah air, dan rela berkorban demi kebebasan bersama.",
+      "options": [
+        { "id": "a", "text": "Keberanian dan rela berkorban demi tanah air" },
+        { "id": "b", "text": "Sikap mudah menyerah saat menghadapi kesulitan" },
+        { "id": "c", "text": "Keinginan menguasai harta orang lain" },
+        { "id": "d", "text": "Menghindari kerja sama dengan teman" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "hist-world-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "world-civilizations",
+  "title": "Penemuan Penting yang Mengubah Dunia",
+  "description": "Mengenal para penemu hebat di balik roda, mesin cetak, mesin uap, telepon, lampu pijar, dan pesawat terbang.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["hist-world-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-world-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Siapakah tokoh asal Jerman yang mengembangkan mesin cetak berhuruf lepas pada abad ke-15 sehingga buku dapat dicetak jauh lebih cepat?",
+      "hint": "Nama belakangnya adalah Gutenberg.",
+      "explanation": "Johannes Gutenberg menciptakan mesin cetak huruf logam yang dapat dipindah-pindahkan sehingga buku ilmu pengetahuan menyebar luas ke masyarakat.",
+      "options": [
+        { "id": "a", "text": "Johannes Gutenberg" },
+        { "id": "b", "text": "Thomas Alva Edison" },
+        { "id": "c", "text": "Alexander Graham Bell" },
+        { "id": "d", "text": "Wilbur Wright" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-world-04-q02",
+      "type": "true_false",
+      "prompt": "Sebelum ditemukannya roda, manusia harus menyeret atau memikul barang berat sehingga penemuan roda sangat memudahkan transportasi.",
+      "hint": "Roda awalnya juga digunakan sebagai alat pembuat tembikar sebelum dipasang pada kereta.",
+      "explanation": "Benar, penemuan roda sekitar 5.500 tahun lalu mengubah cara manusia mengangkut barang dan melakukan perjalanan jauh.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-world-04-q03",
+      "type": "multiple_choice",
+      "prompt": "Ilmuwan yang menyempurnakan mesin uap pada abad ke-18 dan memicu berkembangnya kereta api serta pabrik modern adalah...",
+      "hint": "Namanya diabadikan sebagai satuan daya listrik (W).",
+      "explanation": "James Watt menyempurnakan mesin uap agar lebih efisien sehingga menggerakkan Revolusi Industri.",
+      "options": [
+        { "id": "a", "text": "James Watt" },
+        { "id": "b", "text": "Galileo Galilei" },
+        { "id": "c", "text": "Isaac Newton" },
+        { "id": "d", "text": "Cai Lun" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-world-04-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Penemu alat komunikasi suara jarak jauh pertama yaitu telepon pada tahun 1876 adalah Alexander Graham...",
+      "hint": "Nama belakangnya berarti 'lonceng' dalam bahasa Inggris.",
+      "explanation": "Alexander Graham Bell berhasil mematenkan telepon pertama yang memungkinkan suara manusia dikirim melalui kabel listrik.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Bell", "Alexander Graham Bell"]
+      }
+    },
+    {
+      "id": "hist-world-04-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi pesawat terbang bersayap ganda pertama yang berhasil melakukan penerbangan bermesin dan terkendali pada tahun 1903.",
+      "prompt": "Dua bersaudara asal Amerika Serikat yang berhasil menerbangkan pesawat bermesin pertama di Kitty Hawk pada tahun 1903 adalah...",
+      "hint": "Nama keluarga mereka adalah Wright.",
+      "explanation": "Orville dan Wilbur Wright (Wright Bersaudara) sukses menerbangkan pesawat 'Wright Flyer' pada 17 Desember 1903.",
+      "options": [
+        { "id": "a", "text": "Wright Bersaudara (Orville dan Wilbur Wright)" },
+        { "id": "b", "text": "Lumiere Bersaudara" },
+        { "id": "c", "text": "Grimm Bersaudara" },
+        { "id": "d", "text": "Edison dan Bell" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-world-04-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua dampak positif dari ditemukannya mesin cetak oleh Johannes Gutenberg!",
+      "hint": "Pikirkan kemudahan mendapatkan bahan bacaan di sekolah dan rumah.",
+      "explanation": "Mesin cetak membuat biaya pembuatan buku lebih murah, buku semakin banyak tersedia, dan masyarakat lebih mudah belajar membaca.",
+      "options": [
+        { "id": "a", "text": "Buku menjadi lebih murah dan mudah dimiliki banyak orang" },
+        { "id": "b", "text": "Ilmu pengetahuan menyebar lebih cepat ke berbagai negara" },
+        { "id": "c", "text": "Semua sekolah harus berhenti mengajarkan membaca" },
+        { "id": "d", "text": "Manusia kembali hanya menulis di atas batu" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-world-04-q07",
+      "type": "multiple_choice",
+      "prompt": "Penemu produktif yang berhasil menyempurnakan bola lampu pijar tahan lama sehingga rumah dan jalan dapat terang di malam hari adalah...",
+      "hint": "Ia terkenal dengan kata-kata bahwa keberhasilan membutuhkan kerja keras berkali-kali setelah banyak percobaan.",
+      "explanation": "Thomas Alva Edison melakukan ribuan percobaan sebelum menghasilkan lampu pijar yang praktis dan tahan lama bagi kehidupan sehari-hari.",
+      "options": [
+        { "id": "a", "text": "Thomas Alva Edison" },
+        { "id": "b", "text": "Neil Armstrong" },
+        { "id": "c", "text": "Tim Berners-Lee" },
+        { "id": "d", "text": "Johannes Gutenberg" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-world-04-q08",
+      "type": "true_false",
+      "prompt": "Para penemu besar seperti Thomas Alva Edison dan Wright Bersaudara selalu langsung berhasil pada percobaan pertama tanpa pernah gagal.",
+      "hint": "Setiap penemu hebat melewati banyak kegagalan untuk memperbaiki rancangan mereka.",
+      "explanation": "Salah, para penemu justru belajar dari ratusan bahkan ribuan kegagalan percobaan sebelum akhirnya berhasil.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "hist-world-04-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Penemuan sederhana berbentuk lingkaran berporos yang mengubah sejarah pengangkutan barang darat sejak zaman kuno adalah...",
+      "hint": "Sekarang benda ini ada pada sepeda, mobil, dan gerobak.",
+      "explanation": "Roda adalah salah satu penemuan paling berpengaruh dalam sejarah teknologi manusia.",
+      "correctAnswer": {
+        "acceptedAnswers": ["roda"]
+      }
+    },
+    {
+      "id": "hist-world-04-q10",
+      "type": "multiple_choice",
+      "prompt": "Sikap apa yang paling penting dimiliki oleh seorang penemu atau pelajar yang ingin membuat karya baru?",
+      "hint": "Ingat proses belajar saat eksperimen belum berhasil.",
+      "explanation": "Rasa ingin tahu, ketekunan, dan sikap pantang menyerah saat mencoba lagi sangat penting dalam belajar dan berkarya.",
+      "options": [
+        { "id": "a", "text": "Rasa ingin tahu yang tinggi dan pantang menyerah saat mencoba" },
+        { "id": "b", "text": "Langsung berhenti jika percobaan pertama gagal" },
+        { "id": "c", "text": "Tidak mau bertanya atau membaca buku" },
+        { "id": "d", "text": "Meniru karya teman tanpa berusaha" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

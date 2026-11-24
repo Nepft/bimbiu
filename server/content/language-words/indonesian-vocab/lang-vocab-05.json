@@ -1,0 +1,145 @@
+{
+  "id": "lang-vocab-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "indonesian-vocab",
+  "title": "Homonim, Homofon, dan Polisemi",
+  "description": "Mengenal kata-kata yang sama bunyi atau tulisannya namun memiliki arti yang berbeda.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["lang-vocab-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-vocab-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Perhatikan dua kalimat berikut: (1) Ular kobra memiliki bisa yang berbahaya. (2) Adik sudah bisa membaca dengan lancar. Kata 'bisa' pada kedua kalimat tersebut termasuk contoh...",
+      "hint": "Tulisannya sama dan pelafalannya sama, tetapi artinya berbeda sama sekali.",
+      "explanation": "'Bisa' (racun) dan 'bisa' (dapat/mampu) memiliki ejaan dan bunyi yang sama tetapi makna yang berbeda, disebut homonim.",
+      "options": [
+        { "id": "a", "text": "Homonim" },
+        { "id": "b", "text": "Antonim" },
+        { "id": "c", "text": "Akronim" },
+        { "id": "d", "text": "Singkatan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-vocab-05-q02",
+      "type": "true_false",
+      "prompt": "Pasangan kata 'bank' (tempat menyimpan uang) dan 'bang' (panggilan kakak laki-laki) disebut homofon karena bunyinya sama tetapi ejaannya berbeda.",
+      "hint": "Ingat arti kata 'fono' berarti bunyi.",
+      "explanation": "Benar. Homofon adalah kata yang bunyi pelafalannya sama tetapi tulisan dan maknanya berbeda, seperti 'bank' dan 'bang'.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-vocab-05-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Pasangan kata 'masa' (waktu) dan 'massa' (kumpulan orang banyak atau jumlah materi) adalah contoh kata yang disebut ____.",
+      "hint": "Bunyinya sama persis saat diucapkan, tetapi jumlah huruf 's'-nya berbeda.",
+      "explanation": "'Masa' dan 'massa' memiliki bunyi yang sama tetapi ejaan serta artinya berbeda, sehingga disebut homofon.",
+      "correctAnswer": {
+        "acceptedAnswers": ["homofon", "Homofon"]
+      }
+    },
+    {
+      "id": "lang-vocab-05-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kalimat yang menggunakan kata 'rapat' dengan makna yang BERBEDA satu sama lain!",
+      "hint": "Cari kalimat yang memakai 'rapat' sebagai pertemuan dan 'rapat' sebagai sangat dekat/tidak renggang.",
+      "explanation": "Pada A, 'rapat' berarti pertemuan untuk berunding. Pada C, 'rapat' berarti tidak ada celah/tertutup erat. Kalimat B dan D sama-sama bermakna pertemuan.",
+      "options": [
+        { "id": "a", "text": "Pengurus OSIS mengadakan rapat persiapan lomba." },
+        { "id": "b", "text": "Rapat orang tua murid dilaksanakan hari Sabtu." },
+        { "id": "c", "text": "Pintu rumah itu sudah ditutup dengan rapat." },
+        { "id": "d", "text": "Ayah sedang mengikuti rapat di kantor." }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-vocab-05-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Kalender dinding menunjukkan bulan Oktober, sementara di luar jendela tampak bulan purnama bersinar.",
+      "prompt": "Pada keterangan di atas, kata 'bulan' muncul dua kali dengan arti berbeda. Apa arti kata 'bulan' yang bersinar di malam hari?",
+      "hint": "Benda langit yang mengelilingi Bumi.",
+      "explanation": "Kata 'bulan' memiliki dua makna: satelit alami Bumi yang tampak di langit malam dan satuan waktu dalam kalender (12 bulan dalam setahun).",
+      "options": [
+        { "id": "a", "text": "Satuan waktu dalam kalender" },
+        { "id": "b", "text": "Satelit alami yang mengelilingi Bumi" },
+        { "id": "c", "text": "Nama hari dalam seminggu" },
+        { "id": "d", "text": "Bentuk jam dinding" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-vocab-05-q06",
+      "type": "multiple_choice",
+      "prompt": "Perhatikan pasangan kata 'sangsi' dan 'sanksi'. Kalimat manakah yang menggunakan kata 'sanksi' (hukuman) secara tepat?",
+      "hint": "'Sanksi' memakai huruf 'k', sedangkan 'sangsi' memakai 'g' yang berarti ragu-ragu.",
+      "explanation": "'Sanksi' berarti tanggungan atau hukuman akibat melanggar aturan, sedangkan 'sangsi' berarti bimbang atau ragu-ragu.",
+      "options": [
+        { "id": "a", "text": "Siswa yang melanggar tata tertib akan mendapat sanksi." },
+        { "id": "b", "text": "Aku masih sanksi apakah hari ini akan turun hujan." },
+        { "id": "c", "text": "Jangan sanksi terhadap kemampuan dirimu sendiri." },
+        { "id": "d", "text": "Ia merasa sanksi untuk memilih jalan yang gelap." }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-vocab-05-q07",
+      "type": "true_false",
+      "prompt": "Kata 'tahu' pada kalimat 'Ibu menggoreng tahu' dan 'Adik sudah tahu jawabannya' memiliki tulisan sama tetapi arti yang berbeda.",
+      "hint": "Satunya nama makanan dari kedelai, satunya berarti mengerti/paham.",
+      "explanation": "Benar. Kedua kata 'tahu' tersebut memiliki ejaan dan bunyi sama, namun makna yang berbeda (homonim).",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-vocab-05-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Kata 'akar' pada 'akar pohon beringin' dan 'akar masalah' berasal dari satu makna dasar yang meluas (sumber/penopang). Fenomena satu kata dengan banyak makna yang masih berkaitan disebut ____.",
+      "hint": "Istilah kebahasaan ini diawali dengan 'poli-' yang berarti banyak.",
+      "explanation": "Polisemi adalah satu kata yang memiliki beberapa makna yang masih saling berhubungan (berasal dari makna dasar yang sama).",
+      "correctAnswer": {
+        "acceptedAnswers": ["polisemi", "Polisemi"]
+      }
+    },
+    {
+      "id": "lang-vocab-05-q09",
+      "type": "multiple_choice",
+      "prompt": "Pada kalimat: 'Rudi mendapat hak sebagai ketua tim' dan 'Sepatu itu memiliki hak setinggi tiga sentimeter', apa arti kata 'hak' pada kalimat kedua?",
+      "hint": "Bagian sepatu yang berada di bawah tumit.",
+      "explanation": "Kata 'hak' pada sepatu berarti bagian belakang alas sepatu yang agak tinggi di bawah tumit.",
+      "options": [
+        { "id": "a", "text": "Kewenangan yang dimiliki seseorang" },
+        { "id": "b", "text": "Bagian belakang sepatu di bawah tumit" },
+        { "id": "c", "text": "Tali pengikat sepatu" },
+        { "id": "d", "text": "Ukuran panjang kaki" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-vocab-05-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua pasangan kata yang merupakan HOMOFON (bunyi sama, tulisan berbeda)!",
+      "hint": "Cari pasangan kata yang hurufnya sedikit berbeda tetapi terdengar hampir/sama persis saat diucapkan.",
+      "explanation": "'syarat - sarat' dan 'rok - rock' adalah contoh pasangan homofon. 'bisa - bisa' dan 'rapat - rapat' ejaannya sama persis (homonim).",
+      "options": [
+        { "id": "a", "text": "syarat dan sarat" },
+        { "id": "b", "text": "bisa dan bisa" },
+        { "id": "c", "text": "rok dan rock" },
+        { "id": "d", "text": "rapat dan rapat" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

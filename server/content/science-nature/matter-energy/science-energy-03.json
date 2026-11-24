@@ -1,0 +1,145 @@
+{
+  "id": "science-energy-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "science-nature",
+  "unitId": "matter-energy",
+  "title": "Suhu, Panas, dan Perpindahannya",
+  "description": "Membedakan suhu dan kalor, mengenal cara perpindahan panas (konduksi, konveksi, radiasi), serta konduktor dan isolator.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["science-energy-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "science-energy-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Alat yang digunakan untuk mengukur suhu suatu benda atau ruangan dengan tepat adalah...",
+      "hint": "Di Indonesia biasanya menggunakan skala Celcius.",
+      "explanation": "Termometer adalah alat pengukur suhu secara objektif; indra peraba tangan tidak dapat mengukur suhu secara akurat.",
+      "options": [
+        { "id": "a", "text": "Neraca" },
+        { "id": "b", "text": "Termometer" },
+        { "id": "c", "text": "Stopwatch" },
+        { "id": "d", "text": "Kompas" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-energy-03-q02",
+      "type": "true_false",
+      "prompt": "Secara alami, energi panas (kalor) berpindah dari benda bersuhu lebih tinggi ke benda bersuhu lebih rendah.",
+      "hint": "Ingat apa yang terjadi ketika sendok dingin dimasukkan ke dalam teh hangat.",
+      "explanation": "Benar! Panas selalu mengalir dari benda yang lebih panas menuju benda yang lebih dingin hingga suhunya seimbang.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-energy-03-q03",
+      "type": "multiple_choice",
+      "prompt": "Ketika ujung sendok logam dicelupkan ke sup panas, gagang sendok ikut terasa panas. Perpindahan panas ini terjadi secara...",
+      "hint": "Panas merambat melalui zat padat tanpa disertai perpindahan partikel sendoknya.",
+      "explanation": "Konduksi adalah perpindahan panas melalui zat perantara (umumnya zat padat seperti logam) tanpa diikuti perpindahan partikel zat tersebut.",
+      "options": [
+        { "id": "a", "text": "Konduksi" },
+        { "id": "b", "text": "Konveksi" },
+        { "id": "c", "text": "Radiasi" },
+        { "id": "d", "text": "Refleksi" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-energy-03-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Perpindahan panas dari Matahari ke Bumi melewati ruang hampa tanpa memerlukan zat perantara disebut ______.",
+      "hint": "Terjadi juga saat kita merasakan hangatnya api unggun dari samping; diawali huruf R.",
+      "explanation": "Radiasi adalah perpindahan panas dalam bentuk gelombang elektromagnetik tanpa membutuhkan zat perantara.",
+      "correctAnswer": {
+        "acceptedAnswers": ["radiasi", "Radiasi"]
+      }
+    },
+    {
+      "id": "science-energy-03-q05",
+      "type": "multiple_select",
+      "prompt": "Pilih bahan-bahan yang termasuk isolator panas (penghantar panas yang buruk):",
+      "hint": "Bahan ini biasa dipakai untuk pegangan panci dan tutup termos agar tangan tidak kepanasan.",
+      "explanation": "Kayu, plastik, dan karet merupakan isolator panas yang baik sehingga sering digunakan pada gagang alat masak.",
+      "options": [
+        { "id": "a", "text": "Kayu" },
+        { "id": "b", "text": "Plastik tahan panas" },
+        { "id": "c", "text": "Karet" },
+        { "id": "d", "text": "Aluminium" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "science-energy-03-q06",
+      "type": "true_false",
+      "prompt": "Merebus air di panci hingga air panas di dasar panci naik ke atas dan air dingin turun ke bawah merupakan contoh perpindahan panas secara konveksi.",
+      "hint": "Konveksi terjadi pada zat cair dan gas karena partikelnya ikut berpindah.",
+      "explanation": "Benar! Konveksi adalah perpindahan panas yang disertai perpindahan partikel zat perantara, seperti pada air mendidih dan aliran angin.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-energy-03-q07",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Pemanasan permukaan Bumi oleh cahaya Matahari yang memengaruhi suhu daratan dan lautan.",
+      "prompt": "Mengapa rel kereta api dipasang dengan diberi sedikit celah di antara sambungannya?",
+      "hint": "Ingat apa yang terjadi pada ukuran logam saat terkena panas Matahari siang hari.",
+      "explanation": "Logam rel kereta api mengalami pemuaian (memanjang) saat panas di siang hari; celah mencegah rel melengkung karena saling mendorong.",
+      "options": [
+        { "id": "a", "text": "Memberi ruang saat logam memuai karena panas" },
+        { "id": "b", "text": "Agar air hujan cepat membeku di rel" },
+        { "id": "c", "text": "Supaya kereta melaju mundur" },
+        { "id": "d", "text": "Untuk mengurangi berat besi" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-energy-03-q08",
+      "type": "multiple_choice",
+      "prompt": "Mengapa bagian dasar wajan dan panci umumnya dibuat dari logam seperti aluminium atau baja tahan karat?",
+      "hint": "Logam merupakan penghantar panas yang sangat baik.",
+      "explanation": "Aluminium dan baja merupakan konduktor panas yang baik sehingga panas dari kompor cepat merata ke makanan.",
+      "options": [
+        { "id": "a", "text": "Karena logam adalah isolator panas" },
+        { "id": "b", "text": "Karena logam adalah konduktor panas yang baik" },
+        { "id": "c", "text": "Karena logam tidak bisa memuai sama sekali" },
+        { "id": "d", "text": "Karena logam lebih empuk daripada kayu" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-energy-03-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Perubahan ukuran benda menjadi lebih kecil atau menyusut ketika suhunya menurun (didinginkan) disebut ______.",
+      "hint": "Lawan dari pemuaian; berasal dari kata dasar susut.",
+      "explanation": "Penyusutan adalah mengecilnya ukuran (panjang, luas, atau volume) suatu benda saat suhu turun dan kalor dilepaskan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["penyusutan", "Penyusutan", "menyusut", "Menyusut"]
+      }
+    },
+    {
+      "id": "science-energy-03-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih pernyataan yang tepat tentang cara kerja termos air panas:",
+      "hint": "Termos dirancang untuk menahan ketiga cara perpindahan panas sekaligus.",
+      "explanation": "Termos memiliki ruang hampa udara untuk mencegah konduksi/konveksi, dinding kaca mengilap untuk memantulkan panas radiasi, dan tutup isolator.",
+      "options": [
+        { "id": "a", "text": "Memiliki ruang hampa udara di antara dindingnya untuk mencegah konduksi dan konveksi" },
+        { "id": "b", "text": "Dinding dalamnya mengilap seperti cermin untuk memantulkan panas radiasi" },
+        { "id": "c", "text": "Tutupnya terbuat dari bahan isolator seperti gabus atau plastik" },
+        { "id": "d", "text": "Memiliki pemanas listrik tersembunyi di bagian tutupnya" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    }
+  ]
+}

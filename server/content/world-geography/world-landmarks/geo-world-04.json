@@ -1,0 +1,145 @@
+{
+  "id": "geo-world-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "world-landmarks",
+  "title": "Keajaiban Alam Terkenal di Dunia",
+  "description": "Jelajahi ngarai raksasa, air terjun megah, gunung ikonik, hingga cahaya kutub yang memukau.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["geo-world-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-world-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Ngarai raksasa bertebing batu berlapis merah yang terbentuk oleh aliran Sungai Colorado di Amerika Serikat adalah ...",
+      "hint": "Namanya berarti Ngarai Besar dalam bahasa Inggris.",
+      "explanation": "Grand Canyon di Arizona, Amerika Serikat, terbentuk selama jutaan tahun oleh pengikisan Sungai Colorado.",
+      "options": [
+        { "id": "a", "text": "Grand Canyon" },
+        { "id": "b", "text": "Great Barrier Reef" },
+        { "id": "c", "text": "Air Terjun Victoria" },
+        { "id": "d", "text": "Gurun Atacama" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "geo-world-04-q02",
+      "type": "true_false",
+      "prompt": "Gunung Fuji yang puncaknya berbentuk kerucut simetris dan berselimut salju adalah gunung tertinggi di Jepang.",
+      "hint": "Gunung ini terletak di Pulau Honshu, tidak jauh dari Tokyo.",
+      "explanation": "Benar! Gunung Fuji setinggi 3.776 meter adalah gunung tertinggi di Jepang sekaligus simbol budaya dan alam Jepang.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-world-04-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Fenomena cahaya warna-warni alami yang menari di langit malam wilayah Kutub Utara disebut Aurora ...",
+      "hint": "Pasangannya di Kutub Selatan adalah Aurora Australis.",
+      "explanation": "Aurora Borealis (Cahaya Utara) terjadi ketika partikel bermuatan dari matahari bertumbukan dengan atmosfer Bumi di sekitar Kutub Utara.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Borealis", "borealis"]
+      }
+    },
+    {
+      "id": "geo-world-04-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua keajaiban alam terkenal beserta letak benuanya yang benar!",
+      "hint": "Periksa satu di Amerika Utara dan satu di Australia.",
+      "explanation": "Air Terjun Niagara berada di perbatasan AS-Kanada (Amerika Utara) dan Great Barrier Reef berada di Australia. Gunung Fuji di Asia dan Air Terjun Victoria di Afrika.",
+      "options": [
+        { "id": "a", "text": "Air Terjun Niagara di Amerika Utara" },
+        { "id": "b", "text": "Gunung Fuji di Eropa" },
+        { "id": "c", "text": "Great Barrier Reef di Australia" },
+        { "id": "d", "text": "Air Terjun Victoria di Amerika Selatan" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-world-04-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Di sepanjang garis pantai negara-negara Nordik seperti Norwegia, es kuno membentuk teluk sempit bertebing curam.",
+      "prompt": "Lembah gletser sempit bertebing tinggi yang terisi air laut dan banyak ditemukan di Norwegia disebut ...",
+      "hint": "Kata ini berasal dari bahasa Skandinavia dan berawalan huruf F.",
+      "explanation": "Fjord adalah teluk sempit panjang dengan tebing curam yang terbentuk akibat kikisan gletser zaman es, sangat terkenal di Norwegia.",
+      "options": [
+        { "id": "a", "text": "Delta" },
+        { "id": "b", "text": "Fjord" },
+        { "id": "c", "text": "Atol" },
+        { "id": "d", "text": "Laguna" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-world-04-q06",
+      "type": "multiple_choice",
+      "prompt": "Air terjun raksasa di Sungai Zambezi (perbatasan Zambia dan Zimbabwe, Afrika) yang dijuluki Mosi-oa-Tunya atau Asap yang Bergemuruh adalah ...",
+      "hint": "Namanya sama dengan salah satu danau besar di Afrika Timur dan seorang ratu Inggris.",
+      "explanation": "Air Terjun Victoria adalah salah satu tirai air terjun terbesar di dunia yang kabut airnya tampak seperti asap dari kejauhan.",
+      "options": [
+        { "id": "a", "text": "Air Terjun Niagara" },
+        { "id": "b", "text": "Air Terjun Angel" },
+        { "id": "c", "text": "Air Terjun Victoria" },
+        { "id": "d", "text": "Air Terjun Iguazu" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "geo-world-04-q07",
+      "type": "true_false",
+      "prompt": "Air Terjun Angel di Venezuela merupakan air terjun tertinggi di dunia.",
+      "hint": "Air terjun ini jatuh bebas dari tebing datar tinggi bernama Auyantepui.",
+      "explanation": "Benar! Air Terjun Angel (Salto Angel) di Venezuela memiliki tinggi sekitar 979 meter, menjadikannya air terjun tertinggi di dunia.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-world-04-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Gunung tertinggi di Benua Afrika yang berdiri megah di Tanzania dekat garis khatulistiwa namun puncaknya tetap memiliki salju adalah Gunung ...",
+      "hint": "Namanya berawalan huruf K.",
+      "explanation": "Gunung Kilimanjaro setinggi 5.895 meter di Tanzania merupakan puncak tertinggi di Benua Afrika.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Kilimanjaro", "kilimanjaro"]
+      }
+    },
+    {
+      "id": "geo-world-04-q09",
+      "type": "multiple_select",
+      "prompt": "Manakah dua negara yang dilewati oleh keindahan Air Terjun Niagara?",
+      "hint": "Air terjun ini terletak di perbatasan dua negara besar di Amerika Utara.",
+      "explanation": "Air Terjun Niagara berada tepat di perbatasan antara Amerika Serikat dan Kanada.",
+      "options": [
+        { "id": "a", "text": "Amerika Serikat" },
+        { "id": "b", "text": "Meksiko" },
+        { "id": "c", "text": "Kanada" },
+        { "id": "d", "text": "Brasil" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-world-04-q10",
+      "type": "multiple_choice",
+      "prompt": "Teluk indah di Vietnam utara yang terkenal dengan ribuan pulau batu kapur menjulang dari air laut berwarna zamrud adalah ...",
+      "hint": "Dalam bahasa setempat namanya berarti tempat naga turun.",
+      "explanation": "Teluk Ha Long (Ha Long Bay) di Vietnam merupakan Situs Warisan Dunia UNESCO dengan ribuan pulau karst.",
+      "options": [
+        { "id": "a", "text": "Teluk Ha Long" },
+        { "id": "b", "text": "Teluk Benggala" },
+        { "id": "c", "text": "Teluk Persia" },
+        { "id": "d", "text": "Teluk Jakarta" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

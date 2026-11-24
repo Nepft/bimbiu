@@ -1,0 +1,145 @@
+{
+  "id": "lang-vocab-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "indonesian-vocab",
+  "title": "Kata Serapan & Istilah Populer",
+  "description": "Memahami kata serapan yang disesuaikan ejaannya dan arti istilah populer di buku pengetahuan.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["lang-vocab-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-vocab-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Manakah penulisan kata serapan baku yang tepat untuk kata bahasa Inggris 'technology'?",
+      "hint": "Huruf 'ch' pada kata ini diserap menjadi huruf 'k' saja, tanpa 'h'.",
+      "explanation": "Kata serapan baku untuk 'technology' adalah 'teknologi', bukan 'tehnologi' atau 'tekhnologi'.",
+      "options": [
+        { "id": "a", "text": "tehnologi" },
+        { "id": "b", "text": "teknologi" },
+        { "id": "c", "text": "tekhnologi" },
+        { "id": "d", "text": "teknology" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-vocab-02-q02",
+      "type": "true_false",
+      "prompt": "Kata 'ekosistem' berarti hubungan timbal balik antara makhluk hidup dan lingkungannya.",
+      "hint": "Ingat pelajaran IPA tentang makhluk hidup dan lingkungan.",
+      "explanation": "Benar. Ekosistem adalah keanekaragaman suatu komunitas dan lingkungannya yang berfungsi sebagai satu kesatuan ekologi di alam.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-vocab-02-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Bentuk baku bahasa Indonesia dari kata serapan 'kreatifitas' adalah ____.",
+      "hint": "Akhiran serapan '-itas' berasal dari kata dasar bahasa Inggris 'creativity', sehingga menggunakan huruf 'v'.",
+      "explanation": "Penulisan kata baku menurut KBBI adalah 'kreativitas' (dengan huruf 'v'), sedangkan kata sifatnya adalah 'kreatif'.",
+      "correctAnswer": {
+        "acceptedAnswers": ["kreativitas", "Kreativitas"]
+      }
+    },
+    {
+      "id": "lang-vocab-02-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kata serapan yang penulisannya SUDAH BAKU menurut KBBI!",
+      "hint": "Periksa huruf ganda atau akhiran pada 'komunikasi' dan 'analisis'.",
+      "explanation": "'komunikasi' dan 'analisis' sudah baku. 'analisa' tidak baku dalam KBBI (bakunya 'analisis'), dan 'transportir' bukan kata baku untuk angkutan (bakunya 'transportasi').",
+      "options": [
+        { "id": "a", "text": "komunikasi" },
+        { "id": "b", "text": "analisa" },
+        { "id": "c", "text": "analisis" },
+        { "id": "d", "text": "komunikasy" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-vocab-02-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Gedung tempat menyimpan dan memamerkan benda bersejarah serta karya seni.",
+      "prompt": "Apa kata baku bahasa Indonesia untuk tempat penyimpanan benda-benda bersejarah tersebut?",
+      "hint": "Tulisannya sama persis dengan bahasa Inggrisnya, tetapi dibaca sesuai ejaan Indonesia.",
+      "explanation": "Kata baku dalam KBBI adalah 'museum', bukan 'musium'.",
+      "options": [
+        { "id": "a", "text": "musium" },
+        { "id": "b", "text": "museum" },
+        { "id": "c", "text": "musem" },
+        { "id": "d", "text": "musieum" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-vocab-02-q06",
+      "type": "multiple_choice",
+      "prompt": "Apa arti kata 'inovasi' dalam kalimat: 'Siswa kelas enam menciptakan inovasi tempat sampah otomatis'?",
+      "hint": "Kata ini berhubungan dengan ide baru yang berguna.",
+      "explanation": "'Inovasi' berarti pemasukan atau pengenalan hal-hal yang baru; pembaruan.",
+      "options": [
+        { "id": "a", "text": "Pembaruan atau penemuan hal yang baru" },
+        { "id": "b", "text": "Pengulangan kebiasaan lama" },
+        { "id": "c", "text": "Kerusakan alat elektronik" },
+        { "id": "d", "text": "Perpindahan penduduk ke kota" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-vocab-02-q07",
+      "type": "true_false",
+      "prompt": "Kata 'efektifitas' adalah penulisan baku yang benar dalam bahasa Indonesia.",
+      "hint": "Sama seperti kata 'kreativitas' dan 'aktivitas', huruf sebelum '-itas' bukan 'f'.",
+      "explanation": "Salah. Penulisan baku yang benar adalah 'efektivitas' (menggunakan huruf 'v', bukan 'f').",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "lang-vocab-02-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Penulisan kata baku dari 'aktipitas' adalah ____.",
+      "hint": "Huruf 'p' pada kata tersebut seharusnya diganti menjadi 'v'.",
+      "explanation": "Kata baku yang benar adalah 'aktivitas' (dari kata dasar 'aktif', berubah menjadi 'v' saat mendapat akhiran '-itas').",
+      "correctAnswer": {
+        "acceptedAnswers": ["aktivitas", "Aktivitas"]
+      }
+    },
+    {
+      "id": "lang-vocab-02-q09",
+      "type": "multiple_choice",
+      "prompt": "Kata 'energi' diserap ke dalam bahasa Indonesia dan digunakan untuk menyebut kemampuan melakukan usaha. Manakah bentuk baku berikut ini?",
+      "hint": "Bunyi akhir kata ini tidak memakai huruf 'y'.",
+      "explanation": "Kata baku dalam KBBI adalah 'energi', bukan 'enerji' atau 'energy'.",
+      "options": [
+        { "id": "a", "text": "enerji" },
+        { "id": "b", "text": "energy" },
+        { "id": "c", "text": "energi" },
+        { "id": "d", "text": "ennergi" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "lang-vocab-02-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kata serapan asal bahasa daerah di Nusantara yang masuk ke dalam KBBI!",
+      "hint": "Salah satunya berkaitan dengan rumah adat atau kerja sama membersihkan lingkungan, dan satunya seni kain tradisional.",
+      "explanation": "'gotong royong' dan 'batik' adalah kosakata Nusantara yang sudah menjadi bagian resmi dari KBBI, sedangkan 'internet' dan 'komputer' berasal dari bahasa asing.",
+      "options": [
+        { "id": "a", "text": "gotong royong" },
+        { "id": "b", "text": "internet" },
+        { "id": "c", "text": "batik" },
+        { "id": "d", "text": "komputer" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

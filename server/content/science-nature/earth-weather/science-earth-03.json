@@ -1,0 +1,145 @@
+{
+  "id": "science-earth-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "science-nature",
+  "unitId": "earth-weather",
+  "title": "Cuaca, Awan, dan Angin",
+  "description": "Mengenal unsur-unsur cuaca, jenis awan di langit, terjadinya angin darat dan angin laut, serta alat ukur cuaca.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["science-earth-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "science-earth-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Keadaan udara di suatu tempat pada waktu tertentu yang dapat berubah-ubah dengan cepat disebut...",
+      "hint": "Misalnya pagi hari cerah, lalu sore hari hujan.",
+      "explanation": "Cuaca adalah keadaan atmosfer di suatu wilayah dalam jangka waktu singkat, seperti cerah, berawan, berangin, atau hujan.",
+      "options": [
+        { "id": "a", "text": "Iklim" },
+        { "id": "b", "text": "Cuaca" },
+        { "id": "c", "text": "Musim" },
+        { "id": "d", "text": "Orbit" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-earth-03-q02",
+      "type": "true_false",
+      "prompt": "Angin terjadi karena udara bergerak dari daerah bertekanan tinggi ke daerah bertekanan rendah.",
+      "hint": "Perbedaan suhu membuat tekanan udara di dua tempat berbeda.",
+      "explanation": "Benar! Pemanasan udara yang tidak merata menyebabkan perbedaan tekanan udara, sehingga udara mengalir dari tekanan tinggi ke tekanan rendah sebagai angin.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-earth-03-q03",
+      "type": "multiple_choice",
+      "prompt": "Alat yang digunakan untuk mengukur kecepatan angin adalah...",
+      "hint": "Biasanya memiliki mangkuk-mangkuk kecil yang berputar saat tertiup angin.",
+      "explanation": "Anemometer digunakan untuk mengukur kecepatan angin, sedangkan barometer mengukur tekanan udara dan higrometer mengukur kelembapan.",
+      "options": [
+        { "id": "a", "text": "Anemometer" },
+        { "id": "b", "text": "Barometer" },
+        { "id": "c", "text": "Termometer" },
+        { "id": "d", "text": "Higrometer" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-earth-03-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Di Indonesia, badan pemerintah yang bertugas mengamati cuaca, iklim, dan gempa bumi adalah ______.",
+      "hint": "Singkatan dari Badan Meteorologi, Klimatologi, dan Geofisika.",
+      "explanation": "BMKG (Badan Meteorologi, Klimatologi, dan Geofisika) menyediakan informasi prakiraan cuaca serta peringatan dini bencana geofisika.",
+      "correctAnswer": {
+        "acceptedAnswers": ["BMKG", "bmkg"]
+      }
+    },
+    {
+      "id": "science-earth-03-q05",
+      "type": "multiple_select",
+      "prompt": "Pilih tiga unsur pembentuk cuaca yang biasa diamati stasiun meteorologi:",
+      "hint": "Unsur cuaca berkaitan dengan panas, air di udara, dan gerakan udara.",
+      "explanation": "Suhu udara, kelembapan udara, dan kecepatan angin (serta curah hujan dan tekanan udara) merupakan unsur utama cuaca.",
+      "options": [
+        { "id": "a", "text": "Suhu udara" },
+        { "id": "b", "text": "Kelembapan udara" },
+        { "id": "c", "text": "Kecepatan dan arah angin" },
+        { "id": "d", "text": "Kedalaman palung laut" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "science-earth-03-q06",
+      "type": "true_false",
+      "prompt": "Pada siang hari, angin laut bertiup dari arah laut menuju daratan karena daratan lebih cepat panas daripada laut.",
+      "hint": "Udara panas di daratan naik ke atas sehingga udara sejuk dari laut masuk menggantikannya.",
+      "explanation": "Benar! Angin laut bertiup pada siang hari dari laut ke darat dan membantu nelayan tradisional pulang ke pantai.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-earth-03-q07",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Lapisan atmosfer Bumi tempat awan terbentuk dan pola angin berhembus mengelilingi dunia.",
+      "prompt": "Awan putih tebal berbentuk seperti gumpalan kapas yang menandakan cuaca cerah, tetapi dapat berkembang menjadi awan hujan badai (kumulonimbus) disebut awan...",
+      "hint": "Namanya berarti 'tumpukan' dalam bahasa Latin.",
+      "explanation": "Awan kumulus berbentuk menggumpal seperti kapas dengan dasar rata; bila tumbuh menjulang tinggi dan gelap menjadi awan kumulonimbus pembawa badai.",
+      "options": [
+        { "id": "a", "text": "Kumulus" },
+        { "id": "b", "text": "Sirus" },
+        { "id": "c", "text": "Stratus" },
+        { "id": "d", "text": "Kabut" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-earth-03-q08",
+      "type": "multiple_choice",
+      "prompt": "Kapan nelayan perahu layar tradisional memanfaatkan angin darat untuk berangkat melaut mencari ikan?",
+      "hint": "Angin darat bertiup dari daratan ke lautan saat daratan lebih dingin daripada laut.",
+      "explanation": "Pada malam hingga dini hari, daratan lebih cepat dingin daripada laut sehingga angin bertiup dari darat ke laut (angin darat).",
+      "options": [
+        { "id": "a", "text": "Tengah hari saat matahari terik" },
+        { "id": "b", "text": "Malam hingga dini hari" },
+        { "id": "c", "text": "Tepat pukul 12 siang" },
+        { "id": "d", "text": "Saat terjadi gerhana matahari saja" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-earth-03-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Awan tipis dan berserat halus seperti bulu di ketinggian sangat tinggi yang tersusun dari kristal es disebut awan ______.",
+      "hint": "Diawali huruf S, bukan stratus.",
+      "explanation": "Awan sirus berada di ketinggian tinggi (di atas 6 km), tampak tipis seperti serat putih, dan tersusun atas kristal-kristal es.",
+      "correctAnswer": {
+        "acceptedAnswers": ["sirus", "Sirus", "cirrus", "Cirrus"]
+      }
+    },
+    {
+      "id": "science-earth-03-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih cara-cara yang tepat untuk menjaga keselamatan saat terjadi hujan badai disertai petir:",
+      "hint": "Petir menyambar titik tertinggi dan benda yang mudah menghantarkan listrik.",
+      "explanation": "Berlindung di dalam bangunan tertutup serta menjauhi pohon tinggi dan lapangan terbuka adalah langkah aman saat badai petir.",
+      "options": [
+        { "id": "a", "text": "Segera masuk ke dalam bangunan tertutup yang aman" },
+        { "id": "b", "text": "Menjauhi pohon tinggi dan tiang logam di ruang terbuka" },
+        { "id": "c", "text": "Menghindari berenang di kolam atau pantai terbuka" },
+        { "id": "d", "text": "Berteduh tepat di bawah pohon paling tinggi di lapangan" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    }
+  ]
+}

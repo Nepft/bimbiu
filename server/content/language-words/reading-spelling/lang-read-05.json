@@ -1,0 +1,145 @@
+{
+  "id": "lang-read-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "reading-spelling",
+  "title": "Ide Pokok & Memahami Bacaan",
+  "description": "Menemukan kalimat utama, ide pokok paragraf, fakta dan pendapat, serta simpulan bacaan pendek.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["lang-read-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-read-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Bacalah paragraf ini: 'Pohon bakau memiliki banyak manfaat bagi daerah pesisir. Akar bakau yang kuat mampu menahan terjangan ombak agar pantai tidak mudah terkikis. Selain itu, hutan bakau juga menjadi tempat hidup ikan kecil dan kepiting.' Apa ide pokok paragraf tersebut?",
+      "hint": "Cari inti bahasan utama yang dijelaskan oleh kalimat-kalimat berikutnya.",
+      "explanation": "Kalimat pertama menjadi kalimat utama yang merangkum isi paragraf, yaitu banyaknya manfaat pohon bakau bagi daerah pesisir.",
+      "options": [
+        { "id": "a", "text": "Manfaat pohon bakau bagi daerah pesisir" },
+        { "id": "b", "text": "Cara menanam kepiting di pantai" },
+        { "id": "c", "text": "Bahaya gelombang laut bagi nelayan" },
+        { "id": "d", "text": "Jenis-jenis ikan yang hidup di laut dalam" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-read-05-q02",
+      "type": "true_false",
+      "prompt": "Dalam sebuah paragraf, hanya ada satu ide pokok yang dikembangkan oleh beberapa kalimat penjelas.",
+      "hint": "Ingat ciri paragraf yang baik dan padu.",
+      "explanation": "Benar. Setiap paragraf yang baik memiliki satu gagasan utama atau ide pokok yang didukung oleh kalimat-kalimat penjelas.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-read-05-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Paragraf yang kalimat utamanya terletak di awal paragraf disebut paragraf ____.",
+      "hint": "Lawan dari paragraf induktif (berawalan 'd').",
+      "explanation": "Paragraf yang kalimat utamanya berada di awal disebut paragraf deduktif, sedangkan yang di akhir disebut paragraf induktif.",
+      "correctAnswer": {
+        "acceptedAnswers": ["deduktif", "Deduktif"]
+      }
+    },
+    {
+      "id": "lang-read-05-q04",
+      "type": "multiple_select",
+      "prompt": "Bacalah teks: 'Indonesia memiliki ribuan pulau dengan suku dan bahasa yang beragam. Menurut banyak wisatawan, kuliner Nusantara sangat lezat. Pada tahun 2023, jumlah taman nasional di Indonesia mencapai lebih dari 50 kawasan.' Pilih dua pernyataan FAKTA!",
+      "hint": "Fakta adalah hal yang benar-benar ada atau dapat dibuktikan, bukan sekadar penilaian rasa atau selera pribadi.",
+      "explanation": "Pernyataan A (Indonesia memiliki ribuan pulau dan bahasa beragam) dan C (data jumlah taman nasional) adalah fakta yang dapat dibuktikan. 'sangat lezat' pada B adalah opini/pendapat.",
+      "options": [
+        { "id": "a", "text": "Indonesia memiliki ribuan pulau dengan suku dan bahasa yang beragam." },
+        { "id": "b", "text": "Kuliner Nusantara sangat lezat." },
+        { "id": "c", "text": "Indonesia memiliki lebih dari 50 taman nasional." },
+        { "id": "d", "text": "Sebaiknya semua orang berlibur ke pantai." }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-read-05-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Poster sekolah: 'Membaca 15 menit setiap pagi melatih daya ingat, menambah kosakata baru, dan menumbuhkan imajinasi.'",
+      "prompt": "Apa simpulan yang paling tepat dari isi poster tersebut?",
+      "hint": "Rangkum manfaat kegiatan membaca rutin yang tercantum di poster.",
+      "explanation": "Poster tersebut menekankan bahwa kebiasaan membaca singkat setiap pagi memberikan banyak manfaat bagi kemampuan berpikir dan berbahasa siswa.",
+      "options": [
+        { "id": "a", "text": "Kebiasaan membaca 15 menit setiap pagi memberi banyak manfaat bagi otak dan kosakata" },
+        { "id": "b", "text": "Membaca hanya boleh dilakukan selama 15 menit lalu berhenti selamanya" },
+        { "id": "c", "text": "Siswa tidak perlu belajar menulis di sekolah" },
+        { "id": "d", "text": "Poster hanya boleh ditempel di ruang guru" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-read-05-q06",
+      "type": "multiple_choice",
+      "prompt": "Bacalah paragraf berikut: 'Setiap pagi Bayu menyiram tanaman tomatnya. Ia juga rajin membersihkan rumput liar di sekitar pot dan memberi pupuk kompos. Tidak heran, tanaman tomat Bayu tumbuh subur dan berbuah lebat.' Di manakah letak kalimat utama paragraf tersebut?",
+      "hint": "Kalimat mana yang merangkum hasil dari seluruh kegiatan Bayu?",
+      "explanation": "Kalimat terakhir ('Tidak heran, tanaman tomat Bayu tumbuh subur dan berbuah lebat.') adalah kesimpulan sekaligus kalimat utama (paragraf induktif).",
+      "options": [
+        { "id": "a", "text": "Di awal paragraf" },
+        { "id": "b", "text": "Di tengah paragraf" },
+        { "id": "c", "text": "Di akhir paragraf" },
+        { "id": "d", "text": "Tidak ada kalimat utama" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "lang-read-05-q07",
+      "type": "true_false",
+      "prompt": "Kalimat 'Menurutku, warna biru adalah warna yang paling menenangkan di dunia' adalah contoh kalimat opini (pendapat).",
+      "hint": "Apakah setiap orang pasti setuju dengan pernyataan itu, atau bergantung selera pribadi?",
+      "explanation": "Benar. Kata 'menurutku' dan penilaian subjektif 'paling menenangkan' menandakan kalimat tersebut adalah opini atau pendapat pribadi.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-read-05-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Bacalah kalimat singkat ini: 'Kupu-kupu membantu penyerbukan bunga karena saat mengisap nektar, serbuk sari menempel di tubuhnya.' Berdasarkan bacaan tersebut, makanan yang diisap kupu-kupu dari bunga adalah ____.",
+      "hint": "Jawaban tertulis langsung di dalam kalimat (tersurat).",
+      "explanation": "Informasi tersurat dalam kalimat menyebutkan bahwa kupu-kupu mengisap 'nektar'.",
+      "correctAnswer": {
+        "acceptedAnswers": ["nektar", "Nektar"]
+      }
+    },
+    {
+      "id": "lang-read-05-q09",
+      "type": "multiple_choice",
+      "prompt": "Apa langkah pertama yang paling membantu saat mencari ide pokok dalam sebuah paragraf panjang?",
+      "hint": "Mulailah dengan membaca paragraf secara utuh dan mencari kalimat utamanya.",
+      "explanation": "Membaca seluruh paragraf dengan saksama lalu menemukan kalimat utama (di awal atau akhir paragraf) adalah cara paling tepat menentukan ide pokok.",
+      "options": [
+        { "id": "a", "text": "Membaca seluruh paragraf dengan cermat dan menemukan kalimat utamanya" },
+        { "id": "b", "text": "Hanya membaca tiga kata terakhir saja" },
+        { "id": "c", "text": "Menghitung jumlah huruf kapital dalam paragraf" },
+        { "id": "d", "text": "Melewati kalimat pertama dan terakhir" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-read-05-q10",
+      "type": "multiple_select",
+      "prompt": "Bacalah paragraf: 'Sampah plastik sulit terurai oleh tanah. Jika dibuang ke sungai, sampah plastik dapat menyumbat aliran air dan menyebabkan banjir. Oleh karena itu, kita sebaiknya mengurangi penggunaan plastik sekali pakai.' Pilih dua informasi yang BENAR sesuai isi bacaan!",
+      "hint": "Periksa informasi yang tertulis langsung pada bacaan.",
+      "explanation": "Bacaan menyatakan sampah plastik sulit terurai oleh tanah dan kita sebaiknya mengurangi plastik sekali pakai. Bacaan tidak menyatakan plastik mudah hancur dalam sehari atau harus dibuang ke sungai.",
+      "options": [
+        { "id": "a", "text": "Sampah plastik sulit terurai oleh tanah." },
+        { "id": "b", "text": "Sampah plastik cepat hancur dalam satu hari." },
+        { "id": "c", "text": "Kita dianjurkan mengurangi penggunaan plastik sekali pakai." },
+        { "id": "d", "text": "Membuang sampah ke sungai membuat air semakin bersih." }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "badge-first-explorer",
+    "name": "Penjelajah Pertama",
+    "description": "Selesaikan pelajaran pertamamu di Bimbiu.",
+    "icon": "avatar-r1",
+    "ruleType": "first_lesson",
+    "targetValue": 1
+  },
+  {
+    "id": "badge-solar-star",
+    "name": "Bintang Tata Surya",
+    "description": "Raih skor minimal 80% pada pelajaran Mengenal Planet.",
+    "icon": "cat-science",
+    "ruleType": "mastered_lesson",
+    "targetValue": "science-planets-01"
+  },
+  {
+    "id": "badge-world-explorer",
+    "name": "Penjelajah Dunia",
+    "description": "Selesaikan semua pelajaran di kategori World & Geography.",
+    "icon": "cat-geography",
+    "ruleType": "category_complete",
+    "targetValue": "world-geography"
+  },
+  {
+    "id": "badge-diligent-learner",
+    "name": "Tekun Belajar",
+    "description": "Selesaikan 5 pelajaran dari kategori mana saja.",
+    "icon": "cat-language",
+    "ruleType": "lessons_count",
+    "targetValue": 5
+  }
+]

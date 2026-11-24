@@ -1,0 +1,145 @@
+{
+  "id": "hist-culture-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "nusantara-culture",
+  "title": "Batik, Tenun, dan Pakaian Adat",
+  "description": "Mengenal proses pembuatan batik, kain tenun tradisional seperti ulos dan songket, serta pakaian adat Nusantara.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["hist-culture-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-culture-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Alat tradisional berbentuk pena bertangkai bambu dengan corong tembaga untuk melukiskan lilin panas di atas kain batik disebut...",
+      "hint": "Alat ini dipakai oleh pembatik untuk membuat batik tulis.",
+      "explanation": "Canting digunakan untuk menorehkan malam (lilin cair panas) di atas kain saat membuat batik tulis.",
+      "options": [
+        { "id": "a", "text": "Canting" },
+        { "id": "b", "text": "Gawangan" },
+        { "id": "c", "text": "Kuas" },
+        { "id": "d", "text": "Jarum" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-culture-04-q02",
+      "type": "true_false",
+      "prompt": "Batik Indonesia telah ditetapkan oleh UNESCO sebagai Warisan Kemanusiaan untuk Budaya Lisan dan Nonbendawi pada tanggal 2 Oktober 2009.",
+      "hint": "Oleh karena itu, setiap tanggal 2 Oktober kita memperingati Hari Batik Nasional.",
+      "explanation": "Benar, UNESCO mengakui Batik Indonesia pada 2 Oktober 2009 dan tanggal tersebut ditetapkan menjadi Hari Batik Nasional.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-culture-04-q03",
+      "type": "multiple_choice",
+      "prompt": "Kain tenun tradisional bermakna doa dan kasih sayang yang berasal dari masyarakat Batak di Sumatra Utara adalah...",
+      "hint": "Kain ini sering diberikan pada upacara pernikahan atau penyambutan tamu kehormatan.",
+      "explanation": "Kain Ulos merupakan kain tenun khas Batak yang melambangkan kehangatan, restu, dan ikatan kasih sayang.",
+      "options": [
+        { "id": "a", "text": "Ulos" },
+        { "id": "b", "text": "Lurik" },
+        { "id": "c", "text": "Sasirangan" },
+        { "id": "d", "text": "Endek" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-culture-04-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Lilin khusus yang dicairkan dan digunakan untuk menutup bagian kain agar tidak terkena warna saat membatik disebut...",
+      "hint": "Namanya sama dengan waktu setelah matahari terbenam.",
+      "explanation": "Malam adalah lilin batik yang berfungsi menahan masuknya zat pewarna pada motif yang digambar di kain.",
+      "correctAnswer": {
+        "acceptedAnswers": ["malam", "lilin malam", "lilin"]
+      }
+    },
+    {
+      "id": "hist-culture-04-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi kain tenun mewah dengan benang emas dan perak berkilau yang terkenal dari Palembang, Sumatra Selatan.",
+      "prompt": "Nama kain tenun tradisional yang ditenun dengan benang emas atau perak dari Palembang dan Sumatra adalah...",
+      "hint": "Namanya berawalan huruf S dan berasal dari kata 'sungkit'.",
+      "explanation": "Kain Songket terkenal dari Palembang, Sumatra Selatan, serta beberapa daerah di Sumatra dan Bali dengan hiasan benang emas.",
+      "options": [
+        { "id": "a", "text": "Kain Songket" },
+        { "id": "b", "text": "Kain Lurik" },
+        { "id": "c", "text": "Kain Jumputan" },
+        { "id": "d", "text": "Kain Poleng" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-culture-04-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua motif batik terkenal yang berasal dari wilayah Jawa!",
+      "hint": "Salah satunya bermotif garis miring dan satunya lagi motif awan khas Cirebon.",
+      "explanation": "Motif Parang (Yogyakarta/Solo) dan Motif Mega Mendung (Cirebon) adalah dua motif batik tradisional yang sangat terkenal.",
+      "options": [
+        { "id": "a", "text": "Motif Parang" },
+        { "id": "b", "text": "Motif Mega Mendung" },
+        { "id": "c", "text": "Motif Tartan Skotlandia" },
+        { "id": "d", "text": "Motif Kimono Sakura" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-culture-04-q07",
+      "type": "multiple_choice",
+      "prompt": "Pakaian adat tradisional perempuan Bugis-Makassar dari Sulawesi Selatan yang berbentuk blus longgar berwarna cerah dan kain sarung disebut...",
+      "hint": "Namanya diawali kata 'Baju'.",
+      "explanation": "Baju Bodo adalah salah satu busana adat tertua di Nusantara yang berasal dari suku Bugis-Makassar di Sulawesi Selatan.",
+      "options": [
+        { "id": "a", "text": "Baju Bodo" },
+        { "id": "b", "text": "Baju Kurung" },
+        { "id": "c", "text": "Kebaya Encim" },
+        { "id": "d", "text": "Ulee Balang" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-culture-04-q08",
+      "type": "true_false",
+      "prompt": "Kain batik yang dicetak menggunakan mesin sablon pabrik tanpa proses perintang lilin malam tetap disebut batik tulis asli.",
+      "hint": "Proses utama batik tradisional selalu menggunakan perintang warna berupa lilin malam (tulis atau cap).",
+      "explanation": "Salah, kain bermotif batik hasil cetak sablon pabrik disebut kain tekstil bermotif batik, bukan batik tulis atau batik cap asli.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "hist-culture-04-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Setiap tanggal 2 bulan Oktober, masyarakat Indonesia memperingati Hari... Nasional.",
+      "hint": "Kain warisan budaya bangsa yang sering dipakai pada hari tersebut di sekolah dan kantor.",
+      "explanation": "Tanggal 2 Oktober diperingati sebagai Hari Batik Nasional.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Batik", "Hari Batik"]
+      }
+    },
+    {
+      "id": "hist-culture-04-q10",
+      "type": "multiple_choice",
+      "prompt": "Mengapa batik tulis memiliki harga lebih mahal dibandingkan kain cetak biasa?",
+      "hint": "Bayangkan waktu dan ketelitian yang dibutuhkan seorang pembatik.",
+      "explanation": "Batik tulis dibuat secara manual dengan ketelitian tinggi menggunakan canting serta membutuhkan waktu berminggu-minggu hingga berbulan-bulan.",
+      "options": [
+        { "id": "a", "text": "Proses pembuatannya dikerjakan tangan dengan teliti dan memakan waktu lama" },
+        { "id": "b", "text": "Karena dibuat hanya dalam waktu lima menit oleh mesin besar" },
+        { "id": "c", "text": "Karena kainnya tidak boleh dicuci selamanya" },
+        { "id": "d", "text": "Karena warnanya selalu hanya putih polos" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

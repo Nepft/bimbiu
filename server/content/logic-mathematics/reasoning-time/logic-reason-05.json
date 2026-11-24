@@ -1,0 +1,141 @@
+{
+  "id": "logic-reason-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "logic-mathematics",
+  "unitId": "reasoning-time",
+  "title": "Kombinasi & Peluang Sederhana",
+  "description": "Menghitung banyak pasangan pilihan, rute perjalanan, susunan angka, dan peluang sederhana.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["logic-reason-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "logic-reason-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Raka memiliki 3 kaus berbeda warna (merah, biru, kuning) dan 2 celana (hitam, cokelat). Berapa banyak pasangan pakaian (1 kaus dan 1 celana) berbeda yang dapat dipakai Raka?",
+      "hint": "Setiap 1 kaus dapat dipasangkan dengan 2 pilihan celana.",
+      "explanation": "Banyak pasangan berbeda = 3 x 2 = 6 pasangan pakaian.",
+      "options": [
+        { "id": "a", "text": "5 pasangan" },
+        { "id": "b", "text": "6 pasangan" },
+        { "id": "c", "text": "8 pasangan" },
+        { "id": "d", "text": "9 pasangan" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-reason-05-q02",
+      "type": "true_false",
+      "prompt": "Jika sebuah uang koin dilempar satu kali, peluang munculnya sisi angka adalah 1/2 (sama besar dengan sisi gambar).",
+      "hint": "Uang koin memiliki 2 sisi: angka dan gambar.",
+      "explanation": "Benar. Karena ada 2 sisi yang sama rata (angka dan gambar), peluang muncul sisi angka adalah 1 dari 2 atau 1/2.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "logic-reason-05-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Ada 4 anak (Ani, Budi, Cika, dan Doni) yang masing-masing saling berjabat tangan satu sama lain tepat satu kali. Berapa banyak jabat tangan yang terjadi seluruhnya?",
+      "hint": "Ani menjabat 3 anak, Budi menjabat 2 anak lainnya, dan Cika menjabat 1 anak tersisa.",
+      "explanation": "Jabat tangan yang terjadi: (Ani-Budi, Ani-Cika, Ani-Doni), (Budi-Cika, Budi-Doni), dan (Cika-Doni). Totalnya 3 + 2 + 1 = 6 jabat tangan.",
+      "correctAnswer": { "acceptedAnswers": ["6", "6 kali"] }
+    },
+    {
+      "id": "logic-reason-05-q04",
+      "type": "multiple_select",
+      "prompt": "Dari angka 1, 2, dan 3 akan disusun bilangan 2 angka dengan syarat angkanya TIDAK boleh berulang. Pilih semua bilangan yang dapat terbentuk:",
+      "hint": "Bilangan seperti 11 atau 22 tidak boleh karena angkanya berulang.",
+      "explanation": "Bilangan 2 angka tanpa pengulangan dari 1, 2, 3 adalah 12, 13, 21, 23, 31, dan 32. Jadi 22 tidak termasuk.",
+      "options": [
+        { "id": "a", "text": "12" },
+        { "id": "b", "text": "22" },
+        { "id": "c", "text": "23" },
+        { "id": "d", "text": "31" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c", "d"] }
+    },
+    {
+      "id": "logic-reason-05-q05",
+      "type": "multiple_choice",
+      "prompt": "Di dalam kantong terdapat 4 bola merah, 3 bola biru, dan 3 bola hijau. Jika kamu mengambil 1 bola dengan mata tertutup, bola warna apakah yang peluang terambilnya paling besar?",
+      "hint": "Warna dengan jumlah bola terbanyak memiliki peluang terambil paling besar.",
+      "explanation": "Bola merah berjumlah paling banyak (4 buah dibanding 3 buah), sehingga peluang terambilnya paling besar (4/10).",
+      "options": [
+        { "id": "a", "text": "Bola merah" },
+        { "id": "b", "text": "Bola biru" },
+        { "id": "c", "text": "Bola hijau" },
+        { "id": "d", "text": "Semua warna peluangnya sama" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "logic-reason-05-q06",
+      "type": "image_quiz",
+      "mediaKey": "quiz-geometri",
+      "mediaCaption": "Peta rute perjalanan: dari Kota A ke Kota B terdapat 2 pilihan jalan, lalu dari Kota B ke Kota C terdapat 3 pilihan jalan.",
+      "prompt": "Ada berapa banyak rute berbeda yang bisa dipilih untuk pergi dari Kota A ke Kota C melalui Kota B?",
+      "hint": "Setiap 1 jalan dari A ke B bisa dilanjutkan dengan 3 jalan dari B ke C.",
+      "explanation": "Banyak rute berbeda = 2 x 3 = 6 rute.",
+      "options": [
+        { "id": "a", "text": "3 rute" },
+        { "id": "b", "text": "5 rute" },
+        { "id": "c", "text": "6 rute" },
+        { "id": "d", "text": "8 rute" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-reason-05-q07",
+      "type": "true_false",
+      "prompt": "Pada pelemparan sebuah dadu bermata 1 sampai 6, peluang munculnya mata dadu angka 7 adalah 1/6.",
+      "hint": "Apakah angka 7 terdapat pada sisi dadu bermata 1 sampai 6?",
+      "explanation": "Salah. Dadu hanya memiliki angka 1 sampai 6, sehingga tidak mungkin muncul angka 7 (peluangnya adalah 0).",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "logic-reason-05-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Menu makan siang menyediakan 2 pilihan nasi (nasi putih, nasi uduk) dan 4 pilihan lauk (ayam, ikan, telur, tempe). Berapa banyak paket (1 nasi dan 1 lauk) berbeda yang bisa dipesan?",
+      "hint": "Kalikan jumlah pilihan nasi dengan jumlah pilihan lauk.",
+      "explanation": "Banyak kombinasi paket = 2 x 4 = 8 paket berbeda.",
+      "correctAnswer": { "acceptedAnswers": ["8", "8 paket"] }
+    },
+    {
+      "id": "logic-reason-05-q09",
+      "type": "multiple_choice",
+      "prompt": "Berapa banyak susunan urutan berbeda yang dapat dibuat dari 3 huruf A, B, dan C (contohnya ABC, ACB, ...)?",
+      "hint": "Posisi pertama ada 3 pilihan, posisi kedua 2 pilihan, dan posisi ketiga 1 pilihan.",
+      "explanation": "Susunan yang mungkin ada 6: ABC, ACB, BAC, BCA, CAB, dan CBA (3 x 2 x 1 = 6).",
+      "options": [
+        { "id": "a", "text": "3 susunan" },
+        { "id": "b", "text": "6 susunan" },
+        { "id": "c", "text": "9 susunan" },
+        { "id": "d", "text": "12 susunan" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-reason-05-q10",
+      "type": "multiple_select",
+      "prompt": "Dalam kotak ada 5 kartu bernomor 1, 2, 3, 4, dan 5. Jika diambil 1 kartu secara acak, pilih semua kejadian yang peluangnya lebih besar dari 1/2 (lebih dari separuh jumlah kartu):",
+      "hint": "Karena ada 5 kartu, kejadian yang peluangnya lebih dari 1/2 harus memiliki minimal 3 kartu yang memenuhi syarat.",
+      "explanation": "Kartu bernomor ganjil (1, 3, 5) ada 3 kartu (3/5 > 1/2) dan kartu kurang dari 4 (1, 2, 3) ada 3 kartu (3/5 > 1/2). Dua kejadian lainnya hanya punya 2 kartu (2/5 < 1/2).",
+      "options": [
+        { "id": "a", "text": "Terambil kartu bernomor ganjil" },
+        { "id": "b", "text": "Terambil kartu bernomor genap" },
+        { "id": "c", "text": "Terambil kartu bernomor kurang dari 4" },
+        { "id": "d", "text": "Terambil kartu bernomor lebih dari 3" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

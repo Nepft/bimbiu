@@ -1,0 +1,145 @@
+{
+  "id": "science-earth-01",
+  "contentVersion": "1.0.0",
+  "categoryId": "science-nature",
+  "unitId": "earth-weather",
+  "title": "Lapisan Bumi dan Permukaan Daratan",
+  "description": "Mengenal struktur lapisan penyusun Bumi, bentang alam daratan, gunung berapi, dan gempa bumi.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 1,
+  "prerequisites": [],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "science-earth-01-q01",
+      "type": "multiple_choice",
+      "prompt": "Lapisan terluar Bumi yang berupa batuan padat tempat manusia, hewan, dan tumbuhan hidup disebut...",
+      "hint": "Lapisan ini paling tipis dibandingkan mantel dan inti Bumi.",
+      "explanation": "Kerak Bumi adalah lapisan paling luar Bumi yang padat dan menjadi tempat tinggal makhluk hidup.",
+      "options": [
+        { "id": "a", "text": "Inti dalam" },
+        { "id": "b", "text": "Mantel Bumi" },
+        { "id": "c", "text": "Kerak Bumi" },
+        { "id": "d", "text": "Inti luar" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "science-earth-01-q02",
+      "type": "true_false",
+      "prompt": "Inti Bumi memiliki suhu yang sangat panas dan sebagian besar tersusun atas logam besi dan nikel.",
+      "hint": "Semakin dalam ke pusat Bumi, suhu dan tekanannya semakin tinggi.",
+      "explanation": "Benar! Inti Bumi (inti luar cair dan inti dalam padat) tersusun terutama dari besi dan nikel dengan suhu ribuan derajat Celcius.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-earth-01-q03",
+      "type": "multiple_choice",
+      "prompt": "Magma panas dari dalam perut Bumi yang sudah keluar ke permukaan saat gunung meletus disebut...",
+      "hint": "Namanya berubah ketika magma sudah menyentuh permukaan Bumi.",
+      "explanation": "Magma adalah batuan cair pijar di bawah permukaan Bumi; setelah keluar ke permukaan saat erupsi, disebut lava.",
+      "options": [
+        { "id": "a", "text": "Lava" },
+        { "id": "b", "text": "Sedimen" },
+        { "id": "c", "text": "Gletser" },
+        { "id": "d", "text": "Humus" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-earth-01-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Lapisan udara yang menyelimuti planet Bumi disebut ______.",
+      "hint": "Diawali huruf A dan penting untuk melindungi kita dari meteoroid dan radiasi.",
+      "explanation": "Atmosfer adalah lapisan gas yang menyelimuti Bumi, menyediakan udara untuk bernapas dan melindungi permukaan dari benda langit serta sinar berbahaya.",
+      "correctAnswer": {
+        "acceptedAnswers": ["atmosfer", "Atmosfer"]
+      }
+    },
+    {
+      "id": "science-earth-01-q05",
+      "type": "multiple_select",
+      "prompt": "Pilih tiga penyebab utama terjadinya gempa bumi:",
+      "hint": "Gempa bisa terjadi akibat pergeseran kerak Bumi, aktivitas gunung api, atau runtuhan gua.",
+      "explanation": "Gempa bumi dapat disebabkan oleh pergeseran lempeng tektonik (gempa tektonik), letusan gunung berapi (gempa vulkanik), dan runtuhan tanah/gua (gempa runtuhan).",
+      "options": [
+        { "id": "a", "text": "Pergeseran lempeng tektonik Bumi" },
+        { "id": "b", "text": "Aktivitas gunung berapi" },
+        { "id": "c", "text": "Runtuhan gua atau tambang bawah tanah" },
+        { "id": "d", "text": "Tiupan angin sepoi-sepoi di pantai" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "science-earth-01-q06",
+      "type": "true_false",
+      "prompt": "Indonesia memiliki banyak gunung berapi aktif karena terletak di pertemuan beberapa lempeng tektonik dunia.",
+      "hint": "Wilayah ini dikenal sebagai Cincin Api Pasifik (Ring of Fire).",
+      "explanation": "Benar! Indonesia berada di pertemuan tiga lempeng besar (Indo-Australia, Eurasia, Pasifik) sehingga kaya gunung api dan rawan gempa.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-earth-01-q07",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Peta bola dunia yang memperlihatkan pembagian daratan benua dan perairan samudra.",
+      "prompt": "Sebagian besar permukaan planet Bumi (sekitar 71%) ditutupi oleh...",
+      "hint": "Itulah mengapa Bumi dijuluki Planet Biru.",
+      "explanation": "Sekitar 71% permukaan Bumi ditutupi oleh perairan (terutama lautan dan samudra), dan sekitar 29% berupa daratan.",
+      "options": [
+        { "id": "a", "text": "Air (lautan dan perairan)" },
+        { "id": "b", "text": "Gurun pasir" },
+        { "id": "c", "text": "Gunung berapi" },
+        { "id": "d", "text": "Hutan pinus" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-earth-01-q08",
+      "type": "multiple_choice",
+      "prompt": "Alat yang digunakan untuk mencatat getaran gempa bumi disebut...",
+      "hint": "Namanya diawali kata 'seismo-' yang berarti gempa.",
+      "explanation": "Seismograf (atau seismometer) adalah alat untuk mendeteksi dan mencatat gelombang getaran gempa bumi.",
+      "options": [
+        { "id": "a", "text": "Termometer" },
+        { "id": "b", "text": "Barometer" },
+        { "id": "c", "text": "Seismograf" },
+        { "id": "d", "text": "Anemometer" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "science-earth-01-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Wilayah cekungan daratan yang luas dan dikelilingi oleh bukit atau gunung disebut ______.",
+      "hint": "Sering dilalui aliran sungai di bagian dasarnya; diawali huruf L.",
+      "explanation": "Lembah adalah cekungan memanjang di permukaan daratan yang diapit oleh perbukitan atau pegunungan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["lembah", "Lembah"]
+      }
+    },
+    {
+      "id": "science-earth-01-q10",
+      "type": "multiple_select",
+      "prompt": "Apa yang sebaiknya dilakukan jika terjadi gempa bumi saat kita sedang berada di dalam gedung sekolah?",
+      "hint": "Utamakan melindungi kepala dan menjauh dari benda yang mudah pecah atau roboh.",
+      "explanation": "Saat gempa, berlindung di bawah meja yang kuat sambil melindungi kepala, jauhi kaca atau lemari tinggi, lalu keluar ke lapangan terbuka dengan tertib setelah guncangan mereda.",
+      "options": [
+        { "id": "a", "text": "Berlindung di bawah meja yang kokoh sambil melindungi kepala" },
+        { "id": "b", "text": "Menjauh dari jendela kaca dan rak buku yang tinggi" },
+        { "id": "c", "text": "Segera menuju lapangan terbuka setelah aman tanpa berdesakan" },
+        { "id": "d", "text": "Berdiri tepat di bawah lampu gantung yang berat" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "daily-safety-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "everyday-knowledge",
+  "unitId": "safety-manners",
+  "title": "Sopan Santun di Rumah & Sekolah",
+  "description": "Menerapkan empat kata ajaib, etika mengantre, dan sikap saling menghargai dalam pergaulan sehari-hari.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["daily-safety-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "daily-safety-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Ketika tidak sengaja menyenggol buku teman hingga terjatuh ke lantai, ucapan pertama yang paling tepat adalah...",
+      "hint": "Gunakan kata santun untuk mengakui ketidaksengajaan sekaligus membantu merapikannya.",
+      "explanation": "Mengucapkan 'maaf' dengan tulus lalu membantu mengambilkan buku menunjukkan sikap bertanggung jawab dan sopan.",
+      "options": [
+        { "id": "a", "text": "Pura-pura tidak melihat dan langsung pergi" },
+        { "id": "b", "text": "Mengucapkan maaf dan membantu mengambilkan bukunya" },
+        { "id": "c", "text": "Menyalahkan teman karena menaruh buku di meja" },
+        { "id": "d", "text": "Tertawa keras supaya tidak malu" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "daily-safety-04-q02",
+      "type": "true_false",
+      "prompt": "Memotong antrean di kantin sekolah diperbolehkan jika kita sedang terburu-buru dan kenal dengan penjaga kantin.",
+      "hint": "Mengantre melatih keadilan dan menghargai hak orang lain yang datang lebih dulu.",
+      "explanation": "Salah. Semua orang memiliki hak yang sama dalam antrean; kita harus menunggu giliran dengan tertib.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "daily-safety-04-q03",
+      "type": "multiple_select",
+      "prompt": "Manakah yang termasuk 'empat kata ajaib' dalam sopan santun sehari-hari?",
+      "hint": "Kata-kata ini dipakai saat meminta bantuan, berterima kasih, bersalah, dan melewati orang lain.",
+      "explanation": "Tolong, terima kasih, maaf, dan permisi adalah empat ungkapan santun yang membuat komunikasi terasa nyaman dan saling menghargai.",
+      "options": [
+        { "id": "a", "text": "Tolong" },
+        { "id": "b", "text": "Terima kasih" },
+        { "id": "c", "text": "Maaf dan permisi" },
+        { "id": "d", "text": "Cepat sini!" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-safety-04-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Saat ingin meminjam penggaris milik teman sebangku, kita harus meminta ... terlebih dahulu sebelum mengambilnya.",
+      "hint": "Kata ini berarti persetujuan dari pemilik barang.",
+      "explanation": "Meminta izin sebelum meminjam atau memakai barang orang lain adalah bentuk menghormati kepemilikan orang lain.",
+      "correctAnswer": {
+        "acceptedAnswers": ["izin", "Izin", "ijin", "Ijin"]
+      }
+    },
+    {
+      "id": "daily-safety-04-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Di perpustakaan sekolah terdapat tanda bergambar jari di depan bibir, sementara beberapa siswa sedang membaca buku di meja masing-masing.",
+      "prompt": "Perilaku apa yang harus dijaga ketika berada di ruangan seperti pada gambar?",
+      "hint": "Perpustakaan adalah tempat membaca yang butuh ketenangan.",
+      "explanation": "Di perpustakaan kita harus menjaga ketenangan, berbicara pelan jika perlu, dan mengembalikan buku ke tempatnya setelah membaca.",
+      "options": [
+        { "id": "a", "text": "Menjaga suara tetap pelan agar tidak mengganggu orang yang membaca" },
+        { "id": "b", "text": "Berlari-larian sambil berteriak memanggil teman" },
+        { "id": "c", "text": "Menyetel musik keras-keras dari tablet" },
+        { "id": "d", "text": "Makan makanan berkuah di atas buku perpustakaan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-safety-04-q06",
+      "type": "multiple_choice",
+      "prompt": "Ketika guru atau teman sedang berbicara menyampaikan pendapat di depan kelas, sikap yang baik adalah...",
+      "hint": "Hormati pembicara dengan memperhatikan dan menunggu giliran bicara.",
+      "explanation": "Mendengarkan dengan tenang sampai pembicara selesai menunjukkan rasa hormat dan membantu kita memahami informasi dengan baik.",
+      "options": [
+        { "id": "a", "text": "Memotong pembicaraannya di tengah kalimat" },
+        { "id": "b", "text": "Mendengarkan dengan tenang dan mengangkat tangan jika ingin bertanya" },
+        { "id": "c", "text": "Mengobrol keras dengan teman sebelah" },
+        { "id": "d", "text": "Menertawakan jika ada kata yang salah" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "daily-safety-04-q07",
+      "type": "true_false",
+      "prompt": "Mengetuk pintu dan mengucapkan salam sebelum masuk ke ruang guru atau kamar orang lain adalah bentuk tata krama yang baik.",
+      "hint": "Hal ini memberi tanda sopan sebelum memasuki ruang orang lain.",
+      "explanation": "Benar! Mengetuk pintu dan memberi salam menghargai privasi serta kenyamanan orang di dalam ruangan.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-safety-04-q08",
+      "type": "multiple_select",
+      "prompt": "Contoh sikap sopan santun saat berada di transportasi umum seperti bus atau kereta adalah...",
+      "hint": "Perhatikan siapa yang lebih membutuhkan tempat duduk dan bagaimana menjaga kenyamanan bersama.",
+      "explanation": "Memberi tempat duduk kepada lansia, ibu hamil, atau penyandang disabilitas, berbicara tidak berteriak, dan menjaga kebersihan adalah etika di ruang publik.",
+      "options": [
+        { "id": "a", "text": "Memberikan tempat duduk kepada lansia atau ibu hamil" },
+        { "id": "b", "text": "Tidak membuang sampah di dalam kendaraan" },
+        { "id": "c", "text": "Menggunakan suara wajar saat berbicara" },
+        { "id": "d", "text": "Menaikkan sepatu kotor ke atas kursi penumpang" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-safety-04-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Setelah menerima bantuan atau hadiah dari seseorang, kita sebaiknya mengucapkan ...",
+      "hint": "Ungkapan rasa syukur dan penghargaan kepada pemberi.",
+      "explanation": "Mengucapkan 'terima kasih' menunjukkan bahwa kita menghargai kebaikan dan bantuan orang lain.",
+      "correctAnswer": {
+        "acceptedAnswers": ["terima kasih", "Terima kasih", "terimakasih", "Terimakasih"]
+      }
+    },
+    {
+      "id": "daily-safety-04-q10",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Dua orang dewasa sedang berdiri berbincang di lorong sekolah, sementara seorang siswa ingin berjalan melewati jalan di depan mereka.",
+      "prompt": "Bagaimana cara paling sopan yang dilakukan siswa tersebut saat lewat?",
+      "hint": "Gunakan kata sapaan santun sambil sedikit menunduk.",
+      "explanation": "Mengucapkan 'permisi' dengan ramah dan sedikit menundukkan badan saat melintas di depan orang lain menunjukkan sikap santun.",
+      "options": [
+        { "id": "a", "text": "Mengucapkan 'permisi' dengan sopan sambil sedikit menundukkan badan" },
+        { "id": "b", "text": "Berlari menerobos di tengah-tengah mereka tanpa bicara" },
+        { "id": "c", "text": "Mendorong salah satu orang agar minggir" },
+        { "id": "d", "text": "Berteriak menyuruh mereka pindah" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

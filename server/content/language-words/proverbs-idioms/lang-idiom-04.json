@@ -1,0 +1,145 @@
+{
+  "id": "lang-idiom-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "proverbs-idioms",
+  "title": "Peribahasa Persatuan & Kebijaksanaan",
+  "description": "Menafsirkan peribahasa tentang kerja sama, kerendahan hati, dan perumpamaan alam.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["lang-idiom-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-idiom-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Apa makna peribahasa 'Berat sama dipikul, ringan sama dijinjing'?",
+      "hint": "Pekerjaan atau masalah dihadapi bersama-sama.",
+      "explanation": "'Berat sama dipikul, ringan sama dijinjing' berarti suka dan duka atau pekerjaan berat maupun ringan ditanggung dan dikerjakan bersama-sama (gotong royong).",
+      "options": [
+        { "id": "a", "text": "Suka duka dan pekerjaan ditanggung bersama-sama" },
+        { "id": "b", "text": "Barang berat harus dibawa sendiri" },
+        { "id": "c", "text": "Setiap orang memilih pekerjaan yang paling mudah" },
+        { "id": "d", "text": "Berlomba mengangkat beban paling berat" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-idiom-04-q02",
+      "type": "true_false",
+      "prompt": "Peribahasa 'Tong kosong nyaring bunyinya' menggambarkan orang yang sedikit pengetahuannya tetapi banyak bicara atau menyombongkan diri.",
+      "hint": "Tong yang tidak berisi apa-apa berbunyi paling keras jika dipukul.",
+      "explanation": "Benar. Peribahasa ini menyindir orang yang berilmu dangkal namun paling banyak berbicara atau membual.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-idiom-04-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Lengkapi peribahasa tentang persatuan: 'Bersatu kita teguh, bercerai kita ____.'",
+      "hint": "Kebalikan dari berdiri kukuh/tegak.",
+      "explanation": "Peribahasa lengkapnya adalah 'Bersatu kita teguh, bercerai kita runtuh', yang mengingatkan pentingnya persatuan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["runtuh", "Runtuh"]
+      }
+    },
+    {
+      "id": "lang-idiom-04-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua peribahasa yang bermakna 'wawasan yang sangat sempit' atau 'seseorang yang mudah berubah pendirian'!",
+      "hint": "Satunya tentang hewan dalam tempurung kelapa, satunya tentang air di daun.",
+      "explanation": "'Bagai katak dalam tempurung' berarti orang yang wawasannya sempit/kurang pengetahuan luas, sedangkan 'Bagai air di daun talas' berarti pendiriannya tidak tetap.",
+      "options": [
+        { "id": "a", "text": "Bagai katak dalam tempurung" },
+        { "id": "b", "text": "Bagai pinang dibelah dua" },
+        { "id": "c", "text": "Bagai air di daun talas" },
+        { "id": "d", "text": "Berat sama dipikul, ringan sama dijinjing" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-idiom-04-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Dua anak kembar memiliki wajah, senyum, dan suara yang sangat mirip satu sama lain.",
+      "prompt": "Peribahasa apa yang paling tepat untuk menggambarkan dua anak yang sangat mirip tersebut?",
+      "hint": "Menggunakan perumpamaan buah pinang yang dibelah menjadi dua bagian sama persis.",
+      "explanation": "'Bagai pinang dibelah dua' berarti dua hal atau dua orang yang sangat mirip atau serupa sekali.",
+      "options": [
+        { "id": "a", "text": "Bagai kucing dan anjing" },
+        { "id": "b", "text": "Bagai pinang dibelah dua" },
+        { "id": "c", "text": "Bagai pungguk merindukan bulan" },
+        { "id": "d", "text": "Bagai kacang lupa akan kulitnya" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-idiom-04-q06",
+      "type": "multiple_choice",
+      "prompt": "Apa arti peribahasa 'Bagai kacang lupa akan kulitnya'?",
+      "hint": "Kulit kacang dulu melindungi biji kacang, namun setelah terkelupas seolah dilupakan.",
+      "explanation": "Peribahasa ini berarti orang yang melupakan asalnya atau melupakan jasa orang yang pernah menolongnya setelah ia sukses.",
+      "options": [
+        { "id": "a", "text": "Orang yang lupa akan asalnya atau jasa orang yang menolongnya" },
+        { "id": "b", "text": "Orang yang selalu mengingat jasa gurunya" },
+        { "id": "c", "text": "Petani yang memanen kacang di ladang" },
+        { "id": "d", "text": "Orang yang suka menyimpan makanan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-idiom-04-q07",
+      "type": "true_false",
+      "prompt": "Peribahasa 'Besar pasak daripada tiang' berarti pengeluaran jauh lebih besar daripada pendapatan.",
+      "hint": "Jika pasak (paku kayu) lebih besar daripada tiangnya, tiang bisa pecah/tidak seimbang.",
+      "explanation": "Benar. 'Besar pasak daripada tiang' berarti belanja atau pengeluaran lebih besar daripada penghasilan.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-idiom-04-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Lengkapi peribahasa tentang kebaikan yang dibalas keburukan: 'Air susu dibalas dengan air ____.'",
+      "hint": "Nama sejenis racun dari tumbuhan dalam peribahasa lama (empat huruf, berawalan 't').",
+      "explanation": "Peribahasa lengkapnya adalah 'Air susu dibalas dengan air tuba', yang berarti perbuatan baik dibalas dengan perbuatan jahat.",
+      "correctAnswer": {
+        "acceptedAnswers": ["tuba", "Tuba"]
+      }
+    },
+    {
+      "id": "lang-idiom-04-q09",
+      "type": "multiple_choice",
+      "prompt": "Apa maksud peribahasa 'Bagai pungguk merindukan bulan'?",
+      "hint": "Burung pungguk hanya bisa memandang bulan di langit yang sangat jauh.",
+      "explanation": "'Bagai pungguk merindukan bulan' berarti mengharapkan atau menginginkan sesuatu yang sangat sulit atau mustahil untuk dicapai.",
+      "options": [
+        { "id": "a", "text": "Mengharapkan sesuatu yang sangat sulit atau tidak mungkin tercapai" },
+        { "id": "b", "text": "Tidur nyenyak di malam hari" },
+        { "id": "c", "text": "Berhasil mencapai cita-cita dengan mudah" },
+        { "id": "d", "text": "Burung yang terbang menuju bulan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-idiom-04-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua peribahasa yang memiliki pesan hampir sama tentang 'seseorang yang tidak berilmu namun suka membanggakan diri'!",
+      "hint": "Satu tentang tong, satu lagi tentang air di sungai dangkal.",
+      "explanation": "'Tong kosong nyaring bunyinya' dan 'Air beriak tanda tak dalam' sama-sama menggambarkan orang yang sedikit ilmunya tetapi paling banyak bicara atau menyombongkan diri.",
+      "options": [
+        { "id": "a", "text": "Tong kosong nyaring bunyinya" },
+        { "id": "b", "text": "Air beriak tanda tak dalam" },
+        { "id": "c", "text": "Rajin pangkal pandai" },
+        { "id": "d", "text": "Bersatu kita teguh" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    }
+  ]
+}

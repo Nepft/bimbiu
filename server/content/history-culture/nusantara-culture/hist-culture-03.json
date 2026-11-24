@@ -1,0 +1,145 @@
+{
+  "id": "hist-culture-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "nusantara-culture",
+  "title": "Alat Musik Tradisional Indonesia",
+  "description": "Mengenal alat musik tradisional dari bambu, kayu, logam, dan daun lontar yang menjadi kebanggaan Nusantara.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["hist-culture-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-culture-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Alat musik tradisional dari Jawa Barat yang terbuat dari tabung bambu dan dimainkan dengan cara digoyangkan adalah...",
+      "hint": "Alat musik ini sudah diakui UNESCO sejak tahun 2010 dan terkenal hingga ke luar negeri.",
+      "explanation": "Angklung terbuat dari potongan bambu yang disusun pada rangka bambu dan menghasilkan nada indah saat digoyangkan.",
+      "options": [
+        { "id": "a", "text": "Angklung" },
+        { "id": "b", "text": "Sasando" },
+        { "id": "c", "text": "Tifa" },
+        { "id": "d", "text": "Kolintang" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-culture-03-q02",
+      "type": "true_false",
+      "prompt": "Sasando adalah alat musik petik tradisional yang berasal dari Pulau Rote, Nusa Tenggara Timur.",
+      "hint": "Bagian resonansinya terbuat dari anyaman daun lontar.",
+      "explanation": "Benar, Sasando berasal dari Pulau Rote, Nusa Tenggara Timur, dengan wadah gema dari daun lontar.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-culture-03-q03",
+      "type": "multiple_choice",
+      "prompt": "Alat musik pukul tradisional asal Sulawesi Utara yang terbuat dari bilah-bilah kayu ringan yang disusun berderet adalah...",
+      "hint": "Dimainkan menggunakan pemukul kayu khusus dan sering tampil dalam orkestra tradisional Minahasa.",
+      "explanation": "Kolintang merupakan alat musik perkusi bernada dari Minahasa, Sulawesi Utara, yang terbuat dari kayu ringan.",
+      "options": [
+        { "id": "a", "text": "Kolintang" },
+        { "id": "b", "text": "Seruling" },
+        { "id": "c", "text": "Kecapi" },
+        { "id": "d", "text": "Rebab" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-culture-03-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Alat musik pukul menyerupai kendang berukir khas dari Papua dan Maluku disebut...",
+      "hint": "Namanya hanya terdiri dari empat huruf dan diawali huruf T.",
+      "explanation": "Tifa terbuat dari kayu yang dilubangi tengahnya dan ditutup kulit hewan pada satu sisi, dimainkan dengan cara ditabuh.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Tifa", "alat musik Tifa"]
+      }
+    },
+    {
+      "id": "hist-culture-03-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi seperangkat alat musik tradisional Jawa dan Bali yang terdiri atas gong, saron, bonang, dan kendang.",
+      "prompt": "Seperangkat alat musik tradisional yang didominasi instrumen perunggu seperti gong, bonang, dan saron disebut...",
+      "hint": "Orkestra tradisional ini banyak mengiringi pertunjukan wayang kulit dan tari Jawa/Bali.",
+      "explanation": "Gamelan adalah ansambel musik tradisional Indonesia terutama di Jawa, Sunda, dan Bali yang terdiri atas instrumen pukul perunggu dan kendang.",
+      "options": [
+        { "id": "a", "text": "Gamelan" },
+        { "id": "b", "text": "Talempong" },
+        { "id": "c", "text": "Sampe" },
+        { "id": "d", "text": "Saluang" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-culture-03-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua cara memainkan alat musik tradisional beserta contohnya yang benar!",
+      "hint": "Ingat cara membunyikan suling dan kecapi atau sasando.",
+      "explanation": "Saluang dan suling dimainkan dengan cara ditiup, sedangkan sasando dan sampe dimainkan dengan cara dipetik.",
+      "options": [
+        { "id": "a", "text": "Saluang dari Sumatra Barat dimainkan dengan cara ditiup" },
+        { "id": "b", "text": "Sampe dari Kalimantan dimainkan dengan cara dipetik" },
+        { "id": "c", "text": "Tifa dimainkan dengan cara digesek seperti biola" },
+        { "id": "d", "text": "Gong dimainkan dengan cara ditiup" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-culture-03-q07",
+      "type": "multiple_choice",
+      "prompt": "Tokoh seniman musik asal Jawa Barat yang berjasa mengembangkan angklung bernada diatonis sehingga dapat memainkan lagu modern dan internasional adalah...",
+      "hint": "Nama beliau diabadikan sebagai nama sanggar angklung terkenal di Bandung, 'Saung Angklung...'.",
+      "explanation": "Daeng Soetigna menciptakan angklung bertangga nada diatonis pada tahun 1938, yang kemudian diteruskan oleh muridnya Mang Udjo.",
+      "options": [
+        { "id": "a", "text": "Daeng Soetigna" },
+        { "id": "b", "text": "W.R. Supratman" },
+        { "id": "c", "text": "Gesang" },
+        { "id": "d", "text": "Ismail Marzuki" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-culture-03-q08",
+      "type": "true_false",
+      "prompt": "Semua alat musik tradisional di Indonesia hanya dimainkan dengan cara dipukul.",
+      "hint": "Pikirkan angklung, suling, sasando, dan rebab.",
+      "explanation": "Salah, alat musik tradisional Indonesia beragam cara memainkannya: digoyangkan (angklung), ditiup (suling), dipetik (sasando), digesek (rebab), dan dipukul (kendang).",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "hist-culture-03-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Bahan tumbuhan utama yang digunakan untuk membuat alat musik angklung adalah...",
+      "hint": "Tumbuhan beruas-ruas dan berbatang kuat berwarna hijau atau kuning kecokelatan.",
+      "explanation": "Angklung dibuat dari bambu pilihan seperti bambu hitam (awi wulung) atau bambu tali yang dikeringkan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["bambu", "pohon bambu"]
+      }
+    },
+    {
+      "id": "hist-culture-03-q10",
+      "type": "multiple_choice",
+      "prompt": "Mengapa permainan angklung secara berkelompok melatih kerja sama yang baik?",
+      "hint": "Satu buah angklung umumnya hanya menghasilkan satu nada tertentu.",
+      "explanation": "Setiap pemain memegang nada berbeda sehingga semua harus kompak mengikuti aba-aba agar tercipta melodi yang harmonis.",
+      "options": [
+        { "id": "a", "text": "Karena setiap pemain memegang nada berbeda yang harus dimainkan tepat waktu" },
+        { "id": "b", "text": "Karena pemain tidak perlu mendengarkan temannya" },
+        { "id": "c", "text": "Karena angklung hanya boleh dimainkan satu orang saja" },
+        { "id": "d", "text": "Karena setiap pemain memainkan lagu yang berbeda bersamaan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

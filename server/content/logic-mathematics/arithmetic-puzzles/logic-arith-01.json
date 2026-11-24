@@ -1,0 +1,141 @@
+{
+  "id": "logic-arith-01",
+  "contentVersion": "1.0.0",
+  "categoryId": "logic-mathematics",
+  "unitId": "arithmetic-puzzles",
+  "title": "Rahasia Urutan Operasi Hitung",
+  "description": "Menguasai aturan tanda kurung, perkalian, pembagian, penjumlahan, dan pengurangan.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 1,
+  "prerequisites": [],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "logic-arith-01-q01",
+      "type": "multiple_choice",
+      "prompt": "Berapakah hasil dari 4 + 3 x 5?",
+      "hint": "Kerjakan perkalian terlebih dahulu sebelum penjumlahan.",
+      "explanation": "Perkalian didahulukan: 3 x 5 = 15, lalu 4 + 15 = 19.",
+      "options": [
+        { "id": "a", "text": "35" },
+        { "id": "b", "text": "19" },
+        { "id": "c", "text": "20" },
+        { "id": "d", "text": "12" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-arith-01-q02",
+      "type": "true_false",
+      "prompt": "Dalam operasi hitung campuran tanpa tanda kurung, perkalian dan pembagian harus dikerjakan sebelum penjumlahan dan pengurangan.",
+      "hint": "Ingat aturan tingkatan operasi hitung: kurung, kali/bagi, lalu tambah/kurang.",
+      "explanation": "Benar. Perkalian dan pembagian memiliki tingkat lebih tinggi daripada penjumlahan dan pengurangan.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "logic-arith-01-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Hitunglah hasil dari (8 + 4) x 3.",
+      "hint": "Selesaikan angka di dalam tanda kurung terlebih dahulu.",
+      "explanation": "8 + 4 = 12, kemudian 12 x 3 = 36.",
+      "correctAnswer": { "acceptedAnswers": ["36"] }
+    },
+    {
+      "id": "logic-arith-01-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua operasi hitung di bawah ini yang hasilnya tepat 20:",
+      "hint": "Perhatikan letak tanda kurung dan dahulukan perkalian atau pembagian.",
+      "explanation": "2 + (3 x 6) = 2 + 18 = 20, dan 24 - (8 : 2) = 24 - 4 = 20.",
+      "options": [
+        { "id": "a", "text": "2 + 3 x 6" },
+        { "id": "b", "text": "(2 + 3) x 6" },
+        { "id": "c", "text": "24 - 8 : 2" },
+        { "id": "d", "text": "(24 - 8) : 2" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "logic-arith-01-q05",
+      "type": "multiple_choice",
+      "prompt": "Berapakah hasil dari 30 - 12 : 3 + 2?",
+      "hint": "Hitung 12 : 3 terlebih dahulu, lalu kerjakan dari kiri ke kanan.",
+      "explanation": "12 : 3 = 4, sehingga menjadi 30 - 4 + 2 = 26 + 2 = 28.",
+      "options": [
+        { "id": "a", "text": "8" },
+        { "id": "b", "text": "24" },
+        { "id": "c", "text": "28" },
+        { "id": "d", "text": "32" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-arith-01-q06",
+      "type": "image_quiz",
+      "mediaKey": "quiz-geometri",
+      "mediaCaption": "Papan teka-teki operasi hitung bertuliskan: 6 x 4 - 10 : 2 = ?",
+      "prompt": "Berapakah hasil yang benar untuk mengisi tanda tanya pada papan teka-teki tersebut?",
+      "hint": "Hitung 6 x 4 dan 10 : 2 terlebih dahulu sebelum mengurangkan.",
+      "explanation": "6 x 4 = 24 dan 10 : 2 = 5. Jadi, 24 - 5 = 19.",
+      "options": [
+        { "id": "a", "text": "7" },
+        { "id": "b", "text": "19" },
+        { "id": "c", "text": "22" },
+        { "id": "d", "text": "29" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-arith-01-q07",
+      "type": "true_false",
+      "prompt": "Hasil dari 5 + 5 x 2 adalah 20.",
+      "hint": "Apakah 5 + 5 dikerjakan duluan atau 5 x 2?",
+      "explanation": "Salah. Perkalian harus didahulukan: 5 x 2 = 10, lalu 5 + 10 = 15 (bukan 20).",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "logic-arith-01-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Hitunglah hasil dari 40 : (5 + 3) x 4.",
+      "hint": "Hitung isi tanda kurung dulu, lalu kerjakan pembagian dan perkalian dari kiri ke kanan.",
+      "explanation": "5 + 3 = 8. Kemudian 40 : 8 = 5, dan 5 x 4 = 20.",
+      "correctAnswer": { "acceptedAnswers": ["20"] }
+    },
+    {
+      "id": "logic-arith-01-q09",
+      "type": "multiple_choice",
+      "prompt": "Manakah penempatan tanda kurung yang membuat hasil perhitungan menjadi 27?",
+      "hint": "Coba hitung setiap pilihan dengan mendahulukan bagian di dalam kurung.",
+      "explanation": "(2 + 4) x 5 - 3 = 6 x 5 - 3 = 30 - 3 = 27.",
+      "options": [
+        { "id": "a", "text": "(2 + 4) x 5 - 3" },
+        { "id": "b", "text": "2 + (4 x 5) - 3" },
+        { "id": "c", "text": "2 + 4 x (5 - 3)" },
+        { "id": "d", "text": "(2 + 4) x (5 - 3)" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "logic-arith-01-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih semua operasi hitung di bawah ini yang bernilai 18:",
+      "hint": "Hitung masing-masing pilihan dengan teliti mengikuti aturan urutan operasi.",
+      "explanation": "3 x (4 + 2) = 18, 20 - 4 : 2 = 18, dan 6 + 3 x 4 = 18. Sementara (20 - 4) : 2 = 8.",
+      "options": [
+        { "id": "a", "text": "3 x (4 + 2)" },
+        { "id": "b", "text": "20 - 4 : 2" },
+        { "id": "c", "text": "(20 - 4) : 2" },
+        { "id": "d", "text": "6 + 3 x 4" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+    }
+  ]
+}

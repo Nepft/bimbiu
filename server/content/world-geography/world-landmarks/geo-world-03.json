@@ -1,0 +1,145 @@
+{
+  "id": "geo-world-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "world-landmarks",
+  "title": "Keajaiban Buatan Manusia di Dunia",
+  "description": "Mengenal monumen dan bangunan bersejarah mengagumkan dari berbagai peradaban dunia.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["geo-world-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-world-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Bangunan benteng batu terpanjang di dunia yang dibangun berabad-abad untuk melindungi wilayah utara Tiongkok adalah ...",
+      "hint": "Panjangnya mencapai lebih dari 21.000 kilometer jika seluruh cabangnya digabungkan.",
+      "explanation": "Tembok Besar Tiongkok (Great Wall of China) dibangun oleh berbagai dinasti di Tiongkok sebagai pertahanan.",
+      "options": [
+        { "id": "a", "text": "Menara Eiffel" },
+        { "id": "b", "text": "Tembok Besar Tiongkok" },
+        { "id": "c", "text": "Colosseum" },
+        { "id": "d", "text": "Machu Picchu" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-world-03-q02",
+      "type": "true_false",
+      "prompt": "Candi Borobudur di Jawa Tengah, Indonesia, merupakan candi Buddha terbesar di dunia.",
+      "hint": "Candi ini dibangun pada masa Dinasti Syailendra dan masuk daftar Warisan Dunia UNESCO.",
+      "explanation": "Benar! Candi Borobudur di Kabupaten Magelang, Jawa Tengah, adalah monumen Buddha terbesar di dunia.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-world-03-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Menara besi ikonik yang menjulang di Kota Paris, Prancis, bernama Menara ...",
+      "hint": "Diambil dari nama insinyur perancangnya, Gustave ...",
+      "explanation": "Menara Eiffel selesai dibangun pada tahun 1889 dan menjadi ikon paling terkenal di Paris, Prancis.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Eiffel", "eiffel"]
+      }
+    },
+    {
+      "id": "geo-world-03-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua monumen bersejarah dunia beserta negara asalnya yang tepat!",
+      "hint": "Ingat letak Piramida dan Taj Mahal.",
+      "explanation": "Piramida Giza berada di Mesir dan Taj Mahal berada di India. Colosseum berada di Italia (bukan Spanyol), sedangkan Machu Picchu berada di Peru (bukan Jepang).",
+      "options": [
+        { "id": "a", "text": "Piramida Giza di Mesir" },
+        { "id": "b", "text": "Colosseum di Spanyol" },
+        { "id": "c", "text": "Taj Mahal di India" },
+        { "id": "d", "text": "Machu Picchu di Jepang" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-world-03-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Di puncak Pegunungan Andes, Amerika Selatan, terdapat kota batu kuno peninggalan Suku Inca.",
+      "prompt": "Apakah nama situs kota kuno Suku Inca di Pegunungan Andes, Peru, yang sering disebut Kota di Atas Awan?",
+      "hint": "Namanya terdiri dari dua kata yang berawalan M dan P.",
+      "explanation": "Machu Picchu adalah benteng batu peninggalan peradaban Inca pada abad ke-15 di Peru.",
+      "options": [
+        { "id": "a", "text": "Petra" },
+        { "id": "b", "text": "Machu Picchu" },
+        { "id": "c", "text": "Chichen Itza" },
+        { "id": "d", "text": "Akropolis" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-world-03-q06",
+      "type": "multiple_choice",
+      "prompt": "Amfiteater batu kuno berbentuk oval terbesar di dunia yang berada di pusat Kota Roma, Italia, adalah ...",
+      "hint": "Bangunan ini dibangun pada masa Kekaisaran Romawi.",
+      "explanation": "Colosseum di Roma, Italia, adalah amfiteater kuno terbesar yang pernah dibangun oleh Kekaisaran Romawi.",
+      "options": [
+        { "id": "a", "text": "Colosseum" },
+        { "id": "b", "text": "Parthenon" },
+        { "id": "c", "text": "Taj Mahal" },
+        { "id": "d", "text": "Stonehenge" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "geo-world-03-q07",
+      "type": "true_false",
+      "prompt": "Taj Mahal di India dibangun dari batu marmer putih di Kota Agra.",
+      "hint": "Bangunan ini berdiri di tepi Sungai Yamuna.",
+      "explanation": "Benar! Taj Mahal adalah makam megah berbahan marmer putih di Agra, India, yang diakui sebagai Warisan Dunia UNESCO.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-world-03-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Kota kuno di Yordania yang bangunannya dipahat langsung pada tebing batu berwarna merah muda disebut ...",
+      "hint": "Namanya berawalan huruf P dan terdiri dari 5 huruf.",
+      "explanation": "Petra adalah situs arkeologi terkenal di Yordania yang dikenal dengan julukan Rose City karena warna tebing batunya.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Petra", "petra"]
+      }
+    },
+    {
+      "id": "geo-world-03-q09",
+      "type": "multiple_select",
+      "prompt": "Manakah dua keajaiban bangunan terkenal yang berada di Benua Eropa?",
+      "hint": "Cari bangunan yang terletak di Italia dan Prancis.",
+      "explanation": "Menara Miring Pisa (Italia) dan Menara Eiffel (Prancis) berada di Eropa, sedangkan Piramida Giza di Afrika dan Patung Liberty di Amerika Utara.",
+      "options": [
+        { "id": "a", "text": "Menara Miring Pisa" },
+        { "id": "b", "text": "Piramida Giza" },
+        { "id": "c", "text": "Menara Eiffel" },
+        { "id": "d", "text": "Patung Liberty" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-world-03-q10",
+      "type": "multiple_choice",
+      "prompt": "Patung Liberty yang memegang obor di pelabuhan Kota New York sebenarnya merupakan hadiah persahabatan untuk Amerika Serikat dari negara ...",
+      "hint": "Negara asal Menara Eiffel.",
+      "explanation": "Patung Liberty dirancang dan dihadiahkan oleh rakyat Prancis kepada Amerika Serikat pada tahun 1886.",
+      "options": [
+        { "id": "a", "text": "Inggris" },
+        { "id": "b", "text": "Prancis" },
+        { "id": "c", "text": "Italia" },
+        { "id": "d", "text": "Jerman" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

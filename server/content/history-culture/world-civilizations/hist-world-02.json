@@ -1,0 +1,145 @@
+{
+  "id": "hist-world-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "world-civilizations",
+  "title": "Peradaban Yunani & Romawi Kuno",
+  "description": "Mengenal lahirnya demokrasi dan Olimpiade di Yunani Kuno serta kehebatan bangunan Romawi Kuno.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["hist-world-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-world-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Kota di Yunani Kuno yang dikenal sebagai tempat lahirnya gagasan pemerintahan demokrasi adalah...",
+      "hint": "Kota ini sekarang menjadi ibu kota negara Yunani.",
+      "explanation": "Athena pada masa Yunani Kuno memperkenalkan sistem demokrasi, yaitu warga ikut bermusyawarah dan memilih keputusan bersama.",
+      "options": [
+        { "id": "a", "text": "Athena" },
+        { "id": "b", "text": "Roma" },
+        { "id": "c", "text": "Kairo" },
+        { "id": "d", "text": "Beijing" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-world-02-q02",
+      "type": "true_false",
+      "prompt": "Pesta olahraga internasional Olimpiade pertama kali berasal dari tradisi peradaban Yunani Kuno di kota Olympia.",
+      "hint": "Dahulu acara ini digelar setiap empat tahun sekali sebagai penghormatan dan persahabatan antarnegara kota.",
+      "explanation": "Benar, Olimpiade kuno dimulai di Olympia, Yunani, sekitar tahun 776 sebelum Masehi.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-world-02-q03",
+      "type": "multiple_choice",
+      "prompt": "Bangunan amfiteater raksasa berbentuk oval di pusat kota Roma yang menjadi ikon peradaban Romawi Kuno adalah...",
+      "hint": "Namanya berawalan huruf C dan sekarang menjadi objek wisata terkenal di Italia.",
+      "explanation": "Colosseum adalah arena raksasa di Roma yang dibangun hampir dua ribu tahun lalu dengan teknik lengkungan batu dan beton kuno.",
+      "options": [
+        { "id": "a", "text": "Colosseum" },
+        { "id": "b", "text": "Parthenon" },
+        { "id": "c", "text": "Piramida Giza" },
+        { "id": "d", "text": "Menara Eiffel" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-world-02-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Bahasa resmi yang digunakan pada masa Romawi Kuno dan menjadi dasar huruf alfabet yang kita pakai sekarang adalah bahasa...",
+      "hint": "Istilah ilmiah tumbuhan dan hewan juga sering menggunakan bahasa ini.",
+      "explanation": "Bahasa Latin adalah bahasa peradaban Romawi Kuno yang hurufnya menjadi cikal bakal alfabet modern.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Latin", "bahasa Latin"]
+      }
+    },
+    {
+      "id": "hist-world-02-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi bangunan kuil batu putih bertiang marmer di atas bukit Akropolis, Athena, Yunani.",
+      "prompt": "Kuil megah bertiang marmer yang berdiri di atas bukit Akropolis di kota Athena bernama...",
+      "hint": "Namanya berawalan 'Par...'.",
+      "explanation": "Kuil Parthenon di Akropolis, Athena, merupakan mahakarya arsitektur Yunani Kuno dengan deretan tiang batu yang simetris.",
+      "options": [
+        { "id": "a", "text": "Parthenon" },
+        { "id": "b", "text": "Colosseum" },
+        { "id": "c", "text": "Taj Mahal" },
+        { "id": "d", "text": "Borobudur" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-world-02-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua kemajuan teknik bangunan yang terkenal dari peradaban Romawi Kuno!",
+      "hint": "Orang Romawi ahli mengalirkan air bersih ke kota dan menghubungkan kota dengan jalur darat yang kuat.",
+      "explanation": "Bangsa Romawi Kuno membangun akuaduk (jembatan saluran air bersih) serta jaringan jalan raya berbatu yang sangat rapi dan tahan lama.",
+      "options": [
+        { "id": "a", "text": "Akuaduk untuk mengalirkan air bersih ke kota" },
+        { "id": "b", "text": "Jaringan jalan raya berbatu yang kuat dan lurus" },
+        { "id": "c", "text": "Kereta api listrik berkecepatan tinggi" },
+        { "id": "d", "text": "Satelit komunikasi luar angkasa" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-world-02-q07",
+      "type": "multiple_choice",
+      "prompt": "Siapakah filsuf dan ilmuwan terkenal dari Yunani Kuno yang mengajari banyak murid tentang cara berpikir logis dan ilmu alam?",
+      "hint": "Beliau adalah murid Plato dan pernah menjadi guru Alexander Agung.",
+      "explanation": "Aristoteles (bersama Sokrates dan Plato) adalah pemikir besar Yunani Kuno yang menulis banyak gagasan tentang ilmu pengetahuan, logika, dan etika.",
+      "options": [
+        { "id": "a", "text": "Aristoteles" },
+        { "id": "b", "text": "Tutankhamun" },
+        { "id": "c", "text": "Cai Lun" },
+        { "id": "d", "text": "James Watt" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-world-02-q08",
+      "type": "true_false",
+      "prompt": "Angka Romawi seperti I, V, X, dan L masih sering kita lihat digunakan pada jam dinding atau penomoran bab buku hingga hari ini.",
+      "hint": "Contohnya angka IV untuk 4 atau X untuk 10.",
+      "explanation": "Benar, sistem angka Romawi warisan peradaban Romawi Kuno masih dipakai pada jam, nomor bab, dan urutan raja atau acara.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-world-02-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Sistem pemerintahan yang berasal dari bahasa Yunani 'demos' (rakyat) dan 'kratos' (kekuasaan), di mana rakyat ikut menentukan pemimpinnya, disebut...",
+      "hint": "Indonesia juga menerapkan sistem pemerintahan ini.",
+      "explanation": "Demokrasi berarti pemerintahan dari rakyat, oleh rakyat, dan untuk rakyat.",
+      "correctAnswer": {
+        "acceptedAnswers": ["demokrasi"]
+      }
+    },
+    {
+      "id": "hist-world-02-q10",
+      "type": "multiple_choice",
+      "prompt": "Apa yang dapat kita pelajari dari warisan peradaban Yunani dan Romawi Kuno?",
+      "hint": "Pikirkan pentingnya ilmu pengetahuan, olahraga yang adil, dan teknologi bangunan.",
+      "explanation": "Yunani dan Romawi Kuno mewariskan pemikiran kritis, semangat sportivitas Olimpiade, hukum, serta teknik arsitektur yang bermanfaat hingga kini.",
+      "options": [
+        { "id": "a", "text": "Pentingnya ilmu pengetahuan, sportivitas olahraga, musyawarah, dan teknik bangunan" },
+        { "id": "b", "text": "Kota kuno tidak memerlukan air bersih dan jalan raya" },
+        { "id": "c", "text": "Olahraga hanya boleh dilakukan di ruang tertutup" },
+        { "id": "d", "text": "Sejarah kuno tidak berpengaruh pada kehidupan modern" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

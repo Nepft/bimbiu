@@ -1,0 +1,147 @@
+{
+  "id": "daily-tech-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "everyday-knowledge",
+  "unitId": "tech-financial",
+  "title": "Etika Berinternet & Anti Perundungan",
+  "description": "Menulis komentar yang santun, mengenali berita bohong, dan menghadapi perundungan siber.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["daily-tech-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "daily-tech-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Apa yang sebaiknya dipikirkan sebelum menulis komentar atau mengirim pesan di grup obrolan sekolah?",
+      "hint": "Bayangkan bagaimana perasaanmu jika kata-kata tersebut diucapkan langsung kepadamu.",
+      "explanation": "Berpikir sebelum mengirim pesan memastikan kata-kata kita sopan, benar, dan tidak menyakiti perasaan orang lain.",
+      "options": [
+        { "id": "a", "text": "Apakah pesan ini sopan, benar, dan tidak menyakiti orang lain" },
+        { "id": "b", "text": "Bagaimana caranya agar teman merasa paling malu" },
+        { "id": "c", "text": "Mengirim pesan berulang-ulang dengan huruf kapital semua" },
+        { "id": "d", "text": "Menuliskan gosip tanpa mengecek kebenarannya" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-tech-02-q02",
+      "type": "true_false",
+      "prompt": "Menulis pesan dengan HURUF KAPITAL SEMUA di ruang obrolan sering dianggap seperti sedang berteriak atau marah.",
+      "hint": "Perhatikan kesan yang muncul saat membaca seluruh kalimat berhuruf besar.",
+      "explanation": "Benar! Dalam etika berinternet (netiket), menulis seluruh kalimat dengan huruf kapital memberi kesan membentak atau marah.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-tech-02-q03",
+      "type": "multiple_select",
+      "prompt": "Tindakan mana saja yang termasuk perundungan siber (cyberbullying) yang tidak boleh dilakukan?",
+      "hint": "Perundungan tidak hanya terjadi secara fisik, tetapi juga lewat tulisan, gambar, dan komentar online.",
+      "explanation": "Mengejek di kolom komentar, menyebarkan foto memalukan tanpa izin, dan mengucilkan teman di grup chat termasuk perundungan siber.",
+      "options": [
+        { "id": "a", "text": "Mengejek penampilan atau kekurangan teman di kolom komentar" },
+        { "id": "b", "text": "Menyebarkan foto aib teman tanpa izin untuk ditertawakan" },
+        { "id": "c", "text": "Mengajak teman lain memusuhi seseorang di grup obrolan" },
+        { "id": "d", "text": "Mengucapkan selamat atas prestasi teman di kelas" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-tech-02-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Berita atau informasi bohong yang sengaja disebarkan untuk menipu atau menakut-nakuti orang di internet disebut...",
+      "hint": "Kata ini sering dipakai di media massa, diawali huruf 'h' dan diakhiri huruf 's'.",
+      "explanation": "Hoaks adalah informasi palsu yang tidak berdasarkan fakta. Kita harus selalu memeriksa kebenaran berita sebelum meneruskannya.",
+      "correctAnswer": {
+        "acceptedAnswers": ["hoaks", "Hoaks", "hoax", "Hoax"]
+      }
+    },
+    {
+      "id": "daily-tech-02-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Di layar ponsel seorang siswa muncul komentar kasar dan ejekan berulang kali dari sebuah akun di grup permainan.",
+      "prompt": "Langkah apa yang paling tepat dilakukan siswa tersebut?",
+      "hint": "Jangan membalas dengan kata kasar; simpan bukti dan minta bantuan orang dewasa.",
+      "explanation": "Simpan tangkapan layar sebagai bukti, blokir dan laporkan akun pengirim, lalu segera ceritakan kepada orang tua atau guru.",
+      "options": [
+        { "id": "a", "text": "Simpan bukti, blokir akun tersebut, dan ceritakan ke orang tua atau guru" },
+        { "id": "b", "text": "Membalas dengan ejekan yang lebih kasar lagi" },
+        { "id": "c", "text": "Memendamnya sendirian dan menyalahkan diri sendiri" },
+        { "id": "d", "text": "Mengirim alamat rumah agar pelaku datang" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-tech-02-q06",
+      "type": "multiple_choice",
+      "prompt": "Sebelum membagikan ulang pesan berantai yang berjudul 'Sebarkan sekarang atau kamu akan celaka!', apa yang harus dilakukan?",
+      "hint": "Pesan berantai seperti itu hampir selalu merupakan berita bohong.",
+      "explanation": "Jangan meneruskan pesan berantai atau kabar yang belum jelas sumbernya; cek fakta dulu atau tanyakan pada orang tua.",
+      "options": [
+        { "id": "a", "text": "Berhenti di kita, tidak menyebarkannya, dan tanyakan ke orang tua jika ragu" },
+        { "id": "b", "text": "Langsung kirim ke 10 grup supaya aman" },
+        { "id": "c", "text": "Menambahkan kata-kata lebih menyeramkan lalu dikirim ulang" },
+        { "id": "d", "text": "Mempercayai langsung semua pesan tanpa membaca isinya" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-tech-02-q07",
+      "type": "true_false",
+      "prompt": "Memotret teman saat sedang jatuh lalu mengunggahnya ke internet tanpa izin adalah hal yang lucu dan boleh dilakukan.",
+      "hint": "Pikirkan privasi dan perasaan teman yang fotonya disebarkan.",
+      "explanation": "Salah. Mengunggah foto atau video orang lain tanpa izin melanggar privasi dan bisa menyakiti perasaan teman.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "daily-tech-02-q08",
+      "type": "multiple_select",
+      "prompt": "Cara membedakan informasi yang benar dan informasi hoaks di internet adalah...",
+      "hint": "Jangan hanya membaca judul yang menghebohkan.",
+      "explanation": "Mengecek sumber berita resmi, membaca isi secara utuh bukan hanya judulnya, dan membandingkan dengan sumber terpercaya membantu menangkal hoaks.",
+      "options": [
+        { "id": "a", "text": "Memeriksa apakah sumbernya berasal dari situs atau lembaga resmi" },
+        { "id": "b", "text": "Membaca isi berita secara lengkap, tidak hanya judulnya" },
+        { "id": "c", "text": "Bertanya kepada orang tua atau guru jika beritanya meragukan" },
+        { "id": "d", "text": "Langsung percaya karena gambarnya terlihat heboh" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-tech-02-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Tata krama atau sopan santun dalam menggunakan internet dan berkomunikasi secara daring disebut...",
+      "hint": "Gabungan kata 'net' (internet) dan 'etiket', berawalan huruf 'n'.",
+      "explanation": "Netiket (internet etiquette) adalah aturan sopan santun yang menjaga komunikasi di dunia digital tetap aman dan ramah.",
+      "correctAnswer": {
+        "acceptedAnswers": ["netiket", "Netiket"]
+      }
+    },
+    {
+      "id": "daily-tech-02-q10",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Seorang teman sekelas terlihat sedih setelah menerima komentar negatif di grup belajar. Teman lainnya lalu menulis pesan penyemangat dan mengingatkan grup agar bicara sopan.",
+      "prompt": "Peran positif apa yang ditunjukkan oleh teman yang membela dan menyemangati tersebut?",
+      "hint": "Ia tidak ikut mengejek dan membantu menciptakan lingkungan yang aman.",
+      "explanation": "Menjadi pembela yang peduli (upstander) membantu menghentikan perundungan dan membuat teman yang diejek tidak merasa sendirian.",
+      "options": [
+        { "id": "a", "text": "Menjadi teman yang peduli dan membantu menghentikan perundungan" },
+        { "id": "b", "text": "Ikut memperbesar pertengkaran di grup" },
+        { "id": "c", "text": "Membiarkan perundungan terus terjadi" },
+        { "id": "d", "text": "Menyebarkan komentar negatif tersebut ke luar grup" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

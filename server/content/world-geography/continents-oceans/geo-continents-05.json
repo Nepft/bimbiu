@@ -1,0 +1,145 @@
+{
+  "id": "geo-continents-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "continents-oceans",
+  "title": "Kutub Bumi dan Garis Khatulistiwa",
+  "description": "Pahami perbedaan Kutub Utara, Kutub Selatan, dan wilayah hangat di sekitar garis khatulistiwa.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["geo-continents-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-continents-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Garis khayal yang membagi Bumi menjadi Belahan Bumi Utara dan Belahan Bumi Selatan disebut ...",
+      "hint": "Garis ini berada pada posisi 0 derajat lintang.",
+      "explanation": "Garis khatulistiwa atau ekuator membelah Bumi secara mendatar di bagian tengah pada garis lintang 0 derajat.",
+      "options": [
+        { "id": "a", "text": "Garis Khatulistiwa" },
+        { "id": "b", "text": "Garis Bujur Timur" },
+        { "id": "c", "text": "Meridian Utama" },
+        { "id": "d", "text": "Lingkar Arktik" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "geo-continents-05-q02",
+      "type": "true_false",
+      "prompt": "Beruang kutub dan penguin hidup bersama di alam liar Kutub Selatan.",
+      "hint": "Beruang kutub hidup di belahan utara, sedangkan penguin hidup di belahan selatan.",
+      "explanation": "Salah! Beruang kutub hidup di kawasan Arktik (Kutub Utara), sedangkan sebagian besar spesies penguin hidup di Antarktika (Kutub Selatan).",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "geo-continents-05-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Daerah di sekitar garis khatulistiwa yang mendapat sinar matahari sepanjang tahun memiliki iklim ...",
+      "hint": "Iklim yang sama seperti di Indonesia.",
+      "explanation": "Wilayah di dekat khatulistiwa memiliki iklim tropis yang hangat dan cenderung mengalami dua musim utama, yaitu hujan dan kemarau.",
+      "correctAnswer": {
+        "acceptedAnswers": ["tropis", "Tropis"]
+      }
+    },
+    {
+      "id": "geo-continents-05-q04",
+      "type": "multiple_select",
+      "prompt": "Manakah pernyataan yang benar mengenai perbedaan wilayah Arktik dan Antarktika?",
+      "hint": "Ingat satu berupa samudra beku di utara, satunya benua daratan es di selatan.",
+      "explanation": "Arktik di Kutub Utara merupakan lautan es yang dikelilingi benua, sedangkan Antarktika di Kutub Selatan adalah benua daratan yang dikelilingi samudra.",
+      "options": [
+        { "id": "a", "text": "Arktik berada di sekitar Kutub Utara" },
+        { "id": "b", "text": "Antarktika berada di sekitar Kutub Selatan" },
+        { "id": "c", "text": "Arktik adalah benua daratan terbesar" },
+        { "id": "d", "text": "Antarktika memiliki hutan hujan tropis" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "geo-continents-05-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Bola Bumi berputar pada porosnya dengan bagian paling atas dan paling bawah berupa daerah kutub.",
+      "prompt": "Mengapa daerah Kutub Utara dan Kutub Selatan jauh lebih dingin dibandingkan wilayah khatulistiwa?",
+      "hint": "Perhatikan sudut datangnya sinar matahari ke bagian ujung bola Bumi.",
+      "explanation": "Karena bentuk Bumi bulat, sinar matahari jatuh miring di daerah kutub sehingga panasnya tersebar dan tidak sehangat di khatulistiwa.",
+      "options": [
+        { "id": "a", "text": "Karena sinar matahari jatuh miring di daerah kutub" },
+        { "id": "b", "text": "Karena daerah kutub tidak pernah berputar bersama Bumi" },
+        { "id": "c", "text": "Karena di kutub tidak ada atmosfer" },
+        { "id": "d", "text": "Karena kutub selalu berada lebih jauh dari bulan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "geo-continents-05-q06",
+      "type": "multiple_choice",
+      "prompt": "Fenomena ketika matahari hampir tidak terbenam selama beberapa minggu saat musim panas di daerah kutub disebut ...",
+      "hint": "Dalam bahasa Inggris dikenal sebagai midnight sun.",
+      "explanation": "Matahari tengah malam (midnight sun) terjadi di wilayah lingkar kutub saat kemiringan Bumi membuat kutub terus menghadap matahari.",
+      "options": [
+        { "id": "a", "text": "Gerhana matahari total" },
+        { "id": "b", "text": "Matahari tengah malam" },
+        { "id": "c", "text": "Angin monsun barat" },
+        { "id": "d", "text": "Pasang surut laut" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-continents-05-q07",
+      "type": "true_false",
+      "prompt": "Benua Australia seluruhnya terletak di Belahan Bumi Selatan.",
+      "hint": "Australia berada di sebelah selatan garis khatulistiwa.",
+      "explanation": "Benar! Seluruh daratan Benua Australia berada di sebelah selatan garis khatulistiwa.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-continents-05-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Istilah lain dalam geografi untuk menyebut garis khatulistiwa adalah ...",
+      "hint": "Kata ini berawalan huruf E.",
+      "explanation": "Khatulistiwa disebut juga ekuator (dari kata bahasa Inggris equator).",
+      "correctAnswer": {
+        "acceptedAnswers": ["ekuator", "Ekuator"]
+      }
+    },
+    {
+      "id": "geo-continents-05-q09",
+      "type": "multiple_select",
+      "prompt": "Benua manakah yang seluruh wilayahnya berada di Belahan Bumi Utara?",
+      "hint": "Cari benua yang sama sekali tidak dilewati maupun berada di selatan garis khatulistiwa.",
+      "explanation": "Eropa dan Amerika Utara sepenuhnya terletak di Belahan Bumi Utara (sebelah utara garis khatulistiwa).",
+      "options": [
+        { "id": "a", "text": "Eropa" },
+        { "id": "b", "text": "Amerika Utara" },
+        { "id": "c", "text": "Afrika" },
+        { "id": "d", "text": "Australia" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "geo-continents-05-q10",
+      "type": "multiple_choice",
+      "prompt": "Mengapa pencairan es di kutub menjadi perhatian penting bagi seluruh dunia?",
+      "hint": "Pikirkan apa yang terjadi pada air laut jika es daratan mencair dalam jumlah besar.",
+      "explanation": "Mencairnya es daratan di kutub dapat menaikkan permukaan air laut global dan mengancam wilayah pesisir serta pulau-pulau kecil.",
+      "options": [
+        { "id": "a", "text": "Karena dapat membuat permukaan air laut naik" },
+        { "id": "b", "text": "Karena membuat gunung berapi berhenti meletus" },
+        { "id": "c", "text": "Karena mengubah jumlah benua menjadi sepuluh" },
+        { "id": "d", "text": "Karena menghilangkan gaya gravitasi Bumi" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

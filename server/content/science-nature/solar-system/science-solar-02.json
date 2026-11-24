@@ -1,0 +1,145 @@
+{
+  "id": "science-solar-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "science-nature",
+  "unitId": "solar-system",
+  "title": "Matahari dan Bintang",
+  "description": "Memahami peran Matahari sebagai pusat tata surya, sifat bintang, dan manfaat cahayanya bagi Bumi.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["science-planets-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "science-solar-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Mengapa Matahari digolongkan sebagai bintang, bukan planet?",
+      "hint": "Ingat perbedaan utama antara bintang dan planet dalam menghasilkan cahaya.",
+      "explanation": "Matahari adalah bintang karena mampu menghasilkan cahaya dan panasnya sendiri, sedangkan planet hanya memantulkan cahaya bintang.",
+      "options": [
+        { "id": "a", "text": "Karena Matahari bergerak mengelilingi Bumi" },
+        { "id": "b", "text": "Karena Matahari menghasilkan cahaya dan panasnya sendiri" },
+        { "id": "c", "text": "Karena Matahari terbuat dari batuan keras" },
+        { "id": "d", "text": "Karena Matahari memiliki banyak cincin es" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-solar-02-q02",
+      "type": "true_false",
+      "prompt": "Matahari adalah bintang yang letaknya paling dekat dengan Bumi.",
+      "hint": "Bintang lain terlihat seperti titik kecil di langit malam karena sangat jauh.",
+      "explanation": "Benar! Matahari tampak besar dan terang karena jaraknya paling dekat dengan Bumi dibandingkan bintang-bintang lainnya.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-solar-02-q03",
+      "type": "multiple_choice",
+      "prompt": "Sebagian besar penyusun tubuh Matahari terdiri atas gas apa?",
+      "hint": "Gas paling ringan di alam semesta yang juga digunakan dalam reaksi fusi Matahari.",
+      "explanation": "Matahari sebagian besar tersusun atas gas hidrogen (sekitar 70%) dan helium yang bereaksi menghasilkan energi sangat besar.",
+      "options": [
+        { "id": "a", "text": "Oksigen dan nitrogen" },
+        { "id": "b", "text": "Hidrogen dan helium" },
+        { "id": "c", "text": "Karbon dioksida dan uap air" },
+        { "id": "d", "text": "Metana dan argon" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-solar-02-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Gaya tarik yang dimiliki Matahari sehingga semua planet tetap bergerak pada orbitnya disebut gaya ______.",
+      "hint": "Gaya yang sama juga membuat benda jatuh ke permukaan Bumi.",
+      "explanation": "Gaya gravitasi Matahari yang sangat besar menarik planet-planet agar tetap mengorbit dan tidak terlempar ke ruang angkasa.",
+      "correctAnswer": {
+        "acceptedAnswers": ["gravitasi", "Gravitasi"]
+      }
+    },
+    {
+      "id": "science-solar-02-q05",
+      "type": "multiple_select",
+      "prompt": "Manfaat energi Matahari bagi kehidupan di Bumi antara lain...",
+      "hint": "Pikirkan tentang tumbuhan hijau dan siklus air di alam.",
+      "explanation": "Energi Matahari membantu tumbuhan melakukan fotosintesis dan menguapkan air laut dalam siklus air, serta menghangatkan Bumi.",
+      "options": [
+        { "id": "a", "text": "Membantu tumbuhan melakukan fotosintesis" },
+        { "id": "b", "text": "Menggerakkan siklus air melalui penguapan" },
+        { "id": "c", "text": "Membekukan seluruh lautan di khatulistiwa" },
+        { "id": "d", "text": "Menjaga suhu Bumi tetap hangat untuk kehidupan" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+    },
+    {
+      "id": "science-solar-02-q06",
+      "type": "true_false",
+      "prompt": "Warna bintang dapat menunjukkan tingkat suhu permukaannya.",
+      "hint": "Bintang biru bersuhu lebih panas daripada bintang merah.",
+      "explanation": "Benar! Bintang berwarna biru atau putih memiliki suhu permukaan lebih tinggi dibandingkan bintang berwarna jingga atau merah.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-solar-02-q07",
+      "type": "image_quiz",
+      "mediaKey": "quiz-planet",
+      "mediaCaption": "Bola plasma bercahaya di pusat tata surya yang dikelilingi lintasan orbit planet.",
+      "prompt": "Kumpulan bintang di langit malam yang membentuk pola gambar tertentu untuk membantu navigasi pelaut disebut...",
+      "hint": "Contohnya adalah Orion, Pari (Crux), dan Ursa Mayor.",
+      "explanation": "Rasi bintang atau konstelasi adalah sekumpulan bintang yang tampak membentuk pola tertentu dari Bumi.",
+      "options": [
+        { "id": "a", "text": "Rasi bintang" },
+        { "id": "b", "text": "Sabuk asteroid" },
+        { "id": "c", "text": "Komet" },
+        { "id": "d", "text": "Satelit" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-solar-02-q08",
+      "type": "multiple_choice",
+      "prompt": "Kita berada di galaksi yang bernama apa?",
+      "hint": "Dalam bahasa Inggris galaksi ini disebut Milky Way.",
+      "explanation": "Tata surya kita berada di dalam Galaksi Bima Sakti (Milky Way) yang berisi ratusan miliar bintang.",
+      "options": [
+        { "id": "a", "text": "Galaksi Andromeda" },
+        { "id": "b", "text": "Galaksi Bima Sakti" },
+        { "id": "c", "text": "Galaksi Orion" },
+        { "id": "d", "text": "Galaksi Triangulum" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-solar-02-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Cahaya Matahari membutuhkan waktu sekitar ______ menit untuk sampai ke Bumi.",
+      "hint": "Angkanya berada di antara 7 dan 9 menit.",
+      "explanation": "Dengan kecepatan sekitar 300.000 km per detik, cahaya Matahari menempuh jarak ke Bumi dalam waktu sekitar 8 menit.",
+      "correctAnswer": {
+        "acceptedAnswers": ["8", "delapan", "Delapan"]
+      }
+    },
+    {
+      "id": "science-solar-02-q10",
+      "type": "multiple_select",
+      "prompt": "Mengapa kita TIDAK boleh menatap Matahari secara langsung tanpa pelindung khusus?",
+      "hint": "Cahaya Matahari mengandung radiasi yang sangat kuat bagi mata.",
+      "explanation": "Sinar Matahari yang sangat terang serta sinar ultraviolet dapat merusak retina mata secara permanen.",
+      "options": [
+        { "id": "a", "text": "Cahayanya terlalu kuat dan dapat merusak retina mata" },
+        { "id": "b", "text": "Mengandung sinar ultraviolet yang berbahaya bagi mata" },
+        { "id": "c", "text": "Matahari bisa kehilangan cahayanya jika dilihat" },
+        { "id": "d", "text": "Dapat menyebabkan gangguan penglihatan permanen" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+    }
+  ]
+}

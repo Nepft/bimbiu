@@ -1,0 +1,145 @@
+{
+  "id": "lang-syn-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "synonyms-antonyms",
+  "title": "Awalan me-, ber-, dan di-",
+  "description": "Memahami fungsi awalan me-, ber-, dan di- serta aturan peluluhan huruf awal K, T, S, P.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["lang-syn-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-syn-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Jika kata dasar 'sapu' diberi awalan me-, bentuk kata berimbuhan yang benar adalah...",
+      "hint": "Ingat aturan peluluhan huruf K, T, S, P jika diikuti huruf vokal.",
+      "explanation": "Huruf 's' pada kata dasar 'sapu' luluh ketika mendapat awalan me-, sehingga menjadi 'menyapu' (bukan 'mensapu').",
+      "options": [
+        { "id": "a", "text": "mensapu" },
+        { "id": "b", "text": "menyapu" },
+        { "id": "c", "text": "mesapu" },
+        { "id": "d", "text": "mengsapu" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-syn-03-q02",
+      "type": "true_false",
+      "prompt": "Kata dasar 'tulis' jika diberi awalan me- akan berubah menjadi 'mentulis'.",
+      "hint": "Huruf 't' termasuk dalam kelompok huruf K-T-S-P yang luluh.",
+      "explanation": "Salah. Karena huruf kedua pada 'tulis' adalah vokal ('u'), huruf 't' luluh sehingga bentuk yang benar adalah 'menulis'.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "lang-syn-03-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Ubahlah kata dasar 'karang' dengan awalan me-: Rina gemar ____ cerita pendek tentang persahabatan.",
+      "hint": "Huruf 'k' pada 'karang' luluh menjadi 'ng'.",
+      "explanation": "Kata dasar 'karang' yang mendapat awalan me- menjadi 'mengarang' karena huruf 'k' luluh.",
+      "correctAnswer": {
+        "acceptedAnswers": ["mengarang", "Mengarang"]
+      }
+    },
+    {
+      "id": "lang-syn-03-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kata yang menggunakan awalan ber- dengan makna 'memakai atau mengenakan'!",
+      "hint": "Cari benda yang biasa dipakai di badan atau kepala.",
+      "explanation": "'bertopi' berarti memakai topi dan 'bersepatu' berarti memakai sepatu. 'berlari' berarti melakukan tindakan lari, sedangkan 'berdua' berarti berjumlah dua.",
+      "options": [
+        { "id": "a", "text": "bertopi" },
+        { "id": "b", "text": "berlari" },
+        { "id": "c", "text": "bersepatu" },
+        { "id": "d", "text": "berdua" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-syn-03-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Sekelompok anak bermain sepeda bersama di taman kota pada Minggu pagi.",
+      "prompt": "Kata berimbuhan apakah yang tepat untuk menggantikan frasa 'mengendarai sepeda' pada keterangan tersebut?",
+      "hint": "Gabungkan awalan ber- dengan kata dasar 'sepeda'.",
+      "explanation": "Awalan ber- + 'sepeda' membentuk kata 'bersepeda' yang berarti mengendarai sepeda.",
+      "options": [
+        { "id": "a", "text": "menyepeda" },
+        { "id": "b", "text": "bersepeda" },
+        { "id": "c", "text": "disepeda" },
+        { "id": "d", "text": "tersepeda" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-syn-03-q06",
+      "type": "multiple_choice",
+      "prompt": "Manakah kalimat pasif yang menggunakan awalan di- secara tepat?",
+      "hint": "Awalan di- membentuk kata kerja pasif dan penulisannya digabung dengan kata dasar.",
+      "explanation": "'dibaca' pada kalimat 'Buku cerita itu dibaca oleh Adi' adalah kata kerja pasif berawalan di-, sehingga ditulis serangkai.",
+      "options": [
+        { "id": "a", "text": "Buku cerita itu di baca oleh Adi." },
+        { "id": "b", "text": "Buku cerita itu dibaca oleh Adi." },
+        { "id": "c", "text": "Adi membaca buku cerita diperpustakaan." },
+        { "id": "d", "text": "Buku cerita itu membaca Adi." }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-syn-03-q07",
+      "type": "true_false",
+      "prompt": "Kata dasar 'pukul' jika diberi awalan me- akan menjadi 'memukul'.",
+      "hint": "Huruf 'p' pada kata 'pukul' diikuti huruf vokal 'u'.",
+      "explanation": "Benar. Huruf 'p' pada 'pukul' luluh ketika mendapat awalan me-, sehingga menjadi 'memukul'.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-syn-03-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Jika kata dasar 'ajar' diberi awalan ber-, kata yang terbentuk adalah ____.",
+      "hint": "Khusus kata 'ajar', awalan ber- mengalami perubahan bentuk menjadi bel-.",
+      "explanation": "Awalan ber- pada kata dasar 'ajar' berubah bentuk menjadi bel- sehingga menjadi 'belajar'.",
+      "correctAnswer": {
+        "acceptedAnswers": ["belajar", "Belajar"]
+      }
+    },
+    {
+      "id": "lang-syn-03-q09",
+      "type": "multiple_choice",
+      "prompt": "Mengapa kata dasar 'proses' menjadi 'memproses' (huruf 'p' tidak luluh) ketika diberi awalan me-?",
+      "hint": "Lihat dua huruf pertama pada kata 'proses'.",
+      "explanation": "Huruf K, T, S, P tidak luluh jika diawali gugus konsonan (dua huruf mati berurutan), seperti 'pr-' pada 'proses' -> 'memproses'.",
+      "options": [
+        { "id": "a", "text": "Karena diawali dua huruf konsonan berurutan (pr-)" },
+        { "id": "b", "text": "Karena terdiri dari enam huruf" },
+        { "id": "c", "text": "Karena diakhiri huruf 's'" },
+        { "id": "d", "text": "Karena merupakan nama tempat" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-syn-03-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua bentuk kata berimbuhan me- yang penulisannya BENAR sesuai kaidah peluluhan!",
+      "hint": "Periksa kata dasar 'pesona' dan 'ubah'.",
+      "explanation": "'memesona' (dari me- + pesona, huruf 'p' luluh) dan 'mengubah' (dari me- + ubah, bukan 'merubah') adalah bentuk yang benar. 'menterjemahkan' salah (seharusnya 'menerjemahkan').",
+      "options": [
+        { "id": "a", "text": "memesona" },
+        { "id": "b", "text": "mempesona" },
+        { "id": "c", "text": "mengubah" },
+        { "id": "d", "text": "menterjemahkan" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

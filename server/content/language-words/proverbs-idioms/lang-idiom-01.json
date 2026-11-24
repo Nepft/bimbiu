@@ -1,0 +1,145 @@
+{
+  "id": "lang-idiom-01",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "proverbs-idioms",
+  "title": "Ungkapan Populer Sehari-hari",
+  "description": "Memahami arti ungkapan atau idiom yang sering muncul dalam cerita anak dan percakapan.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 1,
+  "prerequisites": [],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-idiom-01-q01",
+      "type": "multiple_choice",
+      "prompt": "Ayah membawa 'buah tangan' berupa kue khas Bandung setelah pulang bertugas. Apa arti ungkapan 'buah tangan'?",
+      "hint": "Sesuatu yang biasa dibawa ketika pulang dari bepergian.",
+      "explanation": "'Buah tangan' adalah ungkapan yang berarti oleh-oleh atau barang bawaan untuk diberikan kepada orang lain.",
+      "options": [
+        { "id": "a", "text": "Oleh-oleh" },
+        { "id": "b", "text": "Buah-buahan segar" },
+        { "id": "c", "text": "Sarung tangan" },
+        { "id": "d", "text": "Hadiah perlombaan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-idiom-01-q02",
+      "type": "true_false",
+      "prompt": "Ungkapan 'rendah hati' berarti tidak sombong dan ramah kepada sesama.",
+      "hint": "Bedakan antara 'rendah hati' dan 'rendah diri'.",
+      "explanation": "Benar. 'Rendah hati' berarti tidak angkuh atau tidak sombong. Berbeda dengan 'rendah diri' yang berarti merasa kurang percaya diri.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-idiom-01-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Lina menjadi ____ setelah berhasil memenangkan juara pertama lomba menyanyi tingkat nasional. Ungkapan yang berarti sedang terkenal atau populer adalah ____.",
+      "hint": "Ungkapan ini terdiri dari dua kata: 'naik ...' (benda hijau di tumbuhan).",
+      "explanation": "'Naik daun' adalah ungkapan yang berarti sedang menanjak kariernya, terkenal, atau populer.",
+      "correctAnswer": {
+        "acceptedAnswers": ["naik daun", "Naik daun"]
+      }
+    },
+    {
+      "id": "lang-idiom-01-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua ungkapan yang menggambarkan sifat TIDAK TERPUJI!",
+      "hint": "Cari ungkapan yang berarti sombong atau suka mencuri.",
+      "explanation": "'besar kepala' berarti sombong dan 'panjang tangan' berarti suka mencuri. 'ringan tangan' berarti suka menolong, sedangkan 'banting tulang' berarti bekerja keras.",
+      "options": [
+        { "id": "a", "text": "besar kepala" },
+        { "id": "b", "text": "ringan tangan" },
+        { "id": "c", "text": "panjang tangan" },
+        { "id": "d", "text": "banting tulang" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-idiom-01-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Seorang anak membantu tetangganya mengangkat barang belanjaan dengan senang hati.",
+      "prompt": "Ungkapan apa yang paling tepat untuk menggambarkan anak yang suka menolong seperti pada keterangan tersebut?",
+      "hint": "Ungkapan ini menggunakan kata 'tangan' dan lawan kata dari 'berat'.",
+      "explanation": "'Ringan tangan' dalam konteks positif berarti suka membantu atau menolong orang lain.",
+      "options": [
+        { "id": "a", "text": "Panjang tangan" },
+        { "id": "b", "text": "Ringan tangan" },
+        { "id": "c", "text": "Cuci tangan" },
+        { "id": "d", "text": "Buah tangan" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-idiom-01-q06",
+      "type": "multiple_choice",
+      "prompt": "Apa arti ungkapan 'banting tulang' dalam kalimat: 'Paman bekerja membanting tulang demi membiayai sekolah anak-anaknya'?",
+      "hint": "Paman bekerja sangat giat tanpa kenal lelah.",
+      "explanation": "'Banting tulang' berarti bekerja keras dengan sepenuh tenaga.",
+      "options": [
+        { "id": "a", "text": "Berolahraga di pagi hari" },
+        { "id": "b", "text": "Bekerja keras" },
+        { "id": "c", "text": "Pergi merantau jauh" },
+        { "id": "d", "text": "Beristirahat di rumah" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-idiom-01-q07",
+      "type": "true_false",
+      "prompt": "Ungkapan 'buah hati' berarti anak kesayangan atau orang yang sangat disayangi.",
+      "hint": "Orang tua sering menyebut anaknya sebagai buah hati.",
+      "explanation": "Benar. Dalam KBBI, 'buah hati' berarti jantung hati; anak kesayangan atau kekasih.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-idiom-01-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Perkara pencurian itu akhirnya dibawa ke ____ (pengadilan). Ungkapan yang berarti pengadilan adalah ____.",
+      "hint": "Terdiri dari kata nama perabotan untuk belajar dan nama warna daun.",
+      "explanation": "'Meja hijau' adalah ungkapan yang berarti pengadilan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["meja hijau", "Meja hijau"]
+      }
+    },
+    {
+      "id": "lang-idiom-01-q09",
+      "type": "multiple_choice",
+      "prompt": "Apa arti ungkapan 'angkat kaki' dalam cerita: 'Setelah pertandingan selesai, para penonton mulai angkat kaki dari stadion'?",
+      "hint": "Para penonton beranjak meninggalkan tempat tersebut.",
+      "explanation": "'Angkat kaki' berarti pergi atau meninggalkan suatu tempat.",
+      "options": [
+        { "id": "a", "text": "Melompat kegirangan" },
+        { "id": "b", "text": "Pergi meninggalkan tempat" },
+        { "id": "c", "text": "Berbaris rapi" },
+        { "id": "d", "text": "Duduk bersila" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-idiom-01-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua ungkapan yang maknanya SAMA, yaitu 'sombong'!",
+      "hint": "Satu memakai kata 'kepala', satu lagi memakai kata 'hati'.",
+      "explanation": "'besar kepala' dan 'tinggi hati' sama-sama bermakna sombong atau angkuh.",
+      "options": [
+        { "id": "a", "text": "besar kepala" },
+        { "id": "b", "text": "lapang dada" },
+        { "id": "c", "text": "tinggi hati" },
+        { "id": "d", "text": "kepala dingin" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

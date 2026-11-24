@@ -1,0 +1,145 @@
+{
+  "id": "lang-read-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "reading-spelling",
+  "title": "Penggunaan Tanda Baca",
+  "description": "Memahami fungsi tanda titik, koma, tanda tanya, tanda seru, dan tanda petik dalam kalimat.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["lang-read-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-read-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Manakah penggunaan tanda koma (,) dalam perincian yang paling tepat?",
+      "hint": "Tanda koma dipakai di antara unsur-unsur dalam suatu perincian, termasuk sebelum kata 'dan'.",
+      "explanation": "Menurut EYD V, dalam perincian lebih dari dua unsur, tanda koma diletakkan di antara unsur-unsur tersebut dan sebelum kata 'dan': 'pensil, penghapus, dan penggaris'.",
+      "options": [
+        { "id": "a", "text": "Ibu membeli buku pensil, dan penggaris." },
+        { "id": "b", "text": "Ibu membeli buku, pensil, dan penggaris." },
+        { "id": "c", "text": "Ibu membeli, buku, pensil dan penggaris." },
+        { "id": "d", "text": "Ibu membeli buku, pensil dan, penggaris." }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-read-02-q02",
+      "type": "true_false",
+      "prompt": "Tanda tanya (?) digunakan di akhir kalimat berita biasa.",
+      "hint": "Kapan kita memakai tanda tanya (?) dan tanda titik (.)?",
+      "explanation": "Salah. Tanda tanya (?) dipakai pada akhir kalimat tanya, sedangkan kalimat berita atau pernyataan diakhiri tanda titik (.).",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "lang-read-02-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Tanda baca yang tepat untuk mengakhiri kalimat perintah atau seruan seperti 'Tolong rapikan meja belajarmu_' adalah tanda ____.",
+      "hint": "Tanda ini berbentuk garis tegak lurus dengan satu titik di bawahnya (!).",
+      "explanation": "Tanda seru (!) digunakan untuk mengakhiri ungkapan atau pernyataan yang berupa seruan atau perintah.",
+      "correctAnswer": {
+        "acceptedAnswers": ["seru", "Seru", "tanda seru", "Tanda seru", "!"]
+      }
+    },
+    {
+      "id": "lang-read-02-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kalimat yang menggunakan tanda baca dengan BENAR!",
+      "hint": "Periksa tanda koma sebelum kata 'tetapi' dan tanda tanya pada kalimat tanya.",
+      "explanation": "Tanda koma dipakai sebelum kata hubung pertentangan seperti 'tetapi' dan 'melainkan', serta tanda tanya dipakai di akhir kalimat tanya.",
+      "options": [
+        { "id": "a", "text": "Adik ingin ikut bermain, tetapi hari mulai hujan." },
+        { "id": "b", "text": "Siapa nama guru kelas lima!" },
+        { "id": "c", "text": "Di mana kamu menyimpan buku catatanmu?" },
+        { "id": "d", "text": "Ayah pulang dari kantor pukul lima sore?" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-read-02-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Dialog dalam komik: Sinta berkata kepada Doni tentang jadwal piket besok pagi.",
+      "prompt": "Manakah penulisan kalimat langsung yang menggunakan tanda petik (\"...\") dan tanda koma dengan benar?",
+      "hint": "Petikan langsung diapit tanda petik ganda dan dipisahkan koma dari bagian pengiringnya.",
+      "explanation": "Penulisan kalimat langsung yang benar adalah: Sinta berkata, \"Besok kita piket pagi, ya.\"",
+      "options": [
+        { "id": "a", "text": "Sinta berkata, \"Besok kita piket pagi, ya.\"" },
+        { "id": "b", "text": "Sinta berkata \"Besok kita piket pagi, ya.\"" },
+        { "id": "c", "text": "\"Sinta berkata,\" Besok kita piket pagi, ya." },
+        { "id": "d", "text": "Sinta berkata: Besok kita piket pagi, ya." }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-read-02-q06",
+      "type": "multiple_choice",
+      "prompt": "Kapan tanda koma (,) wajib diletakkan setelah kata penghubung antarkalimat seperti 'Oleh karena itu' dan 'Namun'?",
+      "hint": "Lihat posisi kata tersebut di awal kalimat.",
+      "explanation": "Tanda koma dipakai di belakang kata atau ungkapan penghubung antarkalimat, seperti 'Oleh karena itu,', 'Namun,', dan 'Jadi,'.",
+      "options": [
+        { "id": "a", "text": "Tepat setelah ungkapan penghubung antarkalimat di awal kalimat" },
+        { "id": "b", "text": "Di paling akhir kalimat" },
+        { "id": "c", "text": "Sebelum huruf pertama kalimat" },
+        { "id": "d", "text": "Tidak pernah memakai koma" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-read-02-q07",
+      "type": "true_false",
+      "prompt": "Penulisan tempat dan tanggal surat yang benar adalah 'Jakarta, 17 Agustus 2026'.",
+      "hint": "Apakah nama kota dan tanggal dipisahkan dengan tanda koma?",
+      "explanation": "Benar. Tanda koma digunakan untuk memisahkan nama tempat dan tanggal (Jakarta, 17 Agustus 2026), tanpa tanda titik di akhirnya jika bukan bagian kalimat.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-read-02-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Tanda baca yang digunakan untuk mengakhiri kalimat berita adalah tanda ____.",
+      "hint": "Tanda kecil berbentuk noktah (.) di akhir kalimat.",
+      "explanation": "Kalimat berita atau pernyataan yang bukan seruan atau pertanyaan selalu diakhiri dengan tanda titik (.).",
+      "correctAnswer": {
+        "acceptedAnswers": ["titik", "Titik", "tanda titik", "Tanda titik", "."]
+      }
+    },
+    {
+      "id": "lang-read-02-q09",
+      "type": "multiple_choice",
+      "prompt": "Manakah penggunaan tanda hubung (-) yang BENAR pada kata ulang?",
+      "hint": "Kata ulang ditulis menggunakan tanda hubung di antara unsur-unsurnya tanpa spasi.",
+      "explanation": "'anak-anak' dan 'bermain-main' ditulis dengan tanda hubung (-) tanpa spasi di antara kedua katanya.",
+      "options": [
+        { "id": "a", "text": "anak - anak" },
+        { "id": "b", "text": "anak-anak" },
+        { "id": "c", "text": "anak2" },
+        { "id": "d", "text": "anak_anak" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-read-02-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kalimat yang menggunakan tanda seru (!) secara TEPAT!",
+      "hint": "Tanda seru dipakai pada kalimat perintah, larangan, atau ungkapan kekaguman.",
+      "explanation": "'Wah, indah sekali pemandangan gunung ini!' (seruan kagum) dan 'Tutup kembali pintu itu dengan perlahan!' (perintah) tepat memakai tanda seru.",
+      "options": [
+        { "id": "a", "text": "Wah, indah sekali pemandangan gunung ini!" },
+        { "id": "b", "text": "Kapan kamu berangkat ke sekolah!" },
+        { "id": "c", "text": "Tutup kembali pintu itu dengan perlahan!" },
+        { "id": "d", "text": "Saya membaca buku di kamar!" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

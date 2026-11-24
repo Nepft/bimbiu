@@ -1,0 +1,145 @@
+{
+  "id": "geo-continents-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "continents-oceans",
+  "title": "Samudra Luas di Bumi",
+  "description": "Pelajari lima samudra utama di Bumi, kedalaman laut, dan samudra di sekitar Indonesia.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["geo-continents-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-continents-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Samudra manakah yang merupakan samudra terluas dan terdalam di dunia?",
+      "hint": "Terletak di antara Benua Asia, Australia, dan Amerika.",
+      "explanation": "Samudra Pasifik adalah samudra terluas di Bumi dan memiliki Palung Mariana, titik terdalam di lautan.",
+      "options": [
+        { "id": "a", "text": "Samudra Atlantik" },
+        { "id": "b", "text": "Samudra Hindia" },
+        { "id": "c", "text": "Samudra Pasifik" },
+        { "id": "d", "text": "Samudra Arktik" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "geo-continents-02-q02",
+      "type": "true_false",
+      "prompt": "Lebih dari 70 persen permukaan planet Bumi tertutup oleh perairan atau lautan.",
+      "hint": "Bumi sering dijuluki sebagai Planet Biru.",
+      "explanation": "Benar! Sekitar 71 persen permukaan Bumi berupa perairan, itulah sebabnya Bumi tampak biru dari luar angkasa.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-continents-02-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Titik terdalam di lautan Bumi yang berada di Samudra Pasifik bernama Palung ...",
+      "hint": "Namanya berawalan huruf M.",
+      "explanation": "Palung Mariana di Samudra Pasifik memiliki kedalaman hampir 11.000 meter di bawah permukaan laut.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Mariana", "mariana"]
+      }
+    },
+    {
+      "id": "geo-continents-02-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua samudra yang mengapit wilayah negara Indonesia!",
+      "hint": "Satu berada di sebelah selatan-barat Indonesia, satu lagi di timur laut.",
+      "explanation": "Indonesia terletak di posisi silang antara Samudra Hindia dan Samudra Pasifik.",
+      "options": [
+        { "id": "a", "text": "Samudra Hindia" },
+        { "id": "b", "text": "Samudra Arktik" },
+        { "id": "c", "text": "Samudra Pasifik" },
+        { "id": "d", "text": "Samudra Atlantik" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-continents-02-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Peta bola Bumi menampilkan hamparan samudra yang menghubungkan berbagai benua.",
+      "prompt": "Samudra manakah yang memisahkan Benua Amerika di sebelah barat dengan Benua Eropa dan Afrika di sebelah timur?",
+      "hint": "Samudra ini berbentuk mirip huruf S raksasa dan menjadi samudra terluas kedua.",
+      "explanation": "Samudra Atlantik membentang di antara Benua Amerika di sisi barat serta Benua Eropa dan Afrika di sisi timur.",
+      "options": [
+        { "id": "a", "text": "Samudra Hindia" },
+        { "id": "b", "text": "Samudra Atlantik" },
+        { "id": "c", "text": "Samudra Selatan" },
+        { "id": "d", "text": "Samudra Arktik" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-continents-02-q06",
+      "type": "multiple_choice",
+      "prompt": "Samudra manakah yang berukuran paling kecil dan terletak di sekitar Kutub Utara?",
+      "hint": "Sebagian besar permukaannya tertutup es laut.",
+      "explanation": "Samudra Arktik berada di wilayah Kutub Utara dan merupakan samudra terkecil serta terdangkal di dunia.",
+      "options": [
+        { "id": "a", "text": "Samudra Hindia" },
+        { "id": "b", "text": "Samudra Selatan" },
+        { "id": "c", "text": "Samudra Arktik" },
+        { "id": "d", "text": "Samudra Atlantik" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "geo-continents-02-q07",
+      "type": "true_false",
+      "prompt": "Air di samudra dan lautan rasanya tawar sehingga bisa langsung diminum tanpa diolah.",
+      "hint": "Ingat rasa air laut saat berenang di pantai.",
+      "explanation": "Salah! Air samudra rasanya asin karena mengandung banyak garam mineral yang terlarut.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "geo-continents-02-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Samudra yang mengelilingi Benua Antarktika di bagian paling selatan Bumi disebut Samudra ...",
+      "hint": "Bisa disebut Samudra Selatan atau nama benuanya.",
+      "explanation": "Perairan yang mengelilingi Antarktika dikenal sebagai Samudra Selatan atau Samudra Antarktika.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Selatan", "selatan", "Antarktika", "Antartika", "antarktika", "antartika"]
+      }
+    },
+    {
+      "id": "geo-continents-02-q09",
+      "type": "multiple_select",
+      "prompt": "Manakah di antara berikut ini yang termasuk dalam daftar lima samudra di dunia?",
+      "hint": "Pilih nama samudra, bukan nama laut sempit atau danau.",
+      "explanation": "Samudra Hindia, Samudra Arktik, dan Samudra Selatan adalah bagian dari lima samudra utama Bumi. Laut Jawa adalah laut, bukan samudra.",
+      "options": [
+        { "id": "a", "text": "Samudra Hindia" },
+        { "id": "b", "text": "Laut Jawa" },
+        { "id": "c", "text": "Samudra Arktik" },
+        { "id": "d", "text": "Samudra Selatan" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c", "d"] }
+    },
+    {
+      "id": "geo-continents-02-q10",
+      "type": "multiple_choice",
+      "prompt": "Mengapa Samudra Hindia banyak dilewati kapal dagang sejak zaman dahulu?",
+      "hint": "Samudra ini terletak di sebelah selatan Asia, di antara Afrika, India, dan Indonesia.",
+      "explanation": "Samudra Hindia menjadi jalur pelayaran penting yang menghubungkan Afrika Timur, Timur Tengah, India, dan Asia Tenggara.",
+      "options": [
+        { "id": "a", "text": "Karena seluruh airnya membeku sepanjang tahun" },
+        { "id": "b", "text": "Karena menghubungkan jalur pelayaran antara Afrika, Asia Selatan, dan Asia Tenggara" },
+        { "id": "c", "text": "Karena berada tepat di tengah Benua Eropa" },
+        { "id": "d", "text": "Karena tidak memiliki gelombang laut sama sekali" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

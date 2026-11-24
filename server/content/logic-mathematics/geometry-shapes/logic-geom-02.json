@@ -1,0 +1,141 @@
+{
+  "id": "logic-geom-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "logic-mathematics",
+  "unitId": "geometry-shapes",
+  "title": "Keliling Bangun Datar",
+  "description": "Menghitung panjang garis tepi atau keliling persegi, persegi panjang, dan segitiga.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["logic-geom-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "logic-geom-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Sebuah persegi memiliki panjang sisi 9 cm. Berapakah keliling persegi tersebut?",
+      "hint": "Persegi memiliki 4 sisi yang sama panjang, jadi kalikan panjang sisi dengan 4.",
+      "explanation": "Keliling persegi = 4 x sisi = 4 x 9 cm = 36 cm.",
+      "options": [
+        { "id": "a", "text": "18 cm" },
+        { "id": "b", "text": "36 cm" },
+        { "id": "c", "text": "45 cm" },
+        { "id": "d", "text": "81 cm" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-geom-02-q02",
+      "type": "true_false",
+      "prompt": "Keliling segitiga sama sisi dengan panjang sisi 12 cm adalah 36 cm.",
+      "hint": "Segitiga sama sisi punya 3 sisi yang sama panjang.",
+      "explanation": "Benar. Keliling = 12 + 12 + 12 = 3 x 12 = 36 cm.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "logic-geom-02-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Sebuah persegi panjang memiliki panjang 14 cm dan lebar 6 cm. Berapakah kelilingnya (dalam cm)?",
+      "hint": "Gunakan rumus keliling persegi panjang: 2 x (panjang + lebar).",
+      "explanation": "Keliling = 2 x (14 + 6) = 2 x 20 = 40 cm.",
+      "correctAnswer": { "acceptedAnswers": ["40", "40 cm"] }
+    },
+    {
+      "id": "logic-geom-02-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua bangun datar di bawah ini yang memiliki keliling tepat 24 cm:",
+      "hint": "Hitung keliling setiap pilihan satu per satu.",
+      "explanation": "Persegi sisi 6 cm kelilingnya 4 x 6 = 24 cm. Persegi panjang 8 cm x 4 cm kelilingnya 2 x (8 + 4) = 24 cm.",
+      "options": [
+        { "id": "a", "text": "Persegi dengan sisi 6 cm" },
+        { "id": "b", "text": "Persegi panjang berukuran 8 cm x 4 cm" },
+        { "id": "c", "text": "Segitiga sama sisi dengan sisi 10 cm" },
+        { "id": "d", "text": "Persegi dengan sisi 8 cm" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "logic-geom-02-q05",
+      "type": "multiple_choice",
+      "prompt": "Keliling sebuah persegi adalah 48 cm. Berapakah panjang satu sisinya?",
+      "hint": "Bagi keliling persegi dengan jumlah sisinya, yaitu 4.",
+      "explanation": "Panjang sisi = Keliling : 4 = 48 : 4 = 12 cm.",
+      "options": [
+        { "id": "a", "text": "8 cm" },
+        { "id": "b", "text": "10 cm" },
+        { "id": "c", "text": "12 cm" },
+        { "id": "d", "text": "16 cm" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-geom-02-q06",
+      "type": "image_quiz",
+      "mediaKey": "quiz-geometri",
+      "mediaCaption": "Denah taman berbentuk persegi panjang dengan panjang 10 meter dan lebar 5 meter.",
+      "prompt": "Jika sekeliling taman pada gambar akan dipasangi pagar, berapa meter panjang pagar yang dibutuhkan?",
+      "hint": "Pagar dipasang di sekeliling taman, jadi hitunglah keliling persegi panjangnya.",
+      "explanation": "Keliling taman = 2 x (10 + 5) = 2 x 15 = 30 meter.",
+      "options": [
+        { "id": "a", "text": "15 meter" },
+        { "id": "b", "text": "25 meter" },
+        { "id": "c", "text": "30 meter" },
+        { "id": "d", "text": "50 meter" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-geom-02-q07",
+      "type": "true_false",
+      "prompt": "Sebuah segitiga memiliki panjang sisi 5 cm, 7 cm, dan 8 cm. Keliling segitiga tersebut adalah 21 cm.",
+      "hint": "Jumlahkan ketiga sisi segitiga itu: 5 + 7 + 8.",
+      "explanation": "Salah. Jumlahnya adalah 5 + 7 + 8 = 20 cm, bukan 21 cm.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "logic-geom-02-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Keliling sebuah persegi panjang adalah 30 cm. Jika panjangnya 9 cm, berapakah lebarnya (dalam cm)?",
+      "hint": "Setengah kelilingnya adalah panjang + lebar, yaitu 30 : 2 = 15 cm.",
+      "explanation": "Panjang + lebar = 30 : 2 = 15 cm. Maka lebar = 15 - 9 = 6 cm.",
+      "correctAnswer": { "acceptedAnswers": ["6", "6 cm"] }
+    },
+    {
+      "id": "logic-geom-02-q09",
+      "type": "multiple_choice",
+      "prompt": "Andi berlari mengelilingi lapangan berbentuk persegi bersisi 25 meter sebanyak 2 kali putaran. Berapa meter jarak yang ditempuh Andi?",
+      "hint": "Hitung keliling 1 putaran terlebih dahulu, lalu kalikan 2.",
+      "explanation": "1 putaran = 4 x 25 = 100 meter. Untuk 2 putaran: 2 x 100 = 200 meter.",
+      "options": [
+        { "id": "a", "text": "50 meter" },
+        { "id": "b", "text": "100 meter" },
+        { "id": "c", "text": "150 meter" },
+        { "id": "d", "text": "200 meter" }
+      ],
+      "correctAnswer": { "optionId": "d" }
+    },
+    {
+      "id": "logic-geom-02-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih semua bangun datar di bawah ini yang kelilingnya lebih dari 20 cm:",
+      "hint": "Hitung keliling tiap bangun, lalu bandingkan dengan 20 cm.",
+      "explanation": "Persegi sisi 6 cm (24 cm), persegi panjang 7 cm x 5 cm (24 cm), dan segi lima beraturan sisi 5 cm (25 cm) semuanya lebih dari 20 cm. Segitiga sama sisi 6 cm hanya 18 cm.",
+      "options": [
+        { "id": "a", "text": "Persegi dengan sisi 6 cm" },
+        { "id": "b", "text": "Segitiga sama sisi dengan sisi 6 cm" },
+        { "id": "c", "text": "Persegi panjang berukuran 7 cm x 5 cm" },
+        { "id": "d", "text": "Segi lima beraturan dengan sisi 5 cm" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c", "d"] }
+    }
+  ]
+}

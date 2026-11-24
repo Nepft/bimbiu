@@ -1,0 +1,141 @@
+{
+  "id": "logic-geom-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "logic-mathematics",
+  "unitId": "geometry-shapes",
+  "title": "Volume Kubus & Balok",
+  "description": "Menghitung isi atau volume kubus dan balok serta memecahkan soal cerita wadah air.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["logic-geom-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "logic-geom-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Sebuah kubus memiliki panjang rusuk 5 cm. Berapakah volume kubus tersebut?",
+      "hint": "Volume kubus = rusuk x rusuk x rusuk.",
+      "explanation": "Volume kubus = 5 x 5 x 5 = 125 cm³.",
+      "options": [
+        { "id": "a", "text": "25 cm³" },
+        { "id": "b", "text": "75 cm³" },
+        { "id": "c", "text": "125 cm³" },
+        { "id": "d", "text": "150 cm³" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-geom-05-q02",
+      "type": "true_false",
+      "prompt": "Volume balok dengan panjang 6 cm, lebar 4 cm, dan tinggi 3 cm adalah 72 cm³.",
+      "hint": "Kalikan panjang x lebar x tinggi.",
+      "explanation": "Benar. Volume balok = 6 x 4 x 3 = 72 cm³.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "logic-geom-05-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Sebuah kotak balok berukuran panjang 10 cm, lebar 5 cm, dan tinggi 4 cm. Berapakah volumenya (dalam cm³)?",
+      "hint": "Kalikan ketiga ukurannya: 10 x 5 x 4.",
+      "explanation": "Volume = 10 x 5 x 4 = 200 cm³.",
+      "correctAnswer": { "acceptedAnswers": ["200", "200 cm3", "200 cm³"] }
+    },
+    {
+      "id": "logic-geom-05-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua bangun ruang di bawah ini yang memiliki volume tepat 64 cm³:",
+      "hint": "Hitung volume masing-masing kubus dan balok pada pilihan jawaban.",
+      "explanation": "Kubus rusuk 4 cm bervolume 4 x 4 x 4 = 64 cm³, dan balok 8 x 4 x 2 cm bervolume 64 cm³.",
+      "options": [
+        { "id": "a", "text": "Kubus dengan rusuk 4 cm" },
+        { "id": "b", "text": "Balok berukuran 8 cm x 4 cm x 2 cm" },
+        { "id": "c", "text": "Balok berukuran 5 cm x 4 cm x 3 cm" },
+        { "id": "d", "text": "Kubus dengan rusuk 8 cm" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "logic-geom-05-q05",
+      "type": "multiple_choice",
+      "prompt": "Diketahui volume sebuah kubus adalah 27 cm³. Berapakah panjang rusuknya?",
+      "hint": "Cari bilangan yang jika dipangkatkan tiga (dikalikan 3 kali berturut-turut) hasilnya 27.",
+      "explanation": "3 x 3 x 3 = 27, sehingga panjang rusuk kubus adalah 3 cm.",
+      "options": [
+        { "id": "a", "text": "3 cm" },
+        { "id": "b", "text": "4 cm" },
+        { "id": "c", "text": "6 cm" },
+        { "id": "d", "text": "9 cm" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "logic-geom-05-q06",
+      "type": "image_quiz",
+      "mediaKey": "quiz-geometri",
+      "mediaCaption": "Susunan balok dari kubus-kubus kecil yang tersusun rapat: 3 kubus ke samping, 2 kubus ke belakang, dan 2 kubus ke atas.",
+      "prompt": "Ada berapa banyak kubus kecil seluruhnya untuk menyusun balok pada gambar tersebut?",
+      "hint": "Kalikan jumlah kubus ke samping, ke belakang, dan ke atas.",
+      "explanation": "Jumlah kubus kecil = 3 x 2 x 2 = 12 kubus kecil.",
+      "options": [
+        { "id": "a", "text": "7 kubus" },
+        { "id": "b", "text": "12 kubus" },
+        { "id": "c", "text": "14 kubus" },
+        { "id": "d", "text": "18 kubus" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-geom-05-q07",
+      "type": "true_false",
+      "prompt": "Jika panjang rusuk sebuah kubus diperbesar menjadi 2 kali lipat, maka volumenya menjadi 2 kali lipat juga.",
+      "hint": "Coba bandingkan volume kubus rusuk 1 cm dengan kubus rusuk 2 cm.",
+      "explanation": "Salah. Jika rusuk menjadi 2 kali lipat, volumenya menjadi 2 x 2 x 2 = 8 kali lipat.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "logic-geom-05-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Sebuah akuarium balok berukuran 10 cm x 6 cm x 5 cm diisi air hingga setengah penuh. Berapa cm³ volume air di dalamnya?",
+      "hint": "Hitung volume penuh akuarium terlebih dahulu, lalu bagi 2.",
+      "explanation": "Volume penuh = 10 x 6 x 5 = 300 cm³. Setengah penuh = 300 : 2 = 150 cm³.",
+      "correctAnswer": { "acceptedAnswers": ["150", "150 cm3", "150 cm³"] }
+    },
+    {
+      "id": "logic-geom-05-q09",
+      "type": "multiple_choice",
+      "prompt": "Sebuah balok memiliki volume 120 cm³. Jika panjangnya 6 cm dan lebarnya 5 cm, berapakah tinggi balok itu?",
+      "hint": "Tinggi = Volume : (panjang x lebar).",
+      "explanation": "Luas alas = 6 x 5 = 30 cm². Tinggi = 120 : 30 = 4 cm.",
+      "options": [
+        { "id": "a", "text": "3 cm" },
+        { "id": "b", "text": "4 cm" },
+        { "id": "c", "text": "5 cm" },
+        { "id": "d", "text": "6 cm" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-geom-05-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih semua pernyataan yang benar mengenai volume bangun ruang:",
+      "hint": "Periksa perhitungan kubus, balok, dan konversi liter ke cm³.",
+      "explanation": "Kubus rusuk 2 cm bervolume 8 cm³, kubus rusuk 10 cm bervolume 1.000 cm³, dan 1 liter = 1.000 cm³. Balok 4 x 3 x 2 cm bervolume 24 cm³ (bukan 20 cm³).",
+      "options": [
+        { "id": "a", "text": "Volume kubus bersisi 2 cm adalah 8 cm³" },
+        { "id": "b", "text": "Volume kubus bersisi 10 cm adalah 1.000 cm³" },
+        { "id": "c", "text": "Volume balok 4 cm x 3 cm x 2 cm adalah 20 cm³" },
+        { "id": "d", "text": "1 liter sama dengan 1.000 cm³" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+    }
+  ]
+}

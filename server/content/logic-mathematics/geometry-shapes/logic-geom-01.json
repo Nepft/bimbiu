@@ -1,0 +1,142 @@
+{
+  "id": "logic-geom-01",
+  "contentVersion": "1.0.0",
+  "categoryId": "logic-mathematics",
+  "unitId": "geometry-shapes",
+  "title": "Mengenal Bangun Datar & Sifatnya",
+  "description": "Memahami sisi, sudut, dan simetri lipat berbagai bangun datar di sekitar kita.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 1,
+  "prerequisites": [],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "logic-geom-01-q01",
+      "type": "multiple_choice",
+      "prompt": "Bangun datar yang memiliki 4 sisi sama panjang dan 4 sudut siku-siku adalah ...",
+      "hint": "Keempat sisinya sama panjang dan setiap pojoknya membentuk sudut 90 derajat.",
+      "explanation": "Persegi memiliki 4 sisi yang sama panjang dan 4 sudut siku-siku (90 derajat).",
+      "options": [
+        { "id": "a", "text": "Persegi" },
+        { "id": "b", "text": "Jajar genjang" },
+        { "id": "c", "text": "Trapesium" },
+        { "id": "d", "text": "Layang-layang" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "logic-geom-01-q02",
+      "type": "true_false",
+      "prompt": "Jumlah seluruh sudut di dalam sebuah segitiga selalu 180 derajat.",
+      "hint": "Jika ketiga pojok segitiga digunting dan ditempel berdampingan, hasilnya membentuk garis lurus.",
+      "explanation": "Benar. Untuk semua jenis segitiga, jumlah ketiga sudut dalamnya selalu tepat 180 derajat.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "logic-geom-01-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Berapa banyak sumbu simetri lipat yang dimiliki oleh sebuah persegi?",
+      "hint": "Persegi dapat dilipat secara mendatar, tegak, dan melalui kedua diagonalnya.",
+      "explanation": "Persegi memiliki 4 simetri lipat: 1 lipatan tegak, 1 lipatan mendatar, dan 2 lipatan diagonal.",
+      "correctAnswer": { "acceptedAnswers": ["4"] }
+    },
+    {
+      "id": "logic-geom-01-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih semua bangun datar di bawah ini yang termasuk segi empat (memiliki 4 sisi):",
+      "hint": "Hitung jumlah sisi masing-masing bangun datar.",
+      "explanation": "Persegi panjang, belah ketupat, dan trapesium masing-masing memiliki 4 sisi. Segitiga memiliki 3 sisi dan segi lima memiliki 5 sisi.",
+      "options": [
+        { "id": "a", "text": "Persegi panjang" },
+        { "id": "b", "text": "Segitiga sama sisi" },
+        { "id": "c", "text": "Belah ketupat" },
+        { "id": "d", "text": "Trapesium" },
+        { "id": "e", "text": "Segi lima" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c", "d"] }
+    },
+    {
+      "id": "logic-geom-01-q05",
+      "type": "multiple_choice",
+      "prompt": "Besar sebuah sudut siku-siku adalah tepat ...",
+      "hint": "Sudut ini berbentuk seperti pojok buku tulis atau bingkai pintu.",
+      "explanation": "Sudut siku-siku besarnya tepat 90 derajat.",
+      "options": [
+        { "id": "a", "text": "45 derajat" },
+        { "id": "b", "text": "60 derajat" },
+        { "id": "c", "text": "90 derajat" },
+        { "id": "d", "text": "180 derajat" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-geom-01-q06",
+      "type": "image_quiz",
+      "mediaKey": "quiz-geometri",
+      "mediaCaption": "Gambar sebuah persegi panjang berwarna biru yang panjangnya lebih besar dari lebarnya.",
+      "prompt": "Berapa banyak simetri lipat yang dimiliki bangun persegi panjang pada gambar?",
+      "hint": "Coba bayangkan kertas berbentuk persegi panjang dilipat agar kedua bagiannya saling menutupi dengan tepat.",
+      "explanation": "Persegi panjang (yang bukan persegi) memiliki 2 simetri lipat, yaitu melalui garis tengah mendatar dan garis tengah tegak.",
+      "options": [
+        { "id": "a", "text": "1" },
+        { "id": "b", "text": "2" },
+        { "id": "c", "text": "4" },
+        { "id": "d", "text": "Tidak ada" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-geom-01-q07",
+      "type": "true_false",
+      "prompt": "Segitiga sama sisi memiliki tiga sisi yang panjangnya berbeda-beda.",
+      "hint": "Perhatikan kata 'sama sisi' pada nama bangun tersebut.",
+      "explanation": "Salah. Segitiga sama sisi justru memiliki ketiga sisi yang sama panjang.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "logic-geom-01-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Sebuah segi enam beraturan memiliki berapa buah titik sudut?",
+      "hint": "Pada bangun segi-n, jumlah titik sudut sama dengan jumlah sisinya.",
+      "explanation": "Segi enam memiliki 6 sisi dan 6 titik sudut.",
+      "correctAnswer": { "acceptedAnswers": ["6"] }
+    },
+    {
+      "id": "logic-geom-01-q09",
+      "type": "multiple_choice",
+      "prompt": "Bangun datar yang tidak memiliki titik sudut dan memiliki simetri lipat tak terhingga adalah ...",
+      "hint": "Bentuknya bundar sempurna seperti uang koin atau roda.",
+      "explanation": "Lingkaran tidak memiliki titik sudut dan dapat dilipat tepat sama besar dari berbagai arah yang melewati titik pusat.",
+      "options": [
+        { "id": "a", "text": "Layang-layang" },
+        { "id": "b", "text": "Segitiga" },
+        { "id": "c", "text": "Trapesium" },
+        { "id": "d", "text": "Lingkaran" }
+      ],
+      "correctAnswer": { "optionId": "d" }
+    },
+    {
+      "id": "logic-geom-01-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih semua sifat yang dimiliki oleh persegi panjang:",
+      "hint": "Bedakan sifat persegi panjang dengan persegi.",
+      "explanation": "Persegi panjang memiliki 4 sudut siku-siku, sisi yang berhadapan sama panjang dan sejajar, serta 2 diagonal yang sama panjang.",
+      "options": [
+        { "id": "a", "text": "Memiliki 4 sudut siku-siku" },
+        { "id": "b", "text": "Keempat sisinya harus sama panjang" },
+        { "id": "c", "text": "Sisi yang berhadapan sama panjang dan sejajar" },
+        { "id": "d", "text": "Memiliki 2 diagonal yang sama panjang" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c", "d"] }
+    }
+  ]
+}

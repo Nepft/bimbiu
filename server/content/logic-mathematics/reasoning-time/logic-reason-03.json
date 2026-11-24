@@ -1,0 +1,141 @@
+{
+  "id": "logic-reason-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "logic-mathematics",
+  "unitId": "reasoning-time",
+  "title": "Perbandingan & Urutan Logika",
+  "description": "Menyusun urutan tinggi, umur, posisi, dan peringkat berdasarkan petunjuk logis.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["logic-reason-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "logic-reason-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Dita lebih tinggi daripada Sari. Sari lebih tinggi daripada Rani. Siapakah yang paling pendek di antara mereka bertiga?",
+      "hint": "Susun dari yang paling tinggi ke paling pendek: Dita > Sari > ...",
+      "explanation": "Urutan dari paling tinggi adalah Dita, Sari, lalu Rani. Jadi yang paling pendek adalah Rani.",
+      "options": [
+        { "id": "a", "text": "Dita" },
+        { "id": "b", "text": "Sari" },
+        { "id": "c", "text": "Rani" },
+        { "id": "d", "text": "Dita dan Sari sama pendek" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-reason-03-q02",
+      "type": "true_false",
+      "prompt": "Rumah Ali berada tepat di sebelah kiri rumah Budi, dan rumah Budi berada tepat di sebelah kiri rumah Cici. Jika hanya ada 3 rumah berjajar, maka rumah Budi berada di tengah.",
+      "hint": "Urutkan posisi rumah dari kiri ke kanan: Ali, lalu ..., lalu ...",
+      "explanation": "Benar. Urutan dari kiri ke kanan adalah Ali - Budi - Cici, sehingga rumah Budi berada di tengah.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "logic-reason-03-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Dalam lomba lari, Edo sampai di garis finis di depan Fajar. Gilang sampai di garis finis di depan Edo. Siapakah yang menjadi juara ke-1?",
+      "hint": "Orang yang sampai paling depan adalah juara ke-1.",
+      "explanation": "Urutan finis dari depan ke belakang adalah Gilang, Edo, Fajar. Jadi juara ke-1 adalah Gilang.",
+      "correctAnswer": { "acceptedAnswers": ["Gilang", "gilang"] }
+    },
+    {
+      "id": "logic-reason-03-q04",
+      "type": "multiple_select",
+      "prompt": "Diketahui data umur empat anak: Nina berumur 10 tahun. Raka 2 tahun lebih tua dari Nina. Tio 1 tahun lebih muda dari Raka. Sinta 1 tahun lebih muda dari Nina. Pilih dua pernyataan yang benar!",
+      "hint": "Hitung umur masing-masing anak terlebih dahulu sebelum memilih.",
+      "explanation": "Umur mereka: Sinta = 9 tahun, Nina = 10 tahun, Tio = 11 tahun, dan Raka = 12 tahun. Jadi Sinta paling muda dan Raka paling tua.",
+      "options": [
+        { "id": "a", "text": "Sinta adalah anak yang paling muda" },
+        { "id": "b", "text": "Tio lebih tua daripada Raka" },
+        { "id": "c", "text": "Raka adalah anak yang paling tua" },
+        { "id": "d", "text": "Nina berumur 11 tahun" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "logic-reason-03-q05",
+      "type": "multiple_choice",
+      "prompt": "Lima buku ditumpuk dari bawah ke atas: Buku IPA di paling bawah, Buku Matematika tepat di atas IPA, Buku Bahasa di paling atas, Buku IPS tepat di bawah Bahasa, dan Buku Seni di antara Matematika dan IPS. Buku apa yang berada tepat di tengah tumpukan?",
+      "hint": "Tulis urutan nomor 1 (paling bawah) sampai nomor 5 (paling atas).",
+      "explanation": "Urutan dari bawah ke atas: 1. IPA, 2. Matematika, 3. Seni, 4. IPS, 5. Bahasa. Buku di tengah (urutan ke-3) adalah Buku Seni.",
+      "options": [
+        { "id": "a", "text": "Buku Matematika" },
+        { "id": "b", "text": "Buku Seni" },
+        { "id": "c", "text": "Buku IPS" },
+        { "id": "d", "text": "Buku Bahasa" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-reason-03-q06",
+      "type": "image_quiz",
+      "mediaKey": "quiz-geometri",
+      "mediaCaption": "Papan peringkat 4 tim cerdas cermat: Tim Rajawali memiliki nilai tertinggi, Tim Merpati nilainya lebih tinggi dari Tim Elang, dan Tim Gagak nilainya di bawah Tim Elang.",
+      "prompt": "Berdasarkan petunjuk pada papan peringkat tersebut, tim manakah yang menempati peringkat ke-2?",
+      "hint": "Urutkan keempat tim dari nilai tertinggi ke terendah.",
+      "explanation": "Urutan peringkat: 1. Tim Rajawali, 2. Tim Merpati, 3. Tim Elang, 4. Tim Gagak. Jadi peringkat ke-2 adalah Tim Merpati.",
+      "options": [
+        { "id": "a", "text": "Tim Rajawali" },
+        { "id": "b", "text": "Tim Merpati" },
+        { "id": "c", "text": "Tim Elang" },
+        { "id": "d", "text": "Tim Gagak" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-reason-03-q07",
+      "type": "true_false",
+      "prompt": "Jika benda A lebih berat dari benda B, dan benda C lebih ringan dari benda B, maka benda C lebih berat dari benda A.",
+      "hint": "Urutkan dari yang paling berat: A > B > ...",
+      "explanation": "Salah. Karena A lebih berat dari B dan B lebih berat dari C, maka C adalah yang paling ringan (lebih ringan dari A).",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "logic-reason-03-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Di dalam satu baris antrean terdapat 12 anak. Bagas berada di urutan ke-5 dari depan. Di urutan ke berapakah Bagas jika dihitung dari belakang?",
+      "hint": "Ada berapa anak di belakang Bagas? Hitung 12 - 5, lalu tambahkan Bagas sendiri.",
+      "explanation": "Di belakang Bagas ada 12 - 5 = 7 anak. Jadi dari belakang, Bagas berada di urutan ke-8.",
+      "correctAnswer": { "acceptedAnswers": ["8", "ke-8", "ke 8", "kedelapan"] }
+    },
+    {
+      "id": "logic-reason-03-q09",
+      "type": "multiple_choice",
+      "prompt": "Empat kotak (Merah, Biru, Hijau, Kuning) berjajar dari kiri ke kanan (posisi 1 sampai 4). Kotak Biru ada di ujung paling kanan. Kotak Merah tidak bersebelahan dengan Biru dan bukan di posisi paling kiri. Kotak Kuning ada di sebelah kiri Merah. Kotak warna apakah yang ada di posisi ke-3?",
+      "hint": "Letakkan Biru di posisi 4 dulu, lalu tentukan posisi Merah yang tidak bersebelahan dengan 4 dan bukan 1.",
+      "explanation": "Posisi 4 = Biru. Merah tidak di posisi 1 dan tidak bersebelahan dengan 4, jadi Merah di posisi 2. Kuning di kiri Merah, jadi Kuning di posisi 1. Tersisa posisi 3 = Hijau.",
+      "options": [
+        { "id": "a", "text": "Merah" },
+        { "id": "b", "text": "Kuning" },
+        { "id": "c", "text": "Hijau" },
+        { "id": "d", "text": "Biru" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-reason-03-q10",
+      "type": "multiple_select",
+      "prompt": "Lala, Miko, dan Kiki masing-masing memelihara 1 hewan berbeda (kucing, kelinci, atau ikan). Lala tidak memelihara ikan maupun kucing. Miko suka hewan yang hidup di akuarium. Pilih semua pasangan yang benar!",
+      "hint": "Tentukan hewan Lala terlebih dahulu, lalu Miko, dan sisanya milik Kiki.",
+      "explanation": "Lala bukan ikan dan bukan kucing, jadi Lala memelihara kelinci. Miko memelihara ikan di akuarium. Tersisa Kiki memelihara kucing.",
+      "options": [
+        { "id": "a", "text": "Lala memelihara kelinci" },
+        { "id": "b", "text": "Miko memelihara ikan" },
+        { "id": "c", "text": "Kiki memelihara kelinci" },
+        { "id": "d", "text": "Kiki memelihara kucing" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "science-earth-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "science-nature",
+  "unitId": "earth-weather",
+  "title": "Iklim, Musim, dan Perubahan Iklim",
+  "description": "Membedakan cuaca dan iklim, mengenal iklim tropis Indonesia, serta memahami efek rumah kaca dan perubahan iklim.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["science-earth-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "science-earth-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Apa perbedaan utama antara cuaca dan iklim?",
+      "hint": "Bandingkan lama waktu dan luas wilayah pengamatannya.",
+      "explanation": "Cuaca terjadi dalam waktu singkat dan wilayah sempit, sedangkan iklim adalah rata-rata kondisi cuaca dalam waktu sangat panjang (puluhan tahun) di wilayah luas.",
+      "options": [
+        { "id": "a", "text": "Cuaca berlangsung puluhan tahun, iklim hanya beberapa jam" },
+        { "id": "b", "text": "Cuaca adalah kondisi udara jangka pendek, iklim adalah pola rata-rata jangka panjang" },
+        { "id": "c", "text": "Cuaca hanya terjadi di laut, iklim hanya di gunung" },
+        { "id": "d", "text": "Cuaca dan iklim memiliki arti yang sama persis" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-earth-04-q02",
+      "type": "true_false",
+      "prompt": "Indonesia beriklim tropis sehingga memiliki dua musim utama, yaitu musim hujan dan musim kemarau.",
+      "hint": "Wilayah khatulistiwa menerima sinar Matahari hampir merata sepanjang tahun.",
+      "explanation": "Benar! Karena terletak di sekitar garis khatulistiwa, Indonesia beriklim tropis hangat dengan dua musim: hujan dan kemarau.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-earth-04-q03",
+      "type": "multiple_choice",
+      "prompt": "Daerah di sekitar Kutub Utara dan Kutub Selatan memiliki iklim apa?",
+      "hint": "Suhunya sangat dingin hampir sepanjang tahun dan banyak tertutup es.",
+      "explanation": "Wilayah kutub memiliki iklim dingin (kutub/polar) karena sudut datang sinar Matahari sangat miring sehingga menerima panas paling sedikit.",
+      "options": [
+        { "id": "a", "text": "Iklim tropis" },
+        { "id": "b", "text": "Iklim dingin atau kutub" },
+        { "id": "c", "text": "Iklim gurun panas" },
+        { "id": "d", "text": "Iklim khatulistiwa" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-earth-04-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Peningkatan suhu rata-rata permukaan Bumi akibat menumpuknya gas rumah kaca di atmosfer disebut pemanasan ______.",
+      "hint": "Berasal dari kata 'global' (seluruh dunia).",
+      "explanation": "Pemanasan global (global warming) terjadi ketika gas rumah kaca seperti karbon dioksida memerangkap terlalu banyak panas di atmosfer Bumi.",
+      "correctAnswer": {
+        "acceptedAnswers": ["global", "Global"]
+      }
+    },
+    {
+      "id": "science-earth-04-q05",
+      "type": "multiple_select",
+      "prompt": "Pilih dua aktivitas manusia yang dapat meningkatkan gas rumah kaca secara berlebihan di atmosfer:",
+      "hint": "Pikirkan aktivitas yang melepaskan karbon dioksida dan mengurangi penyerapnya.",
+      "explanation": "Pembakaran bahan bakar fosil (bensin, batu bara) menghasilkan emisi karbon dioksida, sedangkan penebangan hutan mengurangi pohon penyerap karbon dioksida.",
+      "options": [
+        { "id": "a", "text": "Pembakaran bahan bakar fosil pada kendaraan dan pabrik" },
+        { "id": "b", "text": "Penebangan hutan secara liar dalam skala luas" },
+        { "id": "c", "text": "Bersepeda ke sekolah setiap pagi" },
+        { "id": "d", "text": "Menanam bibit pohon di halaman" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "science-earth-04-q06",
+      "type": "true_false",
+      "prompt": "Efek rumah kaca alami sama sekali tidak berguna bagi Bumi dan seharusnya dihilangkan seluruhnya.",
+      "hint": "Bayangkan betapa bekunya Bumi pada malam hari jika tidak ada atmosfer penahan hangat sama sekali.",
+      "explanation": "Salah. Efek rumah kaca alami justru penting untuk menjaga suhu Bumi tetap hangat dan layak huni. Masalahnya adalah peningkatan gas rumah kaca berlebih oleh aktivitas manusia.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "science-earth-04-q07",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Bola dunia dengan lapisan es di kutub utara dan selatan yang sensitif terhadap kenaikan suhu.",
+      "prompt": "Salah satu dampak pemanasan global terhadap wilayah kutub dan lautan di Bumi adalah...",
+      "hint": "Ketika es di kutub mencair, volume air laut bertambah.",
+      "explanation": "Suhu Bumi yang menghangat menyebabkan es di kutub dan gletser mencair sehingga permukaan air laut naik dan mengancam wilayah pesisir.",
+      "options": [
+        { "id": "a", "text": "Mencairnya es di kutub dan naiknya permukaan air laut" },
+        { "id": "b", "text": "Seluruh samudra membeku menjadi es padat" },
+        { "id": "c", "text": "Bumi berhenti berotasi pada porosnya" },
+        { "id": "d", "text": "Gunung berapi berubah menjadi planet" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-earth-04-q08",
+      "type": "multiple_choice",
+      "prompt": "Gas manakah yang merupakan gas rumah kaca utama yang diserap oleh tumbuhan saat fotosintesis?",
+      "hint": "Dihasilkan juga saat kita mengembuskan napas dan saat bahan bakar dibakar.",
+      "explanation": "Karbon dioksida (CO2) adalah gas rumah kaca utama yang meningkat akibat pembakaran fosil, tetapi dapat diserap oleh hutan dan lautan.",
+      "options": [
+        { "id": "a", "text": "Oksigen" },
+        { "id": "b", "text": "Karbon dioksida" },
+        { "id": "c", "text": "Helium" },
+        { "id": "d", "text": "Neon" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-earth-04-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Lapisan gas di stratosfer yang melindungi Bumi dari sebagian besar sinar ultraviolet (UV) berbahaya Matahari adalah lapisan ______.",
+      "hint": "Rumus kimianya O3; diawali huruf O.",
+      "explanation": "Lapisan ozon (O3) menyaring radiasi ultraviolet berlebih dari Matahari sehingga melindungi kulit manusia dan ekosistem.",
+      "correctAnswer": {
+        "acceptedAnswers": ["ozon", "Ozon"]
+      }
+    },
+    {
+      "id": "science-earth-04-q10",
+      "type": "multiple_select",
+      "prompt": "Langkah nyata apa yang bisa dilakukan pelajar untuk membantu mengurangi dampak perubahan iklim?",
+      "hint": "Pikirkan cara menghemat energi dan memperbanyak tanaman hijau.",
+      "explanation": "Menghemat listrik, berjalan kaki atau bersepeda untuk jarak dekat, menanam pohon, dan mengurangi sampah plastik membantu menurunkan emisi karbon.",
+      "options": [
+        { "id": "a", "text": "Mematikan lampu dan kipas saat tidak digunakan" },
+        { "id": "b", "text": "Berjalan kaki atau bersepeda untuk jarak dekat" },
+        { "id": "c", "text": "Menanam dan merawat tanaman di sekitar rumah atau sekolah" },
+        { "id": "d", "text": "Membakar sampah plastik di halaman setiap hari" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    }
+  ]
+}

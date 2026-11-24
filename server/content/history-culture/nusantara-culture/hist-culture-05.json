@@ -1,0 +1,145 @@
+{
+  "id": "hist-culture-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "nusantara-culture",
+  "title": "Tradisi, Permainan, dan Kuliner Warisan",
+  "description": "Menjelajahi wayang kulit, pencak silat, permainan tradisional anak, hingga kuliner khas Nusantara.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["hist-culture-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-culture-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Dalam pertunjukan wayang kulit, orang yang bertugas memainkan boneka wayang sekaligus membacakan dialog dan cerita disebut...",
+      "hint": "Profesi seniman ini menguasai suara berbagai tokoh pewayangan dan memberi aba-aba pada penabuh gamelan.",
+      "explanation": "Dalang adalah pemimpin pertunjukan wayang yang menggerakkan wayang serta menuturkan kisah di balik layar kelir.",
+      "options": [
+        { "id": "a", "text": "Dalang" },
+        { "id": "b", "text": "Sinden" },
+        { "id": "c", "text": "Niyaga" },
+        { "id": "d", "text": "Pujangga" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-culture-05-q02",
+      "type": "true_false",
+      "prompt": "Pencak Silat adalah seni bela diri tradisional asli Nusantara yang telah diakui UNESCO sebagai warisan budaya takbenda.",
+      "hint": "Selain melatih fisik, pencak silat juga mengajarkan budi pekerti dan disiplin.",
+      "explanation": "Benar, Pencak Silat resmi masuk dalam daftar Warisan Budaya Takbenda UNESCO pada tahun 2019.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-culture-05-q03",
+      "type": "multiple_choice",
+      "prompt": "Permainan tradisional anak-anak yang menggunakan papan kayu berlubang dan biji kerang atau batu kecil disebut...",
+      "hint": "Di beberapa daerah Jawa permainan ini juga dikenal dengan nama dakon.",
+      "explanation": "Congklak atau dakon melatih keterampilan berhitung, ketelitian, dan strategi secara menyenangkan.",
+      "options": [
+        { "id": "a", "text": "Congklak" },
+        { "id": "b", "text": "Egrang" },
+        { "id": "c", "text": "Gobak Sodor" },
+        { "id": "d", "text": "Engklek" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-culture-05-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Hidangan daging berbumbu rempah dan santan dari Minangkabau, Sumatra Barat, yang terkenal hingga ke mancanegara adalah...",
+      "hint": "Dimasak berjam-jam hingga kuahnya mengering dan berwarna cokelat gelap.",
+      "explanation": "Rendang merupakan kuliner khas Minangkabau, Sumatra Barat, yang mendunia karena kelezatan rempah-rempahnya.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Rendang", "rendang daging"]
+      }
+    },
+    {
+      "id": "hist-culture-05-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi perlombaan balap sepasang sapi berhias dengan joki di atas kayu penarik yang menjadi tradisi tahunan di Pulau Madura.",
+      "prompt": "Tradisi perlombaan pacuan sapi khas masyarakat Pulau Madura, Jawa Timur pada ilustrasi tersebut bernama...",
+      "hint": "Tradisi ini biasa digelar setelah musim panen tiba.",
+      "explanation": "Karapan Sapi adalah tradisi pacuan sapi yang berasal dari Pulau Madura, Jawa Timur.",
+      "options": [
+        { "id": "a", "text": "Karapan Sapi" },
+        { "id": "b", "text": "Sekaten" },
+        { "id": "c", "text": "Lompat Batu" },
+        { "id": "d", "text": "Ngaben" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-culture-05-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua pasangan makanan khas daerah dan asalnya yang tepat!",
+      "hint": "Ingat makanan berbahan nangka muda dari Yogyakarta dan olahan sagu dari Indonesia timur.",
+      "explanation": "Gudeg adalah kuliner khas Yogyakarta yang terbuat dari nangka muda, sedangkan Papeda adalah makanan pokok khas Papua dan Maluku dari tepung sagu.",
+      "options": [
+        { "id": "a", "text": "Gudeg — Yogyakarta" },
+        { "id": "b", "text": "Papeda — Papua dan Maluku" },
+        { "id": "c", "text": "Pempek — Aceh" },
+        { "id": "d", "text": "Kerak Telor — Bali" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-culture-05-q07",
+      "type": "multiple_choice",
+      "prompt": "Permainan tradisional berkelompok yang menuntut kelincahan melewati garis penjagaan lawan di lapangan persegi panjang adalah...",
+      "hint": "Permainan ini dikenal juga dengan nama galasin di beberapa daerah.",
+      "explanation": "Gobak Sodor melatih kerja sama tim, kecepatan, dan ketangkasan saat melewati penjaga garis.",
+      "options": [
+        { "id": "a", "text": "Gobak Sodor" },
+        { "id": "b", "text": "Gasing" },
+        { "id": "c", "text": "Bola Bekel" },
+        { "id": "d", "text": "Layang-layang" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-culture-05-q08",
+      "type": "true_false",
+      "prompt": "Tradisi Lompat Batu (Fahombo) yang menguji ketangkasan pemuda melompati susunan batu setinggi dua meter berasal dari Pulau Nias, Sumatra Utara.",
+      "hint": "Tradisi ini pernah diabadikan pada gambar uang kertas seribu rupiah lama.",
+      "explanation": "Benar, Fahombo atau Lompat Batu adalah tradisi adat terkenal dari Pulau Nias, Sumatra Utara.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-culture-05-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Permainan tradisional berjalan di atas dua batang bambu tinggi yang diberi pijakan kaki disebut...",
+      "hint": "Permainan ini melatih keseimbangan tubuh anak-anak.",
+      "explanation": "Egrang dimainkan dengan berdiri dan berjalan di atas sepasang tongkat bambu berpijakan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["egrang", "main egrang"]
+      }
+    },
+    {
+      "id": "hist-culture-05-q10",
+      "type": "multiple_choice",
+      "prompt": "Mengapa bermain permainan tradisional bersama teman di luar ruangan bermanfaat bagi anak-anak?",
+      "hint": "Bandingkan dengan hanya duduk diam menatap layar sepanjang hari.",
+      "explanation": "Permainan tradisional membuat tubuh aktif bergerak, melatih kekompakan, serta mempererat persahabatan secara langsung.",
+      "options": [
+        { "id": "a", "text": "Membuat tubuh sehat bergerak dan melatih kebersamaan dengan teman" },
+        { "id": "b", "text": "Membuat anak semakin malas bergerak" },
+        { "id": "c", "text": "Menghilangkan kemampuan bekerja sama" },
+        { "id": "d", "text": "Menguras kuota internet rumah" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "science-earth-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "science-nature",
+  "unitId": "earth-weather",
+  "title": "Siklus Air dan Sumber Air",
+  "description": "Memahami tahapan siklus air (evaporasi, kondensasi, presipitasi, infiltrasi) dan pentingnya menjaga air bersih.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["science-earth-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "science-earth-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Proses penguapan air dari laut, sungai, dan danau akibat panas Matahari dalam siklus air disebut...",
+      "hint": "Berasal dari kata bahasa Inggris 'evaporation'.",
+      "explanation": "Evaporasi adalah proses perubahan air cair di permukaan Bumi menjadi uap air yang naik ke atmosfer karena pemanasan Matahari.",
+      "options": [
+        { "id": "a", "text": "Kondensasi" },
+        { "id": "b", "text": "Evaporasi" },
+        { "id": "c", "text": "Presipitasi" },
+        { "id": "d", "text": "Infiltrasi" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-earth-02-q02",
+      "type": "true_false",
+      "prompt": "Tumbuhan juga ikut melepaskan uap air ke udara melalui daun dalam proses yang disebut transpirasi.",
+      "hint": "Uap air keluar melalui mulut daun (stomata).",
+      "explanation": "Benar! Transpirasi adalah penguapan air dari bagian tubuh tumbuhan (terutama daun) yang turut menyumbang uap air ke atmosfer.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-earth-02-q03",
+      "type": "multiple_choice",
+      "prompt": "Ketika uap air naik ke atmosfer yang dingin dan berubah kembali menjadi titik-titik air pembentuk awan, proses ini disebut...",
+      "hint": "Nama lainnya adalah pengembunan.",
+      "explanation": "Kondensasi terjadi ketika uap air mendingin di ketinggian dan mengembun menjadi butiran air atau kristal es pembentuk awan.",
+      "options": [
+        { "id": "a", "text": "Kondensasi" },
+        { "id": "b", "text": "Evaporasi" },
+        { "id": "c", "text": "Erosi" },
+        { "id": "d", "text": "Abrasi" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-earth-02-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Jatuhnya titik-titik air atau es dari awan ke permukaan Bumi dalam bentuk hujan atau salju disebut ______.",
+      "hint": "Diawali huruf P.",
+      "explanation": "Presipitasi adalah proses turunnya air dari awan ke permukaan Bumi ketika butiran air di awan sudah terlalu berat.",
+      "correctAnswer": {
+        "acceptedAnswers": ["presipitasi", "Presipitasi"]
+      }
+    },
+    {
+      "id": "science-earth-02-q05",
+      "type": "multiple_select",
+      "prompt": "Pilih tiga sumber air tawar alami di daratan:",
+      "hint": "Air laut terasa asin karena mengandung banyak garam mineral.",
+      "explanation": "Sungai, danau air tawar, dan air tanah merupakan sumber air tawar di daratan, sedangkan samudra berisi air asin.",
+      "options": [
+        { "id": "a", "text": "Sungai" },
+        { "id": "b", "text": "Danau air tawar" },
+        { "id": "c", "text": "Air tanah dan mata air" },
+        { "id": "d", "text": "Samudra" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "science-earth-02-q06",
+      "type": "true_false",
+      "prompt": "Menutup seluruh halaman rumah dengan beton tanpa ruang tanah sedikit pun dapat mempercepat terjadinya banjir saat hujan deras.",
+      "hint": "Pikirkan ke mana air hujan meresap jika seluruh tanah tertutup beton.",
+      "explanation": "Benar! Beton menghalangi proses infiltrasi (peresapan air ke tanah) sehingga air hujan langsung mengalir di permukaan dan memicu banjir.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-earth-02-q07",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Planet Bumi dengan perairan luas yang terus mengalami daur air secara berkesinambungan.",
+      "prompt": "Proses meresapnya air hujan melalui pori-pori tanah dan batuan untuk membentuk cadangan air tanah disebut...",
+      "hint": "Akar pohon membantu memperlancar proses ini.",
+      "explanation": "Infiltrasi adalah meresapnya air permukaan ke dalam tanah yang sangat penting untuk menjaga cadangan air tanah dan mencegah kekeringan.",
+      "options": [
+        { "id": "a", "text": "Infiltrasi" },
+        { "id": "b", "text": "Evaporasi" },
+        { "id": "c", "text": "Sublimasi" },
+        { "id": "d", "text": "Radiasi" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-earth-02-q08",
+      "type": "multiple_choice",
+      "prompt": "Mengapa air hujan yang turun ke daratan terasa tawar meskipun sebagian besar berasal dari penguapan air laut yang asin?",
+      "hint": "Apakah garam ikut menguap bersama uap air?",
+      "explanation": "Saat air laut menguap, garam dan mineral terlarut tertinggal di laut sehingga uap air yang membentuk awan dan hujan bersifat tawar.",
+      "options": [
+        { "id": "a", "text": "Karena garam tertinggal di laut saat air menguap" },
+        { "id": "b", "text": "Karena burung-burung memakan garam di awan" },
+        { "id": "c", "text": "Karena awan mencampur air laut dengan gula" },
+        { "id": "d", "text": "Karena air hujan hanya berasal dari kolam renang" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-earth-02-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Lubang resapan buatan berbentuk silinder yang diisi sampah organik untuk membantu tanah menyerap air hujan disebut lubang ______.",
+      "hint": "Diawali kata 'bio-' (biopori).",
+      "explanation": "Lubang resapan biopori meningkatkan daya serap tanah terhadap air hujan dan memanfaatkan organisme tanah untuk mengolah sampah organik menjadi kompos.",
+      "correctAnswer": {
+        "acceptedAnswers": ["biopori", "Biopori"]
+      }
+    },
+    {
+      "id": "science-earth-02-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih cara-cara yang bijak untuk menghemat dan menjaga kebersihan air di rumah:",
+      "hint": "Gunakan air secukupnya dan jangan mencemari saluran air.",
+      "explanation": "Menutup keran saat menyabuni tangan, memperbaiki pipa bocor, dan tidak membuang limbah ke sungai menjaga ketersediaan air bersih.",
+      "options": [
+        { "id": "a", "text": "Menutup keran air saat menggosok gigi atau menyabuni tangan" },
+        { "id": "b", "text": "Segera memperbaiki keran atau pipa yang bocor" },
+        { "id": "c", "text": "Tidak membuang sampah dan minyak bekas ke saluran air" },
+        { "id": "d", "text": "Membiarkan selang air menyala semalaman" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    }
+  ]
+}

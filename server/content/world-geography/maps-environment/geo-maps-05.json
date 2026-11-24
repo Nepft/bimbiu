@@ -1,0 +1,145 @@
+{
+  "id": "geo-maps-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "maps-environment",
+  "title": "Iklim, Musim, dan Menjaga Lingkungan Bumi",
+  "description": "Pahami ragam iklim dunia, jalur gunung api Cincin Api Pasifik, dan cara menjaga kelestarian Bumi.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["geo-maps-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-maps-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Jalur tapal kuda di sekeliling Samudra Pasifik yang memiliki banyak gunung berapi aktif dan sering mengalami gempa bumi (termasuk Indonesia dan Jepang) disebut ...",
+      "hint": "Dalam bahasa Inggris disebut Pacific Ring of Fire.",
+      "explanation": "Cincin Api Pasifik (Ring of Fire) adalah jalur pertemuan lempeng tektonik di tepian Samudra Pasifik yang memicu banyak gunung api aktif dan gempa.",
+      "options": [
+        { "id": "a", "text": "Segitiga Bermuda" },
+        { "id": "b", "text": "Cincin Api Pasifik" },
+        { "id": "c", "text": "Sabuk Khatulistiwa" },
+        { "id": "d", "text": "Lingkar Arktik" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-maps-05-q02",
+      "type": "true_false",
+      "prompt": "Terjadinya empat musim di negara beriklim sedang seperti Jepang dan Inggris disebabkan oleh kemiringan sumbu Bumi saat mengelilingi matahari.",
+      "hint": "Sumbu Bumi miring sekitar 23,5 derajat ketika berevolusi.",
+      "explanation": "Benar! Kemiringan poros Bumi saat berevolusi mengelilingi matahari membuat belahan utara dan selatan bergantian menerima lebih banyak atau lebih sedikit sinar matahari.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-maps-05-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Kegiatan menanam kembali pohon-pohon di hutan yang gundul untuk mencegah banjir dan tanah longsor disebut ...",
+      "hint": "Kata ini berawalan huruf R.",
+      "explanation": "Reboisasi adalah penanaman kembali hutan yang telah ditebang atau rusak agar fungsi penyerapan air dan penghasil oksigen pulih kembali.",
+      "correctAnswer": {
+        "acceptedAnswers": ["reboisasi", "Reboisasi"]
+      }
+    },
+    {
+      "id": "geo-maps-05-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua musim yang dialami negara beriklim sedang saat pergantian tahun!",
+      "hint": "Ingat musim bunga bermekaran dan musim daun berguguran.",
+      "explanation": "Negara beriklim sedang mengalami empat musim: musim semi, musim panas, musim gugur, dan musim dingin.",
+      "options": [
+        { "id": "a", "text": "Musim semi" },
+        { "id": "b", "text": "Musim gugur" },
+        { "id": "c", "text": "Musim monsun" },
+        { "id": "d", "text": "Musim pasang" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "geo-maps-05-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Planet Bumi hanya satu-satunya rumah kita; menjaga laut, hutan, dan udara membantu semua makhluk hidup tetap lestari.",
+      "prompt": "Tumbuhan pesisir yang akarnya kuat menahan ombak laut, mencegah abrasi pantai, dan menjadi tempat hidup anak ikan adalah hutan ...",
+      "hint": "Sering disebut juga hutan bakau.",
+      "explanation": "Hutan mangrove (bakau) melindungi garis pantai dari erosi gelombang laut (abrasi) sekaligus menjadi rumah penting bagi biota laut.",
+      "options": [
+        { "id": "a", "text": "Hutan pinus" },
+        { "id": "b", "text": "Hutan mangrove" },
+        { "id": "c", "text": "Sabana" },
+        { "id": "d", "text": "Tundra" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-maps-05-q06",
+      "type": "multiple_choice",
+      "prompt": "Pengikisan pantai oleh hantaman gelombang air laut secara terus-menerus disebut ...",
+      "hint": "Berbeda dengan erosi sungai; kata ini berawalan huruf A.",
+      "explanation": "Abrasi adalah proses pengikisan daratan pantai akibat tenaga gelombang dan arus laut.",
+      "options": [
+        { "id": "a", "text": "Abrasi" },
+        { "id": "b", "text": "Reboisasi" },
+        { "id": "c", "text": "Irigasi" },
+        { "id": "d", "text": "Kondensasi" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "geo-maps-05-q07",
+      "type": "true_false",
+      "prompt": "Cuaca dan iklim adalah hal yang persis sama karena keduanya hanya terjadi dalam satu hari saja.",
+      "hint": "Mana yang berubah harian, dan mana yang merupakan rata-rata dalam puluhan tahun?",
+      "explanation": "Salah! Cuaca adalah kondisi udara dalam waktu singkat dan wilayah sempit (misalnya hujan sore ini), sedangkan iklim adalah pola rata-rata cuaca dalam waktu lama (puluhan tahun) di wilayah luas.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "geo-maps-05-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Lapisan udara yang menyelimuti planet Bumi dan melindungi kita dari radiasi berbahaya serta meteor kecil disebut ...",
+      "hint": "Terdiri dari gas seperti nitrogen dan oksigen.",
+      "explanation": "Atmosfer adalah selimut gas pelindung Bumi yang menyediakan udara untuk bernapas serta menjaga suhu Bumi tetap nyaman.",
+      "correctAnswer": {
+        "acceptedAnswers": ["atmosfer", "Atmosfer"]
+      }
+    },
+    {
+      "id": "geo-maps-05-q09",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua tindakan sederhana yang bisa dilakukan anak-anak untuk menjaga lingkungan daratan dan lautan Bumi!",
+      "hint": "Kurangi sampah yang sulit terurai di laut dan hemat sumber daya.",
+      "explanation": "Mengurangi plastik sekali pakai mencegah pencemaran laut, dan membuang serta memilah sampah pada tempatnya menjaga sungai dan lingkungan tetap bersih.",
+      "options": [
+        { "id": "a", "text": "Membawa botol minum sendiri untuk mengurangi sampah plastik" },
+        { "id": "b", "text": "Memilah dan membuang sampah pada tempatnya" },
+        { "id": "c", "text": "Membuang sampah ke sungai agar terbawa ke laut" },
+        { "id": "d", "text": "Menginjak-injak terumbu karang saat berenang" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "geo-maps-05-q10",
+      "type": "multiple_choice",
+      "prompt": "Ketika di Belahan Bumi Utara (seperti Eropa) sedang mengalami musim dingin bersalju pada bulan Desember, musim apakah yang sedang dialami Australia di Belahan Bumi Selatan?",
+      "hint": "Musim di Belahan Bumi Utara dan Selatan selalu berkebalikan.",
+      "explanation": "Karena kemiringan poros Bumi, ketika Belahan Bumi Utara mengalami musim dingin pada Desember, Belahan Bumi Selatan seperti Australia justru sedang mengalami musim panas.",
+      "options": [
+        { "id": "a", "text": "Musim dingin juga" },
+        { "id": "b", "text": "Musim panas" },
+        { "id": "c", "text": "Musim gugur" },
+        { "id": "d", "text": "Tidak punya musim" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

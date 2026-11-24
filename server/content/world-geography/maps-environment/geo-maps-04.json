@@ -1,0 +1,145 @@
+{
+  "id": "geo-maps-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "maps-environment",
+  "title": "Bentang Alam Daratan dan Perairan",
+  "description": "Kenali berbagai bentuk permukaan Bumi seperti dataran tinggi, delta, teluk, tanjung, dan selat.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["geo-maps-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-maps-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Laut sempit yang berada di antara dua pulau atau dua daratan disebut ...",
+      "hint": "Contohnya adalah penghubung perairan di antara Sumatra dan Jawa.",
+      "explanation": "Selat adalah perairan laut yang relatif sempit dan memisahkan dua daratan atau pulau, misalnya Selat Sunda dan Selat Bali.",
+      "options": [
+        { "id": "a", "text": "Teluk" },
+        { "id": "b", "text": "Selat" },
+        { "id": "c", "text": "Tanjung" },
+        { "id": "d", "text": "Delta" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-maps-04-q02",
+      "type": "true_false",
+      "prompt": "Dataran tinggi (plateau) adalah wilayah daratan yang luas dan relatif datar pada ketinggian lebih dari beberapa ratus meter di atas permukaan laut.",
+      "hint": "Contohnya adalah Dataran Tinggi Dieng di Jawa Tengah yang berudara sejuk.",
+      "explanation": "Benar! Dataran tinggi berada di ketinggian (umumnya di atas 500 meter mdpl) namun permukaannya relatif rata sehingga cocok untuk perkebunan teh dan sayur.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-maps-04-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Bagian laut yang menjorok masuk ke arah daratan sehingga dikelilingi daratan di tiga sisinya disebut ...",
+      "hint": "Contohnya Teluk Jakarta dan Teluk Tomini.",
+      "explanation": "Teluk adalah bagian perairan laut yang melengkung masuk ke daratan; airnya sering lebih tenang dan cocok menjadi pelabuhan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["teluk", "Teluk"]
+      }
+    },
+    {
+      "id": "geo-maps-04-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua bentang alam yang termasuk bentang alam perairan darat!",
+      "hint": "Air tawar yang ada di daratan, bukan di tengah lautan lepas.",
+      "explanation": "Sungai dan danau adalah perairan darat, sedangkan pegunungan dan lembah merupakan bentang alam daratan.",
+      "options": [
+        { "id": "a", "text": "Sungai" },
+        { "id": "b", "text": "Pegunungan" },
+        { "id": "c", "text": "Danau" },
+        { "id": "d", "text": "Lembah" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-maps-04-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Pertemuan antara daratan dan lautan membentuk garis pantai yang berliku-liku dengan daratan menonjol ke laut.",
+      "prompt": "Kebalikan dari teluk, ujung daratan yang menjorok jauh ke arah lautan disebut ...",
+      "hint": "Jika berukuran sangat besar disebut semenanjung; jika kecil dan runcing berawalan huruf T.",
+      "explanation": "Tanjung (atau ujung) adalah daratan yang menjorok ke laut, seperti Tanjung Priok atau Tanjung Lesung.",
+      "options": [
+        { "id": "a", "text": "Palung" },
+        { "id": "b", "text": "Tanjung" },
+        { "id": "c", "text": "Lembah" },
+        { "id": "d", "text": "Ngarai" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-maps-04-q06",
+      "type": "multiple_choice",
+      "prompt": "Daratan rendah berbentuk kipas atau segitiga yang terbentuk dari endapan lumpur dan pasir di muara sungai disebut ...",
+      "hint": "Contohnya di muara Sungai Nil atau Sungai Mahakam.",
+      "explanation": "Delta terbentuk ketika aliran sungai melambat saat mencapai laut atau danau, lalu mengendapkan lumpur subur di muaranya.",
+      "options": [
+        { "id": "a", "text": "Delta" },
+        { "id": "b", "text": "Bukit" },
+        { "id": "c", "text": "Gletser" },
+        { "id": "d", "text": "Kawah" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "geo-maps-04-q07",
+      "type": "true_false",
+      "prompt": "Air sungai selalu mengalir dari daerah hilir (muara) naik menuju daerah hulu (pegunungan).",
+      "hint": "Ingat ke mana air selalu mengalir karena gaya gravitasi.",
+      "explanation": "Salah! Air sungai mengalir dari tempat tinggi di daerah hulu (pegunungan/mata air) menuju tempat rendah di daerah hilir (muara di laut atau danau).",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "geo-maps-04-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Wilayah daratan rendah memanjang yang terletak di antara dua gunung atau dua bukit disebut ...",
+      "hint": "Contohnya Lembah Baliem di Papua atau Ngarai Sianok.",
+      "explanation": "Lembah adalah cekungan memanjang di permukaan daratan yang diapit oleh perbukitan atau pegunungan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["lembah", "Lembah"]
+      }
+    },
+    {
+      "id": "geo-maps-04-q09",
+      "type": "multiple_select",
+      "prompt": "Manakah dua aktivitas ekonomi penduduk yang sangat cocok dilakukan di daerah dataran tinggi yang berudara sejuk?",
+      "hint": "Pikirkan tanaman yang menyukai suhu sejuk seperti di Puncak atau Dieng.",
+      "explanation": "Perkebunan teh serta pertanian sayur dan buah dataran tinggi sangat cocok di dataran tinggi, sedangkan tambak garam dan nelayan laut lepas berada di pantai.",
+      "options": [
+        { "id": "a", "text": "Perkebunan teh" },
+        { "id": "b", "text": "Pertanian sayuran dataran tinggi" },
+        { "id": "c", "text": "Tambak garam pantai" },
+        { "id": "d", "text": "Penangkapan ikan laut dalam" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "geo-maps-04-q10",
+      "type": "multiple_choice",
+      "prompt": "Bentang alam daratan yang memanjang sangat luas dan dikelilingi air di tiga sisinya (seperti Semenanjung Malaya) disebut ...",
+      "hint": "Hampir menjadi pulau karena tersambung dengan daratan utama hanya di satu sisi.",
+      "explanation": "Semenanjung atau jazirah adalah daratan luas yang menjorok ke laut dan dikelilingi perairan di tiga sisinya.",
+      "options": [
+        { "id": "a", "text": "Semenanjung" },
+        { "id": "b", "text": "Kaldera" },
+        { "id": "c", "text": "Rawa" },
+        { "id": "d", "text": "Palung" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

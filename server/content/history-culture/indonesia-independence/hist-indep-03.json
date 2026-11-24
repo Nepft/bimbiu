@@ -1,0 +1,145 @@
+{
+  "id": "hist-indep-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "indonesia-independence",
+  "title": "Sumpah Pemuda 1928",
+  "description": "Mempelajari ikrar persatuan pemuda dari seluruh Nusantara pada Kongres Pemuda II tanggal 28 Oktober 1928.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["hist-indep-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-indep-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Peristiwa bersejarah Sumpah Pemuda diikrarkan pada tanggal...",
+      "hint": "Bulan ke-10 dalam kalender Masehi.",
+      "explanation": "Sumpah Pemuda dibacakan pada penutupan Kongres Pemuda II tanggal 28 Oktober 1928 di Batavia (Jakarta).",
+      "options": [
+        { "id": "a", "text": "20 Mei 1908" },
+        { "id": "b", "text": "28 Oktober 1928" },
+        { "id": "c", "text": "17 Agustus 1945" },
+        { "id": "d", "text": "10 November 1945" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "hist-indep-03-q02",
+      "type": "true_false",
+      "prompt": "Peserta Kongres Pemuda II berasal dari satu daerah saja, yaitu Pulau Jawa.",
+      "hint": "Ingat organisasi seperti Jong Sumatranen Bond, Jong Celebes, Jong Ambon, dan Jong Java.",
+      "explanation": "Salah, Kongres Pemuda II dihadiri oleh perkumpulan pemuda dari berbagai daerah di seluruh Nusantara.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "hist-indep-03-q03",
+      "type": "multiple_choice",
+      "prompt": "Siapakah tokoh yang menciptakan lagu kebangsaan 'Indonesia Raya' dan pertama kali memperdengarkannya dengan gesekan biola pada Kongres Pemuda II?",
+      "hint": "Nama depannya sering disingkat W.R.",
+      "explanation": "Wage Rudolf Supratman menciptakan lagu 'Indonesia Raya' dan memainkannya secara instrumental dengan biola saat Kongres Pemuda II.",
+      "options": [
+        { "id": "a", "text": "W.R. Supratman" },
+        { "id": "b", "text": "Ismail Marzuki" },
+        { "id": "c", "text": "Ibu Sud" },
+        { "id": "d", "text": "C. Simanjuntak" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-03-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Dalam butir ketiga Sumpah Pemuda, para pemuda menjunjung bahasa persatuan, yaitu bahasa...",
+      "hint": "Bahasa yang kita gunakan sehari-hari untuk berkomunikasi antarsuku di negara kita.",
+      "explanation": "Bunyi butir ketiga Sumpah Pemuda adalah: 'Kami putra dan putri Indonesia, menjunjung bahasa persatuan, bahasa Indonesia.'",
+      "correctAnswer": {
+        "acceptedAnswers": ["Indonesia", "bahasa Indonesia"]
+      }
+    },
+    {
+      "id": "hist-indep-03-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi bangunan museum bersejarah di Jalan Kramat Raya No. 106 Jakarta tempat ikrar Sumpah Pemuda dibacakan.",
+      "prompt": "Gedung bersejarah tempat pembacaan ikrar Sumpah Pemuda di Jalan Kramat Raya No. 106 kini menjadi...",
+      "hint": "Tempat ini menyimpan benda dan foto sejarah Kongres Pemuda II.",
+      "explanation": "Gedung di Jalan Kramat Raya No. 106 Jakarta sekarang menjadi Museum Sumpah Pemuda yang terbuka untuk pelajar dan masyarakat.",
+      "options": [
+        { "id": "a", "text": "Museum Sumpah Pemuda" },
+        { "id": "b", "text": "Istana Bogor" },
+        { "id": "c", "text": "Candi Prambanan" },
+        { "id": "d", "text": "Pelabuhan Sunda Kelapa" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-03-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah tiga hal utama yang disatukan dalam ikrar Sumpah Pemuda 1928! (Pilih dua jawaban yang termasuk di dalamnya)",
+      "hint": "Ingat kalimat 'satu nusa, satu bangsa, satu bahasa'.",
+      "explanation": "Sumpah Pemuda menegaskan satu tanah air (Indonesia), satu bangsa (Indonesia), dan satu bahasa persatuan (bahasa Indonesia).",
+      "options": [
+        { "id": "a", "text": "Bertumpah darah satu, tanah air Indonesia" },
+        { "id": "b", "text": "Berbangsa satu, bangsa Indonesia" },
+        { "id": "c", "text": "Memiliki mata uang yang sama dengan Eropa" },
+        { "id": "d", "text": "Menghapus semua bahasa daerah" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-indep-03-q07",
+      "type": "multiple_choice",
+      "prompt": "Alat musik yang dimainkan W.R. Supratman saat memperkenalkan lagu 'Indonesia Raya' di Kongres Pemuda II adalah...",
+      "hint": "Alat musik berdawai yang dimainkan dengan cara digesek.",
+      "explanation": "W.R. Supratman menggesek biola untuk memperdengarkan lagu 'Indonesia Raya' tanpa lirik agar tidak dilarang oleh polisi kolonial.",
+      "options": [
+        { "id": "a", "text": "Biola" },
+        { "id": "b", "text": "Gendang" },
+        { "id": "c", "text": "Angklung" },
+        { "id": "d", "text": "Sasando" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-03-q08",
+      "type": "true_false",
+      "prompt": "Ketua panitia Kongres Pemuda II tahun 1928 adalah Soegondo Djojopoespito, sedangkan perumus teks Sumpah Pemuda adalah Mohammad Yamin.",
+      "hint": "Soegondo memimpin jalannya rapat dan Mohammad Yamin menuliskan rumusan ikrar.",
+      "explanation": "Benar, Soegondo Djojopoespito menjabat sebagai ketua Kongres Pemuda II dan Mohammad Yamin berperan sebagai sekretaris sekaligus perumus ikrar.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-indep-03-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Pertemuan besar para pemuda dari berbagai daerah pada 27–28 Oktober 1928 disebut Kongres Pemuda...",
+      "hint": "Sebelumnya sudah pernah diadakan kongres yang pertama pada tahun 1926.",
+      "explanation": "Kongres Pemuda II diselenggarakan pada 27–28 Oktober 1928 dan menghasilkan ikrar Sumpah Pemuda.",
+      "correctAnswer": {
+        "acceptedAnswers": ["II", "2", "Kedua", "Kongres Pemuda II"]
+      }
+    },
+    {
+      "id": "hist-indep-03-q10",
+      "type": "multiple_choice",
+      "prompt": "Bagaimana cara anak usia sekolah saat ini mengamalkan semangat Sumpah Pemuda?",
+      "hint": "Pilih sikap yang menjaga persatuan di lingkungan sekolah.",
+      "explanation": "Berteman akrab tanpa membedakan suku, agama, atau asal daerah adalah wujud nyata semangat Sumpah Pemuda.",
+      "options": [
+        { "id": "a", "text": "Berteman baik dengan semua teman tanpa membedakan suku dan daerah" },
+        { "id": "b", "text": "Hanya mau bermain dengan teman yang satu asal daerah" },
+        { "id": "c", "text": "Mengejek logat bahasa teman dari pulau lain" },
+        { "id": "d", "text": "Malas belajar sejarah bangsa" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

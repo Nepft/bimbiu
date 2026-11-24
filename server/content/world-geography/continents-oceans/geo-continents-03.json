@@ -1,0 +1,145 @@
+{
+  "id": "geo-continents-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "continents-oceans",
+  "title": "Asia dan Eropa: Dua Benua Bertetangga",
+  "description": "Kenali keunikan wilayah, pegunungan, sungai, dan batas antara Benua Asia dan Eropa.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["geo-continents-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-continents-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Pegunungan manakah yang secara geografis memisahkan Benua Asia dan Benua Eropa?",
+      "hint": "Pegunungan ini membentang dari utara ke selatan di wilayah Rusia.",
+      "explanation": "Pegunungan Ural dianggap sebagai batas alam utama yang memisahkan bagian Eropa dan Asia di daratan Eurasia.",
+      "options": [
+        { "id": "a", "text": "Pegunungan Alpen" },
+        { "id": "b", "text": "Pegunungan Ural" },
+        { "id": "c", "text": "Pegunungan Andes" },
+        { "id": "d", "text": "Pegunungan Rocky" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-continents-03-q02",
+      "type": "true_false",
+      "prompt": "Gunung Everest yang merupakan puncak tertinggi di dunia terletak di Benua Asia.",
+      "hint": "Gunung ini berada di Pegunungan Himalaya, perbatasan Nepal dan Tiongkok.",
+      "explanation": "Benar! Gunung Everest berada di Pegunungan Himalaya, Benua Asia, dengan ketinggian sekitar 8.848 meter di atas permukaan laut.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-continents-03-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Gunung tertinggi di dunia yang berada di Pegunungan Himalaya adalah Gunung ...",
+      "hint": "Namanya diawali huruf E.",
+      "explanation": "Gunung Everest adalah puncak tertinggi di permukaan Bumi jika diukur dari permukaan laut.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Everest", "everest"]
+      }
+    },
+    {
+      "id": "geo-continents-03-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua negara yang wilayahnya berada di Benua Eropa!",
+      "hint": "Cari negara yang bukan berada di Asia.",
+      "explanation": "Prancis dan Italia adalah negara di Benua Eropa, sedangkan Jepang dan Thailand terletak di Benua Asia.",
+      "options": [
+        { "id": "a", "text": "Prancis" },
+        { "id": "b", "text": "Jepang" },
+        { "id": "c", "text": "Italia" },
+        { "id": "d", "text": "Thailand" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-continents-03-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Wilayah utara dan timur Belahan Bumi Timur memperlihatkan daratan luas Eurasia.",
+      "prompt": "Negara manakah yang sangat luas hingga sebagian wilayahnya masuk ke Benua Eropa dan sebagian besar lainnya berada di Benua Asia?",
+      "hint": "Ibu kotanya adalah Moskow.",
+      "explanation": "Rusia adalah negara terluas di dunia dan membentang melintasi Eropa Timur hingga Asia Utara.",
+      "options": [
+        { "id": "a", "text": "Spanyol" },
+        { "id": "b", "text": "Rusia" },
+        { "id": "c", "text": "India" },
+        { "id": "d", "text": "Korea Selatan" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-continents-03-q06",
+      "type": "multiple_choice",
+      "prompt": "Sungai manakah yang merupakan sungai terpanjang di Benua Asia?",
+      "hint": "Sungai ini mengalir di negara Tiongkok.",
+      "explanation": "Sungai Yangtze di Tiongkok adalah sungai terpanjang di Asia dan terpanjang ketiga di dunia.",
+      "options": [
+        { "id": "a", "text": "Sungai Nil" },
+        { "id": "b", "text": "Sungai Yangtze" },
+        { "id": "c", "text": "Sungai Amazon" },
+        { "id": "d", "text": "Sungai Thames" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-continents-03-q07",
+      "type": "true_false",
+      "prompt": "Benua Eropa memiliki jumlah penduduk lebih banyak daripada Benua Asia.",
+      "hint": "Ingat negara seperti India dan Tiongkok yang berpenduduk lebih dari satu miliar orang berada di mana.",
+      "explanation": "Salah! Benua Asia adalah benua dengan penduduk terbanyak di dunia, jauh melampaui Benua Eropa.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "geo-continents-03-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Negara terkecil di dunia yang berada di dalam wilayah Kota Roma di Benua Eropa adalah ...",
+      "hint": "Namanya berawalan huruf V.",
+      "explanation": "Vatikan (Kota Vatikan) adalah negara merdeka terkecil di dunia berdasarkan luas wilayah maupun jumlah penduduk.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Vatikan", "vatikan", "Kota Vatikan", "kota vatikan"]
+      }
+    },
+    {
+      "id": "geo-continents-03-q09",
+      "type": "multiple_select",
+      "prompt": "Kawasan bagian manakah yang termasuk pembagian wilayah di Benua Asia?",
+      "hint": "Indonesia berada di salah satu kawasan ini.",
+      "explanation": "Asia Tenggara, Asia Timur, dan Asia Selatan merupakan subkawasan di Benua Asia.",
+      "options": [
+        { "id": "a", "text": "Asia Tenggara" },
+        { "id": "b", "text": "Asia Timur" },
+        { "id": "c", "text": "Amerika Tengah" },
+        { "id": "d", "text": "Asia Selatan" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+    },
+    {
+      "id": "geo-continents-03-q10",
+      "type": "multiple_choice",
+      "prompt": "Pegunungan terkenal di Benua Eropa yang sering dikunjungi wisatawan untuk bermain ski salju adalah ...",
+      "hint": "Membentang melalui Swiss, Austria, Prancis, dan Italia.",
+      "explanation": "Pegunungan Alpen adalah jajaran pegunungan besar di Eropa Tengah yang terkenal dengan puncak bersaljunya.",
+      "options": [
+        { "id": "a", "text": "Pegunungan Himalaya" },
+        { "id": "b", "text": "Pegunungan Alpen" },
+        { "id": "c", "text": "Pegunungan Bukit Barisan" },
+        { "id": "d", "text": "Pegunungan Atlas" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

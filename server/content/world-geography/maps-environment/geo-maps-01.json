@@ -1,0 +1,145 @@
+{
+  "id": "geo-maps-01",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "maps-environment",
+  "title": "Komponen Peta dan Skala",
+  "description": "Belajar membaca judul, legenda, simbol warna, dan skala pada peta dengan tepat.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 1,
+  "prerequisites": [],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-maps-01-q01",
+      "type": "multiple_choice",
+      "prompt": "Bagian peta yang berisi keterangan arti berbagai simbol dan warna yang digunakan pada peta disebut ...",
+      "hint": "Tanpa bagian ini, pembaca peta akan bingung arti garis putus-putus atau segitiga kecil.",
+      "explanation": "Legenda adalah kotak keterangan yang menjelaskan makna setiap simbol, garis, dan warna di dalam peta.",
+      "options": [
+        { "id": "a", "text": "Skala peta" },
+        { "id": "b", "text": "Legenda" },
+        { "id": "c", "text": "Judul peta" },
+        { "id": "d", "text": "Garis tepi" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-maps-01-q02",
+      "type": "true_false",
+      "prompt": "Pada peta geografi umum, warna biru digunakan untuk menggambarkan wilayah perairan seperti laut, sungai, dan danau.",
+      "hint": "Perhatikan warna laut dan sungai pada atlas sekolahmu.",
+      "explanation": "Benar! Warna biru melambangkan perairan; biru muda biasanya untuk laut dangkal dan biru tua untuk laut dalam.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-maps-01-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Perbandingan antara jarak pada peta dengan jarak sebenarnya di permukaan Bumi disebut ...",
+      "hint": "Contohnya tertulis 1 : 1.000.000.",
+      "explanation": "Skala peta menunjukkan perbandingan jarak di gambar peta terhadap jarak sesungguhnya di lapangan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["skala", "Skala", "skala peta", "Skala peta"]
+      }
+    },
+    {
+      "id": "geo-maps-01-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua arti warna permukaan daratan yang biasa digunakan pada peta topografi/atlas!",
+      "hint": "Dataran rendah biasanya hijau seperti sawah dan hutan, sedangkan pegunungan berwarna cokelat.",
+      "explanation": "Warna hijau menandakan dataran rendah, sedangkan warna cokelat menandakan daerah pegunungan atau dataran tinggi.",
+      "options": [
+        { "id": "a", "text": "Hijau untuk dataran rendah" },
+        { "id": "b", "text": "Cokelat untuk pegunungan atau dataran tinggi" },
+        { "id": "c", "text": "Biru untuk gurun pasir" },
+        { "id": "d", "text": "Hijau untuk palung laut dalam" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "geo-maps-01-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Sebelum dibuat peta datar, gambaran Bumi dilihat dari model bola lalu diproyeksikan dengan komponen peta lengkap.",
+      "prompt": "Jika sebuah peta memiliki skala 1 : 100.000, berapakah jarak sebenarnya jika jarak dua kota pada peta adalah 2 cm?",
+      "hint": "Kalikan 2 cm dengan 100.000 cm, lalu ubah menjadi kilometer (1 km = 100.000 cm).",
+      "explanation": "2 cm × 100.000 = 200.000 cm. Karena 1 km = 100.000 cm, jarak sebenarnya adalah 2 km.",
+      "options": [
+        { "id": "a", "text": "200 meter" },
+        { "id": "b", "text": "2 kilometer" },
+        { "id": "c", "text": "20 kilometer" },
+        { "id": "d", "text": "200 kilometer" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-maps-01-q06",
+      "type": "multiple_choice",
+      "prompt": "Simbol berbentuk segitiga kecil berwarna merah pada peta Indonesia biasanya melambangkan ...",
+      "hint": "Indonesia memiliki banyak sekali gunung yang masih aktif.",
+      "explanation": "Simbol segitiga merah pada peta umumnya melambangkan gunung berapi aktif, sedangkan segitiga hitam untuk gunung tidak aktif.",
+      "options": [
+        { "id": "a", "text": "Pelabuhan laut" },
+        { "id": "b", "text": "Bandara udara" },
+        { "id": "c", "text": "Gunung berapi aktif" },
+        { "id": "d", "text": "Ibu kota provinsi" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "geo-maps-01-q07",
+      "type": "true_false",
+      "prompt": "Kumpulan berbagai peta yang dibukukan dan dilengkapi daftar isi serta indeks disebut kamus.",
+      "hint": "Ingat nama buku peta yang sering dibawa saat pelajaran IPS.",
+      "explanation": "Salah! Kumpulan peta yang dibukukan disebut atlas, bukan kamus.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "geo-maps-01-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Peta kecil sisipan yang diletakkan di sudut peta utama untuk menunjukkan lokasi daerah tersebut terhadap wilayah yang lebih luas disebut ...",
+      "hint": "Kata ini terdiri dari 5 huruf dan berawalan huruf I.",
+      "explanation": "Inset adalah peta kecil tambahan di dalam peta utama yang membantu pembaca mengetahui posisi wilayah peta pada cakupan yang lebih luas.",
+      "correctAnswer": {
+        "acceptedAnswers": ["inset", "Inset", "peta inset", "Peta inset"]
+      }
+    },
+    {
+      "id": "geo-maps-01-q09",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua contoh komponen penting yang wajib ada agar peta mudah dibaca!",
+      "hint": "Peta harus menjelaskan isi peta itu tentang apa dan di mana arah utaranya.",
+      "explanation": "Judul peta memberi tahu isi wilayah peta, dan tanda orientasi (penunjuk arah utara) memastikan pembaca tidak salah arah.",
+      "options": [
+        { "id": "a", "text": "Judul peta" },
+        { "id": "b", "text": "Penunjuk arah (orientasi)" },
+        { "id": "c", "text": "Daftar harga tiket pesawat" },
+        { "id": "d", "text": "Resep masakan daerah" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "geo-maps-01-q10",
+      "type": "multiple_choice",
+      "prompt": "Ilmu atau seni membuat dan menggambar peta disebut ...",
+      "hint": "Ahli pembuat peta disebut kartografer.",
+      "explanation": "Kartografi adalah ilmu dan teknik pembuatan peta serta globe.",
+      "options": [
+        { "id": "a", "text": "Astronomi" },
+        { "id": "b", "text": "Kartografi" },
+        { "id": "c", "text": "Biologi" },
+        { "id": "d", "text": "Arkeologi" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

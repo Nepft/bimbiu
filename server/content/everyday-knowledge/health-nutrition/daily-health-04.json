@@ -1,0 +1,147 @@
+{
+  "id": "daily-health-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "everyday-knowledge",
+  "unitId": "health-nutrition",
+  "title": "Gerak Aktif & Tidur Cukup",
+  "description": "Menyeimbangkan olahraga harian, postur tubuh yang baik, dan waktu istirahat berkualitas.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["daily-health-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "daily-health-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Berapa lama waktu tidur malam yang ideal bagi anak usia 10–12 tahun?",
+      "hint": "Anak usia sekolah dasar butuh istirahat lebih lama daripada orang dewasa agar tumbuh optimal.",
+      "explanation": "Anak usia 6–12 tahun membutuhkan tidur sekitar 9 sampai 11 jam setiap malam untuk pemulihan tubuh dan daya ingat.",
+      "options": [
+        { "id": "a", "text": "4–5 jam setiap malam" },
+        { "id": "b", "text": "9–11 jam setiap malam" },
+        { "id": "c", "text": "16–18 jam setiap malam" },
+        { "id": "d", "text": "Tidur hanya di akhir pekan" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "daily-health-04-q02",
+      "type": "true_false",
+      "prompt": "Anak-anak dianjurkan aktif bergerak atau berolahraga ringan hingga sedang minimal 60 menit dalam sehari.",
+      "hint": "Aktivitas bisa berupa bersepeda, lari, lompat tali, atau senam.",
+      "explanation": "Benar! Aktivitas fisik 60 menit per hari menjaga jantung sehat, otot kuat, dan suasana hati lebih ceria.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-health-04-q03",
+      "type": "multiple_select",
+      "prompt": "Manakah kebiasaan yang membantu kita tidur lebih nyenyak di malam hari?",
+      "hint": "Cahaya terang dari layar gawai dapat mengganggu hormon tidur.",
+      "explanation": "Mematikan gawai sebelum tidur, meredupkan lampu kamar, dan tidur di jam yang teratur membantu tubuh beristirahat nyenyak.",
+      "options": [
+        { "id": "a", "text": "Menjauhkan ponsel atau tablet 1 jam sebelum tidur" },
+        { "id": "b", "text": "Tidur dan bangun pada jam yang teratur" },
+        { "id": "c", "text": "Membuat suasana kamar tenang dan tidak terlalu terang" },
+        { "id": "d", "text": "Minum minuman berkafein tepat sebelum tidur" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-health-04-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Sebelum mulai berolahraga berat seperti lari atau sepak bola, kita sebaiknya melakukan gerakan ... agar otot tidak cedera.",
+      "hint": "Gerakan ringan ini menaikkan suhu tubuh sebelum olahraga inti.",
+      "explanation": "Pemanasan menyiapkan otot dan sendi sebelum beraktivitas sehingga risiko keseleo atau kram berkurang.",
+      "correctAnswer": {
+        "acceptedAnswers": ["pemanasan", "Pemanasan"]
+      }
+    },
+    {
+      "id": "daily-health-04-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Dua posisi duduk belajar: Gambar kiri menunjukkan anak duduk tegak dengan punggung bersandar di kursi dan kaki menapak lantai. Gambar kanan menunjukkan anak duduk membungkuk sambil menempelkan dagu dekat meja.",
+      "prompt": "Mengapa posisi duduk seperti pada gambar kiri lebih baik bagi kesehatan kita?",
+      "hint": "Perhatikan bentuk tulang belakang saat belajar dalam waktu lama.",
+      "explanation": "Duduk tegak menjaga bentuk tulang belakang tetap sehat, mencegah pegal di leher dan punggung, serta menjaga jarak baca mata.",
+      "options": [
+        { "id": "a", "text": "Menjaga tulang belakang tetap lurus dan mata tidak cepat lelah" },
+        { "id": "b", "text": "Membuat kursi lebih cepat rusak" },
+        { "id": "c", "text": "Supaya kaki menggantung di udara" },
+        { "id": "d", "text": "Agar buku sulit dibaca" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-health-04-q06",
+      "type": "multiple_choice",
+      "prompt": "Mengapa kurang tidur di malam hari dapat memengaruhi kegiatan belajar di sekolah?",
+      "hint": "Saat tidur, otak mengolah dan menyimpan pelajaran yang sudah dipelajari.",
+      "explanation": "Kurang tidur membuat otak lelah, sehingga kita mudah mengantuk, sulit konsentrasi, dan mudah marah.",
+      "options": [
+        { "id": "a", "text": "Membuat daya ingat dan konsentrasi menurun" },
+        { "id": "b", "text": "Membuat tulisan tangan otomatis lebih rapi" },
+        { "id": "c", "text": "Menambah energi saat pelajaran olahraga" },
+        { "id": "d", "text": "Tidak ada pengaruhnya sama sekali" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-health-04-q07",
+      "type": "true_false",
+      "prompt": "Setelah selesai berolahraga, kita boleh langsung duduk diam atau berbaring tanpa melakukan pendinginan.",
+      "hint": "Pendinginan membantu detak jantung turun perlahan.",
+      "explanation": "Salah. Pendinginan membantu menurunkan detak jantung secara bertahap dan mencegah otot terasa kaku setelah berolahraga.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "daily-health-04-q08",
+      "type": "multiple_select",
+      "prompt": "Contoh kegiatan fisik sederhana di rumah atau sekolah yang membuat tubuh tetap aktif adalah...",
+      "hint": "Gerak aktif tidak harus selalu di lapangan besar.",
+      "explanation": "Lompat tali, bersepeda bersama teman, dan membantu menyapu halaman sama-sama membakar energi dan melatih otot.",
+      "options": [
+        { "id": "a", "text": "Bermain lompat tali" },
+        { "id": "b", "text": "Bersepeda di sore hari" },
+        { "id": "c", "text": "Membantu menyapu atau berkebun" },
+        { "id": "d", "text": "Menonton video sambil tiduran 4 jam" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-health-04-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Memakai tas ransel di kedua bahu sekaligus lebih sehat daripada satu bahu karena menjaga keseimbangan tulang ...",
+      "hint": "Tulang ini memanjang dari leher hingga pinggang di bagian belakang tubuh.",
+      "explanation": "Menggendong ransel di kedua bahu membagikan beban secara merata sehingga tidak membebani tulang belakang ke satu sisi.",
+      "correctAnswer": {
+        "acceptedAnswers": ["belakang", "Belakang", "punggung", "Punggung"]
+      }
+    },
+    {
+      "id": "daily-health-04-q10",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Jam dinding menunjukkan pukul 22.30 malam. Seorang anak masih bermain gim di ponsel dengan lampu kamar yang terang padahal besok masuk sekolah pukul 06.30.",
+      "prompt": "Apa dampak utama jika kebiasaan pada gambar tersebut dilakukan terus-menerus?",
+      "hint": "Hitung sisa waktu tidurnya sebelum bangun pagi.",
+      "explanation": "Anak tersebut akan kekurangan jam tidur, merasa mengantuk di sekolah, dan sulit fokus saat belajar.",
+      "options": [
+        { "id": "a", "text": "Kurang tidur dan mengantuk saat pelajaran di sekolah" },
+        { "id": "b", "text": "Tubuh menjadi lebih bugar di pagi hari" },
+        { "id": "c", "text": "Mata menjadi lebih tajam melihat papan tulis" },
+        { "id": "d", "text": "Waktu tidur menjadi lebih dari 10 jam" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

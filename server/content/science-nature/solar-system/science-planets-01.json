@@ -1,0 +1,145 @@
+{
+  "id": "science-planets-01",
+  "contentVersion": "1.0.0",
+  "categoryId": "science-nature",
+  "unitId": "solar-system",
+  "title": "Mengenal Planet",
+  "description": "Mengenal delapan planet di tata surya, urutannya dari Matahari, dan ciri khas masing-masing.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 1,
+  "prerequisites": [],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "science-planets-01-q01",
+      "type": "multiple_choice",
+      "prompt": "Planet manakah yang letaknya paling dekat dengan Matahari?",
+      "hint": "Planet ini adalah planet terkecil di tata surya kita.",
+      "explanation": "Merkurius adalah planet pertama dari Matahari dan merupakan planet terkecil di tata surya.",
+      "options": [
+        { "id": "a", "text": "Venus" },
+        { "id": "b", "text": "Merkurius" },
+        { "id": "c", "text": "Mars" },
+        { "id": "d", "text": "Bumi" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-planets-01-q02",
+      "type": "true_false",
+      "prompt": "Jupiter adalah planet terbesar di tata surya kita.",
+      "hint": "Ingat julukan planet raksasa gas yang memiliki Bintik Merah Raksasa.",
+      "explanation": "Benar! Jupiter adalah planet terbesar di tata surya dengan diameter sekitar 11 kali diameter Bumi.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-planets-01-q03",
+      "type": "multiple_choice",
+      "prompt": "Planet apakah yang dijuluki Planet Merah karena permukaan tanahnya kaya akan besi oksida?",
+      "hint": "Planet ini berada tepat setelah Bumi jika diurutkan dari Matahari.",
+      "explanation": "Mars tampak kemerahan karena permukaannya mengandung banyak debu besi oksida (karat).",
+      "options": [
+        { "id": "a", "text": "Mars" },
+        { "id": "b", "text": "Venus" },
+        { "id": "c", "text": "Saturnus" },
+        { "id": "d", "text": "Neptunus" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-planets-01-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Planet yang memiliki sistem cincin paling indah dan mudah terlihat melalui teleskop adalah ______.",
+      "hint": "Namanya diawali huruf S dan merupakan planet keenam dari Matahari.",
+      "explanation": "Saturnus terkenal dengan cincin megahnya yang tersusun atas miliaran potongan es dan batuan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Saturnus", "saturnus"]
+      }
+    },
+    {
+      "id": "science-planets-01-q05",
+      "type": "multiple_select",
+      "prompt": "Pilih dua planet yang termasuk kelompok planet dalam (planet berbatu yang dekat dengan Matahari):",
+      "hint": "Kelompok planet dalam terdiri atas Merkurius, Venus, Bumi, dan Mars.",
+      "explanation": "Venus dan Bumi adalah planet dalam yang tersusun dari batuan padat, sedangkan Jupiter dan Neptunus adalah planet luar.",
+      "options": [
+        { "id": "a", "text": "Venus" },
+        { "id": "b", "text": "Jupiter" },
+        { "id": "c", "text": "Bumi" },
+        { "id": "d", "text": "Neptunus" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "science-planets-01-q06",
+      "type": "true_false",
+      "prompt": "Pluto saat ini masih digolongkan sebagai planet kesembilan di tata surya.",
+      "hint": "Pada tahun 2006, para astronom mengubah penggolongan Pluto.",
+      "explanation": "Salah. Sejak tahun 2006, Pluto diklasifikasikan sebagai planet kerdil (dwarf planet), sehingga tata surya kita memiliki delapan planet utama.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "science-planets-01-q07",
+      "type": "image_quiz",
+      "mediaKey": "quiz-planet",
+      "mediaCaption": "Ilustrasi planet biru cerah yang berada di urutan kedelapan atau paling jauh dari Matahari.",
+      "prompt": "Planet biru yang terkenal dengan angin tercepat di tata surya dan berada di urutan kedelapan dari Matahari adalah...",
+      "hint": "Nama planet ini diambil dari dewa laut dalam mitologi Romawi.",
+      "explanation": "Neptunus adalah planet kedelapan dari Matahari yang berwarna biru cerah karena kandungan gas metana di atmosfernya.",
+      "options": [
+        { "id": "a", "text": "Uranus" },
+        { "id": "b", "text": "Neptunus" },
+        { "id": "c", "text": "Saturnus" },
+        { "id": "d", "text": "Merkurius" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-planets-01-q08",
+      "type": "multiple_choice",
+      "prompt": "Mengapa Venus menjadi planet terpanas di tata surya meskipun bukan yang paling dekat dengan Matahari?",
+      "hint": "Pikirkan tentang lapisan gas tebal yang menyelimuti Venus.",
+      "explanation": "Atmosfer Venus sangat tebal dan didominasi karbon dioksida yang memerangkap panas melalui efek rumah kaca ekstrem.",
+      "options": [
+        { "id": "a", "text": "Karena Venus memiliki cincin es yang memantulkan panas" },
+        { "id": "b", "text": "Karena atmosfernya yang tebal memerangkap panas Matahari" },
+        { "id": "c", "text": "Karena Venus berputar paling cepat di antara semua planet" },
+        { "id": "d", "text": "Karena ukuran Venus lebih besar daripada Jupiter" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-planets-01-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Satu-satunya planet di tata surya yang diketahui memiliki air cair melimpah di permukaannya dan mendukung kehidupan adalah ______.",
+      "hint": "Planet tempat kita tinggal saat ini.",
+      "explanation": "Bumi berada di zona layak huni dengan suhu yang tepat sehingga air tetap berwujud cair dan makhluk hidup dapat berkembang.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Bumi", "bumi"]
+      }
+    },
+    {
+      "id": "science-planets-01-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih pernyataan yang tepat tentang planet Uranus:",
+      "hint": "Uranus adalah raksasa es ketujuh yang sumbu rotasinya sangat miring.",
+      "explanation": "Uranus berada di urutan ketujuh dari Matahari dan berputar miring hampir sejajar dengan bidang orbitnya.",
+      "options": [
+        { "id": "a", "text": "Berada di urutan ketujuh dari Matahari" },
+        { "id": "b", "text": "Sumbu putarnya miring sangat ekstrem seperti menggelinding" },
+        { "id": "c", "text": "Planet terdekat dengan Matahari" },
+        { "id": "d", "text": "Memiliki permukaan tanah merah berkarat" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    }
+  ]
+}

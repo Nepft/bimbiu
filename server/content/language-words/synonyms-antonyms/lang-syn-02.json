@@ -1,0 +1,145 @@
+{
+  "id": "lang-syn-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "synonyms-antonyms",
+  "title": "Antonim dan Lawan Kata",
+  "description": "Menemukan kata yang memiliki makna berlawanan (antonim) secara tepat.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["lang-syn-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-syn-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Apa antonim dari kata 'asli' pada kalimat 'Karya lukis ini asli buatan tangan seniman lokal'?",
+      "hint": "Lawan kata dari barang yang benar-benar ori atau bukan tiruan.",
+      "explanation": "Antonim dari 'asli' adalah 'palsu' atau 'tiruan'.",
+      "options": [
+        { "id": "a", "text": "murni" },
+        { "id": "b", "text": "palsu" },
+        { "id": "c", "text": "nyata" },
+        { "id": "d", "text": "sejati" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-syn-02-q02",
+      "type": "true_false",
+      "prompt": "Antonim dari kata 'luas' adalah 'sempit'.",
+      "hint": "Bayangkan lapangan yang besar dibandingkan dengan lorong kecil.",
+      "explanation": "Benar. 'Luas' berarti lapang atau lebar, sedangkan lawannya adalah 'sempit'.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-syn-02-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Antonim dari kata 'awal' adalah ____.",
+      "hint": "Bagian penutup atau penghabisan dari suatu cerita atau perlombaan.",
+      "explanation": "Lawan kata dari 'awal' (permulaan) adalah 'akhir' (penghabisan).",
+      "correctAnswer": {
+        "acceptedAnswers": ["akhir", "Akhir"]
+      }
+    },
+    {
+      "id": "lang-syn-02-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua pasangan kata yang merupakan ANTONIM (berlawanan makna)!",
+      "hint": "Cari pasangan kata yang artinya bertolak belakang.",
+      "explanation": "'rajin - malas' dan 'maju - mundur' adalah antonim. 'bahagia - senang' dan 'besar - akbar' adalah sinonim.",
+      "options": [
+        { "id": "a", "text": "rajin - malas" },
+        { "id": "b", "text": "bahagia - senang" },
+        { "id": "c", "text": "maju - mundur" },
+        { "id": "d", "text": "besar - akbar" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-syn-02-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Lampu belajar menyala terang di atas meja ketika malam tiba.",
+      "prompt": "Apa antonim dari kata 'terang' pada keterangan suasana malam tersebut?",
+      "hint": "Keadaan saat tidak ada cahaya sama sekali.",
+      "explanation": "Antonim dari kata 'terang' adalah 'gelap'.",
+      "options": [
+        { "id": "a", "text": "cerah" },
+        { "id": "b", "text": "silau" },
+        { "id": "c", "text": "gelap" },
+        { "id": "d", "text": "bening" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "lang-syn-02-q06",
+      "type": "multiple_choice",
+      "prompt": "Apa antonim dari kata 'sederhana' dalam kalimat: 'Rumah nenek tampak sederhana namun sangat bersih'?",
+      "hint": "Lawan dari bersahaja atau tidak berlebihan.",
+      "explanation": "Antonim dari 'sederhana' adalah 'mewah' (serba indah dan mahal) atau 'megah'.",
+      "options": [
+        { "id": "a", "text": "bersahaja" },
+        { "id": "b", "text": "mewah" },
+        { "id": "c", "text": "rapi" },
+        { "id": "d", "text": "polos" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-syn-02-q07",
+      "type": "true_false",
+      "prompt": "Kata 'hemat' adalah antonim dari kata 'cermat'.",
+      "hint": "Apakah hemat dan cermat memiliki arti yang berlawanan atau mirip?",
+      "explanation": "Salah. 'Hemat' dan 'cermat' justru bersinonim (hati-hati dan tidak boros). Antonim dari 'hemat' adalah 'boros'.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "lang-syn-02-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Antonim dari kata 'jujur' adalah ____.",
+      "hint": "Sikap curang atau tidak mengatakan hal yang sebenarnya.",
+      "explanation": "Antonim dari kata 'jujur' adalah 'bohong' atau 'curang'.",
+      "correctAnswer": {
+        "acceptedAnswers": ["bohong", "Bohong", "curang", "Curang", "dusta", "Dusta"]
+      }
+    },
+    {
+      "id": "lang-syn-02-q09",
+      "type": "multiple_choice",
+      "prompt": "Jika sebuah gunung memiliki puncak yang 'tinggi', maka jurang di bawahnya bersifat...",
+      "hint": "Lawan kata dari tinggi.",
+      "explanation": "Antonim dari 'tinggi' adalah 'rendah' (atau dalam konteks jurang bisa berarti dangkal bila lawannya dalam, namun pasangan kata tinggi adalah rendah).",
+      "options": [
+        { "id": "a", "text": "rendah" },
+        { "id": "b", "text": "panjang" },
+        { "id": "c", "text": "tebal" },
+        { "id": "d", "text": "berat" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-syn-02-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kata yang merupakan antonim dari kata 'gaduh'!",
+      "hint": "'Gaduh' berarti berisik dan kacau; cari kata yang bermakna tidak bising.",
+      "explanation": "'tenang' dan 'sunyi' merupakan antonim dari 'gaduh'. 'riuh' dan 'bising' justru bersinonim dengan 'gaduh'.",
+      "options": [
+        { "id": "a", "text": "tenang" },
+        { "id": "b", "text": "riuh" },
+        { "id": "c", "text": "sunyi" },
+        { "id": "d", "text": "bising" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

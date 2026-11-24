@@ -1,0 +1,145 @@
+{
+  "id": "science-solar-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "science-nature",
+  "unitId": "solar-system",
+  "title": "Bulan, Satelit, dan Gerhana",
+  "description": "Memahami Bulan sebagai satelit alami Bumi, fase-fase Bulan, pasang surut air laut, serta peristiwa gerhana.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["science-solar-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "science-solar-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Mengapa Bulan tampak bercahaya terang pada malam hari?",
+      "hint": "Bulan bukanlah bintang.",
+      "explanation": "Bulan tidak menghasilkan cahaya sendiri, melainkan memantulkan cahaya dari Matahari ke arah Bumi.",
+      "options": [
+        { "id": "a", "text": "Karena permukaan Bulan dipenuhi api" },
+        { "id": "b", "text": "Karena Bulan memantulkan cahaya Matahari" },
+        { "id": "c", "text": "Karena lampu dari satelit buatan" },
+        { "id": "d", "text": "Karena atmosfer Bulan sangat panas" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-solar-03-q02",
+      "type": "true_false",
+      "prompt": "Bulan adalah satu-satunya satelit alami milik planet Bumi.",
+      "hint": "Ingat berapa jumlah satelit alami Bumi.",
+      "explanation": "Benar! Bumi hanya memiliki satu satelit alami yaitu Bulan, berbeda dengan Jupiter atau Saturnus yang memiliki puluhan satelit.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-solar-03-q03",
+      "type": "multiple_choice",
+      "prompt": "Fase ketika seluruh sisi Bulan yang menghadap Bumi terlihat bulat penuh disebut fase...",
+      "hint": "Biasanya terjadi di pertengahan bulan kalender Hijriah.",
+      "explanation": "Bulan purnama terjadi saat seluruh bagian Bulan yang menghadap Bumi menerima sinar Matahari.",
+      "options": [
+        { "id": "a", "text": "Bulan sabit" },
+        { "id": "b", "text": "Bulan baru" },
+        { "id": "c", "text": "Bulan purnama" },
+        { "id": "d", "text": "Bulan seperempat" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "science-solar-03-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Peristiwa ketika posisi Bumi berada di antara Matahari dan Bulan dalam satu garis lurus disebut gerhana ______.",
+      "hint": "Bayangan Bumi menutupi permukaan Bulan.",
+      "explanation": "Gerhana bulan terjadi saat Bumi berada di antara Matahari dan Bulan sehingga bayangan Bumi jatuh mengenai Bulan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["bulan", "Bulan"]
+      }
+    },
+    {
+      "id": "science-solar-03-q05",
+      "type": "multiple_select",
+      "prompt": "Manakah pernyataan yang benar tentang gerhana matahari?",
+      "hint": "Pikirkan posisi Bulan dan kapan peristiwa ini terjadi.",
+      "explanation": "Gerhana matahari terjadi pada siang hari saat fase bulan baru, ketika Bulan berada di antara Matahari dan Bumi.",
+      "options": [
+        { "id": "a", "text": "Bulan berada di antara Matahari dan Bumi" },
+        { "id": "b", "text": "Terjadi pada waktu siang hari" },
+        { "id": "c", "text": "Bumi berada di antara Matahari dan Bulan" },
+        { "id": "d", "text": "Terjadi saat fase bulan baru" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+    },
+    {
+      "id": "science-solar-03-q06",
+      "type": "true_false",
+      "prompt": "Gaya gravitasi Bulan memengaruhi terjadinya pasang naik dan pasang surut air laut di Bumi.",
+      "hint": "Tarikan gravitasi Bulan menarik air lautan di Bumi.",
+      "explanation": "Benar! Gravitasi Bulan (bersama gravitasi Matahari) menyebabkan permukaan air laut mengalami pasang naik dan surut secara teratur.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-solar-03-q07",
+      "type": "image_quiz",
+      "mediaKey": "quiz-planet",
+      "mediaCaption": "Permukaan satelit alami Bumi yang dipenuhi cekungan bundar akibat hantaman benda langit.",
+      "prompt": "Cekungan besar di permukaan Bulan yang terbentuk akibat tumbukan meteorit disebut...",
+      "hint": "Istilahnya sama dengan cekungan di puncak gunung berapi.",
+      "explanation": "Permukaan Bulan dipenuhi kawah karena Bulan tidak memiliki atmosfer tebal untuk membakar meteoroid sebelum menumbuk permukaannya.",
+      "options": [
+        { "id": "a", "text": "Kawah" },
+        { "id": "b", "text": "Samudra" },
+        { "id": "c", "text": "Gletser" },
+        { "id": "d", "text": "Palung" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-solar-03-q08",
+      "type": "multiple_choice",
+      "prompt": "Kira-kira berapa hari waktu yang dibutuhkan Bulan untuk menyelesaikan satu siklus fase dari bulan baru ke bulan baru berikutnya?",
+      "hint": "Mendekati jumlah hari dalam satu bulan kalender.",
+      "explanation": "Satu siklus fase Bulan (bulan sinodik) berlangsung sekitar 29,5 hari.",
+      "options": [
+        { "id": "a", "text": "7 hari" },
+        { "id": "b", "text": "14 hari" },
+        { "id": "c", "text": "29,5 hari" },
+        { "id": "d", "text": "365 hari" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "science-solar-03-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Bagian bayangan inti yang sangat gelap saat terjadi gerhana disebut ______.",
+      "hint": "Lawannya adalah penumbra (bayangan kabur).",
+      "explanation": "Umbra adalah daerah bayangan tergelap di belakang benda yang menghalangi cahaya, sedangkan penumbra adalah bayangan yang lebih samar.",
+      "correctAnswer": {
+        "acceptedAnswers": ["umbra", "Umbra"]
+      }
+    },
+    {
+      "id": "science-solar-03-q10",
+      "type": "multiple_select",
+      "prompt": "Mengapa di permukaan Bulan tidak terdengar suara seperti di Bumi?",
+      "hint": "Suara membutuhkan medium seperti udara untuk merambat.",
+      "explanation": "Bulan hampir tidak memiliki atmosfer atau udara (hampa udara), sehingga gelombang bunyi tidak dapat merambat.",
+      "options": [
+        { "id": "a", "text": "Bulan tidak memiliki udara atau atmosfer yang cukup" },
+        { "id": "b", "text": "Bunyi tidak bisa merambat di ruang hampa" },
+        { "id": "c", "text": "Gravitasi Bulan memantulkan semua bunyi ke Matahari" },
+        { "id": "d", "text": "Suhu Bulan membekukan gelombang cahaya" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    }
+  ]
+}

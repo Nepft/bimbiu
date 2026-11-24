@@ -1,0 +1,145 @@
+{
+  "id": "lang-read-01",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "reading-spelling",
+  "title": "Penggunaan Huruf Kapital",
+  "description": "Berlatih menggunakan huruf kapital yang benar pada awal kalimat, nama orang, hari, tempat, dan judul.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 1,
+  "prerequisites": [],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-read-01-q01",
+      "type": "multiple_choice",
+      "prompt": "Manakah kalimat yang menggunakan huruf kapital dengan BENAR?",
+      "hint": "Perhatikan huruf pertama pada awal kalimat, nama orang, nama hari, dan nama kota.",
+      "explanation": "Huruf kapital dipakai di awal kalimat, huruf pertama nama orang (Rafa), nama hari (Sabtu), dan nama kota (Bandung).",
+      "options": [
+        { "id": "a", "text": "Pada hari sabtu, rafa pergi ke bandung." },
+        { "id": "b", "text": "Pada hari Sabtu, Rafa pergi ke Bandung." },
+        { "id": "c", "text": "pada hari Sabtu, Rafa pergi ke Bandung." },
+        { "id": "d", "text": "Pada Hari Sabtu, Rafa pergi ke bandung." }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-read-01-q02",
+      "type": "true_false",
+      "prompt": "Nama hari dan nama bulan dalam bahasa Indonesia harus diawali dengan huruf kapital, seperti 'Senin' dan 'Agustus'.",
+      "hint": "Ingat aturan EYD untuk penulisan nama waktu dalam kalender.",
+      "explanation": "Benar. Huruf kapital dipakai sebagai huruf pertama nama tahun, bulan, hari, dan hari raya (misalnya hari Senin, bulan Agustus).",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-read-01-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Perbaiki penulisan nama negara berikut dengan huruf kapital yang tepat: 'indonesia' -> ____.",
+      "hint": "Nama negara diawali huruf kapital pada huruf pertamanya saja.",
+      "explanation": "Nama geografi seperti nama negara harus diawali huruf kapital, yaitu 'Indonesia'.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Indonesia"]
+      }
+    },
+    {
+      "id": "lang-read-01-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kalimat yang menggunakan huruf kapital dengan TEPAT pada nama unsur geografi!",
+      "hint": "Nama pulau, gunung, sungai, atau kota yang disertai nama diri ditulis kapital; jika tidak ada nama khususnya, ditulis huruf kecil.",
+      "explanation": "'Pulau Bali' dan 'berenang di sungai' (tanpa nama sungai) menggunakan huruf kapital dengan tepat. 'Gunung merapi' salah (seharusnya 'Gunung Merapi') dan 'Danau toba' salah (seharusnya 'Danau Toba').",
+      "options": [
+        { "id": "a", "text": "Kami berlibur ke Pulau Bali pada akhir tahun." },
+        { "id": "b", "text": "Pemandangan Gunung merapi tampak indah dari kejauhan." },
+        { "id": "c", "text": "Anak-anak tidak boleh bermain di sungai yang arusnya deras." },
+        { "id": "d", "text": "Nenek bercerita tentang keindahan Danau toba." }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-read-01-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Sampul sebuah buku cerita anak dengan judul: petualangan si kancil di hutan.",
+      "prompt": "Bagaimana penulisan judul buku tersebut dengan huruf kapital yang paling benar?",
+      "hint": "Semua kata pada judul buku diawali huruf kapital, kecuali kata tugas seperti 'si' atau 'di' di tengah judul.",
+      "explanation": "Dalam penulisan judul, setiap kata diawali huruf kapital kecuali kata tugas (seperti 'di', 'ke', 'dari', 'dan', 'si') yang tidak terletak di posisi awal: 'Petualangan si Kancil di Hutan'.",
+      "options": [
+        { "id": "a", "text": "Petualangan Si Kancil Di Hutan" },
+        { "id": "b", "text": "Petualangan si Kancil di Hutan" },
+        { "id": "c", "text": "petualangan si kancil di hutan" },
+        { "id": "d", "text": "Petualangan si kancil di hutan" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-read-01-q06",
+      "type": "multiple_choice",
+      "prompt": "Penulisan kata sapaan kekerabatan yang benar terdapat pada kalimat...",
+      "hint": "Kata seperti 'Ibu', 'Bapak', 'Paman' ditulis kapital jika dipakai sebagai sapaan langsung.",
+      "explanation": "'Kapan Bapak berangkat ke Surabaya?' memakai 'Bapak' sebagai kata sapaan kepada lawan bicara, sehingga ditulis dengan huruf kapital.",
+      "options": [
+        { "id": "a", "text": "Kapan bapak berangkat ke Surabaya?" },
+        { "id": "b", "text": "Kapan Bapak berangkat ke Surabaya?" },
+        { "id": "c", "text": "Saya mempunyai seorang Paman yang ramah." },
+        { "id": "d", "text": "Ibu saya sedang memasak di Dapur." }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-read-01-q07",
+      "type": "true_false",
+      "prompt": "Kata 'pisang ambon' dan 'kacang bogor' harus ditulis dengan huruf kapital pada kata 'Ambon' dan 'Bogor' karena memakai nama kota.",
+      "hint": "Apakah pisang ambon benar-benar hanya berasal dari Ambon atau sudah menjadi nama jenis buah?",
+      "explanation": "Salah. Nama jenis buah atau makanan yang memakai nama tempat (seperti 'pisang ambon', 'jeruk bali', 'gula jawa') tidak ditulis dengan huruf kapital.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "lang-read-01-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Tuliskan kata 'jawa' dengan huruf kapital yang benar pada kalimat: 'Mereka belajar bahasa ____ di sekolah.'",
+      "hint": "Nama bahasa atau suku bangsa diawali huruf kapital pada nama bahasanya, bukan pada kata 'bahasa'.",
+      "explanation": "Nama bahasa dan suku bangsa diawali huruf kapital ('bahasa Jawa', 'suku Jawa').",
+      "correctAnswer": {
+        "acceptedAnswers": ["Jawa"]
+      }
+    },
+    {
+      "id": "lang-read-01-q09",
+      "type": "multiple_choice",
+      "prompt": "Manakah penulisan nama bulan dan hari raya yang benar?",
+      "hint": "Kata 'bulan' tidak perlu huruf kapital, sedangkan nama bulannya dan nama hari rayanya memakai huruf kapital.",
+      "explanation": "'bulan Mei' dan 'Hari Kemerdekaan' ditulis tepat. Kata 'bulan' adalah jenis waktu (huruf kecil), sedangkan 'Mei' nama bulan (kapital).",
+      "options": [
+        { "id": "a", "text": "Bulan mei" },
+        { "id": "b", "text": "bulan Mei" },
+        { "id": "c", "text": "bulan mei" },
+        { "id": "d", "text": "Bulan Mei di tengah kalimat" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-read-01-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kata yang TIDAK perlu ditulis dengan huruf kapital di tengah kalimat!",
+      "hint": "Cari nama benda atau kata umum yang bukan nama diri geografi/orang.",
+      "explanation": "'jeruk bali' (nama jenis buah) dan 'pensil warna' (kata benda umum) tidak diawali huruf kapital di tengah kalimat. 'Sungai Musi' dan 'Selasa' wajib diawali huruf kapital.",
+      "options": [
+        { "id": "a", "text": "jeruk bali" },
+        { "id": "b", "text": "Sungai Musi" },
+        { "id": "c", "text": "pensil warna" },
+        { "id": "d", "text": "Selasa" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "lang-idiom-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "proverbs-idioms",
+  "title": "Peribahasa Usaha dan Belajar",
+  "description": "Mengenal peribahasa Nusantara yang mengajarkan ketekunan, hemat, dan semangat belajar.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["lang-idiom-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-idiom-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Lengkapi peribahasa berikut: 'Berakit-rakit ke hulu, berenang-renang ke tepian; bersakit-sakit dahulu, ....'",
+      "hint": "Artinya bersusah payah dulu sebelum meraih keberhasilan.",
+      "explanation": "Kelengkapan peribahasa tersebut adalah 'bersenang-senang kemudian', yang bermakna kesuksesan dan kebahagiaan diraih setelah melewati kerja keras terlebih dahulu.",
+      "options": [
+        { "id": "a", "text": "bersenang-senang kemudian" },
+        { "id": "b", "text": "berhenti di tengah jalan" },
+        { "id": "c", "text": "pulang ke rumah kemudian" },
+        { "id": "d", "text": "beristirahat selamanya" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-idiom-03-q02",
+      "type": "true_false",
+      "prompt": "Peribahasa 'Sedikit demi sedikit, lama-lama menjadi bukit' mengajarkan bahwa usaha atau tabungan kecil yang rutin akan menghasilkan sesuatu yang besar.",
+      "hint": "Bayangkan menabung koin setiap hari di celengan.",
+      "explanation": "Benar. Peribahasa ini mengingatkan kita untuk sabar dan konsisten melakukan hal baik atau menabung meski sedikit demi sedikit.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-idiom-03-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Lengkapi peribahasa terkenal: 'Rajin pangkal pandai, hemat pangkal ____.'",
+      "hint": "Kebalikan dari miskin.",
+      "explanation": "Peribahasa lengkapnya adalah 'Rajin pangkal pandai, hemat pangkal kaya'.",
+      "correctAnswer": {
+        "acceptedAnswers": ["kaya", "Kaya"]
+      }
+    },
+    {
+      "id": "lang-idiom-03-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua peribahasa yang mendorong kita untuk TIDAK MALU belajar atau berusaha!",
+      "hint": "Cari peribahasa tentang bertanya saat tidak tahu dan peribahasa tentang kemauan.",
+      "explanation": "'Malu bertanya sesat di jalan' dan 'Di mana ada kemauan, di situ ada jalan' mendorong untuk berani belajar dan berusaha. 'Bagai air di daun talas' berarti pendirian yang tidak tetap.",
+      "options": [
+        { "id": "a", "text": "Malu bertanya sesat di jalan" },
+        { "id": "b", "text": "Bagai air di daun talas" },
+        { "id": "c", "text": "Di mana ada kemauan, di situ ada jalan" },
+        { "id": "d", "text": "Tong kosong nyaring bunyinya" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-idiom-03-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Seorang siswa bertanya kepada guru di kelas karena belum memahami langkah penyelesaian soal.",
+      "prompt": "Peribahasa apakah yang paling sesuai dengan sikap siswa tersebut?",
+      "hint": "Jika tidak mau bertanya saat bingung, kita bisa salah arah.",
+      "explanation": "Peribahasa 'Malu bertanya sesat di jalan' berarti jika seseorang segan bertanya saat tidak tahu, ia akan kesulitan atau keliru.",
+      "options": [
+        { "id": "a", "text": "Malu bertanya sesat di jalan" },
+        { "id": "b", "text": "Air tenang menghanyutkan" },
+        { "id": "c", "text": "Bagai pinang dibelah dua" },
+        { "id": "d", "text": "Nasi sudah menjadi bubur" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-idiom-03-q06",
+      "type": "multiple_choice",
+      "prompt": "Apa arti peribahasa 'Tak ada gading yang tak retak'?",
+      "hint": "Gading gajah yang indah sekalipun tetap punya retakan kecil.",
+      "explanation": "'Tak ada gading yang tak retak' bermakna tidak ada manusia atau sesuatu pun di dunia ini yang benar-benar sempurna tanpa kekurangan.",
+      "options": [
+        { "id": "a", "text": "Gading gajah mudah patah saat jatuh" },
+        { "id": "b", "text": "Tidak ada sesuatu yang sempurna tanpa kekurangan" },
+        { "id": "c", "text": "Semua benda berharga harus disimpan" },
+        { "id": "d", "text": "Orang pintar tidak pernah berbuat salah" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-idiom-03-q07",
+      "type": "true_false",
+      "prompt": "Peribahasa 'Nasi sudah menjadi bubur' berarti kesalahan masih bisa dengan mudah dikembalikan seperti semula.",
+      "hint": "Bisakah bubur berubah kembali menjadi nasi?",
+      "explanation": "Salah. 'Nasi sudah menjadi bubur' berarti sesuatu yang sudah terlanjur terjadi dan tidak bisa diubah kembali seperti semula, sehingga kita harus berhati-hati sebelum bertindak.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "lang-idiom-03-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Lengkapi peribahasa: 'Sepandai-pandainya tupai melompat, sekali waktu ____ juga.'",
+      "hint": "Apa yang terjadi jika lompatan tupai meleset dari dahan?",
+      "explanation": "Peribahasa lengkapnya adalah 'Sepandai-pandainya tupai melompat, sekali waktu jatuh juga', yang berarti sepandai apa pun seseorang, suatu saat pasti pernah berbuat salah.",
+      "correctAnswer": {
+        "acceptedAnswers": ["jatuh", "Jatuh"]
+      }
+    },
+    {
+      "id": "lang-idiom-03-q09",
+      "type": "multiple_choice",
+      "prompt": "Apa maksud peribahasa 'Sambil menyelam minum air'?",
+      "hint": "Menyelam dan minum air dilakukan pada waktu yang bersamaan.",
+      "explanation": "'Sambil menyelam minum air' berarti menyelesaikan dua pekerjaan atau tujuan sekaligus dalam satu waktu.",
+      "options": [
+        { "id": "a", "text": "Mengerjakan dua pekerjaan atau hal sekaligus" },
+        { "id": "b", "text": "Minum air sungai saat haus" },
+        { "id": "c", "text": "Berenang di kolam yang dalam" },
+        { "id": "d", "text": "Menunda satu tugas demi tugas lain" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-idiom-03-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua sikap yang sesuai dengan pesan peribahasa 'Jangan menunda pekerjaan hari ini hingga besok' dan 'Sedikit demi sedikit, lama-lama menjadi bukit'!",
+      "hint": "Pilih kebiasaan belajar yang teratur dan bertanggung jawab.",
+      "explanation": "Mengerjakan PR lebih awal dan menabung rutin setiap minggu mencerminkan kedisiplinan serta ketekunan yang diajarkan peribahasa tersebut.",
+      "options": [
+        { "id": "a", "text": "Menyelesaikan PR sepulang sekolah tanpa menunda" },
+        { "id": "b", "text": "Belajar hanya semalam sebelum ujian" },
+        { "id": "c", "text": "Menyisihkan sebagian uang saku secara rutin" },
+        { "id": "d", "text": "Menunggu teman mengerjakan tugas kelompok sendirian" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

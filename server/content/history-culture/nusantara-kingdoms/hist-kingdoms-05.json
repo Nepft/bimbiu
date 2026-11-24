@@ -1,0 +1,145 @@
+{
+  "id": "hist-kingdoms-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "nusantara-kingdoms",
+  "title": "Kerajaan Islam Awal di Nusantara",
+  "description": "Mengenal kerajaan Islam awal seperti Samudra Pasai, Demak, Aceh, Gowa-Tallo, hingga Ternate dan Tidore.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["hist-kingdoms-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-kingdoms-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Kerajaan bercorak Islam pertama di Indonesia yang berdiri di pesisir utara Aceh pada abad ke-13 adalah...",
+      "hint": "Namanya terdiri dari dua kata, diawali kata 'Samudra'.",
+      "explanation": "Kesultanan Samudra Pasai di Aceh merupakan kerajaan Islam pertama di Nusantara dengan sultan pertamanya Sultan Malik al-Saleh.",
+      "options": [
+        { "id": "a", "text": "Samudra Pasai" },
+        { "id": "b", "text": "Demak" },
+        { "id": "c", "text": "Banten" },
+        { "id": "d", "text": "Mataram Islam" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-kingdoms-05-q02",
+      "type": "true_false",
+      "prompt": "Kesultanan Demak adalah kerajaan Islam pertama di Pulau Jawa yang didirikan oleh Raden Patah.",
+      "hint": "Masjid Agung Demak merupakan salah satu peninggalan terkenalnya.",
+      "explanation": "Benar, Kesultanan Demak berdiri di pesisir utara Jawa Tengah pada akhir abad ke-15 dengan Raden Patah sebagai raja pertama.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-kingdoms-05-q03",
+      "type": "multiple_choice",
+      "prompt": "Sultan Hasanuddin dari Kerajaan Gowa-Tallo di Makassar mendapat julukan berani dari Belanda, yaitu...",
+      "hint": "Julukan ini berkaitan dengan hewan unggas yang pemberani dari wilayah timur.",
+      "explanation": "Sultan Hasanuddin dijuluki 'Ayam Jantan dari Timur' karena keberanian dan kegigihannya melawan monopoli perdagangan VOC.",
+      "options": [
+        { "id": "a", "text": "Harimau dari Selatan" },
+        { "id": "b", "text": "Ayam Jantan dari Timur" },
+        { "id": "c", "text": "Garuda dari Barat" },
+        { "id": "d", "text": "Singa dari Utara" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "hist-kingdoms-05-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Sembilan ulama penyebar agama Islam di Pulau Jawa yang sangat berperan pada masa Kesultanan Demak disebut...",
+      "hint": "Terdiri dari kata 'Wali' dan angka sembilan dalam bahasa Jawa.",
+      "explanation": "Wali Songo adalah sembilan tokoh penyebar Islam di Jawa yang berdakwah dengan pendekatan budaya dan seni.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Wali Songo", "Walisongo"]
+      }
+    },
+    {
+      "id": "hist-kingdoms-05-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi masjid bersejarah dengan atap tumpang tiga khas Nusantara yang dibangun di Jawa Tengah pada masa Raden Patah.",
+      "prompt": "Masjid bersejarah yang memiliki atap tumpang tiga peninggalan Kesultanan Demak bernama...",
+      "hint": "Namanya menggunakan nama kota tempat kerajaan Islam pertama di Jawa berada.",
+      "explanation": "Masjid Agung Demak memiliki arsitektur khas Nusantara dengan atap limas bersusun tiga dan tiang utama soko tatal.",
+      "options": [
+        { "id": "a", "text": "Masjid Raya Baiturrahman" },
+        { "id": "b", "text": "Masjid Agung Demak" },
+        { "id": "c", "text": "Masjid Menara Kudus" },
+        { "id": "d", "text": "Masjid Istiqlal" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "hist-kingdoms-05-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua rempah-rempah berharga dari Kerajaan Ternate dan Tidore di Maluku yang banyak dicari pedagang dunia!",
+      "hint": "Rempah ini berasal dari Kepulauan Maluku.",
+      "explanation": "Maluku dijuluki Kepulauan Rempah karena menghasilkan cengkih dan pala yang sangat bernilai tinggi di perdagangan dunia.",
+      "options": [
+        { "id": "a", "text": "Cengkih" },
+        { "id": "b", "text": "Pala" },
+        { "id": "c", "text": "Gandum" },
+        { "id": "d", "text": "Minyak zaitun" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-kingdoms-05-q07",
+      "type": "multiple_choice",
+      "prompt": "Kesultanan Aceh mencapai masa keemasan pada awal abad ke-17 di bawah kepemimpinan...",
+      "hint": "Namanya juga diabadikan menjadi nama bandara internasional di Aceh.",
+      "explanation": "Sultan Iskandar Muda memimpin Kesultanan Aceh mencapai kejayaan besar dalam bidang perdagangan, armada laut, dan pendidikan Islam.",
+      "options": [
+        { "id": "a", "text": "Sultan Iskandar Muda" },
+        { "id": "b", "text": "Sultan Agung" },
+        { "id": "c", "text": "Sultan Baabullah" },
+        { "id": "d", "text": "Sultan Ageng Tirtayasa" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-kingdoms-05-q08",
+      "type": "true_false",
+      "prompt": "Penyebaran agama Islam di Nusantara pada awalnya dilakukan melalui cara damai, seperti perdagangan, pendidikan, dan kesenian.",
+      "hint": "Banyak pedagang Gujarat, Arab, dan Persia berinteraksi di kota pelabuhan Nusantara.",
+      "explanation": "Benar, penyebaran Islam di Nusantara umumnya berlangsung damai melalui perdagangan, perkawinan, pesantren, serta seni seperti wayang dan gamelan.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-kingdoms-05-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Sultan pertama Kerajaan Samudra Pasai yang makamnya menjadi bukti sejarah Islam awal di Aceh bernama Sultan Malik al-...",
+      "hint": "Kata terakhirnya berarti 'orang yang saleh'.",
+      "explanation": "Sultan Malik al-Saleh merupakan pendiri dan raja pertama Samudra Pasai yang wafat pada tahun 1297 M.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Saleh", "al-Saleh", "Malik al-Saleh", "Sultan Malik al-Saleh"]
+      }
+    },
+    {
+      "id": "hist-kingdoms-05-q10",
+      "type": "multiple_choice",
+      "prompt": "Apa kesamaan letak geografis sebagian besar kerajaan Islam awal di Nusantara seperti Samudra Pasai, Demak, dan Ternate?",
+      "hint": "Perhatikan dari mana para pedagang datang membawa ajaran baru.",
+      "explanation": "Sebagian besar kerajaan Islam awal berkembang di kawasan pesisir dan pelabuhan yang menjadi jalur perdagangan laut.",
+      "options": [
+        { "id": "a", "text": "Berada di daerah pesisir yang ramai kapal dagang" },
+        { "id": "b", "text": "Terletak jauh di tengah hutan yang terisolasi" },
+        { "id": "c", "text": "Berada di wilayah kutub yang dingin" },
+        { "id": "d", "text": "Tidak memiliki hubungan dengan perdagangan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

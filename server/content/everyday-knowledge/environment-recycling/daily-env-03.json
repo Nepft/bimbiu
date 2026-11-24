@@ -1,0 +1,147 @@
+{
+  "id": "daily-env-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "everyday-knowledge",
+  "unitId": "environment-recycling",
+  "title": "Membuat Kompos dari Sampah Dapur",
+  "description": "Mengubah sisa sayur, buah, dan daun kering menjadi pupuk alami penyubur tanaman.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["daily-env-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "daily-env-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Pupuk alami yang dihasilkan dari proses penguraian sampah organik seperti daun kering dan sisa sayuran disebut...",
+      "hint": "Pupuk ini berwarna gelap kecokelatan dan berbau seperti tanah hutan.",
+      "explanation": "Kompos adalah pupuk organik hasil penguraian sisa tumbuhan dan bahan organik oleh mikroorganisme atau cacing.",
+      "options": [
+        { "id": "a", "text": "Kompos" },
+        { "id": "b", "text": "Plastik daur ulang" },
+        { "id": "c", "text": "Bensin" },
+        { "id": "d", "text": "Logam cair" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-env-03-q02",
+      "type": "true_false",
+      "prompt": "Potongan plastik dan pecahan kaca dapat dicampurkan ke dalam wadah komposter agar ikut berubah menjadi pupuk tanah.",
+      "hint": "Plastik dan kaca tidak dapat membusuk oleh mikroorganisme.",
+      "explanation": "Salah. Hanya bahan organik yang bisa terurai menjadi kompos; plastik dan kaca akan merusak kualitas kompos.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "daily-env-03-q03",
+      "type": "multiple_select",
+      "prompt": "Bahan dapur dan kebun mana saja yang cocok dimasukkan ke dalam komposter rumah?",
+      "hint": "Pilih sisa tumbuhan yang mudah membusuk.",
+      "explanation": "Kulit pisang/wortel, ampas teh atau kopi, dan daun kering sangat baik untuk kompos. Tulang besar atau minyak goreng jelantah sebaiknya dihindari di komposter sederhana.",
+      "options": [
+        { "id": "a", "text": "Potongan sisa sayur dan kulit buah" },
+        { "id": "b", "text": "Daun kering dan ranting kecil" },
+        { "id": "c", "text": "Ampas teh dan bubuk kopi" },
+        { "id": "d", "text": "Bungkus mi instan berbahan plastik" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-env-03-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Selain bakteri pengurai, hewan kecil tak bertulang belakang yang hidup di tanah dan membantu mempercepat penguraian kompos adalah ... tanah.",
+      "hint": "Hewan ini bertubuh panjang lunak dan sering dijumpai saat menggali tanah lembap.",
+      "explanation": "Cacing tanah memakan bahan organik dan menghasilkan kotoran (kascing) yang sangat menyuburkan tanah.",
+      "correctAnswer": {
+        "acceptedAnswers": ["cacing", "Cacing"]
+      }
+    },
+    {
+      "id": "daily-env-03-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Diagram wadah komposter berisi susunan berlapis: lapisan daun kering cokelat di bawah, lapisan sisa sayur hijau di tengah, lalu ditutup lapisan tanah dan daun kering lagi.",
+      "prompt": "Mengapa dalam membuat kompos kita mencampurkan bahan 'hijau' (sisa sayur) dengan bahan 'cokelat' (daun kering)?",
+      "hint": "Sisa sayur basah mengandung air, sedangkan daun kering menyerap kelembapan berlebih.",
+      "explanation": "Perpaduan bahan hijau (kaya nitrogen) dan bahan cokelat (kaya karbon) menjaga kompos tidak terlalu basah, tidak berbau busuk, dan cepat matang.",
+      "options": [
+        { "id": "a", "text": "Menyeimbangkan kelembapan dan nutrisi agar kompos cepat matang tanpa bau busuk" },
+        { "id": "b", "text": "Agar warna kompos menjadi belang-belang" },
+        { "id": "c", "text": "Supaya lalat lebih senang datang" },
+        { "id": "d", "text": "Agar sampah tidak bisa terurai selamanya" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-env-03-q06",
+      "type": "multiple_choice",
+      "prompt": "Mengapa tumpukan kompos di dalam ember komposter perlu diaduk sesekali?",
+      "hint": "Makhluk pengurai di dalam kompos membutuhkan udara.",
+      "explanation": "Mengaduk kompos memasukkan oksigen agar bakteri baik dapat bekerja menguraikan sampah tanpa menimbulkan bau menyengat.",
+      "options": [
+        { "id": "a", "text": "Supaya mendapatkan udara (oksigen) bagi mikroorganisme pengurai" },
+        { "id": "b", "text": "Agar bahan plastik di dalamnya cepat mencair" },
+        { "id": "c", "text": "Supaya ember komposter cepat pecah" },
+        { "id": "d", "text": "Agar daun kering berubah menjadi batu" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-env-03-q07",
+      "type": "true_false",
+      "prompt": "Kompos yang sudah matang ditandai dengan bentuknya yang remah seperti tanah, berwarna cokelat kehitaman, dan tidak berbau busuk.",
+      "hint": "Kompos matang berbau segar seperti tanah hutan yang lembap.",
+      "explanation": "Benar! Kompos yang matang tidak berbau menyengat, suhunya tidak lagi panas, dan bertekstur gembur gelap.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-env-03-q08",
+      "type": "multiple_select",
+      "prompt": "Apa saja manfaat mengolah sampah organik menjadi kompos?",
+      "hint": "Pikirkan dampaknya bagi tempat pembuangan sampah dan tanaman di kebun.",
+      "explanation": "Kompos mengurangi volume sampah ke tempat pembuangan akhir (TPA), menyuburkan tanah, dan menghemat pembelian pupuk kimia.",
+      "options": [
+        { "id": "a", "text": "Mengurangi jumlah sampah yang dibuang ke TPA" },
+        { "id": "b", "text": "Menyuburkan tanah dan tanaman di halaman" },
+        { "id": "c", "text": "Mengurangi ketergantungan pada pupuk kimia" },
+        { "id": "d", "text": "Membuat sungai menjadi penuh sampah plastik" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-env-03-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Alat atau wadah khusus yang digunakan untuk membuat kompos di rumah atau sekolah disebut...",
+      "hint": "Namanya berasal dari kata 'kompos' ditambah akhiran '-ter'.",
+      "explanation": "Komposter (atau tong kompos) membantu proses pengomposan berlangsung rapi dan tidak mengotori halaman.",
+      "correctAnswer": {
+        "acceptedAnswers": ["komposter", "Komposter"]
+      }
+    },
+    {
+      "id": "daily-env-03-q10",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Sebuah ember komposter di sudut taman dibuka: isinya tampak sangat basah berair dan mengeluarkan bau asam menyengat.",
+      "prompt": "Apa yang sebaiknya ditambahkan agar komposter tersebut kembali seimbang dan tidak bau?",
+      "hint": "Tambahkan bahan kering kaya karbon untuk menyerap kelebihan air.",
+      "explanation": "Menambahkan daun kering, serbuk gergaji bersih, atau sobekan kardus polos yang tidak mengilap akan menyerap air berlebih dan menghilangkan bau.",
+      "options": [
+        { "id": "a", "text": "Menambahkan daun kering dan mengaduknya agar ada udara" },
+        { "id": "b", "text": "Menyiram lebih banyak air lagi ke dalamnya" },
+        { "id": "c", "text": "Menambahkan botol plastik dan kaleng" },
+        { "id": "d", "text": "Menuangkan minyak goreng bekas" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

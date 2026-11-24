@@ -1,0 +1,147 @@
+{
+  "id": "daily-health-01",
+  "contentVersion": "1.0.0",
+  "categoryId": "everyday-knowledge",
+  "unitId": "health-nutrition",
+  "title": "Piring Makan Bergizi Seimbang",
+  "description": "Mengenal zat gizi penting dan porsi seimbang sesuai panduan Isi Piringku.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 1,
+  "prerequisites": [],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "daily-health-01-q01",
+      "type": "multiple_choice",
+      "prompt": "Zat gizi utama yang berfungsi sebagai sumber energi paling cepat bagi tubuh untuk belajar dan bermain adalah...",
+      "hint": "Zat ini banyak terdapat pada nasi, roti, kentang, dan jagung.",
+      "explanation": "Karbohidrat adalah sumber energi utama tubuh agar kita kuat berpikir di kelas dan aktif bergerak.",
+      "options": [
+        { "id": "a", "text": "Karbohidrat" },
+        { "id": "b", "text": "Vitamin C" },
+        { "id": "c", "text": "Kalsium" },
+        { "id": "d", "text": "Serat" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-health-01-q02",
+      "type": "true_false",
+      "prompt": "Dalam panduan Isi Piringku, setengah bagian piring makan sebaiknya diisi oleh sayur-sayuran dan buah-buahan.",
+      "hint": "Ingat porsi sayur dan buah yang membuat pencernaan lancar dan tubuh kaya vitamin.",
+      "explanation": "Benar! Setengah piring diisi sayur dan buah, sedangkan setengahnya lagi diisi makanan pokok dan lauk-pauk berprotein.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-health-01-q03",
+      "type": "multiple_select",
+      "prompt": "Pilihlah contoh makanan yang kaya akan protein untuk membantu pertumbuhan tubuh!",
+      "hint": "Ada yang berasal dari hewan dan ada juga dari kacang-kacangan.",
+      "explanation": "Telur, ikan, dan tempe adalah sumber protein yang membantu membangun otot dan memperbaiki sel tubuh. Permen kapas hanya berisi gula.",
+      "options": [
+        { "id": "a", "text": "Telur rebus" },
+        { "id": "b", "text": "Ikan kembung" },
+        { "id": "c", "text": "Tempe goreng" },
+        { "id": "d", "text": "Permen kapas" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-health-01-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Makan pagi sebelum berangkat ke sekolah disebut juga dengan istilah...",
+      "hint": "Kegiatan makan di pagi hari ini membantu kita fokus di jam pelajaran pertama.",
+      "explanation": "Sarapan mengisi ulang energi setelah tubuh beristirahat semalaman sehingga kita tidak mudah lemas saat belajar.",
+      "correctAnswer": {
+        "acceptedAnswers": ["sarapan", "Sarapan", "sarapan pagi", "Sarapan pagi"]
+      }
+    },
+    {
+      "id": "daily-health-01-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Sebuah piring makan dibagi menjadi empat bagian: nasi putih di seperempat bagian, pepes ikan di seperempat bagian, sayur bayam wortel di sepertiga bagian sisi lain, dan potongan pepaya di bagian sisanya.",
+      "prompt": "Berdasarkan gambar piring tersebut, bagian makanan manakah yang berperan utama sebagai sumber vitamin, mineral, dan serat?",
+      "hint": "Lihat kelompok makanan yang berwarna hijau, oranye, dan segar.",
+      "explanation": "Sayur bayam wortel dan potongan pepaya kaya akan vitamin, mineral, dan serat yang menjaga daya tahan tubuh dan pencernaan.",
+      "options": [
+        { "id": "a", "text": "Sayur bayam wortel dan pepaya" },
+        { "id": "b", "text": "Nasi putih saja" },
+        { "id": "c", "text": "Pepes ikan saja" },
+        { "id": "d", "text": "Nasi putih dan pepes ikan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-health-01-q06",
+      "type": "multiple_choice",
+      "prompt": "Mineral apa yang sangat penting untuk memperkuat tulang dan gigi anak-anak yang sedang tumbuh?",
+      "hint": "Mineral ini banyak ditemukan di susu, keju, yogurt, dan ikan teri.",
+      "explanation": "Kalsium membantu tulang dan gigi tumbuh kuat serta padat selama masa pertumbuhan anak.",
+      "options": [
+        { "id": "a", "text": "Natrium" },
+        { "id": "b", "text": "Kalsium" },
+        { "id": "c", "text": "Kafein" },
+        { "id": "d", "text": "Glukosa" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "daily-health-01-q07",
+      "type": "true_false",
+      "prompt": "Melewatkan sarapan setiap hari adalah kebiasaan baik supaya berat badan cepat turun.",
+      "hint": "Pikirkan apa akibatnya jika perut kosong sepanjang pagi di sekolah.",
+      "explanation": "Salah. Melewatkan sarapan justru membuat tubuh lemas, sulit berkonsentrasi, dan cenderung makan berlebihan saat siang hari.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "daily-health-01-q08",
+      "type": "multiple_select",
+      "prompt": "Bahan makanan apa saja yang sebaiknya dibatasi konsumsinya agar tubuh tetap sehat?",
+      "hint": "Ingat pesan GGL (tiga jenis bahan yang sering membuat rasa terlalu manis, asin, atau berminyak).",
+      "explanation": "Gula, garam, dan lemak berlebih dapat memicu masalah kesehatan seperti kerusakan gigi, tekanan darah tinggi, dan kegemukan.",
+      "options": [
+        { "id": "a", "text": "Gula berlebih" },
+        { "id": "b", "text": "Garam berlebih" },
+        { "id": "c", "text": "Lemak jenuh berlebih" },
+        { "id": "d", "text": "Air putih bersih" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-health-01-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Vitamin yang banyak terkandung dalam buah jeruk, jambu biji, dan stroberi untuk menjaga daya tahan tubuh adalah vitamin...",
+      "hint": "Namanya berupa satu huruf setelah B.",
+      "explanation": "Vitamin C membantu menjaga daya tahan tubuh agar tidak mudah terserang flu dan membantu penyembuhan luka.",
+      "correctAnswer": {
+        "acceptedAnswers": ["C", "c", "vitamin c", "Vitamin C"]
+      }
+    },
+    {
+      "id": "daily-health-01-q10",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Dua menu bekal sekolah: Kotak A berisi nasi goreng sosis, kerupuk, dan minuman soda manis. Kotak B berisi nasi, ayam panggang, tumis buncis wortel, dan buah pisang.",
+      "prompt": "Kotak bekal manakah yang lebih sesuai dengan prinsip gizi seimbang?",
+      "hint": "Cari kotak bekal yang lengkap mengandung makanan pokok, protein, sayur, dan buah.",
+      "explanation": "Kotak B memiliki karbohidrat (nasi), protein (ayam), sayur (buncis wortel), dan buah (pisang), serta tidak mengandung soda tinggi gula.",
+      "options": [
+        { "id": "a", "text": "Kotak A karena ada sosis dan kerupuk" },
+        { "id": "b", "text": "Kotak B karena gizinya lengkap dan seimbang" },
+        { "id": "c", "text": "Keduanya sama saja gizinya" },
+        { "id": "d", "text": "Kotak A karena minumannya berkarbonasi" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

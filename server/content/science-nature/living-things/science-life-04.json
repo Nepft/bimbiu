@@ -1,0 +1,145 @@
+{
+  "id": "science-life-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "science-nature",
+  "unitId": "living-things",
+  "title": "Rantai Makanan dan Ekosistem",
+  "description": "Mempelajari interaksi antar makhluk hidup dalam ekosistem, rantai makanan, dan bentuk simbiosis.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["science-life-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "science-life-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Dalam rantai makanan di sawah: Padi → Tikus → Ular → Elang. Organisme manakah yang berperan sebagai produsen?",
+      "hint": "Produsen adalah makhluk hidup yang dapat membuat makanannya sendiri.",
+      "explanation": "Padi adalah tumbuhan hijau yang mampu membuat makanan sendiri melalui fotosintesis sehingga berperan sebagai produsen.",
+      "options": [
+        { "id": "a", "text": "Padi" },
+        { "id": "b", "text": "Tikus" },
+        { "id": "c", "text": "Ular" },
+        { "id": "d", "text": "Elang" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-life-04-q02",
+      "type": "true_false",
+      "prompt": "Jamur dan bakteri pengurai berperan mengembalikan zat hara dari makhluk hidup yang mati ke dalam tanah.",
+      "hint": "Tanpa pengurai, bangkai dan daun gugur akan menumpuk terus-menerus.",
+      "explanation": "Benar! Dekomposer (pengurai) seperti jamur dan bakteri menguraikan sisa makhluk hidup menjadi mineral yang menyuburkan tanah.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-life-04-q03",
+      "type": "multiple_choice",
+      "prompt": "Hubungan antara lebah dan bunga yang saling menguntungkan disebut simbiosis apa?",
+      "hint": "Lebah mendapat nektar, bunga dibantu penyerbukannya.",
+      "explanation": "Simbiosis mutualisme adalah hubungan antara dua makhluk hidup yang saling menguntungkan kedua belah pihak.",
+      "options": [
+        { "id": "a", "text": "Parasitisme" },
+        { "id": "b", "text": "Komensalisme" },
+        { "id": "c", "text": "Mutualisme" },
+        { "id": "d", "text": "Kompetisi" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "science-life-04-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Hubungan antara benalu dan pohon inangnya, di mana benalu untung dan pohon dirugikan, disebut simbiosis ______.",
+      "hint": "Berasal dari kata parasit.",
+      "explanation": "Simbiosis parasitisme terjadi saat satu pihak diuntungkan (parasit) dan pihak lainnya dirugikan (inang).",
+      "correctAnswer": {
+        "acceptedAnswers": ["parasitisme", "Parasitisme"]
+      }
+    },
+    {
+      "id": "science-life-04-q05",
+      "type": "multiple_select",
+      "prompt": "Pilih tiga komponen abiotik (benda tak hidup) yang memengaruhi suatu ekosistem:",
+      "hint": "Komponen abiotik adalah unsur fisik/kimia non-makhluk hidup.",
+      "explanation": "Cahaya matahari, air, dan suhu udara adalah komponen abiotik, sedangkan cacing tanah adalah komponen biotik (makhluk hidup).",
+      "options": [
+        { "id": "a", "text": "Cahaya matahari" },
+        { "id": "b", "text": "Air" },
+        { "id": "c", "text": "Suhu udara" },
+        { "id": "d", "text": "Cacing tanah" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "science-life-04-q06",
+      "type": "true_false",
+      "prompt": "Jika populasi ular di sawah berkurang drastis karena diburu, populasi tikus cenderung meningkat.",
+      "hint": "Ular adalah pemangsa tikus.",
+      "explanation": "Benar! Berkurangnya pemangsa (ular) membuat jumlah mangsanya (tikus) meningkat pesat sehingga bisa merusak tanaman padi.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-life-04-q07",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Lautan dan daratan di Bumi yang menyimpan beragam ekosistem alami.",
+      "prompt": "Hubungan antara ikan remora yang memakan sisa makanan ikan hiu sementara ikan hiu tidak dirugikan maupun diuntungkan disebut...",
+      "hint": "Satu pihak untung, pihak lainnya netral (tidak terpengaruh).",
+      "explanation": "Simbiosis komensalisme adalah interaksi ketika satu makhluk hidup mendapat keuntungan dan pihak lain tidak dirugikan atau diuntungkan.",
+      "options": [
+        { "id": "a", "text": "Simbiosis komensalisme" },
+        { "id": "b", "text": "Simbiosis mutualisme" },
+        { "id": "c", "text": "Simbiosis parasitisme" },
+        { "id": "d", "text": "Predasi" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-life-04-q08",
+      "type": "multiple_choice",
+      "prompt": "Sekumpulan rantai makanan yang saling terhubung dan bercabang dalam suatu ekosistem disebut...",
+      "hint": "Bentuknya menyerupai jaring laba-laba.",
+      "explanation": "Jaring-jaring makanan adalah gabungan beberapa rantai makanan yang saling berkaitan dalam satu ekosistem.",
+      "options": [
+        { "id": "a", "text": "Populasi" },
+        { "id": "b", "text": "Jaring-jaring makanan" },
+        { "id": "c", "text": "Metamorfosis" },
+        { "id": "d", "text": "Adaptasi" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-life-04-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Tempat tinggal alami bagi makhluk hidup untuk tumbuh dan berkembang biak disebut ______.",
+      "hint": "Contohnya hutan hujan tropis, terumbu karang, atau padang rumput; diawali huruf H.",
+      "explanation": "Habitat adalah lingkungan fisik tempat suatu organisme hidup dan memenuhi kebutuhannya.",
+      "correctAnswer": {
+        "acceptedAnswers": ["habitat", "Habitat"]
+      }
+    },
+    {
+      "id": "science-life-04-q10",
+      "type": "multiple_select",
+      "prompt": "Manakah contoh simbiosis mutualisme yang tepat?",
+      "hint": "Kedua makhluk hidup sama-sama mendapat manfaat.",
+      "explanation": "Burung jalak memakan kutu di tubuh kerbau (keduanya untung) dan bakteri usus halus membantu mencerna makanan manusia sambil mendapat nutrisi.",
+      "options": [
+        { "id": "a", "text": "Burung jalak dan kerbau" },
+        { "id": "b", "text": "Tali putri dan tanaman pagar" },
+        { "id": "c", "text": "Bakteri baik di usus dan manusia" },
+        { "id": "d", "text": "Cacing pita di dalam usus hewan" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

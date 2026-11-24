@@ -1,0 +1,145 @@
+{
+  "id": "hist-world-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "world-civilizations",
+  "title": "Penjelajahan Ilmu & Ruang Angkasa",
+  "description": "Menelusuri penemuan teleskop, antibiotik, World Wide Web, hingga pendaratan manusia di Bulan.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["hist-world-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-world-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Ilmuwan Italia pada awal abad ke-17 yang menyempurnakan teleskop untuk mengamati kawah Bulan dan empat bulan milik Planet Jupiter adalah...",
+      "hint": "Nama depannya Galileo.",
+      "explanation": "Galileo Galilei menggunakan teleskop buatannya pada tahun 1609 untuk mengamati benda langit dan membuka jalan bagi astronomi modern.",
+      "options": [
+        { "id": "a", "text": "Galileo Galilei" },
+        { "id": "b", "text": "Alexander Fleming" },
+        { "id": "c", "text": "James Watt" },
+        { "id": "d", "text": "Neil Armstrong" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-world-05-q02",
+      "type": "true_false",
+      "prompt": "Penemuan obat antibiotik pertama bernama penisilin oleh Alexander Fleming telah menyelamatkan jutaan nyawa manusia dari infeksi bakteri.",
+      "hint": "Fleming menemukannya dari jamur Penicillium pada tahun 1928.",
+      "explanation": "Benar, penemuan penisilin oleh Alexander Fleming menjadi tonggak penting dalam dunia kedokteran modern.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-world-05-q03",
+      "type": "multiple_choice",
+      "prompt": "Siapakah astronaut pertama di dunia yang berhasil menginjakkan kaki di permukaan Bulan pada tanggal 20 Juli 1969?",
+      "hint": "Beliau menjadi komandan misi Apollo 11.",
+      "explanation": "Neil Armstrong menjadi manusia pertama yang berjalan di Bulan dalam misi Apollo 11 bersama Buzz Aldrin dan Michael Collins.",
+      "options": [
+        { "id": "a", "text": "Neil Armstrong" },
+        { "id": "b", "text": "Yuri Gagarin" },
+        { "id": "c", "text": "Galileo Galilei" },
+        { "id": "d", "text": "Orville Wright" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-world-05-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Satelit buatan pertama yang berhasil diluncurkan manusia ke orbit Bumi pada tahun 1957 bernama...",
+      "hint": "Diluncurkan oleh Uni Soviet dan namanya terdiri dari tujuh huruf, diawali huruf S.",
+      "explanation": "Sputnik 1 adalah satelit buatan pertama di dunia yang menandai dimulainya era penjelajahan antariksa.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Sputnik", "Sputnik 1", "Sputnik-1"]
+      }
+    },
+    {
+      "id": "hist-world-05-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi wahana roket dan kapsul antariksa yang membawa tiga astronaut menuju Bulan pada Juli 1969.",
+      "prompt": "Nama misi antariksa yang membawa Neil Armstrong dan Buzz Aldrin mendarat di Bulan pada tahun 1969 adalah...",
+      "hint": "Namanya menggunakan nama dewa Yunani diikuti angka 11.",
+      "explanation": "Misi Apollo 11 yang diluncurkan dengan roket Saturn V berhasil mendaratkan manusia di Bulan untuk pertama kalinya.",
+      "options": [
+        { "id": "a", "text": "Apollo 11" },
+        { "id": "b", "text": "Voyager 1" },
+        { "id": "c", "text": "Sputnik 1" },
+        { "id": "d", "text": "Palapa A1" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-world-05-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua tokoh perintis penting dalam sejarah penjelajahan luar angkasa!",
+      "hint": "Ingat manusia pertama yang mengorbit Bumi dan manusia pertama yang berjalan di Bulan.",
+      "explanation": "Yuri Gagarin (1961) adalah manusia pertama yang pergi ke luar angkasa, dan Neil Armstrong (1969) adalah manusia pertama yang berjalan di Bulan.",
+      "options": [
+        { "id": "a", "text": "Yuri Gagarin — manusia pertama di luar angkasa" },
+        { "id": "b", "text": "Neil Armstrong — manusia pertama menginjak Bulan" },
+        { "id": "c", "text": "Johannes Gutenberg — manusia pertama di Mars" },
+        { "id": "d", "text": "Thomas Edison — penemu satelit Bulan" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-world-05-q07",
+      "type": "multiple_choice",
+      "prompt": "Ilmuwan komputer yang menciptakan World Wide Web (WWW) pada tahun 1989 sehingga kita dapat mengakses halaman web di internet seperti sekarang adalah...",
+      "hint": "Namanya Tim Berners-...",
+      "explanation": "Tim Berners-Lee menciptakan sistem World Wide Web di CERN untuk memudahkan ilmuwan dan masyarakat berbagi informasi melalui tautan halaman web.",
+      "options": [
+        { "id": "a", "text": "Tim Berners-Lee" },
+        { "id": "b", "text": "Alexander Graham Bell" },
+        { "id": "c", "text": "Edward Jenner" },
+        { "id": "d", "text": "Wright Bersaudara" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-world-05-q08",
+      "type": "true_false",
+      "prompt": "Indonesia pernah menjadi salah satu negara awal di dunia yang mengoperasikan satelit komunikasi domestik sendiri, yaitu Satelit Palapa A1 pada tahun 1976.",
+      "hint": "Nama satelit ini terinspirasi dari Sumpah Palapa Gajah Mada yang melambangkan persatuan Nusantara.",
+      "explanation": "Benar, peluncuran Satelit Palapa A1 pada 1976 menghubungkan komunikasi telepon dan televisi ke berbagai pulau di Indonesia.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-world-05-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Dokter asal Inggris pada abad ke-18 yang menemukan vaksin pertama untuk mencegah penyakit cacar adalah Edward...",
+      "hint": "Nama belakangnya berawalan huruf J.",
+      "explanation": "Edward Jenner mengembangkan vaksin cacar pada tahun 1796 yang menjadi dasar ilmu imunisasi modern.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Jenner", "Edward Jenner"]
+      }
+    },
+    {
+      "id": "hist-world-05-q10",
+      "type": "multiple_choice",
+      "prompt": "Bagaimana sebaiknya anak-anak menggunakan teknologi modern seperti internet dan aplikasi belajar saat ini?",
+      "hint": "Gunakan secara bijak, aman, dan seimbang dengan aktivitas lain.",
+      "explanation": "Teknologi paling bermanfaat jika dipakai untuk mencari ilmu, belajar hal positif, dan digunakan dengan waktu yang seimbang serta aman.",
+      "options": [
+        { "id": "a", "text": "Menggunakannya dengan bijak untuk belajar dan hal positif secara seimbang" },
+        { "id": "b", "text": "Bermain gawai terus-menerus hingga lupa tidur dan belajar" },
+        { "id": "c", "text": "Membagikan data pribadi kepada orang asing di internet" },
+        { "id": "d", "text": "Mempercayai semua berita tanpa memeriksa kebenarannya" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

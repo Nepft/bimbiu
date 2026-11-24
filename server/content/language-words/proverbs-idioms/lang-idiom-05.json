@@ -1,0 +1,145 @@
+{
+  "id": "lang-idiom-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "proverbs-idioms",
+  "title": "Majas Dasar & Bahasa Kiasan",
+  "description": "Mengenal majas personifikasi, hiperbola, metafora, dan perumpamaan dalam cerita serta puisi anak.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["lang-idiom-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-idiom-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Perhatikan kalimat: 'Nyiur melambai-lambai ditiup angin pantai.' Kalimat tersebut menggunakan majas...",
+      "hint": "Pohon nyiur (benda mati/tumbuhan) digambarkan seolah bisa melambai seperti manusia.",
+      "explanation": "Majas personifikasi adalah gaya bahasa yang mengumpamakan benda mati atau tumbuhan seolah-olah memiliki sifat atau perilaku seperti manusia.",
+      "options": [
+        { "id": "a", "text": "Personifikasi" },
+        { "id": "b", "text": "Hiperbola" },
+        { "id": "c", "text": "Metafora" },
+        { "id": "d", "text": "Ironi" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-idiom-05-q02",
+      "type": "true_false",
+      "prompt": "Kalimat 'Suara tepuk tangan penonton menggelegar membelah angkasa' merupakan contoh majas hiperbola.",
+      "hint": "Apakah tepuk tangan benar-benar bisa membelah langit?",
+      "explanation": "Benar. Hiperbola adalah majas yang melebih-lebihkan kenyataan untuk memberi kesan sangat kuat.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-idiom-05-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Gaya bahasa yang membandingkan dua hal secara langsung tanpa kata penghubung seperti 'bagaikan' (contohnya: 'Buku adalah jendela dunia') disebut majas ____.",
+      "hint": "Nama majas ini diawali huruf 'm' dan berakhiran 'a'.",
+      "explanation": "Metafora adalah majas perbandingan langsung atau pemakaian kata bukan dengan arti sebenarnya (contoh: 'jendela dunia', 'raja siang').",
+      "correctAnswer": {
+        "acceptedAnswers": ["metafora", "Metafora"]
+      }
+    },
+    {
+      "id": "lang-idiom-05-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kalimat yang menggunakan majas PERSONIFIKASI!",
+      "hint": "Cari benda alam atau benda mati yang melakukan kegiatan seperti manusia (tersenyum, berbisik, menari).",
+      "explanation": "'Mentari pagi tersenyum ramah' dan 'Angin malam berbisik lembut' memberi sifat manusia kepada matahari dan angin.",
+      "options": [
+        { "id": "a", "text": "Mentari pagi tersenyum ramah menyambut anak-anak berangkat sekolah." },
+        { "id": "b", "text": "Tas sekolahku beratnya seperti sepuluh ton batu." },
+        { "id": "c", "text": "Angin malam berbisik lembut di antara dedaunan." },
+        { "id": "d", "text": "Wajahnya pucat seperti kapas." }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-idiom-05-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Matahari terbit di ufuk timur menyinari sawah dan desa dengan cahaya keemasan.",
+      "prompt": "Dalam puisi anak, matahari sering dijuluki sebagai 'raja siang' dan bulan sebagai 'dewi malam'. Gaya bahasa tersebut termasuk majas...",
+      "hint": "Perbandingan langsung tanpa kata 'seperti' atau 'bagai'.",
+      "explanation": "Menyebut matahari sebagai 'raja siang' adalah majas metafora karena membandingkan langsung matahari dengan seorang raja yang menguasai siang hari.",
+      "options": [
+        { "id": "a", "text": "Metafora" },
+        { "id": "b", "text": "Hiperbola" },
+        { "id": "c", "text": "Personifikasi" },
+        { "id": "d", "text": "Simile" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-idiom-05-q06",
+      "type": "multiple_choice",
+      "prompt": "Kalimat manakah yang termasuk majas SIMILE (perumpamaan dengan kata hubung)?",
+      "hint": "Majas simile menggunakan kata pembanding seperti 'bagai', 'seperti', 'laksana', atau 'bak'.",
+      "explanation": "'Semangatnya menyala bagaikan api' menggunakan kata pembanding 'bagaikan', sehingga termasuk majas simile/asosiasi.",
+      "options": [
+        { "id": "a", "text": "Semangatnya menyala bagaikan api." },
+        { "id": "b", "text": "Alarm jam berteriak membangunkanku." },
+        { "id": "c", "text": "Air matanya mengalir membanjiri seluruh kota." },
+        { "id": "d", "text": "Adik membaca buku cerita di teras." }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-idiom-05-q07",
+      "type": "true_false",
+      "prompt": "Kalimat 'Ibu membeli dua kilogram mangga di pasar' mengandung majas hiperbola.",
+      "hint": "Apakah kalimat itu menyatakan fakta biasa (makna sebenarnya) atau dilebih-lebihkan?",
+      "explanation": "Salah. Kalimat tersebut bermakna lugas (denotatif) dan menyatakan kejadian nyata, bukan kiasan atau majas.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "lang-idiom-05-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Kalimat 'Larinya secepat kilat hingga debu pun tak sempat menyentuhnya' menggunakan majas ____.",
+      "hint": "Gaya bahasa yang melebih-lebihkan keadaan sebenarnya.",
+      "explanation": "Melebih-lebihkan kecepatan lari hingga secepat kilat adalah contoh majas hiperbola.",
+      "correctAnswer": {
+        "acceptedAnswers": ["hiperbola", "Hiperbola"]
+      }
+    },
+    {
+      "id": "lang-idiom-05-q09",
+      "type": "multiple_choice",
+      "prompt": "Apa makna kiasan dari kalimat 'Perpustakaan adalah gudang ilmu'?",
+      "hint": "Gudang menyimpan banyak barang; perpustakaan menyimpan banyak pengetahuan.",
+      "explanation": "Ungkapan 'gudang ilmu' berarti tempat yang menyimpan sangat banyak sumber pengetahuan dan informasi (dari buku-buku).",
+      "options": [
+        { "id": "a", "text": "Tempat menyimpan sangat banyak pengetahuan melalui buku" },
+        { "id": "b", "text": "Ruangan tua yang berdebu" },
+        { "id": "c", "text": "Bangunan tempat menjual alat tulis" },
+        { "id": "d", "text": "Kamar tidur penjaga sekolah" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-idiom-05-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kalimat yang menggunakan majas HIPERBOLA!",
+      "hint": "Cari kalimat yang sangat melebih-lebihkan keadaan.",
+      "explanation": "'Tangisannya mengguncang seisi bumi' dan 'Tumpukan buku itu menjulang setinggi langit' adalah pernyataan yang dilebih-lebihkan (hiperbola).",
+      "options": [
+        { "id": "a", "text": "Tangisannya mengguncang seisi bumi." },
+        { "id": "b", "text": "Ombak laut mengejar-ngejar kakiku di pantai." },
+        { "id": "c", "text": "Tumpukan bukunya menjulang setinggi langit." },
+        { "id": "d", "text": "Kucingku tidur di atas sofa." }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

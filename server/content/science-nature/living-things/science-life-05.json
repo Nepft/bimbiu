@@ -1,0 +1,145 @@
+{
+  "id": "science-life-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "science-nature",
+  "unitId": "living-things",
+  "title": "Tubuh Manusia dan Kesehatan",
+  "description": "Mengenal organ penting tubuh manusia seperti sistem pernapasan, pencernaan, peredaran darah, dan gizi seimbang.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["science-life-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "science-life-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Organ yang berfungsi memompa darah ke seluruh tubuh manusia adalah...",
+      "hint": "Terletak di rongga dada sebelah kiri dan berdetak terus-menerus.",
+      "explanation": "Jantung adalah organ otot yang memompa darah berisi oksigen dan sari makanan ke seluruh tubuh.",
+      "options": [
+        { "id": "a", "text": "Paru-paru" },
+        { "id": "b", "text": "Jantung" },
+        { "id": "c", "text": "Lambung" },
+        { "id": "d", "text": "Ginjal" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-life-05-q02",
+      "type": "true_false",
+      "prompt": "Pertukaran gas oksigen dan karbon dioksida di dalam paru-paru terjadi pada gelembung kecil bernama alveolus.",
+      "hint": "Bentuknya seperti kumpulan kantong udara mungil di ujung bronkiolus.",
+      "explanation": "Benar! Alveolus memiliki dinding sangat tipis yang dikelilingi pembuluh darah kapiler tempat berlangsungnya pertukaran gas.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-life-05-q03",
+      "type": "multiple_choice",
+      "prompt": "Dalam sistem pencernaan manusia, penyerapan sebagian besar sari-sari makanan terjadi di...",
+      "hint": "Organ berbentuk saluran panjang dan berlipat setelah lambung.",
+      "explanation": "Usus halus memiliki dinding berjonjot (vili) yang menyerap sari-sari makanan ke dalam aliran darah.",
+      "options": [
+        { "id": "a", "text": "Kerongkongan" },
+        { "id": "b", "text": "Lambung" },
+        { "id": "c", "text": "Usus halus" },
+        { "id": "d", "text": "Usus besar" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "science-life-05-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Zat gizi yang berfungsi utama sebagai sumber tenaga bagi tubuh, seperti yang terdapat pada nasi, roti, dan kentang, adalah ______.",
+      "hint": "Diawali huruf K.",
+      "explanation": "Karbohidrat adalah sumber energi utama bagi aktivitas tubuh manusia sehari-hari.",
+      "correctAnswer": {
+        "acceptedAnswers": ["karbohidrat", "Karbohidrat"]
+      }
+    },
+    {
+      "id": "science-life-05-q05",
+      "type": "multiple_select",
+      "prompt": "Pilih tiga fungsi utama rangka (tulang) bagi tubuh manusia:",
+      "hint": "Bayangkan apa jadinya tubuh tanpa tulang.",
+      "explanation": "Rangka memberi bentuk tubuh, menegakkan tubuh, serta melindungi organ vital seperti otak (oleh tengkorak) dan jantung/paru-paru (oleh tulang rusuk).",
+      "options": [
+        { "id": "a", "text": "Memberi bentuk dan menegakkan tubuh" },
+        { "id": "b", "text": "Melindungi organ-organ penting seperti otak dan jantung" },
+        { "id": "c", "text": "Sebagai alat gerak pasif tempat melekatnya otot" },
+        { "id": "d", "text": "Menghasilkan cahaya di dalam gelap" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "science-life-05-q06",
+      "type": "true_false",
+      "prompt": "Kekurangan vitamin D dan kalsium dapat mengganggu pertumbuhan tulang pada anak-anak.",
+      "hint": "Sinar matahari pagi membantu tubuh membentuk vitamin D.",
+      "explanation": "Benar! Kalsium dan vitamin D bekerja sama menjaga kepadatan dan kekuatan tulang serta gigi.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-life-05-q07",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Lingkungan sehat dengan udara bersih dan air jernih untuk mendukung kesehatan manusia.",
+      "prompt": "Organ manusia yang berfungsi menyaring darah dan membuang zat sisa metabolisme dalam bentuk urine adalah...",
+      "hint": "Kita memiliki sepasang organ ini berbentuk seperti kacang merah di punggung bawah.",
+      "explanation": "Ginjal menyaring limbah cair dan kelebihan air dari darah untuk dikeluarkan sebagai urine.",
+      "options": [
+        { "id": "a", "text": "Ginjal" },
+        { "id": "b", "text": "Hati" },
+        { "id": "c", "text": "Kerongkongan" },
+        { "id": "d", "text": "Limpa" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-life-05-q08",
+      "type": "multiple_choice",
+      "prompt": "Bagian mata yang berfungsi mengatur banyak sedikitnya cahaya yang masuk ke mata adalah...",
+      "hint": "Bukaan di tengahnya disebut pupil.",
+      "explanation": "Iris (selaput pelangi) mengatur besar kecilnya pupil untuk mengendalikan jumlah cahaya yang masuk ke mata.",
+      "options": [
+        { "id": "a", "text": "Iris" },
+        { "id": "b", "text": "Gendang telinga" },
+        { "id": "c", "text": "Alveolus" },
+        { "id": "d", "text": "Epidermis" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-life-05-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Pembuluh darah yang mengalirkan darah keluar dari jantung menuju ke seluruh tubuh atau paru-paru disebut pembuluh ______.",
+      "hint": "Disebut juga pembuluh nadi.",
+      "explanation": "Arteri (pembuluh nadi) membawa darah keluar dari jantung, sedangkan vena (pembuluh balik) membawa darah kembali ke jantung.",
+      "correctAnswer": {
+        "acceptedAnswers": ["nadi", "Nadi", "arteri", "Arteri"]
+      }
+    },
+    {
+      "id": "science-life-05-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih kebiasaan baik untuk menjaga kesehatan organ pernapasan:",
+      "hint": "Jaga udara yang dihirup tetap bersih dan paru-paru tetap terlatih.",
+      "explanation": "Berolahraga teratur, menanam pohon/menjaga ventilasi udara, serta menghindari asap rokok dan debu membantu menjaga paru-paru tetap sehat.",
+      "options": [
+        { "id": "a", "text": "Berolahraga secara teratur" },
+        { "id": "b", "text": "Menghindari asap rokok dan polusi debu" },
+        { "id": "c", "text": "Menjaga sirkulasi udara bersih di rumah" },
+        { "id": "d", "text": "Menghirup asap pembakaran sampah setiap hari" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    }
+  ]
+}

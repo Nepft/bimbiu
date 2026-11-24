@@ -1,0 +1,142 @@
+{
+  "id": "logic-patterns-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "logic-mathematics",
+  "unitId": "number-patterns",
+  "title": "Pola Perkalian & Pembagian",
+  "description": "Mengenali deret bilangan yang membesar dengan perkalian atau mengecil dengan pembagian tetap.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["logic-patterns-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "logic-patterns-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Perhatikan barisan bilangan: 2, 4, 8, 16, ... Berapakah bilangan selanjutnya?",
+      "hint": "Setiap bilangan dikalikan dengan angka yang sama.",
+      "explanation": "Setiap langkah dikalikan 2 (2 x 2 = 4, 4 x 2 = 8, 8 x 2 = 16). Maka 16 x 2 = 32.",
+      "options": [
+        { "id": "a", "text": "24" },
+        { "id": "b", "text": "30" },
+        { "id": "c", "text": "32" },
+        { "id": "d", "text": "36" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-patterns-02-q02",
+      "type": "true_false",
+      "prompt": "Barisan 80, 40, 20, 10 memiliki aturan dibagi 2 di setiap langkah.",
+      "hint": "Cek apakah 80 : 2 = 40 dan seterusnya.",
+      "explanation": "Benar. 80 : 2 = 40, 40 : 2 = 20, dan 20 : 2 = 10.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "logic-patterns-02-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Lanjutkan barisan perkalian berikut: 3, 9, 27, 81, ...",
+      "hint": "Setiap angka dikalikan 3.",
+      "explanation": "Aturan polanya adalah dikali 3. Jadi, 81 x 3 = 243.",
+      "correctAnswer": { "acceptedAnswers": ["243"] }
+    },
+    {
+      "id": "logic-patterns-02-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih semua bilangan di bawah ini yang merupakan kelipatan 6:",
+      "hint": "Kelipatan 6 habis dibagi 6 tanpa sisa.",
+      "explanation": "12 = 6 x 2, 18 = 6 x 3, dan 30 = 6 x 5. Sementara 25 dan 38 tidak habis dibagi 6.",
+      "options": [
+        { "id": "a", "text": "12" },
+        { "id": "b", "text": "18" },
+        { "id": "c", "text": "25" },
+        { "id": "d", "text": "30" },
+        { "id": "e", "text": "38" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+    },
+    {
+      "id": "logic-patterns-02-q05",
+      "type": "multiple_choice",
+      "prompt": "Tentukan bilangan berikutnya dari pola pembagian: 640, 320, 160, 80, ...",
+      "hint": "Setiap langkah bernilai setengah dari angka sebelumnya.",
+      "explanation": "Barisan selalu dibagi 2. Jadi setelah 80 adalah 80 : 2 = 40.",
+      "options": [
+        { "id": "a", "text": "40" },
+        { "id": "b", "text": "45" },
+        { "id": "c", "text": "50" },
+        { "id": "d", "text": "20" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "logic-patterns-02-q06",
+      "type": "image_quiz",
+      "mediaKey": "quiz-geometri",
+      "mediaCaption": "Empat kotak berurutan berisi titik: Kotak 1 berisi 1 titik, Kotak 2 berisi 3 titik, Kotak 3 berisi 9 titik, dan Kotak 4 bertuliskan tanda tanya (?).",
+      "prompt": "Jika jumlah titik di tiap kotak mengikuti pola perkalian yang sama, ada berapa titik di Kotak 4?",
+      "hint": "Perhatikan perubahan dari 1 ke 3, lalu dari 3 ke 9.",
+      "explanation": "Jumlah titik dikalikan 3 pada setiap kotak berikutnya. Jadi Kotak 4 berisi 9 x 3 = 27 titik.",
+      "options": [
+        { "id": "a", "text": "18 titik" },
+        { "id": "b", "text": "21 titik" },
+        { "id": "c", "text": "27 titik" },
+        { "id": "d", "text": "30 titik" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-patterns-02-q07",
+      "type": "true_false",
+      "prompt": "Dalam pola 5, 10, 20, 40, ..., bilangan berikutnya adalah 60.",
+      "hint": "Cek apakah aturannya ditambah 20 atau dikali 2.",
+      "explanation": "Salah. Polanya adalah dikali 2 di setiap langkah (5 x 2 = 10, 10 x 2 = 20, 20 x 2 = 40), sehingga setelah 40 adalah 40 x 2 = 80.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "logic-patterns-02-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Isilah bilangan berikutnya pada pola berikut: 1000, 500, 250, ...",
+      "hint": "Setiap bilangan dibagi 2.",
+      "explanation": "1000 : 2 = 500, 500 : 2 = 250, maka 250 : 2 = 125.",
+      "correctAnswer": { "acceptedAnswers": ["125"] }
+    },
+    {
+      "id": "logic-patterns-02-q09",
+      "type": "multiple_choice",
+      "prompt": "Suatu jenis sel membelah menjadi 2 setiap jam. Jika mula-mula ada 3 sel, berapa banyak sel setelah 3 jam?",
+      "hint": "Hitung satu jam demi satu jam: awal 3, jam ke-1 menjadi 6, dan seterusnya.",
+      "explanation": "Awal = 3 sel. Jam ke-1 = 6 sel. Jam ke-2 = 12 sel. Jam ke-3 = 24 sel.",
+      "options": [
+        { "id": "a", "text": "18" },
+        { "id": "b", "text": "24" },
+        { "id": "c", "text": "27" },
+        { "id": "d", "text": "36" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-patterns-02-q10",
+      "type": "multiple_select",
+      "prompt": "Diketahui pola perkalian 3: 4, 12, 36, ... Pilih dua bilangan berikutnya jika pola dilanjutkan hingga suku ke-5!",
+      "hint": "Kalikan 36 dengan 3 untuk suku ke-4, lalu kalikan hasilnya dengan 3 untuk suku ke-5.",
+      "explanation": "Suku ke-4 adalah 36 x 3 = 108, dan suku ke-5 adalah 108 x 3 = 324.",
+      "options": [
+        { "id": "a", "text": "72" },
+        { "id": "b", "text": "108" },
+        { "id": "c", "text": "216" },
+        { "id": "d", "text": "324" }
+      ],
+      "correctAnswer": { "optionIds": ["b", "d"] }
+    }
+  ]
+}

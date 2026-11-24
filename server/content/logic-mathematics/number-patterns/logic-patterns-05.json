@@ -1,0 +1,141 @@
+{
+  "id": "logic-patterns-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "logic-mathematics",
+  "unitId": "number-patterns",
+  "title": "Pola Lompat & Deret Campuran",
+  "description": "Menyelesaikan teka-teki pola selang-seling dua larik dan kombinasi operasi hitung.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["logic-patterns-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "logic-patterns-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Perhatikan pola dua larik: 2, 10, 4, 20, 6, 30, 8, ... Angka berapakah setelah 8?",
+      "hint": "Pisahkan angka posisi ganjil (2, 4, 6, 8) dan posisi genap (10, 20, 30, ...).",
+      "explanation": "Ada dua pola selang-seling: 2, 4, 6, 8 dan 10, 20, 30, ... Posisi setelah 8 mengikuti pola kedua, yaitu 40.",
+      "options": [
+        { "id": "a", "text": "10" },
+        { "id": "b", "text": "35" },
+        { "id": "c", "text": "40" },
+        { "id": "d", "text": "48" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-patterns-05-q02",
+      "type": "true_false",
+      "prompt": "Pada pola huruf A, C, E, G, I, ..., huruf berikutnya adalah K.",
+      "hint": "Sebutkan abjad sambil melompati satu huruf setiap langkah.",
+      "explanation": "Benar. Pola melompati 1 huruf di antaranya: A (B) C (D) E (F) G (H) I (J) K.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "logic-patterns-05-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Temukan bilangan selanjutnya pada pola campuran ini: 2, 4, 7, 14, 17, 34, 37, ...",
+      "hint": "Perhatikan aturan bergantian: dikali 2, lalu ditambah 3, lalu dikali 2 lagi.",
+      "explanation": "Aturannya bergantian x2 dan +3 (2x2=4, 4+3=7, 7x2=14, 14+3=17, 17x2=34, 34+3=37). Berikutnya 37 x 2 = 74.",
+      "correctAnswer": { "acceptedAnswers": ["74"] }
+    },
+    {
+      "id": "logic-patterns-05-q04",
+      "type": "multiple_select",
+      "prompt": "Perhatikan pola selang-seling berikut: 5, 100, 10, 90, 15, 80, ... Pilih dua bilangan berikutnya secara berurutan setelah 80!",
+      "hint": "Pola pertama naik +5 (5, 10, 15, ...) dan pola kedua turun -10 (100, 90, 80, ...).",
+      "explanation": "Setelah 80 adalah giliran pola pertama: 15 + 5 = 20, lalu giliran pola kedua: 80 - 10 = 70.",
+      "options": [
+        { "id": "a", "text": "20" },
+        { "id": "b", "text": "25" },
+        { "id": "c", "text": "60" },
+        { "id": "d", "text": "70" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "d"] }
+    },
+    {
+      "id": "logic-patterns-05-q05",
+      "type": "multiple_choice",
+      "prompt": "Angka berapakah yang tepat melanjutkan barisan 1, 4, 3, 6, 5, 8, 7, ...?",
+      "hint": "Aturannya bergantian antara ditambah 3 dan dikurangi 1.",
+      "explanation": "Polanya adalah +3, -1, +3, -1, +3, -1. Setelah 7 adalah 7 + 3 = 10.",
+      "options": [
+        { "id": "a", "text": "9" },
+        { "id": "b", "text": "10" },
+        { "id": "c", "text": "11" },
+        { "id": "d", "text": "12" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-patterns-05-q06",
+      "type": "image_quiz",
+      "mediaKey": "quiz-geometri",
+      "mediaCaption": "Mesin angka berpasangan: masukan 2 keluar 5, masukan 3 keluar 7, masukan 4 keluar 9, masukan 5 keluar tanda tanya (?).",
+      "prompt": "Jika mesin angka selalu mengalikan angka masukan dengan 2 lalu menambahkannya dengan 1, berapakah keluaran untuk angka 5?",
+      "hint": "Hitung (5 x 2) lalu tambah 1.",
+      "explanation": "Dengan aturan (angka x 2) + 1, masukan 5 menghasilkan (5 x 2) + 1 = 10 + 1 = 11.",
+      "options": [
+        { "id": "a", "text": "9" },
+        { "id": "b", "text": "10" },
+        { "id": "c", "text": "11" },
+        { "id": "d", "text": "12" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-patterns-05-q07",
+      "type": "true_false",
+      "prompt": "Pola 3, 6, 5, 10, 9, 18, 17 menggunakan aturan bergantian dikali 2 lalu dikurangi 1.",
+      "hint": "Uji satu per satu: 3 x 2 = 6, 6 - 1 = 5, 5 x 2 = 10, dan seterusnya.",
+      "explanation": "Benar. 3 x 2 = 6, 6 - 1 = 5, 5 x 2 = 10, 10 - 1 = 9, 9 x 2 = 18, dan 18 - 1 = 17.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "logic-patterns-05-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Lanjutkan barisan berikut: 50, 45, 47, 42, 44, 39, ...",
+      "hint": "Polanya adalah -5, lalu +2 secara bergantian.",
+      "explanation": "50 - 5 = 45, 45 + 2 = 47, 47 - 5 = 42, 42 + 2 = 44, 44 - 5 = 39. Langkah berikutnya 39 + 2 = 41.",
+      "correctAnswer": { "acceptedAnswers": ["41"] }
+    },
+    {
+      "id": "logic-patterns-05-q09",
+      "type": "multiple_choice",
+      "prompt": "Perhatikan kombinasi huruf dan angka: A1, B3, C5, D7, ... Pasangan berikutnya adalah ...",
+      "hint": "Hurufnya berurutan A, B, C, D, ... sedangkan angkanya adalah bilangan ganjil.",
+      "explanation": "Huruf setelah D adalah E, dan angka ganjil setelah 7 adalah 9. Jadi jawabannya E9.",
+      "options": [
+        { "id": "a", "text": "E9" },
+        { "id": "b", "text": "E8" },
+        { "id": "c", "text": "F9" },
+        { "id": "d", "text": "E11" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "logic-patterns-05-q10",
+      "type": "multiple_select",
+      "prompt": "Diketahui pola 4, 8, 5, 10, 7, 14, ... (aturan bergantian x2 dan -3). Pilih dua angka yang merupakan dua suku berikutnya!",
+      "hint": "Setelah 14, lakukan -3 terlebih dahulu, lalu hasilnya dikali 2.",
+      "explanation": "Setelah 14 adalah 14 - 3 = 11, lalu 11 x 2 = 22.",
+      "options": [
+        { "id": "a", "text": "11" },
+        { "id": "b", "text": "12" },
+        { "id": "c", "text": "22" },
+        { "id": "d", "text": "24" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

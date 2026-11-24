@@ -1,0 +1,147 @@
+{
+  "id": "daily-env-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "everyday-knowledge",
+  "unitId": "environment-recycling",
+  "title": "Menjaga Udara Bersih & Pohon",
+  "description": "Memahami peran pohon dalam menyegarkan udara dan cara sederhana mengurangi polusi udara.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["daily-env-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "daily-env-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Gas apa yang dilepaskan oleh tumbuhan hijau saat berfotosintesis di siang hari dan sangat dibutuhkan manusia untuk bernapas?",
+      "hint": "Rumus kimianya adalah O₂.",
+      "explanation": "Melalui fotosintesis, tumbuhan menyerap karbon dioksida dan melepaskan oksigen yang menyegarkan udara untuk bernapas.",
+      "options": [
+        { "id": "a", "text": "Oksigen" },
+        { "id": "b", "text": "Karbon monoksida" },
+        { "id": "c", "text": "Asap knalpot" },
+        { "id": "d", "text": "Gas metana" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-env-05-q02",
+      "type": "true_false",
+      "prompt": "Membakar sampah plastik di halaman rumah aman dilakukan karena membuat tumpukan sampah cepat hilang.",
+      "hint": "Asap pembakaran plastik mengandung racun berbahaya bagi paru-paru.",
+      "explanation": "Salah. Membakar plastik menghasilkan asap beracun (seperti dioksin) yang mencemari udara dan berbahaya jika terhirup.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "daily-env-05-q03",
+      "type": "multiple_select",
+      "prompt": "Pilihan perjalanan mana saja yang ramah lingkungan dan tidak menambah polusi udara untuk jarak dekat?",
+      "hint": "Pilih cara bepergian yang tidak membakar bensin.",
+      "explanation": "Berjalan kaki, bersepeda, atau naik angkutan umum bersama-sama membantu mengurangi jumlah asap kendaraan di jalan.",
+      "options": [
+        { "id": "a", "text": "Berjalan kaki ke warung atau sekolah dekat rumah" },
+        { "id": "b", "text": "Bersepeda bersama teman" },
+        { "id": "c", "text": "Menggunakan transportasi umum atau berangkat bersama (carpool)" },
+        { "id": "d", "text": "Meminta diantar mobil sendiri untuk jarak 100 meter" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-env-05-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Kegiatan menanam kembali pohon di lahan atau hutan yang gundul dikenal dengan istilah...",
+      "hint": "Kata ini berawalan huruf 're' dan berarti penghijauan kembali.",
+      "explanation": "Reboisasi adalah penanaman kembali pohon di lahan gundul untuk memulihkan ekosistem, udara bersih, dan resapan air.",
+      "correctAnswer": {
+        "acceptedAnswers": ["reboisasi", "Reboisasi", "penghijauan", "Penghijauan"]
+      }
+    },
+    {
+      "id": "daily-env-05-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Ilustrasi dua jalan: Jalan A penuh deretan pohon rindang di kanan kiri trotoar. Jalan B gersang tanpa satu pun pohon di bawah terik matahari dan banyak asap knalpot.",
+      "prompt": "Selain menghasilkan oksigen, manfaat apa lagi yang dirasakan pejalan kaki di Jalan A?",
+      "hint": "Daun pohon yang rimbun menahan sinar matahari dan menangkap debu.",
+      "explanation": "Pohon rindang meneduhkan udara sekitar, menurunkan suhu panas, serta membantu menyaring debu di udara.",
+      "options": [
+        { "id": "a", "text": "Udara terasa lebih sejuk, teduh, dan debu berkurang" },
+        { "id": "b", "text": "Jalan menjadi lebih panas daripada jalan gersang" },
+        { "id": "c", "text": "Asap kendaraan bertambah banyak karena daun" },
+        { "id": "d", "text": "Air hujan tidak bisa meresap ke tanah" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-env-05-q06",
+      "type": "multiple_choice",
+      "prompt": "Mengapa pohon dan hutan sering dijuluki sebagai 'paru-paru dunia'?",
+      "hint": "Bayangkan fungsi paru-paru dalam pertukaran gas bagi tubuh.",
+      "explanation": "Pohon menyerap karbon dioksida dan menghasilkan oksigen dalam jumlah besar sehingga menjaga keseimbangan udara bagi seluruh makhluk hidup di bumi.",
+      "options": [
+        { "id": "a", "text": "Karena menghasilkan oksigen dan menyerap karbon dioksida" },
+        { "id": "b", "text": "Karena batang pohon berbentuk seperti tulang rusuk" },
+        { "id": "c", "text": "Karena hutan hanya tumbuh di dalam laut" },
+        { "id": "d", "text": "Karena pohon bisa berjalan berpindah tempat" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-env-05-q07",
+      "type": "true_false",
+      "prompt": "Menggunakan kertas buku tulis secara hemat dan tidak merobek halaman kosong ikut membantu mengurangi penebangan pohon.",
+      "hint": "Bahan baku utama pembuatan kertas adalah serat kayu dari pohon.",
+      "explanation": "Benar! Kertas dibuat dari serat kayu, sehingga menghemat kertas berarti ikut menjaga kelestarian pohon.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-env-05-q08",
+      "type": "multiple_select",
+      "prompt": "Apa yang bisa dilakukan siswa untuk ikut merawat tanaman dan menjaga udara bersih di sekolah?",
+      "hint": "Semua aksi kecil di taman sekolah berdampak baik.",
+      "explanation": "Menyiram tanaman taman kelas, tidak menginjak atau memetik bunga sembarangan, dan membuang sampah pada tempatnya menjaga lingkungan sekolah tetap asri.",
+      "options": [
+        { "id": "a", "text": "Menyiram tanaman di taman kelas secara bergiliran" },
+        { "id": "b", "text": "Tidak mematahkan ranting atau menginjak tanaman hias" },
+        { "id": "c", "text": "Menanam bibit tanaman di pot atau kebun sekolah" },
+        { "id": "d", "text": "Membakar tumpukan daun kering di dekat jendela kelas" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-env-05-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Pencemaran udara oleh asap kendaraan, asap pabrik, atau asap pembakaran disebut ... udara.",
+      "hint": "Kata serapan yang berawalan huruf 'p' dan berakhir '-si'.",
+      "explanation": "Polusi udara adalah masuknya zat berbahaya seperti asap, debu berlebih, dan gas beracun ke atmosfer.",
+      "correctAnswer": {
+        "acceptedAnswers": ["polusi", "Polusi", "pencemaran", "Pencemaran"]
+      }
+    },
+    {
+      "id": "daily-env-05-q10",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Saat kualitas udara di kota sedang berkabut asap tebal, seorang anak bersiap berangkat sekolah memakai masker pelindung.",
+      "prompt": "Apa manfaat memakai masker ketika kualitas udara sedang buruk atau berdebu?",
+      "hint": "Masker menyaring udara sebelum masuk ke hidung dan tenggorokan.",
+      "explanation": "Masker membantu menyaring partikel debu dan polutan agar tidak langsung masuk ke saluran pernapasan.",
+      "options": [
+        { "id": "a", "text": "Membantu menyaring debu dan asap agar tidak mudah terhirup paru-paru" },
+        { "id": "b", "text": "Membuat debu menempel di rambut" },
+        { "id": "c", "text": "Mengubah asap kendaraan menjadi air hujan" },
+        { "id": "d", "text": "Agar tidak perlu bernapas sama sekali" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

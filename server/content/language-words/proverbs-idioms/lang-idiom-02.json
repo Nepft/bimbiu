@@ -1,0 +1,145 @@
+{
+  "id": "lang-idiom-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "proverbs-idioms",
+  "title": "Ungkapan Sikap dan Watak",
+  "description": "Memahami arti ungkapan yang berkaitan dengan sikap, perasaan, dan sifat manusia.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["lang-idiom-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-idiom-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Setiap masalah sebaiknya diselesaikan dengan 'kepala dingin' agar tidak terjadi pertengkaran. Apa arti ungkapan 'kepala dingin'?",
+      "hint": "Sikap yang tidak terburu-buru emosi.",
+      "explanation": "'Kepala dingin' berarti tenang dan sabar, tidak terbawa emosi atau amarah.",
+      "options": [
+        { "id": "a", "text": "Tenang dan sabar" },
+        { "id": "b", "text": "Sedang sakit demam" },
+        { "id": "c", "text": "Cepat marah" },
+        { "id": "d", "text": "Keras kepala" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-idiom-02-q02",
+      "type": "true_false",
+      "prompt": "Ungkapan 'keras kepala' berarti orang yang sangat cerdas dalam pelajaran matematika.",
+      "hint": "Pikirkan anak yang sulit menerima nasihat orang lain.",
+      "explanation": "Salah. 'Keras kepala' berarti tidak mau menuruti nasihat orang lain atau suka membantah (kepala batu).",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "lang-idiom-02-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Meski timnya kalah dalam pertandingan, Riko menerimanya dengan ____ (ikhlas dan sabar). Ungkapan yang tepat adalah ____.",
+      "hint": "Terdiri dari kata 'lapang' dan nama bagian tubuh di bawah leher.",
+      "explanation": "'Lapang dada' berarti berhati sabar, ikhlas, dan mampu menerima keadaan dengan tabah.",
+      "correctAnswer": {
+        "acceptedAnswers": ["lapang dada", "Lapang dada", "berlapang dada", "Berlapang dada"]
+      }
+    },
+    {
+      "id": "lang-idiom-02-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua ungkapan yang artinya menggambarkan sifat baik!",
+      "hint": "Cari ungkapan yang berarti dermawan atau tenang.",
+      "explanation": "'murah hati' (suka memberi/dermawan) dan 'kepala dingin' (tenang dan sabar) adalah sifat baik. 'bermuka dua' (tidak jujur/munafik) dan 'tebal muka' (tidak tahu malu) adalah sifat buruk.",
+      "options": [
+        { "id": "a", "text": "murah hati" },
+        { "id": "b", "text": "bermuka dua" },
+        { "id": "c", "text": "kepala dingin" },
+        { "id": "d", "text": "tebal muka" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-idiom-02-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Seorang anak menyumbangkan sebagian buku bacaan miliknya untuk perpustakaan desa.",
+      "prompt": "Ungkapan apa yang paling tepat untuk menggambarkan sifat anak dermawan tersebut?",
+      "hint": "Kebalikan dari kata 'mahal', digabungkan dengan kata 'hati'.",
+      "explanation": "'Murah hati' berarti suka memberi, penyayang, dan dermawan.",
+      "options": [
+        { "id": "a", "text": "Berat hati" },
+        { "id": "b", "text": "Murah hati" },
+        { "id": "c", "text": "Tinggi hati" },
+        { "id": "d", "text": "Keras hati" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-idiom-02-q06",
+      "type": "multiple_choice",
+      "prompt": "Dengan 'berat hati', Tari harus berpisah dengan sahabatnya yang pindah ke kota lain. Apa makna 'berat hati'?",
+      "hint": "Perasaan saat harus melakukan sesuatu padahal tidak tega atau sedih.",
+      "explanation": "'Berat hati' berarti kurang suka atau merasa sedih dan terpaksa melakukan sesuatu (tidak tega).",
+      "options": [
+        { "id": "a", "text": "Sangat bersemangat" },
+        { "id": "b", "text": "Merasa tidak tega atau kurang rela" },
+        { "id": "c", "text": "Bersikap sombong" },
+        { "id": "d", "text": "Mudah melupakan teman" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-idiom-02-q07",
+      "type": "true_false",
+      "prompt": "Ungkapan 'bermuka dua' artinya seseorang yang tidak jujur dan ucapannya berbeda di depan dan di belakang orang lain.",
+      "hint": "Sikap yang tidak dapat dipercaya atau munafik.",
+      "explanation": "Benar. 'Bermuka dua' berarti tidak tulus, berpura-pura baik di depan tetapi berlainan di belakang.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-idiom-02-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Jangan ikut campur dan sebaiknya ____ agar rahasia kejutan ulang tahun ini tetap aman! Ungkapan yang berarti diam atau tidak membocorkan rahasia adalah ____.",
+      "hint": "Menggunakan kata 'tutup' dan bagian wajah untuk berbicara.",
+      "explanation": "'Tutup mulut' adalah ungkapan yang berarti diam atau tidak menceritakan sesuatu kepada orang lain.",
+      "correctAnswer": {
+        "acceptedAnswers": ["tutup mulut", "Tutup mulut"]
+      }
+    },
+    {
+      "id": "lang-idiom-02-q09",
+      "type": "multiple_choice",
+      "prompt": "Apa arti ungkapan 'kutu buku' pada kalimat: 'Sejak kelas empat, Arman dijuluki kutu buku oleh teman-temannya'?",
+      "hint": "Julukan untuk orang yang sangat gemar membaca.",
+      "explanation": "'Kutu buku' adalah ungkapan bagi orang yang sangat senang membaca dan menelaah buku di mana saja.",
+      "options": [
+        { "id": "a", "text": "Orang yang sering merusak sampul buku" },
+        { "id": "b", "text": "Orang yang sangat gemar membaca buku" },
+        { "id": "c", "text": "Serangga kecil di lemari buku" },
+        { "id": "d", "text": "Penjaga toko buku" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-idiom-02-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua pasangan ungkapan dan artinya yang BENAR!",
+      "hint": "Periksa makna 'gulung tikar' dan 'anak emas'.",
+      "explanation": "'gulung tikar' berarti bangkrut/tutup usaha dan 'anak emas' berarti anak atau orang yang paling disayang. 'gigit jari' artinya kecewa (bukan gembira) dan 'bintang kelas' artinya murid paling berprestasi.",
+      "options": [
+        { "id": "a", "text": "gulung tikar = bangkrut" },
+        { "id": "b", "text": "gigit jari = sangat gembira" },
+        { "id": "c", "text": "anak emas = anak kesayangan" },
+        { "id": "d", "text": "kambing hitam = hewan peliharaan" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

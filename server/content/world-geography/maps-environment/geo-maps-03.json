@@ -1,0 +1,145 @@
+{
+  "id": "geo-maps-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "maps-environment",
+  "title": "Globe, Garis Lintang, dan Garis Bujur",
+  "description": "Pahami cara kerja globe serta sistem koordinat garis lintang dan garis bujur di Bumi.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["geo-maps-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-maps-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Model tiruan bola Bumi berukuran kecil yang menggambarkan bentuk Bumi sebenarnya disebut ...",
+      "hint": "Bentuknya bulat seperti bola dan bisa diputar pada porosnya.",
+      "explanation": "Globe adalah tiruan bentuk Bumi dalam wujud tiga dimensi (bola) yang paling akurat menampilkan perbandingan luas benua dan lautan.",
+      "options": [
+        { "id": "a", "text": "Atlas" },
+        { "id": "b", "text": "Globe" },
+        { "id": "c", "text": "Kompas" },
+        { "id": "d", "text": "Denah" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-maps-03-q02",
+      "type": "true_false",
+      "prompt": "Garis lintang adalah garis khayal mendatar (horizontal) yang sejajar dengan garis khatulistiwa.",
+      "hint": "Garis ini digunakan untuk menentukan letak utara atau selatan dari khatulistiwa serta pembagian iklim.",
+      "explanation": "Benar! Garis lintang melingkari Bumi secara mendatar dari barat ke timur, dimulai dari 0 derajat di garis khatulistiwa.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-maps-03-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Garis khayal tegak (vertikal) yang membentang dari Kutub Utara ke Kutub Selatan untuk menentukan pembagian waktu dunia disebut garis ...",
+      "hint": "Pasangan dari garis lintang.",
+      "explanation": "Garis bujur (longitude) menghubungkan Kutub Utara dan Kutub Selatan serta dipakai sebagai dasar penetapan zona waktu di seluruh dunia.",
+      "correctAnswer": {
+        "acceptedAnswers": ["bujur", "Bujur", "garis bujur", "Garis bujur"]
+      }
+    },
+    {
+      "id": "geo-maps-03-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua keunggulan globe dibandingkan peta datar!",
+      "hint": "Pikirkan bentuk Bumi yang sebenarnya bulat.",
+      "explanation": "Globe menggambarkan bentuk Bumi yang bulat secara proporsional tanpa perubahan bentuk benua di daerah kutub, serta memperagakan rotasi Bumi.",
+      "options": [
+        { "id": "a", "text": "Menunjukkan bentuk asli Bumi yang bulat" },
+        { "id": "b", "text": "Perbandingan luas benua dan lautan lebih tepat tanpa distorsi besar" },
+        { "id": "c", "text": "Mudah dilipat dan dimasukkan ke dalam saku celana" },
+        { "id": "d", "text": "Dapat memperlihatkan denah ruang kelas secara rinci" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "geo-maps-03-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Garis-garis melintang dan membujur pada globe membentuk jaringan koordinat untuk mencari lokasi tepat di Bumi.",
+      "prompt": "Kota di dekat London, Inggris, tempat lewatnya garis Bujur 0 derajat (Meridian Utama) yang menjadi patokan waktu dunia (GMT/UTC) adalah ...",
+      "hint": "Namanya berawalan huruf G.",
+      "explanation": "Garis Bujur 0 derajat (Prime Meridian) melewati Observatorium Royal di Greenwich, London, Inggris.",
+      "options": [
+        { "id": "a", "text": "Greenwich" },
+        { "id": "b", "text": "Paris" },
+        { "id": "c", "text": "Roma" },
+        { "id": "d", "text": "Berlin" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "geo-maps-03-q06",
+      "type": "multiple_choice",
+      "prompt": "Bagian atas dan bawah pada sumbu putar globe mewakili dua titik ekstrem Bumi, yaitu ...",
+      "hint": "Titik 90 derajat Lintang Utara dan 90 derajat Lintang Selatan.",
+      "explanation": "Poros globe menghubungkan Kutub Utara di bagian atas dan Kutub Selatan di bagian bawah.",
+      "options": [
+        { "id": "a", "text": "Garis Khatulistiwa dan Meridian" },
+        { "id": "b", "text": "Kutub Utara dan Kutub Selatan" },
+        { "id": "c", "text": "Samudra Pasifik dan Atlantik" },
+        { "id": "d", "text": "Benua Asia dan Australia" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-maps-03-q07",
+      "type": "true_false",
+      "prompt": "Seluruh wilayah Indonesia berada di sebelah timur garis Bujur 0 derajat (Bujur Timur).",
+      "hint": "Letak bujur Indonesia adalah sekitar 95° BT hingga 141° BT.",
+      "explanation": "Benar! Seluruh wilayah Indonesia terletak pada Bujur Timur (BT), antara sekitar 95° BT sampai 141° BT.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-maps-03-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Nilai derajat pada garis khatulistiwa adalah ... derajat lintang.",
+      "hint": "Angka paling awal sebelum naik ke utara maupun selatan.",
+      "explanation": "Garis khatulistiwa ditetapkan sebagai titik awal pengukuran lintang, yaitu 0 derajat.",
+      "correctAnswer": {
+        "acceptedAnswers": ["0", "nol", "Nol"]
+      }
+    },
+    {
+      "id": "geo-maps-03-q09",
+      "type": "multiple_select",
+      "prompt": "Manakah dua manfaat mengetahui garis lintang dan garis bujur suatu tempat?",
+      "hint": "Sistem GPS di ponsel juga memakai koordinat lintang dan bujur!",
+      "explanation": "Koordinat lintang dan bujur digunakan untuk menemukan titik lokasi tepat di Bumi (seperti navigasi kapal/GPS) serta mengetahui zona iklim dan waktu.",
+      "options": [
+        { "id": "a", "text": "Menentukan lokasi tepat suatu tempat di Bumi" },
+        { "id": "b", "text": "Membantu menentukan pembagian iklim dan zona waktu" },
+        { "id": "c", "text": "Mengukur berat sebuah gunung" },
+        { "id": "d", "text": "Mengubah warna air laut" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "geo-maps-03-q10",
+      "type": "multiple_choice",
+      "prompt": "Mengapa pada peta dunia datar, Pulau Greenland sering terlihat hampir sebesar Benua Afrika padahal aslinya Afrika jauh lebih besar?",
+      "hint": "Bayangkan kulit jeruk bulat yang dipaksa dibentangkan rata di atas meja.",
+      "explanation": "Memproyeksikan permukaan Bumi yang bulat ke bidang datar (seperti proyeksi Mercator) membuat daerah di dekat kutub tampak jauh lebih melebar dari ukuran aslinya.",
+      "options": [
+        { "id": "a", "text": "Karena pelukis peta lupa mengukur Greenland" },
+        { "id": "b", "text": "Karena efek peregangan saat memindahkan permukaan bola Bumi ke peta datar" },
+        { "id": "c", "text": "Karena es di Greenland membuat pulau membesar tiap hari" },
+        { "id": "d", "text": "Karena Afrika memang lebih kecil dari Greenland" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

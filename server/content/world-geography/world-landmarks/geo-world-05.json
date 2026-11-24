@@ -1,0 +1,145 @@
+{
+  "id": "geo-world-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "world-landmarks",
+  "title": "Sungai Terpanjang, Gurun Terluas, dan Pulau Besar",
+  "description": "Pecahkan fakta rekor alam di Bumi mulai dari sungai raksasa hingga laut berkadar garam tinggi.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["geo-world-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-world-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Sungai manakah yang mengalir di Afrika bagian timur laut dan secara tradisional dikenal sebagai sungai terpanjang di dunia?",
+      "hint": "Sungai ini sangat penting bagi peradaban Mesir Kuno.",
+      "explanation": "Sungai Nil mengalir sepanjang sekitar 6.650 kilometer melewati beberapa negara di Afrika hingga bermuara di Laut Tengah di Mesir.",
+      "options": [
+        { "id": "a", "text": "Sungai Mekong" },
+        { "id": "b", "text": "Sungai Nil" },
+        { "id": "c", "text": "Sungai Mississippi" },
+        { "id": "d", "text": "Sungai Rhine" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-world-05-q02",
+      "type": "true_false",
+      "prompt": "Sungai Amazon di Amerika Selatan mengalirkan volume air paling banyak dibandingkan sungai mana pun di dunia.",
+      "hint": "Hutan di sekitarnya juga merupakan hutan hujan terbesar di dunia.",
+      "explanation": "Benar! Sungai Amazon memiliki debit air terbesar di dunia, menyumbang sekitar seperlima dari seluruh air sungai yang mengalir ke samudra.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-world-05-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Pulau terbesar di dunia yang bukan merupakan benua, sebagian besar wilayahnya tertutup es, dan terletak di dekat Kutub Utara adalah ...",
+      "hint": "Dalam bahasa Indonesia sering diterjemahkan sebagai Tanah Hijau.",
+      "explanation": "Greenland memiliki luas lebih dari 2,1 juta kilometer persegi dan menjadi pulau non-benua terbesar di dunia.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Greenland", "greenland"]
+      }
+    },
+    {
+      "id": "geo-world-05-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua pernyataan yang benar tentang Laut Mati (Dead Sea) yang terletak di perbatasan Yordania dan Israel!",
+      "hint": "Kadar garamnya sangat tinggi hingga hampir tidak ada ikan yang bisa hidup di sana.",
+      "explanation": "Laut Mati sebenarnya adalah danau air asin yang sangat asin sehingga tubuh manusia mudah mengapung secara alami di permukaannya.",
+      "options": [
+        { "id": "a", "text": "Memiliki kadar garam yang sangat tinggi" },
+        { "id": "b", "text": "Membuat orang mudah mengapung di airnya" },
+        { "id": "c", "text": "Merupakan rumah bagi ribuan spesies paus" },
+        { "id": "d", "text": "Airnya terasa tawar dan dingin membeku" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "geo-world-05-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Di wilayah Siberia, Rusia, terdapat danau air tawar raksasa berbentuk bulan sabit yang sangat dalam.",
+      "prompt": "Danau air tawar terdalam sekaligus tertua di dunia yang terletak di Rusia adalah Danau ...",
+      "hint": "Namanya berawalan huruf B.",
+      "explanation": "Danau Baikal di Siberia, Rusia, memiliki kedalaman lebih dari 1.600 meter dan menyimpan sekitar 20 persen air tawar cair di permukaan Bumi.",
+      "options": [
+        { "id": "a", "text": "Danau Victoria" },
+        { "id": "b", "text": "Danau Baikal" },
+        { "id": "c", "text": "Danau Superior" },
+        { "id": "d", "text": "Danau Kaspia" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-world-05-q06",
+      "type": "multiple_choice",
+      "prompt": "Gurun dingin yang sangat luas di Asia Timur (antara Tiongkok utara dan Mongolia) serta menjadi tempat ditemukannya banyak fosil dinosaurus adalah ...",
+      "hint": "Namanya singkat, hanya satu kata berawalan G.",
+      "explanation": "Gurun Gobi terletak di antara Mongolia dan Tiongkok utara, terkenal dengan suhu ekstrem dan kekayaan fosil prasejarahnya.",
+      "options": [
+        { "id": "a", "text": "Gurun Sahara" },
+        { "id": "b", "text": "Gurun Gobi" },
+        { "id": "c", "text": "Gurun Kalahari" },
+        { "id": "d", "text": "Gurun Mojave" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-world-05-q07",
+      "type": "true_false",
+      "prompt": "Gurun tidak selalu berupa lautan pasir yang panas terik; wilayah gurun ditentukan oleh curah hujannya yang sangat sedikit.",
+      "hint": "Tahukah kamu bahwa Antarktika juga tergolong gurun dingin terbesar?",
+      "explanation": "Benar! Dalam geografi, gurun adalah wilayah yang menerima curah hujan sangat sedikit setiap tahun, baik panas seperti Sahara maupun sangat dingin seperti Antarktika.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-world-05-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Danau terluas di dunia berdasarkan luas permukaannya (yang saking luasnya sering disebut laut) di perbatasan Eropa dan Asia adalah Laut ...",
+      "hint": "Namanya berawalan huruf K.",
+      "explanation": "Laut Kaspia sebenarnya adalah danau tertutup terluas di dunia dengan luas sekitar 371.000 kilometer persegi.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Kaspia", "kaspia"]
+      }
+    },
+    {
+      "id": "geo-world-05-q09",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua pulau yang termasuk dalam daftar empat pulau terbesar di dunia!",
+      "hint": "Indonesia memiliki dua pulau dalam daftar lima besar dunia!",
+      "explanation": "Greenland (peringkat 1) dan Pulau Papua (peringkat 2 terbesar di dunia) masuk empat besar dunia bersama Kalimantan dan Madagaskar. Jawa berada di luar sepuluh besar.",
+      "options": [
+        { "id": "a", "text": "Greenland" },
+        { "id": "b", "text": "Pulau Papua" },
+        { "id": "c", "text": "Pulau Jawa" },
+        { "id": "d", "text": "Pulau Bali" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "geo-world-05-q10",
+      "type": "multiple_choice",
+      "prompt": "Sungai terpanjang di Asia Tenggara yang mengalir melewati beberapa negara seperti Tiongkok, Laos, Thailand, Kamboja, dan Vietnam adalah Sungai ...",
+      "hint": "Sungai ini bermuara di delta subur di selatan Vietnam.",
+      "explanation": "Sungai Mekong mengalir sekitar 4.350 kilometer dan menjadi sumber penghidupan utama bagi jutaan penduduk di daratan Asia Tenggara.",
+      "options": [
+        { "id": "a", "text": "Sungai Gangga" },
+        { "id": "b", "text": "Sungai Mekong" },
+        { "id": "c", "text": "Sungai Kapuas" },
+        { "id": "d", "text": "Sungai Eufrat" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

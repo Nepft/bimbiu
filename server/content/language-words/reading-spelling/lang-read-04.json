@@ -1,0 +1,145 @@
+{
+  "id": "lang-read-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "reading-spelling",
+  "title": "Kalimat Efektif & Kata Hubung",
+  "description": "Menyusun kalimat yang hemat, jelas, tidak berulang kata, dan memakai konjungsi dengan tepat.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["lang-read-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-read-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Manakah kalimat di bawah ini yang merupakan kalimat EFEKTIF (tidak boros kata)?",
+      "hint": "Kata 'para' sudah bermakna jamak, dan kata 'sangat' sudah bermakna paling/amat.",
+      "explanation": "'Para siswa berbaris rapi di lapangan' sudah efektif. 'Para siswa-siswa', 'banyak anak-anak', dan 'sangat indah sekali' merupakan pemborosan kata (pleonasme).",
+      "options": [
+        { "id": "a", "text": "Para siswa-siswa berbaris rapi di lapangan." },
+        { "id": "b", "text": "Para siswa berbaris rapi di lapangan." },
+        { "id": "c", "text": "Pemandangan pantai itu sangat indah sekali." },
+        { "id": "d", "text": "Banyak anak-anak sedang bermain layang-layang." }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-read-04-q02",
+      "type": "true_false",
+      "prompt": "Kalimat 'Agar supaya cepat pintar, kita harus rajin membaca' sudah termasuk kalimat efektif.",
+      "hint": "Perhatikan kata 'agar' dan 'supaya' yang memiliki arti yang sama.",
+      "explanation": "Salah. Penggunaan kata 'agar' dan 'supaya' secara bersamaan membuat kalimat tidak efektif (boros kata). Cukup gunakan salah satu saja.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "lang-read-04-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Lengkapi dengan kata hubung sebab-akibat yang tepat: 'Santi membawa payung ____ langit tampak mendung gelap.'",
+      "hint": "Kata hubung yang menjelaskan alasan terjadinya peristiwa (berawalan 'k').",
+      "explanation": "Kata hubung 'karena' (atau 'sebab') digunakan untuk menyatakan alasan atau penyebab suatu peristiwa.",
+      "correctAnswer": {
+        "acceptedAnswers": ["karena", "Karena", "sebab", "Sebab"]
+      }
+    },
+    {
+      "id": "lang-read-04-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kalimat yang menggunakan kata hubung dengan TEPAT!",
+      "hint": "Periksa hubungan antara dua bagian kalimat: pilihan ('atau'), pertentangan ('tetapi'), dan akibat ('sehingga').",
+      "explanation": "Kalimat A memakai 'atau' untuk pilihan, dan C memakai 'sehingga' untuk akibat. Kalimat B salah memakai 'tetapi' (seharusnya 'karena') dan D salah memakai 'karena' (seharusnya 'meskipun').",
+      "options": [
+        { "id": "a", "text": "Kamu ingin minum jus jeruk atau es teh?" },
+        { "id": "b", "text": "Dani mendapat nilai bagus tetapi ia rajin belajar." },
+        { "id": "c", "text": "Hujan turun deras semalaman sehingga jalanan tergenang air." },
+        { "id": "d", "text": "Rama tetap berangkat ke sekolah karena kakinya sedang terkilir ringan." }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-read-04-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Seorang anak mengangkat kotak buku sambil tersenyum, sedangkan temannya menyapu lantai kelas.",
+      "prompt": "Kata hubung apa yang paling tepat untuk menggabungkan kedua kegiatan yang terjadi bersamaan pada keterangan tersebut: 'Bima mengangkat kotak buku, ____ Dika menyapu lantai kelas'?",
+      "hint": "Kata hubung yang membandingkan atau menghubungkan dua kegiatan sejajar yang dilakukan dua orang berbeda.",
+      "explanation": "Kata hubung 'sedangkan' digunakan untuk menghubungkan dua kegiatan atau keadaan yang berbeda dan sejajar.",
+      "options": [
+        { "id": "a", "text": "sedangkan" },
+        { "id": "b", "text": "sebab" },
+        { "id": "c", "text": "supaya" },
+        { "id": "d", "text": "kecuali" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-read-04-q06",
+      "type": "multiple_choice",
+      "prompt": "Perhatikan kalimat tidak efektif berikut: 'Bagi semua peserta lomba diharapkan segera berkumpul.' Bagaimana perbaikan yang paling tepat?",
+      "hint": "Kata 'Bagi' di awal membuat kalimat kehilangan subjek.",
+      "explanation": "Menghilangkan kata depan 'Bagi' di awal menjadikan 'Semua peserta lomba' sebagai subjek kalimat yang jelas: 'Semua peserta lomba diharapkan segera berkumpul.'",
+      "options": [
+        { "id": "a", "text": "Semua peserta lomba diharapkan segera berkumpul." },
+        { "id": "b", "text": "Bagi para peserta-peserta lomba diharapkan berkumpul." },
+        { "id": "c", "text": "Kepada seluruh peserta lomba semuanya berkumpul." },
+        { "id": "d", "text": "Untuk bagi semua peserta lomba diharapkan berkumpul." }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-read-04-q07",
+      "type": "true_false",
+      "prompt": "Kata hubung 'meskipun' dan 'walaupun' digunakan untuk menyatakan hubungan pertentangan atau hal yang berlawanan dengan harapan.",
+      "hint": "Contoh: 'Meskipun hujan gerimis, ia tetap datang tepat waktu.'",
+      "explanation": "Benar. Konjungsi 'meskipun' dan 'walaupun' adalah kata hubung konsesif yang menyatakan keadaan berlawanan dengan kenyataan atau harapan.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-read-04-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Perbaiki frasa yang boros kata 'naik ke atas tangga' menjadi dua kata saja yang efektif: '____ tangga'.",
+      "hint": "Jika sudah 'naik', arahnya pasti ke atas sehingga kata 'ke atas' tidak diperlukan lagi.",
+      "explanation": "Kata 'naik' sudah mengandung makna menuju ke atas, sehingga cukup ditulis 'naik tangga' (tanpa 'ke atas').",
+      "correctAnswer": {
+        "acceptedAnswers": ["naik", "Naik", "menaiki", "Menaiki"]
+      }
+    },
+    {
+      "id": "lang-read-04-q09",
+      "type": "multiple_choice",
+      "prompt": "Dalam kalimat 'Nadia makan roti dan minum susu sebelum berangkat', apa fungsi kata hubung 'dan'?",
+      "hint": "Apakah kedua kegiatan tersebut saling bertentangan, pilihan, atau gabungan setara?",
+      "explanation": "Kata hubung 'dan' berfungsi menggabungkan dua hal atau kegiatan yang setara.",
+      "options": [
+        { "id": "a", "text": "Menggabungkan dua hal yang setara" },
+        { "id": "b", "text": "Menunjukkan pilihan" },
+        { "id": "c", "text": "Menyatakan sebab akibat" },
+        { "id": "d", "text": "Menyatakan syarat" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-read-04-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua frasa yang merupakan PEMBOROSAN KATA (tidak efektif) dalam bahasa Indonesia!",
+      "hint": "Cari pasangan kata yang artinya sama-sama bermakna banyak atau menyatakan arah yang sudah jelas.",
+      "explanation": "'maju ke depan' (maju sudah pasti ke depan) dan 'daftar nama-nama' (daftar sudah berisi banyak nama) adalah pemborosan kata.",
+      "options": [
+        { "id": "a", "text": "maju ke depan" },
+        { "id": "b", "text": "membaca buku cerita" },
+        { "id": "c", "text": "daftar nama-nama" },
+        { "id": "d", "text": "belajar bersama di kelas" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

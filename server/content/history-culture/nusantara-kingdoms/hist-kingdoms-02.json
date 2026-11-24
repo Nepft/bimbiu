@@ -1,0 +1,145 @@
+{
+  "id": "hist-kingdoms-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "nusantara-kingdoms",
+  "title": "Sriwijaya, Kerajaan Maritim Nusantara",
+  "description": "Mempelajari kejayaan Kerajaan Sriwijaya sebagai kerajaan maritim dan pusat pembelajaran agama Buddha.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["hist-kingdoms-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-kingdoms-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Kerajaan Sriwijaya yang terkenal memiliki armada laut sangat kuat bercorak agama...",
+      "hint": "Banyak pelajar dari Tiongkok datang ke Sriwijaya untuk mempelajari kitab suci agama ini.",
+      "explanation": "Sriwijaya merupakan kerajaan bercorak Buddha yang menjadi pusat pengajaran agama Buddha di Asia Tenggara.",
+      "options": [
+        { "id": "a", "text": "Hindu" },
+        { "id": "b", "text": "Buddha" },
+        { "id": "c", "text": "Islam" },
+        { "id": "d", "text": "Konghucu" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "hist-kingdoms-02-q02",
+      "type": "true_false",
+      "prompt": "Pusat Kerajaan Sriwijaya diperkirakan berada di sekitar wilayah Palembang, Sumatra Selatan.",
+      "hint": "Banyak prasasti Sriwijaya ditemukan di sekitar Sungai Musi.",
+      "explanation": "Benar, bukti arkeologi dan prasasti menunjukkan pusat Sriwijaya berada di kawasan Palembang, Sumatra Selatan.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-kingdoms-02-q03",
+      "type": "multiple_choice",
+      "prompt": "Siapakah raja terkenal yang membawa Kerajaan Sriwijaya mencapai puncak kejayaan pada abad ke-9?",
+      "hint": "Beliau sebelumnya berasal dari Dinasti Syailendra di Jawa.",
+      "explanation": "Raja Balaputradewa memimpin Sriwijaya hingga mencapai masa keemasan sebagai penguasa perdagangan laut.",
+      "options": [
+        { "id": "a", "text": "Mulawarman" },
+        { "id": "b", "text": "Purnawarman" },
+        { "id": "c", "text": "Balaputradewa" },
+        { "id": "d", "text": "Hayam Wuruk" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "hist-kingdoms-02-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Karena mengandalkan pelayaran dan perdagangan di laut, Sriwijaya dijuluki sebagai kerajaan...",
+      "hint": "Kata ini berarti berhubungan dengan laut dan pelayaran (berawalan huruf M).",
+      "explanation": "Kerajaan maritim adalah kerajaan yang bertumpu pada kekuatan armada laut, pelabuhan, dan perdagangan perairan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["maritim", "kerajaan maritim"]
+      }
+    },
+    {
+      "id": "hist-kingdoms-02-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi kompleks candi bata merah peninggalan Kerajaan Sriwijaya yang berada di Kabupaten Kampar, Provinsi Riau.",
+      "prompt": "Nama kompleks candi bercorak Buddha peninggalan Kerajaan Sriwijaya di Riau pada keterangan gambar adalah...",
+      "hint": "Namanya diawali kata 'Muara'.",
+      "explanation": "Candi Muara Takus di Riau merupakan peninggalan arsitektur Buddha dari masa Kerajaan Sriwijaya.",
+      "options": [
+        { "id": "a", "text": "Candi Prambanan" },
+        { "id": "b", "text": "Candi Muara Takus" },
+        { "id": "c", "text": "Candi Penataran" },
+        { "id": "d", "text": "Candi Gedong Songo" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "hist-kingdoms-02-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua faktor yang membuat Kerajaan Sriwijaya maju dalam perdagangan laut!",
+      "hint": "Perhatikan letak geografis dan kekuatan armada perairannya.",
+      "explanation": "Letak strategis di jalur perdagangan Selat Malaka serta armada laut yang kuat membuat kapal dagang aman berlabuh di Sriwijaya.",
+      "options": [
+        { "id": "a", "text": "Menguasai jalur pelayaran Selat Malaka" },
+        { "id": "b", "text": "Memiliki armada laut yang tangguh" },
+        { "id": "c", "text": "Terletak di puncak pegunungan bersalju" },
+        { "id": "d", "text": "Menutup semua pelabuhan untuk pedagang asing" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-kingdoms-02-q07",
+      "type": "multiple_choice",
+      "prompt": "Prasasti peninggalan Sriwijaya yang menceritakan perjalanan suci Dapunta Hyang Sri Jayanasa adalah...",
+      "hint": "Ditemukan di tepi Sungai Tatang, Palembang.",
+      "explanation": "Prasasti Kedukan Bukit (682 M) menceritakan perjalanan suci Dapunta Hyang dengan ribuan tentara untuk mendirikan wanua Sriwijaya.",
+      "options": [
+        { "id": "a", "text": "Prasasti Kedukan Bukit" },
+        { "id": "b", "text": "Prasasti Yupa" },
+        { "id": "c", "text": "Prasasti Tugu" },
+        { "id": "d", "text": "Prasasti Canggal" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-kingdoms-02-q08",
+      "type": "true_false",
+      "prompt": "Seorang pendeta Buddha dari Tiongkok bernama I-Tsing pernah belajar bahasa Sanskerta dan agama Buddha di Sriwijaya.",
+      "hint": "Catatan I-Tsing menjadi bukti penting bahwa Sriwijaya adalah pusat ilmu pengetahuan.",
+      "explanation": "Benar, I-Tsing tinggal beberapa tahun di Sriwijaya pada abad ke-7 dan mencatat kemegahan pusat belajar Buddha di sana.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-kingdoms-02-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Jalur laut penting antara Pulau Sumatra dan Semenanjung Malaya yang dikuasai Sriwijaya adalah Selat...",
+      "hint": "Nama selat ini sangat ramai dilalui kapal dagang dari India dan Tiongkok.",
+      "explanation": "Selat Malaka merupakan jalur perdagangan laut tersibuk yang dikuasai oleh Sriwijaya.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Malaka", "Selat Malaka"]
+      }
+    },
+    {
+      "id": "hist-kingdoms-02-q10",
+      "type": "multiple_choice",
+      "prompt": "Raja Balaputradewa pernah menjalin hubungan baik dengan Kerajaan Pala di India untuk mendirikan asrama pelajar di...",
+      "hint": "Tempat ini adalah perguruan tinggi Buddha kuno terkenal di India.",
+      "explanation": "Prasasti Nalanda mencatat pembangunan asrama bagi pelajar Sriwijaya yang menuntut ilmu di Universitas Nalanda, India.",
+      "options": [
+        { "id": "a", "text": "Nalanda" },
+        { "id": "b", "text": "Baghdad" },
+        { "id": "c", "text": "Athena" },
+        { "id": "d", "text": "Roma" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

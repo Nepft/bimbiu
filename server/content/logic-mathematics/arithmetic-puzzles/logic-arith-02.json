@@ -1,0 +1,141 @@
+{
+  "id": "logic-arith-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "logic-mathematics",
+  "unitId": "arithmetic-puzzles",
+  "title": "Teka-Teki Bilangan Hilang",
+  "description": "Menemukan angka tersembunyi dalam kalimat matematika dan piramida bilangan.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["logic-arith-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "logic-arith-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Berapakah angka yang tepat untuk mengisi kotak kosong pada 17 + □ = 42?",
+      "hint": "Gunakan operasi kebalikan: kurangkan 42 dengan 17.",
+      "explanation": "42 - 17 = 25. Jadi 17 + 25 = 42.",
+      "options": [
+        { "id": "a", "text": "23" },
+        { "id": "b", "text": "25" },
+        { "id": "c", "text": "27" },
+        { "id": "d", "text": "35" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-arith-02-q02",
+      "type": "true_false",
+      "prompt": "Jika 9 x A = 72, maka nilai A adalah 8.",
+      "hint": "Hitung 72 dibagi 9.",
+      "explanation": "Benar, karena 9 x 8 = 72.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "logic-arith-02-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Tentukan nilai yang hilang pada pengurangan berikut: 65 - ... = 28",
+      "hint": "Kurangkan 65 dengan 28 untuk menemukan pengurangnya.",
+      "explanation": "65 - 28 = 37, sehingga 65 - 37 = 28.",
+      "correctAnswer": { "acceptedAnswers": ["37"] }
+    },
+    {
+      "id": "logic-arith-02-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih semua pasangan bilangan A dan B yang memenuhi perkalian A x B = 36:",
+      "hint": "Kalikan masing-masing pasangan A dan B untuk melihat apakah hasilnya 36.",
+      "explanation": "4 x 9 = 36, 6 x 6 = 36, dan 3 x 12 = 36. Sedangkan 3 x 10 = 30.",
+      "options": [
+        { "id": "a", "text": "A = 4, B = 9" },
+        { "id": "b", "text": "A = 6, B = 6" },
+        { "id": "c", "text": "A = 3, B = 10" },
+        { "id": "d", "text": "A = 3, B = 12" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+    },
+    {
+      "id": "logic-arith-02-q05",
+      "type": "multiple_choice",
+      "prompt": "Jika □ : 7 = 12, berapakah nilai □?",
+      "hint": "Kebalikan dari pembagian adalah perkalian. Hitung 12 x 7.",
+      "explanation": "12 x 7 = 84, jadi 84 : 7 = 12.",
+      "options": [
+        { "id": "a", "text": "74" },
+        { "id": "b", "text": "77" },
+        { "id": "c", "text": "84" },
+        { "id": "d", "text": "96" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-arith-02-q06",
+      "type": "image_quiz",
+      "mediaKey": "quiz-geometri",
+      "mediaCaption": "Piramida penjumlahan 3 tingkat (setiap kotak adalah jumlah dua kotak di bawahnya). Baris bawah: [5] [?] [7]. Baris tengah: [14] [kosong]. Puncak: [30].",
+      "prompt": "Berapakah angka yang harus ditulis pada kotak bertanda tanya (?) di baris paling bawah?",
+      "hint": "Kotak 14 di baris tengah berasal dari penjumlahan 5 + ?.",
+      "explanation": "Karena 5 + ? = 14, maka ? = 14 - 5 = 9. Cek seluruh piramida: 9 + 7 = 16, dan 14 + 16 = 30.",
+      "options": [
+        { "id": "a", "text": "8" },
+        { "id": "b", "text": "9" },
+        { "id": "c", "text": "10" },
+        { "id": "d", "text": "11" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-arith-02-q07",
+      "type": "true_false",
+      "prompt": "Jika sebuah bilangan dikalikan 5 lalu ditambah 4 menghasilkan 34, maka bilangan tersebut adalah 7.",
+      "hint": "Coba uji angka 7: hitung (7 x 5) + 4.",
+      "explanation": "Salah. Jika bilangannya 7, hasilnya (7 x 5) + 4 = 39. Bilangan yang benar adalah 6 karena (6 x 5) + 4 = 34.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "logic-arith-02-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Aku adalah sebuah bilangan. Jika aku dikali 4 lalu dikurangi 6, hasilnya adalah 30. Bilangan berapakah aku?",
+      "hint": "Kerjakan mundur: tambahkan 30 dengan 6, lalu bagi dengan 4.",
+      "explanation": "30 + 6 = 36, lalu 36 : 4 = 9. Cek: 9 x 4 - 6 = 36 - 6 = 30.",
+      "correctAnswer": { "acceptedAnswers": ["9"] }
+    },
+    {
+      "id": "logic-arith-02-q09",
+      "type": "multiple_choice",
+      "prompt": "Diketahui penjumlahan 3★ + 27 = 65, dengan ★ mewakili satu angka satuan. Berapakah angka ★?",
+      "hint": "Hitung dulu 65 - 27 untuk mengetahui bilangan puluhan tersebut.",
+      "explanation": "65 - 27 = 38. Jadi bilangan pertama adalah 38, sehingga angka satuan ★ adalah 8.",
+      "options": [
+        { "id": "a", "text": "5" },
+        { "id": "b", "text": "6" },
+        { "id": "c", "text": "7" },
+        { "id": "d", "text": "8" }
+      ],
+      "correctAnswer": { "optionId": "d" }
+    },
+    {
+      "id": "logic-arith-02-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua persamaan yang nilai kotak (□)-nya sama dengan 6:",
+      "hint": "Substitusikan angka 6 ke tempat kotak (□) pada setiap persamaan.",
+      "explanation": "6 + 14 = 20 dan 48 : 6 = 8 benar. Sedangkan 5 x 6 = 30 (bukan 35) dan 6 - 4 = 2 (bukan 10).",
+      "options": [
+        { "id": "a", "text": "□ + 14 = 20" },
+        { "id": "b", "text": "5 x □ = 35" },
+        { "id": "c", "text": "48 : □ = 8" },
+        { "id": "d", "text": "□ - 4 = 10" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "daily-tech-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "everyday-knowledge",
+  "unitId": "tech-financial",
+  "title": "Mengatur Waktu Layar dengan Seimbang",
+  "description": "Menjaga kesehatan mata dan menyeimbangkan waktu bermain gawai dengan belajar serta bermain aktif.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["daily-tech-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "daily-tech-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Dalam aturan kesehatan mata '20-20-20' saat menatap layar komputer atau tablet, apa yang harus dilakukan setiap 20 menit?",
+      "hint": "Istirahatkan mata dengan melihat benda yang jauh selama 20 detik.",
+      "explanation": "Aturan 20-20-20 berarti setiap 20 menit menatap layar, alihkan pandangan ke objek berjarak 20 kaki (sekitar 6 meter) selama 20 detik agar otot mata rileks.",
+      "options": [
+        { "id": "a", "text": "Melihat objek berjarak sekitar 6 meter selama 20 detik" },
+        { "id": "b", "text": "Mendekatkan wajah 20 cm ke layar" },
+        { "id": "c", "text": "Menatap matahari langsung selama 20 menit" },
+        { "id": "d", "text": "Membuka 20 jendela gim sekaligus" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-tech-03-q02",
+      "type": "true_false",
+      "prompt": "Menatap layar ponsel di ruangan yang gelap gulita sambil berbaring miring baik untuk menjaga kesehatan mata.",
+      "hint": "Kontras cahaya layar yang terlalu terang di ruangan gelap membuat mata cepat lelah.",
+      "explanation": "Salah. Menggunakan gawai sebaiknya di ruangan bercahaya cukup, dengan posisi duduk tegak dan jarak pandang aman.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "daily-tech-03-q03",
+      "type": "multiple_select",
+      "prompt": "Tanda-tanda bahwa kita sudah terlalu lama menatap layar gawai adalah...",
+      "hint": "Perhatikan rasa di mata, leher, dan kebiasaan berkedip.",
+      "explanation": "Mata terasa kering atau perih, leher pegal, dan kepala pusing menandakan kita perlu segera berhenti dan mengistirahatkan mata.",
+      "options": [
+        { "id": "a", "text": "Mata terasa perih, kering, atau berair" },
+        { "id": "b", "text": "Leher dan bahu terasa kaku" },
+        { "id": "c", "text": "Kepala terasa pusing dan sulit fokus" },
+        { "id": "d", "text": "Kuku jari tangan langsung memanjang" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-tech-03-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Total waktu yang dihabiskan seseorang di depan layar TV, ponsel, tablet, atau komputer disebut ... time.",
+      "hint": "Kata bahasa Inggris untuk 'layar' yang berawalan huruf 's'.",
+      "explanation": "Screen time adalah jumlah waktu yang kita habiskan menatap layar perangkat elektronik.",
+      "correctAnswer": {
+        "acceptedAnswers": ["screen", "Screen"]
+      }
+    },
+    {
+      "id": "daily-tech-03-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Jadwal harian seorang anak: Pulang sekolah makan siang dan istirahat, mengerjakan PR pukul 15.00, bermain sepeda di luar pukul 16.30, lalu waktu gawai hanya 1 jam di akhir pekan atau setelah tugas selesai.",
+      "prompt": "Mengapa jadwal harian seperti pada gambar tersebut disebut seimbang?",
+      "hint": "Perhatikan pembagian antara belajar, bermain fisik di luar, dan gawai.",
+      "explanation": "Jadwal tersebut mendahulukan kewajiban belajar, memberi ruang gerak fisik di luar rumah, dan membatasi waktu layar secara disiplin.",
+      "options": [
+        { "id": "a", "text": "Karena kewajiban belajar dan aktivitas fisik didahulukan sebelum gawai" },
+        { "id": "b", "text": "Karena anak bermain gim sepanjang malam" },
+        { "id": "c", "text": "Karena anak tidak pernah beristirahat" },
+        { "id": "d", "text": "Karena PR dikerjakan sambil bermain gim" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-tech-03-q06",
+      "type": "multiple_choice",
+      "prompt": "Apa yang sebaiknya dilakukan ketika waktu bermain gawai yang disepakati bersama orang tua sudah habis?",
+      "hint": "Kedisiplinan diri lebih penting daripada terus menunda.",
+      "explanation": "Menutup aplikasi atau menyimpan gawai tepat waktu melatih disiplin dan menjaga kepercayaan orang tua.",
+      "options": [
+        { "id": "a", "text": "Menghentikan permainan dengan tenang dan menyimpan gawai" },
+        { "id": "b", "text": "Bersembunyi di bawah selimut untuk lanjut bermain" },
+        { "id": "c", "text": "Marah-marah dan membanting tablet" },
+        { "id": "d", "text": "Meminta tambahan waktu terus-menerus sampai malam" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-tech-03-q07",
+      "type": "true_false",
+      "prompt": "Menggunakan gawai untuk mencari informasi tugas sekolah, membaca buku digital, atau belajar kuis termasuk pemanfaatan teknologi yang positif jika waktunya tetap diatur.",
+      "hint": "Teknologi sangat bermanfaat bila dipakai untuk belajar secara seimbang.",
+      "explanation": "Benar! Gawai menjadi alat belajar yang hebat bila digunakan untuk hal positif dengan batasan waktu yang sehat.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-tech-03-q08",
+      "type": "multiple_select",
+      "prompt": "Kegiatan seru tanpa layar yang bisa dilakukan untuk mengisi waktu luang bersama teman atau keluarga adalah...",
+      "hint": "Pilih aktivitas nyata yang melatih gerak, kreativitas, atau kebersamaan.",
+      "explanation": "Membaca buku cerita cetak, bermain permainan papan bersama keluarga, dan berolahraga atau menggambar adalah kegiatan seru tanpa layar.",
+      "options": [
+        { "id": "a", "text": "Membaca buku cerita atau komik edukatif" },
+        { "id": "b", "text": "Bermain ular tangga, catur, atau kartu bersama keluarga" },
+        { "id": "c", "text": "Menggambar, membuat prakarya, atau bersepeda" },
+        { "id": "d", "text": "Menonton video pendek selama 5 jam nonstop" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-tech-03-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Saat sedang makan bersama keluarga di meja makan, sebaiknya ponsel diletakkan dan tidak dimainkan agar kita bisa ... dengan hangat.",
+      "hint": "Kegiatan saling bertukar cerita antara anggota keluarga.",
+      "explanation": "Meja makan tanpa gawai memberi kesempatan keluarga untuk berbincang dan saling mendengarkan cerita hari itu.",
+      "correctAnswer": {
+        "acceptedAnswers": ["berbincang", "Berbincang", "mengobrol", "Mengobrol", "bercerita", "Bercerita"]
+      }
+    },
+    {
+      "id": "daily-tech-03-q10",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Seorang anak belajar dengan laptop di meja belajar: jarak layar sekitar sepanjang lengan, lampu meja menyala terang, dan posisi layar sejajar atau sedikit di bawah garis mata.",
+      "prompt": "Manfaat utama pengaturan meja belajar seperti pada gambar adalah...",
+      "hint": "Perhatikan jarak layar, pencahayaan, dan tinggi layar terhadap mata.",
+      "explanation": "Pencahayaan yang cukup, jarak pandang sekitar 50–60 cm, dan tinggi layar yang pas membuat mata tidak cepat lelah dan leher tidak pegal.",
+      "options": [
+        { "id": "a", "text": "Mata tidak cepat lelah dan leher tetap nyaman saat belajar" },
+        { "id": "b", "text": "Baterai laptop terisi tanpa kabel listrik" },
+        { "id": "c", "text": "Teks di layar menjadi hilang sendiri" },
+        { "id": "d", "text": "Membuat suara speaker lebih keras" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

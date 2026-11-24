@@ -1,0 +1,145 @@
+{
+  "id": "hist-kingdoms-01",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "nusantara-kingdoms",
+  "title": "Kerajaan Hindu Tertua: Kutai dan Tarumanegara",
+  "description": "Mengenal kerajaan Hindu tertua di Nusantara, Raja Mulawarman, Purnawarman, dan peninggalan prasasti batu.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 1,
+  "prerequisites": [],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-kingdoms-01-q01",
+      "type": "multiple_choice",
+      "prompt": "Kerajaan Hindu tertua di Indonesia yang berdiri sekitar abad ke-4 Masehi adalah kerajaan...",
+      "hint": "Kerajaan ini terletak di tepi Sungai Mahakam, Kalimantan Timur.",
+      "explanation": "Kerajaan Kutai Martadipura di Kalimantan Timur diakui sebagai kerajaan bercorak Hindu tertua di Indonesia.",
+      "options": [
+        { "id": "a", "text": "Kutai" },
+        { "id": "b", "text": "Majapahit" },
+        { "id": "c", "text": "Sriwijaya" },
+        { "id": "d", "text": "Demak" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-kingdoms-01-q02",
+      "type": "true_false",
+      "prompt": "Kerajaan Kutai terletak di Pulau Kalimantan, tepatnya di Provinsi Kalimantan Timur.",
+      "hint": "Ingat letak aliran Sungai Mahakam.",
+      "explanation": "Benar, pusat Kerajaan Kutai berada di tepi Sungai Mahakam di wilayah Kalimantan Timur.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-kingdoms-01-q03",
+      "type": "multiple_choice",
+      "prompt": "Peninggalan sejarah berupa tujuh buah tugu batu bertulis dari Kerajaan Kutai disebut...",
+      "hint": "Tugu batu ini dipakai untuk mengikat hewan kurban dalam upacara.",
+      "explanation": "Prasasti Yupa adalah tujuh tugu batu bertuliskan huruf Pallawa dan bahasa Sanskerta yang menceritakan sejarah Kerajaan Kutai.",
+      "options": [
+        { "id": "a", "text": "Prasasti Ciaruteun" },
+        { "id": "b", "text": "Prasasti Yupa" },
+        { "id": "c", "text": "Prasasti Kedukan Bukit" },
+        { "id": "d", "text": "Prasasti Tugu" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "hist-kingdoms-01-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Raja Kerajaan Kutai yang terkenal dermawan karena menyedekahkan 20.000 ekor sapi kepada para brahmana bernama Raja...",
+      "hint": "Namanya berawalan 'Mula...' dan merupakan cucu dari Kudungga.",
+      "explanation": "Raja Mulawarman adalah raja terbesar Kerajaan Kutai yang tercatat sangat dermawan pada Prasasti Yupa.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Mulawarman", "Raja Mulawarman"]
+      }
+    },
+    {
+      "id": "hist-kingdoms-01-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi peninggalan batu bertulis yang terdapat pahatan sepasang telapak kaki Raja Purnawarman di tepi sungai.",
+      "prompt": "Prasasti dengan pahatan telapak kaki Raja Purnawarman tersebut merupakan peninggalan Kerajaan Tarumanegara yang bernama...",
+      "hint": "Nama prasasti ini sama dengan nama sungai tempat ditemukannya di Bogor, Jawa Barat.",
+      "explanation": "Prasasti Ciaruteun ditemukan di aliran Sungai Ciaruteun, Bogor, dengan gambar sepasang telapak kaki Raja Purnawarman.",
+      "options": [
+        { "id": "a", "text": "Prasasti Yupa" },
+        { "id": "b", "text": "Prasasti Ciaruteun" },
+        { "id": "c", "text": "Prasasti Talang Tuo" },
+        { "id": "d", "text": "Prasasti Tuk Mas" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "hist-kingdoms-01-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua keterangan yang benar mengenai Prasasti Yupa dari Kerajaan Kutai!",
+      "hint": "Prasasti ini berasal dari tradisi Hindu India sehingga memakai aksara dan bahasa kuno.",
+      "explanation": "Prasasti Yupa ditulis menggunakan huruf Pallawa dan bahasa Sanskerta, serta ditemukan di Kalimantan Timur.",
+      "options": [
+        { "id": "a", "text": "Ditulis dengan huruf Pallawa" },
+        { "id": "b", "text": "Menggunakan bahasa Sanskerta" },
+        { "id": "c", "text": "Ditulis di atas daun lontar" },
+        { "id": "d", "text": "Ditemukan di Pulau Bali" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-kingdoms-01-q07",
+      "type": "multiple_choice",
+      "prompt": "Di Pulau Jawa, kerajaan Hindu tertua yang berkembang pada abad ke-5 Masehi di wilayah Jawa Barat adalah...",
+      "hint": "Raja terkenalnya bernama Purnawarman.",
+      "explanation": "Kerajaan Tarumanegara adalah kerajaan Hindu tertua di Pulau Jawa yang berpusat di Jawa Barat.",
+      "options": [
+        { "id": "a", "text": "Tarumanegara" },
+        { "id": "b", "text": "Singasari" },
+        { "id": "c", "text": "Mataram Kuno" },
+        { "id": "d", "text": "Kediri" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-kingdoms-01-q08",
+      "type": "true_false",
+      "prompt": "Raja Purnawarman dari Tarumanegara dikenal menggali saluran air sungai untuk mencegah banjir dan mengairi sawah rakyat.",
+      "hint": "Kisah penggalian Sungai Gomati dan Candrabaga tercatat pada Prasasti Tugu.",
+      "explanation": "Benar, Prasasti Tugu menceritakan keberhasilan Raja Purnawarman membangun saluran air sepanjang kurang lebih 11 kilometer.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-kingdoms-01-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Pendiri Kerajaan Kutai sekaligus kakek dari Raja Mulawarman bernama...",
+      "hint": "Namanya berawalan huruf K dan belum memakai nama bercorak Sanskerta.",
+      "explanation": "Kudungga merupakan tokoh pendiri Kerajaan Kutai sebelum diteruskan oleh putranya Aswawarman dan cucunya Mulawarman.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Kudungga", "Raja Kudungga"]
+      }
+    },
+    {
+      "id": "hist-kingdoms-01-q10",
+      "type": "multiple_choice",
+      "prompt": "Mengapa prasasti batu sangat penting bagi sejarawan untuk mempelajari Kerajaan Kutai dan Tarumanegara?",
+      "hint": "Pada masa itu belum ada foto atau buku sejarah cetak.",
+      "explanation": "Prasasti adalah sumber tertulis tertua yang mencatat nama raja, bahasa, agama, dan kehidupan masyarakat pada masa kerajaan tersebut.",
+      "options": [
+        { "id": "a", "text": "Menjadi bukti tertulis tentang raja dan kehidupan masa lalu" },
+        { "id": "b", "text": "Digunakan sebagai uang logam untuk berbelanja" },
+        { "id": "c", "text": "Merupakan batas negara modern Indonesia" },
+        { "id": "d", "text": "Menunjukkan lokasi tambang emas kuno" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

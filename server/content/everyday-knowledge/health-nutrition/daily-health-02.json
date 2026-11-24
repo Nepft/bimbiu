@@ -1,0 +1,147 @@
+{
+  "id": "daily-health-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "everyday-knowledge",
+  "unitId": "health-nutrition",
+  "title": "Air Putih & Hidrasi Tubuh",
+  "description": "Memahami pentingnya minum air putih yang cukup setiap hari dan tanda kekurangan cairan.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["daily-health-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "daily-health-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Berapa banyak kira-kira air putih yang dianjurkan untuk diminum anak usia 10–12 tahun setiap hari?",
+      "hint": "Jumlahnya hampir setara dengan 6 hingga 8 gelas berukuran sedang.",
+      "explanation": "Anak usia 10–12 tahun rata-rata membutuhkan sekitar 6 sampai 8 gelas air putih per hari agar tubuh tetap terhidrasi.",
+      "options": [
+        { "id": "a", "text": "1–2 gelas sehari" },
+        { "id": "b", "text": "6–8 gelas sehari" },
+        { "id": "c", "text": "20 gelas sehari" },
+        { "id": "d", "text": "Hanya minum saat makan malam" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "daily-health-02-q02",
+      "type": "true_false",
+      "prompt": "Kita baru perlu minum air putih ketika tenggorokan sudah terasa sangat haus sekali.",
+      "hint": "Rasa haus yang kuat menandakan tubuh sebenarnya sudah mulai kekurangan cairan.",
+      "explanation": "Salah. Sebaiknya kita minum secara teratur sepanjang hari, jangan menunggu sampai sangat kehausan.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "daily-health-02-q03",
+      "type": "multiple_select",
+      "prompt": "Manakah tanda-tanda bahwa tubuh mulai mengalami kekurangan cairan (dehidrasi)?",
+      "hint": "Perhatikan rasa di mulut, kondisi kepala, dan warna urine.",
+      "explanation": "Bibir kering, urine berwarna kuning pekat, dan tubuh terasa pusing atau lemas adalah tanda tubuh butuh minum air.",
+      "options": [
+        { "id": "a", "text": "Bibir dan mulut terasa kering" },
+        { "id": "b", "text": "Urine berwarna kuning pekat" },
+        { "id": "c", "text": "Merasa pusing dan sulit fokus" },
+        { "id": "d", "text": "Tinggi badan bertambah mendadak" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-health-02-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Kondisi ketika tubuh kekurangan cairan karena terlalu sedikit minum atau banyak berkeringat disebut...",
+      "hint": "Kata ini diawali dengan huruf 'de' dan diakhiri dengan 'si'.",
+      "explanation": "Dehidrasi terjadi saat cairan yang keluar dari tubuh lebih banyak daripada cairan yang masuk.",
+      "correctAnswer": {
+        "acceptedAnswers": ["dehidrasi", "Dehidrasi"]
+      }
+    },
+    {
+      "id": "daily-health-02-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Sebuah bagan warna urine menunjukkan 4 tingkat: (1) bening kekuningan pucat, (2) kuning muda, (3) kuning tua, dan (4) cokelat keruh.",
+      "prompt": "Warna nomor berapakah yang menunjukkan bahwa tubuh terhidrasi dengan baik?",
+      "hint": "Semakin jernih dan pucat warna urine, berarti cairan tubuh cukup.",
+      "explanation": "Urine berwarna bening kekuningan pucat menandakan tubuh cukup cairan, sedangkan warna kuning tua berarti perlu segera minum air.",
+      "options": [
+        { "id": "a", "text": "Nomor 1 (bening kekuningan pucat)" },
+        { "id": "b", "text": "Nomor 3 (kuning tua)" },
+        { "id": "c", "text": "Nomor 4 (cokelat keruh)" },
+        { "id": "d", "text": "Semua warna berarti sama" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-health-02-q06",
+      "type": "multiple_choice",
+      "prompt": "Mengapa air putih jauh lebih baik daripada minuman kemasan rasa buah untuk melepas dahaga setiap hari?",
+      "hint": "Perhatikan kandungan gula dan kalori pada minuman kemasan.",
+      "explanation": "Air putih bebas gula, bebas pewarna, dan langsung menghidrasi tubuh tanpa menambah kalori berlebih.",
+      "options": [
+        { "id": "a", "text": "Air putih lebih manis rasanya" },
+        { "id": "b", "text": "Air putih tidak mengandung gula tambahan dan pewarna" },
+        { "id": "c", "text": "Minuman kemasan tidak mengandung air" },
+        { "id": "d", "text": "Air putih hanya boleh diminum orang dewasa" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "daily-health-02-q07",
+      "type": "true_false",
+      "prompt": "Saat berolahraga atau cuaca panas, tubuh kita membutuhkan lebih banyak minum air putih karena banyak cairan keluar lewat keringat.",
+      "hint": "Keringat yang keluar membuat cairan tubuh berkurang.",
+      "explanation": "Benar! Keringat mengeluarkan air dari tubuh, sehingga kita perlu menggantinya dengan minum air lebih banyak.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-health-02-q08",
+      "type": "multiple_select",
+      "prompt": "Kebiasaan mana saja yang membantu kita cukup minum air setiap hari?",
+      "hint": "Pikirkan cara praktis agar tidak lupa minum di sekolah maupun di rumah.",
+      "explanation": "Membawa botol minum isi ulang ke sekolah, minum setelah bangun tidur, dan memilih air putih saat makan sangat membantu menjaga hidrasi.",
+      "options": [
+        { "id": "a", "text": "Membawa botol minum sendiri ke sekolah" },
+        { "id": "b", "text": "Minum segelas air putih setelah bangun tidur" },
+        { "id": "c", "text": "Memilih air putih saat jam istirahat" },
+        { "id": "d", "text": "Mengganti semua air dengan teh manis kental" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-health-02-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Selain melalui air minum, tubuh juga bisa mendapatkan cairan alami dari buah-buahan yang banyak mengandung air, misalnya buah...",
+      "hint": "Buah besar berkulit hijau dengan daging merah berair.",
+      "explanation": "Semangka (dan juga melon atau jeruk) memiliki kandungan air yang sangat tinggi sehingga membantu menjaga hidrasi tubuh.",
+      "correctAnswer": {
+        "acceptedAnswers": ["semangka", "Semangka", "melon", "Melon", "jeruk", "Jeruk"]
+      }
+    },
+    {
+      "id": "daily-health-02-q10",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Bima selesai bermain sepak bola di lapangan sekolah yang panas dan tampak berkeringat deras. Di bangku ada botol air putih dan sebotol minuman soda dingin.",
+      "prompt": "Minuman mana yang paling sehat dipilih Bima terlebih dahulu untuk mengganti cairan tubuhnya?",
+      "hint": "Pilih minuman yang tidak membuat tenggorokan makin haus karena gula dan soda.",
+      "explanation": "Air putih membantu mengganti cairan tubuh yang hilang melalui keringat secara cepat dan sehat tanpa gula berlebih.",
+      "options": [
+        { "id": "a", "text": "Minuman soda dingin" },
+        { "id": "b", "text": "Air putih" },
+        { "id": "c", "text": "Tidak perlu minum apa pun" },
+        { "id": "d", "text": "Sirup kental tanpa air" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

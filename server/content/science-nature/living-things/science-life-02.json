@@ -1,0 +1,145 @@
+{
+  "id": "science-life-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "science-nature",
+  "unitId": "living-things",
+  "title": "Tumbuhan dan Fotosintesis",
+  "description": "Mengenal bagian-bagian tumbuhan, proses fotosintesis, penyerbukan, dan cara tumbuhan berkembang biak.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["science-life-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "science-life-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Bagian tumbuhan yang berfungsi utama menyerap air dan zat hara dari dalam tanah adalah...",
+      "hint": "Bagian ini umumnya tumbuh ke arah bawah di dalam tanah.",
+      "explanation": "Akar berfungsi menyerap air dan mineral dari tanah sekaligus menopang berdirinya tumbuhan.",
+      "options": [
+        { "id": "a", "text": "Akar" },
+        { "id": "b", "text": "Mahkota bunga" },
+        { "id": "c", "text": "Buah" },
+        { "id": "d", "text": "Kuncup" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-life-02-q02",
+      "type": "true_false",
+      "prompt": "Zat hijau daun yang berperan menangkap energi cahaya Matahari untuk fotosintesis disebut klorofil.",
+      "hint": "Zat ini pula yang memberi warna hijau pada daun.",
+      "explanation": "Benar! Klorofil adalah pigmen hijau pada tumbuhan yang menyerap cahaya Matahari untuk proses fotosintesis.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-life-02-q03",
+      "type": "multiple_choice",
+      "prompt": "Di bagian tumbuhan manakah proses fotosintesis paling banyak berlangsung?",
+      "hint": "Bagian ini memiliki banyak klorofil dan mulut daun (stomata).",
+      "explanation": "Daun merupakan tempat utama fotosintesis karena kaya akan klorofil dan memiliki stomata untuk pertukaran gas.",
+      "options": [
+        { "id": "a", "text": "Akar" },
+        { "id": "b", "text": "Daun" },
+        { "id": "c", "text": "Kulit batang kayu" },
+        { "id": "d", "text": "Biji" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-life-02-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Mulut daun berukuran kecil yang berfungsi sebagai tempat keluar masuknya gas pada daun disebut ______.",
+      "hint": "Diawali huruf S.",
+      "explanation": "Stomata adalah pori-pori kecil di permukaan daun untuk menyerap karbon dioksida dan melepaskan oksigen serta uap air.",
+      "correctAnswer": {
+        "acceptedAnswers": ["stomata", "Stomata"]
+      }
+    },
+    {
+      "id": "science-life-02-q05",
+      "type": "multiple_select",
+      "prompt": "Pilih bahan-bahan yang diperlukan tumbuhan hijau untuk melakukan fotosintesis:",
+      "hint": "Tumbuhan menyerap gas dari udara, cairan dari tanah, dan sinar dari langit.",
+      "explanation": "Fotosintesis memerlukan air (dari akar), gas karbon dioksida (dari udara), dan energi cahaya (umumnya cahaya Matahari).",
+      "options": [
+        { "id": "a", "text": "Air" },
+        { "id": "b", "text": "Karbon dioksida" },
+        { "id": "c", "text": "Cahaya Matahari" },
+        { "id": "d", "text": "Asap kendaraan bermotor" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "science-life-02-q06",
+      "type": "true_false",
+      "prompt": "Hasil utama dari proses fotosintesis adalah karbohidrat (glukosa) dan gas oksigen.",
+      "hint": "Glukosa menjadi makanan tumbuhan, sedangkan oksigen dilepas ke udara.",
+      "explanation": "Benar! Fotosintesis menghasilkan glukosa sebagai sumber energi tumbuhan dan melepaskan oksigen yang sangat penting bagi makhluk hidup.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-life-02-q07",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Ekosistem hijau di daratan Bumi tempat tumbuhan menjadi penghasil makanan dan oksigen.",
+      "prompt": "Peristiwa jatuhnya serbuk sari ke kepala putik pada bunga disebut...",
+      "hint": "Sering dibantu oleh lebah, kupu-kupu, atau angin.",
+      "explanation": "Penyerbukan adalah menempelnya serbuk sari di kepala putik yang mengawali pembentukan biji dan buah.",
+      "options": [
+        { "id": "a", "text": "Penyerbukan" },
+        { "id": "b", "text": "Penguapan" },
+        { "id": "c", "text": "Pembekuan" },
+        { "id": "d", "text": "Pelapukan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-life-02-q08",
+      "type": "multiple_choice",
+      "prompt": "Pembuluh pada batang tumbuhan yang bertugas mengangkut air dan mineral dari akar ke daun disebut...",
+      "hint": "Berasal dari kata Yunani yang berarti kayu; pasangannya adalah floem.",
+      "explanation": "Xilem (pembuluh kayu) mengangkut air dan mineral dari akar menuju daun, sedangkan floem mengedarkan hasil fotosintesis.",
+      "options": [
+        { "id": "a", "text": "Floem" },
+        { "id": "b", "text": "Xilem" },
+        { "id": "c", "text": "Kambium" },
+        { "id": "d", "text": "Kloroplas" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-life-02-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Tumbuhan paku dan lumut berkembang biak secara alami menggunakan ______ yang tersimpan di kotak spora.",
+      "hint": "Berukuran sangat halus seperti debu dan mudah terbawa angin.",
+      "explanation": "Tumbuhan tidak berbunga seperti paku-pakuan dan lumut berkembang biak dengan spora.",
+      "correctAnswer": {
+        "acceptedAnswers": ["spora", "Spora"]
+      }
+    },
+    {
+      "id": "science-life-02-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih contoh tumbuhan yang berkembang biak secara vegetatif alami menggunakan umbi lapis:",
+      "hint": "Umbinya terdiri atas lapisan-lapisan daun berdaging yang menumpuk.",
+      "explanation": "Bawang merah dan bawang putih berkembang biak dengan umbi lapis, sedangkan kentang menggunakan umbi batang dan singkong menggunakan umbi akar.",
+      "options": [
+        { "id": "a", "text": "Bawang merah" },
+        { "id": "b", "text": "Bawang putih" },
+        { "id": "c", "text": "Kentang" },
+        { "id": "d", "text": "Singkong" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    }
+  ]
+}

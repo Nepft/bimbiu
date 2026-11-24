@@ -1,0 +1,145 @@
+{
+  "id": "hist-indep-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "indonesia-independence",
+  "title": "Kebangkitan Nasional dan Budi Utomo",
+  "description": "Belajar tentang lahirnya pergerakan modern, Budi Utomo, R.A. Kartini, dan Ki Hajar Dewantara.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["hist-indep-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-indep-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Organisasi modern pertama di Indonesia yang didirikan pada tanggal 20 Mei 1908 oleh para pelajar STOVIA adalah...",
+      "hint": "Tanggal berdirinya diperingati sebagai Hari Kebangkitan Nasional.",
+      "explanation": "Budi Utomo didirikan pada 20 Mei 1908 oleh dr. Sutomo dan kawan-kawan pelajar kedokteran STOVIA.",
+      "options": [
+        { "id": "a", "text": "Budi Utomo" },
+        { "id": "b", "text": "Sarekat Islam" },
+        { "id": "c", "text": "Taman Siswa" },
+        { "id": "d", "text": "Muhammadiyah" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-02-q02",
+      "type": "true_false",
+      "prompt": "Hari Kebangkitan Nasional diperingati setiap tanggal 20 Mei.",
+      "hint": "Tanggal ini bertepatan dengan berdirinya Budi Utomo pada tahun 1908.",
+      "explanation": "Benar, setiap 20 Mei bangsa Indonesia memperingati Hari Kebangkitan Nasional.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-indep-02-q03",
+      "type": "multiple_choice",
+      "prompt": "Pahlawan perempuan dari Jepara yang memperjuangkan kesetaraan hak pendidikan bagi kaum perempuan adalah...",
+      "hint": "Hari kelahirannya diperingati setiap tanggal 21 April.",
+      "explanation": "R.A. Kartini menulis pemikirannya tentang pentingnya pendidikan perempuan dalam surat-surat yang dibukukan sebagai 'Habis Gelap Terbitlah Terang'.",
+      "options": [
+        { "id": "a", "text": "R.A. Kartini" },
+        { "id": "b", "text": "Dewi Sartika" },
+        { "id": "c", "text": "Cut Meutia" },
+        { "id": "d", "text": "Rohana Kudus" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-02-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Bapak Pendidikan Nasional Indonesia yang mendirikan perguruan Taman Siswa adalah Ki Hajar...",
+      "hint": "Tanggal lahir beliau, 2 Mei, diperingati sebagai Hari Pendidikan Nasional.",
+      "explanation": "Ki Hajar Dewantara mendirikan Taman Siswa pada tahun 1922 agar anak-anak pribumi dapat memperoleh pendidikan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Dewantara", "Ki Hajar Dewantara"]
+      }
+    },
+    {
+      "id": "hist-indep-02-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi bangunan sekolah bersejarah di Yogyakarta tempat lahirnya semboyan 'Tut Wuri Handayani'.",
+      "prompt": "Apa arti dari semboyan pendidikan Ki Hajar Dewantara 'Tut Wuri Handayani'?",
+      "hint": "Semboyan ini sering tertulis di logo Kementerian Pendidikan Indonesia.",
+      "explanation": "'Tut Wuri Handayani' berarti seorang pendidik dari belakang memberikan dorongan dan semangat bagi muridnya.",
+      "options": [
+        { "id": "a", "text": "Dari belakang memberi dorongan" },
+        { "id": "b", "text": "Belajar hanya di rumah saja" },
+        { "id": "c", "text": "Menghafal tanpa bertanya" },
+        { "id": "d", "text": "Menutup sekolah saat hujan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-02-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua tokoh utama yang berperan besar dalam lahirnya organisasi Budi Utomo!",
+      "hint": "Keduanya adalah dokter yang menggerakkan para mahasiswa kedokteran di Batavia.",
+      "explanation": "dr. Wahidin Sudirohusodo menggagas penggalangan dana belajar, lalu dr. Sutomo bersama rekan pelajar STOVIA mendirikan Budi Utomo.",
+      "options": [
+        { "id": "a", "text": "dr. Sutomo" },
+        { "id": "b", "text": "dr. Wahidin Sudirohusodo" },
+        { "id": "c", "text": "Kapitan Pattimura" },
+        { "id": "d", "text": "Pangeran Antasari" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-indep-02-q07",
+      "type": "multiple_choice",
+      "prompt": "Judul buku terkenal yang berisi kumpulan surat R.A. Kartini kepada sahabat-sahabatnya di Belanda adalah...",
+      "hint": "Kalimatnya menggambarkan perjalanan dari kegelapan menuju cahaya.",
+      "explanation": "Kumpulan surat R.A. Kartini diterjemahkan ke bahasa Indonesia dengan judul 'Habis Gelap Terbitlah Terang'.",
+      "options": [
+        { "id": "a", "text": "Habis Gelap Terbitlah Terang" },
+        { "id": "b", "text": "Laskar Pelangi" },
+        { "id": "c", "text": "Negarakertagama" },
+        { "id": "d", "text": "Di Bawah Bendera Revolusi" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-02-q08",
+      "type": "true_false",
+      "prompt": "Setelah tahun 1908, perjuangan bangsa Indonesia mulai beralih menggunakan organisasi modern, pendidikan, dan persatuan nasional.",
+      "hint": "Masa ini dikenal sebagai era Pergerakan Nasional.",
+      "explanation": "Benar, masa setelah 1908 ditandai berdirinya berbagai organisasi pergerakan yang memperjuangkan kemajuan dan kemerdekaan bersama.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-indep-02-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Hari Pendidikan Nasional di Indonesia diperingati setiap tanggal 2 bulan...",
+      "hint": "Bulan ini berada di antara April dan Juni.",
+      "explanation": "Tanggal 2 Mei adalah hari lahir Ki Hajar Dewantara yang ditetapkan sebagai Hari Pendidikan Nasional.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Mei", "2 Mei"]
+      }
+    },
+    {
+      "id": "hist-indep-02-q10",
+      "type": "multiple_choice",
+      "prompt": "Mengapa pendidikan sangat penting dalam perjuangan kemerdekaan Indonesia pada masa Kebangkitan Nasional?",
+      "hint": "Dengan ilmu pengetahuan, rakyat bisa berorganisasi dan berpikir kritis.",
+      "explanation": "Pendidikan melahirkan kaum terpelajar yang sadar akan pentingnya persatuan bangsa untuk melepaskan diri dari penjajahan.",
+      "options": [
+        { "id": "a", "text": "Membuat rakyat sadar pentingnya persatuan dan mampu berjuang secara teratur" },
+        { "id": "b", "text": "Agar masyarakat tidak perlu lagi bekerja" },
+        { "id": "c", "text": "Supaya semua sekolah ditutup pada hari kerja" },
+        { "id": "d", "text": "Karena buku hanya boleh dibaca penjajah" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

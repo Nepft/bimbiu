@@ -1,0 +1,145 @@
+{
+  "id": "science-solar-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "science-nature",
+  "unitId": "solar-system",
+  "title": "Asteroid, Komet, dan Penjelajahan Antariksa",
+  "description": "Mengenal benda langit kecil seperti asteroid, komet, dan meteor, serta teknologi penjelajahan antariksa.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["science-solar-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "science-solar-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Sabuk asteroid utama di tata surya kita terletak di antara orbit planet apa?",
+      "hint": "Memisahkan kelompok planet dalam (berbatu) dan planet luar (raksasa gas).",
+      "explanation": "Sabuk asteroid utama berada di antara orbit planet Mars dan Jupiter.",
+      "options": [
+        { "id": "a", "text": "Bumi dan Mars" },
+        { "id": "b", "text": "Mars dan Jupiter" },
+        { "id": "c", "text": "Jupiter dan Saturnus" },
+        { "id": "d", "text": "Uranus dan Neptunus" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-solar-05-q02",
+      "type": "true_false",
+      "prompt": "Ekor komet selalu mengarah menjauhi Matahari karena dorongan angin dan radiasi Matahari.",
+      "hint": "Bukan hanya mengikuti arah geraknya, melainkan dipengaruhi oleh Matahari.",
+      "explanation": "Benar! Saat mendekati Matahari, es pada komet menguap dan terdorong oleh angin Matahari sehingga ekornya selalu mengarah menjauhi Matahari.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-solar-05-q03",
+      "type": "multiple_choice",
+      "prompt": "Ketika batu luar angkasa memasuki atmosfer Bumi lalu terbakar dan tampak seperti bintang jatuh, benda itu disebut...",
+      "hint": "Jika masih melayang di angkasa disebut meteoroid, sedangkan jika sampai ke tanah disebut meteorit.",
+      "explanation": "Meteor adalah fenomena kilatan cahaya saat meteoroid bergesekan dan terbakar di atmosfer Bumi.",
+      "options": [
+        { "id": "a", "text": "Meteor" },
+        { "id": "b", "text": "Komet" },
+        { "id": "c", "text": "Nebula" },
+        { "id": "d", "text": "Satelit" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-solar-05-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Sisa batuan luar angkasa yang tidak habis terbakar di atmosfer dan berhasil jatuh mencapai permukaan Bumi disebut ______.",
+      "hint": "Berakhiran -it, mirip kata meteor.",
+      "explanation": "Meteorit adalah batuan dari luar angkasa yang bertahan melewati atmosfer dan mendarat di permukaan Bumi.",
+      "correctAnswer": {
+        "acceptedAnswers": ["meteorit", "Meteorit"]
+      }
+    },
+    {
+      "id": "science-solar-05-q05",
+      "type": "multiple_select",
+      "prompt": "Pilih dua bahan utama penyusun inti komet:",
+      "hint": "Komet sering dijuluki sebagai bola salju kotor.",
+      "explanation": "Komet tersusun terutama dari es (air dan gas beku) yang bercampur dengan debu dan batuan.",
+      "options": [
+        { "id": "a", "text": "Es" },
+        { "id": "b", "text": "Debu dan batuan" },
+        { "id": "c", "text": "Logam cair panas" },
+        { "id": "d", "text": "Plastik buatan" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "science-solar-05-q06",
+      "type": "true_false",
+      "prompt": "Neil Armstrong adalah manusia pertama yang berhasil menjejakkan kaki di permukaan Bulan pada tahun 1969.",
+      "hint": "Ia merupakan komandan misi Apollo 11.",
+      "explanation": "Benar! Neil Armstrong menjadi manusia pertama yang berjalan di Bulan dalam misi Apollo 11 pada Juli 1969.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-solar-05-q07",
+      "type": "image_quiz",
+      "mediaKey": "quiz-planet",
+      "mediaCaption": "Wahana buatan manusia yang mengorbit Bumi untuk memantau cuaca dan komunikasi.",
+      "prompt": "Alat buatan manusia yang diluncurkan ke orbit Bumi untuk membantu navigasi GPS, siaran televisi, dan pengamatan cuaca disebut...",
+      "hint": "Alat ini mengorbit Bumi seperti Bulan, tetapi dibuat oleh manusia.",
+      "explanation": "Satelit buatan mengorbit Bumi untuk menjalankan berbagai fungsi penting seperti komunikasi, navigasi GPS, dan pemantauan cuaca.",
+      "options": [
+        { "id": "a", "text": "Satelit buatan" },
+        { "id": "b", "text": "Asteroid" },
+        { "id": "c", "text": "Komet" },
+        { "id": "d", "text": "Rasi bintang" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-solar-05-q08",
+      "type": "multiple_choice",
+      "prompt": "Alat optik yang diletakkan di luar angkasa (seperti Hubble dan James Webb) berfungsi untuk...",
+      "hint": "Dengan berada di luar atmosfer, gambar benda langit jauh menjadi jauh lebih jernih.",
+      "explanation": "Teleskop luar angkasa mengamati bintang, galaksi, dan planet jauh dengan jernih tanpa terhalang awan dan gangguan atmosfer Bumi.",
+      "options": [
+        { "id": "a", "text": "Mengubah arah orbit planet Mars" },
+        { "id": "b", "text": "Mengamati objek antariksa yang sangat jauh dengan jernih" },
+        { "id": "c", "text": "Mematikan cahaya Matahari saat siang hari" },
+        { "id": "d", "text": "Menghasilkan hujan di gurun pasir" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-solar-05-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Ilmuwan yang mempelajari benda-bintang, planet, dan alam semesta disebut ______.",
+      "hint": "Berasal dari kata astronomi.",
+      "explanation": "Astronom adalah ilmuwan yang meneliti benda langit dan fenomena alam semesta, sedangkan orang yang terbang ke antariksa disebut astronot.",
+      "correctAnswer": {
+        "acceptedAnswers": ["astronom", "Astronom"]
+      }
+    },
+    {
+      "id": "science-solar-05-q10",
+      "type": "multiple_select",
+      "prompt": "Mengapa astronot di luar angkasa wajib mengenakan pakaian antariksa khusus (spacesuit)?",
+      "hint": "Di luar angkasa tidak ada udara dan suhunya sangat ekstrem.",
+      "explanation": "Pakaian antariksa memasok oksigen untuk bernapas, menjaga tekanan udara tubuh, dan melindungi astronot dari suhu ekstrem serta radiasi.",
+      "options": [
+        { "id": "a", "text": "Menyediakan pasokan oksigen untuk bernapas" },
+        { "id": "b", "text": "Melindungi tubuh dari suhu ekstrem dan radiasi" },
+        { "id": "c", "text": "Menjaga tekanan udara di sekitar tubuh" },
+        { "id": "d", "text": "Membuat astronot menjadi seberat gajah" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    }
+  ]
+}

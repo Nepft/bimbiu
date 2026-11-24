@@ -1,0 +1,145 @@
+{
+  "id": "hist-kingdoms-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "nusantara-kingdoms",
+  "title": "Singasari dan Kejayaan Majapahit",
+  "description": "Menelusuri kisah Singasari hingga puncak kejayaan Majapahit bersama Hayam Wuruk dan Mahapatih Gajah Mada.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["hist-kingdoms-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-kingdoms-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Pendiri Kerajaan Singasari yang terkenal dari wilayah Malang, Jawa Timur adalah...",
+      "hint": "Nama depannya 'Ken'.",
+      "explanation": "Ken Arok mendirikan Kerajaan Singasari pada tahun 1222 setelah mengalahkan Kerajaan Kediri.",
+      "options": [
+        { "id": "a", "text": "Ken Arok" },
+        { "id": "b", "text": "Raden Wijaya" },
+        { "id": "c", "text": "Hayam Wuruk" },
+        { "id": "d", "text": "Airlangga" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-kingdoms-04-q02",
+      "type": "true_false",
+      "prompt": "Pendiri sekaligus raja pertama Kerajaan Majapahit adalah Raden Wijaya.",
+      "hint": "Raden Wijaya mendirikan Majapahit di Trowulan pada tahun 1293.",
+      "explanation": "Benar, Raden Wijaya mendirikan Majapahit setelah berhasil mengalahkan pasukan Mongol dan Jayakatwang.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-kingdoms-04-q03",
+      "type": "multiple_choice",
+      "prompt": "Sumpah terkenal yang diucapkan Mahapatih Gajah Mada untuk menyatukan wilayah Nusantara disebut...",
+      "hint": "Nama sumpah ini berarti ia tidak akan menikmati buah tertentu sebelum Nusantara bersatu.",
+      "explanation": "Sumpah Palapa diucapkan oleh Gajah Mada saat dilantik menjadi patih amangkubumi Majapahit.",
+      "options": [
+        { "id": "a", "text": "Sumpah Pemuda" },
+        { "id": "b", "text": "Sumpah Palapa" },
+        { "id": "c", "text": "Sumpah Majapahit" },
+        { "id": "d", "text": "Sumpah Nusantara" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "hist-kingdoms-04-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Kerajaan Majapahit mencapai puncak kejayaannya pada masa pemerintahan Raja...",
+      "hint": "Raja ini bekerja sama erat dengan Mahapatih Gajah Mada.",
+      "explanation": "Raja Hayam Wuruk memimpin Majapahit pada masa keemasannya sekitar tahun 1350–1389 Masehi.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Hayam Wuruk", "Raja Hayam Wuruk"]
+      }
+    },
+    {
+      "id": "hist-kingdoms-04-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi gapura batu bata merah khas peninggalan Kerajaan Majapahit di Trowulan, Mojokerto, Jawa Timur.",
+      "prompt": "Nama daerah di Kabupaten Mojokerto, Jawa Timur yang diyakini sebagai pusat ibu kota Kerajaan Majapahit adalah...",
+      "hint": "Terletak di Jawa Timur, namanya berawalan 'Trow...'.",
+      "explanation": "Situs Trowulan di Mojokerto menyimpan banyak peninggalan Majapahit seperti Candi Bajang Ratu, Candi Tikus, dan Gapura Wringin Lawang.",
+      "options": [
+        { "id": "a", "text": "Trowulan" },
+        { "id": "b", "text": "Dieng" },
+        { "id": "c", "text": "Muara Jambi" },
+        { "id": "d", "text": "Banten Lama" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-kingdoms-04-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua karya sastra terkenal yang ditulis pada masa Kerajaan Majapahit!",
+      "hint": "Salah satunya memuat semboyan negara kita, dan satunya lagi ditulis oleh Mpu Prapanca.",
+      "explanation": "Kitab Negarakertagama karya Mpu Prapanca dan Kitab Sutasoma karya Mpu Tantular adalah karya sastra termasyhur dari era Majapahit.",
+      "options": [
+        { "id": "a", "text": "Kitab Negarakertagama" },
+        { "id": "b", "text": "Kitab Sutasoma" },
+        { "id": "c", "text": "Kamus Besar Bahasa Indonesia" },
+        { "id": "d", "text": "Lagu Indonesia Raya" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-kingdoms-04-q07",
+      "type": "multiple_choice",
+      "prompt": "Semboyan bangsa Indonesia 'Bhinneka Tunggal Ika' berasal dari kitab Sutasoma yang ditulis oleh...",
+      "hint": "Pujangga besar Majapahit yang bernama Mpu...",
+      "explanation": "Mpu Tantular menulis kalimat 'Bhinneka Tunggal Ika, Tan Hana Dharma Mangrwa' dalam Kitab Sutasoma.",
+      "options": [
+        { "id": "a", "text": "Mpu Tantular" },
+        { "id": "b", "text": "Mpu Gandring" },
+        { "id": "c", "text": "Mpu Sindok" },
+        { "id": "d", "text": "Mpu Kanwa" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-kingdoms-04-q08",
+      "type": "true_false",
+      "prompt": "Nama 'Majapahit' berasal dari kisah ditemukannya buah maja yang rasanya pahit saat pembukaan hutan Tarik.",
+      "hint": "Buah maja tumbuh di daerah hutan Tarik yang dibuka oleh pasukan Raden Wijaya.",
+      "explanation": "Benar, saat membuka hutan Tarik, para prajurit mencicipi buah maja yang rasanya pahit sehingga tempat itu dinamai Majapahit.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-kingdoms-04-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Raja terakhir Kerajaan Singasari yang berupaya memperluas persahabatan Nusantara lewat Ekspedisi Pamalayu bernama Raja...",
+      "hint": "Namanya diawali 'Kerta...'.",
+      "explanation": "Raja Kertanegara adalah raja terakhir sekaligus raja terbesar Singasari yang memprakarsai Ekspedisi Pamalayu.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Kertanegara", "Raja Kertanegara"]
+      }
+    },
+    {
+      "id": "hist-kingdoms-04-q10",
+      "type": "multiple_choice",
+      "prompt": "Apa arti penting dari kalimat 'Bhinneka Tunggal Ika' bagi masyarakat kita saat ini?",
+      "hint": "Indonesia memiliki ratusan suku, bahasa daerah, dan budaya yang berbeda.",
+      "explanation": "'Bhinneka Tunggal Ika' berarti 'Berbeda-beda tetapi tetap satu jua', mengajarkan persatuan dalam keberagaman.",
+      "options": [
+        { "id": "a", "text": "Berbeda-beda tetapi tetap satu jua" },
+        { "id": "b", "text": "Semua orang harus memiliki hobi yang sama" },
+        { "id": "c", "text": "Hanya satu suku yang boleh memimpin" },
+        { "id": "d", "text": "Setiap daerah harus menutup diri" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

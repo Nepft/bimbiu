@@ -1,0 +1,145 @@
+{
+  "id": "geo-indo-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "indonesia-archipelago",
+  "title": "Pulau Sumatra dan Pulau Jawa",
+  "description": "Kenali bentang alam terkenal, danau, selat, gunung, dan kota penting di Pulau Sumatra dan Jawa.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["geo-indo-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-indo-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Danau vulkanik terbesar di Indonesia dan dunia yang berada di Sumatra Utara adalah ...",
+      "hint": "Di tengah danau ini terdapat Pulau Samosir.",
+      "explanation": "Danau Toba di Sumatra Utara terbentuk dari letusan gunung berapi super ribuan tahun lalu dan menjadi danau terbesar di Indonesia.",
+      "options": [
+        { "id": "a", "text": "Danau Poso" },
+        { "id": "b", "text": "Danau Toba" },
+        { "id": "c", "text": "Danau Sentani" },
+        { "id": "d", "text": "Danau Singkarak" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-indo-02-q02",
+      "type": "true_false",
+      "prompt": "Pulau Jawa merupakan pulau dengan jumlah penduduk terbanyak di Indonesia.",
+      "hint": "Lebih dari setengah penduduk Indonesia tinggal di pulau ini.",
+      "explanation": "Benar! Meskipun luasnya lebih kecil dari Sumatra atau Kalimantan, Pulau Jawa adalah pulau paling padat penduduk di Indonesia.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-indo-02-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Selat yang memisahkan Pulau Sumatra dan Pulau Jawa disebut Selat ...",
+      "hint": "Di selat ini terdapat Gunung Anak Krakatau.",
+      "explanation": "Selat Sunda memisahkan ujung selatan Sumatra (Lampung) dengan ujung barat Pulau Jawa (Banten).",
+      "correctAnswer": {
+        "acceptedAnswers": ["Sunda", "sunda"]
+      }
+    },
+    {
+      "id": "geo-indo-02-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua kota besar yang terletak di Pulau Sumatra!",
+      "hint": "Satu berada di Sumatra Utara, satu lagi terkenal dengan Jembatan Ampera di Sumatra Selatan.",
+      "explanation": "Medan dan Palembang terletak di Pulau Sumatra, sedangkan Surabaya di Jawa Timur dan Makassar di Sulawesi Selatan.",
+      "options": [
+        { "id": "a", "text": "Medan" },
+        { "id": "b", "text": "Surabaya" },
+        { "id": "c", "text": "Palembang" },
+        { "id": "d", "text": "Makassar" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-indo-02-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Jalur pelayaran sempit antara Pulau Sumatra dan Semenanjung Malaya tampak strategis di peta dunia.",
+      "prompt": "Selat sibuk manakah yang memisahkan Pulau Sumatra dengan negara Malaysia dan Singapura?",
+      "hint": "Jalur laut ini menjadi salah satu jalur pelayaran perdagangan tersibuk di dunia.",
+      "explanation": "Selat Malaka memisahkan pesisir timur Pulau Sumatra dengan Semenanjung Malaysia dan Singapura.",
+      "options": [
+        { "id": "a", "text": "Selat Bali" },
+        { "id": "b", "text": "Selat Makassar" },
+        { "id": "c", "text": "Selat Malaka" },
+        { "id": "d", "text": "Selat Lombok" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "geo-indo-02-q06",
+      "type": "multiple_choice",
+      "prompt": "Gunung tertinggi di Pulau Jawa yang berada di Provinsi Jawa Timur adalah ...",
+      "hint": "Puncaknya bernama Mahameru.",
+      "explanation": "Gunung Semeru di Jawa Timur memiliki ketinggian sekitar 3.676 meter di atas permukaan laut dan merupakan gunung tertinggi di Pulau Jawa.",
+      "options": [
+        { "id": "a", "text": "Gunung Merapi" },
+        { "id": "b", "text": "Gunung Semeru" },
+        { "id": "c", "text": "Gunung Tangkuban Perahu" },
+        { "id": "d", "text": "Gunung Bromo" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-indo-02-q07",
+      "type": "true_false",
+      "prompt": "Pegunungan Bukit Barisan membentang di sepanjang bagian barat Pulau Jawa.",
+      "hint": "Pegunungan Bukit Barisan membentang dari Aceh hingga Lampung.",
+      "explanation": "Salah! Pegunungan Bukit Barisan membentang di sepanjang sisi barat Pulau Sumatra, bukan Pulau Jawa.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "geo-indo-02-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Sungai terpanjang di Pulau Jawa yang namanya juga diabadikan dalam lagu daerah karya Gesang adalah Bengawan ...",
+      "hint": "Namanya sama dengan sebuah kota di Jawa Tengah.",
+      "explanation": "Sungai Bengawan Solo mengalir sepanjang sekitar 600 kilometer dari Jawa Tengah hingga bermuara di Jawa Timur.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Solo", "solo"]
+      }
+    },
+    {
+      "id": "geo-indo-02-q09",
+      "type": "multiple_select",
+      "prompt": "Manakah kota yang berada di Pulau Jawa?",
+      "hint": "Pilih kota-kota di Jawa Barat, Jawa Tengah, atau Jawa Timur.",
+      "explanation": "Bandung (Jawa Barat), Semarang (Jawa Tengah), dan Surabaya (Jawa Timur) berada di Pulau Jawa, sedangkan Denpasar berada di Bali.",
+      "options": [
+        { "id": "a", "text": "Bandung" },
+        { "id": "b", "text": "Denpasar" },
+        { "id": "c", "text": "Semarang" },
+        { "id": "d", "text": "Surabaya" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c", "d"] }
+    },
+    {
+      "id": "geo-indo-02-q10",
+      "type": "multiple_choice",
+      "prompt": "Gunung berapi tertinggi di Pulau Sumatra sekaligus gunung berapi tertinggi di Indonesia adalah ...",
+      "hint": "Gunung ini berada di perbatasan Jambi dan Sumatra Barat.",
+      "explanation": "Gunung Kerinci memiliki ketinggian 3.805 meter di atas permukaan laut, menjadikannya gunung tertinggi di Sumatra dan gunung berapi tertinggi di Indonesia.",
+      "options": [
+        { "id": "a", "text": "Gunung Kerinci" },
+        { "id": "b", "text": "Gunung Sinabung" },
+        { "id": "c", "text": "Gunung Krakatau" },
+        { "id": "d", "text": "Gunung Rinjani" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

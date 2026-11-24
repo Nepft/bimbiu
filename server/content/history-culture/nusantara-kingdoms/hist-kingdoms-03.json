@@ -1,0 +1,145 @@
+{
+  "id": "hist-kingdoms-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "nusantara-kingdoms",
+  "title": "Mataram Kuno dan Warisan Candi",
+  "description": "Mengenal Kerajaan Mataram Kuno, kerukunan dua dinasti besar, serta Candi Borobudur dan Candi Prambanan.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["hist-kingdoms-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-kingdoms-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Kerajaan Mataram Kuno awalnya berkembang di wilayah...",
+      "hint": "Di daerah inilah berdiri megah Candi Borobudur dan Prambanan.",
+      "explanation": "Kerajaan Mataram Kuno berdiri di Jawa Tengah sekitar abad ke-8 sebelum akhirnya dipindahkan ke Jawa Timur.",
+      "options": [
+        { "id": "a", "text": "Jawa Tengah" },
+        { "id": "b", "text": "Sulawesi Selatan" },
+        { "id": "c", "text": "Kalimantan Barat" },
+        { "id": "d", "text": "Aceh" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-kingdoms-03-q02",
+      "type": "true_false",
+      "prompt": "Di Kerajaan Mataram Kuno terdapat dua keluarga raja besar yang berbeda agama, yaitu Dinasti Sanjaya dan Dinasti Syailendra.",
+      "hint": "Satu dinasti bercorak Hindu dan satu dinasti bercorak Buddha.",
+      "explanation": "Benar, Dinasti Sanjaya menganut agama Hindu, sedangkan Dinasti Syailendra menganut agama Buddha.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-kingdoms-03-q03",
+      "type": "multiple_choice",
+      "prompt": "Candi Buddha terbesar di dunia yang dibangun pada masa Dinasti Syailendra adalah...",
+      "hint": "Candi ini terletak di Magelang, Jawa Tengah, dan memiliki banyak stupa.",
+      "explanation": "Candi Borobudur dibangun oleh Dinasti Syailendra (sekitar masa Raja Samaratungga) dan menjadi candi Buddha terbesar di dunia.",
+      "options": [
+        { "id": "a", "text": "Candi Prambanan" },
+        { "id": "b", "text": "Candi Borobudur" },
+        { "id": "c", "text": "Candi Singasari" },
+        { "id": "d", "text": "Candi Jago" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "hist-kingdoms-03-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Kompleks candi Hindu terbesar di Indonesia yang memiliki kisah Ramayana pada reliefnya adalah Candi...",
+      "hint": "Candi ini terletak di perbatasan Yogyakarta dan Klaten, Jawa Tengah.",
+      "explanation": "Candi Prambanan adalah candi Hindu termegah di Indonesia yang dibangun pada masa Dinasti Sanjaya.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Prambanan", "Candi Prambanan"]
+      }
+    },
+    {
+      "id": "hist-kingdoms-03-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi bangunan stupa batu berundak yang dihiasi patung Buddha dan relief cerita kehidupan di Magelang.",
+      "prompt": "Bagian puncak dan kubah berbentuk lonceng terbalik yang banyak ditemukan di Candi Borobudur disebut...",
+      "hint": "Kata ini terdiri dari lima huruf dan diawali huruf S.",
+      "explanation": "Stupa adalah bangunan berbentuk kubah atau lonceng khas arsitektur agama Buddha seperti pada Candi Borobudur.",
+      "options": [
+        { "id": "a", "text": "Menara" },
+        { "id": "b", "text": "Stupa" },
+        { "id": "c", "text": "Pendopo" },
+        { "id": "d", "text": "Gapura" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "hist-kingdoms-03-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua contoh sikap toleransi yang dapat kita teladani dari sejarah Kerajaan Mataram Kuno!",
+      "hint": "Dinasti Sanjaya (Hindu) dan Syailendra (Buddha) hidup berdampingan dan bahkan bersatu lewat pernikahan.",
+      "explanation": "Rakyat dan penguasa Mataram Kuno hidup rukun meski berbeda agama serta saling bekerja sama membangun peradaban.",
+      "options": [
+        { "id": "a", "text": "Hidup rukun meski berbeda keyakinan" },
+        { "id": "b", "text": "Saling menghormati pembangunan tempat ibadah" },
+        { "id": "c", "text": "Melarang penduduk bekerja di ladang" },
+        { "id": "d", "text": "Menghancurkan semua prasasti batu" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-kingdoms-03-q07",
+      "type": "multiple_choice",
+      "prompt": "Siapakah raja Mataram Kuno dari Dinasti Sanjaya yang memprakarsai pembangunan Candi Prambanan?",
+      "hint": "Beliau menikah dengan Pramodawardhani dari Dinasti Syailendra.",
+      "explanation": "Rakai Pikatan dikenal sebagai raja yang memprakarsai pembangunan kompleks Candi Prambanan.",
+      "options": [
+        { "id": "a", "text": "Rakai Pikatan" },
+        { "id": "b", "text": "Ken Arok" },
+        { "id": "c", "text": "Radin Patah" },
+        { "id": "d", "text": "Samaratungga" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-kingdoms-03-q08",
+      "type": "true_false",
+      "prompt": "Candi Borobudur bercorak agama Hindu, sedangkan Candi Prambanan bercorak agama Buddha.",
+      "hint": "Ingat: Borobudur memiliki stupa Buddha, sedangkan Prambanan didedikasikan untuk Trimurti Hindu.",
+      "explanation": "Salah, justru kebalikannya: Candi Borobudur bercorak Buddha dan Candi Prambanan bercorak Hindu.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "hist-kingdoms-03-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Ukiran gambar yang dipahat pada dinding batu candi untuk menceritakan kisah tertentu disebut...",
+      "hint": "Contohnya kisah Ramayana di Candi Prambanan dan Jataka di Borobudur.",
+      "explanation": "Relief adalah seni pahat gambar timbul pada dinding batu candi yang menyampaikan kisah sejarah atau ajaran moral.",
+      "correctAnswer": {
+        "acceptedAnswers": ["relief", "ukiran relief"]
+      }
+    },
+    {
+      "id": "hist-kingdoms-03-q10",
+      "type": "multiple_choice",
+      "prompt": "Tokoh yang memindahkan pusat Kerajaan Mataram Kuno dari Jawa Tengah ke Jawa Timur pada abad ke-10 adalah...",
+      "hint": "Beliau mendirikan Dinasti Isyana di Jawa Timur.",
+      "explanation": "Mpu Sindok memindahkan pusat Mataram Kuno ke Jawa Timur, antara lain karena letusan gunung berapi dan faktor ekonomi perdagangan.",
+      "options": [
+        { "id": "a", "text": "Mpu Sindok" },
+        { "id": "b", "text": "Gajah Mada" },
+        { "id": "c", "text": "Pangeran Diponegoro" },
+        { "id": "d", "text": "Sultan Agung" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

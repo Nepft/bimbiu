@@ -1,0 +1,145 @@
+{
+  "id": "geo-indo-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "indonesia-archipelago",
+  "title": "Kalimantan, Sulawesi, dan Papua",
+  "description": "Eksplorasi sungai besar, bentuk pulau unik, puncak bersalju, dan taman laut di timur Nusantara.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["geo-indo-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-indo-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Sungai terpanjang di Indonesia yang mengalir di Provinsi Kalimantan Barat adalah ...",
+      "hint": "Sungai ini sering dimanfaatkan warga sebagai jalur transportasi air.",
+      "explanation": "Sungai Kapuas memiliki panjang sekitar 1.143 kilometer dan menjadi sungai terpanjang di Indonesia.",
+      "options": [
+        { "id": "a", "text": "Sungai Musi" },
+        { "id": "b", "text": "Sungai Kapuas" },
+        { "id": "c", "text": "Sungai Bengawan Solo" },
+        { "id": "d", "text": "Sungai Brantas" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-indo-03-q02",
+      "type": "true_false",
+      "prompt": "Di Pulau Papua terdapat puncak gunung tertinggi di Indonesia yang sebagian puncaknya bisa diselimuti salju abadi.",
+      "hint": "Puncak ini dikenal sebagai Puncak Jaya atau Piramida Carstensz.",
+      "explanation": "Benar! Puncak Jaya di Pegunungan Sudirman, Papua Tengah, setinggi 4.884 meter merupakan puncak tertinggi di Indonesia dan memiliki gletser tropis yang langka.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-indo-03-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Pulau besar di Indonesia yang bentuknya pada peta sering dimiripkan dengan huruf K adalah Pulau ...",
+      "hint": "Kota terbesarnya adalah Makassar dan Manado.",
+      "explanation": "Pulau Sulawesi memiliki empat semenanjung besar sehingga bentuknya menyerupai huruf K.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Sulawesi", "sulawesi"]
+      }
+    },
+    {
+      "id": "geo-indo-03-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua selat atau laut yang berada di sekitar Pulau Kalimantan dan Sulawesi!",
+      "hint": "Salah satunya berada di antara Kalimantan dan Sulawesi, satu lagi memisahkan Kalimantan dan Jawa.",
+      "explanation": "Selat Makassar memisahkan Kalimantan dan Sulawesi, sementara Laut Jawa berada di antara Kalimantan dan Jawa.",
+      "options": [
+        { "id": "a", "text": "Selat Makassar" },
+        { "id": "b", "text": "Laut Jawa" },
+        { "id": "c", "text": "Selat Sunda" },
+        { "id": "d", "text": "Selat Malaka" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "geo-indo-03-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Kawasan kepulauan timur Indonesia terkenal memiliki terumbu karang terkaya di dunia.",
+      "prompt": "Kepulauan wisata bahari di Papua Barat Daya yang terkenal di dunia dengan gugusan pulau karst dan terumbu karangnya adalah ...",
+      "hint": "Namanya berarti Empat Raja.",
+      "explanation": "Raja Ampat di Provinsi Papua Barat Daya merupakan bagian dari Segitiga Terumbu Karang Dunia dengan keanekaragaman hayati laut yang sangat tinggi.",
+      "options": [
+        { "id": "a", "text": "Kepulauan Seribu" },
+        { "id": "b", "text": "Raja Ampat" },
+        { "id": "c", "text": "Karimunjawa" },
+        { "id": "d", "text": "Nusa Penida" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-indo-03-q06",
+      "type": "multiple_choice",
+      "prompt": "Di Pulau manakah letak Ibu Kota Nusantara (IKN) dibangun?",
+      "hint": "Berada di Provinsi Kalimantan Timur.",
+      "explanation": "Ibu Kota Nusantara (IKN) dibangun di wilayah Kabupaten Penajam Paser Utara dan Kutai Kartanegara, Kalimantan Timur.",
+      "options": [
+        { "id": "a", "text": "Sumatra" },
+        { "id": "b", "text": "Kalimantan" },
+        { "id": "c", "text": "Sulawesi" },
+        { "id": "d", "text": "Papua" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-indo-03-q07",
+      "type": "true_false",
+      "prompt": "Pulau Kalimantan termasuk pulau terbesar ketiga di dunia dan dibagi oleh tiga negara: Indonesia, Malaysia, serta Brunei Darussalam.",
+      "hint": "Secara internasional pulau ini juga dikenal sebagai Borneo.",
+      "explanation": "Benar! Pulau Kalimantan (Borneo) merupakan pulau terbesar ketiga di dunia dan menjadi satu-satunya pulau yang wilayahnya dibagi oleh tiga negara.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-indo-03-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Burung cantik berbulu indah yang menjadi satwa kebanggaan dari Pulau Papua sering dijuluki burung surga atau burung ...",
+      "hint": "Namanya berawalan huruf C.",
+      "explanation": "Burung cenderawasih merupakan satwa endemik yang terkenal dari Papua dan sekitarnya karena warna bulunya yang memukau.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Cenderawasih", "cenderawasih", "Cendrawasih", "cendrawasih"]
+      }
+    },
+    {
+      "id": "geo-indo-03-q09",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua kota yang terletak di Pulau Sulawesi!",
+      "hint": "Satu berada di Sulawesi Selatan, satu lagi di ujung utara Sulawesi.",
+      "explanation": "Makassar (Sulawesi Selatan) dan Manado (Sulawesi Utara) berada di Pulau Sulawesi, sedangkan Jayapura di Papua dan Balikpapan di Kalimantan.",
+      "options": [
+        { "id": "a", "text": "Makassar" },
+        { "id": "b", "text": "Jayapura" },
+        { "id": "c", "text": "Manado" },
+        { "id": "d", "text": "Balikpapan" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-indo-03-q10",
+      "type": "multiple_choice",
+      "prompt": "Satwa khas yang hanya hidup di alam liar Pulau Sulawesi dan memiliki wajah mirip babi bertaring melengkung adalah ...",
+      "hint": "Namanya gabungan dua kata hewan dalam bahasa Indonesia.",
+      "explanation": "Babirusa dan anoa adalah satwa endemik khas Pulau Sulawesi yang dilindungi.",
+      "options": [
+        { "id": "a", "text": "Orangutan" },
+        { "id": "b", "text": "Babirusa" },
+        { "id": "c", "text": "Harimau Sumatra" },
+        { "id": "d", "text": "Komodo" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

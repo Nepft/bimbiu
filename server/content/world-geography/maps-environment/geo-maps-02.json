@@ -1,0 +1,145 @@
+{
+  "id": "geo-maps-02",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "maps-environment",
+  "title": "Arah Mata Angin dan Kompas",
+  "description": "Kuasai delapan arah mata angin, penggunaan kompas, dan cara menentukan arah di peta maupun alam.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 2,
+  "prerequisites": ["geo-maps-01"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-maps-02-q01",
+      "type": "multiple_choice",
+      "prompt": "Pada sebagian besar peta standar, bagian atas peta selalu menunjukkan arah ...",
+      "hint": "Huruf U pada panah orientasi peta.",
+      "explanation": "Secara konvensi internasional, bagian atas peta umumnya mengarah ke Utara, bawah ke Selatan, kanan ke Timur, dan kiri ke Barat.",
+      "options": [
+        { "id": "a", "text": "Selatan" },
+        { "id": "b", "text": "Timur" },
+        { "id": "c", "text": "Utara" },
+        { "id": "d", "text": "Barat" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "geo-maps-02-q02",
+      "type": "true_false",
+      "prompt": "Jika kamu berdiri menghadap ke arah matahari terbit di pagi hari, maka sebelah kirimu adalah arah Utara.",
+      "hint": "Matahari terbit di Timur. Coba bayangkan tangan kanan dan tangan kirimu saat menghadap Timur.",
+      "explanation": "Benar! Saat menghadap Timur, di belakangmu adalah Barat, tangan kananmu menunjuk ke Selatan, dan tangan kirimu menunjuk ke Utara.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-maps-02-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Alat navigasi yang memiliki jarum bermagnet untuk selalu menunjuk arah utara-selatan Bumi disebut ...",
+      "hint": "Sering dibawa oleh pendaki gunung dan pelaut.",
+      "explanation": "Kompas bekerja memanfaatkan medan magnet Bumi sehingga jarumnya mengarah ke kutub magnet utara dan selatan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["kompas", "Kompas"]
+      }
+    },
+    {
+      "id": "geo-maps-02-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua arah yang termasuk dalam empat arah mata angin utama (kardinal)!",
+      "hint": "Empat arah utama adalah Utara, Timur, Selatan, dan Barat.",
+      "explanation": "Timur dan Selatan adalah arah mata angin utama, sedangkan Tenggara dan Barat Laut adalah arah antara.",
+      "options": [
+        { "id": "a", "text": "Timur" },
+        { "id": "b", "text": "Tenggara" },
+        { "id": "c", "text": "Selatan" },
+        { "id": "d", "text": "Barat Laut" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-maps-02-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Arah mata angin membantu kita menentukan posisi suatu pulau atau benua relatif terhadap wilayah lainnya.",
+      "prompt": "Arah mata angin yang terletak tepat di tengah-tengah antara arah Utara dan arah Timur disebut ...",
+      "hint": "Dalam bahasa Inggris disebut Northeast.",
+      "explanation": "Di antara Utara dan Timur adalah Timur Laut. Sedangkan antara Timur dan Selatan adalah Tenggara.",
+      "options": [
+        { "id": "a", "text": "Tenggara" },
+        { "id": "b", "text": "Timur Laut" },
+        { "id": "c", "text": "Barat Daya" },
+        { "id": "d", "text": "Barat Laut" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-maps-02-q06",
+      "type": "multiple_choice",
+      "prompt": "Arah mata angin yang berada di antara Selatan dan Timur adalah ...",
+      "hint": "Ingat nama kawasan tempat Indonesia berada: Asia ...",
+      "explanation": "Tenggara adalah arah di antara Selatan dan Timur (Southeast).",
+      "options": [
+        { "id": "a", "text": "Tenggara" },
+        { "id": "b", "text": "Barat Daya" },
+        { "id": "c", "text": "Timur Laut" },
+        { "id": "d", "text": "Barat Laut" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "geo-maps-02-q07",
+      "type": "true_false",
+      "prompt": "Matahari tampak terbenam di arah Timur pada sore hari.",
+      "hint": "Arah terbenamnya matahari selalu berlawanan dengan arah terbitnya.",
+      "explanation": "Salah! Matahari tampak terbit di arah Timur dan terbenam di arah Barat karena rotasi Bumi.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "geo-maps-02-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Arah mata angin yang terletak di antara arah Selatan dan arah Barat disebut Barat ...",
+      "hint": "Lawan arahnya adalah Timur Laut.",
+      "explanation": "Barat Daya berada di antara Selatan dan Barat (Southwest).",
+      "correctAnswer": {
+        "acceptedAnswers": ["Daya", "daya", "Barat Daya", "barat daya"]
+      }
+    },
+    {
+      "id": "geo-maps-02-q09",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua pernyataan posisi wilayah di Indonesia yang benar berdasarkan arah mata angin!",
+      "hint": "Cek posisi Kalimantan terhadap Jawa, serta posisi Bali terhadap Jawa.",
+      "explanation": "Pulau Kalimantan berada di sebelah utara Pulau Jawa, dan Pulau Bali berada di sebelah timur Pulau Jawa.",
+      "options": [
+        { "id": "a", "text": "Kalimantan berada di sebelah utara Pulau Jawa" },
+        { "id": "b", "text": "Bali berada di sebelah timur Pulau Jawa" },
+        { "id": "c", "text": "Sumatra berada di sebelah timur Pulau Papua" },
+        { "id": "d", "text": "Papua berada di sebelah barat Pulau Sumatra" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "geo-maps-02-q10",
+      "type": "multiple_choice",
+      "prompt": "Jika sebuah kapal berlayar menuju arah Barat Laut lalu berbalik arah tepat 180 derajat, ke arah manakah kapal tersebut bergerak sekarang?",
+      "hint": "Lawan dari Barat adalah Timur, dan lawan dari Laut (Utara-Barat) mengarah ke Selatan-Timur.",
+      "explanation": "Kebalikan tepat 180 derajat dari Barat Laut (antara Barat dan Utara) adalah Tenggara (antara Timur dan Selatan).",
+      "options": [
+        { "id": "a", "text": "Timur Laut" },
+        { "id": "b", "text": "Tenggara" },
+        { "id": "c", "text": "Barat Daya" },
+        { "id": "d", "text": "Selatan" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

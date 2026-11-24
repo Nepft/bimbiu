@@ -1,0 +1,147 @@
+{
+  "id": "daily-env-01",
+  "contentVersion": "1.0.0",
+  "categoryId": "everyday-knowledge",
+  "unitId": "environment-recycling",
+  "title": "Mengenal Jenis Sampah",
+  "description": "Membedakan sampah organik, anorganik, dan B3 agar mudah dikelola dengan benar.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 1,
+  "prerequisites": [],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "daily-env-01-q01",
+      "type": "multiple_choice",
+      "prompt": "Sampah yang berasal dari sisa makhluk hidup dan mudah membusuk secara alami di tanah disebut sampah...",
+      "hint": "Contohnya kulit buah, sisa sayur, dan daun kering.",
+      "explanation": "Sampah organik mudah terurai oleh mikroorganisme di alam dan dapat diolah menjadi pupuk kompos.",
+      "options": [
+        { "id": "a", "text": "Organik" },
+        { "id": "b", "text": "Anorganik" },
+        { "id": "c", "text": "Logam berat" },
+        { "id": "d", "text": "Plastik keras" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-env-01-q02",
+      "type": "true_false",
+      "prompt": "Botol plastik dan kaleng minuman termasuk sampah anorganik karena sulit terurai secara alami oleh tanah.",
+      "hint": "Plastik dan logam membutuhkan puluhan hingga ratusan tahun untuk hancur di alam.",
+      "explanation": "Benar! Plastik dan kaleng adalah sampah anorganik yang sebaiknya dipilah untuk didaur ulang.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-env-01-q03",
+      "type": "multiple_select",
+      "prompt": "Pilihlah contoh sampah yang termasuk kategori B3 (Bahan Berbahaya dan Beracun) di rumah tangga!",
+      "hint": "Benda ini mengandung zat kimia atau logam berat yang bisa mencemari tanah dan air.",
+      "explanation": "Baterai bekas, lampu neon/bohlam tertentu, dan obat kedaluwarsa termasuk limbah B3 yang perlu penanganan khusus, bukan dicampur dengan sampah dapur.",
+      "options": [
+        { "id": "a", "text": "Baterai bekas" },
+        { "id": "b", "text": "Lampu neon rusak" },
+        { "id": "c", "text": "Obat-obatan kedaluwarsa" },
+        { "id": "d", "text": "Kulit pisang" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-env-01-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Tempat sampah berwarna hijau umumnya digunakan khusus untuk membuang sampah jenis...",
+      "hint": "Warnanya seperti daun dan tumbuhan yang berasal dari alam.",
+      "explanation": "Tempat sampah warna hijau biasanya diperuntukkan bagi sampah organik seperti sisa makanan dan dedaunan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["organik", "Organik"]
+      }
+    },
+    {
+      "id": "daily-env-01-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Di taman sekolah terdapat tiga tempat sampah berjejer: warna hijau bertuliskan 'Organik', warna kuning bertuliskan 'Anorganik', dan warna merah bertuliskan 'B3'.",
+      "prompt": "Jika kamu habis minum air dari botol plastik bekas, ke tempat sampah warna manakah botol itu harus dimasukkan?",
+      "hint": "Botol plastik adalah sampah yang sulit membusuk dan dapat didaur ulang.",
+      "explanation": "Botol plastik termasuk sampah anorganik sehingga dimasukkan ke tempat sampah berwarna kuning (setelah dikosongkan dan diremas jika perlu).",
+      "options": [
+        { "id": "a", "text": "Hijau (Organik)" },
+        { "id": "b", "text": "Kuning (Anorganik)" },
+        { "id": "c", "text": "Merah (B3)" },
+        { "id": "d", "text": "Ditinggalkan di bangku taman" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "daily-env-01-q06",
+      "type": "multiple_choice",
+      "prompt": "Mengapa kita perlu memilah sampah dari rumah sebelum dibuang?",
+      "hint": "Bayangkan apa bedanya sampah basah yang tercampur plastik dengan sampah yang sudah dipisahkan.",
+      "explanation": "Memilah sampah memudahkan proses daur ulang sampah anorganik, pengolahan kompos dari sampah organik, dan mencegah limbah B3 mencemari lingkungan.",
+      "options": [
+        { "id": "a", "text": "Agar sampah organik bisa dikomposkan dan sampah anorganik mudah didaur ulang" },
+        { "id": "b", "text": "Supaya tempat sampah menjadi lebih berat" },
+        { "id": "c", "text": "Karena petugas kebersihan tidak suka warna yang sama" },
+        { "id": "d", "text": "Agar semua sampah bisa dibakar bersama-sama" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-env-01-q07",
+      "type": "true_false",
+      "prompt": "Sisa makanan berkuah yang dibuang ke dalam tempat sampah kertas dan plastik bekas akan membuat kertas lebih mudah didaur ulang.",
+      "hint": "Kertas yang basah dan kotor oleh minyak atau kuah sulit didaur ulang.",
+      "explanation": "Salah. Sisa makanan basah justru mengotori kertas dan plastik sehingga kualitas daur ulangnya menurun atau rusak.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "daily-env-01-q08",
+      "type": "multiple_select",
+      "prompt": "Manakah benda-benda di bawah ini yang termasuk sampah organik?",
+      "hint": "Cari bahan yang berasal dari tumbuhan atau sisa makanan.",
+      "explanation": "Daun kering, kulit mangga, dan sisa nasi adalah sampah organik. Sedotan plastik termasuk anorganik.",
+      "options": [
+        { "id": "a", "text": "Daun kering di halaman" },
+        { "id": "b", "text": "Kulit buah mangga" },
+        { "id": "c", "text": "Sisa nasi yang basi" },
+        { "id": "d", "text": "Sedotan plastik" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-env-01-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Limbah yang mengandung zat berbahaya seperti baterai bekas dan pecahan lampu neon disebut limbah...",
+      "hint": "Singkatan dari Bahan Berbahaya dan Beracun.",
+      "explanation": "B3 adalah singkatan dari Bahan Berbahaya dan Beracun.",
+      "correctAnswer": {
+        "acceptedAnswers": ["B3", "b3"]
+      }
+    },
+    {
+      "id": "daily-env-01-q10",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Seorang anak memegang dua barang: selembar kulit jeruk di tangan kiri dan sebuah baterai mainan yang sudah habis di tangan kanan.",
+      "prompt": "Bagaimana cara membuang kedua benda tersebut dengan benar?",
+      "hint": "Kulit jeruk mudah membusuk, sedangkan baterai mengandung zat kimia berbahaya.",
+      "explanation": "Kulit jeruk dibuang ke tempat sampah organik, sedangkan baterai bekas dipisahkan ke tempat pengumpulan limbah B3 agar tidak mencemari tanah.",
+      "options": [
+        { "id": "a", "text": "Kulit jeruk ke organik, baterai bekas dipisahkan sebagai limbah B3" },
+        { "id": "b", "text": "Keduanya dikubur bersama di pot tanaman" },
+        { "id": "c", "text": "Keduanya dimasukkan ke tempat sampah kertas" },
+        { "id": "d", "text": "Baterai dibuang ke selokan dan kulit jeruk ke tempat B3" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "daily-health-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "everyday-knowledge",
+  "unitId": "health-nutrition",
+  "title": "Kebersihan Diri & Cuci Tangan",
+  "description": "Menjaga kebersihan tangan, gigi, dan tubuh untuk mencegah kuman penyebab penyakit.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["daily-health-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "daily-health-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Berapa lama waktu yang dianjurkan untuk menggosok tangan dengan sabun saat mencuci tangan agar kuman hilang?",
+      "hint": "Kira-kira sepanjang menyanyikan lagu 'Selamat Ulang Tahun' dua kali.",
+      "explanation": "Mencuci tangan dengan sabun dan air mengalir minimal selama 20 detik efektif membersihkan kotoran, virus, dan bakteri.",
+      "options": [
+        { "id": "a", "text": "2 detik" },
+        { "id": "b", "text": "5 detik tanpa sabun" },
+        { "id": "c", "text": "Minimal 20 detik" },
+        { "id": "d", "text": "10 menit" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "daily-health-03-q02",
+      "type": "true_false",
+      "prompt": "Menyikat gigi cukup dilakukan sekali saja setiap pagi sebelum mandi, tidak perlu sebelum tidur malam.",
+      "hint": "Sisa makanan di mulut bisa menjadi sarang bakteri saat kita tidur semalaman.",
+      "explanation": "Salah. Kita dianjurkan menyikat gigi minimal 2 kali sehari: pagi setelah sarapan dan malam sebelum tidur.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "daily-health-03-q03",
+      "type": "multiple_select",
+      "prompt": "Kapan saja waktu penting kita wajib mencuci tangan dengan sabun?",
+      "hint": "Pikirkan aktivitas yang berhubungan dengan makanan, toilet, dan bermain di luar.",
+      "explanation": "Kita harus mencuci tangan sebelum makan, setelah dari toilet, dan setelah bermain atau memegang hewan agar kuman tidak masuk ke tubuh.",
+      "options": [
+        { "id": "a", "text": "Sebelum makan atau menyentuh makanan" },
+        { "id": "b", "text": "Setelah menggunakan toilet" },
+        { "id": "c", "text": "Setelah bermain di luar rumah atau memegang hewan" },
+        { "id": "d", "text": "Hanya ketika tangan terlihat hitam" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-health-03-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Selain air bersih yang mengalir, kita membutuhkan ... untuk melarutkan lemak dan membunuh kuman di tangan.",
+      "hint": "Benda ini menghasilkan busa saat digosokkan ke tangan.",
+      "explanation": "Sabun membantu melepaskan kotoran, minyak, serta kuman yang menempel di permukaan kulit tangan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["sabun", "Sabun"]
+      }
+    },
+    {
+      "id": "daily-health-03-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Poster langkah cuci tangan menunjukkan seseorang menggosok telapak tangan, punggung tangan, sela-sela jari, buku-buku jari, ibu jari, dan ujung kuku.",
+      "prompt": "Mengapa kita juga harus membersihkan sela-sela jari dan ujung kuku saat mencuci tangan?",
+      "hint": "Kuman sering bersembunyi di bagian yang sempit dan jarang tersentuh.",
+      "explanation": "Sela jari dan bawah kuku adalah tempat kuman paling sering bersembunyi jika kita hanya menggosok telapak tangan saja.",
+      "options": [
+        { "id": "a", "text": "Karena kuman sering bersembunyi di sela jari dan bawah kuku" },
+        { "id": "b", "text": "Agar sabun lebih cepat habis" },
+        { "id": "c", "text": "Supaya jari menjadi lebih panjang" },
+        { "id": "d", "text": "Karena air tidak boleh mengenai telapak tangan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-health-03-q06",
+      "type": "multiple_choice",
+      "prompt": "Apa yang sebaiknya dilakukan jika hendak bersin atau batuk saat berada di dekat teman?",
+      "hint": "Jangan menutupnya dengan telapak tangan terbuka jika tidak langsung mencuci tangan.",
+      "explanation": "Menutup mulut dan hidung dengan tisu atau siku bagian dalam mencegah percikan kuman menyebar ke udara dan ke tangan kita.",
+      "options": [
+        { "id": "a", "text": "Menghadap ke teman supaya cepat selesai" },
+        { "id": "b", "text": "Menutup mulut dan hidung dengan tisu atau lipatan siku" },
+        { "id": "c", "text": "Menahan napas selama satu jam" },
+        { "id": "d", "text": "Mengusap hidung dengan baju teman" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "daily-health-03-q07",
+      "type": "true_false",
+      "prompt": "Memotong kuku tangan dan kaki secara rutin membantu mencegah kotoran dan telur cacing menumpuk di bawah kuku.",
+      "hint": "Kuku yang panjang mudah memerangkap tanah dan kotoran.",
+      "explanation": "Benar! Kuku yang pendek dan bersih mencegah kuman serta kotoran terbawa masuk ke mulut saat kita makan.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-health-03-q08",
+      "type": "multiple_select",
+      "prompt": "Benda kebersihan pribadi mana saja yang TIDAK boleh dipakai bergantian dengan orang lain?",
+      "hint": "Benda yang menyentuh mulut atau tubuh secara langsung bisa menularkan kuman.",
+      "explanation": "Sikat gigi dan handuk adalah barang pribadi yang tidak boleh dipinjamkan karena dapat menularkan bakteri, jamur, atau virus.",
+      "options": [
+        { "id": "a", "text": "Sikat gigi" },
+        { "id": "b", "text": "Handuk mandi" },
+        { "id": "c", "text": "Bola basket kelas" },
+        { "id": "d", "text": "Botol minum pribadi yang belum dicuci" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+    },
+    {
+      "id": "daily-health-03-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Pasta gigi umumnya mengandung mineral bernama ... yang membantu melindungi lapisan email gigi dari gigi berlubang.",
+      "hint": "Nama mineral ini sering tertulis di kemasan pasta gigi, diawali huruf 'f'.",
+      "explanation": "Fluoride membantu memperkuat lapisan luar gigi (email) agar lebih tahan terhadap asam penyebab gigi berlubang.",
+      "correctAnswer": {
+        "acceptedAnswers": ["fluoride", "Fluoride", "fluor", "Fluor"]
+      }
+    },
+    {
+      "id": "daily-health-03-q10",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Seorang anak selesai bermain tanah di halaman, lalu langsung mengambil roti dari meja tanpa mencuci tangan.",
+      "prompt": "Penyakit apa yang paling mudah terjadi akibat kebiasaan seperti pada gambar tersebut?",
+      "hint": "Kuman dari tanah bisa masuk ke saluran pencernaan.",
+      "explanation": "Kuman atau bakteri dari tangan yang kotor dapat masuk ke perut dan menyebabkan sakit perut atau diare.",
+      "options": [
+        { "id": "a", "text": "Diare atau sakit perut" },
+        { "id": "b", "text": "Mata minus" },
+        { "id": "c", "text": "Rambut rontok" },
+        { "id": "d", "text": "Keseleo pergelangan kaki" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

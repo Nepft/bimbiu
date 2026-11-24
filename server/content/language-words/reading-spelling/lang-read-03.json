@@ -1,0 +1,145 @@
+{
+  "id": "lang-read-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "reading-spelling",
+  "title": "Kata Depan (di, ke, dari) vs Awalan",
+  "description": "Membedakan penulisan kata depan yang dipisah dan imbuhan awalan yang digabung.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["lang-read-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-read-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Manakah penulisan kata depan 'di' yang BENAR?",
+      "hint": "Kata depan 'di' menunjukkan tempat dan penulisannya harus dipisah dengan spasi.",
+      "explanation": "'di perpustakaan' menunjukkan tempat sehingga 'di' berperan sebagai kata depan dan ditulis terpisah.",
+      "options": [
+        { "id": "a", "text": "diperpustakaan" },
+        { "id": "b", "text": "di perpustakaan" },
+        { "id": "c", "text": "di-perpustakaan" },
+        { "id": "d", "text": "dii perpustakaan" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-read-03-q02",
+      "type": "true_false",
+      "prompt": "Pada kalimat 'Surat itu di tulis oleh kakak', penulisan 'di tulis' sudah benar.",
+      "hint": "Apakah 'tulis' merupakan nama tempat atau kata kerja pasif?",
+      "explanation": "Salah. 'Ditulis' adalah kata kerja pasif berawalan di- (lawannya 'menulis'), sehingga penulisannya harus dirangkai menjadi 'ditulis'.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "lang-read-03-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Lengkapi kalimat berikut dengan penulisan yang benar ('kesekolah' atau 'ke sekolah'): Setiap pagi, Edo berjalan kaki ____ bersama adiknya.",
+      "hint": "'sekolah' adalah kata benda tempat, sehingga 'ke' berfungsi sebagai kata depan.",
+      "explanation": "Kata depan 'ke' yang menunjukkan arah tujuan atau tempat ditulis terpisah, yaitu 'ke sekolah'.",
+      "correctAnswer": {
+        "acceptedAnswers": ["ke sekolah"]
+      }
+    },
+    {
+      "id": "lang-read-03-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kalimat yang penulisan 'di'-nya SUDAH BENAR!",
+      "hint": "Pisahkan 'di' untuk tempat/waktu, dan gabungkan 'di-' untuk kata kerja pasif.",
+      "explanation": "'di halaman' (tempat -> dipisah) dan 'dimasak' (kata kerja pasif -> digabung) sudah benar. 'dimana' seharusnya 'di mana', dan 'di siram' seharusnya 'disiram'.",
+      "options": [
+        { "id": "a", "text": "Anak-anak bermain bola di halaman." },
+        { "id": "b", "text": "Dimana kamu meletakkan sepedamu?" },
+        { "id": "c", "text": "Sayur bayam itu dimasak oleh ibu." },
+        { "id": "d", "text": "Bunga melati itu di siram setiap sore." }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-read-03-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Sebuah kotak pensil diletakkan di atas meja belajar, sedangkan buku gambar dibawa keluar kelas.",
+      "prompt": "Manakah pasangan kata yang tepat dari keterangan tersebut untuk menunjukkan kata depan (dipisah) dan awalan (digabung)?",
+      "hint": "'di atas' menunjukkan posisi tempat, sedangkan 'diletakkan' dan 'dibawa' adalah kata kerja pasif.",
+      "explanation": "'di atas' adalah kata depan penunjuk posisi tempat (ditulis terpisah), sedangkan 'diletakkan' adalah kata kerja pasif berawalan di- (ditulis serangkai).",
+      "options": [
+        { "id": "a", "text": "di atas (dipisah) dan diletakkan (digabung)" },
+        { "id": "b", "text": "diatas (digabung) dan di letakkan (dipisah)" },
+        { "id": "c", "text": "diatas (digabung) dan diletakkan (digabung)" },
+        { "id": "d", "text": "di atas (dipisah) dan di letakkan (dipisah)" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-read-03-q06",
+      "type": "multiple_choice",
+      "prompt": "Manakah cara mudah untuk mengecek apakah 'di' harus digabung atau dipisah?",
+      "hint": "Coba ubah kata tersebut menjadi bentuk aktif berawalan me-.",
+      "explanation": "Jika 'di' bisa diubah menjadi awalan 'me-' (misalnya 'dibaca' -> 'membaca'), berarti itu imbuhan dan harus digabung. Jika menunjukkan tempat (seperti 'di rumah'), berarti kata depan dan harus dipisah.",
+      "options": [
+        { "id": "a", "text": "Jika bisa diubah menjadi 'me-', maka digabung; jika menunjukkan tempat, dipisah" },
+        { "id": "b", "text": "Semua kata 'di' di awal kalimat selalu digabung" },
+        { "id": "c", "text": "Semua kata 'di' selalu dipisah tanpa pengecualian" },
+        { "id": "d", "text": "Jika terdiri dari dua suku kata, selalu digabung" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "lang-read-03-q07",
+      "type": "true_false",
+      "prompt": "Kata depan 'dari' pada frasa 'dari rumah' dan 'dari pagi' selalu ditulis terpisah dari kata yang mengikutinya.",
+      "hint": "Apakah kata depan 'dari' pernah digabung?",
+      "explanation": "Benar. Kata depan 'di', 'ke', dan 'dari' ditulis terpisah dari kata yang mengikutinya (kecuali bentuk yang sudah lazim seperti 'daripada', 'kepada', 'kemari', 'keluar' sebagai lawan 'masuk').",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-read-03-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Tuliskan bentuk yang benar untuk menggantikan 'di lipat': Kertas origami itu ____ menjadi bentuk burung bangau.",
+      "hint": "Kata ini dapat diubah menjadi bentuk aktif 'melipat', sehingga harus digabung.",
+      "explanation": "Karena 'lipat' adalah kata kerja dan dapat diubah menjadi 'melipat', awalan di- harus ditulis serangkai: 'dilipat'.",
+      "correctAnswer": {
+        "acceptedAnswers": ["dilipat", "Dilipat"]
+      }
+    },
+    {
+      "id": "lang-read-03-q09",
+      "type": "multiple_choice",
+      "prompt": "Perhatikan kata 'ke' berikut. Pada pilihan manakah 'ke-' berfungsi sebagai imbuhan (digabung), BUKAN kata depan?",
+      "hint": "Cari kata yang menyatakan urutan atau jumlah, bukan tempat tujuan.",
+      "explanation": "'kedua' menyatakan urutan (kata bilangan tingkat) sehingga 'ke-' adalah imbuhan dan ditulis serangkai. 'ke pasar', 'ke Bandung', dan 'ke dapur' menunjukkan tempat (dipisah).",
+      "options": [
+        { "id": "a", "text": "ke pasar" },
+        { "id": "b", "text": "ke Bandung" },
+        { "id": "c", "text": "kedua" },
+        { "id": "d", "text": "ke dapur" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "lang-read-03-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kalimat yang penulisannya SALAH dalam penggunaan 'di' atau 'ke'!",
+      "hint": "Cari tempat yang ditulis gabung atau kata kerja pasif yang ditulis pisah.",
+      "explanation": "'di dalam' seharusnya dipisah (bukan 'didalam'), dan 'ditulis' seharusnya digabung (bukan 'di tulis').",
+      "options": [
+        { "id": "a", "text": "Pensil itu tersimpan didalam kotak." },
+        { "id": "b", "text": "Nenek datang dari Yogyakarta kemarin sore." },
+        { "id": "c", "text": "Catatan harian itu di tulis dengan rapi." },
+        { "id": "d", "text": "Kami berangkat ke taman kota naik bus." }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

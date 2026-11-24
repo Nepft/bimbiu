@@ -1,0 +1,145 @@
+{
+  "id": "hist-indep-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "history-culture",
+  "unitId": "indonesia-independence",
+  "title": "Menuju Proklamasi Kemerdekaan",
+  "description": "Menelusuri detik-detik bersejarah dari Peristiwa Rengasdengklok hingga penyusunan teks Proklamasi Kemerdekaan.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["hist-indep-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "hist-indep-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Pada 16 Agustus 1945, golongan muda membawa Soekarno dan Mohammad Hatta ke kota kecil di Jawa Barat yang bernama...",
+      "hint": "Peristiwa ini dilakukan agar proklamasi segera diumumkan tanpa campur tangan Jepang.",
+      "explanation": "Peristiwa Rengasdengklok terjadi pada 16 Agustus 1945 ketika golongan muda mengamankan Soekarno dan Hatta ke Rengasdengklok, Karawang.",
+      "options": [
+        { "id": "a", "text": "Rengasdengklok" },
+        { "id": "b", "text": "Lembang" },
+        { "id": "c", "text": "Surakarta" },
+        { "id": "d", "text": "Pasuruan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-04-q02",
+      "type": "true_false",
+      "prompt": "Naskah Proklamasi Kemerdekaan Indonesia dirumuskan di rumah perwira Angkatan Laut Jepang bernama Laksamana Tadashi Maeda.",
+      "hint": "Rumah tersebut berada di Jalan Imam Bonjol No. 1 Jakarta dan kini menjadi Museum Perumusan Naskah Proklamasi.",
+      "explanation": "Benar, Laksamana Maeda mengizinkan rumahnya digunakan oleh para tokoh bangsa untuk menyusun teks proklamasi dengan aman.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-indep-04-q03",
+      "type": "multiple_choice",
+      "prompt": "Tokoh yang mengetik naskah Proklamasi Kemerdekaan setelah disusun dengan tulisan tangan adalah...",
+      "hint": "Beliau adalah seorang wartawan yang menjadi anggota golongan muda.",
+      "explanation": "Sayuti Melik mengetik naskah proklamasi menggunakan mesin tik dan melakukan beberapa penyempurnaan ejaan yang disetujui.",
+      "options": [
+        { "id": "a", "text": "Sayuti Melik" },
+        { "id": "b", "text": "Ahmad Soebardjo" },
+        { "id": "c", "text": "Sutan Sjahrir" },
+        { "id": "d", "text": "Sukarni" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-04-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Bendera Pusaka Sang Saka Merah Putih yang dikibarkan pada 17 Agustus 1945 dijahit oleh Ibu...",
+      "hint": "Beliau adalah istri dari Soekarno.",
+      "explanation": "Ibu Fatmawati menjahit sendiri bendera Merah Putih dari dua potong kain katun merah dan putih.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Fatmawati", "Ibu Fatmawati"]
+      }
+    },
+    {
+      "id": "hist-indep-04-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-candi",
+      "mediaCaption": "Ilustrasi ruang kerja bersejarah di Jakarta dengan meja perundingan tempat tiga tokoh bangsa menyusun teks proklamasi pada malam 16 Agustus 1945.",
+      "prompt": "Siapakah tiga tokoh yang menyusun naskah Proklamasi Kemerdekaan di ruang makan rumah Laksamana Maeda?",
+      "hint": "Terdiri dari Proklamator Dwi Tunggal dan seorang tokoh ahli hukum dari golongan tua.",
+      "explanation": "Tiga tokoh penyusun naskah proklamasi adalah Ir. Soekarno, Drs. Mohammad Hatta, dan Mr. Ahmad Soebardjo.",
+      "options": [
+        { "id": "a", "text": "Soekarno, Mohammad Hatta, dan Ahmad Soebardjo" },
+        { "id": "b", "text": "Soekarno, Ki Hajar Dewantara, dan Pattimura" },
+        { "id": "c", "text": "Mohammad Hatta, Cut Nyak Dhien, dan Kartini" },
+        { "id": "d", "text": "Sudirman, Diponegoro, dan Gajah Mada" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-04-q06",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua tokoh golongan muda yang aktif mendesak agar kemerdekaan segera diproklamasikan pada Agustus 1945!",
+      "hint": "Salah satunya mengusulkan agar teks proklamasi ditandatangani Soekarno-Hatta atas nama bangsa Indonesia.",
+      "explanation": "Sukarni dan Wikana (bersama Chaerul Saleh) merupakan tokoh golongan muda yang aktif mendorong percepatan proklamasi.",
+      "options": [
+        { "id": "a", "text": "Sukarni" },
+        { "id": "b", "text": "Wikana" },
+        { "id": "c", "text": "Sultan Iskandar Muda" },
+        { "id": "d", "text": "Mpu Tantular" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "hist-indep-04-q07",
+      "type": "multiple_choice",
+      "prompt": "Atas usul siapa teks Proklamasi Kemerdekaan ditandatangani oleh Soekarno dan Hatta 'atas nama bangsa Indonesia'?",
+      "hint": "Tokoh ini berasal dari golongan muda dan berawalan 'Su...'.",
+      "explanation": "Sukarni mengusulkan agar naskah proklamasi cukup ditandatangani oleh Soekarno dan Hatta atas nama bangsa Indonesia.",
+      "options": [
+        { "id": "a", "text": "Sukarni" },
+        { "id": "b", "text": "Latief Hendraningrat" },
+        { "id": "c", "text": "Suhud" },
+        { "id": "d", "text": "Bung Tomo" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "hist-indep-04-q08",
+      "type": "true_false",
+      "prompt": "Jepang menyerah kepada Sekutu pada pertengahan Agustus 1945 setelah kota Hiroshima dan Nagasaki dijatuhi bom atom.",
+      "hint": "Berita kekalahan Jepang didengar oleh para pemuda Indonesia melalui radio.",
+      "explanation": "Benar, kekalahan Jepang pada 14–15 Agustus 1945 menciptakan kesempatan bagi bangsa Indonesia untuk segera memproklamasikan kemerdekaan.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "hist-indep-04-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Tokoh golongan tua yang menjemput Soekarno-Hatta dari Rengasdengklok dan memberi jaminan bahwa proklamasi akan dilaksanakan keesokan harinya adalah Ahmad...",
+      "hint": "Namanya berawalan huruf S dan ikut merumuskan naskah proklamasi.",
+      "explanation": "Mr. Ahmad Soebardjo meyakinkan golongan muda sehingga Soekarno dan Hatta dapat kembali ke Jakarta pada malam 16 Agustus 1945.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Soebardjo", "Subardjo", "Ahmad Soebardjo", "Ahmad Subardjo"]
+      }
+    },
+    {
+      "id": "hist-indep-04-q10",
+      "type": "multiple_choice",
+      "prompt": "Pelajaran penting apa yang dapat dipetik dari perbedaan pendapat antara golongan tua dan golongan muda sebelum Proklamasi?",
+      "hint": "Meskipun sempat berbeda cara, mereka tetap bersatu mencapai tujuan yang sama.",
+      "explanation": "Golongan tua dan muda akhirnya bermusyawarah dengan baik demi satu tujuan bersama, yaitu kemerdekaan Indonesia.",
+      "options": [
+        { "id": "a", "text": "Perbedaan pendapat dapat diselesaikan dengan musyawarah demi tujuan bersama" },
+        { "id": "b", "text": "Anak muda dan orang tua tidak bisa bekerja sama" },
+        { "id": "c", "text": "Keputusan penting sebaiknya ditunda terus-menerus" },
+        { "id": "d", "text": "Musyawarah tidak diperlukan dalam mengambil keputusan" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

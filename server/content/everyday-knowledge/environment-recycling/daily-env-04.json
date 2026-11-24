@@ -1,0 +1,147 @@
+{
+  "id": "daily-env-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "everyday-knowledge",
+  "unitId": "environment-recycling",
+  "title": "Hemat Air & Energi di Rumah",
+  "description": "Kebiasaan sederhana menghemat air bersih dan listrik setiap hari demi kelestarian bumi.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["daily-env-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "daily-env-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Tindakan sederhana untuk menghemat air saat sedang menyikat gigi di kamar mandi adalah...",
+      "hint": "Air tidak perlu terus mengalir saat kamu sedang menggosok gigi.",
+      "explanation": "Menutup keran saat menyikat gigi atau menyabuni tangan menghemat berliter-liter air bersih setiap hari.",
+      "options": [
+        { "id": "a", "text": "Membiarkan keran mengalir deras selama 3 menit" },
+        { "id": "b", "text": "Mematikan keran saat sedang menggosok gigi" },
+        { "id": "c", "text": "Menggunakan selang pemadam kebakaran" },
+        { "id": "d", "text": "Tidak pernah berkumur" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "daily-env-04-q02",
+      "type": "true_false",
+      "prompt": "Membuka tirai jendela di siang hari agar cahaya matahari masuk dapat membantu menghemat penggunaan lampu listrik.",
+      "hint": "Cahaya matahari adalah sumber penerangan alami yang gratis.",
+      "explanation": "Benar! Memanfaatkan cahaya matahari di siang hari mengurangi kebutuhan menyalakan lampu.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-env-04-q03",
+      "type": "multiple_select",
+      "prompt": "Kebiasaan mana saja yang termasuk menghemat energi listrik di rumah?",
+      "hint": "Matikan perangkat yang tidak sedang dipakai atau ditonton.",
+      "explanation": "Mematikan lampu saat keluar ruangan, mematikan TV bila tidak ditonton, dan mencabut charger yang sudah penuh menghemat energi listrik.",
+      "options": [
+        { "id": "a", "text": "Mematikan lampu saat meninggalkan kamar kosong" },
+        { "id": "b", "text": "Mematikan televisi jika tidak ada yang menonton" },
+        { "id": "c", "text": "Mencabut pengisi daya (charger) setelah baterai penuh" },
+        { "id": "d", "text": "Menyalakan AC sambil membuka lebar pintu dan jendela" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-env-04-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Jenis lampu hemat energi modern yang lebih terang dan tahan lama dibanding lampu pijar biasa adalah lampu...",
+      "hint": "Singkatan 3 huruf dari Light Emitting Diode.",
+      "explanation": "Lampu LED mengonsumsi listrik jauh lebih sedikit dan bertahan lebih lama dibanding lampu pijar lama.",
+      "correctAnswer": {
+        "acceptedAnswers": ["LED", "led", "Led"]
+      }
+    },
+    {
+      "id": "daily-env-04-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Sebuah keran air di wastafel terlihat tidak tertutup rapat sehingga meneteskan air terus-menerus ke dalam gelas yang perlahan penuh.",
+      "prompt": "Apa yang seharusnya dilakukan jika melihat keran air menetes seperti pada gambar?",
+      "hint": "Tetesan kecil yang dibiarkan seharian bisa membuang banyak air.",
+      "explanation": "Keran yang menetes harus segera ditutup rapat, atau dilaporkan ke orang tua jika karet/katup kerannya rusak agar diperbaiki.",
+      "options": [
+        { "id": "a", "text": "Menutup keran dengan rapat atau memberitahu orang tua jika rusak" },
+        { "id": "b", "text": "Membiarkannya saja karena hanya menetes sedikit" },
+        { "id": "c", "text": "Membuka keran lebih besar lagi" },
+        { "id": "d", "text": "Menutup wastafel dengan kertas" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-env-04-q06",
+      "type": "multiple_choice",
+      "prompt": "Mengapa menghemat listrik di rumah juga membantu menjaga lingkungan bumi?",
+      "hint": "Sebagian besar pembangkit listrik masih menggunakan bahan bakar fosil seperti batu bara.",
+      "explanation": "Menghemat listrik mengurangi pemakaian bahan bakar pembangkit listrik sehingga emisi gas rumah kaca dan polusi udara ikut berkurang.",
+      "options": [
+        { "id": "a", "text": "Karena mengurangi polusi dan pemakaian bahan bakar pembangkit listrik" },
+        { "id": "b", "text": "Karena membuat matahari bersinar lebih gelap" },
+        { "id": "c", "text": "Karena kabel listrik menjadi lebih pendek" },
+        { "id": "d", "text": "Karena air laut berubah menjadi tawar" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "daily-env-04-q07",
+      "type": "true_false",
+      "prompt": "Air bekas mencuci beras atau mencuci sayur masih bisa dimanfaatkan kembali untuk menyiram tanaman di halaman.",
+      "hint": "Air cucian beras bahkan mengandung sedikit nutrisi bagi tanaman.",
+      "explanation": "Benar! Menggunakan ulang air bekas cucian beras atau sayur untuk menyiram tanaman adalah cara cerdas menghemat air bersih.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "daily-env-04-q08",
+      "type": "multiple_select",
+      "prompt": "Cara tepat menghemat air bersih di rumah saat beraktivitas adalah...",
+      "hint": "Perhatikan cara menyiram tanaman, mencuci sepeda, dan mandi.",
+      "explanation": "Menyiram tanaman di pagi/sore hari agar tidak cepat menguap, memakai ember saat mencuci sepeda, dan menampung air hujan adalah langkah hemat air.",
+      "options": [
+        { "id": "a", "text": "Menyiram tanaman pada pagi atau sore hari agar air tidak cepat menguap" },
+        { "id": "b", "text": "Menggunakan ember dan lap saat mencuci sepeda, bukan menyemprot selang terus-menerus" },
+        { "id": "c", "text": "Menampung air hujan untuk membersihkan teras atau menyiram tanaman" },
+        { "id": "d", "text": "Menyemprotkan air keran ke jalan aspal selama satu jam" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+    },
+    {
+      "id": "daily-env-04-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Sumber energi bersih yang memanfaatkan cahaya matahari menggunakan panel surya disebut energi...",
+      "hint": "Nama lain dari matahari.",
+      "explanation": "Energi surya (energi matahari) adalah sumber energi terbarukan yang ramah lingkungan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["surya", "Surya", "matahari", "Matahari"]
+      }
+    },
+    {
+      "id": "daily-env-04-q10",
+      "type": "image_quiz",
+      "mediaKey": "cat-everyday",
+      "mediaCaption": "Seorang anak membuka pintu kulkas lebar-lebar sambil berdiri bingung memikirkan makanan apa yang ingin diambil selama beberapa menit.",
+      "prompt": "Mengapa kebiasaan membiarkan pintu kulkas terbuka lama tidak hemat energi?",
+      "hint": "Udara dingin dari dalam kulkas keluar sehingga mesin harus bekerja ekstra keras.",
+      "explanation": "Saat pintu kulkas terbuka lama, udara dingin keluar dan mesin kulkas memakai listrik lebih banyak untuk mendinginkan kembali bagian dalamnya.",
+      "options": [
+        { "id": "a", "text": "Udara dingin keluar sehingga kulkas boros listrik untuk mendinginkan ulang" },
+        { "id": "b", "text": "Makanan di dalam langsung menjadi beku batu" },
+        { "id": "c", "text": "Lampu kulkas menghasilkan terlalu banyak vitamin" },
+        { "id": "d", "text": "Pintu kulkas akan berubah menjadi kipas angin" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    }
+  ]
+}

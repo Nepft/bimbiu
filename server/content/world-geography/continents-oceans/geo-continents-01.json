@@ -1,0 +1,145 @@
+{
+  "id": "geo-continents-01",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "continents-oceans",
+  "title": "Mengenal Tujuh Benua di Dunia",
+  "description": "Belajar nama, ukuran, dan ciri umum tujuh benua yang ada di permukaan Bumi.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 1,
+  "prerequisites": [],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-continents-01-q01",
+      "type": "multiple_choice",
+      "prompt": "Benua manakah yang memiliki luas wilayah paling besar di dunia?",
+      "hint": "Indonesia juga berada di benua ini.",
+      "explanation": "Benua Asia adalah benua terluas di dunia, mencakup sekitar sepertiga dari total luas daratan Bumi.",
+      "options": [
+        { "id": "a", "text": "Afrika" },
+        { "id": "b", "text": "Asia" },
+        { "id": "c", "text": "Amerika Utara" },
+        { "id": "d", "text": "Eropa" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-continents-01-q02",
+      "type": "true_false",
+      "prompt": "Benua Australia merupakan benua terkecil di dunia.",
+      "hint": "Bandingkan luas Australia dengan enam benua lainnya.",
+      "explanation": "Benar! Australia (sering juga disebut Oseania bersama pulau sekitarnya) adalah benua dengan luas daratan paling kecil di dunia.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-continents-01-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Benua yang seluruh wilayahnya tertutup lapisan es tebal dan tidak memiliki penduduk tetap disebut Benua ...",
+      "hint": "Letaknya berada di sekitar Kutub Selatan.",
+      "explanation": "Antarktika terletak di Kutub Selatan dan hanya dihuni sementara oleh para peneliti dari berbagai negara.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Antarktika", "Antartika", "antarktika", "antartika"]
+      }
+    },
+    {
+      "id": "geo-continents-01-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua benua yang termasuk dalam pembagian tujuh benua di dunia!",
+      "hint": "Pikirkan daratan sangat luas yang memiliki banyak negara, bukan nama samudra.",
+      "explanation": "Afrika dan Amerika Selatan adalah bagian dari tujuh benua di dunia, sedangkan Pasifik dan Atlantik adalah nama samudra.",
+      "options": [
+        { "id": "a", "text": "Afrika" },
+        { "id": "b", "text": "Pasifik" },
+        { "id": "c", "text": "Amerika Selatan" },
+        { "id": "d", "text": "Atlantik" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-continents-01-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Tampilan bola Bumi menunjukkan sebaran tujuh benua dan lautan yang mengelilinginya.",
+      "prompt": "Jika kita melihat bola Bumi, benua apakah yang berada tepat di sebelah utara Benua Afrika dan dipisahkan oleh Laut Tengah?",
+      "hint": "Benua ini terkenal dengan negara seperti Prancis, Italia, dan Jerman.",
+      "explanation": "Benua Eropa terletak tepat di sebelah utara Benua Afrika dan dipisahkan oleh Laut Tengah (Mediterania).",
+      "options": [
+        { "id": "a", "text": "Australia" },
+        { "id": "b", "text": "Eropa" },
+        { "id": "c", "text": "Amerika Utara" },
+        { "id": "d", "text": "Antarktika" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-continents-01-q06",
+      "type": "multiple_choice",
+      "prompt": "Dalam model geografi tujuh benua, berapakah jumlah benua yang ada di planet Bumi?",
+      "hint": "Hitung Asia, Afrika, Amerika Utara, Amerika Selatan, Antarktika, Eropa, dan Australia.",
+      "explanation": "Dalam pembagian yang paling umum dipelajari di sekolah, Bumi terdiri atas 7 benua.",
+      "options": [
+        { "id": "a", "text": "5 benua" },
+        { "id": "b", "text": "6 benua" },
+        { "id": "c", "text": "7 benua" },
+        { "id": "d", "text": "8 benua" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "geo-continents-01-q07",
+      "type": "true_false",
+      "prompt": "Benua Asia dan Benua Eropa sebenarnya berada pada satu daratan besar yang saling menyambung.",
+      "hint": "Pernah mendengar istilah Eurasia?",
+      "explanation": "Benar! Asia dan Eropa menyatu dalam satu daratan besar yang disebut Eurasia, namun dipisahkan secara geografis dan budaya oleh Pegunungan Ural.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-continents-01-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Negara Indonesia terletak di Benua ...",
+      "hint": "Benua terbesar di dunia.",
+      "explanation": "Indonesia terletak di kawasan Asia Tenggara, yang merupakan bagian dari Benua Asia.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Asia", "asia"]
+      }
+    },
+    {
+      "id": "geo-continents-01-q09",
+      "type": "multiple_select",
+      "prompt": "Benua manakah yang dilalui oleh garis khatulistiwa?",
+      "hint": "Garis khatulistiwa membelah bagian tengah Bumi secara mendatar.",
+      "explanation": "Garis khatulistiwa melintasi Amerika Selatan, Afrika, dan wilayah kepulauan di Asia (termasuk Indonesia).",
+      "options": [
+        { "id": "a", "text": "Afrika" },
+        { "id": "b", "text": "Eropa" },
+        { "id": "c", "text": "Amerika Selatan" },
+        { "id": "d", "text": "Antarktika" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-continents-01-q10",
+      "type": "multiple_choice",
+      "prompt": "Benua manakah yang menempati urutan kedua terluas sekaligus memiliki jumlah negara terbanyak di dunia?",
+      "hint": "Di benua ini terdapat Gurun Sahara dan Sungai Nil.",
+      "explanation": "Afrika adalah benua terbesar kedua setelah Asia dan memiliki 54 negara berdaulat, terbanyak dibanding benua lainnya.",
+      "options": [
+        { "id": "a", "text": "Eropa" },
+        { "id": "b", "text": "Amerika Utara" },
+        { "id": "c", "text": "Afrika" },
+        { "id": "d", "text": "Australia" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    }
+  ]
+}

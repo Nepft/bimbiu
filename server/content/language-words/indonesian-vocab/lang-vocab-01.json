@@ -1,0 +1,145 @@
+{
+  "id": "lang-vocab-01",
+  "contentVersion": "1.0.0",
+  "categoryId": "language-words",
+  "unitId": "indonesian-vocab",
+  "title": "Kata Baku dan Tidak Baku",
+  "description": "Mengenal penulisan kata baku sesuai KBBI yang sering tertukar dalam kehidupan sehari-hari.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 1,
+  "prerequisites": [],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "lang-vocab-01-q01",
+      "type": "multiple_choice",
+      "prompt": "Manakah penulisan kata baku yang benar menurut Kamus Besar Bahasa Indonesia (KBBI)?",
+      "hint": "Ingat, huruf setelah 'p' dan 'o' bukan huruf 'i', melainkan huruf 'e'.",
+      "explanation": "Menurut KBBI, penulisan yang baku adalah 'apotek', bukan 'apotik'. Kata turunannya adalah 'apoteker'.",
+      "options": [
+        { "id": "a", "text": "apotik" },
+        { "id": "b", "text": "apotek" },
+        { "id": "c", "text": "apotheek" },
+        { "id": "d", "text": "apotikwan" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-vocab-01-q02",
+      "type": "true_false",
+      "prompt": "Kata 'nasehat' adalah bentuk kata baku yang tepat dalam bahasa Indonesia.",
+      "hint": "Perhatikan huruf vokal setelah huruf 's'.",
+      "explanation": "Salah. Bentuk kata baku menurut KBBI adalah 'nasihat' (menggunakan huruf 'i', bukan 'e').",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "lang-vocab-01-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Lengkapi kalimat dengan kata baku yang tepat: Sebelum masuk ke ruang guru, kita harus meminta ____ kepada wali kelas.",
+      "hint": "Kata bakunya diawali huruf 'i' dan menggunakan huruf 'z', bukan 'j'.",
+      "explanation": "Penulisan kata baku yang tepat adalah 'izin', bukan 'ijin'.",
+      "correctAnswer": {
+        "acceptedAnswers": ["izin", "Izin"]
+      }
+    },
+    {
+      "id": "lang-vocab-01-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kata yang penulisannya SUDAH BAKU menurut KBBI!",
+      "hint": "Periksa huruf vokal pada kata 'jadwal', 'praktik', dan bandingkan dengan bentuk tidak bakunya.",
+      "explanation": "'jadwal' dan 'praktik' adalah bentuk baku. Bentuk yang tidak baku adalah 'jadual', 'praktek', dan 'resiko' (bakunya 'risiko').",
+      "options": [
+        { "id": "a", "text": "jadwal" },
+        { "id": "b", "text": "praktek" },
+        { "id": "c", "text": "praktik" },
+        { "id": "d", "text": "resiko" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "lang-vocab-01-q05",
+      "type": "image_quiz",
+      "mediaKey": "cat-language",
+      "mediaCaption": "Papan petunjuk di depan loket pembelian tiket kereta api.",
+      "prompt": "Pada papan petunjuk di tempat umum, manakah tulisan kata baku yang benar untuk kegiatan berdiri berbaris menunggu giliran?",
+      "hint": "Kata bakunya diakhiri huruf 'e', bukan 'i'.",
+      "explanation": "Menurut KBBI, kata baku yang benar adalah 'antre' dan 'antrean', bukan 'antri' atau 'antrian'.",
+      "options": [
+        { "id": "a", "text": "Budayakan Antri" },
+        { "id": "b", "text": "Budayakan Antre" },
+        { "id": "c", "text": "Budayakan Antry" },
+        { "id": "d", "text": "Budayakan Antrie" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-vocab-01-q06",
+      "type": "multiple_choice",
+      "prompt": "Kata tidak baku dari 'kualitas' yang sering salah ditulis adalah 'kwalitas'. Bagaimana penulisan kata baku untuk 'kuantitas' dan 'kuitansi'?",
+      "hint": "Huruf 'kw' pada kata serapan baku ditulis menggunakan 'ku'.",
+      "explanation": "Dalam bahasa Indonesia baku, bunyi 'kw' ditulis menjadi 'ku', sehingga bentuk bakunya adalah 'kualitas', 'kuantitas', dan 'kuitansi'.",
+      "options": [
+        { "id": "a", "text": "kwantitas dan kwitansi" },
+        { "id": "b", "text": "kuantitas dan kuitansi" },
+        { "id": "c", "text": "kuantitas dan kwitansi" },
+        { "id": "d", "text": "kwantitas dan kuitansi" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "lang-vocab-01-q07",
+      "type": "true_false",
+      "prompt": "Penulisan kata 'sistem' lebih baku daripada 'sistim'.",
+      "hint": "Ingat pola penulisan 'sistem', 'apotek', dan 'atlet'.",
+      "explanation": "Benar. Kata baku menurut KBBI adalah 'sistem', bukan 'sistim'.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "lang-vocab-01-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Tuliskan bentuk baku dari kata 'resiko'!",
+      "hint": "Ganti huruf 'e' setelah huruf 'r' dengan huruf 'i'.",
+      "explanation": "Bentuk baku dari 'resiko' adalah 'risiko'.",
+      "correctAnswer": {
+        "acceptedAnswers": ["risiko", "Risiko"]
+      }
+    },
+    {
+      "id": "lang-vocab-01-q09",
+      "type": "multiple_choice",
+      "prompt": "Kalimat manakah yang menggunakan kata baku secara tepat?",
+      "hint": "Perhatikan kata 'atlet' dan 'zaman'.",
+      "explanation": "'atlet' adalah bentuk baku (bukan 'atlit'), sedangkan 'jaman' tidak baku (bakunya 'zaman'), dan 'aktip' tidak baku (bakunya 'aktif').",
+      "options": [
+        { "id": "a", "text": "Para atlit berlatih keras setiap pagi." },
+        { "id": "b", "text": "Rani sangat aktip mengikuti kegiatan pramuka." },
+        { "id": "c", "text": "Sejak zaman dahulu, sungai itu menjadi jalur perdagangan." },
+        { "id": "d", "text": "Kakak membeli obat di apotik dekat sekolah." }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "lang-vocab-01-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih dua kata yang TIDAK BAKU di bawah ini!",
+      "hint": "Cari kata yang sering salah eja pada akhiran atau huruf tengahnya, seperti 'lembap' atau 'cabai'.",
+      "explanation": "'lembab' tidak baku (bakunya 'lembap') dan 'cabe' tidak baku (bakunya 'cabai'). Sedangkan 'cabai' dan 'cokelat' sudah baku.",
+      "options": [
+        { "id": "a", "text": "lembab" },
+        { "id": "b", "text": "cabai" },
+        { "id": "c", "text": "cabe" },
+        { "id": "d", "text": "cokelat" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    }
+  ]
+}

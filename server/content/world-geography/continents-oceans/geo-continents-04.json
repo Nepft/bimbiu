@@ -1,0 +1,145 @@
+{
+  "id": "geo-continents-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "world-geography",
+  "unitId": "continents-oceans",
+  "title": "Afrika, Amerika, dan Australia",
+  "description": "Jelajahi bentang alam khas dan satwa unik di Benua Afrika, Amerika, dan Australia.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["geo-continents-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "geo-continents-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Gurun panas terluas di dunia yang berada di bagian utara Benua Afrika adalah ...",
+      "hint": "Namanya sering muncul dalam kisah penjelajah unta di Afrika Utara.",
+      "explanation": "Gurun Sahara membentang sangat luas di Afrika Utara dan menjadi gurun panas terbesar di dunia.",
+      "options": [
+        { "id": "a", "text": "Gurun Gobi" },
+        { "id": "b", "text": "Gurun Sahara" },
+        { "id": "c", "text": "Gurun Atacama" },
+        { "id": "d", "text": "Gurun Victoria" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-continents-04-q02",
+      "type": "true_false",
+      "prompt": "Australia adalah satu-satunya benua yang seluruh daratan utamanya merupakan satu negara.",
+      "hint": "Nama benua dan nama negaranya sama.",
+      "explanation": "Benar! Daratan utama Benua Australia ditempati oleh satu negara, yaitu Persemakmuran Australia.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "geo-continents-04-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Hutan hujan tropis terbesar di dunia yang berada di Benua Amerika Selatan disebut Hutan ...",
+      "hint": "Namanya sama dengan sungai berdebit air terbesar di dunia.",
+      "explanation": "Hutan Hujan Amazon di Amerika Selatan menghasilkan banyak oksigen dan menjadi rumah bagi jutaan spesies tumbuhan serta hewan.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Amazon", "amazon"]
+      }
+    },
+    {
+      "id": "geo-continents-04-q04",
+      "type": "multiple_select",
+      "prompt": "Pilihlah dua hewan berkantung (marsupial) yang merupakan satwa asli terkenal dari Benua Australia!",
+      "hint": "Salah satunya melompat dengan kaki belakang yang kuat, satu lagi gemar tidur di pohon eukaliptus.",
+      "explanation": "Kanguru dan koala adalah hewan berkantung ikonik dari Australia, sedangkan panda berasal dari Tiongkok dan singa banyak hidup di Afrika.",
+      "options": [
+        { "id": "a", "text": "Kanguru" },
+        { "id": "b", "text": "Panda" },
+        { "id": "c", "text": "Koala" },
+        { "id": "d", "text": "Singa" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-continents-04-q05",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Belahan Bumi Barat memperlihatkan Benua Amerika Utara dan Amerika Selatan yang dihubungkan daratan sempit.",
+      "prompt": "Terusan buatan manusia manakah yang memotong daratan sempit di Amerika Tengah untuk menghubungkan Samudra Atlantik dan Samudra Pasifik?",
+      "hint": "Terusan ini berada di negara Panama.",
+      "explanation": "Terusan Panama memudahkan kapal laut melintas antara Samudra Atlantik dan Pasifik tanpa memutari ujung selatan Amerika Selatan.",
+      "options": [
+        { "id": "a", "text": "Terusan Suez" },
+        { "id": "b", "text": "Terusan Panama" },
+        { "id": "c", "text": "Selat Malaka" },
+        { "id": "d", "text": "Selat Gibraltar" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "geo-continents-04-q06",
+      "type": "multiple_choice",
+      "prompt": "Jajaran pegunungan terpanjang di dunia yang membentang di sepanjang sisi barat Amerika Selatan adalah ...",
+      "hint": "Membentang melalui negara seperti Peru, Chili, dan Argentina.",
+      "explanation": "Pegunungan Andes membentang sekitar 7.000 kilometer di Amerika Selatan dan menjadi rangkaian pegunungan darat terpanjang di dunia.",
+      "options": [
+        { "id": "a", "text": "Pegunungan Andes" },
+        { "id": "b", "text": "Pegunungan Alpen" },
+        { "id": "c", "text": "Pegunungan Himalaya" },
+        { "id": "d", "text": "Pegunungan Ural" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "geo-continents-04-q07",
+      "type": "true_false",
+      "prompt": "Benua Amerika Utara terdiri atas tiga negara besar saja, yaitu Amerika Serikat, Kanada, dan Brasil.",
+      "hint": "Di manakah letak negara Brasil dan Meksiko?",
+      "explanation": "Salah! Brasil terletak di Amerika Selatan. Tiga negara terbesar di Amerika Utara adalah Kanada, Amerika Serikat, dan Meksiko.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "geo-continents-04-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Pulau terbesar di Benua Afrika yang terkenal dengan hewan lemur dan pohon baobabnya adalah Pulau ...",
+      "hint": "Terletak di sebelah tenggara daratan Afrika, dipisahkan oleh Selat Mozambik.",
+      "explanation": "Madagaskar adalah pulau besar di lepas pantai tenggara Afrika yang memiliki banyak satwa endemik seperti lemur.",
+      "correctAnswer": {
+        "acceptedAnswers": ["Madagaskar", "madagaskar"]
+      }
+    },
+    {
+      "id": "geo-continents-04-q09",
+      "type": "multiple_select",
+      "prompt": "Negara manakah yang terletak di Benua Amerika Selatan?",
+      "hint": "Negara-negara ini terkenal dengan olahraga sepak bola dan pegunungan Andes.",
+      "explanation": "Brasil dan Argentina berada di Amerika Selatan, sedangkan Mesir berada di Afrika dan Kanada di Amerika Utara.",
+      "options": [
+        { "id": "a", "text": "Brasil" },
+        { "id": "b", "text": "Mesir" },
+        { "id": "c", "text": "Argentina" },
+        { "id": "d", "text": "Kanada" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "geo-continents-04-q10",
+      "type": "multiple_choice",
+      "prompt": "Sistem terumbu karang terbesar di dunia yang berada di lepas pantai timur laut Australia disebut ...",
+      "hint": "Namanya dalam bahasa Inggris berarti Karang Penghalang Besar.",
+      "explanation": "Great Barrier Reef di Australia membentang lebih dari 2.300 kilometer dan bahkan dapat terlihat dari luar angkasa.",
+      "options": [
+        { "id": "a", "text": "Raja Ampat" },
+        { "id": "b", "text": "Great Barrier Reef" },
+        { "id": "c", "text": "Segitiga Bermuda" },
+        { "id": "d", "text": "Laut Merah" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    }
+  ]
+}

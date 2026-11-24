@@ -1,0 +1,141 @@
+{
+  "id": "logic-geom-03",
+  "contentVersion": "1.0.0",
+  "categoryId": "logic-mathematics",
+  "unitId": "geometry-shapes",
+  "title": "Luas Persegi, Persegi Panjang & Segitiga",
+  "description": "Menghitung luas daerah bangun datar dan mencari ukuran sisi dari luas yang diketahui.",
+  "difficulty": "easy",
+  "estimatedMinutes": 5,
+  "order": 3,
+  "prerequisites": ["logic-geom-02"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "logic-geom-03-q01",
+      "type": "multiple_choice",
+      "prompt": "Berapakah luas sebuah persegi yang panjang sisinya 8 cm?",
+      "hint": "Luas persegi = sisi x sisi.",
+      "explanation": "Luas persegi = 8 cm x 8 cm = 64 cm².",
+      "options": [
+        { "id": "a", "text": "16 cm²" },
+        { "id": "b", "text": "32 cm²" },
+        { "id": "c", "text": "64 cm²" },
+        { "id": "d", "text": "72 cm²" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-geom-03-q02",
+      "type": "true_false",
+      "prompt": "Luas persegi panjang dengan panjang 12 cm dan lebar 5 cm adalah 60 cm².",
+      "hint": "Kalikan panjang dengan lebarnya.",
+      "explanation": "Benar. Luas persegi panjang = 12 x 5 = 60 cm².",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "logic-geom-03-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Sebuah segitiga memiliki alas 10 cm dan tinggi 6 cm. Berapakah luas segitiga tersebut (dalam cm²)?",
+      "hint": "Gunakan rumus luas segitiga: 1/2 x alas x tinggi.",
+      "explanation": "Luas segitiga = 1/2 x 10 x 6 = 30 cm².",
+      "correctAnswer": { "acceptedAnswers": ["30", "30 cm2", "30 cm²"] }
+    },
+    {
+      "id": "logic-geom-03-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih dua bangun datar di bawah ini yang memiliki luas tepat 36 cm²:",
+      "hint": "Gunakan rumus luas persegi, persegi panjang, atau segitiga pada tiap pilihan.",
+      "explanation": "Persegi sisi 6 cm memiliki luas 6 x 6 = 36 cm², dan persegi panjang 9 cm x 4 cm memiliki luas 9 x 4 = 36 cm².",
+      "options": [
+        { "id": "a", "text": "Persegi dengan sisi 6 cm" },
+        { "id": "b", "text": "Persegi panjang berukuran 9 cm x 4 cm" },
+        { "id": "c", "text": "Persegi panjang berukuran 8 cm x 5 cm" },
+        { "id": "d", "text": "Segitiga dengan alas 6 cm dan tinggi 6 cm" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "logic-geom-03-q05",
+      "type": "multiple_choice",
+      "prompt": "Luas sebuah persegi adalah 81 cm². Berapakah panjang sisi persegi tersebut?",
+      "hint": "Cari angka yang jika dikalikan dengan dirinya sendiri hasilnya 81.",
+      "explanation": "Karena 9 x 9 = 81, maka panjang sisi persegi tersebut adalah 9 cm.",
+      "options": [
+        { "id": "a", "text": "8 cm" },
+        { "id": "b", "text": "9 cm" },
+        { "id": "c", "text": "10 cm" },
+        { "id": "d", "text": "20 cm" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-geom-03-q06",
+      "type": "image_quiz",
+      "mediaKey": "quiz-geometri",
+      "mediaCaption": "Papan berpetak berukuran 5 kotak mendatar dan 4 kotak menurun. Setiap 1 kotak kecil memiliki luas 1 cm².",
+      "prompt": "Berapakah luas seluruh daerah pada papan berpetak tersebut?",
+      "hint": "Hitung banyaknya kotak kecil dengan mengalikan jumlah kolom dan jumlah baris.",
+      "explanation": "Jumlah kotak = 5 x 4 = 20 kotak. Karena tiap kotak seluas 1 cm², luas totalnya adalah 20 cm².",
+      "options": [
+        { "id": "a", "text": "18 cm²" },
+        { "id": "b", "text": "20 cm²" },
+        { "id": "c", "text": "24 cm²" },
+        { "id": "d", "text": "25 cm²" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-geom-03-q07",
+      "type": "true_false",
+      "prompt": "Rumus untuk menghitung luas segitiga adalah alas dikali tinggi tanpa dibagi 2.",
+      "hint": "Sebuah segitiga adalah setengah dari persegi panjang atau jajar genjang.",
+      "explanation": "Salah. Rumus luas segitiga adalah (alas x tinggi) : 2 atau 1/2 x alas x tinggi.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "logic-geom-03-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Lantai kamar berbentuk persegi panjang memiliki luas 48 m². Jika panjangnya 8 m, berapakah lebar kamar tersebut (dalam meter)?",
+      "hint": "Bagi luas dengan panjangnya.",
+      "explanation": "Lebar = Luas : panjang = 48 : 8 = 6 meter.",
+      "correctAnswer": { "acceptedAnswers": ["6", "6 m", "6 meter"] }
+    },
+    {
+      "id": "logic-geom-03-q09",
+      "type": "multiple_choice",
+      "prompt": "Sebuah kertas persegi panjang berukuran 10 cm x 8 cm digunting sepanjang diagonalnya menjadi 2 segitiga sama besar. Berapa luas 1 segitiga?",
+      "hint": "Hitung luas kertas seluruhnya, lalu bagi dua.",
+      "explanation": "Luas kertas = 10 x 8 = 80 cm². Luas 1 segitiga = 80 : 2 = 40 cm².",
+      "options": [
+        { "id": "a", "text": "20 cm²" },
+        { "id": "b", "text": "36 cm²" },
+        { "id": "c", "text": "40 cm²" },
+        { "id": "d", "text": "80 cm²" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-geom-03-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih semua pernyataan yang benar mengenai luas bangun datar:",
+      "hint": "Hitung setiap ukuran dengan rumus luas yang sesuai.",
+      "explanation": "Persegi 10 cm luasnya 100 cm², persegi panjang 7 x 6 cm luasnya 42 cm², dan dua persegi bersisi 3 cm luasnya 9 + 9 = 18 cm². Segitiga alas 8 cm tinggi 5 cm luasnya 20 cm² (bukan 40 cm²).",
+      "options": [
+        { "id": "a", "text": "Luas persegi bersisi 10 cm adalah 100 cm²" },
+        { "id": "b", "text": "Luas segitiga alas 8 cm dan tinggi 5 cm adalah 40 cm²" },
+        { "id": "c", "text": "Luas persegi panjang 7 cm x 6 cm adalah 42 cm²" },
+        { "id": "d", "text": "Total luas dua buah persegi bersisi 3 cm adalah 18 cm²" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c", "d"] }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "science-earth-05",
+  "contentVersion": "1.0.0",
+  "categoryId": "science-nature",
+  "unitId": "earth-weather",
+  "title": "Batuan, Tanah, dan Pelestarian Alam",
+  "description": "Mengenal jenis batuan dan tanah, proses pelapukan, serta tindakan nyata menjaga kelestarian alam.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 5,
+  "prerequisites": ["science-earth-04"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "science-earth-05-q01",
+      "type": "multiple_choice",
+      "prompt": "Batuan yang terbentuk dari magma atau lava yang mendingin dan membeku disebut batuan...",
+      "hint": "Contohnya adalah batu granit, basal, dan batu apung.",
+      "explanation": "Batuan beku terbentuk dari pembekuan magma di dalam kerak Bumi atau lava di permukaan Bumi.",
+      "options": [
+        { "id": "a", "text": "Batuan sedimen" },
+        { "id": "b", "text": "Batuan beku" },
+        { "id": "c", "text": "Batuan metamorf" },
+        { "id": "d", "text": "Batuan humus" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-earth-05-q02",
+      "type": "true_false",
+      "prompt": "Tanah terbentuk dalam waktu sangat lama melalui proses pelapukan batuan yang bercampur dengan sisa makhluk hidup.",
+      "hint": "Pelapukan dibantu oleh air, suhu, angin, serta lumut dan akar tumbuhan.",
+      "explanation": "Benar! Pembentukan tanah membutuhkan ratusan hingga ribuan tahun dari pelapukan batuan dan penguraian bahan organik.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-earth-05-q03",
+      "type": "multiple_choice",
+      "prompt": "Jenis tanah yang berwarna gelap dan sangat subur karena banyak mengandung sisa daun dan makhluk hidup yang membusuk adalah...",
+      "hint": "Berbeda dengan tanah pasir atau tanah kapur yang miskin hara.",
+      "explanation": "Tanah humus sangat subur karena kaya akan bahan organik hasil pembusukan tumbuhan dan hewan oleh pengurai.",
+      "options": [
+        { "id": "a", "text": "Tanah kapur" },
+        { "id": "b", "text": "Tanah humus" },
+        { "id": "c", "text": "Tanah pasir murni" },
+        { "id": "d", "text": "Tanah cadas" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "science-earth-05-q04",
+      "type": "fill_in_the_blank",
+      "prompt": "Pengikisan lapisan tanah permukaan oleh aliran air hujan, angin, atau gelombang laut disebut ______.",
+      "hint": "Diawali huruf E.",
+      "explanation": "Erosi adalah pengikisan dan pemindahan tanah atau batuan oleh air, angin, atau es; penanaman pohon membantu mencegah erosi.",
+      "correctAnswer": {
+        "acceptedAnswers": ["erosi", "Erosi"]
+      }
+    },
+    {
+      "id": "science-earth-05-q05",
+      "type": "multiple_select",
+      "prompt": "Pilih dua contoh sumber daya alam yang dapat diperbarui (renewable):",
+      "hint": "Sumber daya ini dapat tumbuh kembali atau tersedia terus melalui siklus alam.",
+      "explanation": "Cahaya matahari dan hutan/tanaman yang ditanam kembali termasuk sumber daya alam terbarukan, sedangkan batu bara dan minyak bumi membutuhkan jutaan tahun untuk terbentuk.",
+      "options": [
+        { "id": "a", "text": "Energi cahaya matahari" },
+        { "id": "b", "text": "Tumbuhan dan hasil hutan yang dikelola lestari" },
+        { "id": "c", "text": "Batu bara" },
+        { "id": "d", "text": "Minyak bumi" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    },
+    {
+      "id": "science-earth-05-q06",
+      "type": "true_false",
+      "prompt": "Fosil tumbuhan dan hewan purba paling sering ditemukan di dalam batuan sedimen (endapan).",
+      "hint": "Lapisan lumpur dan pasir mengubur sisa organisme secara perlahan tanpa melelehkannya seperti magma.",
+      "explanation": "Benar! Batuan sedimen terbentuk dari endapan lumpur, pasir, dan sisa organisme yang mengeras sehingga dapat mengawetkan fosil.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "science-earth-05-q07",
+      "type": "image_quiz",
+      "mediaKey": "quiz-globe",
+      "mediaCaption": "Permukaan Bumi dengan kawasan pegunungan, hutan, dan pesisir yang perlu dijaga kelestariannya.",
+      "prompt": "Kegiatan menanami kembali hutan yang gundul atau lahan kritis dengan pepohonan disebut...",
+      "hint": "Diawali huruf R dan merupakan lawan dari penggundulan hutan.",
+      "explanation": "Reboisasi adalah penghijauan kembali hutan gundul untuk memulihkan ekosistem, mencegah banjir dan longsor, serta menyerap karbon.",
+      "options": [
+        { "id": "a", "text": "Reboisasi" },
+        { "id": "b", "text": "Deforestasi" },
+        { "id": "c", "text": "Urbanisasi" },
+        { "id": "d", "text": "Erupsi" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-earth-05-q08",
+      "type": "multiple_choice",
+      "prompt": "Dalam pengelolaan sampah 3R (Reduce, Reuse, Recycle), tindakan membawa botol minum sendiri agar tidak membeli air kemasan plastik termasuk contoh...",
+      "hint": "Artinya mengurangi penggunaan barang sekali pakai.",
+      "explanation": "Reduce berarti mengurangi timbulnya sampah sejak awal, misalnya membawa botol minum dan tas belanja sendiri.",
+      "options": [
+        { "id": "a", "text": "Reduce (mengurangi)" },
+        { "id": "b", "text": "Recycle (mendaur ulang)" },
+        { "id": "c", "text": "Abrasi" },
+        { "id": "d", "text": "Sedimentasi" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "science-earth-05-q09",
+      "type": "fill_in_the_blank",
+      "prompt": "Terasering atau sengkedan dibuat di lereng bukit yang miring terutama untuk mencegah terjadinya erosi dan ______.",
+      "hint": "Bencana jatuhnya massa tanah dari lereng bukit saat hujan deras.",
+      "explanation": "Terasering memperlambat aliran air hujan di lahan miring sehingga mencegah erosi dan tanah longsor.",
+      "correctAnswer": {
+        "acceptedAnswers": ["longsor", "Longsor", "tanah longsor", "Tanah longsor"]
+      }
+    },
+    {
+      "id": "science-earth-05-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih sampah organik yang dapat diolah menjadi pupuk kompos:",
+      "hint": "Sampah organik berasal dari sisa makhluk hidup yang mudah membusuk.",
+      "explanation": "Sisa sayuran, kulit buah, dan daun kering mudah terurai menjadi kompos, sedangkan botol kaca dan kantong plastik sulit terurai secara alami.",
+      "options": [
+        { "id": "a", "text": "Sisa sayuran dan kulit buah" },
+        { "id": "b", "text": "Daun-daun kering di halaman" },
+        { "id": "c", "text": "Botol kaca pecah" },
+        { "id": "d", "text": "Kantong plastik kresek" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b"] }
+    }
+  ]
+}

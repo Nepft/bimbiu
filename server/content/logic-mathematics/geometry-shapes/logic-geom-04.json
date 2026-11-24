@@ -1,0 +1,141 @@
+{
+  "id": "logic-geom-04",
+  "contentVersion": "1.0.0",
+  "categoryId": "logic-mathematics",
+  "unitId": "geometry-shapes",
+  "title": "Mengenal Bangun Ruang & Jaring-Jaring",
+  "description": "Mengenali sisi, rusuk, titik sudut, serta jaring-jaring kubus, balok, limas, prisma, dan tabung.",
+  "difficulty": "medium",
+  "estimatedMinutes": 5,
+  "order": 4,
+  "prerequisites": ["logic-geom-03"],
+  "xpReward": 20,
+  "questions": [
+    {
+      "id": "logic-geom-04-q01",
+      "type": "multiple_choice",
+      "prompt": "Berapa banyak sisi (bidang permukaan) yang dimiliki oleh sebuah kubus?",
+      "hint": "Bayangkan sebuah dadu yang memiliki angka 1 sampai berapa?",
+      "explanation": "Kubus memiliki 6 sisi berbentuk persegi yang semuanya sama besar, seperti pada dadu.",
+      "options": [
+        { "id": "a", "text": "4 sisi" },
+        { "id": "b", "text": "6 sisi" },
+        { "id": "c", "text": "8 sisi" },
+        { "id": "d", "text": "12 sisi" }
+      ],
+      "correctAnswer": { "optionId": "b" }
+    },
+    {
+      "id": "logic-geom-04-q02",
+      "type": "true_false",
+      "prompt": "Sebuah kubus memiliki 12 rusuk yang semuanya sama panjang.",
+      "hint": "Hitung garis tepi bagian atas (4), bawah (4), dan tegak (4) pada kubus.",
+      "explanation": "Benar. Kubus memiliki 4 rusuk alas, 4 rusuk atas, dan 4 rusuk tegak yang semuanya sama panjang, berjumlah 12 rusuk.",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": true }
+    },
+    {
+      "id": "logic-geom-04-q03",
+      "type": "fill_in_the_blank",
+      "prompt": "Berapa banyak titik sudut yang dimiliki oleh sebuah balok?",
+      "hint": "Hitung jumlah pojok di bagian atas dan bagian bawah balok.",
+      "explanation": "Balok memiliki 4 titik sudut di bagian atas dan 4 titik sudut di bagian bawah, jadi seluruhnya ada 8 titik sudut.",
+      "correctAnswer": { "acceptedAnswers": ["8"] }
+    },
+    {
+      "id": "logic-geom-04-q04",
+      "type": "multiple_select",
+      "prompt": "Pilih semua bangun ruang yang memiliki sisi berbentuk lingkaran:",
+      "hint": "Bayangkan kaleng susu dan topi ulang tahun.",
+      "explanation": "Tabung memiliki alas dan tutup berbentuk lingkaran, sedangkan kerucut memiliki alas berbentuk lingkaran.",
+      "options": [
+        { "id": "a", "text": "Tabung" },
+        { "id": "b", "text": "Kubus" },
+        { "id": "c", "text": "Kerucut" },
+        { "id": "d", "text": "Balok" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "c"] }
+    },
+    {
+      "id": "logic-geom-04-q05",
+      "type": "multiple_choice",
+      "prompt": "Bangun ruang yang alasnya berbentuk persegi dan memiliki 4 sisi tegak segitiga yang bertemu di satu titik puncak disebut ...",
+      "hint": "Bentuknya menyerupai piramida di Mesir.",
+      "explanation": "Limas segiempat memiliki alas berbentuk segiempat (seperti persegi) dan 4 sisi tegak segitiga yang bertemu di satu puncak.",
+      "options": [
+        { "id": "a", "text": "Prisma segitiga" },
+        { "id": "b", "text": "Kubus" },
+        { "id": "c", "text": "Limas segiempat" },
+        { "id": "d", "text": "Tabung" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-geom-04-q06",
+      "type": "image_quiz",
+      "mediaKey": "quiz-geometri",
+      "mediaCaption": "Jaring-jaring bangun ruang berbentuk huruf T yang terdiri dari 6 buah persegi sama besar.",
+      "prompt": "Jika jaring-jaring pada gambar dilipat mengikuti garisnya, bangun ruang apakah yang terbentuk?",
+      "hint": "Semua sisinya berbentuk persegi dan berjumlah 6 buah.",
+      "explanation": "Jaring-jaring yang tersusun dari 6 persegi sama besar akan membentuk sebuah kubus.",
+      "options": [
+        { "id": "a", "text": "Kubus" },
+        { "id": "b", "text": "Limas segitiga" },
+        { "id": "c", "text": "Tabung" },
+        { "id": "d", "text": "Kerucut" }
+      ],
+      "correctAnswer": { "optionId": "a" }
+    },
+    {
+      "id": "logic-geom-04-q07",
+      "type": "true_false",
+      "prompt": "Sebuah bangun ruang tabung memiliki 4 titik sudut.",
+      "hint": "Apakah kaleng berbentuk tabung memiliki pojok yang runcing?",
+      "explanation": "Salah. Tabung tidak memiliki titik sudut (jumlah titik sudutnya 0).",
+      "options": [
+        { "id": "true", "text": "Benar" },
+        { "id": "false", "text": "Salah" }
+      ],
+      "correctAnswer": { "value": false }
+    },
+    {
+      "id": "logic-geom-04-q08",
+      "type": "fill_in_the_blank",
+      "prompt": "Berapakah jumlah seluruh sisi pada sebuah prisma segitiga?",
+      "hint": "Hitung 2 sisi segitiga (alas dan tutup) ditambah sisi tegak di sekelilingnya.",
+      "explanation": "Prisma segitiga memiliki 2 sisi segitiga (alas dan tutup) serta 3 sisi tegak berbentuk persegi panjang, jadi totalnya 5 sisi.",
+      "correctAnswer": { "acceptedAnswers": ["5"] }
+    },
+    {
+      "id": "logic-geom-04-q09",
+      "type": "multiple_choice",
+      "prompt": "Jumlah seluruh rusuk pada bangun ruang balok adalah ...",
+      "hint": "Jumlah rusuk balok sama dengan jumlah rusuk kubus.",
+      "explanation": "Balok memiliki 12 rusuk: 4 rusuk panjang, 4 rusuk lebar, dan 4 rusuk tinggi.",
+      "options": [
+        { "id": "a", "text": "6 rusuk" },
+        { "id": "b", "text": "8 rusuk" },
+        { "id": "c", "text": "12 rusuk" },
+        { "id": "d", "text": "16 rusuk" }
+      ],
+      "correctAnswer": { "optionId": "c" }
+    },
+    {
+      "id": "logic-geom-04-q10",
+      "type": "multiple_select",
+      "prompt": "Pilih semua pernyataan yang benar tentang bangun ruang kubus:",
+      "hint": "Ingat jumlah sisi, titik sudut, dan rusuk kubus.",
+      "explanation": "Kubus memiliki 6 sisi persegi sama besar, 8 titik sudut, dan 12 rusuk yang sama panjang.",
+      "options": [
+        { "id": "a", "text": "Memiliki 6 sisi berbentuk persegi sama besar" },
+        { "id": "b", "text": "Memiliki 8 titik sudut" },
+        { "id": "c", "text": "Memiliki 10 rusuk" },
+        { "id": "d", "text": "Semua rusuknya sama panjang" }
+      ],
+      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+    }
+  ]
+}
