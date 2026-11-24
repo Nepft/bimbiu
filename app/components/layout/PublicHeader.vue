@@ -6,19 +6,44 @@ interface Props {
 withDefaults(defineProps<Props>(), {
   showLoginAction: true,
 })
+
+const route = useRoute()
+
+const isLanding = computed(() => route.path === '/')
+const isLogin = computed(() => route.path.startsWith('/auth/login'))
+const isOnboarding = computed(() => route.path.startsWith('/auth/onboarding'))
+const isPrivacy = computed(() => route.path.startsWith('/privacy'))
 </script>
 
 <template>
   <header class="public-header">
     <div class="public-header__inner">
       <NuxtLink to="/" class="public-header__brand">
-        <span class="public-header__mark" aria-hidden="true">B</span>
-        <span class="public-header__wordmark">Bimbiu</span>
+        <BimbiuLogo :show-mark="!isOnboarding" />
       </NuxtLink>
       <nav aria-label="Navigasi publik" class="public-header__nav">
         <slot name="actions">
-          <AppButton v-if="showLoginAction" variant="primary" size="md" to="/auth/login">
-            Masuk dengan Google
+          <template v-if="isLanding">
+            <AppButton variant="secondary" size="md" to="/auth/login">
+              Masuk
+            </AppButton>
+            <AppButton variant="primary" size="md" to="/auth/login" class="public-header__signup">
+              Daftar Gratis
+            </AppButton>
+          </template>
+          <AppButton v-else-if="isLogin" variant="secondary" size="md" to="/">
+            <AppIcon name="arrow-left" :size="18" />
+            <span>Kembali ke Beranda</span>
+          </AppButton>
+          <span v-else-if="isOnboarding" class="public-header__status">
+            Lengkapi Profil Awal
+          </span>
+          <AppButton v-else-if="isPrivacy" variant="secondary" size="md" to="/">
+            <AppIcon name="arrow-left" :size="18" />
+            <span>Kembali</span>
+          </AppButton>
+          <AppButton v-else-if="showLoginAction" variant="secondary" size="md" to="/auth/login">
+            Masuk
           </AppButton>
         </slot>
       </nav>
@@ -68,6 +93,28 @@ withDefaults(defineProps<Props>(), {
   font-weight: 700;
   font-size: 22px;
   color: var(--action-primary);
+}
+
+.public-header__nav {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.public-header__signup {
+  display: none;
+}
+
+.public-header__status {
+  font-size: var(--text-caption);
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+@media (min-width: 640px) {
+  .public-header__signup {
+    display: inline-flex;
+  }
 }
 
 @media (min-width: 1024px) {

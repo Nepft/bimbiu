@@ -2,10 +2,10 @@
 const route = useRoute()
 
 const navItems = [
-  { label: 'Beranda', to: '/app', match: (path: string) => path === '/app' },
-  { label: 'Belajar', to: '/app/learn', match: (path: string) => path.startsWith('/app/learn') || path.startsWith('/app/result') },
-  { label: 'Progres', to: '/app/progress', match: (path: string) => path.startsWith('/app/progress') },
-  { label: 'Hadiah', to: '/app/rewards', match: (path: string) => path.startsWith('/app/rewards') },
+  { label: 'Beranda', icon: 'home' as const, to: '/app', match: (path: string) => path === '/app' },
+  { label: 'Belajar', icon: 'book' as const, to: '/app/learn', match: (path: string) => path.startsWith('/app/learn') || path.startsWith('/app/result') },
+  { label: 'Progres', icon: 'chart' as const, to: '/app/progress', match: (path: string) => path.startsWith('/app/progress') },
+  { label: 'Hadiah', icon: 'award' as const, to: '/app/rewards', match: (path: string) => path.startsWith('/app/rewards') },
 ]
 </script>
 
@@ -20,19 +20,7 @@ const navItems = [
         :class="{ 'floating-nav__item--active': item.match(route.path) }"
         :aria-current="item.match(route.path) ? 'page' : undefined"
       >
-        <svg v-if="item.label === 'Beranda'" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M3 10.5L12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-9.5z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-        </svg>
-        <svg v-else-if="item.label === 'Belajar'" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5V6.5A2.5 2.5 0 0 1 6.5 4H20v17H6.5A2.5 2.5 0 0 1 4 19.5z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-        </svg>
-        <svg v-else-if="item.label === 'Progres'" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M4 20V14M10 20V8M16 20v-6M22 20V4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-        </svg>
-        <svg v-else width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <circle cx="12" cy="9" r="6" stroke="currentColor" stroke-width="2" />
-          <path d="M8.5 14.5L7 22l5-3 5 3-1.5-7.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
-        </svg>
+        <AppIcon :name="item.icon" :size="20" />
         <span>{{ item.label }}</span>
       </NuxtLink>
     </div>

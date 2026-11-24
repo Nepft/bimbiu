@@ -16,14 +16,13 @@ const initial = computed(() => props.displayName.trim().charAt(0).toUpperCase() 
   <header class="learner-topbar">
     <div class="learner-topbar__inner">
       <NuxtLink to="/app" class="learner-topbar__brand">
-        <span class="learner-topbar__mark" aria-hidden="true">B</span>
-        <span class="learner-topbar__wordmark">Bimbiu</span>
+        <BimbiuLogo />
       </NuxtLink>
 
       <NuxtLink to="/app/profile" class="learner-topbar__profile" aria-label="Buka profil learner">
         <span class="learner-topbar__avatar" aria-hidden="true">{{ initial }}</span>
-        <span class="learner-topbar__label tabular-nums">
-          {{ displayName }} · Level {{ level }}
+        <span class="learner-topbar__label">
+          {{ displayName }}
         </span>
       </NuxtLink>
     </div>

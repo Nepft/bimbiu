@@ -15,6 +15,7 @@ const emit = defineEmits<{
 
 <template>
   <AppCard variant="tint" padding="lg" class="state-card">
+    <BimbiuIllustration name="telescope" />
     <h2 class="state-card__title">
       {{ title }}
     </h2>
