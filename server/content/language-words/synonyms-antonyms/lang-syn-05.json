@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 5,
-  "prerequisites": ["lang-syn-04"],
+  "prerequisites": [
+    "lang-syn-04"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Lepaskan imbuhan me-ng-...-i dari kata tersebut.",
       "explanation": "Kata 'mengetahui' berasal dari kata dasar 'tahu' yang mendapat imbuhan me- + ke-...-i (pengetahuan -> mengetahui).",
       "options": [
-        { "id": "a", "text": "tahu" },
-        { "id": "b", "text": "ketahui" },
-        { "id": "c", "text": "ngerti" },
-        { "id": "d", "text": "pengetahuan" }
+        {
+          "id": "a",
+          "text": "tahu"
+        },
+        {
+          "id": "b",
+          "text": "ketahui"
+        },
+        {
+          "id": "c",
+          "text": "ngerti"
+        },
+        {
+          "id": "d",
+          "text": "pengetahuan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "lang-syn-05-q02",
@@ -32,10 +48,18 @@
       "hint": "Ingat pelajaran sebelumnya: huruf 'u' mendapat awalan meng-, bukan 'rubah' (hewan).",
       "explanation": "Salah. Kata dasar dari 'mengubah' adalah 'ubah'. 'Rubah' adalah nama hewan sejenis serigala kecil.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "lang-syn-05-q03",
@@ -44,7 +68,10 @@
       "hint": "Lepaskan awalan memper- dan akhiran -kan.",
       "explanation": "Kata dasar dari 'mempertanggungjawabkan' adalah 'tanggung jawab'. Ketika mendapat awalan dan akhiran sekaligus (konfiks), penulisannya digabung.",
       "correctAnswer": {
-        "acceptedAnswers": ["tanggung jawab", "Tanggung jawab"]
+        "acceptedAnswers": [
+          "tanggung jawab",
+          "Tanggung jawab"
+        ]
       }
     },
     {
@@ -54,28 +81,59 @@
       "hint": "Lepaskan imbuhan bel-, pe-an, atau me-i.",
       "explanation": "'belajar' dan 'mengajari' berasal dari kata dasar 'ajar'. 'mengejar' berasal dari 'kejar', dan 'berjajar' berasal dari 'jajar'.",
       "options": [
-        { "id": "a", "text": "belajar" },
-        { "id": "b", "text": "mengejar" },
-        { "id": "c", "text": "mengajari" },
-        { "id": "d", "text": "berjajar" }
+        {
+          "id": "a",
+          "text": "belajar"
+        },
+        {
+          "id": "b",
+          "text": "mengejar"
+        },
+        {
+          "id": "c",
+          "text": "mengajari"
+        },
+        {
+          "id": "d",
+          "text": "berjajar"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "lang-syn-05-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-language",
+      "mediaKey": "quiz-signboard",
       "mediaCaption": "Seorang anak menceritakan kisah serunya berlibur ke kebun binatang.",
       "prompt": "Kata 'menceritakan' dan 'pengalaman' sering muncul saat mengisahkan liburan. Apa kata dasar dari 'pengalaman'?",
       "hint": "Lepaskan imbuhan peng- dan -an.",
       "explanation": "Kata 'pengalaman' berasal dari kata dasar 'alam' (yang juga membentuk kata 'mengalami').",
       "options": [
-        { "id": "a", "text": "alam" },
-        { "id": "b", "text": "ngalam" },
-        { "id": "c", "text": "lama" },
-        { "id": "d", "text": "alami" }
+        {
+          "id": "a",
+          "text": "alam"
+        },
+        {
+          "id": "b",
+          "text": "ngalam"
+        },
+        {
+          "id": "c",
+          "text": "lama"
+        },
+        {
+          "id": "d",
+          "text": "alami"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "lang-syn-05-q06",
@@ -84,12 +142,26 @@
       "hint": "Ingat bahwa huruf 'ny' di awal kata dasar tetap dipertahankan setelah awalan me-.",
       "explanation": "Kata 'menyanyikan' berasal dari kata dasar 'nyanyi' yang mendapat awalan me- dan akhiran -kan.",
       "options": [
-        { "id": "a", "text": "sanyi" },
-        { "id": "b", "text": "nyanyi" },
-        { "id": "c", "text": "nyanyian" },
-        { "id": "d", "text": "anyam" }
+        {
+          "id": "a",
+          "text": "sanyi"
+        },
+        {
+          "id": "b",
+          "text": "nyanyi"
+        },
+        {
+          "id": "c",
+          "text": "nyanyian"
+        },
+        {
+          "id": "d",
+          "text": "anyam"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-syn-05-q07",
@@ -98,10 +170,18 @@
       "hint": "Jika hanya mendapat awalan saja atau akhiran saja, gabungan kata tetap ditulis terpisah.",
       "explanation": "Benar. Gabungan kata 'kerja sama' ditulis terpisah jika hanya mendapat awalan ('bekerja sama'), dan baru digabung jika mendapat awalan serta akhiran sekaligus (seperti 'mengerjasamakan').",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "lang-syn-05-q08",
@@ -110,7 +190,10 @@
       "hint": "Huruf 's' di awal kata dasarnya luluh menjadi 'ny'.",
       "explanation": "Kata 'menyayangi' berasal dari kata dasar 'sayang' yang mendapat awalan me- (huruf 's' luluh) dan akhiran -i.",
       "correctAnswer": {
-        "acceptedAnswers": ["sayang", "Sayang"]
+        "acceptedAnswers": [
+          "sayang",
+          "Sayang"
+        ]
       }
     },
     {
@@ -120,12 +203,26 @@
       "hint": "Periksa huruf pertama yang luluh pada imbuhan me- atau pe-.",
       "explanation": "'penyapu' berasal dari kata dasar 'sapu'. 'mengukur' berasal dari 'ukur' (bukan 'kukur' jika konteksnya mengukur panjang), 'menulis' dari 'tulis' (bukan 'nulis'), dan 'memilih' dari 'pilih' (bukan 'milih').",
       "options": [
-        { "id": "a", "text": "menulis -> nulis" },
-        { "id": "b", "text": "memilih -> milih" },
-        { "id": "c", "text": "penyapu -> sapu" },
-        { "id": "d", "text": "menari -> nari" }
+        {
+          "id": "a",
+          "text": "menulis -> nulis"
+        },
+        {
+          "id": "b",
+          "text": "memilih -> milih"
+        },
+        {
+          "id": "c",
+          "text": "penyapu -> sapu"
+        },
+        {
+          "id": "d",
+          "text": "menari -> nari"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "lang-syn-05-q10",
@@ -134,12 +231,29 @@
       "hint": "Cari kata yang tetap memuat unsur makna keadaan badan yang bugar.",
       "explanation": "'kesehatan' dan 'menyehatkan' berasal dari kata dasar 'sehat'. 'penasihat' berasal dari 'nasihat', sedangkan 'siasat' adalah kata dasar tersendiri.",
       "options": [
-        { "id": "a", "text": "kesehatan" },
-        { "id": "b", "text": "penasihat" },
-        { "id": "c", "text": "menyehatkan" },
-        { "id": "d", "text": "siasat" }
+        {
+          "id": "a",
+          "text": "kesehatan"
+        },
+        {
+          "id": "b",
+          "text": "penasihat"
+        },
+        {
+          "id": "c",
+          "text": "menyehatkan"
+        },
+        {
+          "id": "d",
+          "text": "siasat"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     }
   ]
 }

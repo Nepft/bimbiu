@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 4,
-  "prerequisites": ["hist-indep-03"],
+  "prerequisites": [
+    "hist-indep-03"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Peristiwa ini dilakukan agar proklamasi segera diumumkan tanpa campur tangan Jepang.",
       "explanation": "Peristiwa Rengasdengklok terjadi pada 16 Agustus 1945 ketika golongan muda mengamankan Soekarno dan Hatta ke Rengasdengklok, Karawang.",
       "options": [
-        { "id": "a", "text": "Rengasdengklok" },
-        { "id": "b", "text": "Lembang" },
-        { "id": "c", "text": "Surakarta" },
-        { "id": "d", "text": "Pasuruan" }
+        {
+          "id": "a",
+          "text": "Rengasdengklok"
+        },
+        {
+          "id": "b",
+          "text": "Lembang"
+        },
+        {
+          "id": "c",
+          "text": "Surakarta"
+        },
+        {
+          "id": "d",
+          "text": "Pasuruan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-04-q02",
@@ -32,10 +48,18 @@
       "hint": "Rumah tersebut berada di Jalan Imam Bonjol No. 1 Jakarta dan kini menjadi Museum Perumusan Naskah Proklamasi.",
       "explanation": "Benar, Laksamana Maeda mengizinkan rumahnya digunakan oleh para tokoh bangsa untuk menyusun teks proklamasi dengan aman.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-indep-04-q03",
@@ -44,12 +68,26 @@
       "hint": "Beliau adalah seorang wartawan yang menjadi anggota golongan muda.",
       "explanation": "Sayuti Melik mengetik naskah proklamasi menggunakan mesin tik dan melakukan beberapa penyempurnaan ejaan yang disetujui.",
       "options": [
-        { "id": "a", "text": "Sayuti Melik" },
-        { "id": "b", "text": "Ahmad Soebardjo" },
-        { "id": "c", "text": "Sutan Sjahrir" },
-        { "id": "d", "text": "Sukarni" }
+        {
+          "id": "a",
+          "text": "Sayuti Melik"
+        },
+        {
+          "id": "b",
+          "text": "Ahmad Soebardjo"
+        },
+        {
+          "id": "c",
+          "text": "Sutan Sjahrir"
+        },
+        {
+          "id": "d",
+          "text": "Sukarni"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-04-q04",
@@ -58,24 +96,41 @@
       "hint": "Beliau adalah istri dari Soekarno.",
       "explanation": "Ibu Fatmawati menjahit sendiri bendera Merah Putih dari dua potong kain katun merah dan putih.",
       "correctAnswer": {
-        "acceptedAnswers": ["Fatmawati", "Ibu Fatmawati"]
+        "acceptedAnswers": [
+          "Fatmawati",
+          "Ibu Fatmawati"
+        ]
       }
     },
     {
       "id": "hist-indep-04-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-candi",
+      "mediaKey": "quiz-heritage",
       "mediaCaption": "Ilustrasi ruang kerja bersejarah di Jakarta dengan meja perundingan tempat tiga tokoh bangsa menyusun teks proklamasi pada malam 16 Agustus 1945.",
       "prompt": "Siapakah tiga tokoh yang menyusun naskah Proklamasi Kemerdekaan di ruang makan rumah Laksamana Maeda?",
       "hint": "Terdiri dari Proklamator Dwi Tunggal dan seorang tokoh ahli hukum dari golongan tua.",
       "explanation": "Tiga tokoh penyusun naskah proklamasi adalah Ir. Soekarno, Drs. Mohammad Hatta, dan Mr. Ahmad Soebardjo.",
       "options": [
-        { "id": "a", "text": "Soekarno, Mohammad Hatta, dan Ahmad Soebardjo" },
-        { "id": "b", "text": "Soekarno, Ki Hajar Dewantara, dan Pattimura" },
-        { "id": "c", "text": "Mohammad Hatta, Cut Nyak Dhien, dan Kartini" },
-        { "id": "d", "text": "Sudirman, Diponegoro, dan Gajah Mada" }
+        {
+          "id": "a",
+          "text": "Soekarno, Mohammad Hatta, dan Ahmad Soebardjo"
+        },
+        {
+          "id": "b",
+          "text": "Soekarno, Ki Hajar Dewantara, dan Pattimura"
+        },
+        {
+          "id": "c",
+          "text": "Mohammad Hatta, Cut Nyak Dhien, dan Kartini"
+        },
+        {
+          "id": "d",
+          "text": "Sudirman, Diponegoro, dan Gajah Mada"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-04-q06",
@@ -84,12 +139,29 @@
       "hint": "Salah satunya mengusulkan agar teks proklamasi ditandatangani Soekarno-Hatta atas nama bangsa Indonesia.",
       "explanation": "Sukarni dan Wikana (bersama Chaerul Saleh) merupakan tokoh golongan muda yang aktif mendorong percepatan proklamasi.",
       "options": [
-        { "id": "a", "text": "Sukarni" },
-        { "id": "b", "text": "Wikana" },
-        { "id": "c", "text": "Sultan Iskandar Muda" },
-        { "id": "d", "text": "Mpu Tantular" }
+        {
+          "id": "a",
+          "text": "Sukarni"
+        },
+        {
+          "id": "b",
+          "text": "Wikana"
+        },
+        {
+          "id": "c",
+          "text": "Sultan Iskandar Muda"
+        },
+        {
+          "id": "d",
+          "text": "Mpu Tantular"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "hist-indep-04-q07",
@@ -98,12 +170,26 @@
       "hint": "Tokoh ini berasal dari golongan muda dan berawalan 'Su...'.",
       "explanation": "Sukarni mengusulkan agar naskah proklamasi cukup ditandatangani oleh Soekarno dan Hatta atas nama bangsa Indonesia.",
       "options": [
-        { "id": "a", "text": "Sukarni" },
-        { "id": "b", "text": "Latief Hendraningrat" },
-        { "id": "c", "text": "Suhud" },
-        { "id": "d", "text": "Bung Tomo" }
+        {
+          "id": "a",
+          "text": "Sukarni"
+        },
+        {
+          "id": "b",
+          "text": "Latief Hendraningrat"
+        },
+        {
+          "id": "c",
+          "text": "Suhud"
+        },
+        {
+          "id": "d",
+          "text": "Bung Tomo"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-04-q08",
@@ -112,10 +198,18 @@
       "hint": "Berita kekalahan Jepang didengar oleh para pemuda Indonesia melalui radio.",
       "explanation": "Benar, kekalahan Jepang pada 14–15 Agustus 1945 menciptakan kesempatan bagi bangsa Indonesia untuk segera memproklamasikan kemerdekaan.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-indep-04-q09",
@@ -124,7 +218,12 @@
       "hint": "Namanya berawalan huruf S dan ikut merumuskan naskah proklamasi.",
       "explanation": "Mr. Ahmad Soebardjo meyakinkan golongan muda sehingga Soekarno dan Hatta dapat kembali ke Jakarta pada malam 16 Agustus 1945.",
       "correctAnswer": {
-        "acceptedAnswers": ["Soebardjo", "Subardjo", "Ahmad Soebardjo", "Ahmad Subardjo"]
+        "acceptedAnswers": [
+          "Soebardjo",
+          "Subardjo",
+          "Ahmad Soebardjo",
+          "Ahmad Subardjo"
+        ]
       }
     },
     {
@@ -134,12 +233,26 @@
       "hint": "Meskipun sempat berbeda cara, mereka tetap bersatu mencapai tujuan yang sama.",
       "explanation": "Golongan tua dan muda akhirnya bermusyawarah dengan baik demi satu tujuan bersama, yaitu kemerdekaan Indonesia.",
       "options": [
-        { "id": "a", "text": "Perbedaan pendapat dapat diselesaikan dengan musyawarah demi tujuan bersama" },
-        { "id": "b", "text": "Anak muda dan orang tua tidak bisa bekerja sama" },
-        { "id": "c", "text": "Keputusan penting sebaiknya ditunda terus-menerus" },
-        { "id": "d", "text": "Musyawarah tidak diperlukan dalam mengambil keputusan" }
+        {
+          "id": "a",
+          "text": "Perbedaan pendapat dapat diselesaikan dengan musyawarah demi tujuan bersama"
+        },
+        {
+          "id": "b",
+          "text": "Anak muda dan orang tua tidak bisa bekerja sama"
+        },
+        {
+          "id": "c",
+          "text": "Keputusan penting sebaiknya ditunda terus-menerus"
+        },
+        {
+          "id": "d",
+          "text": "Musyawarah tidak diperlukan dalam mengambil keputusan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

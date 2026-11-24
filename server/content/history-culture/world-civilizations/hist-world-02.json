@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 2,
-  "prerequisites": ["hist-world-01"],
+  "prerequisites": [
+    "hist-world-01"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Kota ini sekarang menjadi ibu kota negara Yunani.",
       "explanation": "Athena pada masa Yunani Kuno memperkenalkan sistem demokrasi, yaitu warga ikut bermusyawarah dan memilih keputusan bersama.",
       "options": [
-        { "id": "a", "text": "Athena" },
-        { "id": "b", "text": "Roma" },
-        { "id": "c", "text": "Kairo" },
-        { "id": "d", "text": "Beijing" }
+        {
+          "id": "a",
+          "text": "Athena"
+        },
+        {
+          "id": "b",
+          "text": "Roma"
+        },
+        {
+          "id": "c",
+          "text": "Kairo"
+        },
+        {
+          "id": "d",
+          "text": "Beijing"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-02-q02",
@@ -32,10 +48,18 @@
       "hint": "Dahulu acara ini digelar setiap empat tahun sekali sebagai penghormatan dan persahabatan antarnegara kota.",
       "explanation": "Benar, Olimpiade kuno dimulai di Olympia, Yunani, sekitar tahun 776 sebelum Masehi.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-world-02-q03",
@@ -44,12 +68,26 @@
       "hint": "Namanya berawalan huruf C dan sekarang menjadi objek wisata terkenal di Italia.",
       "explanation": "Colosseum adalah arena raksasa di Roma yang dibangun hampir dua ribu tahun lalu dengan teknik lengkungan batu dan beton kuno.",
       "options": [
-        { "id": "a", "text": "Colosseum" },
-        { "id": "b", "text": "Parthenon" },
-        { "id": "c", "text": "Piramida Giza" },
-        { "id": "d", "text": "Menara Eiffel" }
+        {
+          "id": "a",
+          "text": "Colosseum"
+        },
+        {
+          "id": "b",
+          "text": "Parthenon"
+        },
+        {
+          "id": "c",
+          "text": "Piramida Giza"
+        },
+        {
+          "id": "d",
+          "text": "Menara Eiffel"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-02-q04",
@@ -58,24 +96,41 @@
       "hint": "Istilah ilmiah tumbuhan dan hewan juga sering menggunakan bahasa ini.",
       "explanation": "Bahasa Latin adalah bahasa peradaban Romawi Kuno yang hurufnya menjadi cikal bakal alfabet modern.",
       "correctAnswer": {
-        "acceptedAnswers": ["Latin", "bahasa Latin"]
+        "acceptedAnswers": [
+          "Latin",
+          "bahasa Latin"
+        ]
       }
     },
     {
       "id": "hist-world-02-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-candi",
+      "mediaKey": "quiz-hieroglif",
       "mediaCaption": "Ilustrasi bangunan kuil batu putih bertiang marmer di atas bukit Akropolis, Athena, Yunani.",
       "prompt": "Kuil megah bertiang marmer yang berdiri di atas bukit Akropolis di kota Athena bernama...",
       "hint": "Namanya berawalan 'Par...'.",
       "explanation": "Kuil Parthenon di Akropolis, Athena, merupakan mahakarya arsitektur Yunani Kuno dengan deretan tiang batu yang simetris.",
       "options": [
-        { "id": "a", "text": "Parthenon" },
-        { "id": "b", "text": "Colosseum" },
-        { "id": "c", "text": "Taj Mahal" },
-        { "id": "d", "text": "Borobudur" }
+        {
+          "id": "a",
+          "text": "Parthenon"
+        },
+        {
+          "id": "b",
+          "text": "Colosseum"
+        },
+        {
+          "id": "c",
+          "text": "Taj Mahal"
+        },
+        {
+          "id": "d",
+          "text": "Borobudur"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-02-q06",
@@ -84,12 +139,29 @@
       "hint": "Orang Romawi ahli mengalirkan air bersih ke kota dan menghubungkan kota dengan jalur darat yang kuat.",
       "explanation": "Bangsa Romawi Kuno membangun akuaduk (jembatan saluran air bersih) serta jaringan jalan raya berbatu yang sangat rapi dan tahan lama.",
       "options": [
-        { "id": "a", "text": "Akuaduk untuk mengalirkan air bersih ke kota" },
-        { "id": "b", "text": "Jaringan jalan raya berbatu yang kuat dan lurus" },
-        { "id": "c", "text": "Kereta api listrik berkecepatan tinggi" },
-        { "id": "d", "text": "Satelit komunikasi luar angkasa" }
+        {
+          "id": "a",
+          "text": "Akuaduk untuk mengalirkan air bersih ke kota"
+        },
+        {
+          "id": "b",
+          "text": "Jaringan jalan raya berbatu yang kuat dan lurus"
+        },
+        {
+          "id": "c",
+          "text": "Kereta api listrik berkecepatan tinggi"
+        },
+        {
+          "id": "d",
+          "text": "Satelit komunikasi luar angkasa"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "hist-world-02-q07",
@@ -98,12 +170,26 @@
       "hint": "Beliau adalah murid Plato dan pernah menjadi guru Alexander Agung.",
       "explanation": "Aristoteles (bersama Sokrates dan Plato) adalah pemikir besar Yunani Kuno yang menulis banyak gagasan tentang ilmu pengetahuan, logika, dan etika.",
       "options": [
-        { "id": "a", "text": "Aristoteles" },
-        { "id": "b", "text": "Tutankhamun" },
-        { "id": "c", "text": "Cai Lun" },
-        { "id": "d", "text": "James Watt" }
+        {
+          "id": "a",
+          "text": "Aristoteles"
+        },
+        {
+          "id": "b",
+          "text": "Tutankhamun"
+        },
+        {
+          "id": "c",
+          "text": "Cai Lun"
+        },
+        {
+          "id": "d",
+          "text": "James Watt"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-02-q08",
@@ -112,10 +198,18 @@
       "hint": "Contohnya angka IV untuk 4 atau X untuk 10.",
       "explanation": "Benar, sistem angka Romawi warisan peradaban Romawi Kuno masih dipakai pada jam, nomor bab, dan urutan raja atau acara.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-world-02-q09",
@@ -124,7 +218,9 @@
       "hint": "Indonesia juga menerapkan sistem pemerintahan ini.",
       "explanation": "Demokrasi berarti pemerintahan dari rakyat, oleh rakyat, dan untuk rakyat.",
       "correctAnswer": {
-        "acceptedAnswers": ["demokrasi"]
+        "acceptedAnswers": [
+          "demokrasi"
+        ]
       }
     },
     {
@@ -134,12 +230,26 @@
       "hint": "Pikirkan pentingnya ilmu pengetahuan, olahraga yang adil, dan teknologi bangunan.",
       "explanation": "Yunani dan Romawi Kuno mewariskan pemikiran kritis, semangat sportivitas Olimpiade, hukum, serta teknik arsitektur yang bermanfaat hingga kini.",
       "options": [
-        { "id": "a", "text": "Pentingnya ilmu pengetahuan, sportivitas olahraga, musyawarah, dan teknik bangunan" },
-        { "id": "b", "text": "Kota kuno tidak memerlukan air bersih dan jalan raya" },
-        { "id": "c", "text": "Olahraga hanya boleh dilakukan di ruang tertutup" },
-        { "id": "d", "text": "Sejarah kuno tidak berpengaruh pada kehidupan modern" }
+        {
+          "id": "a",
+          "text": "Pentingnya ilmu pengetahuan, sportivitas olahraga, musyawarah, dan teknik bangunan"
+        },
+        {
+          "id": "b",
+          "text": "Kota kuno tidak memerlukan air bersih dan jalan raya"
+        },
+        {
+          "id": "c",
+          "text": "Olahraga hanya boleh dilakukan di ruang tertutup"
+        },
+        {
+          "id": "d",
+          "text": "Sejarah kuno tidak berpengaruh pada kehidupan modern"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

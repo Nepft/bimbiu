@@ -18,12 +18,26 @@
       "hint": "Pilih kata yang bermakna memiliki kemampuan berpikir cepat dan pintar.",
       "explanation": "Sinonim kata 'pandai' adalah 'cerdas' atau 'pintar'.",
       "options": [
-        { "id": "a", "text": "cerdas" },
-        { "id": "b", "text": "malas" },
-        { "id": "c", "text": "pelupa" },
-        { "id": "d", "text": "ragu" }
+        {
+          "id": "a",
+          "text": "cerdas"
+        },
+        {
+          "id": "b",
+          "text": "malas"
+        },
+        {
+          "id": "c",
+          "text": "pelupa"
+        },
+        {
+          "id": "d",
+          "text": "ragu"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "lang-syn-01-q02",
@@ -32,10 +46,18 @@
       "hint": "Apakah ketiga kata tersebut menggambarkan perasaan bahagia?",
       "explanation": "Benar. 'Gembira', 'riang', dan 'senang' memiliki makna yang sama atau mirip, yaitu perasaan suka cita.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "lang-syn-01-q03",
@@ -44,7 +66,14 @@
       "hint": "Kata ini diawali huruf 'k' atau 't' dan terdiri dari 5 huruf.",
       "explanation": "Kata 'kawan' atau 'teman' adalah sinonim dari kata 'sahabat'.",
       "correctAnswer": {
-        "acceptedAnswers": ["kawan", "Kawan", "teman", "Teman", "rekan", "Rekan"]
+        "acceptedAnswers": [
+          "kawan",
+          "Kawan",
+          "teman",
+          "Teman",
+          "rekan",
+          "Rekan"
+        ]
       }
     },
     {
@@ -54,28 +83,59 @@
       "hint": "Cari kata yang menggambarkan pemandangan yang bagus dipandang mata.",
       "explanation": "'elok' dan 'permai' bermakna bagus atau indah dipandang. 'suram' dan 'kusam' berarti tidak bercahaya atau tidak menarik.",
       "options": [
-        { "id": "a", "text": "elok" },
-        { "id": "b", "text": "suram" },
-        { "id": "c", "text": "permai" },
-        { "id": "d", "text": "kusam" }
+        {
+          "id": "a",
+          "text": "elok"
+        },
+        {
+          "id": "b",
+          "text": "suram"
+        },
+        {
+          "id": "c",
+          "text": "permai"
+        },
+        {
+          "id": "d",
+          "text": "kusam"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "lang-syn-01-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-language",
+      "mediaKey": "quiz-signboard",
       "mediaCaption": "Suasana malam di desa yang tenang tanpa suara kendaraan.",
       "prompt": "Kata apa yang menjadi sinonim paling tepat untuk kata 'sunyi' pada suasana desa tersebut?",
       "hint": "Kata yang berarti tidak ramai dan tidak terdengar suara bising.",
       "explanation": "'Sunyi' bersinonim dengan 'sepi' atau 'senyap'.",
       "options": [
-        { "id": "a", "text": "gaduh" },
-        { "id": "b", "text": "sepi" },
-        { "id": "c", "text": "ramai" },
-        { "id": "d", "text": "riuh" }
+        {
+          "id": "a",
+          "text": "gaduh"
+        },
+        {
+          "id": "b",
+          "text": "sepi"
+        },
+        {
+          "id": "c",
+          "text": "ramai"
+        },
+        {
+          "id": "d",
+          "text": "riuh"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-syn-01-q06",
@@ -84,12 +144,26 @@
       "hint": "Kata yang berarti tidak lambat.",
       "explanation": "'Lekas' bersinonim dengan 'cepat' atau 'segera'.",
       "options": [
-        { "id": "a", "text": "lambat" },
-        { "id": "b", "text": "segera" },
-        { "id": "c", "text": "santai" },
-        { "id": "d", "text": "tunda" }
+        {
+          "id": "a",
+          "text": "lambat"
+        },
+        {
+          "id": "b",
+          "text": "segera"
+        },
+        {
+          "id": "c",
+          "text": "santai"
+        },
+        {
+          "id": "d",
+          "text": "tunda"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-syn-01-q07",
@@ -98,10 +172,18 @@
       "hint": "Coba cek apakah kedua kata itu bermakna tidak sesuai kenyataan.",
       "explanation": "Salah. 'Bohong' dan 'dusta' adalah sinonim karena keduanya bermakna tidak berkata benar.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "lang-syn-01-q08",
@@ -110,7 +192,14 @@
       "hint": "Makhluk hidup yang dapat bergerak bebas, seperti kucing, burung, dan ikan.",
       "explanation": "Dalam bahasa Indonesia, 'fauna' berarti dunia hewan, sehingga sinonimnya adalah 'hewan' atau 'satwa'.",
       "correctAnswer": {
-        "acceptedAnswers": ["hewan", "Hewan", "satwa", "Satwa", "binatang", "Binatang"]
+        "acceptedAnswers": [
+          "hewan",
+          "Hewan",
+          "satwa",
+          "Satwa",
+          "binatang",
+          "Binatang"
+        ]
       }
     },
     {
@@ -120,12 +209,26 @@
       "hint": "Kata yang digunakan untuk menyebut bau bunga melati yang sedap.",
       "explanation": "'Harum' bersinonim dengan 'wangi' (berbau sedap).",
       "options": [
-        { "id": "a", "text": "busuk" },
-        { "id": "b", "text": "wangi" },
-        { "id": "c", "text": "tawar" },
-        { "id": "d", "text": "pahit" }
+        {
+          "id": "a",
+          "text": "busuk"
+        },
+        {
+          "id": "b",
+          "text": "wangi"
+        },
+        {
+          "id": "c",
+          "text": "tawar"
+        },
+        {
+          "id": "d",
+          "text": "pahit"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-syn-01-q10",
@@ -134,12 +237,29 @@
       "hint": "Cari pasangan yang memiliki makna sama, bukan berlawanan.",
       "explanation": "'cermat - teliti' dan 'flora - tumbuhan' adalah pasangan sinonim. 'jauh - dekat' dan 'hemat - boros' adalah antonim.",
       "options": [
-        { "id": "a", "text": "cermat - teliti" },
-        { "id": "b", "text": "jauh - dekat" },
-        { "id": "c", "text": "flora - tumbuhan" },
-        { "id": "d", "text": "hemat - boros" }
+        {
+          "id": "a",
+          "text": "cermat - teliti"
+        },
+        {
+          "id": "b",
+          "text": "jauh - dekat"
+        },
+        {
+          "id": "c",
+          "text": "flora - tumbuhan"
+        },
+        {
+          "id": "d",
+          "text": "hemat - boros"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     }
   ]
 }

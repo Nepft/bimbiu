@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 5,
-  "prerequisites": ["geo-indo-04"],
+  "prerequisites": [
+    "geo-indo-04"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "WIT lebih cepat 2 jam daripada WIB.",
       "explanation": "Indonesia memiliki 3 zona waktu yang masing-masing berselisih 1 jam. Karena WIT lebih cepat 2 jam dari WIB, pukul 09.00 WIB sama dengan pukul 11.00 WIT.",
       "options": [
-        { "id": "a", "text": "07.00 WIT" },
-        { "id": "b", "text": "10.00 WIT" },
-        { "id": "c", "text": "11.00 WIT" },
-        { "id": "d", "text": "12.00 WIT" }
+        {
+          "id": "a",
+          "text": "07.00 WIT"
+        },
+        {
+          "id": "b",
+          "text": "10.00 WIT"
+        },
+        {
+          "id": "c",
+          "text": "11.00 WIT"
+        },
+        {
+          "id": "d",
+          "text": "12.00 WIT"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "geo-indo-05-q02",
@@ -32,10 +48,18 @@
       "hint": "WITA mencakup Kalimantan Timur/Selatan, Bali, NTB, NTT, dan Sulawesi.",
       "explanation": "Benar! Bali dan seluruh wilayah Sulawesi masuk dalam zona Waktu Indonesia Tengah (WITA).",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "geo-indo-05-q03",
@@ -44,7 +68,10 @@
       "hint": "Diambil dari nama ilmuwan penjelajah Alfred Russel ...",
       "explanation": "Garis Wallace memisahkan fauna tipe Asiatis (seperti gajah dan harimau) dari fauna wilayah peralihan (seperti anoa dan komodo).",
       "correctAnswer": {
-        "acceptedAnswers": ["Wallace", "wallace"]
+        "acceptedAnswers": [
+          "Wallace",
+          "wallace"
+        ]
       }
     },
     {
@@ -54,28 +81,59 @@
       "hint": "WIB digunakan di Sumatra, Jawa, serta Kalimantan Barat dan Tengah.",
       "explanation": "Sumatra dan Jawa berada di zona WIB, sedangkan Maluku dan Papua berada di zona WIT.",
       "options": [
-        { "id": "a", "text": "Pulau Sumatra" },
-        { "id": "b", "text": "Kepulauan Maluku" },
-        { "id": "c", "text": "Pulau Jawa" },
-        { "id": "d", "text": "Pulau Papua" }
+        {
+          "id": "a",
+          "text": "Pulau Sumatra"
+        },
+        {
+          "id": "b",
+          "text": "Kepulauan Maluku"
+        },
+        {
+          "id": "c",
+          "text": "Pulau Jawa"
+        },
+        {
+          "id": "d",
+          "text": "Pulau Papua"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "geo-indo-05-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-landmark",
       "mediaCaption": "Wilayah Indonesia membentang luas dari barat ke timur sehingga matahari terbit lebih dulu di bagian timur.",
       "prompt": "Mengapa wilayah Indonesia terbagi menjadi tiga zona waktu berbeda (WIB, WITA, dan WIT)?",
       "hint": "Ingat luas bentangan barat ke timur berdasarkan garis bujur Bumi.",
       "explanation": "Indonesia membentang sekitar 46 derajat garis bujur dari barat ke timur. Setiap 15 derajat bujur setara dengan selisih waktu 1 jam, sehingga Indonesia dibagi menjadi tiga zona waktu.",
       "options": [
-        { "id": "a", "text": "Karena wilayah Indonesia sangat lebar dari barat ke timur" },
-        { "id": "b", "text": "Karena jumlah penduduknya sangat banyak" },
-        { "id": "c", "text": "Karena Indonesia memiliki banyak gunung berapi" },
-        { "id": "d", "text": "Karena Indonesia hanya memiliki dua musim" }
+        {
+          "id": "a",
+          "text": "Karena wilayah Indonesia sangat lebar dari barat ke timur"
+        },
+        {
+          "id": "b",
+          "text": "Karena jumlah penduduknya sangat banyak"
+        },
+        {
+          "id": "c",
+          "text": "Karena Indonesia memiliki banyak gunung berapi"
+        },
+        {
+          "id": "d",
+          "text": "Karena Indonesia hanya memiliki dua musim"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "geo-indo-05-q06",
@@ -84,12 +142,26 @@
       "hint": "Hewan mamalia darat berukuran besar.",
       "explanation": "Orangutan, harimau Sumatra, badak Jawa, dan gajah Sumatra adalah contoh fauna tipe Asiatis di bagian barat Indonesia.",
       "options": [
-        { "id": "a", "text": "Kanguru pohon" },
-        { "id": "b", "text": "Orangutan" },
-        { "id": "c", "text": "Burung kasuari" },
-        { "id": "d", "text": "Anoa" }
+        {
+          "id": "a",
+          "text": "Kanguru pohon"
+        },
+        {
+          "id": "b",
+          "text": "Orangutan"
+        },
+        {
+          "id": "c",
+          "text": "Burung kasuari"
+        },
+        {
+          "id": "d",
+          "text": "Anoa"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-indo-05-q07",
@@ -98,10 +170,18 @@
       "hint": "Negara beriklim tropis biasanya hanya memiliki dua musim utama.",
       "explanation": "Salah! Karena beriklim tropis di sekitar khatulistiwa, Indonesia memiliki dua musim utama, yaitu musim hujan dan musim kemarau.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "geo-indo-05-q08",
@@ -110,7 +190,10 @@
       "hint": "Diambil dari nama ilmuwan Max ...",
       "explanation": "Garis Weber memisahkan wilayah fauna peralihan di bagian tengah Indonesia dengan fauna tipe Australis di Maluku dan Papua.",
       "correctAnswer": {
-        "acceptedAnswers": ["Weber", "weber"]
+        "acceptedAnswers": [
+          "Weber",
+          "weber"
+        ]
       }
     },
     {
@@ -120,12 +203,29 @@
       "hint": "Hewan-hewan ini banyak ditemukan di Papua dan sekitarnya.",
       "explanation": "Burung cenderawasih dan kangguru pohon berasal dari Indonesia bagian timur (Papua), sedangkan badak bercula satu di Jawa dan gajah di Sumatra.",
       "options": [
-        { "id": "a", "text": "Burung cenderawasih" },
-        { "id": "b", "text": "Badak bercula satu" },
-        { "id": "c", "text": "Kanguru pohon" },
-        { "id": "d", "text": "Gajah Sumatra" }
+        {
+          "id": "a",
+          "text": "Burung cenderawasih"
+        },
+        {
+          "id": "b",
+          "text": "Badak bercula satu"
+        },
+        {
+          "id": "c",
+          "text": "Kanguru pohon"
+        },
+        {
+          "id": "d",
+          "text": "Gajah Sumatra"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "geo-indo-05-q10",
@@ -134,12 +234,26 @@
       "hint": "Bumi berputar dari barat ke timur sehingga wilayah paling timur melihat matahari lebih dulu.",
       "explanation": "Karena Merauke (Papua Selatan) berada di paling timur (WIT), matahari terbit lebih awal di sana dibandingkan Makassar (WITA) maupun Jakarta atau Medan (WIB).",
       "options": [
-        { "id": "a", "text": "Medan" },
-        { "id": "b", "text": "Jakarta" },
-        { "id": "c", "text": "Makassar" },
-        { "id": "d", "text": "Merauke" }
+        {
+          "id": "a",
+          "text": "Medan"
+        },
+        {
+          "id": "b",
+          "text": "Jakarta"
+        },
+        {
+          "id": "c",
+          "text": "Makassar"
+        },
+        {
+          "id": "d",
+          "text": "Merauke"
+        }
       ],
-      "correctAnswer": { "optionId": "d" }
+      "correctAnswer": {
+        "optionId": "d"
+      }
     }
   ]
 }

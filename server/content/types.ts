@@ -102,7 +102,20 @@ export interface BadgeDefinition {
   name: string
   description: string
   icon: string
-  ruleType: 'first_lesson' | 'mastered_lesson' | 'category_complete' | 'lessons_count'
+  ruleType:
+    | 'first_lesson'
+    | 'mastered_lesson'
+    | 'category_complete'
+    | 'lessons_count'
+    | 'perfect_score_count'
+    | 'mastered_count'
+    | 'retry_mastery'
+    | 'all_categories_started'
+    | 'all_categories_mastered'
+    | 'units_complete'
+    | 'units_mastered'
+    | 'category_mastered'
+    | 'badges_count'
   targetValue: string | number
 }
 

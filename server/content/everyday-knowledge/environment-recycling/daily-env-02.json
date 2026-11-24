@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 2,
-  "prerequisites": ["daily-env-01"],
+  "prerequisites": [
+    "daily-env-01"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Tindakan ini bertujuan mengurangi jumlah sampah sejak awal.",
       "explanation": "Reduce berarti mengurangi penggunaan barang sekali pakai yang berpotensi menjadi sampah.",
       "options": [
-        { "id": "a", "text": "Reduce (Mengurangi)" },
-        { "id": "b", "text": "Recycle (Mendaur ulang)" },
-        { "id": "c", "text": "Repair (Memperbaiki)" },
-        { "id": "d", "text": "Replace (Membuang)" }
+        {
+          "id": "a",
+          "text": "Reduce (Mengurangi)"
+        },
+        {
+          "id": "b",
+          "text": "Recycle (Mendaur ulang)"
+        },
+        {
+          "id": "c",
+          "text": "Repair (Memperbaiki)"
+        },
+        {
+          "id": "d",
+          "text": "Replace (Membuang)"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-env-02-q02",
@@ -32,10 +48,18 @@
       "hint": "Reuse artinya memakai kembali barang yang masih layak tanpa perlu meleburnya di pabrik.",
       "explanation": "Benar! Memanfaatkan ulang wadah kaca yang masih bagus memperpanjang usia pakai barang dan mengurangi sampah.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "daily-env-02-q03",
@@ -44,12 +68,30 @@
       "hint": "Pilih kebiasaan yang menghindari terciptanya sampah sekali pakai.",
       "explanation": "Membawa botol minum isi ulang, membawa kotak bekal, dan memakai kedua sisi kertas saat mencoret-coret semuanya mengurangi sampah.",
       "options": [
-        { "id": "a", "text": "Membawa botol minum isi ulang ke sekolah" },
-        { "id": "b", "text": "Membawa kotak makan sendiri untuk membeli jajanan" },
-        { "id": "c", "text": "Menggunakan kedua sisi kertas untuk coret-coretan hitung" },
-        { "id": "d", "text": "Membeli air minum dalam gelas plastik baru setiap istirahat" }
+        {
+          "id": "a",
+          "text": "Membawa botol minum isi ulang ke sekolah"
+        },
+        {
+          "id": "b",
+          "text": "Membawa kotak makan sendiri untuk membeli jajanan"
+        },
+        {
+          "id": "c",
+          "text": "Menggunakan kedua sisi kertas untuk coret-coretan hitung"
+        },
+        {
+          "id": "d",
+          "text": "Membeli air minum dalam gelas plastik baru setiap istirahat"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-env-02-q04",
@@ -58,24 +100,43 @@
       "hint": "Istilah bahasa Inggrisnya berawalan 'Re' dan berarti mendaur ulang.",
       "explanation": "Recycle adalah proses mendaur ulang sampah menjadi bahan baku atau barang baru yang bermanfaat.",
       "correctAnswer": {
-        "acceptedAnswers": ["recycle", "Recycle", "daur ulang", "Daur ulang"]
+        "acceptedAnswers": [
+          "recycle",
+          "Recycle",
+          "daur ulang",
+          "Daur ulang"
+        ]
       }
     },
     {
       "id": "daily-env-02-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-recycle",
       "mediaCaption": "Sebuah simbol berbentuk segitiga yang tersusun dari tiga tanda panah hijau melingkar tercetak di bagian bawah botol minum.",
       "prompt": "Simbol tiga panah melingkar pada gambar tersebut menunjukkan makna apa?",
       "hint": "Tanda panah melingkar melambangkan siklus bahan yang dapat diproses kembali.",
       "explanation": "Simbol segitiga tiga panah adalah lambang daur ulang (recycle) yang menandakan bahan kemasan dapat didaur ulang.",
       "options": [
-        { "id": "a", "text": "Simbol daur ulang (Recycle)" },
-        { "id": "b", "text": "Simbol benda mudah meledak" },
-        { "id": "c", "text": "Simbol larangan minum" },
-        { "id": "d", "text": "Simbol arah angin" }
+        {
+          "id": "a",
+          "text": "Simbol daur ulang (Recycle)"
+        },
+        {
+          "id": "b",
+          "text": "Simbol benda mudah meledak"
+        },
+        {
+          "id": "c",
+          "text": "Simbol larangan minum"
+        },
+        {
+          "id": "d",
+          "text": "Simbol arah angin"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-env-02-q06",
@@ -84,12 +145,26 @@
       "hint": "Lebih baik mencegah sampah tercipta dulu sebelum memikirkan cara mengolahnya.",
       "explanation": "Reduce (mengurangi) adalah langkah paling utama, diikuti Reuse (pakai ulang), lalu Recycle (daur ulang) untuk sampah yang tersisa.",
       "options": [
-        { "id": "a", "text": "Reduce, lalu Reuse, lalu Recycle" },
-        { "id": "b", "text": "Buang semua dulu, baru didaur ulang" },
-        { "id": "c", "text": "Bakar sampah, lalu kubur" },
-        { "id": "d", "text": "Beli sebanyak mungkin plastik baru" }
+        {
+          "id": "a",
+          "text": "Reduce, lalu Reuse, lalu Recycle"
+        },
+        {
+          "id": "b",
+          "text": "Buang semua dulu, baru didaur ulang"
+        },
+        {
+          "id": "c",
+          "text": "Bakar sampah, lalu kubur"
+        },
+        {
+          "id": "d",
+          "text": "Beli sebanyak mungkin plastik baru"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-env-02-q07",
@@ -98,10 +173,18 @@
       "hint": "Barang tersebut tetap dipakai kembali oleh orang lain tanpa menjadi sampah.",
       "explanation": "Benar! Memberikan barang layak pakai kepada yang membutuhkan membuat barang digunakan kembali (reuse).",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "daily-env-02-q08",
@@ -110,12 +193,30 @@
       "hint": "Bank sampah menerima sampah anorganik yang bersih dan kering.",
       "explanation": "Kardus/kertas kering, botol plastik PET, dan kaleng aluminium bersih dapat disetorkan ke bank sampah untuk didaur ulang.",
       "options": [
-        { "id": "a", "text": "Kardus dan kertas bekas yang kering" },
-        { "id": "b", "text": "Botol plastik minuman yang bersih" },
-        { "id": "c", "text": "Kaleng minuman aluminium" },
-        { "id": "d", "text": "Tisu bekas mengelap minyak goreng" }
+        {
+          "id": "a",
+          "text": "Kardus dan kertas bekas yang kering"
+        },
+        {
+          "id": "b",
+          "text": "Botol plastik minuman yang bersih"
+        },
+        {
+          "id": "c",
+          "text": "Kaleng minuman aluminium"
+        },
+        {
+          "id": "d",
+          "text": "Tisu bekas mengelap minyak goreng"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-env-02-q09",
@@ -124,24 +225,41 @@
       "hint": "Artinya mendaur ulang.",
       "explanation": "Prinsip 3R terdiri dari Reduce (mengurangi), Reuse (menggunakan ulang), dan Recycle (mendaur ulang).",
       "correctAnswer": {
-        "acceptedAnswers": ["Recycle", "recycle"]
+        "acceptedAnswers": [
+          "Recycle",
+          "recycle"
+        ]
       }
     },
     {
       "id": "daily-env-02-q10",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-recycle",
       "mediaCaption": "Di meja kerajinan kelas, seorang siswa membuat pot tanaman hias gantung dari botol plastik bekas minuman yang dicat rapi.",
       "prompt": "Kegiatan kreatif pada gambar tersebut merupakan contoh penerapan prinsip apa?",
       "hint": "Botol bekas dimanfaatkan kembali menjadi barang berguna tanpa dibuang.",
       "explanation": "Mengubah botol bekas menjadi pot tanaman adalah contoh pemanfaatan ulang kreatif (reuse/upcycle) agar tidak menjadi sampah.",
       "options": [
-        { "id": "a", "text": "Reuse (memanfaatkan kembali barang bekas)" },
-        { "id": "b", "text": "Membuang sampah sembarangan" },
-        { "id": "c", "text": "Membakar sampah plastik" },
-        { "id": "d", "text": "Menambah sampah sekali pakai" }
+        {
+          "id": "a",
+          "text": "Reuse (memanfaatkan kembali barang bekas)"
+        },
+        {
+          "id": "b",
+          "text": "Membuang sampah sembarangan"
+        },
+        {
+          "id": "c",
+          "text": "Membakar sampah plastik"
+        },
+        {
+          "id": "d",
+          "text": "Menambah sampah sekali pakai"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

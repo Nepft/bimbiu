@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 5,
-  "prerequisites": ["hist-indep-04"],
+  "prerequisites": [
+    "hist-indep-04"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Alamat rumah kediaman Soekarno saat itu berada di Jakarta Pusat.",
       "explanation": "Proklamasi dibacakan di halaman rumah Ir. Soekarno, Jalan Pegangsaan Timur Nomor 56, Jakarta, pada pukul 10.00 WIB.",
       "options": [
-        { "id": "a", "text": "Jalan Pegangsaan Timur Nomor 56, Jakarta" },
-        { "id": "b", "text": "Lapangan Monas, Jakarta" },
-        { "id": "c", "text": "Gedung Sate, Bandung" },
-        { "id": "d", "text": "Tugu Pahlawan, Surabaya" }
+        {
+          "id": "a",
+          "text": "Jalan Pegangsaan Timur Nomor 56, Jakarta"
+        },
+        {
+          "id": "b",
+          "text": "Lapangan Monas, Jakarta"
+        },
+        {
+          "id": "c",
+          "text": "Gedung Sate, Bandung"
+        },
+        {
+          "id": "d",
+          "text": "Tugu Pahlawan, Surabaya"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-05-q02",
@@ -32,10 +48,18 @@
       "hint": "Pengibaran dilakukan oleh Latief Hendraningrat dan Suhud.",
       "explanation": "Benar, setelah pembacaan proklamasi, Sang Saka Merah Putih dikibarkan oleh Latief Hendraningrat dan Suhud sambil diiringi lagu 'Indonesia Raya'.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-indep-05-q03",
@@ -44,12 +68,26 @@
       "hint": "Tokoh yang membakar semangat rakyat lewat pidato radio di kota ini adalah Bung Tomo.",
       "explanation": "Pertempuran Surabaya pada 10 November 1945 menjadi simbol perlawanan rakyat mempertahankan kemerdekaan dan ditetapkan sebagai Hari Pahlawan.",
       "options": [
-        { "id": "a", "text": "Semarang" },
-        { "id": "b", "text": "Surabaya" },
-        { "id": "c", "text": "Medan" },
-        { "id": "d", "text": "Makassar" }
+        {
+          "id": "a",
+          "text": "Semarang"
+        },
+        {
+          "id": "b",
+          "text": "Surabaya"
+        },
+        {
+          "id": "c",
+          "text": "Medan"
+        },
+        {
+          "id": "d",
+          "text": "Makassar"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "hist-indep-05-q04",
@@ -58,24 +96,43 @@
       "hint": "Nama beliau sering dijadikan nama jalan utama di banyak kota di Indonesia.",
       "explanation": "Jenderal Soedirman memimpin perang gerilya selama berbulan-bulan dengan ditandu demi mempertahankan kemerdekaan Republik Indonesia.",
       "correctAnswer": {
-        "acceptedAnswers": ["Soedirman", "Sudirman", "Jenderal Soedirman", "Jenderal Sudirman"]
+        "acceptedAnswers": [
+          "Soedirman",
+          "Sudirman",
+          "Jenderal Soedirman",
+          "Jenderal Sudirman"
+        ]
       }
     },
     {
       "id": "hist-indep-05-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-candi",
+      "mediaKey": "quiz-heritage",
       "mediaCaption": "Ilustrasi Tugu Proklamasi yang berdiri tegak di kawasan bekas Jalan Pegangsaan Timur No. 56 Jakarta.",
       "prompt": "Dua tokoh bangsa yang bergelar Bapak Proklamator Indonesia karena membacakan dan menandatangani teks Proklamasi adalah...",
       "hint": "Keduanya juga menjadi Presiden dan Wakil Presiden pertama Republik Indonesia.",
       "explanation": "Ir. Soekarno dan Drs. Mohammad Hatta dikenal sebagai Dwi Tunggal Bapak Proklamator Kemerdekaan Indonesia.",
       "options": [
-        { "id": "a", "text": "Soekarno dan Mohammad Hatta" },
-        { "id": "b", "text": "Diponegoro dan Imam Bonjol" },
-        { "id": "c", "text": "Soedirman dan Bung Tomo" },
-        { "id": "d", "text": "Sutomo dan Wahidin" }
+        {
+          "id": "a",
+          "text": "Soekarno dan Mohammad Hatta"
+        },
+        {
+          "id": "b",
+          "text": "Diponegoro dan Imam Bonjol"
+        },
+        {
+          "id": "c",
+          "text": "Soedirman dan Bung Tomo"
+        },
+        {
+          "id": "d",
+          "text": "Sutomo dan Wahidin"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-05-q06",
@@ -84,12 +141,29 @@
       "hint": "Selain S.K. Trimurti yang membawa baki atau membantu persiapan, ada dua pemuda pengerek tali bendera.",
       "explanation": "Latief Hendraningrat dan Suhud Sastro Kusumo bertugas mengibarkan bendera Merah Putih pada 17 Agustus 1945.",
       "options": [
-        { "id": "a", "text": "Latief Hendraningrat" },
-        { "id": "b", "text": "Suhud" },
-        { "id": "c", "text": "W.R. Supratman" },
-        { "id": "d", "text": "Raden Wijaya" }
+        {
+          "id": "a",
+          "text": "Latief Hendraningrat"
+        },
+        {
+          "id": "b",
+          "text": "Suhud"
+        },
+        {
+          "id": "c",
+          "text": "W.R. Supratman"
+        },
+        {
+          "id": "d",
+          "text": "Raden Wijaya"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "hist-indep-05-q07",
@@ -98,12 +172,26 @@
       "hint": "Nama peristiwanya menggambarkan kobaran api di Kota Kembang.",
       "explanation": "Bandung Lautan Api terjadi pada 23–24 Maret 1946 ketika rakyat dan tentara membakar bangunan penting sebelum mengungsi ke luar kota.",
       "options": [
-        { "id": "a", "text": "Bandung Lautan Api" },
-        { "id": "b", "text": "Palagan Ambarawa" },
-        { "id": "c", "text": "Puputan Margarana" },
-        { "id": "d", "text": "Peristiwa Rengasdengklok" }
+        {
+          "id": "a",
+          "text": "Bandung Lautan Api"
+        },
+        {
+          "id": "b",
+          "text": "Palagan Ambarawa"
+        },
+        {
+          "id": "c",
+          "text": "Puputan Margarana"
+        },
+        {
+          "id": "d",
+          "text": "Peristiwa Rengasdengklok"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-05-q08",
@@ -112,10 +200,18 @@
       "hint": "Pidatonya menjadi salah satu momen paling terkenal dalam sejarah perjuangan 1945.",
       "explanation": "Benar, pidato berapi-api Bung Tomo melalui radio membangkitkan keberanian rakyat Surabaya melawan tentara sekutu.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-indep-05-q09",
@@ -124,7 +220,10 @@
       "hint": "Peringatan ini untuk mengenang jasa pejuang pada Pertempuran Surabaya.",
       "explanation": "Tanggal 10 November diperingati sebagai Hari Pahlawan untuk menghormati pengorbanan para pejuang kemerdekaan.",
       "correctAnswer": {
-        "acceptedAnswers": ["Pahlawan", "Hari Pahlawan"]
+        "acceptedAnswers": [
+          "Pahlawan",
+          "Hari Pahlawan"
+        ]
       }
     },
     {
@@ -134,12 +233,26 @@
       "hint": "Pilih kegiatan positif yang memajukan diri dan bangsa.",
       "explanation": "Belajar dengan sungguh-sungguh, menjaga kerukunan, dan berbuat baik kepada sesama adalah cara pelajar mengisi kemerdekaan.",
       "options": [
-        { "id": "a", "text": "Rajin belajar, disiplin, dan menjaga persatuan bangsa" },
-        { "id": "b", "text": "Melupakan sejarah perjuangan para pahlawan" },
-        { "id": "c", "text": "Merusak fasilitas umum di lingkungan sekitar" },
-        { "id": "d", "text": "Bertengkar dengan teman berbeda pendapat" }
+        {
+          "id": "a",
+          "text": "Rajin belajar, disiplin, dan menjaga persatuan bangsa"
+        },
+        {
+          "id": "b",
+          "text": "Melupakan sejarah perjuangan para pahlawan"
+        },
+        {
+          "id": "c",
+          "text": "Merusak fasilitas umum di lingkungan sekitar"
+        },
+        {
+          "id": "d",
+          "text": "Bertengkar dengan teman berbeda pendapat"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

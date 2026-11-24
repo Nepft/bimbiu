@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 4,
-  "prerequisites": ["lang-syn-03"],
+  "prerequisites": [
+    "lang-syn-03"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Makanan adalah sesuatu yang dimakan.",
       "explanation": "Akhiran -an pada kata 'makanan' (dan 'minuman', 'bacaan') menyatakan sesuatu yang dikenai perbuatan atau objek dari kata dasarnya.",
       "options": [
-        { "id": "a", "text": "Sesuatu yang dimakan" },
-        { "id": "b", "text": "Orang yang memasak" },
-        { "id": "c", "text": "Tempat membeli bahan" },
-        { "id": "d", "text": "Cara memotong sayur" }
+        {
+          "id": "a",
+          "text": "Sesuatu yang dimakan"
+        },
+        {
+          "id": "b",
+          "text": "Orang yang memasak"
+        },
+        {
+          "id": "c",
+          "text": "Tempat membeli bahan"
+        },
+        {
+          "id": "d",
+          "text": "Cara memotong sayur"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "lang-syn-04-q02",
@@ -32,10 +48,18 @@
       "hint": "Apakah kebersihan dan keindahan menunjukkan keadaan/hal yang dapat dijadikan subjek kalimat?",
       "explanation": "Benar. Konfiks ke-an pada kata sifat 'bersih' dan 'indah' membentuk kata benda abstrak ('kebersihan', 'keindahan').",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "lang-syn-04-q03",
@@ -44,7 +68,10 @@
       "hint": "Tambahkan 'ke-' di depan dan '-an' di belakang kata 'jujur'.",
       "explanation": "Kata dasar 'jujur' yang diberi konfiks ke-an menjadi 'kejujuran'.",
       "correctAnswer": {
-        "acceptedAnswers": ["kejujuran", "Kejujuran"]
+        "acceptedAnswers": [
+          "kejujuran",
+          "Kejujuran"
+        ]
       }
     },
     {
@@ -54,28 +81,59 @@
       "hint": "Cari benda yang dipakai untuk menimbang atau mengayun.",
       "explanation": "'timbangan' (alat untuk menimbang) dan 'ayunan' (alat untuk berayun) memakai akhiran -an yang bermakna alat.",
       "options": [
-        { "id": "a", "text": "timbangan" },
-        { "id": "b", "text": "tulisan" },
-        { "id": "c", "text": "ayunan" },
-        { "id": "d", "text": "nyanyian" }
+        {
+          "id": "a",
+          "text": "timbangan"
+        },
+        {
+          "id": "b",
+          "text": "tulisan"
+        },
+        {
+          "id": "c",
+          "text": "ayunan"
+        },
+        {
+          "id": "d",
+          "text": "nyanyian"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "lang-syn-04-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-language",
+      "mediaKey": "quiz-signboard",
       "mediaCaption": "Seorang anak sedang menyirami pot bunga mawar di teras rumah setiap pagi.",
       "prompt": "Mengapa kalimat 'Adik menyirami tanaman mawar' menggunakan akhiran -i, bukan -kan?",
       "hint": "Akhiran -i menunjukkan perbuatan yang dilakukan berulang-ulang atau mengenai objek tempat.",
       "explanation": "Akhiran -i pada 'menyirami' menunjukkan tindakan menyiram yang dilakukan berulang-ulang pada objek 'tanaman mawar'.",
       "options": [
-        { "id": "a", "text": "Karena perbuatan dilakukan berulang-ulang pada tanaman" },
-        { "id": "b", "text": "Karena tanamannya hanya satu helai daun" },
-        { "id": "c", "text": "Karena airnya tidak menyentuh tanah" },
-        { "id": "d", "text": "Karena kalimatnya berbentuk kalimat perintah" }
+        {
+          "id": "a",
+          "text": "Karena perbuatan dilakukan berulang-ulang pada tanaman"
+        },
+        {
+          "id": "b",
+          "text": "Karena tanamannya hanya satu helai daun"
+        },
+        {
+          "id": "c",
+          "text": "Karena airnya tidak menyentuh tanah"
+        },
+        {
+          "id": "d",
+          "text": "Karena kalimatnya berbentuk kalimat perintah"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "lang-syn-04-q06",
@@ -84,12 +142,26 @@
       "hint": "Perhatikan objek yang berada tepat setelah kata kerja ('sebuah buku cerita').",
       "explanation": "Karena objek langsungnya adalah benda yang diberikan ('sebuah buku cerita'), kata yang tepat adalah 'membacakan'. (Sedangkan 'membacai' tidak lazim di sini).",
       "options": [
-        { "id": "a", "text": "membacakan" },
-        { "id": "b", "text": "membacai" },
-        { "id": "c", "text": "terbacaan" },
-        { "id": "d", "text": "pembacaan" }
+        {
+          "id": "a",
+          "text": "membacakan"
+        },
+        {
+          "id": "b",
+          "text": "membacai"
+        },
+        {
+          "id": "c",
+          "text": "terbacaan"
+        },
+        {
+          "id": "d",
+          "text": "pembacaan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "lang-syn-04-q07",
@@ -98,10 +170,18 @@
       "hint": "Pikirkan juga kata 'kepanasan' atau 'kedinginan'.",
       "explanation": "Benar. Konfiks ke-an pada kata seperti 'kehujanan', 'kepanasan', dan 'kedinginan' bermakna menderita atau terkena sesuatu.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "lang-syn-04-q08",
@@ -110,7 +190,10 @@
       "hint": "Huruf awal 'ajar' mendapat awalan pel- dan akhiran -an.",
       "explanation": "Dari kata dasar 'ajar', konfiks pe-an (alomorph pel-an) membentuk kata 'pelajaran'.",
       "correctAnswer": {
-        "acceptedAnswers": ["pelajaran", "Pelajaran"]
+        "acceptedAnswers": [
+          "pelajaran",
+          "Pelajaran"
+        ]
       }
     },
     {
@@ -120,12 +203,26 @@
       "hint": "Perhatikan objek setelah kata kerja: bola vs pohon mangga.",
       "explanation": "'Melemparkan' berarti melempar sesuatu (misalnya bola), sedangkan 'melempari' berarti melempar berkali-kali ke suatu sasaran (misalnya melempari kaleng).",
       "options": [
-        { "id": "a", "text": "Melemparkan diikuti benda yang dilempar; melempari diikuti sasaran yang dilempar berkali-kali" },
-        { "id": "b", "text": "Keduanya berarti menangkap bola" },
-        { "id": "c", "text": "Melempari hanya dilakukan satu kali dengan tangan kiri" },
-        { "id": "d", "text": "Melemparkan berarti menjatuhkan diri" }
+        {
+          "id": "a",
+          "text": "Melemparkan diikuti benda yang dilempar; melempari diikuti sasaran yang dilempar berkali-kali"
+        },
+        {
+          "id": "b",
+          "text": "Keduanya berarti menangkap bola"
+        },
+        {
+          "id": "c",
+          "text": "Melempari hanya dilakukan satu kali dengan tangan kiri"
+        },
+        {
+          "id": "d",
+          "text": "Melemparkan berarti menjatuhkan diri"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "lang-syn-04-q10",
@@ -134,12 +231,29 @@
       "hint": "Cari kata yang menunjukkan kegiatan menanam atau membaca bersama.",
       "explanation": "'penanaman' (proses menanam) dan 'pembacaan' (proses membaca) menyatakan proses/perbuatan, sedangkan 'perkebunan' dan 'perpustakaan' menyatakan tempat.",
       "options": [
-        { "id": "a", "text": "penanaman" },
-        { "id": "b", "text": "perpustakaan" },
-        { "id": "c", "text": "pembacaan" },
-        { "id": "d", "text": "perkebunan" }
+        {
+          "id": "a",
+          "text": "penanaman"
+        },
+        {
+          "id": "b",
+          "text": "perpustakaan"
+        },
+        {
+          "id": "c",
+          "text": "pembacaan"
+        },
+        {
+          "id": "d",
+          "text": "perkebunan"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     }
   ]
 }

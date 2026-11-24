@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 3,
-  "prerequisites": ["daily-tech-02"],
+  "prerequisites": [
+    "daily-tech-02"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Istirahatkan mata dengan melihat benda yang jauh selama 20 detik.",
       "explanation": "Aturan 20-20-20 berarti setiap 20 menit menatap layar, alihkan pandangan ke objek berjarak 20 kaki (sekitar 6 meter) selama 20 detik agar otot mata rileks.",
       "options": [
-        { "id": "a", "text": "Melihat objek berjarak sekitar 6 meter selama 20 detik" },
-        { "id": "b", "text": "Mendekatkan wajah 20 cm ke layar" },
-        { "id": "c", "text": "Menatap matahari langsung selama 20 menit" },
-        { "id": "d", "text": "Membuka 20 jendela gim sekaligus" }
+        {
+          "id": "a",
+          "text": "Melihat objek berjarak sekitar 6 meter selama 20 detik"
+        },
+        {
+          "id": "b",
+          "text": "Mendekatkan wajah 20 cm ke layar"
+        },
+        {
+          "id": "c",
+          "text": "Menatap matahari langsung selama 20 menit"
+        },
+        {
+          "id": "d",
+          "text": "Membuka 20 jendela gim sekaligus"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-tech-03-q02",
@@ -32,10 +48,18 @@
       "hint": "Kontras cahaya layar yang terlalu terang di ruangan gelap membuat mata cepat lelah.",
       "explanation": "Salah. Menggunakan gawai sebaiknya di ruangan bercahaya cukup, dengan posisi duduk tegak dan jarak pandang aman.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "daily-tech-03-q03",
@@ -44,12 +68,30 @@
       "hint": "Perhatikan rasa di mata, leher, dan kebiasaan berkedip.",
       "explanation": "Mata terasa kering atau perih, leher pegal, dan kepala pusing menandakan kita perlu segera berhenti dan mengistirahatkan mata.",
       "options": [
-        { "id": "a", "text": "Mata terasa perih, kering, atau berair" },
-        { "id": "b", "text": "Leher dan bahu terasa kaku" },
-        { "id": "c", "text": "Kepala terasa pusing dan sulit fokus" },
-        { "id": "d", "text": "Kuku jari tangan langsung memanjang" }
+        {
+          "id": "a",
+          "text": "Mata terasa perih, kering, atau berair"
+        },
+        {
+          "id": "b",
+          "text": "Leher dan bahu terasa kaku"
+        },
+        {
+          "id": "c",
+          "text": "Kepala terasa pusing dan sulit fokus"
+        },
+        {
+          "id": "d",
+          "text": "Kuku jari tangan langsung memanjang"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-tech-03-q04",
@@ -58,24 +100,41 @@
       "hint": "Kata bahasa Inggris untuk 'layar' yang berawalan huruf 's'.",
       "explanation": "Screen time adalah jumlah waktu yang kita habiskan menatap layar perangkat elektronik.",
       "correctAnswer": {
-        "acceptedAnswers": ["screen", "Screen"]
+        "acceptedAnswers": [
+          "screen",
+          "Screen"
+        ]
       }
     },
     {
       "id": "daily-tech-03-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-digital-safe",
       "mediaCaption": "Jadwal harian seorang anak: Pulang sekolah makan siang dan istirahat, mengerjakan PR pukul 15.00, bermain sepeda di luar pukul 16.30, lalu waktu gawai hanya 1 jam di akhir pekan atau setelah tugas selesai.",
       "prompt": "Mengapa jadwal harian seperti pada gambar tersebut disebut seimbang?",
       "hint": "Perhatikan pembagian antara belajar, bermain fisik di luar, dan gawai.",
       "explanation": "Jadwal tersebut mendahulukan kewajiban belajar, memberi ruang gerak fisik di luar rumah, dan membatasi waktu layar secara disiplin.",
       "options": [
-        { "id": "a", "text": "Karena kewajiban belajar dan aktivitas fisik didahulukan sebelum gawai" },
-        { "id": "b", "text": "Karena anak bermain gim sepanjang malam" },
-        { "id": "c", "text": "Karena anak tidak pernah beristirahat" },
-        { "id": "d", "text": "Karena PR dikerjakan sambil bermain gim" }
+        {
+          "id": "a",
+          "text": "Karena kewajiban belajar dan aktivitas fisik didahulukan sebelum gawai"
+        },
+        {
+          "id": "b",
+          "text": "Karena anak bermain gim sepanjang malam"
+        },
+        {
+          "id": "c",
+          "text": "Karena anak tidak pernah beristirahat"
+        },
+        {
+          "id": "d",
+          "text": "Karena PR dikerjakan sambil bermain gim"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-tech-03-q06",
@@ -84,12 +143,26 @@
       "hint": "Kedisiplinan diri lebih penting daripada terus menunda.",
       "explanation": "Menutup aplikasi atau menyimpan gawai tepat waktu melatih disiplin dan menjaga kepercayaan orang tua.",
       "options": [
-        { "id": "a", "text": "Menghentikan permainan dengan tenang dan menyimpan gawai" },
-        { "id": "b", "text": "Bersembunyi di bawah selimut untuk lanjut bermain" },
-        { "id": "c", "text": "Marah-marah dan membanting tablet" },
-        { "id": "d", "text": "Meminta tambahan waktu terus-menerus sampai malam" }
+        {
+          "id": "a",
+          "text": "Menghentikan permainan dengan tenang dan menyimpan gawai"
+        },
+        {
+          "id": "b",
+          "text": "Bersembunyi di bawah selimut untuk lanjut bermain"
+        },
+        {
+          "id": "c",
+          "text": "Marah-marah dan membanting tablet"
+        },
+        {
+          "id": "d",
+          "text": "Meminta tambahan waktu terus-menerus sampai malam"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-tech-03-q07",
@@ -98,10 +171,18 @@
       "hint": "Teknologi sangat bermanfaat bila dipakai untuk belajar secara seimbang.",
       "explanation": "Benar! Gawai menjadi alat belajar yang hebat bila digunakan untuk hal positif dengan batasan waktu yang sehat.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "daily-tech-03-q08",
@@ -110,12 +191,30 @@
       "hint": "Pilih aktivitas nyata yang melatih gerak, kreativitas, atau kebersamaan.",
       "explanation": "Membaca buku cerita cetak, bermain permainan papan bersama keluarga, dan berolahraga atau menggambar adalah kegiatan seru tanpa layar.",
       "options": [
-        { "id": "a", "text": "Membaca buku cerita atau komik edukatif" },
-        { "id": "b", "text": "Bermain ular tangga, catur, atau kartu bersama keluarga" },
-        { "id": "c", "text": "Menggambar, membuat prakarya, atau bersepeda" },
-        { "id": "d", "text": "Menonton video pendek selama 5 jam nonstop" }
+        {
+          "id": "a",
+          "text": "Membaca buku cerita atau komik edukatif"
+        },
+        {
+          "id": "b",
+          "text": "Bermain ular tangga, catur, atau kartu bersama keluarga"
+        },
+        {
+          "id": "c",
+          "text": "Menggambar, membuat prakarya, atau bersepeda"
+        },
+        {
+          "id": "d",
+          "text": "Menonton video pendek selama 5 jam nonstop"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-tech-03-q09",
@@ -124,24 +223,45 @@
       "hint": "Kegiatan saling bertukar cerita antara anggota keluarga.",
       "explanation": "Meja makan tanpa gawai memberi kesempatan keluarga untuk berbincang dan saling mendengarkan cerita hari itu.",
       "correctAnswer": {
-        "acceptedAnswers": ["berbincang", "Berbincang", "mengobrol", "Mengobrol", "bercerita", "Bercerita"]
+        "acceptedAnswers": [
+          "berbincang",
+          "Berbincang",
+          "mengobrol",
+          "Mengobrol",
+          "bercerita",
+          "Bercerita"
+        ]
       }
     },
     {
       "id": "daily-tech-03-q10",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-digital-safe",
       "mediaCaption": "Seorang anak belajar dengan laptop di meja belajar: jarak layar sekitar sepanjang lengan, lampu meja menyala terang, dan posisi layar sejajar atau sedikit di bawah garis mata.",
       "prompt": "Manfaat utama pengaturan meja belajar seperti pada gambar adalah...",
       "hint": "Perhatikan jarak layar, pencahayaan, dan tinggi layar terhadap mata.",
       "explanation": "Pencahayaan yang cukup, jarak pandang sekitar 50–60 cm, dan tinggi layar yang pas membuat mata tidak cepat lelah dan leher tidak pegal.",
       "options": [
-        { "id": "a", "text": "Mata tidak cepat lelah dan leher tetap nyaman saat belajar" },
-        { "id": "b", "text": "Baterai laptop terisi tanpa kabel listrik" },
-        { "id": "c", "text": "Teks di layar menjadi hilang sendiri" },
-        { "id": "d", "text": "Membuat suara speaker lebih keras" }
+        {
+          "id": "a",
+          "text": "Mata tidak cepat lelah dan leher tetap nyaman saat belajar"
+        },
+        {
+          "id": "b",
+          "text": "Baterai laptop terisi tanpa kabel listrik"
+        },
+        {
+          "id": "c",
+          "text": "Teks di layar menjadi hilang sendiri"
+        },
+        {
+          "id": "d",
+          "text": "Membuat suara speaker lebih keras"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

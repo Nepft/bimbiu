@@ -18,12 +18,26 @@
       "hint": "Atap rumah ini dikenal dengan sebutan bagonjong.",
       "explanation": "Rumah Gadang adalah rumah adat masyarakat Minangkabau di Sumatra Barat dengan atap runcing menyerupai tanduk kerbau.",
       "options": [
-        { "id": "a", "text": "Rumah Gadang" },
-        { "id": "b", "text": "Rumah Joglo" },
-        { "id": "c", "text": "Rumah Honai" },
-        { "id": "d", "text": "Rumah Tongkonan" }
+        {
+          "id": "a",
+          "text": "Rumah Gadang"
+        },
+        {
+          "id": "b",
+          "text": "Rumah Joglo"
+        },
+        {
+          "id": "c",
+          "text": "Rumah Honai"
+        },
+        {
+          "id": "d",
+          "text": "Rumah Tongkonan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-culture-01-q02",
@@ -32,10 +46,18 @@
       "hint": "Pegunungan Jayawijaya memiliki suhu udara yang sangat dingin pada malam hari.",
       "explanation": "Benar, bentuk bundar tanpa jendela lebar dan atap jerami pada Rumah Honai membantu menahan hawa dingin pegunungan Papua.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-culture-01-q03",
@@ -44,12 +66,26 @@
       "hint": "Provinsi ini berada di bagian selatan Pulau Sulawesi.",
       "explanation": "Rumah Tongkonan berasal dari Tana Toraja di Provinsi Sulawesi Selatan dan menjadi pusat kegiatan adat keluarga.",
       "options": [
-        { "id": "a", "text": "Sulawesi Selatan" },
-        { "id": "b", "text": "Kalimantan Barat" },
-        { "id": "c", "text": "Jawa Timur" },
-        { "id": "d", "text": "Nusa Tenggara Barat" }
+        {
+          "id": "a",
+          "text": "Sulawesi Selatan"
+        },
+        {
+          "id": "b",
+          "text": "Kalimantan Barat"
+        },
+        {
+          "id": "c",
+          "text": "Jawa Timur"
+        },
+        {
+          "id": "d",
+          "text": "Nusa Tenggara Barat"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-culture-01-q04",
@@ -58,24 +94,41 @@
       "hint": "Namanya terdiri dari lima huruf, diawali huruf J.",
       "explanation": "Rumah Joglo memiliki atap berbentuk limas tinggi di bagian tengah yang ditopang empat tiang utama disebut soko guru.",
       "correctAnswer": {
-        "acceptedAnswers": ["Joglo", "Rumah Joglo"]
+        "acceptedAnswers": [
+          "Joglo",
+          "Rumah Joglo"
+        ]
       }
     },
     {
       "id": "hist-culture-01-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-candi",
+      "mediaKey": "quiz-rumah-adat",
       "mediaCaption": "Ilustrasi rumah panggung panjang dari kayu ulin milik suku Dayak di Kalimantan yang mampu menampung banyak keluarga.",
       "prompt": "Rumah adat panjang milik masyarakat Dayak di Kalimantan Timur yang menjadi simbol hidup rukun bersama adalah...",
       "hint": "Namanya mirip dengan kata 'Lamin' atau 'Betang'.",
       "explanation": "Rumah Lamin adalah rumah panggung panjang suku Dayak di Kalimantan Timur yang mencerminkan semangat gotong royong.",
       "options": [
-        { "id": "a", "text": "Rumah Lamin" },
-        { "id": "b", "text": "Rumah Limas" },
-        { "id": "c", "text": "Rumah Kebaya" },
-        { "id": "d", "text": "Rumah Bolon" }
+        {
+          "id": "a",
+          "text": "Rumah Lamin"
+        },
+        {
+          "id": "b",
+          "text": "Rumah Limas"
+        },
+        {
+          "id": "c",
+          "text": "Rumah Kebaya"
+        },
+        {
+          "id": "d",
+          "text": "Rumah Bolon"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-culture-01-q06",
@@ -84,12 +137,29 @@
       "hint": "Ingat rumah adat dari Sumatra Selatan dan DKI Jakarta (Betawi).",
       "explanation": "Rumah Limas berasal dari Sumatra Selatan dan Rumah Kebaya merupakan rumah adat suku Betawi di DKI Jakarta.",
       "options": [
-        { "id": "a", "text": "Rumah Limas — Sumatra Selatan" },
-        { "id": "b", "text": "Rumah Kebaya — DKI Jakarta" },
-        { "id": "c", "text": "Rumah Joglo — Papua" },
-        { "id": "d", "text": "Rumah Gadang — Bali" }
+        {
+          "id": "a",
+          "text": "Rumah Limas — Sumatra Selatan"
+        },
+        {
+          "id": "b",
+          "text": "Rumah Kebaya — DKI Jakarta"
+        },
+        {
+          "id": "c",
+          "text": "Rumah Joglo — Papua"
+        },
+        {
+          "id": "d",
+          "text": "Rumah Gadang — Bali"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "hist-culture-01-q07",
@@ -98,12 +168,26 @@
       "hint": "Perhatikan kondisi alam seperti banjir, sungai, dan hewan liar di hutan tropis.",
       "explanation": "Desain rumah panggung melindungi penghuni dari banjir, menjaga sirkulasi udara tetap sejuk, dan menghindari gangguan binatang buas.",
       "options": [
-        { "id": "a", "text": "Melindungi dari banjir, binatang liar, dan membuat udara di dalam tetap sejuk" },
-        { "id": "b", "text": "Agar rumah bisa dipindahkan dengan pesawat" },
-        { "id": "c", "text": "Karena di pulau tersebut tidak ada tanah datar sama sekali" },
-        { "id": "d", "text": "Supaya atap rumah bisa menyentuh tanah" }
+        {
+          "id": "a",
+          "text": "Melindungi dari banjir, binatang liar, dan membuat udara di dalam tetap sejuk"
+        },
+        {
+          "id": "b",
+          "text": "Agar rumah bisa dipindahkan dengan pesawat"
+        },
+        {
+          "id": "c",
+          "text": "Karena di pulau tersebut tidak ada tanah datar sama sekali"
+        },
+        {
+          "id": "d",
+          "text": "Supaya atap rumah bisa menyentuh tanah"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-culture-01-q08",
@@ -112,10 +196,18 @@
       "hint": "Rumah ini berbentuk rumah panggung kayu dengan banyak ukiran indah dan anak tangga di bagian depan.",
       "explanation": "Benar, Rumoh Aceh atau Rumah Krong Bade merupakan rumah adat khas Provinsi Aceh.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-culture-01-q09",
@@ -124,7 +216,10 @@
       "hint": "Namanya diawali huruf B dan terdiri dari lima huruf.",
       "explanation": "Rumah Bolon adalah rumah adat masyarakat Batak di Sumatra Utara yang memiliki ukiran khas gorga.",
       "correctAnswer": {
-        "acceptedAnswers": ["Bolon", "Rumah Bolon"]
+        "acceptedAnswers": [
+          "Bolon",
+          "Rumah Bolon"
+        ]
       }
     },
     {
@@ -134,12 +229,26 @@
       "hint": "Setiap rumah adat menyesuaikan bahan alam, iklim, dan budaya setempat.",
       "explanation": "Keberagaman rumah adat menunjukkan kecerdasan masyarakat Nusantara dalam menyesuaikan arsitektur dengan alam dan budayanya.",
       "options": [
-        { "id": "a", "text": "Kecerdasan nenek moyang menyesuaikan bangunan dengan alam dan budaya daerah" },
-        { "id": "b", "text": "Masyarakat zaman dahulu tidak mau belajar membangun rumah" },
-        { "id": "c", "text": "Semua rumah di Indonesia harus terbuat dari batu bata saja" },
-        { "id": "d", "text": "Rumah adat tidak memiliki nilai sejarah" }
+        {
+          "id": "a",
+          "text": "Kecerdasan nenek moyang menyesuaikan bangunan dengan alam dan budaya daerah"
+        },
+        {
+          "id": "b",
+          "text": "Masyarakat zaman dahulu tidak mau belajar membangun rumah"
+        },
+        {
+          "id": "c",
+          "text": "Semua rumah di Indonesia harus terbuat dari batu bata saja"
+        },
+        {
+          "id": "d",
+          "text": "Rumah adat tidak memiliki nilai sejarah"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

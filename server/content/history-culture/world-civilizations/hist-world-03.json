@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 3,
-  "prerequisites": ["hist-world-02"],
+  "prerequisites": [
+    "hist-world-02"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Dibangun secara bertahap oleh beberapa dinasti untuk melindungi wilayah perbatasan utara.",
       "explanation": "Tembok Besar Tiongkok (Great Wall of China) dibangun untuk melindungi wilayah kekaisaran dari serangan dari arah utara.",
       "options": [
-        { "id": "a", "text": "Tembok Besar Tiongkok" },
-        { "id": "b", "text": "Piramida Giza" },
-        { "id": "c", "text": "Candi Angkor Wat" },
-        { "id": "d", "text": "Colosseum" }
+        {
+          "id": "a",
+          "text": "Tembok Besar Tiongkok"
+        },
+        {
+          "id": "b",
+          "text": "Piramida Giza"
+        },
+        {
+          "id": "c",
+          "text": "Candi Angkor Wat"
+        },
+        {
+          "id": "d",
+          "text": "Colosseum"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-03-q02",
@@ -32,10 +48,18 @@
       "hint": "Cai Lun membuat lembaran tipis dari serat kulit kayu, rami, dan jaring bekas.",
       "explanation": "Benar, Cai Lun menyempurnakan teknik pembuatan kertas dari serat tumbuhan sehingga lebih ringan dan mudah dipakai menulis.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-world-03-q03",
@@ -44,12 +68,26 @@
       "hint": "Dinamai sesuai kain halus dan mahal yang banyak diperdagangkan melalui rute tersebut.",
       "explanation": "Jalur Sutra tidak hanya menjadi rute dagang sutra dan rempah, tetapi juga jalur pertukaran ilmu pengetahuan dan budaya antarbangsa.",
       "options": [
-        { "id": "a", "text": "Jalur Sutra" },
-        { "id": "b", "text": "Jalur Kutub" },
-        { "id": "c", "text": "Jalur Es" },
-        { "id": "d", "text": "Jalur Emas" }
+        {
+          "id": "a",
+          "text": "Jalur Sutra"
+        },
+        {
+          "id": "b",
+          "text": "Jalur Kutub"
+        },
+        {
+          "id": "c",
+          "text": "Jalur Es"
+        },
+        {
+          "id": "d",
+          "text": "Jalur Emas"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-03-q04",
@@ -58,24 +96,41 @@
       "hint": "Jarumnya selalu menunjuk ke arah utara dan selatan.",
       "explanation": "Kompas magnetik dari Tiongkok memungkinkan pelaut menentukan arah meski langit mendung atau saat berlayar jauh di samudra.",
       "correctAnswer": {
-        "acceptedAnswers": ["kompas", "kompas magnetik"]
+        "acceptedAnswers": [
+          "kompas",
+          "kompas magnetik"
+        ]
       }
     },
     {
       "id": "hist-world-03-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-candi",
+      "mediaKey": "quiz-hieroglif",
       "mediaCaption": "Ilustrasi reruntuhan kota kuno berbahan bata yang tertata rapi dengan jalan lurus dan saluran air di Lembah Sungai Indus.",
       "prompt": "Dua kota kuno terkenal dari Peradaban Lembah Sungai Indus yang sudah memiliki tata kota rapi dan saluran drainase tertutup adalah...",
       "hint": "Nama salah satu kotanya diawali huruf M dan satunya lagi huruf H.",
       "explanation": "Mohenjo-daro dan Harappa (di wilayah Pakistan dan India barat laut saat ini) terkenal memiliki perencanaan kota yang sangat maju di zamannya.",
       "options": [
-        { "id": "a", "text": "Mohenjo-daro dan Harappa" },
-        { "id": "b", "text": "Athena dan Sparta" },
-        { "id": "c", "text": "Roma dan Venesia" },
-        { "id": "d", "text": "Palembang dan Trowulan" }
+        {
+          "id": "a",
+          "text": "Mohenjo-daro dan Harappa"
+        },
+        {
+          "id": "b",
+          "text": "Athena dan Sparta"
+        },
+        {
+          "id": "c",
+          "text": "Roma dan Venesia"
+        },
+        {
+          "id": "d",
+          "text": "Palembang dan Trowulan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-03-q06",
@@ -84,12 +139,29 @@
       "hint": "Ingat bahan buku tulis dan alat bantu arah pelaut.",
       "explanation": "Empat penemuan besar Tiongkok Kuno mencakup kertas, kompas, teknik percetakan, dan bubuk mesiu.",
       "options": [
-        { "id": "a", "text": "Kertas" },
-        { "id": "b", "text": "Kompas" },
-        { "id": "c", "text": "Pesawat jet penumpang" },
-        { "id": "d", "text": "Layar sentuh ponsel" }
+        {
+          "id": "a",
+          "text": "Kertas"
+        },
+        {
+          "id": "b",
+          "text": "Kompas"
+        },
+        {
+          "id": "c",
+          "text": "Pesawat jet penumpang"
+        },
+        {
+          "id": "d",
+          "text": "Layar sentuh ponsel"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "hist-world-03-q07",
@@ -98,12 +170,26 @@
       "hint": "Perhatikan kebersihan air kotor dan bentuk jalan kotanya.",
       "explanation": "Mohenjo-daro memiliki jalan raya lurus berbentuk petak, kamar mandi di rumah-rumah, dan saluran pembuangan air tertutup di bawah jalan.",
       "options": [
-        { "id": "a", "text": "Memiliki sistem saluran air bersih, drainase tertutup, dan tata kota teratur" },
-        { "id": "b", "text": "Semua rumah dibangun di atas pohon tinggi" },
-        { "id": "c", "text": "Kotanya berada di dasar laut" },
-        { "id": "d", "text": "Seluruh bangunan terbuat dari es" }
+        {
+          "id": "a",
+          "text": "Memiliki sistem saluran air bersih, drainase tertutup, dan tata kota teratur"
+        },
+        {
+          "id": "b",
+          "text": "Semua rumah dibangun di atas pohon tinggi"
+        },
+        {
+          "id": "c",
+          "text": "Kotanya berada di dasar laut"
+        },
+        {
+          "id": "d",
+          "text": "Seluruh bangunan terbuat dari es"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-03-q08",
@@ -112,10 +198,18 @@
       "hint": "Para pedagang, pelancong, dan cendekiawan dari berbagai bangsa bertemu di sepanjang jalur ini.",
       "explanation": "Salah, selain sutra, banyak barang lain seperti rempah, keramik, kertas, kaca, serta ilmu pengetahuan dan budaya bertukar melalui Jalur Sutra.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "hist-world-03-q09",
@@ -124,7 +218,10 @@
       "hint": "Nama jalur perdagangan terkenal pun diambil dari nama kain ini.",
       "explanation": "Sutra dihasilkan dari kepompong ulat sutra (Bombyx mori) dan rahasia pembuatannya dijaga ketat di Tiongkok selama berabad-abad.",
       "correctAnswer": {
-        "acceptedAnswers": ["sutra", "kain sutra"]
+        "acceptedAnswers": [
+          "sutra",
+          "kain sutra"
+        ]
       }
     },
     {
@@ -134,12 +231,26 @@
       "hint": "Pikirkan kebutuhan paling dasar manusia dan tanaman.",
       "explanation": "Lembah sungai menyediakan sumber air tawar, tanah subur untuk pertanian, ikan, dan jalur transportasi perahu.",
       "options": [
-        { "id": "a", "text": "Karena sungai memberi air, tanah subur untuk pertanian, dan jalur transportasi" },
-        { "id": "b", "text": "Karena manusia kuno takut melihat dataran tinggi" },
-        { "id": "c", "text": "Karena di luar lembah sungai tidak ada sinar matahari" },
-        { "id": "d", "text": "Karena sungai memudahkan pembuatan roket" }
+        {
+          "id": "a",
+          "text": "Karena sungai memberi air, tanah subur untuk pertanian, dan jalur transportasi"
+        },
+        {
+          "id": "b",
+          "text": "Karena manusia kuno takut melihat dataran tinggi"
+        },
+        {
+          "id": "c",
+          "text": "Karena di luar lembah sungai tidak ada sinar matahari"
+        },
+        {
+          "id": "d",
+          "text": "Karena sungai memudahkan pembuatan roket"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

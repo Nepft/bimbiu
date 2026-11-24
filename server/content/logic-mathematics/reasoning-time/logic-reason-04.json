@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 4,
-  "prerequisites": ["logic-reason-03"],
+  "prerequisites": [
+    "logic-reason-03"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Karena Merpati termasuk burung, ia memiliki ciri yang dimiliki semua burung.",
       "explanation": "Karena semua burung memiliki sayap dan merpati adalah burung, maka dapat disimpulkan bahwa merpati memiliki sayap.",
       "options": [
-        { "id": "a", "text": "Semua yang bersayap adalah merpati" },
-        { "id": "b", "text": "Merpati memiliki sayap" },
-        { "id": "c", "text": "Merpati tidak memiliki sayap" },
-        { "id": "d", "text": "Hanya merpati yang bisa terbang" }
+        {
+          "id": "a",
+          "text": "Semua yang bersayap adalah merpati"
+        },
+        {
+          "id": "b",
+          "text": "Merpati memiliki sayap"
+        },
+        {
+          "id": "c",
+          "text": "Merpati tidak memiliki sayap"
+        },
+        {
+          "id": "d",
+          "text": "Hanya merpati yang bisa terbang"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "logic-reason-04-q02",
@@ -32,10 +48,18 @@
       "hint": "Kata 'semua' berarti tidak ada satu pun pengecualian.",
       "explanation": "Benar. Jika semua siswa kelas 5 memakai seragam putih, berarti tidak ada satu siswa kelas 5 pun yang tidak memakainya.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "logic-reason-04-q03",
@@ -43,7 +67,12 @@
       "prompt": "Diketahui aturan: 'Jika hujan turun, maka halaman sekolah menjadi basah.' Hari ini halaman sekolah kering (tidak basah). Apakah hari ini hujan turun? (Jawab: Ya atau Tidak)",
       "hint": "Seandainya hujan turun, halaman pasti basah. Karena halaman tidak basah, mungkinkah hujan turun?",
       "explanation": "Tidak. Jika hujan turun maka halaman pasti basah. Karena halaman tidak basah, berarti hujan tidak turun.",
-      "correctAnswer": { "acceptedAnswers": ["Tidak", "tidak"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "Tidak",
+          "tidak"
+        ]
+      }
     },
     {
       "id": "logic-reason-04-q04",
@@ -52,12 +81,29 @@
       "hint": "Kata 'sebagian' berarti ada minimal satu anak yang ikut keduanya, namun tidak berarti semuanya.",
       "explanation": "Karena sebagian anggota klub sains ikut robotika, pasti ada anak yang mengikuti kedua klub tersebut sekaligus.",
       "options": [
-        { "id": "a", "text": "Ada anak yang mengikuti klub sains sekaligus klub robotika" },
-        { "id": "b", "text": "Semua anak klub sains pasti ikut klub robotika" },
-        { "id": "c", "text": "Setidaknya ada anak klub robotika yang juga ikut klub sains" },
-        { "id": "d", "text": "Tidak ada anak klub robotika yang ikut klub sains" }
+        {
+          "id": "a",
+          "text": "Ada anak yang mengikuti klub sains sekaligus klub robotika"
+        },
+        {
+          "id": "b",
+          "text": "Semua anak klub sains pasti ikut klub robotika"
+        },
+        {
+          "id": "c",
+          "text": "Setidaknya ada anak klub robotika yang juga ikut klub sains"
+        },
+        {
+          "id": "d",
+          "text": "Tidak ada anak klub robotika yang ikut klub sains"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "logic-reason-04-q05",
@@ -66,28 +112,56 @@
       "hint": "Uji satu per satu siapa pelakunya, lalu hitung ada berapa pernyataan yang bernilai jujur.",
       "explanation": "Jika Aldo pelakunya, maka Aldo bohong ('Bukan aku' salah), Bimo bohong ('Caca' salah), dan Caca jujur ('Bimo berbohong' benar). Tepat 1 orang jujur!",
       "options": [
-        { "id": "a", "text": "Aldo" },
-        { "id": "b", "text": "Bimo" },
-        { "id": "c", "text": "Caca" },
-        { "id": "d", "text": "Tidak ada yang melakukannya" }
+        {
+          "id": "a",
+          "text": "Aldo"
+        },
+        {
+          "id": "b",
+          "text": "Bimo"
+        },
+        {
+          "id": "c",
+          "text": "Caca"
+        },
+        {
+          "id": "d",
+          "text": "Tidak ada yang melakukannya"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "logic-reason-04-q06",
       "type": "image_quiz",
-      "mediaKey": "quiz-geometri",
+      "mediaKey": "quiz-clock",
       "mediaCaption": "Tiga pintu misteri: Pintu 1 bertuliskan 'Harta ada di Pintu 2', Pintu 2 bertuliskan 'Harta tidak ada di sini', dan Pintu 3 bertuliskan 'Harta tidak ada di Pintu 1'.",
       "prompt": "Jika hanya ada SATU tulisan pintu yang benar dan dua lainnya salah, di pintu manakah harta berada?",
       "hint": "Coba andaikan harta ada di masing-masing pintu, lalu cek mana yang menghasilkan tepat 1 tulisan benar.",
       "explanation": "Jika harta ada di Pintu 1: tulisan Pintu 1 salah, tulisan Pintu 2 benar, dan tulisan Pintu 3 salah. Tepat 1 tulisan yang benar!",
       "options": [
-        { "id": "a", "text": "Pintu 1" },
-        { "id": "b", "text": "Pintu 2" },
-        { "id": "c", "text": "Pintu 3" },
-        { "id": "d", "text": "Semua pintu kosong" }
+        {
+          "id": "a",
+          "text": "Pintu 1"
+        },
+        {
+          "id": "b",
+          "text": "Pintu 2"
+        },
+        {
+          "id": "c",
+          "text": "Pintu 3"
+        },
+        {
+          "id": "d",
+          "text": "Semua pintu kosong"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "logic-reason-04-q07",
@@ -96,10 +170,18 @@
       "hint": "Jika hari ini Minggu, toko seharusnya tutup.",
       "explanation": "Benar. Karena toko tutup setiap hari Minggu, maka saat toko buka hari itu pasti bukan hari Minggu.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "logic-reason-04-q08",
@@ -107,7 +189,12 @@
       "prompt": "Sebuah kotak tertutup hanya berisi satu jenis benda: pulpen atau pensil. Setelah dicek, di dalam kotak itu ternyata tidak ada pulpen sama sekali. Benda apakah yang ada di dalam kotak?",
       "hint": "Hanya ada dua kemungkinan: pulpen atau pensil. Jika bukan pulpen, maka ...",
       "explanation": "Karena hanya ada dua kemungkinan (pulpen atau pensil) dan bukan pulpen, pasti isinya adalah pensil.",
-      "correctAnswer": { "acceptedAnswers": ["Pensil", "pensil"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "Pensil",
+          "pensil"
+        ]
+      }
     },
     {
       "id": "logic-reason-04-q09",
@@ -116,12 +203,26 @@
       "hint": "Hati-hati dengan pernyataan yang membalik kata 'semua' tanpa bukti.",
       "explanation": "Pernyataan 'Semua makhluk yang bernapas dengan insang adalah lele' salah, karena masih banyak jenis ikan lain seperti mas, nila, dan gurame yang juga bernapas dengan insang.",
       "options": [
-        { "id": "a", "text": "Lele bernapas dengan insang" },
-        { "id": "b", "text": "Lele termasuk kelompok ikan" },
-        { "id": "c", "text": "Semua makhluk yang bernapas dengan insang adalah lele" },
-        { "id": "d", "text": "Tidak ada ikan yang tidak bernapas dengan insang" }
+        {
+          "id": "a",
+          "text": "Lele bernapas dengan insang"
+        },
+        {
+          "id": "b",
+          "text": "Lele termasuk kelompok ikan"
+        },
+        {
+          "id": "c",
+          "text": "Semua makhluk yang bernapas dengan insang adalah lele"
+        },
+        {
+          "id": "d",
+          "text": "Tidak ada ikan yang tidak bernapas dengan insang"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "logic-reason-04-q10",
@@ -130,12 +231,29 @@
       "hint": "Kotak C isinya Biru. Karena semua label salah, Kotak A tidak boleh berisi Merah dan tidak boleh Biru.",
       "explanation": "Kotak C berisi Biru. Kotak A berlabel Merah (jadi isinya bukan Merah dan bukan Biru karena Biru sudah di C), maka Kotak A berisi Campuran. Tersisa Kotak B berisi Merah.",
       "options": [
-        { "id": "a", "text": "Kotak A berisi Campuran" },
-        { "id": "b", "text": "Kotak B berisi Kelereng Merah" },
-        { "id": "c", "text": "Kotak A berisi Kelereng Biru" },
-        { "id": "d", "text": "Kotak B berisi Campuran" }
+        {
+          "id": "a",
+          "text": "Kotak A berisi Campuran"
+        },
+        {
+          "id": "b",
+          "text": "Kotak B berisi Kelereng Merah"
+        },
+        {
+          "id": "c",
+          "text": "Kotak A berisi Kelereng Biru"
+        },
+        {
+          "id": "d",
+          "text": "Kotak B berisi Campuran"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     }
   ]
 }

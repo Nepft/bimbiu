@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 3,
-  "prerequisites": ["geo-indo-02"],
+  "prerequisites": [
+    "geo-indo-02"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Sungai ini sering dimanfaatkan warga sebagai jalur transportasi air.",
       "explanation": "Sungai Kapuas memiliki panjang sekitar 1.143 kilometer dan menjadi sungai terpanjang di Indonesia.",
       "options": [
-        { "id": "a", "text": "Sungai Musi" },
-        { "id": "b", "text": "Sungai Kapuas" },
-        { "id": "c", "text": "Sungai Bengawan Solo" },
-        { "id": "d", "text": "Sungai Brantas" }
+        {
+          "id": "a",
+          "text": "Sungai Musi"
+        },
+        {
+          "id": "b",
+          "text": "Sungai Kapuas"
+        },
+        {
+          "id": "c",
+          "text": "Sungai Bengawan Solo"
+        },
+        {
+          "id": "d",
+          "text": "Sungai Brantas"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-indo-03-q02",
@@ -32,10 +48,18 @@
       "hint": "Puncak ini dikenal sebagai Puncak Jaya atau Piramida Carstensz.",
       "explanation": "Benar! Puncak Jaya di Pegunungan Sudirman, Papua Tengah, setinggi 4.884 meter merupakan puncak tertinggi di Indonesia dan memiliki gletser tropis yang langka.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "geo-indo-03-q03",
@@ -44,7 +68,10 @@
       "hint": "Kota terbesarnya adalah Makassar dan Manado.",
       "explanation": "Pulau Sulawesi memiliki empat semenanjung besar sehingga bentuknya menyerupai huruf K.",
       "correctAnswer": {
-        "acceptedAnswers": ["Sulawesi", "sulawesi"]
+        "acceptedAnswers": [
+          "Sulawesi",
+          "sulawesi"
+        ]
       }
     },
     {
@@ -54,28 +81,59 @@
       "hint": "Salah satunya berada di antara Kalimantan dan Sulawesi, satu lagi memisahkan Kalimantan dan Jawa.",
       "explanation": "Selat Makassar memisahkan Kalimantan dan Sulawesi, sementara Laut Jawa berada di antara Kalimantan dan Jawa.",
       "options": [
-        { "id": "a", "text": "Selat Makassar" },
-        { "id": "b", "text": "Laut Jawa" },
-        { "id": "c", "text": "Selat Sunda" },
-        { "id": "d", "text": "Selat Malaka" }
+        {
+          "id": "a",
+          "text": "Selat Makassar"
+        },
+        {
+          "id": "b",
+          "text": "Laut Jawa"
+        },
+        {
+          "id": "c",
+          "text": "Selat Sunda"
+        },
+        {
+          "id": "d",
+          "text": "Selat Malaka"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "geo-indo-03-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-landmark",
       "mediaCaption": "Kawasan kepulauan timur Indonesia terkenal memiliki terumbu karang terkaya di dunia.",
       "prompt": "Kepulauan wisata bahari di Papua Barat Daya yang terkenal di dunia dengan gugusan pulau karst dan terumbu karangnya adalah ...",
       "hint": "Namanya berarti Empat Raja.",
       "explanation": "Raja Ampat di Provinsi Papua Barat Daya merupakan bagian dari Segitiga Terumbu Karang Dunia dengan keanekaragaman hayati laut yang sangat tinggi.",
       "options": [
-        { "id": "a", "text": "Kepulauan Seribu" },
-        { "id": "b", "text": "Raja Ampat" },
-        { "id": "c", "text": "Karimunjawa" },
-        { "id": "d", "text": "Nusa Penida" }
+        {
+          "id": "a",
+          "text": "Kepulauan Seribu"
+        },
+        {
+          "id": "b",
+          "text": "Raja Ampat"
+        },
+        {
+          "id": "c",
+          "text": "Karimunjawa"
+        },
+        {
+          "id": "d",
+          "text": "Nusa Penida"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-indo-03-q06",
@@ -84,12 +142,26 @@
       "hint": "Berada di Provinsi Kalimantan Timur.",
       "explanation": "Ibu Kota Nusantara (IKN) dibangun di wilayah Kabupaten Penajam Paser Utara dan Kutai Kartanegara, Kalimantan Timur.",
       "options": [
-        { "id": "a", "text": "Sumatra" },
-        { "id": "b", "text": "Kalimantan" },
-        { "id": "c", "text": "Sulawesi" },
-        { "id": "d", "text": "Papua" }
+        {
+          "id": "a",
+          "text": "Sumatra"
+        },
+        {
+          "id": "b",
+          "text": "Kalimantan"
+        },
+        {
+          "id": "c",
+          "text": "Sulawesi"
+        },
+        {
+          "id": "d",
+          "text": "Papua"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-indo-03-q07",
@@ -98,10 +170,18 @@
       "hint": "Secara internasional pulau ini juga dikenal sebagai Borneo.",
       "explanation": "Benar! Pulau Kalimantan (Borneo) merupakan pulau terbesar ketiga di dunia dan menjadi satu-satunya pulau yang wilayahnya dibagi oleh tiga negara.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "geo-indo-03-q08",
@@ -110,7 +190,12 @@
       "hint": "Namanya berawalan huruf C.",
       "explanation": "Burung cenderawasih merupakan satwa endemik yang terkenal dari Papua dan sekitarnya karena warna bulunya yang memukau.",
       "correctAnswer": {
-        "acceptedAnswers": ["Cenderawasih", "cenderawasih", "Cendrawasih", "cendrawasih"]
+        "acceptedAnswers": [
+          "Cenderawasih",
+          "cenderawasih",
+          "Cendrawasih",
+          "cendrawasih"
+        ]
       }
     },
     {
@@ -120,12 +205,29 @@
       "hint": "Satu berada di Sulawesi Selatan, satu lagi di ujung utara Sulawesi.",
       "explanation": "Makassar (Sulawesi Selatan) dan Manado (Sulawesi Utara) berada di Pulau Sulawesi, sedangkan Jayapura di Papua dan Balikpapan di Kalimantan.",
       "options": [
-        { "id": "a", "text": "Makassar" },
-        { "id": "b", "text": "Jayapura" },
-        { "id": "c", "text": "Manado" },
-        { "id": "d", "text": "Balikpapan" }
+        {
+          "id": "a",
+          "text": "Makassar"
+        },
+        {
+          "id": "b",
+          "text": "Jayapura"
+        },
+        {
+          "id": "c",
+          "text": "Manado"
+        },
+        {
+          "id": "d",
+          "text": "Balikpapan"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "geo-indo-03-q10",
@@ -134,12 +236,26 @@
       "hint": "Namanya gabungan dua kata hewan dalam bahasa Indonesia.",
       "explanation": "Babirusa dan anoa adalah satwa endemik khas Pulau Sulawesi yang dilindungi.",
       "options": [
-        { "id": "a", "text": "Orangutan" },
-        { "id": "b", "text": "Babirusa" },
-        { "id": "c", "text": "Harimau Sumatra" },
-        { "id": "d", "text": "Komodo" }
+        {
+          "id": "a",
+          "text": "Orangutan"
+        },
+        {
+          "id": "b",
+          "text": "Babirusa"
+        },
+        {
+          "id": "c",
+          "text": "Harimau Sumatra"
+        },
+        {
+          "id": "d",
+          "text": "Komodo"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     }
   ]
 }

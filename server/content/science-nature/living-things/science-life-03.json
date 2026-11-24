@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 3,
-  "prerequisites": ["science-life-02"],
+  "prerequisites": [
+    "science-life-02"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Contohnya adalah beruang, ayam, dan tikus.",
       "explanation": "Omnivora adalah hewan pemakan segala (tumbuhan dan daging), sedangkan herbivora pemakan tumbuhan dan karnivora pemakan daging.",
       "options": [
-        { "id": "a", "text": "Herbivora" },
-        { "id": "b", "text": "Karnivora" },
-        { "id": "c", "text": "Omnivora" },
-        { "id": "d", "text": "Insektivora" }
+        {
+          "id": "a",
+          "text": "Herbivora"
+        },
+        {
+          "id": "b",
+          "text": "Karnivora"
+        },
+        {
+          "id": "c",
+          "text": "Omnivora"
+        },
+        {
+          "id": "d",
+          "text": "Insektivora"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "science-life-03-q02",
@@ -32,10 +48,18 @@
       "hint": "Daur hidup kupu-kupu melewati fase ulat (larva) dan kepompong (pupa).",
       "explanation": "Benar! Metamorfosis sempurna melalui 4 tahap: telur → larva (ulat) → pupa (kepompong) → imago (kupu-kupu dewasa).",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-life-03-q03",
@@ -44,12 +68,26 @@
       "hint": "Cari hewan yang tubuhnya lunak atau memiliki rangka luar, tanpa tulang belakang.",
       "explanation": "Ubur-ubur tidak memiliki tulang belakang sehingga termasuk invertebrata. Katak, merpati, dan ikan mas memiliki tulang belakang (vertebrata).",
       "options": [
-        { "id": "a", "text": "Katak" },
-        { "id": "b", "text": "Burung merpati" },
-        { "id": "c", "text": "Ubur-ubur" },
-        { "id": "d", "text": "Ikan mas" }
+        {
+          "id": "a",
+          "text": "Katak"
+        },
+        {
+          "id": "b",
+          "text": "Burung merpati"
+        },
+        {
+          "id": "c",
+          "text": "Ubur-ubur"
+        },
+        {
+          "id": "d",
+          "text": "Ikan mas"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "science-life-03-q04",
@@ -58,7 +96,10 @@
       "hint": "Berasal dari kata 'ovum' yang berarti telur.",
       "explanation": "Ovipar adalah cara berkembang biak dengan bertelur (seperti ayam, bebek, dan penyu), sedangkan vivipar melahirkan.",
       "correctAnswer": {
-        "acceptedAnswers": ["ovipar", "Ovipar"]
+        "acceptedAnswers": [
+          "ovipar",
+          "Ovipar"
+        ]
       }
     },
     {
@@ -68,12 +109,29 @@
       "hint": "Hewan mudanya (nimfa) sudah mirip dengan hewan dewasanya.",
       "explanation": "Belalang dan kecoak mengalami metamorfosis tidak sempurna (telur → nimfa → dewasa), sedangkan nyamuk dan kupu-kupu mengalami metamorfosis sempurna.",
       "options": [
-        { "id": "a", "text": "Belalang" },
-        { "id": "b", "text": "Nyamuk" },
-        { "id": "c", "text": "Kecoak" },
-        { "id": "d", "text": "Kupu-kupu" }
+        {
+          "id": "a",
+          "text": "Belalang"
+        },
+        {
+          "id": "b",
+          "text": "Nyamuk"
+        },
+        {
+          "id": "c",
+          "text": "Kecoak"
+        },
+        {
+          "id": "d",
+          "text": "Kupu-kupu"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "science-life-03-q06",
@@ -82,26 +140,48 @@
       "hint": "Itulah sebabnya paus sering muncul ke permukaan laut untuk mengambil udara.",
       "explanation": "Benar! Meskipun hidup di laut dan bentuknya mirip ikan, paus dan lumba-lumba adalah mamalia yang menyusui anaknya dan bernapas dengan paru-paru.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-life-03-q07",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-ecosystem",
       "mediaCaption": "Habitat darat dan perairan yang dihuni beragam spesies hewan dengan ciri adaptasi unik.",
       "prompt": "Kemampuan bunglon mengubah warna kulitnya agar menyatu dengan lingkungan sekitar disebut...",
       "hint": "Digunakan untuk mengelabui pemangsa atau mangsa.",
       "explanation": "Mimikri adalah kemampuan bunglon mengubah warna kulit menyerupai benda atau lingkungan di sekitarnya.",
       "options": [
-        { "id": "a", "text": "Mimikri" },
-        { "id": "b", "text": "Autotomi" },
-        { "id": "c", "text": "Hibernasi" },
-        { "id": "d", "text": "Ekolokasi" }
+        {
+          "id": "a",
+          "text": "Mimikri"
+        },
+        {
+          "id": "b",
+          "text": "Autotomi"
+        },
+        {
+          "id": "c",
+          "text": "Hibernasi"
+        },
+        {
+          "id": "d",
+          "text": "Ekolokasi"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "science-life-03-q08",
@@ -110,12 +190,26 @@
       "hint": "Kelelawar memanfaatkan pantulan gelombang bunyi berfrekuensi tinggi.",
       "explanation": "Kelelawar menggunakan ekolokasi, yaitu memancarkan bunyi ultrasonik dan menangkap pantulannya untuk mengetahui jarak dan letak benda.",
       "options": [
-        { "id": "a", "text": "Menggunakan sinar laser dari matanya" },
-        { "id": "b", "text": "Menggunakan ekolokasi atau pantulan gelombang bunyi" },
-        { "id": "c", "text": "Mengikuti cahaya bintang purnama" },
-        { "id": "d", "text": "Menggunakan antena untuk menangkap sinyal radio" }
+        {
+          "id": "a",
+          "text": "Menggunakan sinar laser dari matanya"
+        },
+        {
+          "id": "b",
+          "text": "Menggunakan ekolokasi atau pantulan gelombang bunyi"
+        },
+        {
+          "id": "c",
+          "text": "Mengikuti cahaya bintang purnama"
+        },
+        {
+          "id": "d",
+          "text": "Menggunakan antena untuk menangkap sinyal radio"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "science-life-03-q09",
@@ -124,7 +218,10 @@
       "hint": "Diawali huruf A.",
       "explanation": "Autotomi adalah perilaku pertahanan diri dengan memutuskan bagian tubuh tertentu (ekor pada cicak dan kadal) untuk mengalihkan perhatian musuh.",
       "correctAnswer": {
-        "acceptedAnswers": ["autotomi", "Autotomi"]
+        "acceptedAnswers": [
+          "autotomi",
+          "Autotomi"
+        ]
       }
     },
     {
@@ -134,12 +231,30 @@
       "hint": "Amfibi dapat hidup di dua alam: air dan darat.",
       "explanation": "Amfibi memiliki kulit yang lembap, bertelur di air, dan dapat hidup di air maupun di darat (berudu bernapas dengan insang, katak dewasa dengan paru-paru dan kulit).",
       "options": [
-        { "id": "a", "text": "Dapat hidup di air dan di darat" },
-        { "id": "b", "text": "Memiliki kulit yang lembap" },
-        { "id": "c", "text": "Tubuhnya ditutupi bulu tebal untuk terbang" },
-        { "id": "d", "text": "Saat fase berudu bernapas menggunakan insang" }
+        {
+          "id": "a",
+          "text": "Dapat hidup di air dan di darat"
+        },
+        {
+          "id": "b",
+          "text": "Memiliki kulit yang lembap"
+        },
+        {
+          "id": "c",
+          "text": "Tubuhnya ditutupi bulu tebal untuk terbang"
+        },
+        {
+          "id": "d",
+          "text": "Saat fase berudu bernapas menggunakan insang"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
     }
   ]
 }

@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 5,
-  "prerequisites": ["logic-arith-04"],
+  "prerequisites": [
+    "logic-arith-04"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Hitung total belanja (3 buku + 2 pensil), lalu kurangkan dari Rp20.000.",
       "explanation": "Total belanja = (3 x 4.000) + (2 x 2.500) = 12.000 + 5.000 = Rp17.000. Kembalian = Rp20.000 - Rp17.000 = Rp3.000.",
       "options": [
-        { "id": "a", "text": "Rp2.000" },
-        { "id": "b", "text": "Rp3.000" },
-        { "id": "c", "text": "Rp4.000" },
-        { "id": "d", "text": "Rp5.000" }
+        {
+          "id": "a",
+          "text": "Rp2.000"
+        },
+        {
+          "id": "b",
+          "text": "Rp3.000"
+        },
+        {
+          "id": "c",
+          "text": "Rp4.000"
+        },
+        {
+          "id": "d",
+          "text": "Rp5.000"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "logic-arith-05-q02",
@@ -32,10 +48,18 @@
       "hint": "Kurangkan 45 dengan 15, lalu bagi hasilnya dengan 5.",
       "explanation": "Benar. Sisa kelereng = 45 - 15 = 30. Dibagi rata ke 5 kantong: 30 : 5 = 6 kelereng per kantong.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "logic-arith-05-q03",
@@ -43,7 +67,13 @@
       "prompt": "Sebuah bus membawa 38 penumpang. Di halte pertama, 9 penumpang turun dan 14 penumpang baru naik. Berapa jumlah penumpang di bus sekarang?",
       "hint": "Kurangi jumlah penumpang awal dengan yang turun, lalu tambahkan dengan yang naik.",
       "explanation": "38 - 9 = 29, lalu 29 + 14 = 43 penumpang.",
-      "correctAnswer": { "acceptedAnswers": ["43", "43 orang", "43 penumpang"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "43",
+          "43 orang",
+          "43 penumpang"
+        ]
+      }
     },
     {
       "id": "logic-arith-05-q04",
@@ -52,12 +82,30 @@
       "hint": "Cari bilangan yang dapat membagi habis 36 dan juga membagi habis 24.",
       "explanation": "Bilangan yang bisa membagi habis 36 dan 24 di antaranya 4, 6, dan 12. Angka 5 tidak bisa membagi habis 36 maupun 24.",
       "options": [
-        { "id": "a", "text": "4 kotak" },
-        { "id": "b", "text": "5 kotak" },
-        { "id": "c", "text": "6 kotak" },
-        { "id": "d", "text": "12 kotak" }
+        {
+          "id": "a",
+          "text": "4 kotak"
+        },
+        {
+          "id": "b",
+          "text": "5 kotak"
+        },
+        {
+          "id": "c",
+          "text": "6 kotak"
+        },
+        {
+          "id": "d",
+          "text": "12 kotak"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c", "d"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c",
+          "d"
+        ]
+      }
     },
     {
       "id": "logic-arith-05-q05",
@@ -66,28 +114,56 @@
       "hint": "Lima tahun lagi, umur kakak dan umur adik sama-sama bertambah 5 tahun.",
       "explanation": "5 tahun lagi: umur kakak = 14 + 5 = 19 tahun, umur adik = 8 + 5 = 13 tahun. Jumlahnya = 19 + 13 = 32 tahun.",
       "options": [
-        { "id": "a", "text": "27 tahun" },
-        { "id": "b", "text": "30 tahun" },
-        { "id": "c", "text": "32 tahun" },
-        { "id": "d", "text": "34 tahun" }
+        {
+          "id": "a",
+          "text": "27 tahun"
+        },
+        {
+          "id": "b",
+          "text": "30 tahun"
+        },
+        {
+          "id": "c",
+          "text": "32 tahun"
+        },
+        {
+          "id": "d",
+          "text": "34 tahun"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "logic-arith-05-q06",
       "type": "image_quiz",
-      "mediaKey": "quiz-geometri",
+      "mediaKey": "quiz-math-board",
       "mediaCaption": "Daftar harga kantin sekolah: Roti Rp5.000, Susu Kotak Rp4.000, dan Apel Rp3.000.",
       "prompt": "Rio membeli 2 Roti dan 1 Susu Kotak. Berapa total uang yang harus dibayar Rio?",
       "hint": "Kalikan harga Roti dengan 2, lalu tambahkan dengan harga 1 Susu Kotak.",
       "explanation": "2 Roti = 2 x Rp5.000 = Rp10.000. Ditambah 1 Susu Kotak Rp4.000, totalnya Rp14.000.",
       "options": [
-        { "id": "a", "text": "Rp12.000" },
-        { "id": "b", "text": "Rp14.000" },
-        { "id": "c", "text": "Rp15.000" },
-        { "id": "d", "text": "Rp17.000" }
+        {
+          "id": "a",
+          "text": "Rp12.000"
+        },
+        {
+          "id": "b",
+          "text": "Rp14.000"
+        },
+        {
+          "id": "c",
+          "text": "Rp15.000"
+        },
+        {
+          "id": "d",
+          "text": "Rp17.000"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "logic-arith-05-q07",
@@ -96,10 +172,18 @@
       "hint": "Hitung dulu harga 1 kotak pensil dengan membagi Rp32.000 dengan 4.",
       "explanation": "Salah. Harga 1 kotak = Rp32.000 : 4 = Rp8.000. Jadi harga 3 kotak adalah 3 x Rp8.000 = Rp24.000.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "logic-arith-05-q08",
@@ -107,7 +191,11 @@
       "prompt": "Jumlah dua bilangan adalah 50. Jika bilangan yang besar 12 lebihnya dari bilangan yang kecil, berapakah bilangan yang besar tersebut?",
       "hint": "Kurangkan 50 dengan 12, bagi 2 untuk mendapat bilangan kecil, lalu tambah 12.",
       "explanation": "Bilangan kecil = (50 - 12) : 2 = 38 : 2 = 19. Jadi bilangan yang besar = 19 + 12 = 31 (Cek: 31 + 19 = 50).",
-      "correctAnswer": { "acceptedAnswers": ["31"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "31"
+        ]
+      }
     },
     {
       "id": "logic-arith-05-q09",
@@ -116,12 +204,26 @@
       "hint": "Hitung jumlah buku di 1 rak terlebih dahulu, lalu kalikan 6.",
       "explanation": "1 rak berisi 15 + 10 = 25 buku. Untuk 6 rak: 6 x 25 = 150 buku.",
       "options": [
-        { "id": "a", "text": "90 buku" },
-        { "id": "b", "text": "100 buku" },
-        { "id": "c", "text": "125 buku" },
-        { "id": "d", "text": "150 buku" }
+        {
+          "id": "a",
+          "text": "90 buku"
+        },
+        {
+          "id": "b",
+          "text": "100 buku"
+        },
+        {
+          "id": "c",
+          "text": "125 buku"
+        },
+        {
+          "id": "d",
+          "text": "150 buku"
+        }
       ],
-      "correctAnswer": { "optionId": "d" }
+      "correctAnswer": {
+        "optionId": "d"
+      }
     },
     {
       "id": "logic-arith-05-q10",
@@ -130,12 +232,29 @@
       "hint": "Hitung 1/4 dari 120 dulu, lalu cari sisanya dan bagi dengan 15.",
       "explanation": "1/4 x 120 = 30 mangga diberikan ke tetangga. Sisa mangga = 120 - 30 = 90 mangga, yang membutuhkan 90 : 15 = 6 keranjang.",
       "options": [
-        { "id": "a", "text": "Ada 30 mangga yang diberikan ke tetangga" },
-        { "id": "b", "text": "Sisa mangga yang dijual ada 80 buah" },
-        { "id": "c", "text": "Dibutuhkan 6 keranjang untuk sisa mangga" },
-        { "id": "d", "text": "Dibutuhkan 8 keranjang untuk sisa mangga" }
+        {
+          "id": "a",
+          "text": "Ada 30 mangga yang diberikan ke tetangga"
+        },
+        {
+          "id": "b",
+          "text": "Sisa mangga yang dijual ada 80 buah"
+        },
+        {
+          "id": "c",
+          "text": "Dibutuhkan 6 keranjang untuk sisa mangga"
+        },
+        {
+          "id": "d",
+          "text": "Dibutuhkan 8 keranjang untuk sisa mangga"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     }
   ]
 }

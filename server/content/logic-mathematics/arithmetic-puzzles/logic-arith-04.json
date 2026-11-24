@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 4,
-  "prerequisites": ["logic-arith-03"],
+  "prerequisites": [
+    "logic-arith-03"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Cari dulu nilai satu Apel dari persamaan pertama.",
       "explanation": "Dari Apel + Apel = 14, didapat Apel = 7. Lalu 7 + Jeruk = 19, sehingga Jeruk = 19 - 7 = 12.",
       "options": [
-        { "id": "a", "text": "5" },
-        { "id": "b", "text": "7" },
-        { "id": "c", "text": "12" },
-        { "id": "d", "text": "14" }
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "14"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "logic-arith-04-q02",
@@ -32,10 +48,18 @@
       "hint": "Temukan nilai Bintang dengan membagi 27 dengan 3.",
       "explanation": "Benar. Bintang = 27 : 3 = 9, maka Bulan = 15 - 9 = 6.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "logic-arith-04-q03",
@@ -43,7 +67,11 @@
       "prompt": "Diketahui Segitiga + Segitiga + Segitiga = 24, dan Segitiga x Lingkaran = 40. Berapakah nilai Lingkaran?",
       "hint": "Tiga buah Segitiga sama dengan 24, jadi satu Segitiga bernilai 24 : 3.",
       "explanation": "Segitiga = 24 : 3 = 8. Karena 8 x Lingkaran = 40, maka Lingkaran = 40 : 8 = 5.",
-      "correctAnswer": { "acceptedAnswers": ["5"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "5"
+        ]
+      }
     },
     {
       "id": "logic-arith-04-q04",
@@ -52,12 +80,29 @@
       "hint": "Cari dua angka yang jika dijumlahkan menjadi 15 dan selisihnya 3.",
       "explanation": "Dua bilangan yang berjumlah 15 dan berselisih 3 adalah 9 dan 6 (9 + 6 = 15, 9 - 6 = 3). Jadi P = 9 dan Q = 6.",
       "options": [
-        { "id": "a", "text": "Nilai P adalah 9" },
-        { "id": "b", "text": "Nilai P adalah 10" },
-        { "id": "c", "text": "Nilai Q adalah 6" },
-        { "id": "d", "text": "Nilai Q adalah 5" }
+        {
+          "id": "a",
+          "text": "Nilai P adalah 9"
+        },
+        {
+          "id": "b",
+          "text": "Nilai P adalah 10"
+        },
+        {
+          "id": "c",
+          "text": "Nilai Q adalah 6"
+        },
+        {
+          "id": "d",
+          "text": "Nilai Q adalah 5"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "logic-arith-04-q05",
@@ -66,28 +111,56 @@
       "hint": "Selesaikan secara berurutan mulai dari nilai Kucing, lalu Anjing, lalu Kelinci.",
       "explanation": "Kucing = 8. Lalu Anjing = 20 - 8 = 12. Kemudian Kelinci = 12 - 7 = 5.",
       "options": [
-        { "id": "a", "text": "5" },
-        { "id": "b", "text": "6" },
-        { "id": "c", "text": "8" },
-        { "id": "d", "text": "12" }
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "logic-arith-04-q06",
       "type": "image_quiz",
-      "mediaKey": "quiz-geometri",
+      "mediaKey": "quiz-math-board",
       "mediaCaption": "Timbangan dalam keadaan seimbang: piringan kiri berisi 1 semangka dan beban 2 kg, sedangkan piringan kanan berisi beban 10 kg.",
       "prompt": "Berdasarkan gambar timbangan seimbang tersebut, berapakah berat 1 buah semangka?",
       "hint": "Agar tetap seimbang, jumlah berat di kiri sama dengan di kanan.",
       "explanation": "Semangka + 2 kg = 10 kg, jadi berat 1 semangka = 10 - 2 = 8 kg.",
       "options": [
-        { "id": "a", "text": "6 kg" },
-        { "id": "b", "text": "7 kg" },
-        { "id": "c", "text": "8 kg" },
-        { "id": "d", "text": "12 kg" }
+        {
+          "id": "a",
+          "text": "6 kg"
+        },
+        {
+          "id": "b",
+          "text": "7 kg"
+        },
+        {
+          "id": "c",
+          "text": "8 kg"
+        },
+        {
+          "id": "d",
+          "text": "12 kg"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "logic-arith-04-q07",
@@ -96,10 +169,18 @@
       "hint": "Coba kalikan 4 dengan 6, lalu jumlahkan keduanya.",
       "explanation": "Benar, karena 4 x 6 = 24 dan 4 + 6 = 10.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "logic-arith-04-q08",
@@ -107,7 +188,11 @@
       "prompt": "Jika Matahari x Matahari = 36 dan Matahari + Awan = 17, berapakah nilai Awan?",
       "hint": "Cari bilangan yang jika dikalikan dengan dirinya sendiri hasilnya 36.",
       "explanation": "6 x 6 = 36, sehingga Matahari = 6. Maka Awan = 17 - 6 = 11.",
-      "correctAnswer": { "acceptedAnswers": ["11"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "11"
+        ]
+      }
     },
     {
       "id": "logic-arith-04-q09",
@@ -116,12 +201,26 @@
       "hint": "Hitung berat 1 kotak terlebih dahulu dengan mengalikan 3 x 4 gram.",
       "explanation": "1 kotak = 3 x 4 = 12 gram. Maka 2 kotak = 2 x 12 = 24 gram.",
       "options": [
-        { "id": "a", "text": "12 gram" },
-        { "id": "b", "text": "16 gram" },
-        { "id": "c", "text": "18 gram" },
-        { "id": "d", "text": "24 gram" }
+        {
+          "id": "a",
+          "text": "12 gram"
+        },
+        {
+          "id": "b",
+          "text": "16 gram"
+        },
+        {
+          "id": "c",
+          "text": "18 gram"
+        },
+        {
+          "id": "d",
+          "text": "24 gram"
+        }
       ],
-      "correctAnswer": { "optionId": "d" }
+      "correctAnswer": {
+        "optionId": "d"
+      }
     },
     {
       "id": "logic-arith-04-q10",
@@ -130,12 +229,30 @@
       "hint": "Cari nilai ♥ dan ★ terlebih dahulu sebelum mengecek setiap pilihan.",
       "explanation": "♥ = 9 dan ★ = 25 - 9 = 16. Maka ♥ = 9, ★ = 16, dan ★ - ♥ = 16 - 9 = 7. Sedangkan ♥ + ★ + ★ = 9 + 16 + 16 = 41.",
       "options": [
-        { "id": "a", "text": "Nilai ♥ adalah 9" },
-        { "id": "b", "text": "Nilai ★ adalah 16" },
-        { "id": "c", "text": "♥ + ★ + ★ = 40" },
-        { "id": "d", "text": "★ - ♥ = 7" }
+        {
+          "id": "a",
+          "text": "Nilai ♥ adalah 9"
+        },
+        {
+          "id": "b",
+          "text": "Nilai ★ adalah 16"
+        },
+        {
+          "id": "c",
+          "text": "♥ + ★ + ★ = 40"
+        },
+        {
+          "id": "d",
+          "text": "★ - ♥ = 7"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
     }
   ]
 }

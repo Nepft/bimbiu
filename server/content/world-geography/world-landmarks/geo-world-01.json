@@ -18,12 +18,26 @@
       "hint": "Di kota ini berdiri menara kembar Petronas.",
       "explanation": "Ibu kota negara Malaysia adalah Kuala Lumpur, yang terkenal dengan Menara Kembar Petronas.",
       "options": [
-        { "id": "a", "text": "Bangkok" },
-        { "id": "b", "text": "Kuala Lumpur" },
-        { "id": "c", "text": "Manila" },
-        { "id": "d", "text": "Hanoi" }
+        {
+          "id": "a",
+          "text": "Bangkok"
+        },
+        {
+          "id": "b",
+          "text": "Kuala Lumpur"
+        },
+        {
+          "id": "c",
+          "text": "Manila"
+        },
+        {
+          "id": "d",
+          "text": "Hanoi"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-world-01-q02",
@@ -32,10 +46,18 @@
       "hint": "Letaknya tepat di selatan Malaysia dan dekat dengan Pulau Batam, Indonesia.",
       "explanation": "Benar! Singapura terletak di ujung selatan Semenanjung Malaya dan memiliki ikon terkenal bernama Merlion.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "geo-world-01-q03",
@@ -44,7 +66,10 @@
       "hint": "Namanya berawalan huruf B.",
       "explanation": "Bangkok adalah ibu kota Thailand yang dialiri oleh Sungai Chao Phraya.",
       "correctAnswer": {
-        "acceptedAnswers": ["Bangkok", "bangkok"]
+        "acceptedAnswers": [
+          "Bangkok",
+          "bangkok"
+        ]
       }
     },
     {
@@ -54,28 +79,59 @@
       "hint": "Cari negara tetangga Indonesia di ASEAN.",
       "explanation": "Filipina dan Vietnam berada di Asia Tenggara, sedangkan Korea Selatan dan Mesir berada di luar Asia Tenggara.",
       "options": [
-        { "id": "a", "text": "Filipina" },
-        { "id": "b", "text": "Korea Selatan" },
-        { "id": "c", "text": "Vietnam" },
-        { "id": "d", "text": "Mesir" }
+        {
+          "id": "a",
+          "text": "Filipina"
+        },
+        {
+          "id": "b",
+          "text": "Korea Selatan"
+        },
+        {
+          "id": "c",
+          "text": "Vietnam"
+        },
+        {
+          "id": "d",
+          "text": "Mesir"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "geo-world-01-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-landmark",
       "mediaCaption": "Kawasan Asia Tenggara terdiri atas wilayah daratan dan gugusan kepulauan di antara India dan Tiongkok.",
       "prompt": "Satu-satunya negara di Asia Tenggara yang seluruh wilayahnya terkurung daratan dan tidak memiliki garis pantai laut adalah ...",
       "hint": "Negara ini berbatasan dengan Thailand, Vietnam, Kamboja, Myanmar, dan Tiongkok.",
       "explanation": "Laos adalah satu-satunya negara tanpa laut (landlocked) di Asia Tenggara; ibu kotanya adalah Vientiane.",
       "options": [
-        { "id": "a", "text": "Brunei Darussalam" },
-        { "id": "b", "text": "Laos" },
-        { "id": "c", "text": "Filipina" },
-        { "id": "d", "text": "Singapura" }
+        {
+          "id": "a",
+          "text": "Brunei Darussalam"
+        },
+        {
+          "id": "b",
+          "text": "Laos"
+        },
+        {
+          "id": "c",
+          "text": "Filipina"
+        },
+        {
+          "id": "d",
+          "text": "Singapura"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-world-01-q06",
@@ -84,12 +140,26 @@
       "hint": "Negara ini terdiri dari lebih dari tujuh ribu pulau.",
       "explanation": "Filipina adalah negara kepulauan di sebelah utara Indonesia dengan ibu kota Manila.",
       "options": [
-        { "id": "a", "text": "Kamboja" },
-        { "id": "b", "text": "Filipina" },
-        { "id": "c", "text": "Myanmar" },
-        { "id": "d", "text": "Brunei Darussalam" }
+        {
+          "id": "a",
+          "text": "Kamboja"
+        },
+        {
+          "id": "b",
+          "text": "Filipina"
+        },
+        {
+          "id": "c",
+          "text": "Myanmar"
+        },
+        {
+          "id": "d",
+          "text": "Brunei Darussalam"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-world-01-q07",
@@ -98,10 +168,18 @@
       "hint": "Ingat tiga negara yang berbagi satu pulau besar di utara Jawa.",
       "explanation": "Salah! Brunei Darussalam terletak di bagian utara Pulau Kalimantan (Borneo), bukan Sumatra.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "geo-world-01-q08",
@@ -110,7 +188,10 @@
       "hint": "Singkatan empat huruf dalam bahasa Inggris.",
       "explanation": "ASEAN (Association of Southeast Asian Nations) dibentuk untuk menjaga perdamaian dan kerja sama antarnegara Asia Tenggara.",
       "correctAnswer": {
-        "acceptedAnswers": ["ASEAN", "asean"]
+        "acceptedAnswers": [
+          "ASEAN",
+          "asean"
+        ]
       }
     },
     {
@@ -120,12 +201,29 @@
       "hint": "Ingat ibu kota Vietnam dan ibu kota Kamboja.",
       "explanation": "Hanoi adalah ibu kota Vietnam dan Phnom Penh adalah ibu kota Kamboja. Tokyo ibu kota Jepang dan Seoul ibu kota Korea Selatan.",
       "options": [
-        { "id": "a", "text": "Hanoi" },
-        { "id": "b", "text": "Tokyo" },
-        { "id": "c", "text": "Phnom Penh" },
-        { "id": "d", "text": "Seoul" }
+        {
+          "id": "a",
+          "text": "Hanoi"
+        },
+        {
+          "id": "b",
+          "text": "Tokyo"
+        },
+        {
+          "id": "c",
+          "text": "Phnom Penh"
+        },
+        {
+          "id": "d",
+          "text": "Seoul"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "geo-world-01-q10",
@@ -134,12 +232,26 @@
       "hint": "Negara ini berada di antara Thailand dan Vietnam.",
       "explanation": "Angkor Wat terletak di Kamboja dan gambarnya terpasang pada bendera nasional Kamboja.",
       "options": [
-        { "id": "a", "text": "Kamboja" },
-        { "id": "b", "text": "Laos" },
-        { "id": "c", "text": "Singapura" },
-        { "id": "d", "text": "Brunei Darussalam" }
+        {
+          "id": "a",
+          "text": "Kamboja"
+        },
+        {
+          "id": "b",
+          "text": "Laos"
+        },
+        {
+          "id": "c",
+          "text": "Singapura"
+        },
+        {
+          "id": "d",
+          "text": "Brunei Darussalam"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

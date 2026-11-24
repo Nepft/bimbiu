@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 4,
-  "prerequisites": ["lang-vocab-03"],
+  "prerequisites": [
+    "lang-vocab-03"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Pilih nama jenis bunga yang spesifik.",
       "explanation": "'Mawar' adalah kata khusus (hiponim) dari kata umum 'bunga' (hipernim).",
       "options": [
-        { "id": "a", "text": "Tumbuhan" },
-        { "id": "b", "text": "Mawar" },
-        { "id": "c", "text": "Kebun" },
-        { "id": "d", "text": "Pupuk" }
+        {
+          "id": "a",
+          "text": "Tumbuhan"
+        },
+        {
+          "id": "b",
+          "text": "Mawar"
+        },
+        {
+          "id": "c",
+          "text": "Kebun"
+        },
+        {
+          "id": "d",
+          "text": "Pupuk"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-vocab-04-q02",
@@ -32,10 +48,18 @@
       "hint": "Mana yang cakupannya lebih luas: kendaraan atau sepeda?",
       "explanation": "Salah. 'Kendaraan' memiliki makna lebih luas sehingga merupakan kata umum, sedangkan 'sepeda' adalah kata khususnya.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "lang-vocab-04-q03",
@@ -44,7 +68,12 @@
       "hint": "Nama kelompok tumbuhan yang rasanya sering manis atau segar untuk dimakan.",
       "explanation": "Mangga, pisang, jeruk, dan pepaya merupakan kata khusus dari kata umum 'buah'.",
       "correctAnswer": {
-        "acceptedAnswers": ["buah", "Buah", "buah-buahan", "Buah-buahan"]
+        "acceptedAnswers": [
+          "buah",
+          "Buah",
+          "buah-buahan",
+          "Buah-buahan"
+        ]
       }
     },
     {
@@ -54,28 +83,60 @@
       "hint": "Pilih benda yang dipakai untuk menulis atau menghapus di buku.",
       "explanation": "'pensil', 'penghapus', dan 'spidol' termasuk kata khusus dari 'alat tulis', sedangkan 'sepatu' termasuk alas kaki.",
       "options": [
-        { "id": "a", "text": "pensil" },
-        { "id": "b", "text": "sepatu" },
-        { "id": "c", "text": "penghapus" },
-        { "id": "d", "text": "spidol" }
+        {
+          "id": "a",
+          "text": "pensil"
+        },
+        {
+          "id": "b",
+          "text": "sepatu"
+        },
+        {
+          "id": "c",
+          "text": "penghapus"
+        },
+        {
+          "id": "d",
+          "text": "spidol"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c", "d"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c",
+          "d"
+        ]
+      }
     },
     {
       "id": "lang-vocab-04-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-language",
+      "mediaKey": "quiz-signboard",
       "mediaCaption": "Berbagai jenis hewan: elang, merpati, kakatua, dan bangau.",
       "prompt": "Apa kata umum yang paling tepat untuk mengelompokkan keempat hewan pada keterangan tersebut?",
       "hint": "Semua hewan tersebut memiliki sayap dan bulu.",
       "explanation": "Elang, merpati, kakatua, dan bangau adalah kata khusus dari kata umum 'burung' (atau unggas terbang).",
       "options": [
-        { "id": "a", "text": "Ikan" },
-        { "id": "b", "text": "Burung" },
-        { "id": "c", "text": "Serangga" },
-        { "id": "d", "text": "Reptil" }
+        {
+          "id": "a",
+          "text": "Ikan"
+        },
+        {
+          "id": "b",
+          "text": "Burung"
+        },
+        {
+          "id": "c",
+          "text": "Serangga"
+        },
+        {
+          "id": "d",
+          "text": "Reptil"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-vocab-04-q06",
@@ -84,12 +145,26 @@
       "hint": "Biasanya dilakukan oleh ilmuwan atau pengamat di laboratorium atau alam.",
       "explanation": "'Mengamati' adalah kata khusus dari 'melihat' yang bermakna melihat dan memperhatikan dengan teliti.",
       "options": [
-        { "id": "a", "text": "Mengamati" },
-        { "id": "b", "text": "Mendengar" },
-        { "id": "c", "text": "Menyentuh" },
-        { "id": "d", "text": "Mencium" }
+        {
+          "id": "a",
+          "text": "Mengamati"
+        },
+        {
+          "id": "b",
+          "text": "Mendengar"
+        },
+        {
+          "id": "c",
+          "text": "Menyentuh"
+        },
+        {
+          "id": "d",
+          "text": "Mencium"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "lang-vocab-04-q07",
@@ -98,10 +173,18 @@
       "hint": "Pikirkan cara-cara membawa benda yang berbeda.",
       "explanation": "Benar. Menjinjing, memikul, dan menggendong menjelaskan cara membawa yang lebih spesifik.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "lang-vocab-04-q08",
@@ -110,7 +193,12 @@
       "hint": "Sebutan untuk bidang pekerjaan yang membutuhkan keahlian.",
       "explanation": "Dokter, guru, arsitek, dan nelayan adalah kata khusus dari kata umum 'profesi' atau 'pekerjaan'.",
       "correctAnswer": {
-        "acceptedAnswers": ["profesi", "Profesi", "pekerjaan", "Pekerjaan"]
+        "acceptedAnswers": [
+          "profesi",
+          "Profesi",
+          "pekerjaan",
+          "Pekerjaan"
+        ]
       }
     },
     {
@@ -120,12 +208,26 @@
       "hint": "Periksa apakah kata kedua benar-benar bagian dari kata pertama.",
       "explanation": "'Berenang' adalah jenis olahraga, bukan nama makanan. Jadi pasangan 'makanan - berenang' tidak tepat.",
       "options": [
-        { "id": "a", "text": "warna - biru" },
-        { "id": "b", "text": "olahraga - bulu tangkis" },
-        { "id": "c", "text": "makanan - berenang" },
-        { "id": "d", "text": "alat musik - angklung" }
+        {
+          "id": "a",
+          "text": "warna - biru"
+        },
+        {
+          "id": "b",
+          "text": "olahraga - bulu tangkis"
+        },
+        {
+          "id": "c",
+          "text": "makanan - berenang"
+        },
+        {
+          "id": "d",
+          "text": "alat musik - angklung"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "lang-vocab-04-q10",
@@ -134,12 +236,29 @@
       "hint": "Pilih peristiwa alam yang menimbulkan kerusakan.",
       "explanation": "'gempa bumi' dan 'banjir' termasuk kata khusus dari 'bencana alam', sedangkan 'pelangi' dan 'embun' adalah gejala alam yang tidak merusak.",
       "options": [
-        { "id": "a", "text": "gempa bumi" },
-        { "id": "b", "text": "pelangi" },
-        { "id": "c", "text": "banjir" },
-        { "id": "d", "text": "embun pagi" }
+        {
+          "id": "a",
+          "text": "gempa bumi"
+        },
+        {
+          "id": "b",
+          "text": "pelangi"
+        },
+        {
+          "id": "c",
+          "text": "banjir"
+        },
+        {
+          "id": "d",
+          "text": "embun pagi"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     }
   ]
 }

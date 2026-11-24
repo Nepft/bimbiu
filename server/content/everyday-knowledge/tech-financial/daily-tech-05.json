@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 5,
-  "prerequisites": ["daily-tech-04"],
+  "prerequisites": [
+    "daily-tech-04"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Jika menunggu sisa uang di akhir hari, biasanya uang sudah habis duluan.",
       "explanation": "Menyisihkan tabungan di awal saat baru menerima uang saku memastikan kita benar-benar menabung secara konsisten.",
       "options": [
-        { "id": "a", "text": "Di awal, segera setelah menerima uang saku" },
-        { "id": "b", "text": "Jika kebetulan masih ada uang receh di akhir bulan" },
-        { "id": "c", "text": "Setelah membeli semua jajanan di kantin" },
-        { "id": "d", "text": "Hanya setahun sekali saat ulang tahun" }
+        {
+          "id": "a",
+          "text": "Di awal, segera setelah menerima uang saku"
+        },
+        {
+          "id": "b",
+          "text": "Jika kebetulan masih ada uang receh di akhir bulan"
+        },
+        {
+          "id": "c",
+          "text": "Setelah membeli semua jajanan di kantin"
+        },
+        {
+          "id": "d",
+          "text": "Hanya setahun sekali saat ulang tahun"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-tech-05-q02",
@@ -32,10 +48,18 @@
       "hint": "Ingat peribahasa: sedikit demi sedikit lama-lama menjadi bukit.",
       "explanation": "Benar! Konsistensi menabung walau nominalnya kecil melatih kedisiplinan dan lama-lama jumlahnya akan terkumpul banyak.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "daily-tech-05-q03",
@@ -44,12 +68,30 @@
       "hint": "Tabungan membantu saat ada keperluan mendadak maupun impian jangka panjang.",
       "explanation": "Menabung melatih hidup hemat, menyiapkan dana untuk keperluan mendadak atau membeli barang impian tanpa meminjam, dan belajar mengatur keuangan.",
       "options": [
-        { "id": "a", "text": "Memiliki simpanan untuk kebutuhan mendadak atau darurat" },
-        { "id": "b", "text": "Bisa membeli barang impian seperti buku atau sepeda dari hasil usaha sendiri" },
-        { "id": "c", "text": "Melatih sikap sabar, disiplin, dan tidak boros" },
-        { "id": "d", "text": "Membuat kita wajib berbelanja setiap jam" }
+        {
+          "id": "a",
+          "text": "Memiliki simpanan untuk kebutuhan mendadak atau darurat"
+        },
+        {
+          "id": "b",
+          "text": "Bisa membeli barang impian seperti buku atau sepeda dari hasil usaha sendiri"
+        },
+        {
+          "id": "c",
+          "text": "Melatih sikap sabar, disiplin, dan tidak boros"
+        },
+        {
+          "id": "d",
+          "text": "Membuat kita wajib berbelanja setiap jam"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-tech-05-q04",
@@ -58,24 +100,41 @@
       "hint": "Kata ini berawalan 'ce' dan berakhiran '-an'.",
       "explanation": "Celengan membantu kita menyimpan koin dan uang kertas di rumah sebelum disetorkan ke bank.",
       "correctAnswer": {
-        "acceptedAnswers": ["celengan", "Celengan"]
+        "acceptedAnswers": [
+          "celengan",
+          "Celengan"
+        ]
       }
     },
     {
       "id": "daily-tech-05-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-digital-safe",
       "mediaCaption": "Dodi ingin membeli ensiklopedia hewan seharga Rp60.000. Ia mulai menabung Rp5.000 setiap hari Senin sampai Sabtu (6 hari seminggu).",
       "prompt": "Dalam berapa minggu tabungan Dodi akan cukup untuk membeli ensiklopedia tersebut?",
       "hint": "Hitung tabungan per minggu: Rp5.000 × 6 hari = Rp30.000.",
       "explanation": "Setiap minggu Dodi mengumpulkan Rp30.000, sehingga dalam 2 minggu terkumpul Rp60.000 untuk membeli buku ensiklopedianya.",
       "options": [
-        { "id": "a", "text": "1 minggu" },
-        { "id": "b", "text": "2 minggu" },
-        { "id": "c", "text": "4 minggu" },
-        { "id": "d", "text": "6 minggu" }
+        {
+          "id": "a",
+          "text": "1 minggu"
+        },
+        {
+          "id": "b",
+          "text": "2 minggu"
+        },
+        {
+          "id": "c",
+          "text": "4 minggu"
+        },
+        {
+          "id": "d",
+          "text": "6 minggu"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "daily-tech-05-q06",
@@ -84,12 +143,26 @@
       "hint": "Catatan keuangan menunjukkan ke mana perginya uang kita selama ini.",
       "explanation": "Mencatat pengeluaran membantu kita melihat apakah uang banyak habis untuk jajanan yang kurang perlu, sehingga bisa berhemat.",
       "options": [
-        { "id": "a", "text": "Agar kita tahu ke mana uang dipakai dan bisa mengendalikan pengeluaran boros" },
-        { "id": "b", "text": "Supaya uang kertas berubah menjadi emas" },
-        { "id": "c", "text": "Agar buku tulis cepat habis" },
-        { "id": "d", "text": "Supaya kita lupa berapa jumlah tabungan kita" }
+        {
+          "id": "a",
+          "text": "Agar kita tahu ke mana uang dipakai dan bisa mengendalikan pengeluaran boros"
+        },
+        {
+          "id": "b",
+          "text": "Supaya uang kertas berubah menjadi emas"
+        },
+        {
+          "id": "c",
+          "text": "Agar buku tulis cepat habis"
+        },
+        {
+          "id": "d",
+          "text": "Supaya kita lupa berapa jumlah tabungan kita"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-tech-05-q07",
@@ -98,10 +171,18 @@
       "hint": "Bekal dari rumah lebih bersih dan mengurangi pengeluaran jajan.",
       "explanation": "Benar! Membawa bekal buatan rumah membuat uang jajan lebih hemat untuk ditabung dan makanan lebih terjamin gizinya.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "daily-tech-05-q08",
@@ -110,12 +191,30 @@
       "hint": "Jika tabungan di celengan sudah penuh, orang tua bisa membantu menyimpannya di lembaga resmi.",
       "explanation": "Rekening tabungan pelajar di bank resmi (didampingi orang tua) dan tabungan sekolah lebih aman dari risiko hilang atau rusak dibanding menumpuk banyak uang di saku.",
       "options": [
-        { "id": "a", "text": "Rekening tabungan pelajar di bank bersama orang tua" },
-        { "id": "b", "text": "Program tabungan resmi di sekolah" },
-        { "id": "c", "text": "Disimpan sementara di celengan rumah lalu disetor ke bank" },
-        { "id": "d", "text": "Diselipkan di bawah keset pintu depan rumah" }
+        {
+          "id": "a",
+          "text": "Rekening tabungan pelajar di bank bersama orang tua"
+        },
+        {
+          "id": "b",
+          "text": "Program tabungan resmi di sekolah"
+        },
+        {
+          "id": "c",
+          "text": "Disimpan sementara di celengan rumah lalu disetor ke bank"
+        },
+        {
+          "id": "d",
+          "text": "Diselipkan di bawah keset pintu depan rumah"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-tech-05-q09",
@@ -124,24 +223,41 @@
       "hint": "Lawan kata dari pemasukan, berawalan 'peng-' dan berakhir '-an'.",
       "explanation": "Pengeluaran adalah uang yang keluar untuk dibelanjakan atau membayar kebutuhan.",
       "correctAnswer": {
-        "acceptedAnswers": ["pengeluaran", "Pengeluaran"]
+        "acceptedAnswers": [
+          "pengeluaran",
+          "Pengeluaran"
+        ]
       }
     },
     {
       "id": "daily-tech-05-q10",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-digital-safe",
       "mediaCaption": "Tiga buah stoples berlabel berbeda di meja belajar seorang anak: Stoples 1 bertuliskan 'Tabungan', Stoples 2 bertuliskan 'Belanja Harian', dan Stoples 3 bertuliskan 'Berbagi'.",
       "prompt": "Apa pelajaran baik dari cara pembagian uang dengan tiga stoples tersebut?",
       "hint": "Anak tersebut tidak menghabiskan semua uangnya sekaligus, bahkan menyisihkan untuk kebaikan.",
       "explanation": "Membagi uang untuk ditabung, dipakai secukupnya, dan disisihkan untuk berbagi/sedekah mengajarkan pengelolaan uang yang bijak sekaligus kepedulian sosial.",
       "options": [
-        { "id": "a", "text": "Mengajarkan menabung, belanja teratur, dan berbagi kepada sesama" },
-        { "id": "b", "text": "Membeli tiga kali lebih banyak mainan setiap hari" },
-        { "id": "c", "text": "Menghabiskan isi semua stoples dalam satu jam" },
-        { "id": "d", "text": "Membuang uang koin ke tempat sampah" }
+        {
+          "id": "a",
+          "text": "Mengajarkan menabung, belanja teratur, dan berbagi kepada sesama"
+        },
+        {
+          "id": "b",
+          "text": "Membeli tiga kali lebih banyak mainan setiap hari"
+        },
+        {
+          "id": "c",
+          "text": "Menghabiskan isi semua stoples dalam satu jam"
+        },
+        {
+          "id": "d",
+          "text": "Membuang uang koin ke tempat sampah"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

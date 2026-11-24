@@ -18,12 +18,26 @@
       "hint": "Tempat ini memiliki garis putih hitam di aspal atau jembatan khusus di atas jalan.",
       "explanation": "Zebra cross dan jembatan penyeberangan orang (JPO) dirancang khusus agar pengendara mewaspadai pejalan kaki.",
       "options": [
-        { "id": "a", "text": "Di tikungan jalan yang tajam" },
-        { "id": "b", "text": "Di zebra cross atau jembatan penyeberangan orang" },
-        { "id": "c", "text": "Di antara mobil-mobil yang sedang melaju cepat" },
-        { "id": "d", "text": "Di belakang truk yang sedang mundur" }
+        {
+          "id": "a",
+          "text": "Di tikungan jalan yang tajam"
+        },
+        {
+          "id": "b",
+          "text": "Di zebra cross atau jembatan penyeberangan orang"
+        },
+        {
+          "id": "c",
+          "text": "Di antara mobil-mobil yang sedang melaju cepat"
+        },
+        {
+          "id": "d",
+          "text": "Di belakang truk yang sedang mundur"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "daily-safety-01-q02",
@@ -32,10 +46,18 @@
       "hint": "Selalu pastikan kendaraan benar-benar sudah berhenti sebelum melangkah.",
       "explanation": "Benar! Menoleh kanan dan kiri memastikan tidak ada pengendara yang melanggar lampu merah.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "daily-safety-01-q03",
@@ -44,12 +66,30 @@
       "hint": "Pikirkan pelindung kepala dan alat agar mudah terlihat oleh pengendara lain.",
       "explanation": "Helm melindungi kepala jika terjatuh, lampu/reflektor membuat sepeda terlihat saat redup, dan rem yang berfungsi menjaga kendali.",
       "options": [
-        { "id": "a", "text": "Helm bersepeda yang terpasang tali pengikatnya" },
-        { "id": "b", "text": "Lampu sepeda atau pemantul cahaya (reflektor)" },
-        { "id": "c", "text": "Rem sepeda yang bekerja dengan baik" },
-        { "id": "d", "text": "Menggunakan earphone dengan volume penuh" }
+        {
+          "id": "a",
+          "text": "Helm bersepeda yang terpasang tali pengikatnya"
+        },
+        {
+          "id": "b",
+          "text": "Lampu sepeda atau pemantul cahaya (reflektor)"
+        },
+        {
+          "id": "c",
+          "text": "Rem sepeda yang bekerja dengan baik"
+        },
+        {
+          "id": "d",
+          "text": "Menggunakan earphone dengan volume penuh"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-safety-01-q04",
@@ -58,24 +98,41 @@
       "hint": "Namanya berawalan huruf 't' dan berakhiran huruf 'r'.",
       "explanation": "Trotoar disediakan khusus untuk pejalan kaki agar terpisah dan aman dari kendaraan bermotor di badan jalan.",
       "correctAnswer": {
-        "acceptedAnswers": ["trotoar", "Trotoar"]
+        "acceptedAnswers": [
+          "trotoar",
+          "Trotoar"
+        ]
       }
     },
     {
       "id": "daily-safety-01-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-traffic-sign",
       "mediaCaption": "Sebuah rambu lalu lintas berbentuk lingkaran dengan latar biru menampilkan gambar siluet anak bersepeda berwarna putih.",
       "prompt": "Apa arti rambu lalu lintas berwarna biru dengan gambar sepeda tersebut?",
       "hint": "Rambu berwarna biru biasanya menunjukkan perintah atau jalur khusus.",
       "explanation": "Rambu biru bergambar sepeda berarti jalur tersebut merupakan lajur wajib atau jalur khusus bagi pesepeda.",
       "options": [
-        { "id": "a", "text": "Jalur khusus atau lajur bagi pesepeda" },
-        { "id": "b", "text": "Dilarang bersepeda di area ini" },
-        { "id": "c", "text": "Bengkel sepeda terdekat" },
-        { "id": "d", "text": "Area parkir mobil" }
+        {
+          "id": "a",
+          "text": "Jalur khusus atau lajur bagi pesepeda"
+        },
+        {
+          "id": "b",
+          "text": "Dilarang bersepeda di area ini"
+        },
+        {
+          "id": "c",
+          "text": "Bengkel sepeda terdekat"
+        },
+        {
+          "id": "d",
+          "text": "Area parkir mobil"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-safety-01-q06",
@@ -84,12 +141,26 @@
       "hint": "Helm harus selalu dikancingkan dan pegangan harus kuat.",
       "explanation": "Memakai helm SNI yang terkancing rapat serta duduk menghadap ke depan sambil berpegangan menjaga keselamatan selama perjalanan.",
       "options": [
-        { "id": "a", "text": "Tidak perlu helm jika jaraknya dekat" },
-        { "id": "b", "text": "Memakai helm SNI terkancing dan duduk menghadap depan" },
-        { "id": "c", "text": "Berdiri di pijakan kaki motor" },
-        { "id": "d", "text": "Menggoyang-goyangkan badan saat motor melaju" }
+        {
+          "id": "a",
+          "text": "Tidak perlu helm jika jaraknya dekat"
+        },
+        {
+          "id": "b",
+          "text": "Memakai helm SNI terkancing dan duduk menghadap depan"
+        },
+        {
+          "id": "c",
+          "text": "Berdiri di pijakan kaki motor"
+        },
+        {
+          "id": "d",
+          "text": "Menggoyang-goyangkan badan saat motor melaju"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "daily-safety-01-q07",
@@ -98,10 +169,18 @@
       "hint": "Kendaraan bisa muncul tiba-tiba dan pengemudi tidak selalu sempat mengerem mendadak.",
       "explanation": "Salah. Jalan raya sangat berbahaya untuk bermain karena kendaraan melaju cepat dan ada titik buta pengemudi.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "daily-safety-01-q08",
@@ -110,12 +189,30 @@
       "hint": "Pikirkan alat pengaman di kursi dan bagian tubuh saat kendaraan berjalan.",
       "explanation": "Memakai sabuk pengaman, tidak mengeluarkan tangan atau kepala dari jendela, dan keluar dari sisi trotoar menjaga penumpang tetap aman.",
       "options": [
-        { "id": "a", "text": "Memakai sabuk pengaman selama perjalanan" },
-        { "id": "b", "text": "Tidak mengeluarkan kepala atau tangan ke luar jendela" },
-        { "id": "c", "text": "Membuka pintu mobil dari sisi yang aman (trotoar)" },
-        { "id": "d", "text": "Melepas sabuk pengaman saat mobil di jalan tol" }
+        {
+          "id": "a",
+          "text": "Memakai sabuk pengaman selama perjalanan"
+        },
+        {
+          "id": "b",
+          "text": "Tidak mengeluarkan kepala atau tangan ke luar jendela"
+        },
+        {
+          "id": "c",
+          "text": "Membuka pintu mobil dari sisi yang aman (trotoar)"
+        },
+        {
+          "id": "d",
+          "text": "Melepas sabuk pengaman saat mobil di jalan tol"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-safety-01-q09",
@@ -124,24 +221,41 @@
       "hint": "Warnanya sama seperti warna buah apel yang matang atau bendera bagian atas.",
       "explanation": "Lampu merah menandakan seluruh kendaraan harus berhenti di belakang garis henti.",
       "correctAnswer": {
-        "acceptedAnswers": ["merah", "Merah"]
+        "acceptedAnswers": [
+          "merah",
+          "Merah"
+        ]
       }
     },
     {
       "id": "daily-safety-01-q10",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-traffic-sign",
       "mediaCaption": "Dua anak hendak menyeberang jalan. Di sebelah kiri mereka ada zebra cross, sedangkan di depan mereka ada mobil box besar yang sedang terparkir menghalangi pandangan.",
       "prompt": "Tindakan mana yang paling aman dilakukan kedua anak tersebut?",
       "hint": "Jangan menyeberang dari balik kendaraan besar karena pengemudi lain tidak bisa melihatmu.",
       "explanation": "Berjalan menuju zebra cross memastikan pandangan ke dua arah jalan terbuka lebar sehingga penyeberang dan pengendara saling terlihat.",
       "options": [
-        { "id": "a", "text": "Berjalan ke zebra cross yang pandangannya bebas dari halangan" },
-        { "id": "b", "text": "Berlari cepat dari depan mobil box yang terparkir" },
-        { "id": "c", "text": "Menyeberang sambil menatap layar ponsel" },
-        { "id": "d", "text": "Menunggu di tengah garis pembatas jalan" }
+        {
+          "id": "a",
+          "text": "Berjalan ke zebra cross yang pandangannya bebas dari halangan"
+        },
+        {
+          "id": "b",
+          "text": "Berlari cepat dari depan mobil box yang terparkir"
+        },
+        {
+          "id": "c",
+          "text": "Menyeberang sambil menatap layar ponsel"
+        },
+        {
+          "id": "d",
+          "text": "Menunggu di tengah garis pembatas jalan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

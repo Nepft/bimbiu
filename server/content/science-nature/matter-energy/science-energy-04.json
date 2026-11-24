@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 4,
-  "prerequisites": ["science-energy-03"],
+  "prerequisites": [
+    "science-energy-03"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Cahaya membelok saat melewati dua medium berbeda kerapatan (udara dan air).",
       "explanation": "Pembiasan cahaya (refraksi) terjadi ketika cahaya melewati batas dua medium yang berbeda kerapatannya, seperti udara dan air.",
       "options": [
-        { "id": "a", "text": "Cahaya dapat dipantulkan" },
-        { "id": "b", "text": "Cahaya dapat dibiaskan" },
-        { "id": "c", "text": "Cahaya tidak menembus benda gelap" },
-        { "id": "d", "text": "Cahaya menghasilkan bunyi" }
+        {
+          "id": "a",
+          "text": "Cahaya dapat dipantulkan"
+        },
+        {
+          "id": "b",
+          "text": "Cahaya dapat dibiaskan"
+        },
+        {
+          "id": "c",
+          "text": "Cahaya tidak menembus benda gelap"
+        },
+        {
+          "id": "d",
+          "text": "Cahaya menghasilkan bunyi"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "science-energy-04-q02",
@@ -32,10 +48,18 @@
       "hint": "Cahaya tidak berbelok mengitari benda padat tidak tembus cahaya.",
       "explanation": "Benar! Karena cahaya merambat lurus dan terhalang oleh benda gelap (opak), terbentuklah daerah bayangan di belakang benda tersebut.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-energy-04-q03",
@@ -44,12 +68,26 @@
       "hint": "Cahaya putih terpecah menjadi warna mejikuhibiniu oleh butiran air hujan.",
       "explanation": "Dispersi (penguraian cahaya) memecah cahaya putih Matahari menjadi spektrum tujuh warna pelangi saat melewati titik-titik air hujan.",
       "options": [
-        { "id": "a", "text": "Diuraikan menjadi berbagai warna" },
-        { "id": "b", "text": "Diserap seluruhnya oleh udara" },
-        { "id": "c", "text": "Dibekukan oleh awan" },
-        { "id": "d", "text": "Dihilangkan oleh angin" }
+        {
+          "id": "a",
+          "text": "Diuraikan menjadi berbagai warna"
+        },
+        {
+          "id": "b",
+          "text": "Diserap seluruhnya oleh udara"
+        },
+        {
+          "id": "c",
+          "text": "Dibekukan oleh awan"
+        },
+        {
+          "id": "d",
+          "text": "Dihilangkan oleh angin"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "science-energy-04-q04",
@@ -58,7 +96,12 @@
       "hint": "Sentuh tenggorokanmu saat berbicara atau petik senar gitar untuk merasakannya.",
       "explanation": "Bunyi berasal dari sumber bunyi yang bergetar; getaran itu menggetarkan udara di sekitarnya hingga sampai ke telinga kita.",
       "correctAnswer": {
-        "acceptedAnswers": ["bergetar", "Bergetar", "getaran", "Getaran"]
+        "acceptedAnswers": [
+          "bergetar",
+          "Bergetar",
+          "getaran",
+          "Getaran"
+        ]
       }
     },
     {
@@ -68,12 +111,30 @@
       "hint": "Bunyi dapat merambat melalui zat padat, cair, dan gas, tetapi tidak di ruang hampa.",
       "explanation": "Bunyi dapat merambat melalui udara (gas), air (zat cair), dan logam/kayu (zat padat); paling cepat melalui zat padat.",
       "options": [
-        { "id": "a", "text": "Udara (gas)" },
-        { "id": "b", "text": "Air (zat cair)" },
-        { "id": "c", "text": "Meja kayu atau rel besi (zat padat)" },
-        { "id": "d", "text": "Ruang hampa antariksa" }
+        {
+          "id": "a",
+          "text": "Udara (gas)"
+        },
+        {
+          "id": "b",
+          "text": "Air (zat cair)"
+        },
+        {
+          "id": "c",
+          "text": "Meja kayu atau rel besi (zat padat)"
+        },
+        {
+          "id": "d",
+          "text": "Ruang hampa antariksa"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "science-energy-04-q06",
@@ -82,26 +143,48 @@
       "hint": "Bayangan yang terlihat di kaca spion tampak lebih kecil tetapi mencakup area jalan yang luas.",
       "explanation": "Benar! Cermin cembung selalu menghasilkan bayangan tegak dan diperkecil sehingga jangkauan pandang pengemudi menjadi lebih luas.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-energy-04-q07",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-matter",
       "mediaCaption": "Bumi yang dipenuhi pantulan cahaya Matahari dan beragam suara alam di lingkungan sekitar.",
       "prompt": "Bunyi pantul yang terdengar jelas dan lengkap setelah bunyi asli selesai diucapkan—misalnya saat berteriak di tebing gunung yang jauh—disebut...",
       "hint": "Berbeda dengan gaung yang terdengar bersamaan dan mengganggu bunyi asli.",
       "explanation": "Gema terjadi ketika dinding pemantul berjarak cukup jauh sehingga bunyi pantul tiba setelah bunyi asli selesai diucapkan.",
       "options": [
-        { "id": "a", "text": "Gema" },
-        { "id": "b", "text": "Gaung" },
-        { "id": "c", "text": "Dispersi" },
-        { "id": "d", "text": "Pembiasan" }
+        {
+          "id": "a",
+          "text": "Gema"
+        },
+        {
+          "id": "b",
+          "text": "Gaung"
+        },
+        {
+          "id": "c",
+          "text": "Dispersi"
+        },
+        {
+          "id": "d",
+          "text": "Pembiasan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "science-energy-04-q08",
@@ -110,12 +193,26 @@
       "hint": "Bahan peredam bunyi umumnya lunak, berpori, dan tidak keras mengilap.",
       "explanation": "Busa berpori, karpet, dan kain tebal menyerap gelombang bunyi sehingga mencegah gaung di dalam ruangan.",
       "options": [
-        { "id": "a", "text": "Pelat baja mengilap" },
-        { "id": "b", "text": "Busa akustik dan karpet berpori" },
-        { "id": "c", "text": "Dinding marmer licin" },
-        { "id": "d", "text": "Kaca tebal tanpa tirai" }
+        {
+          "id": "a",
+          "text": "Pelat baja mengilap"
+        },
+        {
+          "id": "b",
+          "text": "Busa akustik dan karpet berpori"
+        },
+        {
+          "id": "c",
+          "text": "Dinding marmer licin"
+        },
+        {
+          "id": "d",
+          "text": "Kaca tebal tanpa tirai"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "science-energy-04-q09",
@@ -124,7 +221,10 @@
       "hint": "Diawali huruf P.",
       "explanation": "Periskop menggunakan pantulan dua cermin datar (atau prisma) bersudut 45 derajat untuk melihat objek yang berada lebih tinggi atau terhalang.",
       "correctAnswer": {
-        "acceptedAnswers": ["periskop", "Periskop"]
+        "acceptedAnswers": [
+          "periskop",
+          "Periskop"
+        ]
       }
     },
     {
@@ -134,12 +234,29 @@
       "hint": "Kamu dapat melihat objek di balik benda ini dengan jelas.",
       "explanation": "Kaca jendela bening dan air jernih meneruskan sebagian besar cahaya, sedangkan papan kayu dan kardus menghalangi cahaya.",
       "options": [
-        { "id": "a", "text": "Kaca jendela bening" },
-        { "id": "b", "text": "Air jernih di akuarium" },
-        { "id": "c", "text": "Papan kayu tebal" },
-        { "id": "d", "text": "Kardus cokelat" }
+        {
+          "id": "a",
+          "text": "Kaca jendela bening"
+        },
+        {
+          "id": "b",
+          "text": "Air jernih di akuarium"
+        },
+        {
+          "id": "c",
+          "text": "Papan kayu tebal"
+        },
+        {
+          "id": "d",
+          "text": "Kardus cokelat"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     }
   ]
 }

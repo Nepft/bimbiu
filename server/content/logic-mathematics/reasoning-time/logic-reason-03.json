@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 3,
-  "prerequisites": ["logic-reason-02"],
+  "prerequisites": [
+    "logic-reason-02"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Susun dari yang paling tinggi ke paling pendek: Dita > Sari > ...",
       "explanation": "Urutan dari paling tinggi adalah Dita, Sari, lalu Rani. Jadi yang paling pendek adalah Rani.",
       "options": [
-        { "id": "a", "text": "Dita" },
-        { "id": "b", "text": "Sari" },
-        { "id": "c", "text": "Rani" },
-        { "id": "d", "text": "Dita dan Sari sama pendek" }
+        {
+          "id": "a",
+          "text": "Dita"
+        },
+        {
+          "id": "b",
+          "text": "Sari"
+        },
+        {
+          "id": "c",
+          "text": "Rani"
+        },
+        {
+          "id": "d",
+          "text": "Dita dan Sari sama pendek"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "logic-reason-03-q02",
@@ -32,10 +48,18 @@
       "hint": "Urutkan posisi rumah dari kiri ke kanan: Ali, lalu ..., lalu ...",
       "explanation": "Benar. Urutan dari kiri ke kanan adalah Ali - Budi - Cici, sehingga rumah Budi berada di tengah.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "logic-reason-03-q03",
@@ -43,7 +67,12 @@
       "prompt": "Dalam lomba lari, Edo sampai di garis finis di depan Fajar. Gilang sampai di garis finis di depan Edo. Siapakah yang menjadi juara ke-1?",
       "hint": "Orang yang sampai paling depan adalah juara ke-1.",
       "explanation": "Urutan finis dari depan ke belakang adalah Gilang, Edo, Fajar. Jadi juara ke-1 adalah Gilang.",
-      "correctAnswer": { "acceptedAnswers": ["Gilang", "gilang"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "Gilang",
+          "gilang"
+        ]
+      }
     },
     {
       "id": "logic-reason-03-q04",
@@ -52,12 +81,29 @@
       "hint": "Hitung umur masing-masing anak terlebih dahulu sebelum memilih.",
       "explanation": "Umur mereka: Sinta = 9 tahun, Nina = 10 tahun, Tio = 11 tahun, dan Raka = 12 tahun. Jadi Sinta paling muda dan Raka paling tua.",
       "options": [
-        { "id": "a", "text": "Sinta adalah anak yang paling muda" },
-        { "id": "b", "text": "Tio lebih tua daripada Raka" },
-        { "id": "c", "text": "Raka adalah anak yang paling tua" },
-        { "id": "d", "text": "Nina berumur 11 tahun" }
+        {
+          "id": "a",
+          "text": "Sinta adalah anak yang paling muda"
+        },
+        {
+          "id": "b",
+          "text": "Tio lebih tua daripada Raka"
+        },
+        {
+          "id": "c",
+          "text": "Raka adalah anak yang paling tua"
+        },
+        {
+          "id": "d",
+          "text": "Nina berumur 11 tahun"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "logic-reason-03-q05",
@@ -66,28 +112,56 @@
       "hint": "Tulis urutan nomor 1 (paling bawah) sampai nomor 5 (paling atas).",
       "explanation": "Urutan dari bawah ke atas: 1. IPA, 2. Matematika, 3. Seni, 4. IPS, 5. Bahasa. Buku di tengah (urutan ke-3) adalah Buku Seni.",
       "options": [
-        { "id": "a", "text": "Buku Matematika" },
-        { "id": "b", "text": "Buku Seni" },
-        { "id": "c", "text": "Buku IPS" },
-        { "id": "d", "text": "Buku Bahasa" }
+        {
+          "id": "a",
+          "text": "Buku Matematika"
+        },
+        {
+          "id": "b",
+          "text": "Buku Seni"
+        },
+        {
+          "id": "c",
+          "text": "Buku IPS"
+        },
+        {
+          "id": "d",
+          "text": "Buku Bahasa"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "logic-reason-03-q06",
       "type": "image_quiz",
-      "mediaKey": "quiz-geometri",
+      "mediaKey": "quiz-clock",
       "mediaCaption": "Papan peringkat 4 tim cerdas cermat: Tim Rajawali memiliki nilai tertinggi, Tim Merpati nilainya lebih tinggi dari Tim Elang, dan Tim Gagak nilainya di bawah Tim Elang.",
       "prompt": "Berdasarkan petunjuk pada papan peringkat tersebut, tim manakah yang menempati peringkat ke-2?",
       "hint": "Urutkan keempat tim dari nilai tertinggi ke terendah.",
       "explanation": "Urutan peringkat: 1. Tim Rajawali, 2. Tim Merpati, 3. Tim Elang, 4. Tim Gagak. Jadi peringkat ke-2 adalah Tim Merpati.",
       "options": [
-        { "id": "a", "text": "Tim Rajawali" },
-        { "id": "b", "text": "Tim Merpati" },
-        { "id": "c", "text": "Tim Elang" },
-        { "id": "d", "text": "Tim Gagak" }
+        {
+          "id": "a",
+          "text": "Tim Rajawali"
+        },
+        {
+          "id": "b",
+          "text": "Tim Merpati"
+        },
+        {
+          "id": "c",
+          "text": "Tim Elang"
+        },
+        {
+          "id": "d",
+          "text": "Tim Gagak"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "logic-reason-03-q07",
@@ -96,10 +170,18 @@
       "hint": "Urutkan dari yang paling berat: A > B > ...",
       "explanation": "Salah. Karena A lebih berat dari B dan B lebih berat dari C, maka C adalah yang paling ringan (lebih ringan dari A).",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "logic-reason-03-q08",
@@ -107,7 +189,14 @@
       "prompt": "Di dalam satu baris antrean terdapat 12 anak. Bagas berada di urutan ke-5 dari depan. Di urutan ke berapakah Bagas jika dihitung dari belakang?",
       "hint": "Ada berapa anak di belakang Bagas? Hitung 12 - 5, lalu tambahkan Bagas sendiri.",
       "explanation": "Di belakang Bagas ada 12 - 5 = 7 anak. Jadi dari belakang, Bagas berada di urutan ke-8.",
-      "correctAnswer": { "acceptedAnswers": ["8", "ke-8", "ke 8", "kedelapan"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "8",
+          "ke-8",
+          "ke 8",
+          "kedelapan"
+        ]
+      }
     },
     {
       "id": "logic-reason-03-q09",
@@ -116,12 +205,26 @@
       "hint": "Letakkan Biru di posisi 4 dulu, lalu tentukan posisi Merah yang tidak bersebelahan dengan 4 dan bukan 1.",
       "explanation": "Posisi 4 = Biru. Merah tidak di posisi 1 dan tidak bersebelahan dengan 4, jadi Merah di posisi 2. Kuning di kiri Merah, jadi Kuning di posisi 1. Tersisa posisi 3 = Hijau.",
       "options": [
-        { "id": "a", "text": "Merah" },
-        { "id": "b", "text": "Kuning" },
-        { "id": "c", "text": "Hijau" },
-        { "id": "d", "text": "Biru" }
+        {
+          "id": "a",
+          "text": "Merah"
+        },
+        {
+          "id": "b",
+          "text": "Kuning"
+        },
+        {
+          "id": "c",
+          "text": "Hijau"
+        },
+        {
+          "id": "d",
+          "text": "Biru"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "logic-reason-03-q10",
@@ -130,12 +233,30 @@
       "hint": "Tentukan hewan Lala terlebih dahulu, lalu Miko, dan sisanya milik Kiki.",
       "explanation": "Lala bukan ikan dan bukan kucing, jadi Lala memelihara kelinci. Miko memelihara ikan di akuarium. Tersisa Kiki memelihara kucing.",
       "options": [
-        { "id": "a", "text": "Lala memelihara kelinci" },
-        { "id": "b", "text": "Miko memelihara ikan" },
-        { "id": "c", "text": "Kiki memelihara kelinci" },
-        { "id": "d", "text": "Kiki memelihara kucing" }
+        {
+          "id": "a",
+          "text": "Lala memelihara kelinci"
+        },
+        {
+          "id": "b",
+          "text": "Miko memelihara ikan"
+        },
+        {
+          "id": "c",
+          "text": "Kiki memelihara kelinci"
+        },
+        {
+          "id": "d",
+          "text": "Kiki memelihara kucing"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
     }
   ]
 }

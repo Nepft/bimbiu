@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 2,
-  "prerequisites": ["hist-culture-01"],
+  "prerequisites": [
+    "hist-culture-01"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Tarian ini telah diakui oleh UNESCO sebagai warisan budaya takbenda.",
       "explanation": "Tari Saman berasal dari Suku Gayo di Aceh dan terkenal dengan kekompakan gerakan tangan, tepukan dada, serta syairnya.",
       "options": [
-        { "id": "a", "text": "Tari Saman" },
-        { "id": "b", "text": "Tari Kecak" },
-        { "id": "c", "text": "Tari Piring" },
-        { "id": "d", "text": "Tari Jaipong" }
+        {
+          "id": "a",
+          "text": "Tari Saman"
+        },
+        {
+          "id": "b",
+          "text": "Tari Kecak"
+        },
+        {
+          "id": "c",
+          "text": "Tari Piring"
+        },
+        {
+          "id": "d",
+          "text": "Tari Jaipong"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-culture-02-q02",
@@ -32,10 +48,18 @@
       "hint": "Iringan tarian ini berasal dari paduan suara para penarinya sendiri.",
       "explanation": "Benar, Tari Kecak mengandalkan paduan suara mulut puluhan penari yang duduk melingkar sambil menceritakan kisah Ramayana.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-culture-02-q03",
@@ -44,12 +68,26 @@
       "hint": "Nama tarian ini sesuai dengan benda makan yang diayunkan oleh para penari.",
       "explanation": "Tari Piring adalah tarian tradisional Minangkabau yang dahulu menggambarkan rasa syukur petani saat musim panen.",
       "options": [
-        { "id": "a", "text": "Tari Pendet" },
-        { "id": "b", "text": "Tari Piring" },
-        { "id": "c", "text": "Tari Tor-Tor" },
-        { "id": "d", "text": "Tari Kipas" }
+        {
+          "id": "a",
+          "text": "Tari Pendet"
+        },
+        {
+          "id": "b",
+          "text": "Tari Piring"
+        },
+        {
+          "id": "c",
+          "text": "Tari Tor-Tor"
+        },
+        {
+          "id": "d",
+          "text": "Tari Kipas"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "hist-culture-02-q04",
@@ -58,24 +96,41 @@
       "hint": "Pulau ini terkenal juga dengan sebutan Pulau Dewata.",
       "explanation": "Tari Pendet adalah tarian tradisional asal Bali yang awalnya merupakan tarian pemujaan di pura dan kini juga menjadi tari penyambutan.",
       "correctAnswer": {
-        "acceptedAnswers": ["Bali", "Pulau Bali"]
+        "acceptedAnswers": [
+          "Bali",
+          "Pulau Bali"
+        ]
       }
     },
     {
       "id": "hist-culture-02-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-candi",
+      "mediaKey": "quiz-rumah-adat",
       "mediaCaption": "Ilustrasi pertunjukan tari tradisional asal Jawa Timur dengan topeng besar bermahkota bulu merak yang gagah.",
       "prompt": "Kesenian tari tradisional dari Jawa Timur yang memiliki tokoh utama Singa Barong bermahkota bulu merak disebut...",
       "hint": "Nama kesenian ini sangat terkenal dari Kabupaten Ponorogo.",
       "explanation": "Reog Ponorogo berasal dari Ponorogo, Jawa Timur, dan menampilkan topeng Dadak Merak yang sangat megah.",
       "options": [
-        { "id": "a", "text": "Reog Ponorogo" },
-        { "id": "b", "text": "Tari Saman" },
-        { "id": "c", "text": "Tari Piring" },
-        { "id": "d", "text": "Tari Lenso" }
+        {
+          "id": "a",
+          "text": "Reog Ponorogo"
+        },
+        {
+          "id": "b",
+          "text": "Tari Saman"
+        },
+        {
+          "id": "c",
+          "text": "Tari Piring"
+        },
+        {
+          "id": "d",
+          "text": "Tari Lenso"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-culture-02-q06",
@@ -84,12 +139,29 @@
       "hint": "Ingat tari dari Jawa Barat dan Sulawesi Selatan.",
       "explanation": "Tari Jaipong berasal dari Jawa Barat dan Tari Kipas Pakarena berasal dari Sulawesi Selatan.",
       "options": [
-        { "id": "a", "text": "Tari Jaipong — Jawa Barat" },
-        { "id": "b", "text": "Tari Kipas Pakarena — Sulawesi Selatan" },
-        { "id": "c", "text": "Tari Kecak — Aceh" },
-        { "id": "d", "text": "Tari Tor-Tor — Papua" }
+        {
+          "id": "a",
+          "text": "Tari Jaipong — Jawa Barat"
+        },
+        {
+          "id": "b",
+          "text": "Tari Kipas Pakarena — Sulawesi Selatan"
+        },
+        {
+          "id": "c",
+          "text": "Tari Kecak — Aceh"
+        },
+        {
+          "id": "d",
+          "text": "Tari Tor-Tor — Papua"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "hist-culture-02-q07",
@@ -98,12 +170,26 @@
       "hint": "Keraton Surakarta dan Yogyakarta berada di kawasan budaya ini.",
       "explanation": "Tari Serimpi adalah tarian klasik keraton Jawa Tengah dan Yogyakarta yang melambangkan kesopanan dan keanggunan.",
       "options": [
-        { "id": "a", "text": "Jawa Tengah dan Yogyakarta" },
-        { "id": "b", "text": "Maluku Utara" },
-        { "id": "c", "text": "Riau" },
-        { "id": "d", "text": "Kalimantan Utara" }
+        {
+          "id": "a",
+          "text": "Jawa Tengah dan Yogyakarta"
+        },
+        {
+          "id": "b",
+          "text": "Maluku Utara"
+        },
+        {
+          "id": "c",
+          "text": "Riau"
+        },
+        {
+          "id": "d",
+          "text": "Kalimantan Utara"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-culture-02-q08",
@@ -112,10 +198,18 @@
       "hint": "Boneka raksasa Ondel-Ondel sering tampil dalam perayaan ulang tahun Jakarta.",
       "explanation": "Benar, Tari Topeng Betawi dan arak-arakan Ondel-Ondel adalah bagian dari seni budaya Betawi di Jakarta.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-culture-02-q09",
@@ -124,7 +218,12 @@
       "hint": "Namanya terdiri dari dua kata kembar yang dipisah tanda hubung.",
       "explanation": "Tari Tor-Tor adalah tarian tradisional masyarakat Batak yang biasa ditampilkan dalam upacara adat dan penyambutan.",
       "correctAnswer": {
-        "acceptedAnswers": ["Tor-Tor", "Tor Tor", "Tortor", "Tari Tor-Tor"]
+        "acceptedAnswers": [
+          "Tor-Tor",
+          "Tor Tor",
+          "Tortor",
+          "Tari Tor-Tor"
+        ]
       }
     },
     {
@@ -134,12 +233,26 @@
       "hint": "Semua tarian daerah merupakan kekayaan budaya milik bangsa Indonesia.",
       "explanation": "Menghargai, mengapresiasi, dan mau mengenal tarian dari berbagai daerah membantu melestarikan budaya bangsa.",
       "options": [
-        { "id": "a", "text": "Menghargai dan bangga karena menjadi kekayaan budaya Indonesia" },
-        { "id": "b", "text": "Menganggap tarian daerah lain tidak penting" },
-        { "id": "c", "text": "Menertawakan kostum adat penari" },
-        { "id": "d", "text": "Melarang anak muda mempelajari tari tradisional" }
+        {
+          "id": "a",
+          "text": "Menghargai dan bangga karena menjadi kekayaan budaya Indonesia"
+        },
+        {
+          "id": "b",
+          "text": "Menganggap tarian daerah lain tidak penting"
+        },
+        {
+          "id": "c",
+          "text": "Menertawakan kostum adat penari"
+        },
+        {
+          "id": "d",
+          "text": "Melarang anak muda mempelajari tari tradisional"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

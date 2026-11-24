@@ -18,12 +18,26 @@
       "hint": "Satu benua tempat Indonesia berada, dan satu benua di sebelah tenggaranya.",
       "explanation": "Indonesia terletak di posisi silang antara Benua Asia di sebelah barat laut dan Benua Australia di sebelah tenggara.",
       "options": [
-        { "id": "a", "text": "Benua Asia dan Benua Afrika" },
-        { "id": "b", "text": "Benua Asia dan Benua Australia" },
-        { "id": "c", "text": "Benua Eropa dan Benua Australia" },
-        { "id": "d", "text": "Benua Amerika dan Benua Asia" }
+        {
+          "id": "a",
+          "text": "Benua Asia dan Benua Afrika"
+        },
+        {
+          "id": "b",
+          "text": "Benua Asia dan Benua Australia"
+        },
+        {
+          "id": "c",
+          "text": "Benua Eropa dan Benua Australia"
+        },
+        {
+          "id": "d",
+          "text": "Benua Amerika dan Benua Asia"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-indo-01-q02",
@@ -32,10 +46,18 @@
       "hint": "Indonesia dikenal sebagai Zamrud Khatulistiwa dan negara maritim.",
       "explanation": "Benar! Indonesia adalah negara kepulauan terbesar di dunia dengan lebih dari 17.000 pulau yang membentang dari Sabang hingga Merauke.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "geo-indo-01-q03",
@@ -44,7 +66,10 @@
       "hint": "Namanya berawalan huruf P.",
       "explanation": "Kota Pontianak di Kalimantan Barat dilalui tepat oleh garis khatulistiwa sehingga dikenal dengan Tugu Khatulistiwanya.",
       "correctAnswer": {
-        "acceptedAnswers": ["Pontianak", "pontianak"]
+        "acceptedAnswers": [
+          "Pontianak",
+          "pontianak"
+        ]
       }
     },
     {
@@ -54,28 +79,59 @@
       "hint": "Ingat lima pulau besar: Sumatra, Jawa, Kalimantan, Sulawesi, dan Papua.",
       "explanation": "Sumatra dan Kalimantan adalah bagian dari lima pulau besar di Indonesia, sedangkan Madagaskar di Afrika dan Tasmania di Australia.",
       "options": [
-        { "id": "a", "text": "Sumatra" },
-        { "id": "b", "text": "Madagaskar" },
-        { "id": "c", "text": "Kalimantan" },
-        { "id": "d", "text": "Tasmania" }
+        {
+          "id": "a",
+          "text": "Sumatra"
+        },
+        {
+          "id": "b",
+          "text": "Madagaskar"
+        },
+        {
+          "id": "c",
+          "text": "Kalimantan"
+        },
+        {
+          "id": "d",
+          "text": "Tasmania"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "geo-indo-01-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-landmark",
       "mediaCaption": "Posisi Indonesia di garis khatulistiwa menghubungkan dua samudra besar di Asia-Pasifik.",
       "prompt": "Laut di Indonesia menghubungkan dua samudra besar. Samudra apakah yang berada di sebelah barat dan selatan Pulau Sumatra serta Jawa?",
       "hint": "Namanya berasal dari kata India.",
       "explanation": "Samudra Hindia membentang di sebelah barat Pulau Sumatra hingga sebelah selatan Pulau Jawa dan Nusa Tenggara.",
       "options": [
-        { "id": "a", "text": "Samudra Atlantik" },
-        { "id": "b", "text": "Samudra Arktik" },
-        { "id": "c", "text": "Samudra Hindia" },
-        { "id": "d", "text": "Samudra Selatan" }
+        {
+          "id": "a",
+          "text": "Samudra Atlantik"
+        },
+        {
+          "id": "b",
+          "text": "Samudra Arktik"
+        },
+        {
+          "id": "c",
+          "text": "Samudra Hindia"
+        },
+        {
+          "id": "d",
+          "text": "Samudra Selatan"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "geo-indo-01-q06",
@@ -84,12 +140,26 @@
       "hint": "Negara tetangga ini berada di sebelah utara Pulau Kalimantan.",
       "explanation": "Indonesia berbagi daratan Pulau Kalimantan (Borneo) secara langsung dengan Malaysia (serta Brunei Darussalam di bagian utara pulau tersebut).",
       "options": [
-        { "id": "a", "text": "Thailand" },
-        { "id": "b", "text": "Malaysia" },
-        { "id": "c", "text": "Filipina" },
-        { "id": "d", "text": "Vietnam" }
+        {
+          "id": "a",
+          "text": "Thailand"
+        },
+        {
+          "id": "b",
+          "text": "Malaysia"
+        },
+        {
+          "id": "c",
+          "text": "Filipina"
+        },
+        {
+          "id": "d",
+          "text": "Vietnam"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-indo-01-q07",
@@ -98,10 +168,18 @@
       "hint": "Ingat ungkapan dari Sabang sampai Merauke.",
       "explanation": "Salah! Sabang berada di ujung barat Indonesia (Aceh), sedangkan Merauke berada di bagian timur Indonesia (Papua Selatan).",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "geo-indo-01-q08",
@@ -110,7 +188,10 @@
       "hint": "Kata ini berawalan huruf M.",
       "explanation": "Indonesia disebut negara maritim karena dua pertiga wilayahnya berupa perairan laut yang kaya sumber daya.",
       "correctAnswer": {
-        "acceptedAnswers": ["maritim", "Maritim"]
+        "acceptedAnswers": [
+          "maritim",
+          "Maritim"
+        ]
       }
     },
     {
@@ -120,12 +201,30 @@
       "hint": "Ingat tiga negara yang berbagi batas darat dengan Indonesia di Kalimantan, Papua, dan Pulau Timor.",
       "explanation": "Malaysia (di Kalimantan), Papua Nugini (di Papua), dan Timor Leste (di Pulau Timor) berbatasan darat langsung dengan Indonesia.",
       "options": [
-        { "id": "a", "text": "Malaysia" },
-        { "id": "b", "text": "Papua Nugini" },
-        { "id": "c", "text": "Jepang" },
-        { "id": "d", "text": "Timor Leste" }
+        {
+          "id": "a",
+          "text": "Malaysia"
+        },
+        {
+          "id": "b",
+          "text": "Papua Nugini"
+        },
+        {
+          "id": "c",
+          "text": "Jepang"
+        },
+        {
+          "id": "d",
+          "text": "Timor Leste"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "d"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "d"
+        ]
+      }
     },
     {
       "id": "geo-indo-01-q10",
@@ -134,12 +233,26 @@
       "hint": "Terletak di bagian paling timur Indonesia.",
       "explanation": "Pulau Papua terbagi menjadi wilayah Indonesia di bagian barat dan negara Papua Nugini di bagian timur.",
       "options": [
-        { "id": "a", "text": "Pulau Sulawesi" },
-        { "id": "b", "text": "Pulau Papua" },
-        { "id": "c", "text": "Pulau Jawa" },
-        { "id": "d", "text": "Pulau Bali" }
+        {
+          "id": "a",
+          "text": "Pulau Sulawesi"
+        },
+        {
+          "id": "b",
+          "text": "Pulau Papua"
+        },
+        {
+          "id": "c",
+          "text": "Pulau Jawa"
+        },
+        {
+          "id": "d",
+          "text": "Pulau Bali"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     }
   ]
 }

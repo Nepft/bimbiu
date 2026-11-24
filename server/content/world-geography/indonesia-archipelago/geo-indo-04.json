@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 4,
-  "prerequisites": ["geo-indo-03"],
+  "prerequisites": [
+    "geo-indo-03"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Taman Nasional Komodo berada di dekat Pulau Flores.",
       "explanation": "Komodo hidup secara alami di Pulau Komodo, Rinca, Padar, dan sekitarnya di Provinsi Nusa Tenggara Timur (NTT).",
       "options": [
-        { "id": "a", "text": "Bali" },
-        { "id": "b", "text": "Nusa Tenggara Barat" },
-        { "id": "c", "text": "Nusa Tenggara Timur" },
-        { "id": "d", "text": "Maluku Utara" }
+        {
+          "id": "a",
+          "text": "Bali"
+        },
+        {
+          "id": "b",
+          "text": "Nusa Tenggara Barat"
+        },
+        {
+          "id": "c",
+          "text": "Nusa Tenggara Timur"
+        },
+        {
+          "id": "d",
+          "text": "Maluku Utara"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "geo-indo-04-q02",
@@ -32,10 +48,18 @@
       "hint": "Rempah-rempah ini dahulu sangat dicari pedagang dari seluruh dunia.",
       "explanation": "Benar! Kepulauan Maluku (termasuk Ternate, Tidore, dan Banda) terkenal di dunia sebagai asal rempah berharga yaitu cengkeh dan pala.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "geo-indo-04-q03",
@@ -44,7 +68,10 @@
       "hint": "Kapal feri dari Ketapang ke Gilimanuk menyeberangi selat ini.",
       "explanation": "Selat Bali memisahkan Provinsi Jawa Timur dan Provinsi Bali.",
       "correctAnswer": {
-        "acceptedAnswers": ["Bali", "bali"]
+        "acceptedAnswers": [
+          "Bali",
+          "bali"
+        ]
       }
     },
     {
@@ -54,28 +81,59 @@
       "hint": "Cari pulau di sebelah timur Bali, bukan di dekat Sumatra.",
       "explanation": "Lombok dan Flores merupakan bagian dari Kepulauan Nusa Tenggara, sedangkan Nias di dekat Sumatra dan Halmahera di Maluku Utara.",
       "options": [
-        { "id": "a", "text": "Lombok" },
-        { "id": "b", "text": "Nias" },
-        { "id": "c", "text": "Flores" },
-        { "id": "d", "text": "Halmahera" }
+        {
+          "id": "a",
+          "text": "Lombok"
+        },
+        {
+          "id": "b",
+          "text": "Nias"
+        },
+        {
+          "id": "c",
+          "text": "Flores"
+        },
+        {
+          "id": "d",
+          "text": "Halmahera"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "geo-indo-04-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-landmark",
       "mediaCaption": "Di bagian tengah hingga timur Indonesia terdapat gugusan pulau vulkanik dan laut dalam seperti Laut Banda.",
       "prompt": "Danau unik di Pulau Flores yang memiliki tiga danau kawah dengan warna air berbeda-beda disebut Danau ...",
       "hint": "Namanya berawalan huruf K.",
       "explanation": "Danau Kelimutu di Kabupaten Ende, Flores (NTT), terkenal memiliki tiga kawah yang warna airnya dapat berubah-ubah seiring waktu.",
       "options": [
-        { "id": "a", "text": "Danau Toba" },
-        { "id": "b", "text": "Danau Kelimutu" },
-        { "id": "c", "text": "Danau Maninjau" },
-        { "id": "d", "text": "Danau Batur" }
+        {
+          "id": "a",
+          "text": "Danau Toba"
+        },
+        {
+          "id": "b",
+          "text": "Danau Kelimutu"
+        },
+        {
+          "id": "c",
+          "text": "Danau Maninjau"
+        },
+        {
+          "id": "d",
+          "text": "Danau Batur"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-indo-04-q06",
@@ -84,12 +142,26 @@
       "hint": "Gunung ini sangat populer di kalangan pendaki.",
       "explanation": "Gunung Rinjani di Lombok memiliki ketinggian sekitar 3.726 meter di atas permukaan laut dengan kaldera indah bernama Segara Anak.",
       "options": [
-        { "id": "a", "text": "Gunung Agung" },
-        { "id": "b", "text": "Gunung Rinjani" },
-        { "id": "c", "text": "Gunung Tambora" },
-        { "id": "d", "text": "Gunung Batur" }
+        {
+          "id": "a",
+          "text": "Gunung Agung"
+        },
+        {
+          "id": "b",
+          "text": "Gunung Rinjani"
+        },
+        {
+          "id": "c",
+          "text": "Gunung Tambora"
+        },
+        {
+          "id": "d",
+          "text": "Gunung Batur"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-indo-04-q07",
@@ -98,10 +170,18 @@
       "hint": "Mataram adalah ibu kota Nusa Tenggara Barat.",
       "explanation": "Salah! Ibu kota Provinsi Bali adalah Kota Denpasar, sedangkan Mataram adalah ibu kota Provinsi Nusa Tenggara Barat.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "geo-indo-04-q08",
@@ -110,7 +190,10 @@
       "hint": "Namanya sama dengan nama pulaunya.",
       "explanation": "Kota Ambon merupakan ibu kota Provinsi Maluku dan dikenal dengan budaya musiknya.",
       "correctAnswer": {
-        "acceptedAnswers": ["Ambon", "ambon"]
+        "acceptedAnswers": [
+          "Ambon",
+          "ambon"
+        ]
       }
     },
     {
@@ -120,12 +203,29 @@
       "hint": "Salah satunya berada di Maluku Utara dan berbentuk mirip Sulawesi.",
       "explanation": "Halmahera dan Seram adalah dua pulau terbesar di Kepulauan Maluku. Pulau Madura di Jawa Timur dan Pulau Sumbawa di Nusa Tenggara Barat.",
       "options": [
-        { "id": "a", "text": "Halmahera" },
-        { "id": "b", "text": "Madura" },
-        { "id": "c", "text": "Seram" },
-        { "id": "d", "text": "Sumbawa" }
+        {
+          "id": "a",
+          "text": "Halmahera"
+        },
+        {
+          "id": "b",
+          "text": "Madura"
+        },
+        {
+          "id": "c",
+          "text": "Seram"
+        },
+        {
+          "id": "d",
+          "text": "Sumbawa"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "geo-indo-04-q10",
@@ -134,12 +234,26 @@
       "hint": "Pulau ini berada di Provinsi Nusa Tenggara Barat, sebelah timur Pulau Lombok.",
       "explanation": "Gunung Tambora berada di Pulau Sumbawa, Nusa Tenggara Barat. Letusannya tahun 1815 merupakan salah satu letusan gunung terbesar dalam sejarah modern.",
       "options": [
-        { "id": "a", "text": "Bali" },
-        { "id": "b", "text": "Sumbawa" },
-        { "id": "c", "text": "Sumba" },
-        { "id": "d", "text": "Timor" }
+        {
+          "id": "a",
+          "text": "Bali"
+        },
+        {
+          "id": "b",
+          "text": "Sumbawa"
+        },
+        {
+          "id": "c",
+          "text": "Sumba"
+        },
+        {
+          "id": "d",
+          "text": "Timor"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     }
   ]
 }

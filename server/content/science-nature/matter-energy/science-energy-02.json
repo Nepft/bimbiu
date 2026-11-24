@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 2,
-  "prerequisites": ["science-energy-01"],
+  "prerequisites": [
+    "science-energy-01"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Satuannya dalam Sistem Internasional adalah Newton.",
       "explanation": "Gaya adalah dorongan atau tarikan yang dapat membuat benda bergerak, berhenti, berubah arah, atau berubah bentuk.",
       "options": [
-        { "id": "a", "text": "Massa" },
-        { "id": "b", "text": "Gaya" },
-        { "id": "c", "text": "Suhu" },
-        { "id": "d", "text": "Volume" }
+        {
+          "id": "a",
+          "text": "Massa"
+        },
+        {
+          "id": "b",
+          "text": "Gaya"
+        },
+        {
+          "id": "c",
+          "text": "Suhu"
+        },
+        {
+          "id": "d",
+          "text": "Volume"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "science-energy-02-q02",
@@ -32,10 +48,18 @@
       "hint": "Itulah mengapa rem sepeda menggunakan gaya gesek untuk berhenti.",
       "explanation": "Benar! Gaya gesek muncul saat dua permukaan saling bersentuhan dan arahnya berlawanan dengan arah gerak benda.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-energy-02-q03",
@@ -44,12 +68,26 @@
       "hint": "Gaya tarik Bumi terhadap benda bermassa.",
       "explanation": "Gaya gravitasi Bumi menarik semua benda menuju ke pusat Bumi.",
       "options": [
-        { "id": "a", "text": "Gaya magnet" },
-        { "id": "b", "text": "Gaya pegas" },
-        { "id": "c", "text": "Gaya gravitasi" },
-        { "id": "d", "text": "Gaya listrik" }
+        {
+          "id": "a",
+          "text": "Gaya magnet"
+        },
+        {
+          "id": "b",
+          "text": "Gaya pegas"
+        },
+        {
+          "id": "c",
+          "text": "Gaya gravitasi"
+        },
+        {
+          "id": "d",
+          "text": "Gaya listrik"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "science-energy-02-q04",
@@ -58,7 +96,10 @@
       "hint": "Diawali huruf P.",
       "explanation": "Gaya pegas adalah gaya tarik atau dorong yang dihasilkan oleh benda elastis saat diregangkan atau ditekan.",
       "correctAnswer": {
-        "acceptedAnswers": ["pegas", "Pegas"]
+        "acceptedAnswers": [
+          "pegas",
+          "Pegas"
+        ]
       }
     },
     {
@@ -68,12 +109,30 @@
       "hint": "Ingat contoh menendang bola, mengerem sepeda, dan membentuk plastisin.",
       "explanation": "Gaya dapat mengubah benda diam menjadi bergerak, mengubah arah/kecepatan gerak benda, dan mengubah bentuk benda (seperti plastisin).",
       "options": [
-        { "id": "a", "text": "Menggerakkan benda yang awalnya diam" },
-        { "id": "b", "text": "Mengubah arah atau menghentikan gerak benda" },
-        { "id": "c", "text": "Mengubah bentuk suatu benda" },
-        { "id": "d", "text": "Mengubah nama hari dalam kalender" }
+        {
+          "id": "a",
+          "text": "Menggerakkan benda yang awalnya diam"
+        },
+        {
+          "id": "b",
+          "text": "Mengubah arah atau menghentikan gerak benda"
+        },
+        {
+          "id": "c",
+          "text": "Mengubah bentuk suatu benda"
+        },
+        {
+          "id": "d",
+          "text": "Mengubah nama hari dalam kalender"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "science-energy-02-q06",
@@ -82,26 +141,48 @@
       "hint": "Apakah kita ingin terpeleset saat berjalan di lantai licin?",
       "explanation": "Salah. Alur pada sol sepatu dan ban kendaraan justru dibuat untuk memperbesar gaya gesek agar tidak mudah tergelincir.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "science-energy-02-q07",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-matter",
       "mediaCaption": "Aktivitas manusia di berbagai belahan Bumi yang memanfaatkan alat sederhana untuk mempermudah pekerjaan.",
       "prompt": "Papan miring yang dipasang untuk membantu menaikkan drum berat ke atas bak truk memanfaatkan prinsip pesawat sederhana berupa...",
       "hint": "Permukaannya dibuat landai agar tenaga yang dibutuhkan lebih ringan.",
       "explanation": "Bidang miring adalah pesawat sederhana berupa permukaan datar yang dimiringkan untuk mempermudah memindahkan benda ke tempat yang lebih tinggi.",
       "options": [
-        { "id": "a", "text": "Bidang miring" },
-        { "id": "b", "text": "Katrol tetap" },
-        { "id": "c", "text": "Roda berporos" },
-        { "id": "d", "text": "Pegas" }
+        {
+          "id": "a",
+          "text": "Bidang miring"
+        },
+        {
+          "id": "b",
+          "text": "Katrol tetap"
+        },
+        {
+          "id": "c",
+          "text": "Roda berporos"
+        },
+        {
+          "id": "d",
+          "text": "Pegas"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "science-energy-02-q08",
@@ -110,12 +191,26 @@
       "hint": "Memiliki titik tumpu, lengan kuasa, dan lengan beban.",
       "explanation": "Tuas (pengungkit) bekerja menggunakan titik tumpu, kuasa, dan beban, seperti pada gunting, jungkat-jungkit, dan linggis.",
       "options": [
-        { "id": "a", "text": "Katrol" },
-        { "id": "b", "text": "Tuas atau pengungkit" },
-        { "id": "c", "text": "Bidang miring" },
-        { "id": "d", "text": "Roda gigi" }
+        {
+          "id": "a",
+          "text": "Katrol"
+        },
+        {
+          "id": "b",
+          "text": "Tuas atau pengungkit"
+        },
+        {
+          "id": "c",
+          "text": "Bidang miring"
+        },
+        {
+          "id": "d",
+          "text": "Roda gigi"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "science-energy-02-q09",
@@ -124,7 +219,10 @@
       "hint": "Diawali huruf K.",
       "explanation": "Katrol mengubah arah gaya atau memperingan tarikan sehingga pekerjaan mengangkat beban seperti menimba air atau mengibarkan bendera menjadi lebih mudah.",
       "correctAnswer": {
-        "acceptedAnswers": ["katrol", "Katrol"]
+        "acceptedAnswers": [
+          "katrol",
+          "Katrol"
+        ]
       }
     },
     {
@@ -134,12 +232,30 @@
       "hint": "Termasuk benda tajam yang memiliki sisi miring (baji) dan ulir sekrup.",
       "explanation": "Tangga landai, pisau/kapak (baji), dan sekrup memanfaatkan prinsip bidang miring.",
       "options": [
-        { "id": "a", "text": "Tangga landai di gedung" },
-        { "id": "b", "text": "Mata pisau dan kapak" },
-        { "id": "c", "text": "Sekrup" },
-        { "id": "d", "text": "Karet gelang" }
+        {
+          "id": "a",
+          "text": "Tangga landai di gedung"
+        },
+        {
+          "id": "b",
+          "text": "Mata pisau dan kapak"
+        },
+        {
+          "id": "c",
+          "text": "Sekrup"
+        },
+        {
+          "id": "d",
+          "text": "Karet gelang"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     }
   ]
 }

@@ -18,12 +18,26 @@
       "hint": "Cari benda yang tidak bisa bernapas, tumbuh, atau berkembang biak.",
       "explanation": "Batu adalah benda tak hidup karena tidak bernapas, tidak memerlukan makanan, tidak tumbuh, dan tidak berkembang biak.",
       "options": [
-        { "id": "a", "text": "Pohon mangga" },
-        { "id": "b", "text": "Kucing" },
-        { "id": "c", "text": "Batu sungai" },
-        { "id": "d", "text": "Jamur tiram" }
+        {
+          "id": "a",
+          "text": "Pohon mangga"
+        },
+        {
+          "id": "b",
+          "text": "Kucing"
+        },
+        {
+          "id": "c",
+          "text": "Batu sungai"
+        },
+        {
+          "id": "d",
+          "text": "Jamur tiram"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "science-life-01-q02",
@@ -32,10 +46,18 @@
       "hint": "Tumbuhan dapat tumbuh, bernapas, membuat makanan, dan menghasilkan biji.",
       "explanation": "Benar! Tumbuhan adalah makhluk hidup karena memiliki semua ciri kehidupan, termasuk bergerak mengikuti arah cahaya matahari dan tumbuh.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-life-01-q03",
@@ -44,12 +66,26 @@
       "hint": "Tumbuhan merespons sentuhan sebagai rangsangan dari luar.",
       "explanation": "Mengatupnya daun putri malu saat disentuh menunjukkan bahwa makhluk hidup peka terhadap rangsangan (iritabilitas).",
       "options": [
-        { "id": "a", "text": "Berkembang biak" },
-        { "id": "b", "text": "Peka terhadap rangsang" },
-        { "id": "c", "text": "Bernapas" },
-        { "id": "d", "text": "Memerlukan air" }
+        {
+          "id": "a",
+          "text": "Berkembang biak"
+        },
+        {
+          "id": "b",
+          "text": "Peka terhadap rangsang"
+        },
+        {
+          "id": "c",
+          "text": "Bernapas"
+        },
+        {
+          "id": "d",
+          "text": "Memerlukan air"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "science-life-01-q04",
@@ -58,7 +94,11 @@
       "hint": "Dihasilkan oleh tumbuhan hijau saat fotosintesis.",
       "explanation": "Manusia dan hewan menghirup gas oksigen untuk menghasilkan energi di dalam sel tubuh, lalu mengembuskan karbon dioksida.",
       "correctAnswer": {
-        "acceptedAnswers": ["oksigen", "Oksigen", "O2"]
+        "acceptedAnswers": [
+          "oksigen",
+          "Oksigen",
+          "O2"
+        ]
       }
     },
     {
@@ -68,12 +108,30 @@
       "hint": "Ingat bagaimana anak ayam bertambah besar dan menghasilkan keturunan.",
       "explanation": "Makhluk hidup bernapas, tumbuh dan berkembang, serta berkembang biak untuk melestarikan jenisnya.",
       "options": [
-        { "id": "a", "text": "Bernapas" },
-        { "id": "b", "text": "Tumbuh dan berkembang" },
-        { "id": "c", "text": "Berkembang biak" },
-        { "id": "d", "text": "Selalu terbuat dari logam" }
+        {
+          "id": "a",
+          "text": "Bernapas"
+        },
+        {
+          "id": "b",
+          "text": "Tumbuh dan berkembang"
+        },
+        {
+          "id": "c",
+          "text": "Berkembang biak"
+        },
+        {
+          "id": "d",
+          "text": "Selalu terbuat dari logam"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "science-life-01-q06",
@@ -82,26 +140,48 @@
       "hint": "Dengan memiliki keturunan, kelangsungan jenis tetap terjaga.",
       "explanation": "Benar! Berkembang biak menghasilkan individu baru sehingga jenis makhluk hidup tetap lestari dari generasi ke generasi.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-life-01-q07",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-ecosystem",
       "mediaCaption": "Bumi sebagai habitat berbagai makhluk hidup di darat, air, dan udara.",
       "prompt": "Kemampuan makhluk hidup untuk menyesuaikan diri dengan lingkungan tempat tinggalnya agar bertahan hidup disebut...",
       "hint": "Contohnya unta memiliki punuk untuk bertahan hidup di gurun.",
       "explanation": "Adaptasi adalah kemampuan makhluk hidup menyesuaikan bentuk tubuh, fungsi organ, atau perilakunya terhadap lingkungan.",
       "options": [
-        { "id": "a", "text": "Adaptasi" },
-        { "id": "b", "text": "Evaporasi" },
-        { "id": "c", "text": "Rotasi" },
-        { "id": "d", "text": "Konduksi" }
+        {
+          "id": "a",
+          "text": "Adaptasi"
+        },
+        {
+          "id": "b",
+          "text": "Evaporasi"
+        },
+        {
+          "id": "c",
+          "text": "Rotasi"
+        },
+        {
+          "id": "d",
+          "text": "Konduksi"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "science-life-01-q08",
@@ -110,12 +190,26 @@
       "hint": "Terletak di sisi kanan dan kiri kepala ikan.",
       "explanation": "Ikan bernapas menggunakan insang yang mampu menyerap oksigen terlarut di dalam air.",
       "options": [
-        { "id": "a", "text": "Paru-paru" },
-        { "id": "b", "text": "Insang" },
-        { "id": "c", "text": "Trakea" },
-        { "id": "d", "text": "Stomata" }
+        {
+          "id": "a",
+          "text": "Paru-paru"
+        },
+        {
+          "id": "b",
+          "text": "Insang"
+        },
+        {
+          "id": "c",
+          "text": "Trakea"
+        },
+        {
+          "id": "d",
+          "text": "Stomata"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "science-life-01-q09",
@@ -124,7 +218,10 @@
       "hint": "Misalnya keringat dan urine pada manusia; diawali huruf E.",
       "explanation": "Ekskresi adalah proses membuang zat sisa metabolisme dari tubuh agar tidak menumpuk menjadi racun.",
       "correctAnswer": {
-        "acceptedAnswers": ["ekskresi", "Ekskresi"]
+        "acceptedAnswers": [
+          "ekskresi",
+          "Ekskresi"
+        ]
       }
     },
     {
@@ -134,12 +231,30 @@
       "hint": "Tanpa ketiga hal ini, tubuh tidak bisa bekerja dan cepat lemas.",
       "explanation": "Makhluk hidup membutuhkan makanan/nutrisi, air, dan udara (oksigen atau karbon dioksida bagi tumbuhan) untuk bertahan hidup.",
       "options": [
-        { "id": "a", "text": "Air" },
-        { "id": "b", "text": "Makanan atau sumber energi" },
-        { "id": "c", "text": "Udara" },
-        { "id": "d", "text": "Televisi" }
+        {
+          "id": "a",
+          "text": "Air"
+        },
+        {
+          "id": "b",
+          "text": "Makanan atau sumber energi"
+        },
+        {
+          "id": "c",
+          "text": "Udara"
+        },
+        {
+          "id": "d",
+          "text": "Televisi"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     }
   ]
 }

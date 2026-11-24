@@ -30,5 +30,165 @@
     "icon": "cat-language",
     "ruleType": "lessons_count",
     "targetValue": 5
+  },
+  {
+    "id": "badge-climber-10",
+    "name": "Pendaki 10 Pelajaran",
+    "description": "Selesaikan 10 pelajaran dari kategori mana saja.",
+    "icon": "icon-lesson",
+    "ruleType": "lessons_count",
+    "targetValue": 10
+  },
+  {
+    "id": "badge-champion-25",
+    "name": "Juara 25 Pelajaran",
+    "description": "Selesaikan 25 pelajaran dari kategori mana saja.",
+    "icon": "level-crest",
+    "ruleType": "lessons_count",
+    "targetValue": 25
+  },
+  {
+    "id": "badge-explorer-50",
+    "name": "Penjelajah 50 Pelajaran",
+    "description": "Selesaikan 50 pelajaran pengetahuan umum di Bimbiu.",
+    "icon": "telescope",
+    "ruleType": "lessons_count",
+    "targetValue": 50
+  },
+  {
+    "id": "badge-legend-100",
+    "name": "Legenda 100 Pelajaran",
+    "description": "Selesaikan 100 pelajaran dari seluruh kategori.",
+    "icon": "trophy",
+    "ruleType": "lessons_count",
+    "targetValue": 100
+  },
+  {
+    "id": "badge-perfect-100",
+    "name": "Skor Sempurna 100",
+    "description": "Raih nilai 100 pada satu pelajaran kuis.",
+    "icon": "icon-xp",
+    "ruleType": "perfect_score_count",
+    "targetValue": 1
+  },
+  {
+    "id": "badge-triple-perfect",
+    "name": "Tiga Kali Sempurna",
+    "description": "Raih nilai 100 pada 3 pelajaran berbeda.",
+    "icon": "icon-badge",
+    "ruleType": "perfect_score_count",
+    "targetValue": 3
+  },
+  {
+    "id": "badge-topic-master",
+    "name": "Penguasa Materi",
+    "description": "Raih status Mastered (>=80%) di 10 pelajaran.",
+    "icon": "icon-level",
+    "ruleType": "mastered_count",
+    "targetValue": 10
+  },
+  {
+    "id": "badge-never-give-up",
+    "name": "Pantang Menyerah",
+    "description": "Ulangi pelajaran untuk melatih pemahamanmu.",
+    "icon": "avatar-r2",
+    "ruleType": "retry_mastery",
+    "targetValue": 2
+  },
+  {
+    "id": "badge-little-scientist",
+    "name": "Ilmuwan Cilik",
+    "description": "Selesaikan semua pelajaran di kategori Sains & Alam.",
+    "icon": "cat-science",
+    "ruleType": "category_complete",
+    "targetValue": "science-nature"
+  },
+  {
+    "id": "badge-history-keeper",
+    "name": "Penjaga Sejarah",
+    "description": "Selesaikan semua pelajaran di kategori Sejarah & Budaya.",
+    "icon": "cat-history",
+    "ruleType": "category_complete",
+    "targetValue": "history-culture"
+  },
+  {
+    "id": "badge-logic-detective",
+    "name": "Detektif Logika",
+    "description": "Selesaikan semua pelajaran di kategori Logika & Matematika.",
+    "icon": "cat-logic",
+    "ruleType": "category_complete",
+    "targetValue": "logic-mathematics"
+  },
+  {
+    "id": "badge-word-friend",
+    "name": "Sahabat Kata",
+    "description": "Selesaikan semua pelajaran di kategori Bahasa & Kata.",
+    "icon": "cat-language",
+    "ruleType": "category_complete",
+    "targetValue": "language-words"
+  },
+  {
+    "id": "badge-wise-citizen",
+    "name": "Warga Bijak",
+    "description": "Selesaikan semua pelajaran di kategori Pengetahuan Sehari-hari.",
+    "icon": "cat-everyday",
+    "ruleType": "category_complete",
+    "targetValue": "everyday-knowledge"
+  },
+  {
+    "id": "badge-six-worlds",
+    "name": "Penjelajah 6 Dunia",
+    "description": "Selesaikan minimal 1 pelajaran di semua 6 kategori.",
+    "icon": "avatar-r3",
+    "ruleType": "all_categories_started",
+    "targetValue": 6
+  },
+  {
+    "id": "badge-star-collector",
+    "name": "Kolektor Bintang",
+    "description": "Raih status Mastered di minimal 1 pelajaran tiap kategori.",
+    "icon": "avatar-r4",
+    "ruleType": "all_categories_mastered",
+    "targetValue": 6
+  },
+  {
+    "id": "badge-nusantara-wanderer",
+    "name": "Pengembara Nusantara",
+    "description": "Selesaikan unit Kepulauan Indonesia & Kerajaan Nusantara.",
+    "icon": "cat-geography",
+    "ruleType": "units_complete",
+    "targetValue": "indonesia-archipelago,nusantara-kingdoms"
+  },
+  {
+    "id": "badge-eco-hero",
+    "name": "Pahlawan Ekosistem",
+    "description": "Kuasai unit Makhluk Hidup & Lingkungan 3R dengan skor >=80%.",
+    "icon": "cat-everyday",
+    "ruleType": "units_mastered",
+    "targetValue": "living-things,environment-recycling"
+  },
+  {
+    "id": "badge-safety-knight",
+    "name": "Ksatria Keamanan",
+    "description": "Kuasai unit Keselamatan & Teknologi Bijak dengan skor >=80%.",
+    "icon": "mascot",
+    "ruleType": "units_mastered",
+    "targetValue": "safety-manners,tech-financial"
+  },
+  {
+    "id": "badge-grammar-master",
+    "name": "Master Tata Bahasa",
+    "description": "Kuasai seluruh unit di kategori Bahasa & Kata dengan skor >=80%.",
+    "icon": "cat-language",
+    "ruleType": "category_mastered",
+    "targetValue": "language-words"
+  },
+  {
+    "id": "badge-bimbiu-champion",
+    "name": "Juara Umum Bimbiu",
+    "description": "Raih minimal 15 badge koleksi di Bimbiu.",
+    "icon": "trophy",
+    "ruleType": "badges_count",
+    "targetValue": 15
   }
 ]

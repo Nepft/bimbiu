@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 4,
-  "prerequisites": ["science-solar-03"],
+  "prerequisites": [
+    "science-solar-03"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Gerakan Bumi berputar pada sumbunya sendiri.",
       "explanation": "Rotasi Bumi pada porosnya menyebabkan bagian Bumi yang menghadap Matahari mengalami siang dan bagian sebaliknya mengalami malam.",
       "options": [
-        { "id": "a", "text": "Revolusi Bulan mengelilingi Bumi" },
-        { "id": "b", "text": "Rotasi Bumi pada porosnya" },
-        { "id": "c", "text": "Revolusi Bumi mengelilingi Matahari" },
-        { "id": "d", "text": "Perubahan jarak Matahari setiap hari" }
+        {
+          "id": "a",
+          "text": "Revolusi Bulan mengelilingi Bumi"
+        },
+        {
+          "id": "b",
+          "text": "Rotasi Bumi pada porosnya"
+        },
+        {
+          "id": "c",
+          "text": "Revolusi Bumi mengelilingi Matahari"
+        },
+        {
+          "id": "d",
+          "text": "Perubahan jarak Matahari setiap hari"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "science-solar-04-q02",
@@ -32,10 +48,18 @@
       "hint": "Ingat istilah gerak semu harian Matahari.",
       "explanation": "Salah. Matahari tampak bergerak dari timur ke barat karena Bumi berotasi dari barat ke timur; ini disebut gerak semu harian Matahari.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "science-solar-04-q03",
@@ -44,12 +68,26 @@
       "hint": "Waktu ini menjadi dasar penentuan satu tahun Masehi.",
       "explanation": "Bumi mengelilingi Matahari selama sekitar 365,25 hari (365 hari pada tahun biasa dan 366 hari pada tahun kabisat).",
       "options": [
-        { "id": "a", "text": "24 jam" },
-        { "id": "b", "text": "30 hari" },
-        { "id": "c", "text": "365,25 hari" },
-        { "id": "d", "text": "730 hari" }
+        {
+          "id": "a",
+          "text": "24 jam"
+        },
+        {
+          "id": "b",
+          "text": "30 hari"
+        },
+        {
+          "id": "c",
+          "text": "365,25 hari"
+        },
+        {
+          "id": "d",
+          "text": "730 hari"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "science-solar-04-q04",
@@ -58,7 +96,10 @@
       "hint": "Diawali huruf K, untuk menyesuaikan kelebihan seperempat hari setiap tahun.",
       "explanation": "Tahun kabisat menambahkan 1 hari pada bulan Februari (menjadi 29 hari) untuk menyesuaikan sisa 0,25 hari revolusi Bumi setiap tahun.",
       "correctAnswer": {
-        "acceptedAnswers": ["kabisat", "Kabisat"]
+        "acceptedAnswers": [
+          "kabisat",
+          "Kabisat"
+        ]
       }
     },
     {
@@ -68,12 +109,29 @@
       "hint": "Rotasi berlangsung sekitar 24 jam dan membagi wilayah waktu.",
       "explanation": "Rotasi Bumi menyebabkan pergantian siang dan malam serta perbedaan zona waktu di berbagai belahan dunia (seperti WIB, WITA, WIT).",
       "options": [
-        { "id": "a", "text": "Terjadinya siang dan malam" },
-        { "id": "b", "text": "Perbedaan waktu di berbagai daerah di Bumi" },
-        { "id": "c", "text": "Pergantian empat musim di negara subtropis" },
-        { "id": "d", "text": "Terjadinya gerhana bulan total" }
+        {
+          "id": "a",
+          "text": "Terjadinya siang dan malam"
+        },
+        {
+          "id": "b",
+          "text": "Perbedaan waktu di berbagai daerah di Bumi"
+        },
+        {
+          "id": "c",
+          "text": "Pergantian empat musim di negara subtropis"
+        },
+        {
+          "id": "d",
+          "text": "Terjadinya gerhana bulan total"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "science-solar-04-q06",
@@ -82,26 +140,48 @@
       "hint": "Sumbu Bumi miring sekitar 23,5 derajat.",
       "explanation": "Benar! Karena sumbu Bumi miring 23,5 derajat, saat belahan utara condong ke Matahari (musim panas), belahan selatan menjauhi Matahari (musim dingin).",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-solar-04-q07",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-planet",
       "mediaCaption": "Bola dunia yang menampilkan garis lintang, garis bujur, dan pembagian zona waktu.",
       "prompt": "Indonesia memiliki tiga zona waktu berbeda (WIB, WITA, WIT) karena luas wilayahnya membentang menurut garis...",
       "hint": "Garis khayal yang membentang dari kutub utara ke kutub selatan.",
       "explanation": "Perbedaan waktu ditentukan oleh garis bujur; setiap selisih 15 derajat garis bujur berbeda waktu 1 jam.",
       "options": [
-        { "id": "a", "text": "Garis khatulistiwa" },
-        { "id": "b", "text": "Garis bujur" },
-        { "id": "c", "text": "Garis balik utara" },
-        { "id": "d", "text": "Garis orbit" }
+        {
+          "id": "a",
+          "text": "Garis khatulistiwa"
+        },
+        {
+          "id": "b",
+          "text": "Garis bujur"
+        },
+        {
+          "id": "c",
+          "text": "Garis balik utara"
+        },
+        {
+          "id": "d",
+          "text": "Garis orbit"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "science-solar-04-q08",
@@ -110,12 +190,26 @@
       "hint": "Bukan karena jarak Bumi ke Matahari, melainkan sudut kemiringan Bumi saat mengorbit.",
       "explanation": "Kemiringan sumbu rotasi Bumi sebesar 23,5 derajat saat berevolusi mengelilingi Matahari menyebabkan perbedaan penyinaran dan munculnya empat musim.",
       "options": [
-        { "id": "a", "text": "Kemiringan sumbu Bumi dan revolusi Bumi" },
-        { "id": "b", "text": "Kecepatan rotasi Bulan yang berubah" },
-        { "id": "c", "text": "Perubahan ukuran Matahari tiap bulan" },
-        { "id": "d", "text": "Terjadinya pasang surut air laut" }
+        {
+          "id": "a",
+          "text": "Kemiringan sumbu Bumi dan revolusi Bumi"
+        },
+        {
+          "id": "b",
+          "text": "Kecepatan rotasi Bulan yang berubah"
+        },
+        {
+          "id": "c",
+          "text": "Perubahan ukuran Matahari tiap bulan"
+        },
+        {
+          "id": "d",
+          "text": "Terjadinya pasang surut air laut"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "science-solar-04-q09",
@@ -124,7 +218,12 @@
       "hint": "Indonesia dilalui oleh garis ini, misalnya di Kota Pontianak.",
       "explanation": "Garis khatulistiwa (ekuator) adalah garis lintang 0 derajat yang membagi Bumi menjadi belahan utara dan selatan.",
       "correctAnswer": {
-        "acceptedAnswers": ["khatulistiwa", "Khatulistiwa", "ekuator", "Ekuator"]
+        "acceptedAnswers": [
+          "khatulistiwa",
+          "Khatulistiwa",
+          "ekuator",
+          "Ekuator"
+        ]
       }
     },
     {
@@ -134,12 +233,29 @@
       "hint": "WIB = UTC+7, WITA = UTC+8, WIT = UTC+9.",
       "explanation": "Saat di Jakarta (WIB) pukul 07.00, di Makassar (WITA) pukul 08.00 dan di Jayapura (WIT) pukul 09.00 karena wilayah timur lebih dulu mendapat sinar Matahari.",
       "options": [
-        { "id": "a", "text": "WIT lebih cepat 2 jam daripada WIB" },
-        { "id": "b", "text": "WITA lebih cepat 1 jam daripada WIB" },
-        { "id": "c", "text": "WIB lebih cepat 1 jam daripada WIT" },
-        { "id": "d", "text": "Semua wilayah Indonesia memiliki jam yang sama persis" }
+        {
+          "id": "a",
+          "text": "WIT lebih cepat 2 jam daripada WIB"
+        },
+        {
+          "id": "b",
+          "text": "WITA lebih cepat 1 jam daripada WIB"
+        },
+        {
+          "id": "c",
+          "text": "WIB lebih cepat 1 jam daripada WIT"
+        },
+        {
+          "id": "d",
+          "text": "Semua wilayah Indonesia memiliki jam yang sama persis"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     }
   ]
 }

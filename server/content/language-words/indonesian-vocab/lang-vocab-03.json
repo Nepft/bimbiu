@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 3,
-  "prerequisites": ["lang-vocab-02"],
+  "prerequisites": [
+    "lang-vocab-02"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Sifat orang yang tidak mudah menyerah dan bersungguh-sungguh.",
       "explanation": "Menurut KBBI, 'tekun' berarti rajin, keras hati, dan bersungguh-sungguh dalam bekerja atau belajar.",
       "options": [
-        { "id": "a", "text": "Cepat marah" },
-        { "id": "b", "text": "Rajin dan bersungguh-sungguh" },
-        { "id": "c", "text": "Mudah lupa" },
-        { "id": "d", "text": "Suka menunda tugas" }
+        {
+          "id": "a",
+          "text": "Cepat marah"
+        },
+        {
+          "id": "b",
+          "text": "Rajin dan bersungguh-sungguh"
+        },
+        {
+          "id": "c",
+          "text": "Mudah lupa"
+        },
+        {
+          "id": "d",
+          "text": "Suka menunda tugas"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-vocab-03-q02",
@@ -32,10 +48,18 @@
       "hint": "Ingat arti kata teliti saat memeriksa pekerjaan.",
       "explanation": "Salah. 'Teliti' berarti cermat dan saksama, yaitu memeriksa sesuatu dengan hati-hati agar tidak ada kesalahan.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "lang-vocab-03-q03",
@@ -44,7 +68,10 @@
       "hint": "Kata ini terdiri dari lima huruf, berawalan 's' dan berakhiran 'p'.",
       "explanation": "'Sigap' berarti tangkas, cepat, dan kuat (penuh semangat dan meyakinkan).",
       "correctAnswer": {
-        "acceptedAnswers": ["sigap", "Sigap"]
+        "acceptedAnswers": [
+          "sigap",
+          "Sigap"
+        ]
       }
     },
     {
@@ -54,28 +81,59 @@
       "hint": "Cari kata sifat yang menunjukkan kebaikan dan tanggung jawab.",
       "explanation": "'kooperatif' (mau bekerja sama) dan 'jujur' adalah sikap terpuji. 'egois' dan 'ceroboh' menghambat kerja sama.",
       "options": [
-        { "id": "a", "text": "kooperatif" },
-        { "id": "b", "text": "egois" },
-        { "id": "c", "text": "jujur" },
-        { "id": "d", "text": "ceroboh" }
+        {
+          "id": "a",
+          "text": "kooperatif"
+        },
+        {
+          "id": "b",
+          "text": "egois"
+        },
+        {
+          "id": "c",
+          "text": "jujur"
+        },
+        {
+          "id": "d",
+          "text": "ceroboh"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "lang-vocab-03-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-language",
+      "mediaKey": "quiz-signboard",
       "mediaCaption": "Seorang anak membuang botol plastik ke tempat sampah daur ulang di taman.",
       "prompt": "Tindakan anak pada ilustrasi tersebut menunjukkan sikap 'peduli' terhadap lingkungan. Apa makna kata 'peduli'?",
       "hint": "Sikap memperhatikan dan mau ikut menjaga sesuatu.",
       "explanation": "'Peduli' berarti mengindahkan, memperhatikan, atau menghiraukan keadaan di sekitar.",
       "options": [
-        { "id": "a", "text": "Membiarkan saja tanpa perhatian" },
-        { "id": "b", "text": "Mengindahkan dan memperhatikan" },
-        { "id": "c", "text": "Merusak benda umum" },
-        { "id": "d", "text": "Bersembunyi dari tugas" }
+        {
+          "id": "a",
+          "text": "Membiarkan saja tanpa perhatian"
+        },
+        {
+          "id": "b",
+          "text": "Mengindahkan dan memperhatikan"
+        },
+        {
+          "id": "c",
+          "text": "Merusak benda umum"
+        },
+        {
+          "id": "d",
+          "text": "Bersembunyi dari tugas"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-vocab-03-q06",
@@ -84,12 +142,26 @@
       "hint": "Kebalikan dari boros.",
       "explanation": "'Hemat' berarti berhati-hati dalam membelanjakan uang atau menggunakan sesuatu; tidak boros.",
       "options": [
-        { "id": "a", "text": "Suka membeli barang mahal" },
-        { "id": "b", "text": "Tidak boros dan cermat menggunakan sesuatu" },
-        { "id": "c", "text": "Selalu meminta bantuan teman" },
-        { "id": "d", "text": "Enggan berbagi makanan" }
+        {
+          "id": "a",
+          "text": "Suka membeli barang mahal"
+        },
+        {
+          "id": "b",
+          "text": "Tidak boros dan cermat menggunakan sesuatu"
+        },
+        {
+          "id": "c",
+          "text": "Selalu meminta bantuan teman"
+        },
+        {
+          "id": "d",
+          "text": "Enggan berbagi makanan"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-vocab-03-q07",
@@ -98,10 +170,18 @@
       "hint": "Pikirkan ungkapan 'pendaki gunung yang tangguh'.",
       "explanation": "Benar. Dalam KBBI, 'tangguh' berarti sukar dikalahkan, kuat, andal, dan tabah menghadapi tantangan.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "lang-vocab-03-q08",
@@ -110,7 +190,12 @@
       "hint": "Kata ini berarti pandai menggunakan akal budi, arif, dan adil (berawalan 'b').",
       "explanation": "'Bijaksana' berarti selalu menggunakan akal budinya (pengalaman dan pengetahuannya), arif, dan tajam pikiran.",
       "correctAnswer": {
-        "acceptedAnswers": ["bijaksana", "Bijaksana", "bijak", "Bijak"]
+        "acceptedAnswers": [
+          "bijaksana",
+          "Bijaksana",
+          "bijak",
+          "Bijak"
+        ]
       }
     },
     {
@@ -120,12 +205,26 @@
       "hint": "Sikap yang menyenangkan saat menyapa orang lain.",
       "explanation": "'Ramah' berarti baik hati dan menarik budi bahasanya; manis tutur kata dan sikapnya.",
       "options": [
-        { "id": "a", "text": "Baik hati dan manis tutur katanya" },
-        { "id": "b", "text": "Selalu berbicara dengan suara keras" },
-        { "id": "c", "text": "Jarang tersenyum" },
-        { "id": "d", "text": "Suka menyendiri di pojok ruangan" }
+        {
+          "id": "a",
+          "text": "Baik hati dan manis tutur katanya"
+        },
+        {
+          "id": "b",
+          "text": "Selalu berbicara dengan suara keras"
+        },
+        {
+          "id": "c",
+          "text": "Jarang tersenyum"
+        },
+        {
+          "id": "d",
+          "text": "Suka menyendiri di pojok ruangan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "lang-vocab-03-q10",
@@ -134,12 +233,29 @@
       "hint": "Disiplin berkaitan dengan ketaatan pada tata tertib dan aturan.",
       "explanation": "Kalimat A dan C menggambarkan ketaatan pada aturan waktu dan tata tertib, sesuai makna kata 'disiplin'.",
       "options": [
-        { "id": "a", "text": "Siti selalu tiba di sekolah sepuluh menit sebelum bel berbunyi sebagai wujud disiplin." },
-        { "id": "b", "text": "Raka sering terlambat bangun karena ia sangat disiplin." },
-        { "id": "c", "text": "Siswa yang disiplin menaati peraturan lalu lintas saat menyeberang jalan." },
-        { "id": "d", "text": "Kamar yang berantakan menandakan pemiliknya anak yang disiplin." }
+        {
+          "id": "a",
+          "text": "Siti selalu tiba di sekolah sepuluh menit sebelum bel berbunyi sebagai wujud disiplin."
+        },
+        {
+          "id": "b",
+          "text": "Raka sering terlambat bangun karena ia sangat disiplin."
+        },
+        {
+          "id": "c",
+          "text": "Siswa yang disiplin menaati peraturan lalu lintas saat menyeberang jalan."
+        },
+        {
+          "id": "d",
+          "text": "Kamar yang berantakan menandakan pemiliknya anak yang disiplin."
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     }
   ]
 }

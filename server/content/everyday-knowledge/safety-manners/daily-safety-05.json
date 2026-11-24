@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 5,
-  "prerequisites": ["daily-safety-04"],
+  "prerequisites": [
+    "daily-safety-04"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Ingat langkah: merunduk, lindungi kepala, dan berlindung di bawah benda kokoh.",
       "explanation": "Berlindung di bawah meja yang kokoh sambil melindungi kepala dan leher mencegah cedera akibat benda jatuh saat guncangan berlangsung.",
       "options": [
-        { "id": "a", "text": "Berdiri tepat di sebelah jendela kaca besar" },
-        { "id": "b", "text": "Merunduk, berlindung di bawah meja kokoh, dan lindungi kepala" },
-        { "id": "c", "text": "Berlomba lari mendorong teman di pintu kelas" },
-        { "id": "d", "text": "Naik ke atas lemari buku yang tinggi" }
+        {
+          "id": "a",
+          "text": "Berdiri tepat di sebelah jendela kaca besar"
+        },
+        {
+          "id": "b",
+          "text": "Merunduk, berlindung di bawah meja kokoh, dan lindungi kepala"
+        },
+        {
+          "id": "c",
+          "text": "Berlomba lari mendorong teman di pintu kelas"
+        },
+        {
+          "id": "d",
+          "text": "Naik ke atas lemari buku yang tinggi"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "daily-safety-05-q02",
@@ -32,10 +48,18 @@
       "hint": "Listrik bisa padam sewaktu-waktu dan membuat lift macet.",
       "explanation": "Benar! Lift berisiko macet atau rusak saat gempa, sehingga tangga darurat jauh lebih aman untuk evakuasi.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "daily-safety-05-q03",
@@ -44,12 +68,30 @@
       "hint": "Pikirkan kebutuhan dasar untuk bertahan sementara saat listrik padam atau mengungsi.",
       "explanation": "Air minum kemasan, senter dan baterai cadangan, serta kotak P3K dan obat pribadi sangat penting dalam tas siaga bencana.",
       "options": [
-        { "id": "a", "text": "Air minum dan makanan tahan lama" },
-        { "id": "b", "text": "Senter dan baterai cadangan" },
-        { "id": "c", "text": "Kotak P3K, masker, dan peluit" },
-        { "id": "d", "text": "Akuarium kaca berisi ikan hias" }
+        {
+          "id": "a",
+          "text": "Air minum dan makanan tahan lama"
+        },
+        {
+          "id": "b",
+          "text": "Senter dan baterai cadangan"
+        },
+        {
+          "id": "c",
+          "text": "Kotak P3K, masker, dan peluit"
+        },
+        {
+          "id": "d",
+          "text": "Akuarium kaca berisi ikan hias"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-safety-05-q04",
@@ -58,24 +100,41 @@
       "hint": "Kata ini berarti tempat semua orang berkumpul setelah keluar gedung.",
       "explanation": "Titik kumpul adalah area terbuka yang aman dari reruntuhan bangunan, pohon tumbang, atau tiang listrik.",
       "correctAnswer": {
-        "acceptedAnswers": ["kumpul", "Kumpul"]
+        "acceptedAnswers": [
+          "kumpul",
+          "Kumpul"
+        ]
       }
     },
     {
       "id": "daily-safety-05-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-traffic-sign",
       "mediaCaption": "Sebuah ilustrasi memperlihatkan siswa berada di lapangan terbuka setelah gempa, jauh dari bangunan sekolah, kaca, dan tiang listrik.",
       "prompt": "Mengapa saat di luar ruangan ketika gempa kita harus menjauhi bangunan, pohon tinggi, dan tiang listrik?",
       "hint": "Guncangan dapat membuat benda tinggi roboh atau kabel putus.",
       "explanation": "Bangunan retak, kaca pecah, pohon tua, dan kabel tiang listrik sangat berbahaya jika tumbang atau jatuh selama gempa maupun gempa susulan.",
       "options": [
-        { "id": "a", "text": "Menghindari risiko tertimpa reruntuhan, pecahan kaca, atau kabel listrik" },
-        { "id": "b", "text": "Agar lebih mudah melihat arah awan" },
-        { "id": "c", "text": "Karena lapangan tidak memiliki sinyal telepon" },
-        { "id": "d", "text": "Supaya bisa bermain bola bersama teman" }
+        {
+          "id": "a",
+          "text": "Menghindari risiko tertimpa reruntuhan, pecahan kaca, atau kabel listrik"
+        },
+        {
+          "id": "b",
+          "text": "Agar lebih mudah melihat arah awan"
+        },
+        {
+          "id": "c",
+          "text": "Karena lapangan tidak memiliki sinyal telepon"
+        },
+        {
+          "id": "d",
+          "text": "Supaya bisa bermain bola bersama teman"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-safety-05-q06",
@@ -84,12 +143,26 @@
       "hint": "Air banjir dapat menghantarkan listrik ke seluruh ruangan.",
       "explanation": "Mematikan sakelar utama listrik (MCB) mencegah korsleting dan bahaya tersetrum di dalam genangan air.",
       "options": [
-        { "id": "a", "text": "Menyalakan semua televisi dan kulkas" },
-        { "id": "b", "text": "Mematikan aliran listrik utama (sakelar/MCB)" },
-        { "id": "c", "text": "Meletakkan stopkontak di lantai yang tergenang" },
-        { "id": "d", "text": "Berenang di dalam ruang tamu" }
+        {
+          "id": "a",
+          "text": "Menyalakan semua televisi dan kulkas"
+        },
+        {
+          "id": "b",
+          "text": "Mematikan aliran listrik utama (sakelar/MCB)"
+        },
+        {
+          "id": "c",
+          "text": "Meletakkan stopkontak di lantai yang tergenang"
+        },
+        {
+          "id": "d",
+          "text": "Berenang di dalam ruang tamu"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "daily-safety-05-q07",
@@ -98,10 +171,18 @@
       "hint": "Air banjir sering keruh, berarus deras, dan bisa menyembunyikan lubang atau kabel.",
       "explanation": "Salah. Air banjir mengandung banyak kotoran penyebab penyakit serta dapat menyembunyikan got terbuka, benda tajam, atau arus deras.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "daily-safety-05-q08",
@@ -110,12 +191,30 @@
       "hint": "Jika terpisah dari keluarga atau butuh bantuan cepat, informasi ini sangat berguna.",
       "explanation": "Menghafal nomor telepon orang tua, alamat rumah lengkap, serta mengetahui nomor layanan darurat membantu petugas atau orang dewasa menolong dengan cepat.",
       "options": [
-        { "id": "a", "text": "Nomor telepon aktif orang tua atau wali" },
-        { "id": "b", "text": "Alamat lengkap tempat tinggal" },
-        { "id": "c", "text": "Nomor darurat seperti 112" },
-        { "id": "d", "text": "Kata sandi akun gim milik teman" }
+        {
+          "id": "a",
+          "text": "Nomor telepon aktif orang tua atau wali"
+        },
+        {
+          "id": "b",
+          "text": "Alamat lengkap tempat tinggal"
+        },
+        {
+          "id": "c",
+          "text": "Nomor darurat seperti 112"
+        },
+        {
+          "id": "d",
+          "text": "Kata sandi akun gim milik teman"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-safety-05-q09",
@@ -124,24 +223,41 @@
       "hint": "Benda sisa rumah tangga yang seharusnya dibuang ke tempatnya, bukan ke sungai.",
       "explanation": "Sampah yang dibuang ke selokan atau sungai menyumbat aliran air hujan sehingga air meluap menjadi banjir.",
       "correctAnswer": {
-        "acceptedAnswers": ["sampah", "Sampah"]
+        "acceptedAnswers": [
+          "sampah",
+          "Sampah"
+        ]
       }
     },
     {
       "id": "daily-safety-05-q10",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-traffic-sign",
       "mediaCaption": "Papan petunjuk jalur evakuasi berwarna hijau menampilkan tanda panah menuju pintu keluar dan tulisan 'TITIK KUMPUL' di halaman sekolah.",
       "prompt": "Kapan kita harus mengikuti arah papan petunjuk tersebut dengan tertib?",
       "hint": "Papan ini memandu orang keluar gedung menuju tempat aman.",
       "explanation": "Saat terjadi keadaan darurat seperti kebakaran atau setelah guncangan gempa berhenti, ikuti jalur evakuasi dengan tenang dan tertib menuju titik kumpul.",
       "options": [
-        { "id": "a", "text": "Saat melakukan evakuasi darurat keluar bangunan menuju tempat aman" },
-        { "id": "b", "text": "Hanya saat istirahat jam makan siang" },
-        { "id": "c", "text": "Ketika sedang mencari ruang kelas baru" },
-        { "id": "d", "text": "Saat sedang bermain petak umpet" }
+        {
+          "id": "a",
+          "text": "Saat melakukan evakuasi darurat keluar bangunan menuju tempat aman"
+        },
+        {
+          "id": "b",
+          "text": "Hanya saat istirahat jam makan siang"
+        },
+        {
+          "id": "c",
+          "text": "Ketika sedang mencari ruang kelas baru"
+        },
+        {
+          "id": "d",
+          "text": "Saat sedang bermain petak umpet"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

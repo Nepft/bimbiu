@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 5,
-  "prerequisites": ["geo-world-04"],
+  "prerequisites": [
+    "geo-world-04"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Sungai ini sangat penting bagi peradaban Mesir Kuno.",
       "explanation": "Sungai Nil mengalir sepanjang sekitar 6.650 kilometer melewati beberapa negara di Afrika hingga bermuara di Laut Tengah di Mesir.",
       "options": [
-        { "id": "a", "text": "Sungai Mekong" },
-        { "id": "b", "text": "Sungai Nil" },
-        { "id": "c", "text": "Sungai Mississippi" },
-        { "id": "d", "text": "Sungai Rhine" }
+        {
+          "id": "a",
+          "text": "Sungai Mekong"
+        },
+        {
+          "id": "b",
+          "text": "Sungai Nil"
+        },
+        {
+          "id": "c",
+          "text": "Sungai Mississippi"
+        },
+        {
+          "id": "d",
+          "text": "Sungai Rhine"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-world-05-q02",
@@ -32,10 +48,18 @@
       "hint": "Hutan di sekitarnya juga merupakan hutan hujan terbesar di dunia.",
       "explanation": "Benar! Sungai Amazon memiliki debit air terbesar di dunia, menyumbang sekitar seperlima dari seluruh air sungai yang mengalir ke samudra.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "geo-world-05-q03",
@@ -44,7 +68,10 @@
       "hint": "Dalam bahasa Indonesia sering diterjemahkan sebagai Tanah Hijau.",
       "explanation": "Greenland memiliki luas lebih dari 2,1 juta kilometer persegi dan menjadi pulau non-benua terbesar di dunia.",
       "correctAnswer": {
-        "acceptedAnswers": ["Greenland", "greenland"]
+        "acceptedAnswers": [
+          "Greenland",
+          "greenland"
+        ]
       }
     },
     {
@@ -54,28 +81,59 @@
       "hint": "Kadar garamnya sangat tinggi hingga hampir tidak ada ikan yang bisa hidup di sana.",
       "explanation": "Laut Mati sebenarnya adalah danau air asin yang sangat asin sehingga tubuh manusia mudah mengapung secara alami di permukaannya.",
       "options": [
-        { "id": "a", "text": "Memiliki kadar garam yang sangat tinggi" },
-        { "id": "b", "text": "Membuat orang mudah mengapung di airnya" },
-        { "id": "c", "text": "Merupakan rumah bagi ribuan spesies paus" },
-        { "id": "d", "text": "Airnya terasa tawar dan dingin membeku" }
+        {
+          "id": "a",
+          "text": "Memiliki kadar garam yang sangat tinggi"
+        },
+        {
+          "id": "b",
+          "text": "Membuat orang mudah mengapung di airnya"
+        },
+        {
+          "id": "c",
+          "text": "Merupakan rumah bagi ribuan spesies paus"
+        },
+        {
+          "id": "d",
+          "text": "Airnya terasa tawar dan dingin membeku"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "geo-world-05-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-landmark",
       "mediaCaption": "Di wilayah Siberia, Rusia, terdapat danau air tawar raksasa berbentuk bulan sabit yang sangat dalam.",
       "prompt": "Danau air tawar terdalam sekaligus tertua di dunia yang terletak di Rusia adalah Danau ...",
       "hint": "Namanya berawalan huruf B.",
       "explanation": "Danau Baikal di Siberia, Rusia, memiliki kedalaman lebih dari 1.600 meter dan menyimpan sekitar 20 persen air tawar cair di permukaan Bumi.",
       "options": [
-        { "id": "a", "text": "Danau Victoria" },
-        { "id": "b", "text": "Danau Baikal" },
-        { "id": "c", "text": "Danau Superior" },
-        { "id": "d", "text": "Danau Kaspia" }
+        {
+          "id": "a",
+          "text": "Danau Victoria"
+        },
+        {
+          "id": "b",
+          "text": "Danau Baikal"
+        },
+        {
+          "id": "c",
+          "text": "Danau Superior"
+        },
+        {
+          "id": "d",
+          "text": "Danau Kaspia"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-world-05-q06",
@@ -84,12 +142,26 @@
       "hint": "Namanya singkat, hanya satu kata berawalan G.",
       "explanation": "Gurun Gobi terletak di antara Mongolia dan Tiongkok utara, terkenal dengan suhu ekstrem dan kekayaan fosil prasejarahnya.",
       "options": [
-        { "id": "a", "text": "Gurun Sahara" },
-        { "id": "b", "text": "Gurun Gobi" },
-        { "id": "c", "text": "Gurun Kalahari" },
-        { "id": "d", "text": "Gurun Mojave" }
+        {
+          "id": "a",
+          "text": "Gurun Sahara"
+        },
+        {
+          "id": "b",
+          "text": "Gurun Gobi"
+        },
+        {
+          "id": "c",
+          "text": "Gurun Kalahari"
+        },
+        {
+          "id": "d",
+          "text": "Gurun Mojave"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "geo-world-05-q07",
@@ -98,10 +170,18 @@
       "hint": "Tahukah kamu bahwa Antarktika juga tergolong gurun dingin terbesar?",
       "explanation": "Benar! Dalam geografi, gurun adalah wilayah yang menerima curah hujan sangat sedikit setiap tahun, baik panas seperti Sahara maupun sangat dingin seperti Antarktika.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "geo-world-05-q08",
@@ -110,7 +190,10 @@
       "hint": "Namanya berawalan huruf K.",
       "explanation": "Laut Kaspia sebenarnya adalah danau tertutup terluas di dunia dengan luas sekitar 371.000 kilometer persegi.",
       "correctAnswer": {
-        "acceptedAnswers": ["Kaspia", "kaspia"]
+        "acceptedAnswers": [
+          "Kaspia",
+          "kaspia"
+        ]
       }
     },
     {
@@ -120,12 +203,29 @@
       "hint": "Indonesia memiliki dua pulau dalam daftar lima besar dunia!",
       "explanation": "Greenland (peringkat 1) dan Pulau Papua (peringkat 2 terbesar di dunia) masuk empat besar dunia bersama Kalimantan dan Madagaskar. Jawa berada di luar sepuluh besar.",
       "options": [
-        { "id": "a", "text": "Greenland" },
-        { "id": "b", "text": "Pulau Papua" },
-        { "id": "c", "text": "Pulau Jawa" },
-        { "id": "d", "text": "Pulau Bali" }
+        {
+          "id": "a",
+          "text": "Greenland"
+        },
+        {
+          "id": "b",
+          "text": "Pulau Papua"
+        },
+        {
+          "id": "c",
+          "text": "Pulau Jawa"
+        },
+        {
+          "id": "d",
+          "text": "Pulau Bali"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "geo-world-05-q10",
@@ -134,12 +234,26 @@
       "hint": "Sungai ini bermuara di delta subur di selatan Vietnam.",
       "explanation": "Sungai Mekong mengalir sekitar 4.350 kilometer dan menjadi sumber penghidupan utama bagi jutaan penduduk di daratan Asia Tenggara.",
       "options": [
-        { "id": "a", "text": "Sungai Gangga" },
-        { "id": "b", "text": "Sungai Mekong" },
-        { "id": "c", "text": "Sungai Kapuas" },
-        { "id": "d", "text": "Sungai Eufrat" }
+        {
+          "id": "a",
+          "text": "Sungai Gangga"
+        },
+        {
+          "id": "b",
+          "text": "Sungai Mekong"
+        },
+        {
+          "id": "c",
+          "text": "Sungai Kapuas"
+        },
+        {
+          "id": "d",
+          "text": "Sungai Eufrat"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     }
   ]
 }

@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 2,
-  "prerequisites": ["logic-reason-01"],
+  "prerequisites": [
+    "logic-reason-01"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Setiap 7 hari kembali ke hari yang sama. 10 hari adalah 1 minggu ditambah 3 hari.",
       "explanation": "7 hari lagi tetap hari Senin. Ditambah 3 hari lagi (Selasa, Rabu, Kamis), sehingga jatuh pada hari Kamis.",
       "options": [
-        { "id": "a", "text": "Selasa" },
-        { "id": "b", "text": "Rabu" },
-        { "id": "c", "text": "Kamis" },
-        { "id": "d", "text": "Jumat" }
+        {
+          "id": "a",
+          "text": "Selasa"
+        },
+        {
+          "id": "b",
+          "text": "Rabu"
+        },
+        {
+          "id": "c",
+          "text": "Kamis"
+        },
+        {
+          "id": "d",
+          "text": "Jumat"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "logic-reason-02-q02",
@@ -32,10 +48,18 @@
       "hint": "Ingat lagu atau trik buku jari tangan untuk menghitung jumlah hari dalam satu bulan.",
       "explanation": "Benar. Keempat bulan tersebut (April, Juni, September, November) semuanya berjumlah 30 hari.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "logic-reason-02-q03",
@@ -43,7 +67,12 @@
       "prompt": "Berapa harikah jumlah seluruh hari dalam 3 minggu 4 hari?",
       "hint": "1 minggu = 7 hari. Kalikan 3 dengan 7, lalu tambah 4.",
       "explanation": "3 minggu = 3 x 7 = 21 hari. Ditambah 4 hari menjadi 21 + 4 = 25 hari.",
-      "correctAnswer": { "acceptedAnswers": ["25", "25 hari"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "25",
+          "25 hari"
+        ]
+      }
     },
     {
       "id": "logic-reason-02-q04",
@@ -52,13 +81,34 @@
       "hint": "Gunakan hitungan buku jari atau ingat bulan berurutan yang panjang.",
       "explanation": "Januari, Juli, dan Desember memiliki 31 hari. Februari memiliki 28 atau 29 hari, sedangkan September memiliki 30 hari.",
       "options": [
-        { "id": "a", "text": "Januari" },
-        { "id": "b", "text": "Februari" },
-        { "id": "c", "text": "Juli" },
-        { "id": "d", "text": "September" },
-        { "id": "e", "text": "Desember" }
+        {
+          "id": "a",
+          "text": "Januari"
+        },
+        {
+          "id": "b",
+          "text": "Februari"
+        },
+        {
+          "id": "c",
+          "text": "Juli"
+        },
+        {
+          "id": "d",
+          "text": "September"
+        },
+        {
+          "id": "e",
+          "text": "Desember"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c", "e"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c",
+          "e"
+        ]
+      }
     },
     {
       "id": "logic-reason-02-q05",
@@ -67,28 +117,56 @@
       "hint": "2 minggu = 14 hari. Kurangkan tanggal 18 dengan 14.",
       "explanation": "2 minggu adalah 14 hari. Jadi 18 - 14 = tanggal 4 Agustus.",
       "options": [
-        { "id": "a", "text": "4 Agustus" },
-        { "id": "b", "text": "5 Agustus" },
-        { "id": "c", "text": "6 Agustus" },
-        { "id": "d", "text": "11 Agustus" }
+        {
+          "id": "a",
+          "text": "4 Agustus"
+        },
+        {
+          "id": "b",
+          "text": "5 Agustus"
+        },
+        {
+          "id": "c",
+          "text": "6 Agustus"
+        },
+        {
+          "id": "d",
+          "text": "11 Agustus"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "logic-reason-02-q06",
       "type": "image_quiz",
-      "mediaKey": "quiz-geometri",
+      "mediaKey": "quiz-clock",
       "mediaCaption": "Halaman kalender bulan Juli yang menunjukkan bahwa tanggal 1 Juli jatuh pada hari Rabu.",
       "prompt": "Berdasarkan kalender tersebut, jatuh pada hari apakah tanggal 15 Juli?",
       "hint": "Dari tanggal 1 ke tanggal 15 berselisih 14 hari (tepat 2 minggu).",
       "explanation": "15 - 1 = 14 hari, yaitu tepat 2 minggu. Karena kelipatan 7 hari, tanggal 15 Juli jatuh pada hari yang sama, yaitu Rabu.",
       "options": [
-        { "id": "a", "text": "Selasa" },
-        { "id": "b", "text": "Rabu" },
-        { "id": "c", "text": "Kamis" },
-        { "id": "d", "text": "Jumat" }
+        {
+          "id": "a",
+          "text": "Selasa"
+        },
+        {
+          "id": "b",
+          "text": "Rabu"
+        },
+        {
+          "id": "c",
+          "text": "Kamis"
+        },
+        {
+          "id": "d",
+          "text": "Jumat"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "logic-reason-02-q07",
@@ -97,10 +175,18 @@
       "hint": "Pada tahun biasa Februari punya 28 hari, lalu bertambah 1 hari saat kabisat.",
       "explanation": "Salah. Pada tahun kabisat, bulan Februari memiliki 29 hari (bukan 30 hari).",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "logic-reason-02-q08",
@@ -108,7 +194,12 @@
       "prompt": "Jika kemarin adalah hari Jumat, hari apakah lusa?",
       "hint": "Tentukan hari ini terlebih dahulu, lalu besok, kemudian lusa (2 hari setelah hari ini).",
       "explanation": "Jika kemarin Jumat, maka hari ini Sabtu, besok Minggu, dan lusa adalah hari Senin.",
-      "correctAnswer": { "acceptedAnswers": ["Senin", "senin"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "Senin",
+          "senin"
+        ]
+      }
     },
     {
       "id": "logic-reason-02-q09",
@@ -117,12 +208,26 @@
       "hint": "Ingat bahwa bulan Juni berakhir pada tanggal 30.",
       "explanation": "Hitung maju 5 hari dari 28 Juni: 29 Juni (1), 30 Juni (2), 1 Juli (3), 2 Juli (4), 3 Juli (5). Jadi Ayah kembali tanggal 3 Juli.",
       "options": [
-        { "id": "a", "text": "1 Juli" },
-        { "id": "b", "text": "2 Juli" },
-        { "id": "c", "text": "3 Juli" },
-        { "id": "d", "text": "4 Juli" }
+        {
+          "id": "a",
+          "text": "1 Juli"
+        },
+        {
+          "id": "b",
+          "text": "2 Juli"
+        },
+        {
+          "id": "c",
+          "text": "3 Juli"
+        },
+        {
+          "id": "d",
+          "text": "4 Juli"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "logic-reason-02-q10",
@@ -131,12 +236,29 @@
       "hint": "Periksa jumlah hari dalam seminggu, bulan Februari kabisat, dan jumlah hari dalam setahun.",
       "explanation": "14 hari = 2 minggu sehingga hari tetap sama (Selasa), dan Februari pada tahun kabisat memiliki 29 hari. 1 bulan bisa 28, 29, 30, atau 31 hari, sedangkan tahun bukan kabisat berjumlah 365 hari.",
       "options": [
-        { "id": "a", "text": "Jika hari ini Selasa, maka 14 hari lagi juga hari Selasa" },
-        { "id": "b", "text": "Setiap bulan selalu berjumlah tepat 30 hari" },
-        { "id": "c", "text": "Bulan Februari pada tahun kabisat memiliki 29 hari" },
-        { "id": "d", "text": "Tahun bukan kabisat selalu berjumlah 366 hari" }
+        {
+          "id": "a",
+          "text": "Jika hari ini Selasa, maka 14 hari lagi juga hari Selasa"
+        },
+        {
+          "id": "b",
+          "text": "Setiap bulan selalu berjumlah tepat 30 hari"
+        },
+        {
+          "id": "c",
+          "text": "Bulan Februari pada tahun kabisat memiliki 29 hari"
+        },
+        {
+          "id": "d",
+          "text": "Tahun bukan kabisat selalu berjumlah 366 hari"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     }
   ]
 }

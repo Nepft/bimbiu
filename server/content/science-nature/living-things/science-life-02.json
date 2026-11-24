@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 2,
-  "prerequisites": ["science-life-01"],
+  "prerequisites": [
+    "science-life-01"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Bagian ini umumnya tumbuh ke arah bawah di dalam tanah.",
       "explanation": "Akar berfungsi menyerap air dan mineral dari tanah sekaligus menopang berdirinya tumbuhan.",
       "options": [
-        { "id": "a", "text": "Akar" },
-        { "id": "b", "text": "Mahkota bunga" },
-        { "id": "c", "text": "Buah" },
-        { "id": "d", "text": "Kuncup" }
+        {
+          "id": "a",
+          "text": "Akar"
+        },
+        {
+          "id": "b",
+          "text": "Mahkota bunga"
+        },
+        {
+          "id": "c",
+          "text": "Buah"
+        },
+        {
+          "id": "d",
+          "text": "Kuncup"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "science-life-02-q02",
@@ -32,10 +48,18 @@
       "hint": "Zat ini pula yang memberi warna hijau pada daun.",
       "explanation": "Benar! Klorofil adalah pigmen hijau pada tumbuhan yang menyerap cahaya Matahari untuk proses fotosintesis.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-life-02-q03",
@@ -44,12 +68,26 @@
       "hint": "Bagian ini memiliki banyak klorofil dan mulut daun (stomata).",
       "explanation": "Daun merupakan tempat utama fotosintesis karena kaya akan klorofil dan memiliki stomata untuk pertukaran gas.",
       "options": [
-        { "id": "a", "text": "Akar" },
-        { "id": "b", "text": "Daun" },
-        { "id": "c", "text": "Kulit batang kayu" },
-        { "id": "d", "text": "Biji" }
+        {
+          "id": "a",
+          "text": "Akar"
+        },
+        {
+          "id": "b",
+          "text": "Daun"
+        },
+        {
+          "id": "c",
+          "text": "Kulit batang kayu"
+        },
+        {
+          "id": "d",
+          "text": "Biji"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "science-life-02-q04",
@@ -58,7 +96,10 @@
       "hint": "Diawali huruf S.",
       "explanation": "Stomata adalah pori-pori kecil di permukaan daun untuk menyerap karbon dioksida dan melepaskan oksigen serta uap air.",
       "correctAnswer": {
-        "acceptedAnswers": ["stomata", "Stomata"]
+        "acceptedAnswers": [
+          "stomata",
+          "Stomata"
+        ]
       }
     },
     {
@@ -68,12 +109,30 @@
       "hint": "Tumbuhan menyerap gas dari udara, cairan dari tanah, dan sinar dari langit.",
       "explanation": "Fotosintesis memerlukan air (dari akar), gas karbon dioksida (dari udara), dan energi cahaya (umumnya cahaya Matahari).",
       "options": [
-        { "id": "a", "text": "Air" },
-        { "id": "b", "text": "Karbon dioksida" },
-        { "id": "c", "text": "Cahaya Matahari" },
-        { "id": "d", "text": "Asap kendaraan bermotor" }
+        {
+          "id": "a",
+          "text": "Air"
+        },
+        {
+          "id": "b",
+          "text": "Karbon dioksida"
+        },
+        {
+          "id": "c",
+          "text": "Cahaya Matahari"
+        },
+        {
+          "id": "d",
+          "text": "Asap kendaraan bermotor"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "science-life-02-q06",
@@ -82,26 +141,48 @@
       "hint": "Glukosa menjadi makanan tumbuhan, sedangkan oksigen dilepas ke udara.",
       "explanation": "Benar! Fotosintesis menghasilkan glukosa sebagai sumber energi tumbuhan dan melepaskan oksigen yang sangat penting bagi makhluk hidup.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-life-02-q07",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-ecosystem",
       "mediaCaption": "Ekosistem hijau di daratan Bumi tempat tumbuhan menjadi penghasil makanan dan oksigen.",
       "prompt": "Peristiwa jatuhnya serbuk sari ke kepala putik pada bunga disebut...",
       "hint": "Sering dibantu oleh lebah, kupu-kupu, atau angin.",
       "explanation": "Penyerbukan adalah menempelnya serbuk sari di kepala putik yang mengawali pembentukan biji dan buah.",
       "options": [
-        { "id": "a", "text": "Penyerbukan" },
-        { "id": "b", "text": "Penguapan" },
-        { "id": "c", "text": "Pembekuan" },
-        { "id": "d", "text": "Pelapukan" }
+        {
+          "id": "a",
+          "text": "Penyerbukan"
+        },
+        {
+          "id": "b",
+          "text": "Penguapan"
+        },
+        {
+          "id": "c",
+          "text": "Pembekuan"
+        },
+        {
+          "id": "d",
+          "text": "Pelapukan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "science-life-02-q08",
@@ -110,12 +191,26 @@
       "hint": "Berasal dari kata Yunani yang berarti kayu; pasangannya adalah floem.",
       "explanation": "Xilem (pembuluh kayu) mengangkut air dan mineral dari akar menuju daun, sedangkan floem mengedarkan hasil fotosintesis.",
       "options": [
-        { "id": "a", "text": "Floem" },
-        { "id": "b", "text": "Xilem" },
-        { "id": "c", "text": "Kambium" },
-        { "id": "d", "text": "Kloroplas" }
+        {
+          "id": "a",
+          "text": "Floem"
+        },
+        {
+          "id": "b",
+          "text": "Xilem"
+        },
+        {
+          "id": "c",
+          "text": "Kambium"
+        },
+        {
+          "id": "d",
+          "text": "Kloroplas"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "science-life-02-q09",
@@ -124,7 +219,10 @@
       "hint": "Berukuran sangat halus seperti debu dan mudah terbawa angin.",
       "explanation": "Tumbuhan tidak berbunga seperti paku-pakuan dan lumut berkembang biak dengan spora.",
       "correctAnswer": {
-        "acceptedAnswers": ["spora", "Spora"]
+        "acceptedAnswers": [
+          "spora",
+          "Spora"
+        ]
       }
     },
     {
@@ -134,12 +232,29 @@
       "hint": "Umbinya terdiri atas lapisan-lapisan daun berdaging yang menumpuk.",
       "explanation": "Bawang merah dan bawang putih berkembang biak dengan umbi lapis, sedangkan kentang menggunakan umbi batang dan singkong menggunakan umbi akar.",
       "options": [
-        { "id": "a", "text": "Bawang merah" },
-        { "id": "b", "text": "Bawang putih" },
-        { "id": "c", "text": "Kentang" },
-        { "id": "d", "text": "Singkong" }
+        {
+          "id": "a",
+          "text": "Bawang merah"
+        },
+        {
+          "id": "b",
+          "text": "Bawang putih"
+        },
+        {
+          "id": "c",
+          "text": "Kentang"
+        },
+        {
+          "id": "d",
+          "text": "Singkong"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     }
   ]
 }

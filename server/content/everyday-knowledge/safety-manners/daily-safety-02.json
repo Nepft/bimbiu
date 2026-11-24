@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 2,
-  "prerequisites": ["daily-safety-01"],
+  "prerequisites": [
+    "daily-safety-01"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Air keran merupakan penghantar listrik yang baik.",
       "explanation": "Air dapat menghantarkan arus listrik sehingga tangan yang basah membuat kita sangat berisiko terkena sengatan listrik.",
       "options": [
-        { "id": "a", "text": "Karena tombol sakelar bisa berkarat seketika" },
-        { "id": "b", "text": "Karena air dapat menghantarkan listrik dan menyebabkan kesetrum" },
-        { "id": "c", "text": "Karena tagihan listrik menjadi dua kali lipat" },
-        { "id": "d", "text": "Karena steker menjadi licin dan berubah warna" }
+        {
+          "id": "a",
+          "text": "Karena tombol sakelar bisa berkarat seketika"
+        },
+        {
+          "id": "b",
+          "text": "Karena air dapat menghantarkan listrik dan menyebabkan kesetrum"
+        },
+        {
+          "id": "c",
+          "text": "Karena tagihan listrik menjadi dua kali lipat"
+        },
+        {
+          "id": "d",
+          "text": "Karena steker menjadi licin dan berubah warna"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "daily-safety-02-q02",
@@ -32,10 +48,18 @@
       "hint": "Menarik kabel dapat membuat serabut kawat di dalamnya putus atau terkelupas.",
       "explanation": "Benar! Menarik kabel bisa merusak sambungan di dalam steker dan menimbulkan percikan api atau korsleting.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "daily-safety-02-q03",
@@ -44,12 +68,30 @@
       "hint": "Hindari beban berlebih dan kabel rusak.",
       "explanation": "Tidak menumpuk banyak steker di satu stopkontak, segera mengganti kabel terkelupas, dan menjauhkan air dari perangkat listrik menjaga rumah tetap aman.",
       "options": [
-        { "id": "a", "text": "Tidak menumpuk terlalu banyak colokan di satu stopkontak" },
-        { "id": "b", "text": "Melaporkan ke orang tua jika melihat kabel yang terkelupas" },
-        { "id": "c", "text": "Menjauhkan gelas berisi air dari kabel dan perangkat listrik" },
-        { "id": "d", "text": "Menaruh handuk basah di atas adaptor yang panas" }
+        {
+          "id": "a",
+          "text": "Tidak menumpuk terlalu banyak colokan di satu stopkontak"
+        },
+        {
+          "id": "b",
+          "text": "Melaporkan ke orang tua jika melihat kabel yang terkelupas"
+        },
+        {
+          "id": "c",
+          "text": "Menjauhkan gelas berisi air dari kabel dan perangkat listrik"
+        },
+        {
+          "id": "d",
+          "text": "Menaruh handuk basah di atas adaptor yang panas"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-safety-02-q04",
@@ -58,24 +100,43 @@
       "hint": "Alat ini dipakai untuk menyalakan lampu di dinding ruangan.",
       "explanation": "Menekan sakelar lampu atau listrik dapat menghasilkan percikan api kecil yang langsung menyulut gas di udara.",
       "correctAnswer": {
-        "acceptedAnswers": ["lampu", "Lampu", "listrik", "Listrik"]
+        "acceptedAnswers": [
+          "lampu",
+          "Lampu",
+          "listrik",
+          "Listrik"
+        ]
       }
     },
     {
       "id": "daily-safety-02-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-traffic-sign",
       "mediaCaption": "Sebuah stopkontak dinding dipasangi T-steker bertumpuk dengan 6 kabel sekaligus: setrika, pemanas air, kipas angin, pengisi daya, televisi, dan lampu belajar.",
       "prompt": "Bahaya apa yang dapat terjadi akibat kondisi stopkontak seperti pada gambar?",
       "hint": "Terlalu banyak arus listrik melalui satu titik menyebabkan panas berlebih.",
       "explanation": "Stopkontak yang kelebihan beban bisa menjadi sangat panas, meleleh, dan memicu korsleting atau kebakaran.",
       "options": [
-        { "id": "a", "text": "Stopkontak kelebihan beban, panas, dan berisiko kebakaran" },
-        { "id": "b", "text": "Alat elektronik bekerja dua kali lebih dingin" },
-        { "id": "c", "text": "Listrik di rumah menjadi lebih hemat" },
-        { "id": "d", "text": "Kabel menjadi lebih kuat dan tahan lama" }
+        {
+          "id": "a",
+          "text": "Stopkontak kelebihan beban, panas, dan berisiko kebakaran"
+        },
+        {
+          "id": "b",
+          "text": "Alat elektronik bekerja dua kali lebih dingin"
+        },
+        {
+          "id": "c",
+          "text": "Listrik di rumah menjadi lebih hemat"
+        },
+        {
+          "id": "d",
+          "text": "Kabel menjadi lebih kuat dan tahan lama"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-safety-02-q06",
@@ -84,12 +145,26 @@
       "hint": "Buka ventilasi agar gas keluar dan segera panggil orang dewasa.",
       "explanation": "Membuka pintu dan jendela membantu gas keluar ruangan, jangan menyalakan api atau listrik, dan segera beritahu orang tua/dewasa.",
       "options": [
-        { "id": "a", "text": "Menyalakan korek api untuk memeriksa lokasi kebocoran" },
-        { "id": "b", "text": "Membuka pintu dan jendela, jangan menyalakan listrik/api, lalu panggil orang dewasa" },
-        { "id": "c", "text": "Menutup semua jendela agar baunya tidak keluar rumah" },
-        { "id": "d", "text": "Menyalakan kipas angin listrik dengan cepat" }
+        {
+          "id": "a",
+          "text": "Menyalakan korek api untuk memeriksa lokasi kebocoran"
+        },
+        {
+          "id": "b",
+          "text": "Membuka pintu dan jendela, jangan menyalakan listrik/api, lalu panggil orang dewasa"
+        },
+        {
+          "id": "c",
+          "text": "Menutup semua jendela agar baunya tidak keluar rumah"
+        },
+        {
+          "id": "d",
+          "text": "Menyalakan kipas angin listrik dengan cepat"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "daily-safety-02-q07",
@@ -98,10 +173,18 @@
       "hint": "Kabel tiang listrik bertegangan sangat tinggi.",
       "explanation": "Benar! Bermain layangan harus di lapangan terbuka yang jauh dari jaringan kabel listrik.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "daily-safety-02-q08",
@@ -110,12 +193,30 @@
       "hint": "Jauhkan benda mudah terbakar dan pastikan didampingi orang dewasa.",
       "explanation": "Menjauhkan kain atau kertas dari api, tidak meninggalkan kompor menyala tanpa pengawasan, dan meminta pendampingan orang dewasa menjaga keamanan.",
       "options": [
-        { "id": "a", "text": "Menjauhkan kain, tisu, dan kertas dari nyala api kompor" },
-        { "id": "b", "text": "Meminta pendampingan orang dewasa saat memasak" },
-        { "id": "c", "text": "Memastikan kompor dimatikan setelah selesai digunakan" },
-        { "id": "d", "text": "Menyiram minyak goreng yang menyala api dengan air" }
+        {
+          "id": "a",
+          "text": "Menjauhkan kain, tisu, dan kertas dari nyala api kompor"
+        },
+        {
+          "id": "b",
+          "text": "Meminta pendampingan orang dewasa saat memasak"
+        },
+        {
+          "id": "c",
+          "text": "Memastikan kompor dimatikan setelah selesai digunakan"
+        },
+        {
+          "id": "d",
+          "text": "Menyiram minyak goreng yang menyala api dengan air"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-safety-02-q09",
@@ -124,24 +225,42 @@
       "hint": "Singkatan 4 huruf yang diawali dengan huruf A dan diakhiri R.",
       "explanation": "APAR adalah singkatan dari Alat Pemadam Api Ringan untuk memadamkan api kecil pada tahap awal kebakaran.",
       "correctAnswer": {
-        "acceptedAnswers": ["APAR", "apar", "Apar"]
+        "acceptedAnswers": [
+          "APAR",
+          "apar",
+          "Apar"
+        ]
       }
     },
     {
       "id": "daily-safety-02-q10",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-traffic-sign",
       "mediaCaption": "Di lantai kamar tidur terlihat kabel kipas angin yang karet pembungkusnya terkelupas sehingga kawat tembaganya tampak terbuka.",
       "prompt": "Apa langkah paling aman yang harus kamu lakukan saat melihat kabel seperti itu?",
       "hint": "Jangan menyentuh bagian kawat yang terbuka maupun memakainya langsung.",
       "explanation": "Kabel yang terkelupas sangat berisiko menyetrum atau memicu percikan api. Jangan disentuh langsung dan segera laporkan kepada orang dewasa.",
       "options": [
-        { "id": "a", "text": "Tidak menyentuh bagian terbuka dan segera melapor ke orang tua" },
-        { "id": "b", "text": "Menutupnya dengan tisu basah lalu menyalakan kipas" },
-        { "id": "c", "text": "Memegang kawatnya untuk mengecek apakah masih panas" },
-        { "id": "d", "text": "Membiarkannya di bawah kasur agar tidak terlihat" }
+        {
+          "id": "a",
+          "text": "Tidak menyentuh bagian terbuka dan segera melapor ke orang tua"
+        },
+        {
+          "id": "b",
+          "text": "Menutupnya dengan tisu basah lalu menyalakan kipas"
+        },
+        {
+          "id": "c",
+          "text": "Memegang kawatnya untuk mengecek apakah masih panas"
+        },
+        {
+          "id": "d",
+          "text": "Membiarkannya di bawah kasur agar tidak terlihat"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 3,
-  "prerequisites": ["daily-safety-02"],
+  "prerequisites": [
+    "daily-safety-02"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Bersihkan dulu kotoran dan pasir yang menempel sebelum memberi obat.",
       "explanation": "Mencuci luka dengan air bersih mengalir menghilangkan debu dan kuman sebelum diolesi antiseptik dan ditutup plester.",
       "options": [
-        { "id": "a", "text": "Menutup luka langsung dengan plester tanpa dicuci" },
-        { "id": "b", "text": "Mencuci luka dengan air bersih yang mengalir" },
-        { "id": "c", "text": "Mengoleskan kecap atau minyak goreng ke luka" },
-        { "id": "d", "text": "Menggaruk luka agar cepat kering" }
+        {
+          "id": "a",
+          "text": "Menutup luka langsung dengan plester tanpa dicuci"
+        },
+        {
+          "id": "b",
+          "text": "Mencuci luka dengan air bersih yang mengalir"
+        },
+        {
+          "id": "c",
+          "text": "Mengoleskan kecap atau minyak goreng ke luka"
+        },
+        {
+          "id": "d",
+          "text": "Menggaruk luka agar cepat kering"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "daily-safety-03-q02",
@@ -32,10 +48,18 @@
       "hint": "Pasta gigi justru memerangkap panas dan dapat mengiritasi kulit yang terluka.",
       "explanation": "Salah. Luka bakar ringan harus dialiri air dingin (bukan air es) selama 10–20 menit untuk menurunkan panas, bukan diolesi pasta gigi.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "daily-safety-03-q03",
@@ -44,12 +68,30 @@
       "hint": "Pikirkan perlengkapan untuk membersihkan dan menutup luka ringan.",
       "explanation": "Kasa steril, plester luka, dan cairan antiseptik adalah perlengkapan utama P3K untuk luka ringan. Permen karet bukan alat P3K.",
       "options": [
-        { "id": "a", "text": "Kasa steril dan perban" },
-        { "id": "b", "text": "Plester luka" },
-        { "id": "c", "text": "Cairan antiseptik" },
-        { "id": "d", "text": "Permen karet dan lem kertas" }
+        {
+          "id": "a",
+          "text": "Kasa steril dan perban"
+        },
+        {
+          "id": "b",
+          "text": "Plester luka"
+        },
+        {
+          "id": "c",
+          "text": "Cairan antiseptik"
+        },
+        {
+          "id": "d",
+          "text": "Permen karet dan lem kertas"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-safety-03-q04",
@@ -58,24 +100,41 @@
       "hint": "Terdiri dari huruf P, angka 3, dan huruf K.",
       "explanation": "P3K adalah singkatan dari Pertolongan Pertama Pada Kecelakaan.",
       "correctAnswer": {
-        "acceptedAnswers": ["P3K", "p3k"]
+        "acceptedAnswers": [
+          "P3K",
+          "p3k"
+        ]
       }
     },
     {
       "id": "daily-safety-03-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-traffic-sign",
       "mediaCaption": "Seorang anak mengalami mimisan: Ia duduk tegak, mencondongkan kepala sedikit ke depan, dan memencet lembut bagian lunak hidungnya menggunakan tisu bersih.",
       "prompt": "Mengapa posisi kepala pada gambar tersebut dicondongkan ke depan, bukan mendongak ke belakang?",
       "hint": "Pikirkan ke mana arah darah mengalir jika kepala mendongak ke belakang.",
       "explanation": "Mencondongkan kepala ke depan mencegah darah mengalir ke tenggorokan yang bisa menyebabkan tersedak atau mual.",
       "options": [
-        { "id": "a", "text": "Agar darah tidak mengalir masuk ke tenggorokan dan membuat tersedak" },
-        { "id": "b", "text": "Agar darah mengalir lebih deras ke luar" },
-        { "id": "c", "text": "Supaya hidung tidak bisa bernapas sama sekali" },
-        { "id": "d", "text": "Agar tisu menjadi lebih cepat basah" }
+        {
+          "id": "a",
+          "text": "Agar darah tidak mengalir masuk ke tenggorokan dan membuat tersedak"
+        },
+        {
+          "id": "b",
+          "text": "Agar darah mengalir lebih deras ke luar"
+        },
+        {
+          "id": "c",
+          "text": "Supaya hidung tidak bisa bernapas sama sekali"
+        },
+        {
+          "id": "d",
+          "text": "Agar tisu menjadi lebih cepat basah"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-safety-03-q06",
@@ -84,12 +143,26 @@
       "hint": "Gunakan air bersuhu sejuk dari keran selama beberapa menit.",
       "explanation": "Mengaliri bagian kulit yang terkena air panas dengan air dingin mengalir selama 10–20 menit membantu meredakan panas dan nyeri.",
       "options": [
-        { "id": "a", "text": "Dialiri air keran yang dingin dan mengalir selama 10–20 menit" },
-        { "id": "b", "text": "Diolesi tepung terigu atau kopi bubuk" },
-        { "id": "c", "text": "Ditempeli es batu langsung tanpa kain" },
-        { "id": "d", "text": "Ditusuk jika ada gelembung kecil" }
+        {
+          "id": "a",
+          "text": "Dialiri air keran yang dingin dan mengalir selama 10–20 menit"
+        },
+        {
+          "id": "b",
+          "text": "Diolesi tepung terigu atau kopi bubuk"
+        },
+        {
+          "id": "c",
+          "text": "Ditempeli es batu langsung tanpa kain"
+        },
+        {
+          "id": "d",
+          "text": "Ditusuk jika ada gelembung kecil"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-safety-03-q07",
@@ -98,10 +171,18 @@
       "hint": "Tangan yang kotor bisa menyebabkan infeksi pada luka terbuka.",
       "explanation": "Benar! Mencuci tangan sebelum merawat luka mencegah masuknya kuman dan bakteri ke luka.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "daily-safety-03-q08",
@@ -110,12 +191,30 @@
       "hint": "Istirahatkan bagian yang cedera dan panggil guru atau orang dewasa.",
       "explanation": "Mengistirahatkan kaki, mengompres dingin dengan handuk berbalut es, dan memanggil guru atau petugas UKS adalah langkah tepat. Mengurut paksa bisa memperparah cedera.",
       "options": [
-        { "id": "a", "text": "Mengistirahatkan kaki dan tidak memaksanya berjalan" },
-        { "id": "b", "text": "Mengompres dingin menggunakan es yang dibalut kain" },
-        { "id": "c", "text": "Segera memanggil guru atau orang dewasa" },
-        { "id": "d", "text": "Memijat atau menarik kaki dengan keras" }
+        {
+          "id": "a",
+          "text": "Mengistirahatkan kaki dan tidak memaksanya berjalan"
+        },
+        {
+          "id": "b",
+          "text": "Mengompres dingin menggunakan es yang dibalut kain"
+        },
+        {
+          "id": "c",
+          "text": "Segera memanggil guru atau orang dewasa"
+        },
+        {
+          "id": "d",
+          "text": "Memijat atau menarik kaki dengan keras"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-safety-03-q09",
@@ -124,24 +223,43 @@
       "hint": "Lawan kata dari tempat yang terik terkena matahari langsung.",
       "explanation": "Berpindah ke tempat yang teduh atau sejuk membantu menurunkan suhu tubuh dan mencegah pingsan.",
       "correctAnswer": {
-        "acceptedAnswers": ["teduh", "Teduh", "sejuk", "Sejuk"]
+        "acceptedAnswers": [
+          "teduh",
+          "Teduh",
+          "sejuk",
+          "Sejuk"
+        ]
       }
     },
     {
       "id": "daily-safety-03-q10",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-traffic-sign",
       "mediaCaption": "Seorang siswa melihat temannya terjatuh keras dari sepeda di halaman sekolah dan tampak kesakitan hebat di bagian lengan sampai sulit digerakkan.",
       "prompt": "Apa tindakan paling bijak yang harus dilakukan siswa tersebut?",
       "hint": "Cedera berat tidak boleh ditangani sembarangan tanpa bantuan orang dewasa.",
       "explanation": "Jika seseorang kesakitan hebat atau dicurigai patah tulang, jangan memindahkan bagian yang cedera secara paksa; segera panggil guru atau orang dewasa.",
       "options": [
-        { "id": "a", "text": "Tetap tenang, jangan menarik lengannya, dan segera panggil guru/orang dewasa" },
-        { "id": "b", "text": "Menarik lengan teman sekuat tenaga agar lurus" },
-        { "id": "c", "text": "Menyuruh teman langsung berlari ke kelas" },
-        { "id": "d", "text": "Meninggalkan teman sendirian tanpa memberitahu siapa pun" }
+        {
+          "id": "a",
+          "text": "Tetap tenang, jangan menarik lengannya, dan segera panggil guru/orang dewasa"
+        },
+        {
+          "id": "b",
+          "text": "Menarik lengan teman sekuat tenaga agar lurus"
+        },
+        {
+          "id": "c",
+          "text": "Menyuruh teman langsung berlari ke kelas"
+        },
+        {
+          "id": "d",
+          "text": "Meninggalkan teman sendirian tanpa memberitahu siapa pun"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

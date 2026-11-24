@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 5,
-  "prerequisites": ["lang-vocab-04"],
+  "prerequisites": [
+    "lang-vocab-04"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Tulisannya sama dan pelafalannya sama, tetapi artinya berbeda sama sekali.",
       "explanation": "'Bisa' (racun) dan 'bisa' (dapat/mampu) memiliki ejaan dan bunyi yang sama tetapi makna yang berbeda, disebut homonim.",
       "options": [
-        { "id": "a", "text": "Homonim" },
-        { "id": "b", "text": "Antonim" },
-        { "id": "c", "text": "Akronim" },
-        { "id": "d", "text": "Singkatan" }
+        {
+          "id": "a",
+          "text": "Homonim"
+        },
+        {
+          "id": "b",
+          "text": "Antonim"
+        },
+        {
+          "id": "c",
+          "text": "Akronim"
+        },
+        {
+          "id": "d",
+          "text": "Singkatan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "lang-vocab-05-q02",
@@ -32,10 +48,18 @@
       "hint": "Ingat arti kata 'fono' berarti bunyi.",
       "explanation": "Benar. Homofon adalah kata yang bunyi pelafalannya sama tetapi tulisan dan maknanya berbeda, seperti 'bank' dan 'bang'.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "lang-vocab-05-q03",
@@ -44,7 +68,10 @@
       "hint": "Bunyinya sama persis saat diucapkan, tetapi jumlah huruf 's'-nya berbeda.",
       "explanation": "'Masa' dan 'massa' memiliki bunyi yang sama tetapi ejaan serta artinya berbeda, sehingga disebut homofon.",
       "correctAnswer": {
-        "acceptedAnswers": ["homofon", "Homofon"]
+        "acceptedAnswers": [
+          "homofon",
+          "Homofon"
+        ]
       }
     },
     {
@@ -54,28 +81,59 @@
       "hint": "Cari kalimat yang memakai 'rapat' sebagai pertemuan dan 'rapat' sebagai sangat dekat/tidak renggang.",
       "explanation": "Pada A, 'rapat' berarti pertemuan untuk berunding. Pada C, 'rapat' berarti tidak ada celah/tertutup erat. Kalimat B dan D sama-sama bermakna pertemuan.",
       "options": [
-        { "id": "a", "text": "Pengurus OSIS mengadakan rapat persiapan lomba." },
-        { "id": "b", "text": "Rapat orang tua murid dilaksanakan hari Sabtu." },
-        { "id": "c", "text": "Pintu rumah itu sudah ditutup dengan rapat." },
-        { "id": "d", "text": "Ayah sedang mengikuti rapat di kantor." }
+        {
+          "id": "a",
+          "text": "Pengurus OSIS mengadakan rapat persiapan lomba."
+        },
+        {
+          "id": "b",
+          "text": "Rapat orang tua murid dilaksanakan hari Sabtu."
+        },
+        {
+          "id": "c",
+          "text": "Pintu rumah itu sudah ditutup dengan rapat."
+        },
+        {
+          "id": "d",
+          "text": "Ayah sedang mengikuti rapat di kantor."
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "lang-vocab-05-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-language",
+      "mediaKey": "quiz-signboard",
       "mediaCaption": "Kalender dinding menunjukkan bulan Oktober, sementara di luar jendela tampak bulan purnama bersinar.",
       "prompt": "Pada keterangan di atas, kata 'bulan' muncul dua kali dengan arti berbeda. Apa arti kata 'bulan' yang bersinar di malam hari?",
       "hint": "Benda langit yang mengelilingi Bumi.",
       "explanation": "Kata 'bulan' memiliki dua makna: satelit alami Bumi yang tampak di langit malam dan satuan waktu dalam kalender (12 bulan dalam setahun).",
       "options": [
-        { "id": "a", "text": "Satuan waktu dalam kalender" },
-        { "id": "b", "text": "Satelit alami yang mengelilingi Bumi" },
-        { "id": "c", "text": "Nama hari dalam seminggu" },
-        { "id": "d", "text": "Bentuk jam dinding" }
+        {
+          "id": "a",
+          "text": "Satuan waktu dalam kalender"
+        },
+        {
+          "id": "b",
+          "text": "Satelit alami yang mengelilingi Bumi"
+        },
+        {
+          "id": "c",
+          "text": "Nama hari dalam seminggu"
+        },
+        {
+          "id": "d",
+          "text": "Bentuk jam dinding"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-vocab-05-q06",
@@ -84,12 +142,26 @@
       "hint": "'Sanksi' memakai huruf 'k', sedangkan 'sangsi' memakai 'g' yang berarti ragu-ragu.",
       "explanation": "'Sanksi' berarti tanggungan atau hukuman akibat melanggar aturan, sedangkan 'sangsi' berarti bimbang atau ragu-ragu.",
       "options": [
-        { "id": "a", "text": "Siswa yang melanggar tata tertib akan mendapat sanksi." },
-        { "id": "b", "text": "Aku masih sanksi apakah hari ini akan turun hujan." },
-        { "id": "c", "text": "Jangan sanksi terhadap kemampuan dirimu sendiri." },
-        { "id": "d", "text": "Ia merasa sanksi untuk memilih jalan yang gelap." }
+        {
+          "id": "a",
+          "text": "Siswa yang melanggar tata tertib akan mendapat sanksi."
+        },
+        {
+          "id": "b",
+          "text": "Aku masih sanksi apakah hari ini akan turun hujan."
+        },
+        {
+          "id": "c",
+          "text": "Jangan sanksi terhadap kemampuan dirimu sendiri."
+        },
+        {
+          "id": "d",
+          "text": "Ia merasa sanksi untuk memilih jalan yang gelap."
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "lang-vocab-05-q07",
@@ -98,10 +170,18 @@
       "hint": "Satunya nama makanan dari kedelai, satunya berarti mengerti/paham.",
       "explanation": "Benar. Kedua kata 'tahu' tersebut memiliki ejaan dan bunyi sama, namun makna yang berbeda (homonim).",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "lang-vocab-05-q08",
@@ -110,7 +190,10 @@
       "hint": "Istilah kebahasaan ini diawali dengan 'poli-' yang berarti banyak.",
       "explanation": "Polisemi adalah satu kata yang memiliki beberapa makna yang masih saling berhubungan (berasal dari makna dasar yang sama).",
       "correctAnswer": {
-        "acceptedAnswers": ["polisemi", "Polisemi"]
+        "acceptedAnswers": [
+          "polisemi",
+          "Polisemi"
+        ]
       }
     },
     {
@@ -120,12 +203,26 @@
       "hint": "Bagian sepatu yang berada di bawah tumit.",
       "explanation": "Kata 'hak' pada sepatu berarti bagian belakang alas sepatu yang agak tinggi di bawah tumit.",
       "options": [
-        { "id": "a", "text": "Kewenangan yang dimiliki seseorang" },
-        { "id": "b", "text": "Bagian belakang sepatu di bawah tumit" },
-        { "id": "c", "text": "Tali pengikat sepatu" },
-        { "id": "d", "text": "Ukuran panjang kaki" }
+        {
+          "id": "a",
+          "text": "Kewenangan yang dimiliki seseorang"
+        },
+        {
+          "id": "b",
+          "text": "Bagian belakang sepatu di bawah tumit"
+        },
+        {
+          "id": "c",
+          "text": "Tali pengikat sepatu"
+        },
+        {
+          "id": "d",
+          "text": "Ukuran panjang kaki"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-vocab-05-q10",
@@ -134,12 +231,29 @@
       "hint": "Cari pasangan kata yang hurufnya sedikit berbeda tetapi terdengar hampir/sama persis saat diucapkan.",
       "explanation": "'syarat - sarat' dan 'rok - rock' adalah contoh pasangan homofon. 'bisa - bisa' dan 'rapat - rapat' ejaannya sama persis (homonim).",
       "options": [
-        { "id": "a", "text": "syarat dan sarat" },
-        { "id": "b", "text": "bisa dan bisa" },
-        { "id": "c", "text": "rok dan rock" },
-        { "id": "d", "text": "rapat dan rapat" }
+        {
+          "id": "a",
+          "text": "syarat dan sarat"
+        },
+        {
+          "id": "b",
+          "text": "bisa dan bisa"
+        },
+        {
+          "id": "c",
+          "text": "rok dan rock"
+        },
+        {
+          "id": "d",
+          "text": "rapat dan rapat"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     }
   ]
 }

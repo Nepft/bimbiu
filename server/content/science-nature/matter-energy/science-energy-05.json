@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 5,
-  "prerequisites": ["science-energy-04"],
+  "prerequisites": [
+    "science-energy-04"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Arus listrik hanya mengalir jika jalurnya tersambung penuh tanpa terputus.",
       "explanation": "Menutup sakelar membuat rangkaian menjadi tertutup sehingga arus listrik dapat mengalir dari baterai menuju lampu dan kembali ke baterai.",
       "options": [
-        { "id": "a", "text": "Karena arus listrik dapat mengalir dalam rangkaian tertutup" },
-        { "id": "b", "text": "Karena baterai menjadi benda cair" },
-        { "id": "c", "text": "Karena kabel memutus semua arus listrik" },
-        { "id": "d", "text": "Karena lampu menarik udara dari ruangan" }
+        {
+          "id": "a",
+          "text": "Karena arus listrik dapat mengalir dalam rangkaian tertutup"
+        },
+        {
+          "id": "b",
+          "text": "Karena baterai menjadi benda cair"
+        },
+        {
+          "id": "c",
+          "text": "Karena kabel memutus semua arus listrik"
+        },
+        {
+          "id": "d",
+          "text": "Karena lampu menarik udara dari ruangan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "science-energy-05-q02",
@@ -32,10 +48,18 @@
       "hint": "Kutub senama tolak-menolak, kutub tidak senama tarik-menarik.",
       "explanation": "Benar! Kutub magnet yang sama (U–U atau S–S) saling tolak-menolak, sedangkan kutub berbeda (U–S) saling tarik-menarik.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-energy-05-q03",
@@ -44,12 +68,26 @@
       "hint": "Apa yang terjadi pada lampu kamar mandi jika lampu ruang tamu dimatikan?",
       "explanation": "Pada rangkaian paralel, setiap lampu memiliki cabang sendiri sehingga jika satu lampu dimatikan atau putus, lampu lainnya tetap menyala.",
       "options": [
-        { "id": "a", "text": "Jika satu lampu padam, lampu lain di cabang berbeda tetap menyala" },
-        { "id": "b", "text": "Semua lampu harus selalu menyala dan mati bersamaan" },
-        { "id": "c", "text": "Tidak memerlukan kabel sama sekali" },
-        { "id": "d", "text": "Lampu hanya bisa menyala di luar ruangan" }
+        {
+          "id": "a",
+          "text": "Jika satu lampu padam, lampu lain di cabang berbeda tetap menyala"
+        },
+        {
+          "id": "b",
+          "text": "Semua lampu harus selalu menyala dan mati bersamaan"
+        },
+        {
+          "id": "c",
+          "text": "Tidak memerlukan kabel sama sekali"
+        },
+        {
+          "id": "d",
+          "text": "Lampu hanya bisa menyala di luar ruangan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "science-energy-05-q04",
@@ -58,7 +96,12 @@
       "hint": "Digunakan untuk merapikan pakaian yang kusut.",
       "explanation": "Setrika listrik mengubah energi listrik menjadi energi panas (kalor) pada bagian alas logamnya.",
       "correctAnswer": {
-        "acceptedAnswers": ["panas", "Panas", "kalor", "Kalor"]
+        "acceptedAnswers": [
+          "panas",
+          "Panas",
+          "kalor",
+          "Kalor"
+        ]
       }
     },
     {
@@ -68,12 +111,30 @@
       "hint": "Umumnya terbuat dari besi, baja, nikel, atau kobalt.",
       "explanation": "Paku besi, klip kertas baja, dan jarum jahit dari baja ditarik kuat oleh magnet, sedangkan penghapus karet tidak ditarik magnet.",
       "options": [
-        { "id": "a", "text": "Paku besi" },
-        { "id": "b", "text": "Klip kertas baja" },
-        { "id": "c", "text": "Jarum jahit baja" },
-        { "id": "d", "text": "Penghapus karet" }
+        {
+          "id": "a",
+          "text": "Paku besi"
+        },
+        {
+          "id": "b",
+          "text": "Klip kertas baja"
+        },
+        {
+          "id": "c",
+          "text": "Jarum jahit baja"
+        },
+        {
+          "id": "d",
+          "text": "Penghapus karet"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "science-energy-05-q06",
@@ -82,26 +143,48 @@
       "hint": "Bagian dalam kabel adalah tembaga (konduktor), bagian luarnya plastik (isolator).",
       "explanation": "Benar! Isolator plastik atau karet tidak menghantarkan listrik sehingga aman saat kabel dipegang atau dipasang.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-energy-05-q07",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-matter",
       "mediaCaption": "Bumi dengan potensi energi surya, angin, dan air yang melimpah untuk masa depan bersih.",
       "prompt": "Alat yang dipasang di atap rumah atau gedung untuk mengubah energi cahaya Matahari langsung menjadi energi listrik disebut...",
       "hint": "Menggunakan sel fotovoltaik dan sering terlihat berwarna biru gelap berkilau.",
       "explanation": "Panel surya (solar panel) menangkap energi cahaya Matahari dan mengubahnya menjadi energi listrik yang bersih dan terbarukan.",
       "options": [
-        { "id": "a", "text": "Panel surya" },
-        { "id": "b", "text": "Kompas magnet" },
-        { "id": "c", "text": "Sekering" },
-        { "id": "d", "text": "Dinamo sepeda" }
+        {
+          "id": "a",
+          "text": "Panel surya"
+        },
+        {
+          "id": "b",
+          "text": "Kompas magnet"
+        },
+        {
+          "id": "c",
+          "text": "Sekering"
+        },
+        {
+          "id": "d",
+          "text": "Dinamo sepeda"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "science-energy-05-q08",
@@ -110,12 +193,26 @@
       "hint": "Air dari bendungan dialirkan deras ke bawah.",
       "explanation": "Aliran air deras memiliki energi gerak (kinetik) yang memutar turbin dan generator untuk menghasilkan listrik.",
       "options": [
-        { "id": "a", "text": "Energi gerak aliran air" },
-        { "id": "b", "text": "Energi bunyi petir" },
-        { "id": "c", "text": "Energi pembakaran plastik" },
-        { "id": "d", "text": "Energi cahaya bintang malam" }
+        {
+          "id": "a",
+          "text": "Energi gerak aliran air"
+        },
+        {
+          "id": "b",
+          "text": "Energi bunyi petir"
+        },
+        {
+          "id": "c",
+          "text": "Energi pembakaran plastik"
+        },
+        {
+          "id": "d",
+          "text": "Energi cahaya bintang malam"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "science-energy-05-q09",
@@ -124,7 +221,10 @@
       "hint": "Sering dibawa oleh pendaki gunung dan pelaut; diawali huruf K.",
       "explanation": "Kompas bekerja memanfaatkan medan magnet Bumi sehingga jarum magnetnya selalu menunjuk ke arah utara dan selatan.",
       "correctAnswer": {
-        "acceptedAnswers": ["kompas", "Kompas"]
+        "acceptedAnswers": [
+          "kompas",
+          "Kompas"
+        ]
       }
     },
     {
@@ -134,12 +234,30 @@
       "hint": "Sumber energi ini berasal dari alam yang terus tersedia dan tidak cepat habis.",
       "explanation": "Sinar matahari (PLTS), energi angin (PLTB), dan aliran air (PLTA) merupakan sumber energi terbarukan, berbeda dengan batu bara yang berupa bahan bakar fosil.",
       "options": [
-        { "id": "a", "text": "Cahaya matahari" },
-        { "id": "b", "text": "Angin" },
-        { "id": "c", "text": "Aliran air sungai atau bendungan" },
-        { "id": "d", "text": "Batu bara" }
+        {
+          "id": "a",
+          "text": "Cahaya matahari"
+        },
+        {
+          "id": "b",
+          "text": "Angin"
+        },
+        {
+          "id": "c",
+          "text": "Aliran air sungai atau bendungan"
+        },
+        {
+          "id": "d",
+          "text": "Batu bara"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     }
   ]
 }

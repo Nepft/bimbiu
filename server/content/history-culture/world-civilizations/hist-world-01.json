@@ -18,12 +18,26 @@
       "hint": "Sungai ini mengalir dari selatan ke utara menuju Laut Tengah.",
       "explanation": "Sungai Nil menyediakan air untuk minum, bercocok tanam, dan jalur transportasi perahu bagi rakyat Mesir Kuno.",
       "options": [
-        { "id": "a", "text": "Sungai Nil" },
-        { "id": "b", "text": "Sungai Amazon" },
-        { "id": "c", "text": "Sungai Musi" },
-        { "id": "d", "text": "Sungai Gangga" }
+        {
+          "id": "a",
+          "text": "Sungai Nil"
+        },
+        {
+          "id": "b",
+          "text": "Sungai Amazon"
+        },
+        {
+          "id": "c",
+          "text": "Sungai Musi"
+        },
+        {
+          "id": "d",
+          "text": "Sungai Gangga"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-01-q02",
@@ -32,10 +46,18 @@
       "hint": "Piramida terbesar yang paling terkenal berada di dataran Giza.",
       "explanation": "Benar, Piramida di Mesir Kuno berfungsi sebagai makam megah bagi para Firaun.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-world-01-q03",
@@ -44,12 +66,26 @@
       "hint": "Salah satu penguasa mudanya yang terkenal adalah Tutankhamun.",
       "explanation": "Firaun (Pharaoh) adalah gelar bagi pemimpin tertinggi politik dan keagamaan di Mesir Kuno.",
       "options": [
-        { "id": "a", "text": "Firaun" },
-        { "id": "b", "text": "Kaisar" },
-        { "id": "c", "text": "Mahapatih" },
-        { "id": "d", "text": "Sultan" }
+        {
+          "id": "a",
+          "text": "Firaun"
+        },
+        {
+          "id": "b",
+          "text": "Kaisar"
+        },
+        {
+          "id": "c",
+          "text": "Mahapatih"
+        },
+        {
+          "id": "d",
+          "text": "Sultan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-01-q04",
@@ -58,24 +94,41 @@
       "hint": "Kata ini terdiri dari empat huruf dan berawalan huruf M.",
       "explanation": "Mumi adalah jasad yang diawetkan karena masyarakat Mesir Kuno percaya pada kehidupan setelah kematian.",
       "correctAnswer": {
-        "acceptedAnswers": ["mumi", "mummy"]
+        "acceptedAnswers": [
+          "mumi",
+          "mummy"
+        ]
       }
     },
     {
       "id": "hist-world-01-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-candi",
+      "mediaKey": "quiz-hieroglif",
       "mediaCaption": "Ilustrasi pahatan tulisan gambar kuno berupa burung, mata, dan simbol-simbol indah pada dinding batu kuil Mesir.",
       "prompt": "Sistem tulisan kuno masyarakat Mesir yang menggunakan lambang gambar dan simbol pada dinding batu atau papirus disebut...",
       "hint": "Namanya berawalan huruf H dan berakhiran 'glif'.",
       "explanation": "Hieroglif adalah sistem tulisan berbentuk simbol gambar yang digunakan masyarakat Mesir Kuno.",
       "options": [
-        { "id": "a", "text": "Hieroglif" },
-        { "id": "b", "text": "Pallawa" },
-        { "id": "c", "text": "Alfabet Latin" },
-        { "id": "d", "text": "Huruf Braille" }
+        {
+          "id": "a",
+          "text": "Hieroglif"
+        },
+        {
+          "id": "b",
+          "text": "Pallawa"
+        },
+        {
+          "id": "c",
+          "text": "Alfabet Latin"
+        },
+        {
+          "id": "d",
+          "text": "Huruf Braille"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-01-q06",
@@ -84,12 +137,29 @@
       "hint": "Ketika air surut, lumpur hitam tertinggal di ladang.",
       "explanation": "Banjir tahunan Sungai Nil membawa lumpur subur ke tanah pertanian dan menyediakan cadangan air irigasi.",
       "options": [
-        { "id": "a", "text": "Membawa endapan lumpur subur untuk tanah pertanian" },
-        { "id": "b", "text": "Menyediakan air irigasi bagi tanaman gandum dan jelai" },
-        { "id": "c", "text": "Mengubah seluruh tanah menjadi gunung es" },
-        { "id": "d", "text": "Membuat penduduk tidak bisa berlayar dengan perahu" }
+        {
+          "id": "a",
+          "text": "Membawa endapan lumpur subur untuk tanah pertanian"
+        },
+        {
+          "id": "b",
+          "text": "Menyediakan air irigasi bagi tanaman gandum dan jelai"
+        },
+        {
+          "id": "c",
+          "text": "Mengubah seluruh tanah menjadi gunung es"
+        },
+        {
+          "id": "d",
+          "text": "Membuat penduduk tidak bisa berlayar dengan perahu"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "hist-world-01-q07",
@@ -98,12 +168,26 @@
       "hint": "Kata 'paper' dalam bahasa Inggris berasal dari nama tanaman ini.",
       "explanation": "Papirus dibuat dari anyaman batang tanaman papirus yang tumbuh subur di tepi Sungai Nil.",
       "options": [
-        { "id": "a", "text": "Papirus" },
-        { "id": "b", "text": "Plastik" },
-        { "id": "c", "text": "Lempeng besi" },
-        { "id": "d", "text": "Kain sutra" }
+        {
+          "id": "a",
+          "text": "Papirus"
+        },
+        {
+          "id": "b",
+          "text": "Plastik"
+        },
+        {
+          "id": "c",
+          "text": "Lempeng besi"
+        },
+        {
+          "id": "d",
+          "text": "Kain sutra"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-01-q08",
@@ -112,10 +196,18 @@
       "hint": "Patung raksasa ini berdiri menjaga kawasan Piramida Giza.",
       "explanation": "Benar, Sphinx Agung di Giza dipahat dari batu kapur besar dengan badan singa dan kepala manusia sebagai lambang kekuatan dan kebijaksanaan.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-world-01-q09",
@@ -124,7 +216,10 @@
       "hint": "Namanya terdiri dari empat huruf, diawali huruf G.",
       "explanation": "Kompleks Piramida Giza terletak di pinggiran kota Kairo, Mesir.",
       "correctAnswer": {
-        "acceptedAnswers": ["Giza", "dataran Giza"]
+        "acceptedAnswers": [
+          "Giza",
+          "dataran Giza"
+        ]
       }
     },
     {
@@ -134,12 +229,26 @@
       "hint": "Mereka perlu memperkirakan waktu datangnya banjir Sungai Nil untuk bercocok tanam.",
       "explanation": "Kalender matahari membantu petani Mesir mengetahui musim tanam, musim banjir Sungai Nil, dan musim panen secara tepat.",
       "options": [
-        { "id": "a", "text": "Untuk memperkirakan waktu banjir Sungai Nil dan musim tanam" },
-        { "id": "b", "text": "Untuk menentukan jadwal pertandingan sepak bola" },
-        { "id": "c", "text": "Agar tidak ada hari libur sepanjang tahun" },
-        { "id": "d", "text": "Untuk menghitung jumlah pasir di gurun" }
+        {
+          "id": "a",
+          "text": "Untuk memperkirakan waktu banjir Sungai Nil dan musim tanam"
+        },
+        {
+          "id": "b",
+          "text": "Untuk menentukan jadwal pertandingan sepak bola"
+        },
+        {
+          "id": "c",
+          "text": "Agar tidak ada hari libur sepanjang tahun"
+        },
+        {
+          "id": "d",
+          "text": "Untuk menghitung jumlah pasir di gurun"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

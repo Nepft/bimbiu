@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 4,
-  "prerequisites": ["hist-world-03"],
+  "prerequisites": [
+    "hist-world-03"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Nama belakangnya adalah Gutenberg.",
       "explanation": "Johannes Gutenberg menciptakan mesin cetak huruf logam yang dapat dipindah-pindahkan sehingga buku ilmu pengetahuan menyebar luas ke masyarakat.",
       "options": [
-        { "id": "a", "text": "Johannes Gutenberg" },
-        { "id": "b", "text": "Thomas Alva Edison" },
-        { "id": "c", "text": "Alexander Graham Bell" },
-        { "id": "d", "text": "Wilbur Wright" }
+        {
+          "id": "a",
+          "text": "Johannes Gutenberg"
+        },
+        {
+          "id": "b",
+          "text": "Thomas Alva Edison"
+        },
+        {
+          "id": "c",
+          "text": "Alexander Graham Bell"
+        },
+        {
+          "id": "d",
+          "text": "Wilbur Wright"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-04-q02",
@@ -32,10 +48,18 @@
       "hint": "Roda awalnya juga digunakan sebagai alat pembuat tembikar sebelum dipasang pada kereta.",
       "explanation": "Benar, penemuan roda sekitar 5.500 tahun lalu mengubah cara manusia mengangkut barang dan melakukan perjalanan jauh.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-world-04-q03",
@@ -44,12 +68,26 @@
       "hint": "Namanya diabadikan sebagai satuan daya listrik (W).",
       "explanation": "James Watt menyempurnakan mesin uap agar lebih efisien sehingga menggerakkan Revolusi Industri.",
       "options": [
-        { "id": "a", "text": "James Watt" },
-        { "id": "b", "text": "Galileo Galilei" },
-        { "id": "c", "text": "Isaac Newton" },
-        { "id": "d", "text": "Cai Lun" }
+        {
+          "id": "a",
+          "text": "James Watt"
+        },
+        {
+          "id": "b",
+          "text": "Galileo Galilei"
+        },
+        {
+          "id": "c",
+          "text": "Isaac Newton"
+        },
+        {
+          "id": "d",
+          "text": "Cai Lun"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-04-q04",
@@ -58,24 +96,41 @@
       "hint": "Nama belakangnya berarti 'lonceng' dalam bahasa Inggris.",
       "explanation": "Alexander Graham Bell berhasil mematenkan telepon pertama yang memungkinkan suara manusia dikirim melalui kabel listrik.",
       "correctAnswer": {
-        "acceptedAnswers": ["Bell", "Alexander Graham Bell"]
+        "acceptedAnswers": [
+          "Bell",
+          "Alexander Graham Bell"
+        ]
       }
     },
     {
       "id": "hist-world-04-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-candi",
+      "mediaKey": "quiz-hieroglif",
       "mediaCaption": "Ilustrasi pesawat terbang bersayap ganda pertama yang berhasil melakukan penerbangan bermesin dan terkendali pada tahun 1903.",
       "prompt": "Dua bersaudara asal Amerika Serikat yang berhasil menerbangkan pesawat bermesin pertama di Kitty Hawk pada tahun 1903 adalah...",
       "hint": "Nama keluarga mereka adalah Wright.",
       "explanation": "Orville dan Wilbur Wright (Wright Bersaudara) sukses menerbangkan pesawat 'Wright Flyer' pada 17 Desember 1903.",
       "options": [
-        { "id": "a", "text": "Wright Bersaudara (Orville dan Wilbur Wright)" },
-        { "id": "b", "text": "Lumiere Bersaudara" },
-        { "id": "c", "text": "Grimm Bersaudara" },
-        { "id": "d", "text": "Edison dan Bell" }
+        {
+          "id": "a",
+          "text": "Wright Bersaudara (Orville dan Wilbur Wright)"
+        },
+        {
+          "id": "b",
+          "text": "Lumiere Bersaudara"
+        },
+        {
+          "id": "c",
+          "text": "Grimm Bersaudara"
+        },
+        {
+          "id": "d",
+          "text": "Edison dan Bell"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-04-q06",
@@ -84,12 +139,29 @@
       "hint": "Pikirkan kemudahan mendapatkan bahan bacaan di sekolah dan rumah.",
       "explanation": "Mesin cetak membuat biaya pembuatan buku lebih murah, buku semakin banyak tersedia, dan masyarakat lebih mudah belajar membaca.",
       "options": [
-        { "id": "a", "text": "Buku menjadi lebih murah dan mudah dimiliki banyak orang" },
-        { "id": "b", "text": "Ilmu pengetahuan menyebar lebih cepat ke berbagai negara" },
-        { "id": "c", "text": "Semua sekolah harus berhenti mengajarkan membaca" },
-        { "id": "d", "text": "Manusia kembali hanya menulis di atas batu" }
+        {
+          "id": "a",
+          "text": "Buku menjadi lebih murah dan mudah dimiliki banyak orang"
+        },
+        {
+          "id": "b",
+          "text": "Ilmu pengetahuan menyebar lebih cepat ke berbagai negara"
+        },
+        {
+          "id": "c",
+          "text": "Semua sekolah harus berhenti mengajarkan membaca"
+        },
+        {
+          "id": "d",
+          "text": "Manusia kembali hanya menulis di atas batu"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "hist-world-04-q07",
@@ -98,12 +170,26 @@
       "hint": "Ia terkenal dengan kata-kata bahwa keberhasilan membutuhkan kerja keras berkali-kali setelah banyak percobaan.",
       "explanation": "Thomas Alva Edison melakukan ribuan percobaan sebelum menghasilkan lampu pijar yang praktis dan tahan lama bagi kehidupan sehari-hari.",
       "options": [
-        { "id": "a", "text": "Thomas Alva Edison" },
-        { "id": "b", "text": "Neil Armstrong" },
-        { "id": "c", "text": "Tim Berners-Lee" },
-        { "id": "d", "text": "Johannes Gutenberg" }
+        {
+          "id": "a",
+          "text": "Thomas Alva Edison"
+        },
+        {
+          "id": "b",
+          "text": "Neil Armstrong"
+        },
+        {
+          "id": "c",
+          "text": "Tim Berners-Lee"
+        },
+        {
+          "id": "d",
+          "text": "Johannes Gutenberg"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-world-04-q08",
@@ -112,10 +198,18 @@
       "hint": "Setiap penemu hebat melewati banyak kegagalan untuk memperbaiki rancangan mereka.",
       "explanation": "Salah, para penemu justru belajar dari ratusan bahkan ribuan kegagalan percobaan sebelum akhirnya berhasil.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "hist-world-04-q09",
@@ -124,7 +218,9 @@
       "hint": "Sekarang benda ini ada pada sepeda, mobil, dan gerobak.",
       "explanation": "Roda adalah salah satu penemuan paling berpengaruh dalam sejarah teknologi manusia.",
       "correctAnswer": {
-        "acceptedAnswers": ["roda"]
+        "acceptedAnswers": [
+          "roda"
+        ]
       }
     },
     {
@@ -134,12 +230,26 @@
       "hint": "Ingat proses belajar saat eksperimen belum berhasil.",
       "explanation": "Rasa ingin tahu, ketekunan, dan sikap pantang menyerah saat mencoba lagi sangat penting dalam belajar dan berkarya.",
       "options": [
-        { "id": "a", "text": "Rasa ingin tahu yang tinggi dan pantang menyerah saat mencoba" },
-        { "id": "b", "text": "Langsung berhenti jika percobaan pertama gagal" },
-        { "id": "c", "text": "Tidak mau bertanya atau membaca buku" },
-        { "id": "d", "text": "Meniru karya teman tanpa berusaha" }
+        {
+          "id": "a",
+          "text": "Rasa ingin tahu yang tinggi dan pantang menyerah saat mencoba"
+        },
+        {
+          "id": "b",
+          "text": "Langsung berhenti jika percobaan pertama gagal"
+        },
+        {
+          "id": "c",
+          "text": "Tidak mau bertanya atau membaca buku"
+        },
+        {
+          "id": "d",
+          "text": "Meniru karya teman tanpa berusaha"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

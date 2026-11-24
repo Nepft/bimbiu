@@ -18,12 +18,26 @@
       "hint": "Kata sandi yang kuat panjang dan menggabungkan huruf besar, huruf kecil, angka, serta simbol.",
       "explanation": "Kombinasi kata unik dengan huruf besar, huruf kecil, angka, dan simbol jauh lebih sulit ditebak dibanding tanggal lahir atau urutan angka.",
       "options": [
-        { "id": "a", "text": "12345678" },
-        { "id": "b", "text": "password" },
-        { "id": "c", "text": "BintangBiru#27" },
-        { "id": "d", "text": "nama lengkap sendiri" }
+        {
+          "id": "a",
+          "text": "12345678"
+        },
+        {
+          "id": "b",
+          "text": "password"
+        },
+        {
+          "id": "c",
+          "text": "BintangBiru#27"
+        },
+        {
+          "id": "d",
+          "text": "nama lengkap sendiri"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "daily-tech-01-q02",
@@ -32,10 +46,18 @@
       "hint": "Informasi pribadi di ruang publik bisa dilihat oleh orang asing yang tidak dikenal.",
       "explanation": "Salah. Data pribadi seperti alamat rumah, nama sekolah, dan nomor telepon tidak boleh dibagikan ke ruang publik online.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "daily-tech-01-q03",
@@ -44,12 +66,30 @@
       "hint": "Pilih data yang dapat mengidentifikasi atau membahayakan keamananmu dan keluargamu.",
       "explanation": "Kata sandi, alamat rumah, dan kode OTP/PIN adalah informasi rahasia yang tidak boleh diberikan ke orang asing.",
       "options": [
-        { "id": "a", "text": "Kata sandi akun belajar atau gim" },
-        { "id": "b", "text": "Alamat rumah lengkap" },
-        { "id": "c", "text": "Kode verifikasi rahasia (OTP)" },
-        { "id": "d", "text": "Warna pelangi favorit" }
+        {
+          "id": "a",
+          "text": "Kata sandi akun belajar atau gim"
+        },
+        {
+          "id": "b",
+          "text": "Alamat rumah lengkap"
+        },
+        {
+          "id": "c",
+          "text": "Kode verifikasi rahasia (OTP)"
+        },
+        {
+          "id": "d",
+          "text": "Warna pelangi favorit"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-tech-01-q04",
@@ -58,24 +98,44 @@
       "hint": "Istilahnya berarti keluar dari akun, kebalikan dari login.",
       "explanation": "Selalu lakukan logout (keluar) dari akun saat memakai perangkat bersama agar akun tidak disalahgunakan pengguna berikutnya.",
       "correctAnswer": {
-        "acceptedAnswers": ["logout", "Logout", "log out", "keluar", "Keluar"]
+        "acceptedAnswers": [
+          "logout",
+          "Logout",
+          "log out",
+          "keluar",
+          "Keluar"
+        ]
       }
     },
     {
       "id": "daily-tech-01-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-digital-safe",
       "mediaCaption": "Layar tablet menampilkan pesan dari akun tak dikenal: 'Selamat! Kamu menang hadiah ponsel baru! Klik tautan ini dan kirimkan kata sandimu sekarang!'",
       "prompt": "Apa yang sebaiknya kamu lakukan jika menerima pesan mencurigakan seperti pada gambar?",
       "hint": "Pesan hadiah mendadak yang meminta kata sandi atau klik tautan aneh adalah penipuan.",
       "explanation": "Jangan mengklik tautan atau membalas pesan tersebut. Segera tutup dan beri tahu orang tua atau wali.",
       "options": [
-        { "id": "a", "text": "Jangan diklik, tutup pesan, dan laporkan kepada orang tua" },
-        { "id": "b", "text": "Langsung mengirim kata sandi agar cepat dapat hadiah" },
-        { "id": "c", "text": "Meneruskan tautan tersebut ke semua teman kelas" },
-        { "id": "d", "text": "Memasukkan nomor HP seluruh keluarga" }
+        {
+          "id": "a",
+          "text": "Jangan diklik, tutup pesan, dan laporkan kepada orang tua"
+        },
+        {
+          "id": "b",
+          "text": "Langsung mengirim kata sandi agar cepat dapat hadiah"
+        },
+        {
+          "id": "c",
+          "text": "Meneruskan tautan tersebut ke semua teman kelas"
+        },
+        {
+          "id": "d",
+          "text": "Memasukkan nomor HP seluruh keluarga"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-tech-01-q06",
@@ -84,12 +144,26 @@
       "hint": "Pilih orang dewasa yang bertanggung jawab atas keselamatanmu di rumah.",
       "explanation": "Hanya kamu dan orang tua/wali yang dipercaya yang boleh mengetahui kata sandi akun anak; jangan bagikan ke teman atau orang asing.",
       "options": [
-        { "id": "a", "text": "Orang tua atau wali yang mendampingimu" },
-        { "id": "b", "text": "Semua pengikut di media sosial" },
-        { "id": "c", "text": "Teman bermain gim online yang baru dikenal" },
-        { "id": "d", "text": "Siapa saja yang bertanya lewat pesan singkat" }
+        {
+          "id": "a",
+          "text": "Orang tua atau wali yang mendampingimu"
+        },
+        {
+          "id": "b",
+          "text": "Semua pengikut di media sosial"
+        },
+        {
+          "id": "c",
+          "text": "Teman bermain gim online yang baru dikenal"
+        },
+        {
+          "id": "d",
+          "text": "Siapa saja yang bertanya lewat pesan singkat"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "daily-tech-01-q07",
@@ -98,10 +172,18 @@
       "hint": "Bayangkan satu kunci rumah bisa membuka semua gembok sekaligus.",
       "explanation": "Benar! Menggunakan kata sandi yang berbeda untuk setiap akun penting mencegah satu kebocoran membahayakan akun lainnya.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "daily-tech-01-q08",
@@ -110,12 +192,30 @@
       "hint": "Libatkan orang tua dan gunakan toko aplikasi resmi.",
       "explanation": "Meminta izin orang tua, mengunduh hanya dari toko aplikasi resmi, dan tidak asal menekan tombol izin akses membantu melindungi perangkat.",
       "options": [
-        { "id": "a", "text": "Meminta izin kepada orang tua terlebih dahulu" },
-        { "id": "b", "text": "Mengunduh hanya dari toko aplikasi resmi" },
-        { "id": "c", "text": "Membaca deskripsi dan rating usia aplikasi" },
-        { "id": "d", "text": "Mengklik iklan unduhan berkedip-kedip di situs acak" }
+        {
+          "id": "a",
+          "text": "Meminta izin kepada orang tua terlebih dahulu"
+        },
+        {
+          "id": "b",
+          "text": "Mengunduh hanya dari toko aplikasi resmi"
+        },
+        {
+          "id": "c",
+          "text": "Membaca deskripsi dan rating usia aplikasi"
+        },
+        {
+          "id": "d",
+          "text": "Mengklik iklan unduhan berkedip-kedip di situs acak"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     },
     {
       "id": "daily-tech-01-q09",
@@ -124,24 +224,41 @@
       "hint": "Istilah bahasa Inggrisnya terdengar seperti 'fishing' (memancing), diawali huruf 'p'.",
       "explanation": "Phishing adalah penipuan online yang memancing korban agar menyerahkan kata sandi atau data pribadi melalui pesan atau tautan palsu.",
       "correctAnswer": {
-        "acceptedAnswers": ["phishing", "Phishing"]
+        "acceptedAnswers": [
+          "phishing",
+          "Phishing"
+        ]
       }
     },
     {
       "id": "daily-tech-01-q10",
       "type": "image_quiz",
-      "mediaKey": "cat-everyday",
+      "mediaKey": "quiz-digital-safe",
       "mediaCaption": "Sebuah jendela obrolan gim online menampilkan orang asing bertanya: 'Kamu sekolah di SD mana dan rumahmu di jalan apa? Ayo ketemuan!'",
       "prompt": "Sikap paling aman menghadapi pertanyaan seperti pada gambar adalah...",
       "hint": "Jangan pernah memberi tahu lokasi pribadi atau bertemu orang asing dari internet.",
       "explanation": "Tolak untuk membagikan informasi pribadi, blokir atau abaikan akun tersebut, dan segera ceritakan kepada orang tua.",
       "options": [
-        { "id": "a", "text": "Tidak menjawab data pribadi, hentikan chat, dan lapor ke orang tua" },
-        { "id": "b", "text": "Memberitahu nama sekolah agar terlihat ramah" },
-        { "id": "c", "text": "Berjanji bertemu sepulang sekolah sendirian" },
-        { "id": "d", "text": "Mengirim foto seragam dan papan nama sekolah" }
+        {
+          "id": "a",
+          "text": "Tidak menjawab data pribadi, hentikan chat, dan lapor ke orang tua"
+        },
+        {
+          "id": "b",
+          "text": "Memberitahu nama sekolah agar terlihat ramah"
+        },
+        {
+          "id": "c",
+          "text": "Berjanji bertemu sepulang sekolah sendirian"
+        },
+        {
+          "id": "d",
+          "text": "Mengirim foto seragam dan papan nama sekolah"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

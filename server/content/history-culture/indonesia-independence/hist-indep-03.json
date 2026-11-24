@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 3,
-  "prerequisites": ["hist-indep-02"],
+  "prerequisites": [
+    "hist-indep-02"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Bulan ke-10 dalam kalender Masehi.",
       "explanation": "Sumpah Pemuda dibacakan pada penutupan Kongres Pemuda II tanggal 28 Oktober 1928 di Batavia (Jakarta).",
       "options": [
-        { "id": "a", "text": "20 Mei 1908" },
-        { "id": "b", "text": "28 Oktober 1928" },
-        { "id": "c", "text": "17 Agustus 1945" },
-        { "id": "d", "text": "10 November 1945" }
+        {
+          "id": "a",
+          "text": "20 Mei 1908"
+        },
+        {
+          "id": "b",
+          "text": "28 Oktober 1928"
+        },
+        {
+          "id": "c",
+          "text": "17 Agustus 1945"
+        },
+        {
+          "id": "d",
+          "text": "10 November 1945"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "hist-indep-03-q02",
@@ -32,10 +48,18 @@
       "hint": "Ingat organisasi seperti Jong Sumatranen Bond, Jong Celebes, Jong Ambon, dan Jong Java.",
       "explanation": "Salah, Kongres Pemuda II dihadiri oleh perkumpulan pemuda dari berbagai daerah di seluruh Nusantara.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "hist-indep-03-q03",
@@ -44,12 +68,26 @@
       "hint": "Nama depannya sering disingkat W.R.",
       "explanation": "Wage Rudolf Supratman menciptakan lagu 'Indonesia Raya' dan memainkannya secara instrumental dengan biola saat Kongres Pemuda II.",
       "options": [
-        { "id": "a", "text": "W.R. Supratman" },
-        { "id": "b", "text": "Ismail Marzuki" },
-        { "id": "c", "text": "Ibu Sud" },
-        { "id": "d", "text": "C. Simanjuntak" }
+        {
+          "id": "a",
+          "text": "W.R. Supratman"
+        },
+        {
+          "id": "b",
+          "text": "Ismail Marzuki"
+        },
+        {
+          "id": "c",
+          "text": "Ibu Sud"
+        },
+        {
+          "id": "d",
+          "text": "C. Simanjuntak"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-03-q04",
@@ -58,24 +96,41 @@
       "hint": "Bahasa yang kita gunakan sehari-hari untuk berkomunikasi antarsuku di negara kita.",
       "explanation": "Bunyi butir ketiga Sumpah Pemuda adalah: 'Kami putra dan putri Indonesia, menjunjung bahasa persatuan, bahasa Indonesia.'",
       "correctAnswer": {
-        "acceptedAnswers": ["Indonesia", "bahasa Indonesia"]
+        "acceptedAnswers": [
+          "Indonesia",
+          "bahasa Indonesia"
+        ]
       }
     },
     {
       "id": "hist-indep-03-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-candi",
+      "mediaKey": "quiz-heritage",
       "mediaCaption": "Ilustrasi bangunan museum bersejarah di Jalan Kramat Raya No. 106 Jakarta tempat ikrar Sumpah Pemuda dibacakan.",
       "prompt": "Gedung bersejarah tempat pembacaan ikrar Sumpah Pemuda di Jalan Kramat Raya No. 106 kini menjadi...",
       "hint": "Tempat ini menyimpan benda dan foto sejarah Kongres Pemuda II.",
       "explanation": "Gedung di Jalan Kramat Raya No. 106 Jakarta sekarang menjadi Museum Sumpah Pemuda yang terbuka untuk pelajar dan masyarakat.",
       "options": [
-        { "id": "a", "text": "Museum Sumpah Pemuda" },
-        { "id": "b", "text": "Istana Bogor" },
-        { "id": "c", "text": "Candi Prambanan" },
-        { "id": "d", "text": "Pelabuhan Sunda Kelapa" }
+        {
+          "id": "a",
+          "text": "Museum Sumpah Pemuda"
+        },
+        {
+          "id": "b",
+          "text": "Istana Bogor"
+        },
+        {
+          "id": "c",
+          "text": "Candi Prambanan"
+        },
+        {
+          "id": "d",
+          "text": "Pelabuhan Sunda Kelapa"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-03-q06",
@@ -84,12 +139,29 @@
       "hint": "Ingat kalimat 'satu nusa, satu bangsa, satu bahasa'.",
       "explanation": "Sumpah Pemuda menegaskan satu tanah air (Indonesia), satu bangsa (Indonesia), dan satu bahasa persatuan (bahasa Indonesia).",
       "options": [
-        { "id": "a", "text": "Bertumpah darah satu, tanah air Indonesia" },
-        { "id": "b", "text": "Berbangsa satu, bangsa Indonesia" },
-        { "id": "c", "text": "Memiliki mata uang yang sama dengan Eropa" },
-        { "id": "d", "text": "Menghapus semua bahasa daerah" }
+        {
+          "id": "a",
+          "text": "Bertumpah darah satu, tanah air Indonesia"
+        },
+        {
+          "id": "b",
+          "text": "Berbangsa satu, bangsa Indonesia"
+        },
+        {
+          "id": "c",
+          "text": "Memiliki mata uang yang sama dengan Eropa"
+        },
+        {
+          "id": "d",
+          "text": "Menghapus semua bahasa daerah"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "hist-indep-03-q07",
@@ -98,12 +170,26 @@
       "hint": "Alat musik berdawai yang dimainkan dengan cara digesek.",
       "explanation": "W.R. Supratman menggesek biola untuk memperdengarkan lagu 'Indonesia Raya' tanpa lirik agar tidak dilarang oleh polisi kolonial.",
       "options": [
-        { "id": "a", "text": "Biola" },
-        { "id": "b", "text": "Gendang" },
-        { "id": "c", "text": "Angklung" },
-        { "id": "d", "text": "Sasando" }
+        {
+          "id": "a",
+          "text": "Biola"
+        },
+        {
+          "id": "b",
+          "text": "Gendang"
+        },
+        {
+          "id": "c",
+          "text": "Angklung"
+        },
+        {
+          "id": "d",
+          "text": "Sasando"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-03-q08",
@@ -112,10 +198,18 @@
       "hint": "Soegondo memimpin jalannya rapat dan Mohammad Yamin menuliskan rumusan ikrar.",
       "explanation": "Benar, Soegondo Djojopoespito menjabat sebagai ketua Kongres Pemuda II dan Mohammad Yamin berperan sebagai sekretaris sekaligus perumus ikrar.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-indep-03-q09",
@@ -124,7 +218,12 @@
       "hint": "Sebelumnya sudah pernah diadakan kongres yang pertama pada tahun 1926.",
       "explanation": "Kongres Pemuda II diselenggarakan pada 27–28 Oktober 1928 dan menghasilkan ikrar Sumpah Pemuda.",
       "correctAnswer": {
-        "acceptedAnswers": ["II", "2", "Kedua", "Kongres Pemuda II"]
+        "acceptedAnswers": [
+          "II",
+          "2",
+          "Kedua",
+          "Kongres Pemuda II"
+        ]
       }
     },
     {
@@ -134,12 +233,26 @@
       "hint": "Pilih sikap yang menjaga persatuan di lingkungan sekolah.",
       "explanation": "Berteman akrab tanpa membedakan suku, agama, atau asal daerah adalah wujud nyata semangat Sumpah Pemuda.",
       "options": [
-        { "id": "a", "text": "Berteman baik dengan semua teman tanpa membedakan suku dan daerah" },
-        { "id": "b", "text": "Hanya mau bermain dengan teman yang satu asal daerah" },
-        { "id": "c", "text": "Mengejek logat bahasa teman dari pulau lain" },
-        { "id": "d", "text": "Malas belajar sejarah bangsa" }
+        {
+          "id": "a",
+          "text": "Berteman baik dengan semua teman tanpa membedakan suku dan daerah"
+        },
+        {
+          "id": "b",
+          "text": "Hanya mau bermain dengan teman yang satu asal daerah"
+        },
+        {
+          "id": "c",
+          "text": "Mengejek logat bahasa teman dari pulau lain"
+        },
+        {
+          "id": "d",
+          "text": "Malas belajar sejarah bangsa"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

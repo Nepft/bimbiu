@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 3,
-  "prerequisites": ["logic-patterns-02"],
+  "prerequisites": [
+    "logic-patterns-02"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "36 adalah hasil dari 6 x 6. Coba hitung 7 x 7.",
       "explanation": "36 = 6 x 6, maka bilangan kuadrat berikutnya adalah 7 x 7 = 49.",
       "options": [
-        { "id": "a", "text": "42" },
-        { "id": "b", "text": "49" },
-        { "id": "c", "text": "54" },
-        { "id": "d", "text": "64" }
+        {
+          "id": "a",
+          "text": "42"
+        },
+        {
+          "id": "b",
+          "text": "49"
+        },
+        {
+          "id": "c",
+          "text": "54"
+        },
+        {
+          "id": "d",
+          "text": "64"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "logic-patterns-03-q02",
@@ -32,10 +48,18 @@
       "hint": "Coba jumlahkan beberapa contoh, misalnya 3 + 5 atau 7 + 9.",
       "explanation": "Benar. Dua bilangan ganjil jika dijumlahkan selalu menghasilkan bilangan genap, contohnya 3 + 5 = 8 dan 7 + 9 = 16.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "logic-patterns-03-q03",
@@ -43,7 +67,11 @@
       "prompt": "Lanjutkan pola bilangan kuadrat berikut: 1, 4, 9, 16, 25, ...",
       "hint": "Ini adalah hasil 1x1, 2x2, 3x3, 4x4, 5x5. Berapa 6x6?",
       "explanation": "Suku ke-6 adalah 6 x 6 = 36.",
-      "correctAnswer": { "acceptedAnswers": ["36"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "36"
+        ]
+      }
     },
     {
       "id": "logic-patterns-03-q04",
@@ -52,13 +80,34 @@
       "hint": "Bilangan kuadrat adalah hasil perkalian suatu bilangan bulat dengan dirinya sendiri.",
       "explanation": "9 = 3 x 3, 25 = 5 x 5, dan 64 = 8 x 8 merupakan bilangan kuadrat.",
       "options": [
-        { "id": "a", "text": "9" },
-        { "id": "b", "text": "12" },
-        { "id": "c", "text": "25" },
-        { "id": "d", "text": "40" },
-        { "id": "e", "text": "64" }
+        {
+          "id": "a",
+          "text": "9"
+        },
+        {
+          "id": "b",
+          "text": "12"
+        },
+        {
+          "id": "c",
+          "text": "25"
+        },
+        {
+          "id": "d",
+          "text": "40"
+        },
+        {
+          "id": "e",
+          "text": "64"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c", "e"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c",
+          "e"
+        ]
+      }
     },
     {
       "id": "logic-patterns-03-q05",
@@ -67,28 +116,56 @@
       "hint": "Perhatikan penambahannya: +2, +3, +4, +5, lalu tambah berapa?",
       "explanation": "Penambahannya naik 1 setiap langkah (+2, +3, +4, +5, +6). Jadi 15 + 6 = 21.",
       "options": [
-        { "id": "a", "text": "18" },
-        { "id": "b", "text": "20" },
-        { "id": "c", "text": "21" },
-        { "id": "d", "text": "25" }
+        {
+          "id": "a",
+          "text": "18"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "21"
+        },
+        {
+          "id": "d",
+          "text": "25"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "logic-patterns-03-q06",
       "type": "image_quiz",
-      "mediaKey": "quiz-geometri",
+      "mediaKey": "quiz-clock",
       "mediaCaption": "Susunan kelereng berbentuk persegi: pola ke-1 berukuran 1x1 (1 kelereng), pola ke-2 berukuran 2x2 (4 kelereng), pola ke-3 berukuran 3x3 (9 kelereng), dan pola ke-4 berukuran 4x4 (16 kelereng).",
       "prompt": "Berapa banyak kelereng yang dibutuhkan untuk membuat susunan persegi pola ke-5?",
       "hint": "Pola ke-5 berbentuk persegi berukuran 5 baris x 5 kolom.",
       "explanation": "Pola ke-5 berukuran 5 x 5 sehingga membutuhkan 5 x 5 = 25 kelereng.",
       "options": [
-        { "id": "a", "text": "20 kelereng" },
-        { "id": "b", "text": "21 kelereng" },
-        { "id": "c", "text": "24 kelereng" },
-        { "id": "d", "text": "25 kelereng" }
+        {
+          "id": "a",
+          "text": "20 kelereng"
+        },
+        {
+          "id": "b",
+          "text": "21 kelereng"
+        },
+        {
+          "id": "c",
+          "text": "24 kelereng"
+        },
+        {
+          "id": "d",
+          "text": "25 kelereng"
+        }
       ],
-      "correctAnswer": { "optionId": "d" }
+      "correctAnswer": {
+        "optionId": "d"
+      }
     },
     {
       "id": "logic-patterns-03-q07",
@@ -97,10 +174,18 @@
       "hint": "Apakah angka 1 habis dibagi 2?",
       "explanation": "Salah. Angka 1 adalah bilangan ganjil karena tidak habis dibagi 2. Bilangan genap positif terkecil adalah 2.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "logic-patterns-03-q08",
@@ -108,7 +193,11 @@
       "prompt": "Berapakah hasil penjumlahan 5 bilangan ganjil pertama (1 + 3 + 5 + 7 + 9)?",
       "hint": "Jumlahkan satu per satu atau pasangkan (1 + 9) + (3 + 7) + 5.",
       "explanation": "1 + 3 + 5 + 7 + 9 = (1 + 9) + (3 + 7) + 5 = 10 + 10 + 5 = 25 (sama dengan 5 x 5).",
-      "correctAnswer": { "acceptedAnswers": ["25"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "25"
+        ]
+      }
     },
     {
       "id": "logic-patterns-03-q09",
@@ -117,12 +206,26 @@
       "hint": "Coba uji dengan contoh seperti 2 x 3 atau 4 x 5.",
       "explanation": "Bilangan genap dikali bilangan bulat apa pun selalu menghasilkan bilangan genap, misalnya 2 x 3 = 6 dan 4 x 5 = 20.",
       "options": [
-        { "id": "a", "text": "Bilangan genap" },
-        { "id": "b", "text": "Bilangan ganjil" },
-        { "id": "c", "text": "Bilangan prima" },
-        { "id": "d", "text": "Bilangan kuadrat" }
+        {
+          "id": "a",
+          "text": "Bilangan genap"
+        },
+        {
+          "id": "b",
+          "text": "Bilangan ganjil"
+        },
+        {
+          "id": "c",
+          "text": "Bilangan prima"
+        },
+        {
+          "id": "d",
+          "text": "Bilangan kuadrat"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "logic-patterns-03-q10",
@@ -131,12 +234,30 @@
       "hint": "Uji setiap pernyataan menggunakan contoh angka kecil seperti 2 dan 3.",
       "explanation": "Genap + Genap = Genap (2+4=6), Ganjil x Ganjil = Ganjil (3x5=15), dan Genap + 1 = Ganjil (4+1=5). Sedangkan Ganjil + Genap hasilnya Ganjil.",
       "options": [
-        { "id": "a", "text": "Genap + Genap = Genap" },
-        { "id": "b", "text": "Ganjil + Genap = Genap" },
-        { "id": "c", "text": "Ganjil x Ganjil = Ganjil" },
-        { "id": "d", "text": "Genap + 1 = Ganjil" }
+        {
+          "id": "a",
+          "text": "Genap + Genap = Genap"
+        },
+        {
+          "id": "b",
+          "text": "Ganjil + Genap = Genap"
+        },
+        {
+          "id": "c",
+          "text": "Ganjil x Ganjil = Ganjil"
+        },
+        {
+          "id": "d",
+          "text": "Genap + 1 = Ganjil"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c", "d"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c",
+          "d"
+        ]
+      }
     }
   ]
 }

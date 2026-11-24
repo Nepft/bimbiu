@@ -18,12 +18,26 @@
       "hint": "Hitung selisih antara dua bilangan yang berdekatan.",
       "explanation": "Setiap langkah bertambah 5 (4 + 5 = 9, 9 + 5 = 14, 14 + 5 = 19). Jadi, bilangan berikutnya adalah 19 + 5 = 24.",
       "options": [
-        { "id": "a", "text": "23" },
-        { "id": "b", "text": "24" },
-        { "id": "c", "text": "25" },
-        { "id": "d", "text": "26" }
+        {
+          "id": "a",
+          "text": "23"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "25"
+        },
+        {
+          "id": "d",
+          "text": "26"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "logic-patterns-01-q02",
@@ -32,10 +46,18 @@
       "hint": "Kurangkan 30 dengan 26, lalu cek apakah selisihnya sama untuk pasangan berikutnya.",
       "explanation": "Benar, karena 30 - 4 = 26, 26 - 4 = 22, 22 - 4 = 18, dan 18 - 4 = 14.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "logic-patterns-01-q03",
@@ -43,7 +65,11 @@
       "prompt": "Lanjutkan pola bilangan berikut: 7, 13, 19, 25, ...",
       "hint": "Cari tahu berapa angka yang ditambahkan dari 7 ke 13.",
       "explanation": "Pola bertambah 6 setiap langkahnya (7 + 6 = 13, 13 + 6 = 19, 19 + 6 = 25). Maka 25 + 6 = 31.",
-      "correctAnswer": { "acceptedAnswers": ["31"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "31"
+        ]
+      }
     },
     {
       "id": "logic-patterns-01-q04",
@@ -52,13 +78,34 @@
       "hint": "Bilangan kelipatan 5 selalu berakhiran angka 0 atau 5.",
       "explanation": "Kelipatan 5 selalu memiliki angka satuan 0 atau 5, sehingga 15, 35, dan 50 termasuk dalam pola tersebut.",
       "options": [
-        { "id": "a", "text": "15" },
-        { "id": "b", "text": "22" },
-        { "id": "c", "text": "35" },
-        { "id": "d", "text": "48" },
-        { "id": "e", "text": "50" }
+        {
+          "id": "a",
+          "text": "15"
+        },
+        {
+          "id": "b",
+          "text": "22"
+        },
+        {
+          "id": "c",
+          "text": "35"
+        },
+        {
+          "id": "d",
+          "text": "48"
+        },
+        {
+          "id": "e",
+          "text": "50"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c", "e"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c",
+          "e"
+        ]
+      }
     },
     {
       "id": "logic-patterns-01-q05",
@@ -67,28 +114,56 @@
       "hint": "Angka semakin kecil. Coba hitung 85 dikurangi 77.",
       "explanation": "Barisan berkurang 8 setiap langkah (85 - 8 = 77, 77 - 8 = 69, 69 - 8 = 61). Maka angka berikutnya adalah 61 - 8 = 53.",
       "options": [
-        { "id": "a", "text": "51" },
-        { "id": "b", "text": "52" },
-        { "id": "c", "text": "53" },
-        { "id": "d", "text": "54" }
+        {
+          "id": "a",
+          "text": "51"
+        },
+        {
+          "id": "b",
+          "text": "52"
+        },
+        {
+          "id": "c",
+          "text": "53"
+        },
+        {
+          "id": "d",
+          "text": "54"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "logic-patterns-01-q06",
       "type": "image_quiz",
-      "mediaKey": "quiz-geometri",
+      "mediaKey": "quiz-clock",
       "mediaCaption": "Ilustrasi lima balok angka berurutan yang bertuliskan: 3, 6, 9, 12, dan tanda tanya (?).",
       "prompt": "Berdasarkan susunan balok angka pada gambar, berapakah nilai pada balok bertanda tanya?",
       "hint": "Setiap balok bertambah dengan jumlah yang sama dari kiri ke kanan.",
       "explanation": "Angka pada balok selalu bertambah 3 (3, 6, 9, 12). Maka balok ke-5 bernilai 12 + 3 = 15.",
       "options": [
-        { "id": "a", "text": "14" },
-        { "id": "b", "text": "15" },
-        { "id": "c", "text": "16" },
-        { "id": "d", "text": "18" }
+        {
+          "id": "a",
+          "text": "14"
+        },
+        {
+          "id": "b",
+          "text": "15"
+        },
+        {
+          "id": "c",
+          "text": "16"
+        },
+        {
+          "id": "d",
+          "text": "18"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "logic-patterns-01-q07",
@@ -97,10 +172,18 @@
       "hint": "Tuliskan satu per satu dari bilangan ke-1 sampai bilangan ke-4.",
       "explanation": "Salah. Bilangan ke-1 = 10, ke-2 = 17, ke-3 = 24, dan ke-4 = 31 (bukan 38).",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "logic-patterns-01-q08",
@@ -108,7 +191,11 @@
       "prompt": "Isilah titik-titik pada barisan menurun ini: 100, 88, 76, 64, ...",
       "hint": "Hitung selisih antara 100 dan 88.",
       "explanation": "Setiap bilangan dikurangi 12 dari bilangan sebelumnya. Jadi, 64 - 12 = 52.",
-      "correctAnswer": { "acceptedAnswers": ["52"] }
+      "correctAnswer": {
+        "acceptedAnswers": [
+          "52"
+        ]
+      }
     },
     {
       "id": "logic-patterns-01-q09",
@@ -117,12 +204,26 @@
       "hint": "Tabungan Andi bertambah Rp3.000 setiap hari. Hitung hari ke-4 terlebih dahulu.",
       "explanation": "Hari ke-3 = Rp8.000, hari ke-4 = Rp11.000, dan hari ke-5 = Rp14.000.",
       "options": [
-        { "id": "a", "text": "Rp10.000" },
-        { "id": "b", "text": "Rp11.000" },
-        { "id": "c", "text": "Rp12.000" },
-        { "id": "d", "text": "Rp14.000" }
+        {
+          "id": "a",
+          "text": "Rp10.000"
+        },
+        {
+          "id": "b",
+          "text": "Rp11.000"
+        },
+        {
+          "id": "c",
+          "text": "Rp12.000"
+        },
+        {
+          "id": "d",
+          "text": "Rp14.000"
+        }
       ],
-      "correctAnswer": { "optionId": "d" }
+      "correctAnswer": {
+        "optionId": "d"
+      }
     },
     {
       "id": "logic-patterns-01-q10",
@@ -131,12 +232,29 @@
       "hint": "Periksa apakah setiap pasangan angka berturut-turut berselisih 4.",
       "explanation": "Barisan 2, 6, 10, 14 dan 5, 9, 13, 17 sama-sama bertambah 4 di setiap langkahnya.",
       "options": [
-        { "id": "a", "text": "2, 6, 10, 14" },
-        { "id": "b", "text": "3, 6, 12, 24" },
-        { "id": "c", "text": "5, 9, 13, 17" },
-        { "id": "d", "text": "1, 4, 9, 16" }
+        {
+          "id": "a",
+          "text": "2, 6, 10, 14"
+        },
+        {
+          "id": "b",
+          "text": "3, 6, 12, 24"
+        },
+        {
+          "id": "c",
+          "text": "5, 9, 13, 17"
+        },
+        {
+          "id": "d",
+          "text": "1, 4, 9, 16"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     }
   ]
 }

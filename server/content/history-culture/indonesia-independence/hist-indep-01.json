@@ -18,12 +18,26 @@
       "hint": "Beliau sering digambarkan mengenakan jubah putih dan sorban serta menunggang kuda.",
       "explanation": "Pangeran Diponegoro memimpin Perang Jawa selama lima tahun melawan pemerintah kolonial Belanda.",
       "options": [
-        { "id": "a", "text": "Pangeran Diponegoro" },
-        { "id": "b", "text": "Kapitan Pattimura" },
-        { "id": "c", "text": "Tuanku Imam Bonjol" },
-        { "id": "d", "text": "Pangeran Antasari" }
+        {
+          "id": "a",
+          "text": "Pangeran Diponegoro"
+        },
+        {
+          "id": "b",
+          "text": "Kapitan Pattimura"
+        },
+        {
+          "id": "c",
+          "text": "Tuanku Imam Bonjol"
+        },
+        {
+          "id": "d",
+          "text": "Pangeran Antasari"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-01-q02",
@@ -32,10 +46,18 @@
       "hint": "Kisah perjuangannya berasal dari Tanah Rencong di ujung barat Indonesia.",
       "explanation": "Benar, Cut Nyak Dhien berjuang bersama rakyat Aceh mempertahankan tanah airnya dari penjajah Belanda.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-indep-01-q03",
@@ -44,12 +66,26 @@
       "hint": "Daerah ini terkenal sebagai kepulauan penghasil rempah cengkih dan pala.",
       "explanation": "Kapitan Pattimura memimpin rakyat Maluku merebut Benteng Duurstede di Saparua pada tahun 1817.",
       "options": [
-        { "id": "a", "text": "Kalimantan" },
-        { "id": "b", "text": "Maluku" },
-        { "id": "c", "text": "Bali" },
-        { "id": "d", "text": "Minangkabau" }
+        {
+          "id": "a",
+          "text": "Kalimantan"
+        },
+        {
+          "id": "b",
+          "text": "Maluku"
+        },
+        {
+          "id": "c",
+          "text": "Bali"
+        },
+        {
+          "id": "d",
+          "text": "Minangkabau"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "hist-indep-01-q04",
@@ -58,24 +94,42 @@
       "hint": "Namanya diakhiri nama sebuah daerah di Sumatra Barat.",
       "explanation": "Tuanku Imam Bonjol memimpin perjuangan rakyat Minangkabau dalam Perang Padri di Sumatra Barat.",
       "correctAnswer": {
-        "acceptedAnswers": ["Bonjol", "Imam Bonjol", "Tuanku Imam Bonjol"]
+        "acceptedAnswers": [
+          "Bonjol",
+          "Imam Bonjol",
+          "Tuanku Imam Bonjol"
+        ]
       }
     },
     {
       "id": "hist-indep-01-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-candi",
+      "mediaKey": "quiz-heritage",
       "mediaCaption": "Ilustrasi benteng batu bersejarah di pesisir Saparua yang pernah direbut oleh pasukan rakyat Maluku pada tahun 1817.",
       "prompt": "Nama benteng Belanda di Pulau Saparua, Maluku yang berhasil direbut oleh Kapitan Pattimura dan pasukannya adalah...",
       "hint": "Namanya diawali huruf D dan berbunyi 'Duur...'.",
       "explanation": "Benteng Duurstede di Saparua berhasil dikuasai oleh pasukan Kapitan Pattimura pada 16 Mei 1817.",
       "options": [
-        { "id": "a", "text": "Benteng Duurstede" },
-        { "id": "b", "text": "Benteng Rotterdam" },
-        { "id": "c", "text": "Benteng Marlborough" },
-        { "id": "d", "text": "Benteng Vredeburg" }
+        {
+          "id": "a",
+          "text": "Benteng Duurstede"
+        },
+        {
+          "id": "b",
+          "text": "Benteng Rotterdam"
+        },
+        {
+          "id": "c",
+          "text": "Benteng Marlborough"
+        },
+        {
+          "id": "d",
+          "text": "Benteng Vredeburg"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-01-q06",
@@ -84,12 +138,29 @@
       "hint": "Ingat perjuangan di Kalimantan Selatan dan Sumatra Utara.",
       "explanation": "Pangeran Antasari berjuang di Kalimantan Selatan (Kesultanan Banjar), sedangkan Sisingamangaraja XII berasal dari Tanah Batak, Sumatra Utara.",
       "options": [
-        { "id": "a", "text": "Pangeran Antasari — Kalimantan Selatan" },
-        { "id": "b", "text": "Sisingamangaraja XII — Sumatra Utara" },
-        { "id": "c", "text": "Cut Nyak Dhien — Papua" },
-        { "id": "d", "text": "Sultan Hasanuddin — Jawa Barat" }
+        {
+          "id": "a",
+          "text": "Pangeran Antasari — Kalimantan Selatan"
+        },
+        {
+          "id": "b",
+          "text": "Sisingamangaraja XII — Sumatra Utara"
+        },
+        {
+          "id": "c",
+          "text": "Cut Nyak Dhien — Papua"
+        },
+        {
+          "id": "d",
+          "text": "Sultan Hasanuddin — Jawa Barat"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "hist-indep-01-q07",
@@ -98,12 +169,26 @@
       "hint": "Perhatikan persatuan antardaerah saat itu.",
       "explanation": "Perlawanan sebelum tahun 1908 masih bersifat kedaerahan dan belum bersatu secara nasional sehingga mudah dipecah belah.",
       "options": [
-        { "id": "a", "text": "Karena perjuangan masih bersifat kedaerahan dan belum bersatu" },
-        { "id": "b", "text": "Karena rakyat tidak mencintai tanah airnya" },
-        { "id": "c", "text": "Karena semua daerah sudah memiliki pesawat tempur" },
-        { "id": "d", "text": "Karena penjajah tidak pernah datang ke pulau Jawa" }
+        {
+          "id": "a",
+          "text": "Karena perjuangan masih bersifat kedaerahan dan belum bersatu"
+        },
+        {
+          "id": "b",
+          "text": "Karena rakyat tidak mencintai tanah airnya"
+        },
+        {
+          "id": "c",
+          "text": "Karena semua daerah sudah memiliki pesawat tempur"
+        },
+        {
+          "id": "d",
+          "text": "Karena penjajah tidak pernah datang ke pulau Jawa"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-01-q08",
@@ -112,10 +197,18 @@
       "hint": "Namanya juga diabadikan menjadi nama kapal perang dan monumen di Ambon.",
       "explanation": "Benar, Martha Christina Tiahahu adalah pahlawan nasional perempuan dari Nusa Laut, Maluku.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-indep-01-q09",
@@ -124,7 +217,10 @@
       "hint": "Kata ini berawalan huruf G dan mirip dengan teknik pasukan kecil yang lincah.",
       "explanation": "Perang gerilya adalah taktik perang dengan serangan mendadak dari tempat tersembunyi untuk melemahkan pasukan musuh yang lebih besar.",
       "correctAnswer": {
-        "acceptedAnswers": ["gerilya", "perang gerilya"]
+        "acceptedAnswers": [
+          "gerilya",
+          "perang gerilya"
+        ]
       }
     },
     {
@@ -134,12 +230,26 @@
       "hint": "Mereka berjuang demi membela rakyat dan tanah air meski menghadapi banyak rintangan.",
       "explanation": "Para pahlawan mengajarkan keberanian, cinta tanah air, dan rela berkorban demi kebebasan bersama.",
       "options": [
-        { "id": "a", "text": "Keberanian dan rela berkorban demi tanah air" },
-        { "id": "b", "text": "Sikap mudah menyerah saat menghadapi kesulitan" },
-        { "id": "c", "text": "Keinginan menguasai harta orang lain" },
-        { "id": "d", "text": "Menghindari kerja sama dengan teman" }
+        {
+          "id": "a",
+          "text": "Keberanian dan rela berkorban demi tanah air"
+        },
+        {
+          "id": "b",
+          "text": "Sikap mudah menyerah saat menghadapi kesulitan"
+        },
+        {
+          "id": "c",
+          "text": "Keinginan menguasai harta orang lain"
+        },
+        {
+          "id": "d",
+          "text": "Menghindari kerja sama dengan teman"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

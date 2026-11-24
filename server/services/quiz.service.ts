@@ -344,6 +344,10 @@ export const quizService = {
           .map(p => p.lessonId),
       )
 
+      const masteredLessonIds = new Set(
+        allProgress.filter(p => p.status === 'mastered').map(p => p.lessonId),
+      )
+
       const existingBadges = await tx
         .select()
         .from(userBadges)
@@ -354,9 +358,7 @@ export const quizService = {
         if (earnedBadgeSet.has(badge.id)) continue
 
         let eligible = false
-        if (badge.ruleType === 'first_lesson') {
-          eligible = completedLessonIds.size >= Number(badge.targetValue)
-        } else if (badge.ruleType === 'lessons_count') {
+        if (badge.ruleType === 'first_lesson' || badge.ruleType === 'lessons_count') {
           eligible = completedLessonIds.size >= Number(badge.targetValue)
         } else if (badge.ruleType === 'mastered_lesson') {
           const targetProgress = allProgress.find(p => p.lessonId === String(badge.targetValue))
@@ -364,6 +366,38 @@ export const quizService = {
         } else if (badge.ruleType === 'category_complete') {
           const catLessons = store.lessons.filter(l => l.categoryId === String(badge.targetValue))
           eligible = catLessons.length > 0 && catLessons.every(l => completedLessonIds.has(l.id))
+        } else if (badge.ruleType === 'category_mastered') {
+          const catLessons = store.lessons.filter(l => l.categoryId === String(badge.targetValue))
+          eligible = catLessons.length > 0 && catLessons.every(l => masteredLessonIds.has(l.id))
+        } else if (badge.ruleType === 'perfect_score_count') {
+          const perfectCount = allProgress.filter(p => p.bestScore === 100).length
+          eligible = perfectCount >= Number(badge.targetValue)
+        } else if (badge.ruleType === 'mastered_count') {
+          eligible = masteredLessonIds.size >= Number(badge.targetValue)
+        } else if (badge.ruleType === 'retry_mastery') {
+          eligible = allProgress.some(p => p.attemptsCount >= Number(badge.targetValue))
+        } else if (badge.ruleType === 'all_categories_started') {
+          eligible = store.categories.every(cat =>
+            store.lessons.some(l => l.categoryId === cat.id && completedLessonIds.has(l.id)),
+          )
+        } else if (badge.ruleType === 'all_categories_mastered') {
+          eligible = store.categories.every(cat =>
+            store.lessons.some(l => l.categoryId === cat.id && masteredLessonIds.has(l.id)),
+          )
+        } else if (badge.ruleType === 'units_complete') {
+          const unitIds = String(badge.targetValue).split(',').map(s => s.trim()).filter(Boolean)
+          eligible = unitIds.length > 0 && unitIds.every((uId) => {
+            const unitLessons = store.lessons.filter(l => l.unitId === uId)
+            return unitLessons.length > 0 && unitLessons.every(l => completedLessonIds.has(l.id))
+          })
+        } else if (badge.ruleType === 'units_mastered') {
+          const unitIds = String(badge.targetValue).split(',').map(s => s.trim()).filter(Boolean)
+          eligible = unitIds.length > 0 && unitIds.every((uId) => {
+            const unitLessons = store.lessons.filter(l => l.unitId === uId)
+            return unitLessons.length > 0 && unitLessons.every(l => masteredLessonIds.has(l.id))
+          })
+        } else if (badge.ruleType === 'badges_count') {
+          eligible = earnedBadgeSet.size >= Number(badge.targetValue)
         }
 
         if (eligible) {
@@ -374,6 +408,7 @@ export const quizService = {
               badgeId: badge.id,
               awardedAt: now,
             })
+            earnedBadgeSet.add(badge.id)
             newlyAwardedBadgeIds.push(badge.id)
           } catch (error) {
             if (!isDuplicateEntryError(error)) {

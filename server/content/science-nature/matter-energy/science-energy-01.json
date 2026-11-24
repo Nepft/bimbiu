@@ -18,12 +18,26 @@
       "hint": "Apakah bentuk pensil berubah saat dipindahkan dari kotak pensil ke gelas?",
       "explanation": "Benda padat memiliki bentuk dan volume yang tetap meskipun dipindahkan ke wadah yang berbeda-beda.",
       "options": [
-        { "id": "a", "text": "Bentuknya selalu berubah mengikuti wadah" },
-        { "id": "b", "text": "Bentuk dan volumenya tetap" },
-        { "id": "c", "text": "Selalu memenuhi seluruh ruangan" },
-        { "id": "d", "text": "Mengalir dari tempat tinggi ke rendah" }
+        {
+          "id": "a",
+          "text": "Bentuknya selalu berubah mengikuti wadah"
+        },
+        {
+          "id": "b",
+          "text": "Bentuk dan volumenya tetap"
+        },
+        {
+          "id": "c",
+          "text": "Selalu memenuhi seluruh ruangan"
+        },
+        {
+          "id": "d",
+          "text": "Mengalir dari tempat tinggi ke rendah"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "science-energy-01-q02",
@@ -32,10 +46,18 @@
       "hint": "Ingat sifat zat cair.",
       "explanation": "Benar! Benda cair memiliki volume tetap dan bentuk yang menyesuaikan dengan bentuk wadah yang ditempatinya.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-energy-01-q03",
@@ -44,12 +66,26 @@
       "hint": "Dari wujud padat menjadi wujud cair karena menyerap panas.",
       "explanation": "Mencair (melebur) adalah perubahan wujud benda dari padat menjadi cair karena menerima kalor/panas.",
       "options": [
-        { "id": "a", "text": "Membeku" },
-        { "id": "b", "text": "Mencair" },
-        { "id": "c", "text": "Mengembun" },
-        { "id": "d", "text": "Menyublim" }
+        {
+          "id": "a",
+          "text": "Membeku"
+        },
+        {
+          "id": "b",
+          "text": "Mencair"
+        },
+        {
+          "id": "c",
+          "text": "Mengembun"
+        },
+        {
+          "id": "d",
+          "text": "Menyublim"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "science-energy-01-q04",
@@ -58,7 +94,10 @@
       "hint": "Diawali huruf M, berasal dari kata dasar sublim.",
       "explanation": "Menyublim adalah perubahan wujud benda dari padat langsung menjadi gas tanpa melewati wujud cair terlebih dahulu.",
       "correctAnswer": {
-        "acceptedAnswers": ["menyublim", "Menyublim"]
+        "acceptedAnswers": [
+          "menyublim",
+          "Menyublim"
+        ]
       }
     },
     {
@@ -68,12 +107,29 @@
       "hint": "Gas mudah menyebar mengisi seluruh ruangan dan umumnya tidak terlihat.",
       "explanation": "Udara di dalam balon dan uap air yang mendidih berwujud gas, sedangkan sirup dan minyak goreng berwujud cair.",
       "options": [
-        { "id": "a", "text": "Udara di dalam balon" },
-        { "id": "b", "text": "Uap air dari panci yang mendidih" },
-        { "id": "c", "text": "Sirup dalam botol" },
-        { "id": "d", "text": "Minyak goreng" }
+        {
+          "id": "a",
+          "text": "Udara di dalam balon"
+        },
+        {
+          "id": "b",
+          "text": "Uap air dari panci yang mendidih"
+        },
+        {
+          "id": "c",
+          "text": "Sirup dalam botol"
+        },
+        {
+          "id": "d",
+          "text": "Minyak goreng"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "science-energy-01-q06",
@@ -82,26 +138,48 @@
       "hint": "Air tidak menembus dinding kaca gelas.",
       "explanation": "Benar! Uap air hangat di udara menyentuh permukaan gelas yang dingin sehingga melepaskan panas dan mengembun menjadi titik air.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "science-energy-01-q07",
       "type": "image_quiz",
-      "mediaKey": "quiz-globe",
+      "mediaKey": "quiz-matter",
       "mediaCaption": "Bumi yang memiliki es di kutub, lautan air cair, dan atmosfer gas di sekelilingnya.",
       "prompt": "Pada tekanan udara normal di permukaan laut, air murni akan mendidih dan cepat berubah menjadi uap air pada suhu...",
       "hint": "Suhu didih air dalam skala Celcius.",
       "explanation": "Pada tekanan udara 1 atmosfer, air membeku pada 0 derajat Celcius dan mendidih pada 100 derajat Celcius.",
       "options": [
-        { "id": "a", "text": "0 °C" },
-        { "id": "b", "text": "50 °C" },
-        { "id": "c", "text": "100 °C" },
-        { "id": "d", "text": "200 °C" }
+        {
+          "id": "a",
+          "text": "0 °C"
+        },
+        {
+          "id": "b",
+          "text": "50 °C"
+        },
+        {
+          "id": "c",
+          "text": "100 °C"
+        },
+        {
+          "id": "d",
+          "text": "200 °C"
+        }
       ],
-      "correctAnswer": { "optionId": "c" }
+      "correctAnswer": {
+        "optionId": "c"
+      }
     },
     {
       "id": "science-energy-01-q08",
@@ -110,12 +188,26 @@
       "hint": "Air cair berubah menjadi uap air.",
       "explanation": "Panas matahari membuat air pada pakaian menguap menjadi gas (uap air) dan berpindah ke udara.",
       "options": [
-        { "id": "a", "text": "Menguap" },
-        { "id": "b", "text": "Membeku" },
-        { "id": "c", "text": "Mengkristal" },
-        { "id": "d", "text": "Meleleh" }
+        {
+          "id": "a",
+          "text": "Menguap"
+        },
+        {
+          "id": "b",
+          "text": "Membeku"
+        },
+        {
+          "id": "c",
+          "text": "Mengkristal"
+        },
+        {
+          "id": "d",
+          "text": "Meleleh"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "science-energy-01-q09",
@@ -124,7 +216,10 @@
       "hint": "Berasal dari kata dasar beku.",
       "explanation": "Membeku terjadi ketika zat cair melepaskan panas (mendingin) sehingga partikelnya tersusun rapat dan berubah menjadi padat.",
       "correctAnswer": {
-        "acceptedAnswers": ["membeku", "Membeku"]
+        "acceptedAnswers": [
+          "membeku",
+          "Membeku"
+        ]
       }
     },
     {
@@ -134,12 +229,30 @@
       "hint": "Benda menjadi lebih hangat sehingga susunan partikelnya lebih renggang.",
       "explanation": "Mencair (padat ke cair), menguap (cair ke gas), dan menyublim (padat ke gas) membutuhkan penyerapan kalor.",
       "options": [
-        { "id": "a", "text": "Mencair" },
-        { "id": "b", "text": "Menguap" },
-        { "id": "c", "text": "Menyublim" },
-        { "id": "d", "text": "Membeku" }
+        {
+          "id": "a",
+          "text": "Mencair"
+        },
+        {
+          "id": "b",
+          "text": "Menguap"
+        },
+        {
+          "id": "c",
+          "text": "Menyublim"
+        },
+        {
+          "id": "d",
+          "text": "Membeku"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
     }
   ]
 }

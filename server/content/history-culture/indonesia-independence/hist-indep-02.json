@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 2,
-  "prerequisites": ["hist-indep-01"],
+  "prerequisites": [
+    "hist-indep-01"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Tanggal berdirinya diperingati sebagai Hari Kebangkitan Nasional.",
       "explanation": "Budi Utomo didirikan pada 20 Mei 1908 oleh dr. Sutomo dan kawan-kawan pelajar kedokteran STOVIA.",
       "options": [
-        { "id": "a", "text": "Budi Utomo" },
-        { "id": "b", "text": "Sarekat Islam" },
-        { "id": "c", "text": "Taman Siswa" },
-        { "id": "d", "text": "Muhammadiyah" }
+        {
+          "id": "a",
+          "text": "Budi Utomo"
+        },
+        {
+          "id": "b",
+          "text": "Sarekat Islam"
+        },
+        {
+          "id": "c",
+          "text": "Taman Siswa"
+        },
+        {
+          "id": "d",
+          "text": "Muhammadiyah"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-02-q02",
@@ -32,10 +48,18 @@
       "hint": "Tanggal ini bertepatan dengan berdirinya Budi Utomo pada tahun 1908.",
       "explanation": "Benar, setiap 20 Mei bangsa Indonesia memperingati Hari Kebangkitan Nasional.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-indep-02-q03",
@@ -44,12 +68,26 @@
       "hint": "Hari kelahirannya diperingati setiap tanggal 21 April.",
       "explanation": "R.A. Kartini menulis pemikirannya tentang pentingnya pendidikan perempuan dalam surat-surat yang dibukukan sebagai 'Habis Gelap Terbitlah Terang'.",
       "options": [
-        { "id": "a", "text": "R.A. Kartini" },
-        { "id": "b", "text": "Dewi Sartika" },
-        { "id": "c", "text": "Cut Meutia" },
-        { "id": "d", "text": "Rohana Kudus" }
+        {
+          "id": "a",
+          "text": "R.A. Kartini"
+        },
+        {
+          "id": "b",
+          "text": "Dewi Sartika"
+        },
+        {
+          "id": "c",
+          "text": "Cut Meutia"
+        },
+        {
+          "id": "d",
+          "text": "Rohana Kudus"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-02-q04",
@@ -58,24 +96,41 @@
       "hint": "Tanggal lahir beliau, 2 Mei, diperingati sebagai Hari Pendidikan Nasional.",
       "explanation": "Ki Hajar Dewantara mendirikan Taman Siswa pada tahun 1922 agar anak-anak pribumi dapat memperoleh pendidikan.",
       "correctAnswer": {
-        "acceptedAnswers": ["Dewantara", "Ki Hajar Dewantara"]
+        "acceptedAnswers": [
+          "Dewantara",
+          "Ki Hajar Dewantara"
+        ]
       }
     },
     {
       "id": "hist-indep-02-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-candi",
+      "mediaKey": "quiz-heritage",
       "mediaCaption": "Ilustrasi bangunan sekolah bersejarah di Yogyakarta tempat lahirnya semboyan 'Tut Wuri Handayani'.",
       "prompt": "Apa arti dari semboyan pendidikan Ki Hajar Dewantara 'Tut Wuri Handayani'?",
       "hint": "Semboyan ini sering tertulis di logo Kementerian Pendidikan Indonesia.",
       "explanation": "'Tut Wuri Handayani' berarti seorang pendidik dari belakang memberikan dorongan dan semangat bagi muridnya.",
       "options": [
-        { "id": "a", "text": "Dari belakang memberi dorongan" },
-        { "id": "b", "text": "Belajar hanya di rumah saja" },
-        { "id": "c", "text": "Menghafal tanpa bertanya" },
-        { "id": "d", "text": "Menutup sekolah saat hujan" }
+        {
+          "id": "a",
+          "text": "Dari belakang memberi dorongan"
+        },
+        {
+          "id": "b",
+          "text": "Belajar hanya di rumah saja"
+        },
+        {
+          "id": "c",
+          "text": "Menghafal tanpa bertanya"
+        },
+        {
+          "id": "d",
+          "text": "Menutup sekolah saat hujan"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-02-q06",
@@ -84,12 +139,29 @@
       "hint": "Keduanya adalah dokter yang menggerakkan para mahasiswa kedokteran di Batavia.",
       "explanation": "dr. Wahidin Sudirohusodo menggagas penggalangan dana belajar, lalu dr. Sutomo bersama rekan pelajar STOVIA mendirikan Budi Utomo.",
       "options": [
-        { "id": "a", "text": "dr. Sutomo" },
-        { "id": "b", "text": "dr. Wahidin Sudirohusodo" },
-        { "id": "c", "text": "Kapitan Pattimura" },
-        { "id": "d", "text": "Pangeran Antasari" }
+        {
+          "id": "a",
+          "text": "dr. Sutomo"
+        },
+        {
+          "id": "b",
+          "text": "dr. Wahidin Sudirohusodo"
+        },
+        {
+          "id": "c",
+          "text": "Kapitan Pattimura"
+        },
+        {
+          "id": "d",
+          "text": "Pangeran Antasari"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "hist-indep-02-q07",
@@ -98,12 +170,26 @@
       "hint": "Kalimatnya menggambarkan perjalanan dari kegelapan menuju cahaya.",
       "explanation": "Kumpulan surat R.A. Kartini diterjemahkan ke bahasa Indonesia dengan judul 'Habis Gelap Terbitlah Terang'.",
       "options": [
-        { "id": "a", "text": "Habis Gelap Terbitlah Terang" },
-        { "id": "b", "text": "Laskar Pelangi" },
-        { "id": "c", "text": "Negarakertagama" },
-        { "id": "d", "text": "Di Bawah Bendera Revolusi" }
+        {
+          "id": "a",
+          "text": "Habis Gelap Terbitlah Terang"
+        },
+        {
+          "id": "b",
+          "text": "Laskar Pelangi"
+        },
+        {
+          "id": "c",
+          "text": "Negarakertagama"
+        },
+        {
+          "id": "d",
+          "text": "Di Bawah Bendera Revolusi"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-indep-02-q08",
@@ -112,10 +198,18 @@
       "hint": "Masa ini dikenal sebagai era Pergerakan Nasional.",
       "explanation": "Benar, masa setelah 1908 ditandai berdirinya berbagai organisasi pergerakan yang memperjuangkan kemajuan dan kemerdekaan bersama.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-indep-02-q09",
@@ -124,7 +218,10 @@
       "hint": "Bulan ini berada di antara April dan Juni.",
       "explanation": "Tanggal 2 Mei adalah hari lahir Ki Hajar Dewantara yang ditetapkan sebagai Hari Pendidikan Nasional.",
       "correctAnswer": {
-        "acceptedAnswers": ["Mei", "2 Mei"]
+        "acceptedAnswers": [
+          "Mei",
+          "2 Mei"
+        ]
       }
     },
     {
@@ -134,12 +231,26 @@
       "hint": "Dengan ilmu pengetahuan, rakyat bisa berorganisasi dan berpikir kritis.",
       "explanation": "Pendidikan melahirkan kaum terpelajar yang sadar akan pentingnya persatuan bangsa untuk melepaskan diri dari penjajahan.",
       "options": [
-        { "id": "a", "text": "Membuat rakyat sadar pentingnya persatuan dan mampu berjuang secara teratur" },
-        { "id": "b", "text": "Agar masyarakat tidak perlu lagi bekerja" },
-        { "id": "c", "text": "Supaya semua sekolah ditutup pada hari kerja" },
-        { "id": "d", "text": "Karena buku hanya boleh dibaca penjajah" }
+        {
+          "id": "a",
+          "text": "Membuat rakyat sadar pentingnya persatuan dan mampu berjuang secara teratur"
+        },
+        {
+          "id": "b",
+          "text": "Agar masyarakat tidak perlu lagi bekerja"
+        },
+        {
+          "id": "c",
+          "text": "Supaya semua sekolah ditutup pada hari kerja"
+        },
+        {
+          "id": "d",
+          "text": "Karena buku hanya boleh dibaca penjajah"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

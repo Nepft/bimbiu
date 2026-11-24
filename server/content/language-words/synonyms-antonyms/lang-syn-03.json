@@ -8,7 +8,9 @@
   "difficulty": "easy",
   "estimatedMinutes": 5,
   "order": 3,
-  "prerequisites": ["lang-syn-02"],
+  "prerequisites": [
+    "lang-syn-02"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Ingat aturan peluluhan huruf K, T, S, P jika diikuti huruf vokal.",
       "explanation": "Huruf 's' pada kata dasar 'sapu' luluh ketika mendapat awalan me-, sehingga menjadi 'menyapu' (bukan 'mensapu').",
       "options": [
-        { "id": "a", "text": "mensapu" },
-        { "id": "b", "text": "menyapu" },
-        { "id": "c", "text": "mesapu" },
-        { "id": "d", "text": "mengsapu" }
+        {
+          "id": "a",
+          "text": "mensapu"
+        },
+        {
+          "id": "b",
+          "text": "menyapu"
+        },
+        {
+          "id": "c",
+          "text": "mesapu"
+        },
+        {
+          "id": "d",
+          "text": "mengsapu"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-syn-03-q02",
@@ -32,10 +48,18 @@
       "hint": "Huruf 't' termasuk dalam kelompok huruf K-T-S-P yang luluh.",
       "explanation": "Salah. Karena huruf kedua pada 'tulis' adalah vokal ('u'), huruf 't' luluh sehingga bentuk yang benar adalah 'menulis'.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": false }
+      "correctAnswer": {
+        "value": false
+      }
     },
     {
       "id": "lang-syn-03-q03",
@@ -44,7 +68,10 @@
       "hint": "Huruf 'k' pada 'karang' luluh menjadi 'ng'.",
       "explanation": "Kata dasar 'karang' yang mendapat awalan me- menjadi 'mengarang' karena huruf 'k' luluh.",
       "correctAnswer": {
-        "acceptedAnswers": ["mengarang", "Mengarang"]
+        "acceptedAnswers": [
+          "mengarang",
+          "Mengarang"
+        ]
       }
     },
     {
@@ -54,28 +81,59 @@
       "hint": "Cari benda yang biasa dipakai di badan atau kepala.",
       "explanation": "'bertopi' berarti memakai topi dan 'bersepatu' berarti memakai sepatu. 'berlari' berarti melakukan tindakan lari, sedangkan 'berdua' berarti berjumlah dua.",
       "options": [
-        { "id": "a", "text": "bertopi" },
-        { "id": "b", "text": "berlari" },
-        { "id": "c", "text": "bersepatu" },
-        { "id": "d", "text": "berdua" }
+        {
+          "id": "a",
+          "text": "bertopi"
+        },
+        {
+          "id": "b",
+          "text": "berlari"
+        },
+        {
+          "id": "c",
+          "text": "bersepatu"
+        },
+        {
+          "id": "d",
+          "text": "berdua"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     },
     {
       "id": "lang-syn-03-q05",
       "type": "image_quiz",
-      "mediaKey": "cat-language",
+      "mediaKey": "quiz-signboard",
       "mediaCaption": "Sekelompok anak bermain sepeda bersama di taman kota pada Minggu pagi.",
       "prompt": "Kata berimbuhan apakah yang tepat untuk menggantikan frasa 'mengendarai sepeda' pada keterangan tersebut?",
       "hint": "Gabungkan awalan ber- dengan kata dasar 'sepeda'.",
       "explanation": "Awalan ber- + 'sepeda' membentuk kata 'bersepeda' yang berarti mengendarai sepeda.",
       "options": [
-        { "id": "a", "text": "menyepeda" },
-        { "id": "b", "text": "bersepeda" },
-        { "id": "c", "text": "disepeda" },
-        { "id": "d", "text": "tersepeda" }
+        {
+          "id": "a",
+          "text": "menyepeda"
+        },
+        {
+          "id": "b",
+          "text": "bersepeda"
+        },
+        {
+          "id": "c",
+          "text": "disepeda"
+        },
+        {
+          "id": "d",
+          "text": "tersepeda"
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-syn-03-q06",
@@ -84,12 +142,26 @@
       "hint": "Awalan di- membentuk kata kerja pasif dan penulisannya digabung dengan kata dasar.",
       "explanation": "'dibaca' pada kalimat 'Buku cerita itu dibaca oleh Adi' adalah kata kerja pasif berawalan di-, sehingga ditulis serangkai.",
       "options": [
-        { "id": "a", "text": "Buku cerita itu di baca oleh Adi." },
-        { "id": "b", "text": "Buku cerita itu dibaca oleh Adi." },
-        { "id": "c", "text": "Adi membaca buku cerita diperpustakaan." },
-        { "id": "d", "text": "Buku cerita itu membaca Adi." }
+        {
+          "id": "a",
+          "text": "Buku cerita itu di baca oleh Adi."
+        },
+        {
+          "id": "b",
+          "text": "Buku cerita itu dibaca oleh Adi."
+        },
+        {
+          "id": "c",
+          "text": "Adi membaca buku cerita diperpustakaan."
+        },
+        {
+          "id": "d",
+          "text": "Buku cerita itu membaca Adi."
+        }
       ],
-      "correctAnswer": { "optionId": "b" }
+      "correctAnswer": {
+        "optionId": "b"
+      }
     },
     {
       "id": "lang-syn-03-q07",
@@ -98,10 +170,18 @@
       "hint": "Huruf 'p' pada kata 'pukul' diikuti huruf vokal 'u'.",
       "explanation": "Benar. Huruf 'p' pada 'pukul' luluh ketika mendapat awalan me-, sehingga menjadi 'memukul'.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "lang-syn-03-q08",
@@ -110,7 +190,10 @@
       "hint": "Khusus kata 'ajar', awalan ber- mengalami perubahan bentuk menjadi bel-.",
       "explanation": "Awalan ber- pada kata dasar 'ajar' berubah bentuk menjadi bel- sehingga menjadi 'belajar'.",
       "correctAnswer": {
-        "acceptedAnswers": ["belajar", "Belajar"]
+        "acceptedAnswers": [
+          "belajar",
+          "Belajar"
+        ]
       }
     },
     {
@@ -120,12 +203,26 @@
       "hint": "Lihat dua huruf pertama pada kata 'proses'.",
       "explanation": "Huruf K, T, S, P tidak luluh jika diawali gugus konsonan (dua huruf mati berurutan), seperti 'pr-' pada 'proses' -> 'memproses'.",
       "options": [
-        { "id": "a", "text": "Karena diawali dua huruf konsonan berurutan (pr-)" },
-        { "id": "b", "text": "Karena terdiri dari enam huruf" },
-        { "id": "c", "text": "Karena diakhiri huruf 's'" },
-        { "id": "d", "text": "Karena merupakan nama tempat" }
+        {
+          "id": "a",
+          "text": "Karena diawali dua huruf konsonan berurutan (pr-)"
+        },
+        {
+          "id": "b",
+          "text": "Karena terdiri dari enam huruf"
+        },
+        {
+          "id": "c",
+          "text": "Karena diakhiri huruf 's'"
+        },
+        {
+          "id": "d",
+          "text": "Karena merupakan nama tempat"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "lang-syn-03-q10",
@@ -134,12 +231,29 @@
       "hint": "Periksa kata dasar 'pesona' dan 'ubah'.",
       "explanation": "'memesona' (dari me- + pesona, huruf 'p' luluh) dan 'mengubah' (dari me- + ubah, bukan 'merubah') adalah bentuk yang benar. 'menterjemahkan' salah (seharusnya 'menerjemahkan').",
       "options": [
-        { "id": "a", "text": "memesona" },
-        { "id": "b", "text": "mempesona" },
-        { "id": "c", "text": "mengubah" },
-        { "id": "d", "text": "menterjemahkan" }
+        {
+          "id": "a",
+          "text": "memesona"
+        },
+        {
+          "id": "b",
+          "text": "mempesona"
+        },
+        {
+          "id": "c",
+          "text": "mengubah"
+        },
+        {
+          "id": "d",
+          "text": "menterjemahkan"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "c"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "c"
+        ]
+      }
     }
   ]
 }

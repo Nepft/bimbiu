@@ -8,7 +8,9 @@
   "difficulty": "medium",
   "estimatedMinutes": 5,
   "order": 5,
-  "prerequisites": ["hist-culture-04"],
+  "prerequisites": [
+    "hist-culture-04"
+  ],
   "xpReward": 20,
   "questions": [
     {
@@ -18,12 +20,26 @@
       "hint": "Profesi seniman ini menguasai suara berbagai tokoh pewayangan dan memberi aba-aba pada penabuh gamelan.",
       "explanation": "Dalang adalah pemimpin pertunjukan wayang yang menggerakkan wayang serta menuturkan kisah di balik layar kelir.",
       "options": [
-        { "id": "a", "text": "Dalang" },
-        { "id": "b", "text": "Sinden" },
-        { "id": "c", "text": "Niyaga" },
-        { "id": "d", "text": "Pujangga" }
+        {
+          "id": "a",
+          "text": "Dalang"
+        },
+        {
+          "id": "b",
+          "text": "Sinden"
+        },
+        {
+          "id": "c",
+          "text": "Niyaga"
+        },
+        {
+          "id": "d",
+          "text": "Pujangga"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-culture-05-q02",
@@ -32,10 +48,18 @@
       "hint": "Selain melatih fisik, pencak silat juga mengajarkan budi pekerti dan disiplin.",
       "explanation": "Benar, Pencak Silat resmi masuk dalam daftar Warisan Budaya Takbenda UNESCO pada tahun 2019.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-culture-05-q03",
@@ -44,12 +68,26 @@
       "hint": "Di beberapa daerah Jawa permainan ini juga dikenal dengan nama dakon.",
       "explanation": "Congklak atau dakon melatih keterampilan berhitung, ketelitian, dan strategi secara menyenangkan.",
       "options": [
-        { "id": "a", "text": "Congklak" },
-        { "id": "b", "text": "Egrang" },
-        { "id": "c", "text": "Gobak Sodor" },
-        { "id": "d", "text": "Engklek" }
+        {
+          "id": "a",
+          "text": "Congklak"
+        },
+        {
+          "id": "b",
+          "text": "Egrang"
+        },
+        {
+          "id": "c",
+          "text": "Gobak Sodor"
+        },
+        {
+          "id": "d",
+          "text": "Engklek"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-culture-05-q04",
@@ -58,24 +96,41 @@
       "hint": "Dimasak berjam-jam hingga kuahnya mengering dan berwarna cokelat gelap.",
       "explanation": "Rendang merupakan kuliner khas Minangkabau, Sumatra Barat, yang mendunia karena kelezatan rempah-rempahnya.",
       "correctAnswer": {
-        "acceptedAnswers": ["Rendang", "rendang daging"]
+        "acceptedAnswers": [
+          "Rendang",
+          "rendang daging"
+        ]
       }
     },
     {
       "id": "hist-culture-05-q05",
       "type": "image_quiz",
-      "mediaKey": "quiz-candi",
+      "mediaKey": "quiz-rumah-adat",
       "mediaCaption": "Ilustrasi perlombaan balap sepasang sapi berhias dengan joki di atas kayu penarik yang menjadi tradisi tahunan di Pulau Madura.",
       "prompt": "Tradisi perlombaan pacuan sapi khas masyarakat Pulau Madura, Jawa Timur pada ilustrasi tersebut bernama...",
       "hint": "Tradisi ini biasa digelar setelah musim panen tiba.",
       "explanation": "Karapan Sapi adalah tradisi pacuan sapi yang berasal dari Pulau Madura, Jawa Timur.",
       "options": [
-        { "id": "a", "text": "Karapan Sapi" },
-        { "id": "b", "text": "Sekaten" },
-        { "id": "c", "text": "Lompat Batu" },
-        { "id": "d", "text": "Ngaben" }
+        {
+          "id": "a",
+          "text": "Karapan Sapi"
+        },
+        {
+          "id": "b",
+          "text": "Sekaten"
+        },
+        {
+          "id": "c",
+          "text": "Lompat Batu"
+        },
+        {
+          "id": "d",
+          "text": "Ngaben"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-culture-05-q06",
@@ -84,12 +139,29 @@
       "hint": "Ingat makanan berbahan nangka muda dari Yogyakarta dan olahan sagu dari Indonesia timur.",
       "explanation": "Gudeg adalah kuliner khas Yogyakarta yang terbuat dari nangka muda, sedangkan Papeda adalah makanan pokok khas Papua dan Maluku dari tepung sagu.",
       "options": [
-        { "id": "a", "text": "Gudeg — Yogyakarta" },
-        { "id": "b", "text": "Papeda — Papua dan Maluku" },
-        { "id": "c", "text": "Pempek — Aceh" },
-        { "id": "d", "text": "Kerak Telor — Bali" }
+        {
+          "id": "a",
+          "text": "Gudeg — Yogyakarta"
+        },
+        {
+          "id": "b",
+          "text": "Papeda — Papua dan Maluku"
+        },
+        {
+          "id": "c",
+          "text": "Pempek — Aceh"
+        },
+        {
+          "id": "d",
+          "text": "Kerak Telor — Bali"
+        }
       ],
-      "correctAnswer": { "optionIds": ["a", "b"] }
+      "correctAnswer": {
+        "optionIds": [
+          "a",
+          "b"
+        ]
+      }
     },
     {
       "id": "hist-culture-05-q07",
@@ -98,12 +170,26 @@
       "hint": "Permainan ini dikenal juga dengan nama galasin di beberapa daerah.",
       "explanation": "Gobak Sodor melatih kerja sama tim, kecepatan, dan ketangkasan saat melewati penjaga garis.",
       "options": [
-        { "id": "a", "text": "Gobak Sodor" },
-        { "id": "b", "text": "Gasing" },
-        { "id": "c", "text": "Bola Bekel" },
-        { "id": "d", "text": "Layang-layang" }
+        {
+          "id": "a",
+          "text": "Gobak Sodor"
+        },
+        {
+          "id": "b",
+          "text": "Gasing"
+        },
+        {
+          "id": "c",
+          "text": "Bola Bekel"
+        },
+        {
+          "id": "d",
+          "text": "Layang-layang"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     },
     {
       "id": "hist-culture-05-q08",
@@ -112,10 +198,18 @@
       "hint": "Tradisi ini pernah diabadikan pada gambar uang kertas seribu rupiah lama.",
       "explanation": "Benar, Fahombo atau Lompat Batu adalah tradisi adat terkenal dari Pulau Nias, Sumatra Utara.",
       "options": [
-        { "id": "true", "text": "Benar" },
-        { "id": "false", "text": "Salah" }
+        {
+          "id": "true",
+          "text": "Benar"
+        },
+        {
+          "id": "false",
+          "text": "Salah"
+        }
       ],
-      "correctAnswer": { "value": true }
+      "correctAnswer": {
+        "value": true
+      }
     },
     {
       "id": "hist-culture-05-q09",
@@ -124,7 +218,10 @@
       "hint": "Permainan ini melatih keseimbangan tubuh anak-anak.",
       "explanation": "Egrang dimainkan dengan berdiri dan berjalan di atas sepasang tongkat bambu berpijakan.",
       "correctAnswer": {
-        "acceptedAnswers": ["egrang", "main egrang"]
+        "acceptedAnswers": [
+          "egrang",
+          "main egrang"
+        ]
       }
     },
     {
@@ -134,12 +231,26 @@
       "hint": "Bandingkan dengan hanya duduk diam menatap layar sepanjang hari.",
       "explanation": "Permainan tradisional membuat tubuh aktif bergerak, melatih kekompakan, serta mempererat persahabatan secara langsung.",
       "options": [
-        { "id": "a", "text": "Membuat tubuh sehat bergerak dan melatih kebersamaan dengan teman" },
-        { "id": "b", "text": "Membuat anak semakin malas bergerak" },
-        { "id": "c", "text": "Menghilangkan kemampuan bekerja sama" },
-        { "id": "d", "text": "Menguras kuota internet rumah" }
+        {
+          "id": "a",
+          "text": "Membuat tubuh sehat bergerak dan melatih kebersamaan dengan teman"
+        },
+        {
+          "id": "b",
+          "text": "Membuat anak semakin malas bergerak"
+        },
+        {
+          "id": "c",
+          "text": "Menghilangkan kemampuan bekerja sama"
+        },
+        {
+          "id": "d",
+          "text": "Menguras kuota internet rumah"
+        }
       ],
-      "correctAnswer": { "optionId": "a" }
+      "correctAnswer": {
+        "optionId": "a"
+      }
     }
   ]
 }

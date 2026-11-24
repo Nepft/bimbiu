@@ -12,6 +12,12 @@ export type QuizMediaKey =
   | 'quiz-clock'
   | 'quiz-signboard'
   | 'quiz-recycle'
+  | 'quiz-matter'
+  | 'quiz-rumah-adat'
+  | 'quiz-hieroglif'
+  | 'quiz-math-board'
+  | 'quiz-traffic-sign'
+  | 'quiz-digital-safe'
 
 interface Props {
   mediaKey?: string
@@ -36,6 +42,12 @@ const resolvedKey = computed<QuizMediaKey>(() => {
     case 'quiz-clock':
     case 'quiz-signboard':
     case 'quiz-recycle':
+    case 'quiz-matter':
+    case 'quiz-rumah-adat':
+    case 'quiz-hieroglif':
+    case 'quiz-math-board':
+    case 'quiz-traffic-sign':
+    case 'quiz-digital-safe':
     case 'quiz-planet':
       return props.mediaKey
     default:
@@ -302,6 +314,134 @@ const resolvedKey = computed<QuizMediaKey>(() => {
     <circle cx="222" cy="80" r="36" fill="#219E8A" />
     <text x="206" y="89" fill="#FAF7F0" font-size="24" font-weight="700" font-family="Plus Jakarta Sans, sans-serif">3R</text>
     <text x="168" y="148" fill="#FAF7F0" font-size="11" font-weight="600" font-family="Plus Jakarta Sans, sans-serif">Hemat &amp; Daur Ulang</text>
+  </svg>
+
+  <!-- quiz-matter: Wujud Benda (Padat, Cair, Gas) -->
+  <svg
+    v-else-if="resolvedKey === 'quiz-matter'"
+    width="320"
+    height="172"
+    viewBox="0 0 320 172"
+    fill="none"
+    role="img"
+    :aria-label="caption || 'Ilustrasi wujud benda padat, cair, dan gas'"
+    class="quiz-media-svg"
+  >
+    <rect width="320" height="172" rx="16" fill="#172330" />
+    <rect x="44" y="52" width="58" height="58" rx="10" fill="#3A94D6" />
+    <rect x="54" y="62" width="18" height="18" rx="4" fill="#FAF7F0" fill-opacity="0.45" />
+    <text x="56" y="132" fill="#FAF7F0" font-size="11" font-weight="700" font-family="Plus Jakarta Sans, sans-serif">Padat</text>
+    <path d="M160 44C160 44 188 78 188 94C188 109 175 120 160 120C145 120 132 109 132 94C132 78 160 44 160 44Z" fill="#219E8A" />
+    <text x="148" y="138" fill="#FAF7F0" font-size="11" font-weight="700" font-family="Plus Jakarta Sans, sans-serif">Cair</text>
+    <circle cx="239" cy="83" r="15" fill="#F2EBDB" fill-opacity="0.9" />
+    <circle cx="260" cy="76" r="18" fill="#FAF7F0" fill-opacity="0.95" />
+    <circle cx="278" cy="84" r="14" fill="#F2EBDB" fill-opacity="0.9" />
+    <text x="244" y="132" fill="#FAF7F0" font-size="11" font-weight="700" font-family="Plus Jakarta Sans, sans-serif">Gas</text>
+  </svg>
+
+  <!-- quiz-rumah-adat: Rumah Adat Nusantara -->
+  <svg
+    v-else-if="resolvedKey === 'quiz-rumah-adat'"
+    width="320"
+    height="172"
+    viewBox="0 0 320 172"
+    fill="none"
+    role="img"
+    :aria-label="caption || 'Ilustrasi rumah adat panggung Nusantara'"
+    class="quiz-media-svg"
+  >
+    <rect width="320" height="172" rx="16" fill="#172330" />
+    <circle cx="61" cy="41" r="17" fill="#F2B632" fill-opacity="0.9" />
+    <rect x="78" y="108" width="8" height="36" rx="2" fill="#8C5E00" />
+    <rect x="114" y="108" width="8" height="36" rx="2" fill="#8C5E00" />
+    <rect x="150" y="108" width="8" height="36" rx="2" fill="#8C5E00" />
+    <rect x="186" y="108" width="8" height="36" rx="2" fill="#8C5E00" />
+    <rect x="222" y="108" width="8" height="36" rx="2" fill="#8C5E00" />
+    <rect x="66" y="72" width="188" height="38" rx="4" fill="#F2EBDB" />
+    <polygon points="48,74 160,32 272,74" fill="#0F6A5B" />
+    <rect x="90" y="82" width="22" height="18" rx="3" fill="#172330" />
+    <rect x="149" y="82" width="22" height="28" rx="3" fill="#8C5E00" />
+    <rect x="208" y="82" width="22" height="18" rx="3" fill="#172330" />
+  </svg>
+
+  <!-- quiz-hieroglif: Peradaban Dunia & Simbol Kuno -->
+  <svg
+    v-else-if="resolvedKey === 'quiz-hieroglif'"
+    width="320"
+    height="172"
+    viewBox="0 0 320 172"
+    fill="none"
+    role="img"
+    :aria-label="caption || 'Ilustrasi simbol peradaban kuno'"
+    class="quiz-media-svg"
+  >
+    <rect width="320" height="172" rx="16" fill="#172330" />
+    <rect x="48" y="32" width="224" height="108" rx="12" fill="#F2EBDB" />
+    <rect x="56" y="40" width="208" height="92" rx="8" fill="#FAF7F0" />
+    <circle cx="99" cy="81" r="19" fill="#F2B632" />
+    <circle cx="99" cy="81" r="8" fill="#172330" />
+    <polygon points="146,106 172,58 198,106" fill="#8C5E00" />
+    <rect x="218" y="58" width="22" height="46" rx="8" fill="#0F6A5B" />
+    <circle cx="231" cy="56" r="8" fill="#C94A4A" />
+  </svg>
+
+  <!-- quiz-math-board: Papan Teka-Teki Operasi Hitung -->
+  <svg
+    v-else-if="resolvedKey === 'quiz-math-board'"
+    width="320"
+    height="172"
+    viewBox="0 0 320 172"
+    fill="none"
+    role="img"
+    :aria-label="caption || 'Ilustrasi papan hitung matematika'"
+    class="quiz-media-svg"
+  >
+    <rect width="320" height="172" rx="16" fill="#172330" />
+    <rect x="40" y="32" width="240" height="108" rx="14" fill="#8C5E00" />
+    <rect x="48" y="40" width="224" height="92" rx="10" fill="#0F6A5B" />
+    <text x="72" y="92" fill="#FAF7F0" font-size="20" font-weight="700" font-family="Plus Jakarta Sans, sans-serif">6 x 4 - 10 : 2 = ?</text>
+    <rect x="198" y="118" width="44" height="8" rx="4" fill="#F2B632" />
+  </svg>
+
+  <!-- quiz-traffic-sign: Rambu Lalu Lintas & Keselamatan -->
+  <svg
+    v-else-if="resolvedKey === 'quiz-traffic-sign'"
+    width="320"
+    height="172"
+    viewBox="0 0 320 172"
+    fill="none"
+    role="img"
+    :aria-label="caption || 'Ilustrasi rambu keselamatan lalu lintas'"
+    class="quiz-media-svg"
+  >
+    <rect width="320" height="172" rx="16" fill="#172330" />
+    <rect x="155" y="118" width="10" height="42" rx="3" fill="#F2EBDB" />
+    <circle cx="160" cy="76" r="46" fill="#3A94D6" />
+    <circle cx="160" cy="76" r="38" fill="#1E4D8C" />
+    <circle cx="143" cy="85" r="11" stroke="#FAF7F0" stroke-width="3" />
+    <circle cx="177" cy="85" r="11" stroke="#FAF7F0" stroke-width="3" />
+    <rect x="142" y="74" width="34" height="4" rx="2" fill="#FAF7F0" />
+    <circle cx="161" cy="61" r="5" fill="#F2B632" />
+  </svg>
+
+  <!-- quiz-digital-safe: Keamanan Digital & Tablet -->
+  <svg
+    v-else-if="resolvedKey === 'quiz-digital-safe'"
+    width="320"
+    height="172"
+    viewBox="0 0 320 172"
+    fill="none"
+    role="img"
+    :aria-label="caption || 'Ilustrasi keamanan digital pada perangkat tablet'"
+    class="quiz-media-svg"
+  >
+    <rect width="320" height="172" rx="16" fill="#172330" />
+    <rect x="76" y="26" width="168" height="120" rx="14" fill="#F2EBDB" />
+    <rect x="86" y="36" width="148" height="100" rx="8" fill="#25374B" />
+    <rect x="96" y="46" width="128" height="30" rx="6" fill="#C94A4A" />
+    <text x="110" y="65" fill="#FAF7F0" font-size="11" font-weight="700" font-family="Plus Jakarta Sans, sans-serif">Hati-hati Tautan!</text>
+    <rect x="144" y="88" width="32" height="26" rx="6" fill="#F2B632" />
+    <circle cx="160" cy="101" r="4" fill="#172330" />
   </svg>
 
   <!-- quiz-planet (default): Tata Surya & Planet Bercincin -->
