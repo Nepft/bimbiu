@@ -29,5 +29,13 @@ GIT_WORKFLOW.md
 PRD.md 
 RULES.md
 DESIGN.md
+DEPLOYMENT.md
 
 .agents
+
+# Playwright & E2E local files
+test-results/
+playwright-report/
+blob-report/
+playwright.config.ts
+tests/e2e/
