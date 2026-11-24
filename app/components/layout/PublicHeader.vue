@@ -28,9 +28,11 @@ const isPrivacy = computed(() => route.path.startsWith('/privacy'))
             <AppButton variant="secondary" size="md" to="/auth/login">
               Masuk
             </AppButton>
-            <AppButton variant="primary" size="md" to="/auth/login" class="public-header__signup">
-              Daftar Gratis
-            </AppButton>
+            <span class="public-header__signup">
+              <AppButton variant="primary" size="md" to="/auth/login">
+                Daftar Gratis
+              </AppButton>
+            </span>
           </template>
           <AppButton v-else-if="isLogin" variant="secondary" size="md" to="/">
             <AppIcon name="arrow-left" :size="18" />
