@@ -59,6 +59,13 @@ const iconName = computed<IllustrationName>(() => CATEGORY_ICON_MAP[props.catego
   background-color: var(--bg-surface);
   border: 1.5px solid var(--border-subtle);
   border-radius: var(--radius-lg);
+  transition: transform var(--motion-fast), box-shadow var(--motion-fast), border-color var(--motion-fast);
+}
+
+.category-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-control);
+  box-shadow: 0 4px 0 var(--border-subtle);
 }
 
 .category-card__icon {

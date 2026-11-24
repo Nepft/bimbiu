@@ -403,11 +403,16 @@ function handleSubmit() {
   font-weight: 600;
   color: var(--text-primary);
   text-align: left;
-  transition: background-color var(--motion-fast), border-color var(--motion-fast);
+  transition: background-color var(--motion-fast), border-color var(--motion-fast), transform var(--motion-fast);
 }
 
 .quiz-option:hover:not(:disabled) {
   background-color: var(--bg-surface-hover);
+  transform: translateY(-1px);
+}
+
+.quiz-option:active:not(:disabled) {
+  transform: translateY(1px);
 }
 
 .quiz-option--selected {
@@ -469,6 +474,17 @@ function handleSubmit() {
   font-size: var(--text-h3);
   font-weight: 600;
   color: var(--text-primary);
+  transition: background-color var(--motion-fast), border-color var(--motion-fast), transform var(--motion-fast), box-shadow var(--motion-fast);
+}
+
+.quiz-tf-btn:hover:not(:disabled) {
+  background-color: var(--bg-surface-hover);
+  transform: translateY(-1px);
+}
+
+.quiz-tf-btn:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 var(--border-control);
 }
 
 .quiz-tf-btn--selected {
@@ -488,11 +504,13 @@ function handleSubmit() {
 }
 
 .quiz-feedback--correct {
+  animation: bimbiu-pop-in 260ms cubic-bezier(0.34, 1.56, 0.64, 1);
   background-color: var(--feedback-correct-bg);
   border-color: var(--feedback-correct-fg);
 }
 
 .quiz-feedback--review {
+  animation: bimbiu-nudge 260ms ease;
   background-color: var(--feedback-review-bg);
   border-color: var(--feedback-review-fg);
 }

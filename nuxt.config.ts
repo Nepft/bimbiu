@@ -24,6 +24,7 @@ export default defineNuxtConfig({
     '~/assets/css/base.css',
   ],
   app: {
+    pageTransition: { name: 'bimbiu-page', mode: 'out-in' },
     head: {
       htmlAttrs: { lang: 'id' },
       title: 'Bimbiu - Kuis Pengetahuan Umum Anak',

@@ -48,7 +48,8 @@ onBeforeUnmount(() => {
 
 <template>
   <Teleport to="body">
-    <div v-if="open" class="app-dialog-backdrop" @click.self="emit('close')">
+    <Transition name="bimbiu-dialog">
+      <div v-if="open" class="app-dialog-backdrop" @click.self="emit('close')">
       <div
         ref="dialogEl"
         class="app-dialog"
@@ -80,6 +81,7 @@ onBeforeUnmount(() => {
         </div>
       </div>
     </div>
+    </Transition>
   </Teleport>
 </template>
 
@@ -148,5 +150,26 @@ onBeforeUnmount(() => {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-3);
+}
+
+.bimbiu-dialog-enter-active,
+.bimbiu-dialog-leave-active {
+  transition: opacity 180ms ease;
+}
+
+.bimbiu-dialog-enter-active .app-dialog,
+.bimbiu-dialog-leave-active .app-dialog {
+  transition: transform 180ms cubic-bezier(0.34, 1.56, 0.64, 1), opacity 180ms ease;
+}
+
+.bimbiu-dialog-enter-from,
+.bimbiu-dialog-leave-to {
+  opacity: 0;
+}
+
+.bimbiu-dialog-enter-from .app-dialog,
+.bimbiu-dialog-leave-to .app-dialog {
+  opacity: 0;
+  transform: scale(0.95) translateY(8px);
 }
 </style>

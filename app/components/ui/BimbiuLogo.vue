@@ -47,6 +47,11 @@ withDefaults(defineProps<Props>(), {
   font-weight: 700;
   font-size: 20px;
   line-height: 1;
+  transition: transform 200ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.bimbiu-logo:hover .bimbiu-logo__mark {
+  transform: rotate(0deg) scale(1.06);
 }
 
 .bimbiu-logo__word {

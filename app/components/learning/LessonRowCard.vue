@@ -73,6 +73,13 @@ const ctaLabel = computed(() => {
   background-color: var(--bg-surface);
   border: 1.5px solid var(--border-subtle);
   border-radius: var(--radius-lg);
+  transition: transform var(--motion-fast), box-shadow var(--motion-fast), border-color var(--motion-fast);
+}
+
+.lesson-row:not(.lesson-row--locked):hover {
+  transform: translateY(-2px);
+  border-color: var(--border-control);
+  box-shadow: 0 4px 0 var(--border-subtle);
 }
 
 .lesson-row--active {
