@@ -60,7 +60,7 @@ const ctaLabel = computed(() => {
       <div v-if="hasStructuredMeta" class="lesson-row__pills">
         <span v-if="typeof estimatedMinutes === 'number'" class="lesson-chip lesson-chip--neutral">
           <AppIcon name="clock" :size="13" />
-          <span>~{{ estimatedMinutes }} menit</span>
+          <span>{{ estimatedMinutes }} menit</span>
         </span>
         <span v-if="typeof xpReward === 'number'" class="lesson-chip lesson-chip--xp">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true">

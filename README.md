@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/bimbiu-logo.svg" alt="Logo Bimbiu" width="180" />
+</p>
+
 # Bimbiu
 
 **Bimbiu** adalah aplikasi web kuis pengetahuan umum interaktif untuk anak usia **10-12 tahun**. Bimbiu dirancang untuk membuat proses belajar terasa menyenangkan melalui perjalanan materi terstruktur, 5 tipe soal interaktif, feedback dan pembahasan langsung, serta penghargaan sederhana berupa XP, level, dan koleksi badge.

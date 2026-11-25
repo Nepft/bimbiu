@@ -141,7 +141,7 @@ const categoryCards = computed(() => {
         <div class="lesson-meta-pills">
           <span class="meta-chip meta-chip--neutral">
             <AppIcon name="clock" :size="13" />
-            <span>~{{ recommended.estimatedMinutes }} menit</span>
+            <span>{{ recommended.estimatedMinutes }} menit</span>
           </span>
           <span class="meta-chip meta-chip--xp">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true">
