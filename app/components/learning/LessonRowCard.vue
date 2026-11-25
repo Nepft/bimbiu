@@ -3,7 +3,12 @@ interface Props {
   lessonNumber: string
   title: string
   description: string
-  meta: string
+  meta?: string
+  estimatedMinutes?: number
+  xpReward?: number
+  questionCount?: number
+  bestScore?: number
+  attemptsCount?: number
   status: 'not_started' | 'in_progress' | 'completed' | 'mastered' | 'locked'
   to?: string
 }
@@ -11,6 +16,10 @@ interface Props {
 const props = defineProps<Props>()
 
 const isLocked = computed(() => props.status === 'locked')
+
+const hasStructuredMeta = computed(() =>
+  typeof props.estimatedMinutes === 'number' || typeof props.xpReward === 'number',
+)
 
 const ctaLabel = computed(() => {
   if (props.status === 'in_progress') return 'Lanjutkan Kuis'
@@ -48,7 +57,32 @@ const ctaLabel = computed(() => {
       <p class="lesson-row__desc">
         {{ description }}
       </p>
-      <p class="lesson-row__meta" :class="{ 'lesson-row__meta--correct': status === 'mastered' }">
+      <div v-if="hasStructuredMeta" class="lesson-row__pills">
+        <span v-if="typeof estimatedMinutes === 'number'" class="lesson-chip lesson-chip--neutral">
+          <AppIcon name="clock" :size="13" />
+          <span>~{{ estimatedMinutes }} menit</span>
+        </span>
+        <span v-if="typeof xpReward === 'number'" class="lesson-chip lesson-chip--xp">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M13 2.5L4.5 13.5H11.5L10.5 21.5L19.5 10.5H12.5L13 2.5Z" fill="#F2B632" fill-opacity="0.35" stroke="#9A5B00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>+{{ xpReward }} XP</span>
+        </span>
+        <span v-if="(attemptsCount ?? 0) > 0 && typeof bestScore === 'number'" class="lesson-chip lesson-chip--score">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 3L14.6 8.3L20.5 9.15L16.25 13.3L17.25 19.15L12 16.4L6.75 19.15L7.75 13.3L3.5 9.15L9.4 8.3L12 3Z" fill="#0F6A5B" fill-opacity="0.2" stroke="#0F6A5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>Skor terbaik: {{ bestScore }}</span>
+        </span>
+        <span v-else-if="typeof questionCount === 'number'" class="lesson-chip lesson-chip--info">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" fill="#2563EB" fill-opacity="0.14" stroke="#1E40AF" stroke-width="2" />
+            <path d="M8.5 12.2L10.8 14.5L15.5 9.8" stroke="#1E40AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>{{ questionCount }} soal</span>
+        </span>
+      </div>
+      <p v-else-if="meta" class="lesson-row__meta" :class="{ 'lesson-row__meta--correct': status === 'mastered' }">
         {{ meta }}
       </p>
     </div>
@@ -57,6 +91,7 @@ const ctaLabel = computed(() => {
       <AppButton
         :variant="status === 'in_progress' ? 'primary' : 'secondary'"
         :to="to"
+        class="lesson-row__btn"
       >
         {{ ctaLabel }}
       </AppButton>
@@ -145,6 +180,50 @@ const ctaLabel = computed(() => {
   color: var(--text-secondary);
 }
 
+.lesson-row__pills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+.lesson-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.lesson-chip--neutral {
+  background-color: #f5f7f9;
+  border: 1px solid #e2e8ee;
+  color: #334155;
+}
+
+.lesson-chip--xp {
+  background-color: #fef6e4;
+  border: 1px solid #f3d89b;
+  color: #824d00;
+  font-weight: 700;
+}
+
+.lesson-chip--score {
+  background-color: #ecfdf5;
+  border: 1px solid #bde7d5;
+  color: #0f6a5b;
+}
+
+.lesson-chip--info {
+  background-color: #eef4ff;
+  border: 1px solid #c9dbfc;
+  color: #1e40af;
+}
+
 .lesson-row__meta {
   font-size: var(--text-caption);
   font-weight: 500;
@@ -155,11 +234,19 @@ const ctaLabel = computed(() => {
   color: var(--feedback-correct-fg);
 }
 
+.lesson-row__btn {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .lesson-row {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .lesson-row__btn {
+    width: auto;
   }
 }
 </style>

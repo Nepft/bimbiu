@@ -20,14 +20,21 @@ const isPrivacy = computed(() => route.path.startsWith('/privacy'))
   <header class="public-header" :class="{ 'public-header--hidden': isHidden }">
     <div class="public-header__inner">
       <NuxtLink to="/" class="public-header__brand">
-        <BimbiuLogo :show-mark="!isOnboarding" />
+        <BimbiuLogo />
       </NuxtLink>
       <nav aria-label="Navigasi publik" class="public-header__nav">
         <slot name="actions">
           <template v-if="isLanding">
-            <AppButton variant="secondary" size="md" to="/auth/login">
-              Masuk
-            </AppButton>
+            <span class="public-header__login-mobile">
+              <AppButton variant="primary" size="md" to="/auth/login">
+                Masuk
+              </AppButton>
+            </span>
+            <span class="public-header__login-desktop">
+              <AppButton variant="secondary" size="md" to="/auth/login">
+                Masuk
+              </AppButton>
+            </span>
             <span class="public-header__signup">
               <AppButton variant="primary" size="md" to="/auth/login">
                 Daftar Gratis
@@ -113,6 +120,11 @@ const isPrivacy = computed(() => route.path.startsWith('/privacy'))
   gap: var(--space-3);
 }
 
+.public-header__login-mobile {
+  display: inline-flex;
+}
+
+.public-header__login-desktop,
 .public-header__signup {
   display: none;
 }
@@ -132,6 +144,11 @@ const isPrivacy = computed(() => route.path.startsWith('/privacy'))
 }
 
 @media (min-width: 640px) {
+  .public-header__login-mobile {
+    display: none;
+  }
+
+  .public-header__login-desktop,
   .public-header__signup {
     display: inline-flex;
   }

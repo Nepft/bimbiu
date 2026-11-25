@@ -66,14 +66,18 @@ const learningSteps = [
         </h2>
         <div class="landing-flow__grid">
           <article v-for="step in learningSteps" :key="step.num" class="landing-step">
-            <BimbiuIllustration :name="step.icon" :size="36" />
-            <span class="landing-step__num">{{ step.num }}</span>
-            <h3 class="landing-step__title">
-              {{ step.title }}
-            </h3>
-            <p class="landing-step__desc">
-              {{ step.desc }}
-            </p>
+            <div class="landing-step__header">
+              <BimbiuIllustration :name="step.icon" :size="40" />
+              <span class="landing-step__num">{{ step.num }}</span>
+            </div>
+            <div class="landing-step__body">
+              <h3 class="landing-step__title">
+                {{ step.title }}
+              </h3>
+              <p class="landing-step__desc">
+                {{ step.desc }}
+              </p>
+            </div>
           </article>
         </div>
       </div>
@@ -146,6 +150,7 @@ const learningSteps = [
 .landing-hero__actions {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: var(--space-3);
 }
 
@@ -199,27 +204,56 @@ const learningSteps = [
 }
 
 .landing-step {
-  padding: var(--space-4);
+  padding: 18px;
   background-color: var(--bg-surface);
   border: 1.5px solid var(--border-subtle);
-  border-radius: var(--radius-lg);
+  border-radius: 16px;
+  box-shadow: 0 2px 0 var(--border-subtle);
   display: flex;
   flex-direction: column;
-  gap: var(--space-2);
+  gap: 14px;
+  height: 100%;
+}
+
+.landing-step__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
 }
 
 .landing-step__num {
-  font-size: var(--text-caption);
-  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background-color: var(--bg-canvas);
+  border: 1px solid var(--border-subtle);
+  font-family: var(--font-display);
+  font-size: 12.5px;
+  font-weight: 700;
+  line-height: 1.2;
   color: var(--action-primary);
 }
 
+.landing-step__body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
 .landing-step__title {
-  font-size: var(--text-h3);
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--text-primary);
 }
 
 .landing-step__desc {
-  font-size: var(--text-caption);
+  font-size: 13.5px;
+  line-height: 1.5;
   color: var(--text-secondary);
 }
 

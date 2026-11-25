@@ -152,7 +152,7 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
 }
 
 .xp-card {
-  padding: var(--space-6);
+  padding: var(--space-4);
   background-color: var(--feedback-hint-bg);
   border: 2px solid var(--action-accent-border);
   border-radius: var(--radius-xl);
@@ -223,6 +223,7 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
 .badge-card--earned {
   background-color: var(--bg-surface);
   border: 2px solid var(--action-accent-border);
+  box-shadow: 0 2px 0 var(--action-accent-border);
 }
 
 .badge-card__top {
@@ -269,6 +270,10 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
 }
 
 @media (min-width: 640px) {
+  .xp-card {
+    padding: var(--space-6);
+  }
+
   .badges-grid {
     grid-template-columns: repeat(2, 1fr);
   }

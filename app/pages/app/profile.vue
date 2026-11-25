@@ -110,7 +110,7 @@ async function handleConfirmLogout() {
         </p>
 
         <div>
-          <AppButton type="submit" variant="primary" size="lg">
+          <AppButton type="submit" variant="primary" size="lg" class="profile-edit__submit" :loading="saving">
             Simpan Perubahan
           </AppButton>
         </div>
@@ -231,6 +231,10 @@ async function handleConfirmLogout() {
   color: var(--feedback-correct-fg);
 }
 
+.profile-edit__submit {
+  width: 100%;
+}
+
 .logout-card {
   display: flex;
   flex-direction: column;
@@ -253,6 +257,10 @@ async function handleConfirmLogout() {
 }
 
 @media (min-width: 640px) {
+  .profile-edit__submit {
+    width: auto;
+  }
+
   .logout-card {
     flex-direction: row;
     align-items: center;

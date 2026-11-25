@@ -90,7 +90,7 @@ async function handleCompleteOnboarding() {
           {{ formError }}
         </p>
 
-        <AppButton type="submit" variant="primary" size="lg">
+        <AppButton type="submit" variant="primary" size="lg" class="onboarding-submit" :disabled="submitting">
           Mulai Belajar di Bimbiu
         </AppButton>
       </form>
@@ -179,5 +179,16 @@ async function handleCompleteOnboarding() {
   font-size: var(--text-caption);
   font-weight: 600;
   color: var(--feedback-review-fg);
+}
+
+.onboarding-submit {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .onboarding-submit {
+    width: auto;
+    align-self: flex-start;
+  }
 }
 </style>

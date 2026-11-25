@@ -51,13 +51,6 @@ function handleGoogleSignIn() {
           Bimbiu hanya menggunakan data akun seminimal mungkin untuk menyimpan progres belajarmu.
         </p>
       </div>
-
-      <div class="auth-card__footer">
-        <NuxtLink to="/" class="auth-card__link">
-          <AppIcon name="arrow-left" :size="18" />
-          <span>Kembali ke Halaman Utama</span>
-        </NuxtLink>
-      </div>
     </AppCard>
   </section>
 </template>
@@ -65,10 +58,17 @@ function handleGoogleSignIn() {
 <style scoped>
 .auth-page {
   min-height: calc(100dvh - 70px);
-  padding: var(--space-8) var(--space-4);
+  padding: var(--space-6) var(--space-4) var(--space-10);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+}
+
+@media (min-width: 640px) {
+  .auth-page {
+    padding: var(--space-8) var(--space-4);
+    align-items: center;
+  }
 }
 
 .auth-card {
@@ -152,32 +152,5 @@ function handleGoogleSignIn() {
 .auth-notice__body {
   font-size: var(--text-caption);
   color: var(--text-secondary);
-}
-
-.auth-card__footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: var(--space-3);
-}
-
-.auth-card__link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 12px;
-  border-radius: var(--radius-md);
-  font-size: var(--text-ui);
-  font-weight: 600;
-  color: var(--action-primary);
-  text-decoration: none;
-  transition: background-color var(--motion-fast), color var(--motion-fast);
-}
-
-.auth-card__link:hover {
-  background-color: var(--action-primary-tint);
-  color: var(--action-primary-hover);
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 </style>

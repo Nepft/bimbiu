@@ -53,14 +53,6 @@ const currentCategory = computed(() => {
 useHead({
   title: () => `${currentCategory.value.title} - Bimbiu`,
 })
-
-function formatLessonMeta(ls: CategoryDetailResponse['units'][number]['lessons'][number]): string {
-  const base = `~${ls.estimatedMinutes} menit · +${ls.xpReward} XP · ${ls.questionCount} soal`
-  if (ls.attemptsCount > 0) {
-    return `${base} · Skor terbaik: ${ls.bestScore}`
-  }
-  return base
-}
 </script>
 
 <template>
@@ -93,7 +85,11 @@ function formatLessonMeta(ls: CategoryDetailResponse['units'][number]['lessons']
           :lesson-number="`Pelajaran ${ls.order}`"
           :title="ls.title"
           :description="ls.description"
-          :meta="formatLessonMeta(ls)"
+          :estimated-minutes="ls.estimatedMinutes"
+          :xp-reward="ls.xpReward"
+          :question-count="ls.questionCount"
+          :best-score="ls.bestScore"
+          :attempts-count="ls.attemptsCount"
           :status="ls.status"
           :to="ls.status === 'locked' ? undefined : `/app/lesson/${ls.id}`"
         />

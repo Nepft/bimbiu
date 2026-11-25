@@ -155,7 +155,7 @@ function handleSubmit() {
       aria-label="Pilihan jawaban"
     >
       <button
-        v-for="opt in question.options"
+        v-for="(opt, idx) in question.options"
         :key="opt.id"
         type="button"
         role="radio"
@@ -165,7 +165,7 @@ function handleSubmit() {
         :class="{ 'quiz-option--selected': selectedOption === opt.id }"
         @click="selectedOption = opt.id"
       >
-        <span class="quiz-option__letter">{{ opt.letter }}</span>
+        <span class="quiz-option__letter">{{ opt.letter || String.fromCharCode(65 + idx) }}</span>
         <span class="quiz-option__text">{{ opt.text }}</span>
       </button>
     </div>
@@ -264,6 +264,7 @@ function handleSubmit() {
         v-if="!feedback"
         variant="primary"
         size="lg"
+        class="quiz-card__submit-btn"
         :disabled="!canSubmit"
         :loading="submitting"
         @click="handleSubmit"
@@ -274,6 +275,7 @@ function handleSubmit() {
         v-else
         variant="primary"
         size="lg"
+        class="quiz-card__submit-btn"
         @click="emit('next')"
       >
         {{ isLastQuestion ? 'Selesaikan Kuis' : 'Soal Berikutnya' }}
@@ -544,9 +546,17 @@ function handleSubmit() {
   padding-top: var(--space-1);
 }
 
+.quiz-card__submit-btn {
+  width: 100%;
+}
+
 @media (min-width: 640px) {
   .quiz-card__tf {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quiz-card__submit-btn {
+    width: auto;
   }
 }
 </style>

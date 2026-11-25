@@ -90,7 +90,7 @@ const dims = computed(() => {
     <polygon points="29,31 35,31 32,36" fill="#F2B632" />
   </svg>
 
-  <!-- Golden Trophy (72x72 viewBox) -->
+  <!-- Golden Trophy (72x72 duotone-monoline emblem) -->
   <svg
     v-else-if="name === 'trophy'"
     :width="dims.w"
@@ -99,14 +99,13 @@ const dims = computed(() => {
     fill="none"
     aria-hidden="true"
   >
-    <rect width="72" height="72" rx="14" fill="#172330" />
-    <circle cx="13.5" cy="15.5" r="1.5" fill="#FFFFFF" />
-    <circle cx="59" cy="18" r="2" fill="#F2B632" />
-    <circle cx="16.5" cy="55.5" r="1.5" fill="#F2B632" />
-    <path d="M22 21C22 19.3 23.3 18 25 18H47C48.7 18 50 19.3 50 21V28C50 34.6 44.6 40 38 40H34C27.4 40 22 34.6 22 28V21Z" fill="#F2B632" />
-    <rect x="33" y="40" width="6" height="10" fill="#F2B632" />
-    <rect x="24" y="50" width="24" height="6" rx="2" fill="#8C5E00" />
-    <polygon points="36,22 37.8,26 42,26.5 38.9,29.3 39.7,33.5 36,31.4 32.3,33.5 33.1,29.3 30,26.5 34.2,26" fill="#172330" />
+    <rect x="0.75" y="0.75" width="70.5" height="70.5" rx="19.25" fill="#FEF6E4" stroke="#F3D89B" stroke-width="1.5" />
+    <path d="M27.67 22.67H44.33V33.5C44.33 38.1 40.6 41.83 36 41.83C31.4 41.83 27.67 38.1 27.67 33.5V22.67Z" fill="#F2B632" fill-opacity="0.3" stroke="#824D00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M27.67 26H23.5C22.12 26 21 27.12 21 28.5V30.17C21 33.38 23.62 36 26.83 36H27.67" stroke="#824D00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M44.33 26H48.5C49.88 26 51 27.12 51 28.5V30.17C51 33.38 48.38 36 45.17 36H44.33" stroke="#824D00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M36 41.83V48.5" stroke="#824D00" stroke-width="2.4" stroke-linecap="round" />
+    <path d="M30.17 49.33H41.83" stroke="#824D00" stroke-width="2.4" stroke-linecap="round" />
+    <path d="M36 28.5L37 30.58L39.33 30.92L37.67 32.58L38.08 34.83L36 33.75L33.92 34.83L34.33 32.58L32.67 30.92L35 30.58L36 28.5Z" fill="#824D00" />
   </svg>
 
   <!-- Explorer Telescope (156x88) -->
@@ -321,7 +320,7 @@ const dims = computed(() => {
     <circle cx="29" cy="24" r="2" fill="#F2B632" />
   </svg>
 
-  <!-- Level Crest (40x40) -->
+  <!-- Level Crest (40x40 duotone-monoline squircle) -->
   <svg
     v-else-if="name === 'level-crest'"
     :width="dims.w"
@@ -330,59 +329,59 @@ const dims = computed(() => {
     fill="none"
     aria-hidden="true"
   >
-    <rect width="40" height="40" rx="10" fill="#172330" />
-    <circle cx="7" cy="8" r="1.3" fill="#FFFFFF" />
-    <polygon points="20,8 23.2,15.5 31.4,16.2 25.2,21.5 27.1,29.5 20,25.2 12.9,29.5 14.8,21.5 8.6,16.2 16.8,15.5" fill="#F2B632" />
+    <rect x="0.5" y="0.5" width="39" height="39" rx="10.5" fill="#EEF4FF" stroke="#C9DBFC" />
+    <path d="M20 10L27.5 13.2V19C27.5 23.85 24.3 27.95 20 29.3C15.7 27.95 12.5 23.85 12.5 19V13.2L20 10Z" fill="#2563EB" fill-opacity="0.14" stroke="#1E40AF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M17.2 19.8L20 17L22.8 19.8" stroke="#1E40AF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M17.2 23L20 20.2L22.8 23" stroke="#F2B632" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" />
   </svg>
 
-  <!-- Step Icons (36x36) -->
+  <!-- Step Icons (40x40 duotone-monoline squircles) -->
   <svg
     v-else-if="name === 'step-01'"
     :width="dims.w"
     :height="dims.h"
-    viewBox="0 0 36 36"
+    viewBox="0 0 40 40"
     fill="none"
     aria-hidden="true"
   >
-    <rect width="36" height="36" rx="10" fill="#E6F3EF" />
-    <circle cx="18" cy="18" r="11" fill="#0F6A5B" />
-    <polygon points="18,10 23,26 13,26" fill="#F2B632" />
+    <rect x="0.5" y="0.5" width="39" height="39" rx="10.5" fill="#ECFDF5" stroke="#BDE7D5" />
+    <circle cx="20" cy="20" r="8.25" fill="#0F6A5B" fill-opacity="0.14" stroke="#0F6A5B" stroke-width="1.8" />
+    <path d="M22.9 17.1L21.25 21.25L17.1 22.9L18.75 18.75L22.9 17.1Z" fill="#F2B632" stroke="#0F6A5B" stroke-width="1.4" stroke-linejoin="round" />
   </svg>
   <svg
     v-else-if="name === 'step-02'"
     :width="dims.w"
     :height="dims.h"
-    viewBox="0 0 36 36"
+    viewBox="0 0 40 40"
     fill="none"
     aria-hidden="true"
   >
-    <rect width="36" height="36" rx="10" fill="#1E4D8C" />
-    <rect x="8" y="7" width="20" height="22" rx="4" fill="#FFFFFF" />
-    <rect x="12" y="12" width="12" height="3" rx="1.5" fill="#1E4D8C" />
-    <rect x="12" y="18" width="8" height="3" rx="1.5" fill="#F2B632" />
+    <rect x="0.5" y="0.5" width="39" height="39" rx="10.5" fill="#EEF4FF" stroke="#C9DBFC" />
+    <rect x="12.5" y="11.5" width="15" height="17" rx="3" fill="#2563EB" fill-opacity="0.12" stroke="#1E40AF" stroke-width="1.8" />
+    <path d="M16.5 17H23.5M16.5 21H20.5" stroke="#1E40AF" stroke-width="1.8" stroke-linecap="round" />
+    <path d="M22.5 23L23.7 24.2L26 21.8" stroke="#F2B632" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
   </svg>
   <svg
     v-else-if="name === 'step-03'"
     :width="dims.w"
     :height="dims.h"
-    viewBox="0 0 36 36"
+    viewBox="0 0 40 40"
     fill="none"
     aria-hidden="true"
   >
-    <rect width="36" height="36" rx="10" fill="#FEF8E8" />
-    <circle cx="18" cy="15" r="8" fill="#F2B632" />
-    <rect x="14" y="23" width="8" height="5" rx="2" fill="#172330" />
+    <rect x="0.5" y="0.5" width="39" height="39" rx="10.5" fill="#FEF6E4" stroke="#F3D89B" />
+    <path d="M17.2 25.5H22.8M18.1 28H21.9M20 11.8C17.02 11.8 14.6 14.22 14.6 17.2C14.6 19.2 15.69 20.94 17.3 21.87V23.1C17.3 23.6 17.7 24 18.2 24H21.8C22.3 24 22.7 23.6 22.7 23.1V21.87C24.31 20.94 25.4 19.2 25.4 17.2C25.4 14.22 22.98 11.8 20 11.8Z" fill="#F2B632" fill-opacity="0.25" stroke="#9A5B00" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
   </svg>
   <svg
     v-else-if="name === 'step-04'"
     :width="dims.w"
     :height="dims.h"
-    viewBox="0 0 36 36"
+    viewBox="0 0 40 40"
     fill="none"
     aria-hidden="true"
   >
-    <rect width="36" height="36" rx="10" fill="#172330" />
-    <polygon points="18,7 21,14 28.5,14.8 22.8,19.8 24.5,27 18,23.2 11.5,27 13.2,19.8 7.5,14.8 15,14" fill="#F2B632" />
+    <rect x="0.5" y="0.5" width="39" height="39" rx="10.5" fill="#FEF6E4" stroke="#F3D89B" />
+    <path d="M20 11.8L22.35 16.55L27.6 17.32L23.8 21.02L24.7 26.25L20 23.78L15.3 26.25L16.2 21.02L12.4 17.32L17.65 16.55L20 11.8Z" fill="#F2B632" fill-opacity="0.32" stroke="#9A5B00" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
   </svg>
 
   <!-- 6 Category Icons (44x44) -->
@@ -522,7 +521,7 @@ const dims = computed(() => {
     <circle cx="22" cy="22" r="8" fill="#8C5E00" />
     <circle cx="22" cy="22" r="5" fill="#F2B632" />
   </svg>
-  <!-- 4 Gamification Icons (28x28) -->
+  <!-- 4 Gamification Icons (duotone-monoline squircles) -->
   <svg
     v-else-if="name === 'icon-badge'"
     :width="dims.w"
@@ -531,11 +530,10 @@ const dims = computed(() => {
     fill="none"
     aria-hidden="true"
   >
-    <rect width="28" height="28" rx="8" fill="#FEF8E8" />
-    <rect x="8" y="16" width="5" height="9" rx="1" transform="rotate(12 10.5 20.5)" fill="#0F6A5B" />
-    <rect x="15" y="16" width="5" height="9" rx="1" transform="rotate(-12 17.5 20.5)" fill="#0F6A5B" />
-    <circle cx="14" cy="11" r="8" fill="#F2B632" stroke="#8C5E00" stroke-width="1.5" />
-    <polygon points="14,7 15.2,9.8 18.2,10.1 16,12.1 16.6,15 14,13.4 11.4,15 12,12.1 9.8,10.1 12.8,9.8" fill="#172330" />
+    <rect x="0.5" y="0.5" width="27" height="27" rx="8.5" fill="#FEF6E4" stroke="#F3D89B" />
+    <circle cx="14" cy="11.5" r="4.8" fill="#F2B632" fill-opacity="0.28" stroke="#9A5B00" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M11.6 15.6L10.4 20.8L14 19L17.6 20.8L16.4 15.6" stroke="#0F6A5B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M14 9.6L14.6 10.8L15.9 11L14.95 11.9L15.2 13.2L14 12.6L12.8 13.2L13.05 11.9L12.1 11L13.4 10.8L14 9.6Z" fill="#9A5B00" />
   </svg>
   <svg
     v-else-if="name === 'icon-lesson'"
@@ -545,11 +543,10 @@ const dims = computed(() => {
     fill="none"
     aria-hidden="true"
   >
-    <rect width="28" height="28" rx="8" fill="#E6F3EF" />
-    <rect x="5" y="5" width="18" height="18" rx="3" fill="#0F6A5B" />
-    <rect x="7" y="7" width="6" height="14" rx="1" fill="#FFFFFF" />
-    <rect x="15" y="7" width="6" height="14" rx="1" fill="#FFFFFF" />
-    <rect x="16" y="5" width="3.5" height="9" rx="1" fill="#F2B632" />
+    <rect x="0.5" y="0.5" width="27" height="27" rx="8.5" fill="#ECFDF5" stroke="#BDE7D5" />
+    <path d="M6.5 9.1C6.5 8.45 7.05 7.9 7.7 7.9H11.4C12.85 7.9 14 9.05 14 10.5V20C14 18.95 13.15 18.1 12.1 18.1H7.7C7.05 18.1 6.5 17.55 6.5 16.9V9.1Z" fill="#0F6A5B" fill-opacity="0.14" stroke="#0F6A5B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M21.5 9.1C21.5 8.45 20.95 7.9 20.3 7.9H16.6C15.15 7.9 14 9.05 14 10.5V20C14 18.95 14.85 18.1 15.9 18.1H20.3C20.95 18.1 21.5 17.55 21.5 16.9V9.1Z" fill="#0F6A5B" fill-opacity="0.14" stroke="#0F6A5B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M17 7.9V12.8L18.3 11.8L19.6 12.8V7.9" stroke="#F2B632" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
   </svg>
   <svg
     v-else-if="name === 'icon-level'"
@@ -559,9 +556,10 @@ const dims = computed(() => {
     fill="none"
     aria-hidden="true"
   >
-    <rect width="28" height="28" rx="8" fill="#172330" />
-    <path d="M14 4L22 7V14C22 19 18.5 22.5 14 24.5C9.5 22.5 6 19 6 14V7L14 4Z" fill="#1E4D8C" stroke="#FAF7F0" stroke-width="1.5" />
-    <polygon points="14,9.5 15.3,12.5 18.5,12.8 16.1,14.9 16.8,18 14,16.3 11.2,18 11.9,14.9 9.5,12.8 12.7,12.5" fill="#F2B632" />
+    <rect x="0.5" y="0.5" width="27" height="27" rx="8.5" fill="#EEF4FF" stroke="#C9DBFC" />
+    <path d="M14 7L19.3 9.25V13.4C19.3 16.85 17.05 19.75 14 20.7C10.95 19.75 8.7 16.85 8.7 13.4V9.25L14 7Z" fill="#2563EB" fill-opacity="0.14" stroke="#1E40AF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M12.1 13.9L14 12L15.9 13.9" stroke="#1E40AF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M12.1 16.2L14 14.3L15.9 16.2" stroke="#F2B632" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
   </svg>
   <svg
     v-else-if="name === 'icon-xp'"
@@ -571,8 +569,8 @@ const dims = computed(() => {
     fill="none"
     aria-hidden="true"
   >
-    <rect width="28" height="28" rx="8" fill="#172330" />
-    <path d="M15 4L8 15H13.5L12 24L20 12.5H14.5L15 4Z" fill="#F2B632" stroke="#8C5E00" stroke-width="1" stroke-linejoin="round" />
+    <rect x="0.5" y="0.5" width="27" height="27" rx="8.5" fill="#FEF6E4" stroke="#F3D89B" />
+    <path d="M14.75 6.8L8.4 15H13.6L12.85 21.2L19.6 13H14.4L14.75 6.8Z" fill="#F2B632" fill-opacity="0.35" stroke="#9A5B00" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
   </svg>
   <svg
     v-else-if="name.startsWith('badge-')"
