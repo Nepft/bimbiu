@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">bimbiu</string>
+    <string name="title_activity_main">bimbiu</string>
+    <string name="package_name">bimbiu.vercel.app</string>
+    <string name="custom_url_scheme">bimbiu.vercel.app</string>
+</resources>

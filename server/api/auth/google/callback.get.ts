@@ -1,6 +1,7 @@
 import { getCookie, getQuery, sendRedirect } from 'h3'
 import {
   authService,
+  createAppAuthCode,
   exchangeGoogleCodeForIdentity,
   verifyOAuthStateCookieValue,
 } from '../../../services/auth.service'
@@ -19,18 +20,33 @@ export default defineEventHandler(async (event) => {
   const signedStateCookie = getCookie(event, OAUTH_STATE_COOKIE_NAME)
   clearOAuthStateCookie(event)
 
+  const verifiedState = verifyOAuthStateCookieValue(signedStateCookie, state)
+  const isNativeApp = verifiedState?.platform === 'app'
+
   if (oauthError) {
     const errorCode = oauthError === 'access_denied' ? 'cancelled' : 'failed'
-    return sendRedirect(event, `/auth/login?error=${errorCode}`, 302)
+    const errorUrl = isNativeApp
+      ? `bimbiu://auth-callback?error=${errorCode}`
+      : `/auth/login?error=${errorCode}`
+    return sendRedirect(event, errorUrl, 302)
   }
 
-  const verifiedState = verifyOAuthStateCookieValue(signedStateCookie, state)
   if (!verifiedState || !code) {
     return sendRedirect(event, '/auth/login?error=failed', 302)
   }
 
   try {
     const identity = await exchangeGoogleCodeForIdentity(code, verifiedState.codeVerifier)
+
+    if (isNativeApp) {
+      const user = await authService.findOrCreateGoogleUser(
+        identity.googleSub,
+        identity.givenName,
+      )
+      const appCode = createAppAuthCode(user.id)
+      return sendRedirect(event, `bimbiu://auth-callback?code=${encodeURIComponent(appCode)}`, 302)
+    }
+
     const session = await authService.loginWithGoogleIdentity(
       identity.googleSub,
       identity.givenName,
@@ -42,6 +58,9 @@ export default defineEventHandler(async (event) => {
     return sendRedirect(event, destination, 302)
   } catch (error) {
     console.error('[auth/google/callback] OAuth callback failed:', error)
-    return sendRedirect(event, '/auth/login?error=failed', 302)
+    const errorUrl = isNativeApp
+      ? 'bimbiu://auth-callback?error=failed'
+      : '/auth/login?error=failed'
+    return sendRedirect(event, errorUrl, 302)
   }
 })

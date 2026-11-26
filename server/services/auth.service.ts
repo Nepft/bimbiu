@@ -91,7 +91,9 @@ export function toLearnerProfileDto(user: UserRecord): LearnerProfileDto {
   }
 }
 
-export function createOAuthStateCookieValue(): {
+export type OAuthPlatform = 'web' | 'app'
+
+export function createOAuthStateCookieValue(platform: OAuthPlatform = 'web'): {
   signedCookie: string
   state: string
   codeChallenge: string
@@ -105,6 +107,7 @@ export function createOAuthStateCookieValue(): {
     JSON.stringify({
       state,
       codeVerifier,
+      platform,
       exp: Date.now() + 10 * 60 * 1000,
     }),
     'utf8',
@@ -120,7 +123,7 @@ export function createOAuthStateCookieValue(): {
 export function verifyOAuthStateCookieValue(
   signedCookie: string | undefined,
   returnedState: string | undefined,
-): { codeVerifier: string } | null {
+): { codeVerifier: string; platform: OAuthPlatform } | null {
   if (!signedCookie || !returnedState) return null
   const pepper = getSessionPepper()
   const payloadB64 = verifySignedPayload(signedCookie, pepper)
@@ -130,6 +133,7 @@ export function verifyOAuthStateCookieValue(
     const parsed = JSON.parse(Buffer.from(payloadB64, 'base64url').toString('utf8')) as {
       state?: string
       codeVerifier?: string
+      platform?: OAuthPlatform
       exp?: number
     }
     if (
@@ -141,7 +145,43 @@ export function verifyOAuthStateCookieValue(
     ) {
       return null
     }
-    return { codeVerifier: parsed.codeVerifier }
+    return {
+      codeVerifier: parsed.codeVerifier,
+      platform: parsed.platform === 'app' ? 'app' : 'web',
+    }
+  } catch {
+    return null
+  }
+}
+
+export function createAppAuthCode(userId: string): string {
+  const pepper = getSessionPepper()
+  const payload = Buffer.from(
+    JSON.stringify({
+      userId,
+      nonce: generateRandomToken(16),
+      exp: Date.now() + 2 * 60 * 1000,
+    }),
+    'utf8',
+  ).toString('base64url')
+  return signPayload(payload, pepper)
+}
+
+export function verifyAppAuthCode(code: string | undefined): string | null {
+  if (!code) return null
+  const pepper = getSessionPepper()
+  const payloadB64 = verifySignedPayload(code, pepper)
+  if (!payloadB64) return null
+
+  try {
+    const parsed = JSON.parse(Buffer.from(payloadB64, 'base64url').toString('utf8')) as {
+      userId?: string
+      exp?: number
+    }
+    if (!parsed.userId || typeof parsed.exp !== 'number' || parsed.exp < Date.now()) {
+      return null
+    }
+    return parsed.userId
   } catch {
     return null
   }
@@ -223,13 +263,22 @@ export async function exchangeGoogleCodeForIdentity(
 }
 
 export const authService = {
-  async loginWithGoogleIdentity(googleSub: string, defaultDisplayName: string) {
+  async findOrCreateGoogleUser(googleSub: string, defaultDisplayName: string) {
     let user = await userRepository.findByGoogleSub(googleSub)
     if (!user) {
       user = await userRepository.createFromGoogle(googleSub, defaultDisplayName)
     }
 
     if (user.status !== 'active') {
+      throw new Error('Account is not active')
+    }
+
+    return toLearnerProfileDto(user)
+  },
+
+  async createSessionForUserId(userId: string) {
+    const user = await userRepository.findById(userId)
+    if (!user || user.status !== 'active') {
       throw new Error('Account is not active')
     }
 
@@ -248,6 +297,11 @@ export const authService = {
       expiresAt,
       user: toLearnerProfileDto(user),
     }
+  },
+
+  async loginWithGoogleIdentity(googleSub: string, defaultDisplayName: string) {
+    const profile = await this.findOrCreateGoogleUser(googleSub, defaultDisplayName)
+    return this.createSessionForUserId(profile.id)
   },
 
   async resolveSession(rawToken: string | undefined): Promise<{

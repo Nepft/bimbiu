@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import { Browser } from '@capacitor/browser'
+import { Capacitor } from '@capacitor/core'
+
 useHead({
   title: 'Masuk ke Bimbiu',
 })
@@ -7,8 +10,13 @@ const route = useRoute()
 
 const hasAuthError = computed(() => route.query.error === 'cancelled' || route.query.error === 'failed')
 
-function handleGoogleSignIn() {
-  navigateTo('/api/auth/google', { external: true })
+async function handleGoogleSignIn() {
+  if (Capacitor.isNativePlatform()) {
+    const authUrl = new URL('/api/auth/google?platform=app', window.location.origin).toString()
+    await Browser.open({ url: authUrl })
+    return
+  }
+  await navigateTo('/api/auth/google', { external: true })
 }
 </script>
 
