@@ -7,9 +7,11 @@ export default defineNuxtPlugin(() => {
 
   const router = useRouter()
   const { fetchMe } = useAuth()
+  let lastHandledUrl = ''
 
-  App.addListener('appUrlOpen', async ({ url }) => {
-    if (!url.startsWith('bimbiu://auth-callback')) return
+  async function handleAuthCallback(url: string) {
+    if (!url.startsWith('bimbiu://auth-callback') || url === lastHandledUrl) return
+    lastHandledUrl = url
 
     await Browser.close().catch(() => {})
 
@@ -28,10 +30,26 @@ export default defineNuxtPlugin(() => {
         body: { code },
       })
 
-      await fetchMe()
+      // Force refresh so the cached `loaded` state from `/auth/login` is bypassed.
+      const user = await fetchMe(true)
+      if (!user) {
+        await router.replace('/auth/login?error=failed')
+        return
+      }
+
       await router.replace(res.redirectTo || '/app')
     } catch {
       await router.replace('/auth/login?error=failed')
+    }
+  }
+
+  App.addListener('appUrlOpen', ({ url }) => {
+    void handleAuthCallback(url)
+  })
+
+  void App.getLaunchUrl().then((launch) => {
+    if (launch?.url) {
+      void handleAuthCallback(launch.url)
     }
   })
 })
