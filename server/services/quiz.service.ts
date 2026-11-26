@@ -11,7 +11,7 @@ import {
 } from '../database/schema'
 import { loadContentStore } from '../repositories/content.repository'
 import { learningRepository } from '../repositories/learning.repository'
-import { sanitizeLessonForClient } from './content.service'
+import { sanitizeLessonForClient, shuffleWithSeed } from './content.service'
 import {
   calculateLevelInfo,
   evaluateQuestionAnswer,
@@ -96,7 +96,7 @@ export const quizService = {
         totalQuestions: lesson.questions.length,
         answeredQuestionIds: [] as string[],
       },
-      lesson: sanitizeLessonForClient(lesson),
+      lesson: sanitizeLessonForClient(lesson, attemptId),
     }
   },
 
@@ -133,7 +133,7 @@ export const quizService = {
         totalQuestions: attempt.totalQuestions,
         answeredQuestionIds: answers.map(a => a.questionId),
       },
-      lesson: sanitizeLessonForClient(lesson),
+      lesson: sanitizeLessonForClient(lesson, attempt.id),
     }
   },
 
@@ -467,6 +467,12 @@ export const quizService = {
         correctAnswerLabel: snap.correctAnswerLabel ?? '',
       }
     })
+
+    if (lesson) {
+      const ordered = shuffleWithSeed(lesson.questions, `${attempt.id}:questions`)
+      const orderIndex = new Map(ordered.map((q, idx) => [q.id, idx]))
+      reviewItems.sort((a, b) => (orderIndex.get(a.questionId) ?? 0) - (orderIndex.get(b.questionId) ?? 0))
+    }
 
     return {
       attempt: {
