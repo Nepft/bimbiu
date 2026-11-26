@@ -29,6 +29,8 @@ const xpToNextLevel = computed(() => rewards.value?.xpToNextLevel ?? 100)
 
 const coreBadges = computed(() => (rewards.value?.badges ?? []).slice(0, 4))
 const newBadges = computed(() => (rewards.value?.badges ?? []).slice(4))
+const coreEarnedCount = computed(() => coreBadges.value.filter(b => b.earned).length)
+const newEarnedCount = computed(() => newBadges.value.filter(b => b.earned).length)
 
 function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
   if (!b.earned) return 'Belum terbuka'
@@ -56,13 +58,18 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
     <section class="xp-card">
       <div class="xp-card__top">
         <div class="xp-card__level-wrap">
-          <BimbiuIllustration name="level-crest" :size="40" />
-          <h2 class="xp-card__level tabular-nums">
-            Level {{ level }} · {{ totalXp }} XP
-          </h2>
+          <BimbiuIllustration name="level-crest" :size="44" />
+          <div class="xp-card__level-copy">
+            <h2 class="xp-card__level tabular-nums">
+              Level {{ level }}
+            </h2>
+            <span class="xp-card__xp-pill tabular-nums">
+              {{ totalXp }} XP Total
+            </span>
+          </div>
         </div>
         <span class="xp-card__next tabular-nums">
-          {{ xpToNextLevel }} XP lagi menuju Level {{ level + 1 }} ({{ totalXp }} / {{ nextLevelXp }} XP)
+          {{ xpToNextLevel }} XP lagi ke Level {{ level + 1 }} ({{ totalXp }} / {{ nextLevelXp }})
         </span>
       </div>
       <ProgressBar :value="totalXp % 100" :max="100" tone="accent" :label="`Progres XP menuju Level ${level + 1}`" />
@@ -73,9 +80,14 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
     </section>
 
     <section class="badges-section">
-      <h2 class="badges-section__title">
-        Koleksi Badge
-      </h2>
+      <div class="badges-section__header">
+        <h2 class="badges-section__title">
+          Koleksi Badge
+        </h2>
+        <span class="badges-section__count tabular-nums">
+          {{ coreEarnedCount }} / {{ coreBadges.length }} Diraih
+        </span>
+      </div>
       <div class="badges-grid">
         <article
           v-for="b in coreBadges"
@@ -86,6 +98,7 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
           <div class="badge-card__top">
             <BimbiuIllustration :name="(b.icon as IllustrationName)" :size="44" />
             <StatusBadge v-if="b.earned" label="Diraih" tone="accent" />
+            <span v-else class="badge-card__locked-pill">Terkunci</span>
           </div>
           <h3 class="badge-card__title">
             {{ b.name }}
@@ -101,9 +114,14 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
     </section>
 
     <section v-if="newBadges.length" class="badges-section">
-      <h2 class="badges-section__title">
-        Koleksi Badge Baru
-      </h2>
+      <div class="badges-section__header">
+        <h2 class="badges-section__title">
+          Badge Tantangan
+        </h2>
+        <span class="badges-section__count tabular-nums">
+          {{ newEarnedCount }} / {{ newBadges.length }} Diraih
+        </span>
+      </div>
       <div class="badges-grid badges-grid--3col">
         <article
           v-for="b in newBadges"
@@ -114,6 +132,7 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
           <div class="badge-card__top">
             <BimbiuIllustration :name="(b.icon as IllustrationName)" :size="44" />
             <StatusBadge v-if="b.earned" label="Diraih" tone="accent" />
+            <span v-else class="badge-card__locked-pill">Terkunci</span>
           </div>
           <h3 class="badge-card__title">
             {{ b.name }}
@@ -176,8 +195,27 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
   gap: var(--space-3);
 }
 
+.xp-card__level-copy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
 .xp-card__level {
   font-size: var(--text-h2);
+}
+
+.xp-card__xp-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background-color: var(--bg-surface);
+  border: 1.5px solid var(--action-accent-border);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--feedback-hint-fg);
 }
 
 .xp-card__next {
@@ -200,8 +238,27 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
   gap: var(--space-4);
 }
 
+.badges-section__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
 .badges-section__title {
   font-size: var(--text-h2);
+}
+
+.badges-section__count {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background-color: var(--bg-surface);
+  border: 1.5px solid var(--border-subtle);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
 }
 
 .badges-grid {
@@ -212,15 +269,17 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
 
 .badge-card {
   padding: var(--space-5);
-  background-color: var(--bg-surface-subtle);
+  background-color: var(--bg-surface);
   border: 1.5px solid var(--border-subtle);
-  border-radius: var(--radius-lg);
+  border-radius: 16px;
+  opacity: 0.7;
   display: flex;
   flex-direction: column;
   gap: var(--space-3);
 }
 
 .badge-card--earned {
+  opacity: 1;
   background-color: var(--bg-surface);
   border: 2px solid var(--action-accent-border);
   box-shadow: 0 2px 0 var(--action-accent-border);
@@ -230,6 +289,19 @@ function formatBadgeStatus(b: RewardsResponse['badges'][number]): string {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.badge-card__locked-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background-color: var(--bg-canvas);
+  border: 1px solid var(--border-subtle);
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--text-secondary);
 }
 
 .badge-card__medal {

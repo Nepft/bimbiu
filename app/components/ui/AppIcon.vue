@@ -59,8 +59,8 @@ withDefaults(defineProps<Props>(), {
       <path d="M6 4.5L15.5 10L6 15.5Z" />
     </template>
     <template v-else-if="name === 'refresh'">
-      <path d="M15.6 8A6 6 0 1 0 14.5 14" />
-      <path d="M4 5V9.5H8.5" />
+      <path d="M16.5 10A6.5 6.5 0 1 1 14.6 5.4L16.5 7.2" />
+      <path d="M16.5 3.5V7.2H12.8" />
     </template>
     <template v-else-if="name === 'check-circle'">
       <circle cx="10" cy="10" r="7.5" />

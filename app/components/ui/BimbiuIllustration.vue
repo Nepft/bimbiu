@@ -580,72 +580,143 @@ const dims = computed(() => {
     fill="none"
     aria-hidden="true"
   >
-    <rect width="44" height="44" rx="12" fill="#172330" />
-    <circle
-      cx="22"
-      cy="22"
-      r="15"
+    <rect
+      x="0.75"
+      y="0.75"
+      width="42.5"
+      height="42.5"
+      rx="11.25"
       :fill="
-        name.endsWith('-gold') ? '#F2B632'
-        : name.endsWith('-coral') ? '#C94A4A'
-        : name.endsWith('-sky') ? '#3A94D6'
-        : name.endsWith('-amber') ? '#8C5E00'
-        : name.endsWith('-blue') ? '#1E4D8C'
-        : '#219E8A'
+        name.endsWith('-gold') || name.endsWith('-amber') ? '#FEF6E4'
+        : name.endsWith('-coral') ? '#FDF0EE'
+        : name.endsWith('-sky') || name.endsWith('-blue') ? '#EEF4FF'
+        : '#ECFDF5'
       "
-      fill-opacity="0.22"
+      :stroke="
+        name.endsWith('-gold') || name.endsWith('-amber') ? '#F3D89B'
+        : name.endsWith('-coral') ? '#F4C7C1'
+        : name.endsWith('-sky') || name.endsWith('-blue') ? '#C9DBFC'
+        : '#BDE7D5'
+      "
+      stroke-width="1.5"
     />
-    <polygon
+    <!-- Star badge -->
+    <path
       v-if="name.startsWith('badge-star-')"
-      points="22,10 25,18.5 34,22 25,25.5 22,34 19,25.5 10,22 19,18.5"
-      :fill="name.endsWith('-gold') ? '#F2B632' : name.endsWith('-coral') ? '#C94A4A' : '#219E8A'"
+      d="M22 10.5L25.2 17.5L32.8 18.4L27.2 23.6L28.7 31.2L22 27.4L15.3 31.2L16.8 23.6L11.2 18.4L18.8 17.5L22 10.5Z"
+      :fill="name.endsWith('-gold') ? '#F2B632' : name.endsWith('-coral') ? '#C94A4A' : '#0F6A5B'"
+      fill-opacity="0.22"
+      :stroke="name.endsWith('-gold') ? '#9A5B00' : name.endsWith('-coral') ? '#B43625' : '#0F6A5B'"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     />
-    <polygon
+    <!-- Crown badge -->
+    <path
       v-else-if="name.startsWith('badge-crown-')"
-      points="22,10 25,18 33,18.5 27,23.5 29,31.5 22,27 15,31.5 17,23.5 11,18.5 19,18"
+      d="M11.5 29.5H32.5M12 25.5L10.5 15.5L16.8 20L22 13L27.2 20L33.5 15.5L32 25.5H12Z"
       :fill="name.endsWith('-coral') ? '#C94A4A' : '#F2B632'"
+      fill-opacity="0.24"
+      :stroke="name.endsWith('-coral') ? '#B43625' : '#9A5B00'"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     />
-    <polygon
-      v-else-if="name.startsWith('badge-gem-')"
-      points="22,11 31,16.5 31,27.5 22,33 13,27.5 13,16.5"
-      fill="#F2B632"
-    />
-    <polygon
-      v-else-if="name.startsWith('badge-tri-')"
-      points="22,12 32,30 12,30"
-      :fill="name.endsWith('-blue') ? '#1E4D8C' : '#219E8A'"
-    />
-    <template v-else-if="name.startsWith('badge-rect-')">
+    <!-- Gem badge -->
+    <g v-else-if="name.startsWith('badge-gem-')">
+      <polygon
+        points="16,13 28,13 33,19.5 22,32 11,19.5"
+        fill="#F2B632"
+        fill-opacity="0.25"
+        stroke="#9A5B00"
+        stroke-width="2"
+        stroke-linejoin="round"
+      />
+      <path d="M11 19.5H33M16 13L18.5 19.5L22 32L25.5 19.5L28 13" stroke="#9A5B00" stroke-width="1.6" stroke-linejoin="round" />
+    </g>
+    <!-- Peak / Triangle badge -->
+    <g v-else-if="name.startsWith('badge-tri-')">
+      <path
+        d="M22 11.5L32.5 30.5H11.5L22 11.5Z"
+        :fill="name.endsWith('-blue') ? '#2563EB' : '#0F6A5B'"
+        fill-opacity="0.16"
+        :stroke="name.endsWith('-blue') ? '#1E40AF' : '#0F6A5B'"
+        stroke-width="2"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M18.2 19L22 16.5L25.8 19"
+        :stroke="name.endsWith('-blue') ? '#1E40AF' : '#F2B632'"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+    <!-- Scroll / Plaque badge -->
+    <g v-else-if="name.startsWith('badge-rect-')">
       <rect
-        x="13"
-        y="12"
-        width="18"
-        height="20"
-        rx="4"
+        x="13.5"
+        y="11.5"
+        width="17"
+        height="21"
+        rx="3.5"
         :fill="
-          name.endsWith('-gold') ? '#F2B632'
+          name.endsWith('-gold') || name.endsWith('-amber') ? '#F2B632'
           : name.endsWith('-coral') ? '#C94A4A'
-          : name.endsWith('-amber') ? '#8C5E00'
           : '#0F6A5B'
         "
+        fill-opacity="0.18"
+        :stroke="
+          name.endsWith('-gold') || name.endsWith('-amber') ? '#9A5B00'
+          : name.endsWith('-coral') ? '#B43625'
+          : '#0F6A5B'
+        "
+        stroke-width="2"
       />
-      <rect x="19" y="16" width="6" height="12" rx="2" fill="#FAF7F0" />
-    </template>
-    <template v-else>
+      <path
+        d="M18 17.5H26M18 22H26M18 26.5H23"
+        :stroke="
+          name.endsWith('-gold') || name.endsWith('-amber') ? '#9A5B00'
+          : name.endsWith('-coral') ? '#B43625'
+          : '#0F6A5B'
+        "
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+    </g>
+    <!-- Circle / Target Medal badge -->
+    <g v-else>
       <circle
         cx="22"
         cy="22"
         r="10"
         :fill="
           name.endsWith('-coral') ? '#C94A4A'
-          : name.endsWith('-sky') ? '#3A94D6'
-          : name.endsWith('-blue') ? '#1E4D8C'
+          : name.endsWith('-sky') || name.endsWith('-blue') ? '#2563EB'
           : name.endsWith('-gold') ? '#F2B632'
-          : '#219E8A'
+          : '#0F6A5B'
+        "
+        fill-opacity="0.16"
+        :stroke="
+          name.endsWith('-coral') ? '#B43625'
+          : name.endsWith('-sky') || name.endsWith('-blue') ? '#1E40AF'
+          : name.endsWith('-gold') ? '#9A5B00'
+          : '#0F6A5B'
+        "
+        stroke-width="2"
+      />
+      <circle
+        cx="22"
+        cy="22"
+        r="4"
+        :fill="
+          name.endsWith('-coral') ? '#B43625'
+          : name.endsWith('-sky') || name.endsWith('-blue') ? '#1E40AF'
+          : name.endsWith('-gold') ? '#9A5B00'
+          : '#0F6A5B'
         "
       />
-      <rect x="18" y="18" width="8" height="8" rx="2" fill="#FAF7F0" />
-    </template>
+    </g>
   </svg>
   <svg
     v-else
